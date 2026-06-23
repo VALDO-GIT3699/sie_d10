@@ -1,0 +1,516 @@
+row,clave_programa,programa_educativo,nivel_educativo,campo_clasificacion
+1,BGAI,Bachillerato General por Áreas Interdisciplinarias,Bachillerato General,
+2,BGC,Bachillerato General por Competencias,Bachillerato General,
+3,2021300033,Música,Bachillerato General,021300
+4,2051200001,Biotecnología,Bachillerato Tecnológico,051200
+5,2062100003,Telecomunicaciones,Bachillerato Tecnológico,062100
+6,2062200007,Informática,Bachillerato Tecnológico,062200
+7,2062200013,Sistemas Informáticos,Bachillerato Tecnológico,062200
+8,2071100002,Mecánica Industrial,Bachillerato Tecnológico,071100
+9,2071200002,Electricidad Industrial,Bachillerato Tecnológico,071200
+10,2071200011,Energías Alternas,Bachillerato Tecnológico,071200
+11,2071400001,Química Industrial,Bachillerato Tecnológico,071400
+12,2071400003,Procesos Químicos Industriales,Bachillerato Tecnológico,071400
+13,2072000001,Procesos de Manufactura Competitiva,Bachillerato Tecnológico,072000
+14,2072100002,Químico en Análisis y Procesos de Alimentos,Bachillerato Tecnológico,072100
+15,2072300001,Plásticos,Bachillerato Tecnológico,072300
+16,2072400001,Metalurgia,Bachillerato Tecnológico,072400
+17,2072400002,Fundición,Bachillerato Tecnológico,072400
+18,2072400003,Metalurgia y Fundición,Bachillerato Tecnológico,072400
+19,2081100001,Agropecuario,Profesional Medio,081100
+20,2092100004,Enfermería,Bachillerato Tecnológico,092100
+21,2101500001,Alimentos,Bachillerato Tecnológico,101500
+22,3021600008,Diseño y Confección de Prendas de Vestir y Artesanías,Bachillerato Tecnológico,021600
+23,3021600010,Bachillerato Intercultural Tecnológico en Diseño y Confección de prendas de vestir y Artesanias,Bachillerato Tecnológico,021600
+24,3021700001,Cerámica,Bachillerato Tecnológico,021700
+25,3041100005,Tramitación Aduanal,Bachillerato Tecnológico,041100
+26,3042000001,Administración,Bachillerato Tecnológico,042000
+27,3042100001,Administración de Empresas,Bachillerato Tecnológico,042100
+28,3042100026,Administración de Pequeños y Medianos Negocios,Bachillerato Tecnológico,042100
+29,3061300004,Desarrollo de Software,Bachillerato Tecnológico,061300
+30,3071700002,Control de Calidad,Bachillerato Tecnológico,071700
+31,3073200001,Construcción,Bachillerato Tecnológico,073200
+32,3081100003,Agropecuario,Bachillerato Tecnológico,081100
+33,3081100019,Agropecuario y Forestal,Bachillerato Tecnológico,081100
+34,3081100024,Bachillerato Intercultural Tecnológico Agropecuario y Forestal,Profesional Medio,081100
+35,3093100005,Prótesis Dental,Bachillerato Tecnológico,093100
+36,3095300007,Citología e Histología,Bachillerato Tecnológico,095300
+37,3101600003,Turismo,Bachillerato General,101600
+38,4021500005,Técnico Superior Universitario en Multimedia,Técnico Superior Universitario,021500
+39,4062100001,Técnico Superior Universitario en Administración de Redes de Cómputo,Técnico Superior Universitario,062100
+40,4062100003,Técnico Superior Universitario en Redes de Cómputo,Técnico Superior Universitario,062100
+41,4062100004,Técnico Superior Universitario en Redes y Telecomunicaciones,Técnico Superior Universitario,062100
+42,4071300015,Técnico Superior Universitario en Electrónica,Técnico Superior Universitario,071300
+43,4071500002,Técnico Superior Universitario en Electrónica y Mecánica Automotriz,Técnico Superior Universitario,071500
+44,4093100005,Técnico Superior Universitario en Prótesis Dental,Técnico Superior Universitario,093100
+45,4094100005,Técnico Superior Universitario en Terapia Física,Técnico Superior Universitario,094100
+46,4094100010,Técnico Superior Universitario en Terapia Respiratoria,Técnico Superior Universitario,094100
+47,4095300010,Técnico Superior Universitario en Radiología e Imagen,Técnico Superior Universitario,095300
+48,4101600010,Técnico Superior Universitario en Servicios Turísticos,Técnico Superior Universitario,101600
+49,4101600012,Técnico Superior Universitario en Turismo Alternativo,Técnico Superior Universitario,101600
+50,4103100001,"Técnico Superior Universitario en Emergencias, Seguridad Laboral y Rescates",Técnico Superior Universitario,103100
+51,5011100022,Licenciatura en Educación Indígena,Licenciatura,011100
+52,5011200004,Licenciatura en Desarrollo Educativo,Licenciatura,011200
+53,5011500002,Licenciatura en Educación,Licenciatura,011500
+54,5012603011,Licenciatura en Didáctica del Francés como Lengua Extranjera,Licenciatura,012603
+55,5012603027,Licenciatura en Docencia del Inglés como Lengua Extranjera,Licenciatura,012603
+56,5021000002,Licenciatura en Artes,Licenciatura,021000
+57,5021000007,Licenciatura en Gestión Cultural,Licenciatura,021000
+58,5021000010,Licenciatura en Historia del Arte,Licenciatura,021000
+59,5021000110,"Licenciatura en Diseño, Arte y Tecnologías Interactivas",Licenciatura,021000
+60,5021000114,Licenciatura en Artes Visuales para la Expresión Fotográfica,Licenciatura,021000
+61,5021100004,Licenciatura en Artes Visuales,Licenciatura,021100
+62,5021200006,Licenciatura en Artes Escénicas,Licenciatura,021200
+63,5021200054,Licenciatura en Artes Escénicas para la Expresión Dancística,Licenciatura,021200
+64,5021200055,Licenciatura en Artes Escénicas para la Expresión Teatral,Licenciatura,021200
+65,5021300063,Licenciatura en Música,Licenciatura,021300
+66,5021400012,Licenciatura en Artes Audiovisuales,Licenciatura,021400
+67,5021500002,Ingeniería en Comunicación Multimedia,Licenciatura,021500
+68,5021500044,Licenciatura en Diseño para la Comunicación Gráfica,Licenciatura,021500
+69,5021500119,Licenciatura en Escritura Creativa,Licenciatura,021500
+70,5021600017,Licenciatura en Diseño de Interiores y Ambientación,Licenciatura,021600
+71,5021600024,Licenciatura en Diseño de Modas,Licenciatura,021600
+72,5021600062,Licenciatura en Diseño de Artesanía,Licenciatura,021600
+73,5021700002,Licenciatura en Artes Visuales para la Expresión Plástica,Licenciatura,021700
+74,5022000001,Licenciatura en Humanidades,Licenciatura,022000
+75,5022200040,Licenciatura en Lenguas y Culturas Extranjeras,Licenciatura,022200
+76,5022300022,Licenciatura en Letras Hispánicas,Licenciatura,022300
+77,5022500001,Licenciatura en Estudios Liberales,Licenciatura,022500
+78,5022500008,Licenciatura en Historia,Licenciatura,022500
+79,5022600002,Licenciatura en Filosofía,Licenciatura,022600
+80,5031100007,Licenciatura en Psicología,Licenciatura,031100
+81,5031200004,Licenciatura en Antropología,Licenciatura,031200
+82,5031200031,Licenciatura en Sociología,Licenciatura,031200
+83,5031300010,Licenciatura en Estudios Políticos y Gobierno,Licenciatura,031300
+84,5031300014,Licenciatura en Relaciones Internacionales,Licenciatura,031300
+85,5031300044,Licenciatura en Construcción de la Paz y Seguridad,Licenciatura,031300
+86,5031400003,Licenciatura en Economía,Licenciatura,031400
+87,5031500008,Licenciatura en Gerontología,Licenciatura,031500
+88,5031500010,Licenciatura en Trabajo Social,Licenciatura,031500
+89,5032100001,Licenciatura en Periodismo Digital,Licenciatura,032100
+90,5032100027,Licenciatura en Comunicación Pública,Licenciatura,032100
+91,5032100038,Licenciatura en Periodismo,Licenciatura,032100
+92,5032100065,Licenciatura en Relaciones Públicas y Comunicación,Licenciatura,032100
+93,5032200003,Licenciatura en Bibliotecología,Licenciatura,032200
+94,5032200012,Licenciatura en Bibliotecología y Gestión del Conocimiento,Licenciatura,032200
+95,5033100003,Abogado,Licenciatura,033100
+96,5033200006,Licenciatura en Criminología,Licenciatura,033200
+97,5033200024,Licenciatura en Ciencias Forenses,Licenciatura,033200
+98,5041100007,Ingeniería de Procesos y Comercio Internacional,Licenciatura,041100
+99,5041100009,Ingeniería en Negocios,Licenciatura,041100
+100,5041100021,Licenciatura en Agronegocios,Licenciatura,041100
+101,5041100056,Licenciatura en Negocios Internacionales,Licenciatura,041100
+102,5041100127,Licenciatura en Gestión de Negocios Gastronómicos,Licenciatura,041100
+103,5041200028,Licenciatura en Mercadotecnia,Licenciatura,041200
+104,5041200075,Licenciatura en Mercadotecnia Digital,Licenciatura,041200
+105,5041300007,Licenciatura en Administración Financiera y Sistemas,Licenciatura,041300
+106,5041400032,Licenciatura en Contaduría Pública,Licenciatura,041400
+107,5042000002,Licenciatura en Administración,Licenciatura,042000
+108,5042100012,Licenciatura en Administración de Negocios,Licenciatura,042100
+109,5042100065,Licenciatura en Administración de las Organizaciones,Licenciatura,042100
+110,5042100092,Licenciatura en Administración y Gestión Empresarial,Licenciatura,042100
+111,5042100117,Licenciatura en Recursos Humanos,Licenciatura,042100
+112,5042200024,Licenciatura en Desarrollo Turístico Sustentable,Licenciatura,042200
+113,5042300027,Licenciatura en Administración Gubernamental y Políticas Públicas,Licenciatura,042300
+114,5042400005,Ingeniería en Administración Industrial,Licenciatura,042400
+115,5051100003,Licenciatura en Biología,Licenciatura,051100
+116,5051100006,Licenciatura en Biología Marina,Licenciatura,051100
+117,5051100015,Ingeniería en Sistemas Biológicos,Licenciatura,051100
+118,5051200024,Ingeniería en Biotecnología,Licenciatura,051200
+119,5051300005,Ingeniería en Recursos Naturales y Agropecuarios,Licenciatura,051300
+120,5051300020,Licenciatura en Gestión y Economía Ambiental,Licenciatura,051300
+121,5052100005,Licenciatura en Física,Licenciatura,052100
+122,5052200002,Ingeniería en Nanotecnología,Licenciatura,052200
+123,5052200007,Licenciatura en Química,Licenciatura,052200
+124,5052200017,Licenciatura en Ciencia de Materiales,Licenciatura,052200
+125,5052200021,Ingeniería en Diseño Molecular de Materiales,Licenciatura,052200
+126,5052300015,Licenciatura en Geografía,Licenciatura,052300
+127,5053100004,Licenciatura en Matemáticas,Licenciatura,053100
+128,5061000002,Ingeniería en Computación,Licenciatura,061000
+129,5061000015,Licenciatura en Desarrollo de Sistemas Web,Licenciatura,061000
+130,5061100001,Ingeniería en Ciencias Computacionales,Licenciatura,061100
+131,5062100009,Ingeniería en Comunicaciones y Electrónica,Licenciatura,062100
+132,5062100033,Ingeniería en Teleinformática,Licenciatura,062100
+133,5062100034,Ingeniería en Telemática,Licenciatura,062100
+134,5062200055,Ingeniería Informática,Licenciatura,062200
+135,5062200073,Ingeniería en Electrónica y Computación,Licenciatura,062200
+136,5062200082,Licenciatura en Tecnologías de la Información,Licenciatura,062200
+137,5062200105,Licenciatura en Tecnologías e Información,Licenciatura,062200
+138,5071000020,Ingeniería Biomédica,Licenciatura,071000
+139,5071000047,Ingeniería en Videojuegos,Licenciatura,071000
+140,5071100005,Ingeniería en Diseño Industrial,Licenciatura,071100
+141,5071100019,Licenciatura en Diseño Industrial,Licenciatura,071100
+142,5071200009,Ingeniería en Energía,Licenciatura,071200
+143,5071200034,Ingeniería Fotónica,Licenciatura,071200
+144,5071300009,Ingeniería Mecánica Eléctrica,Licenciatura,071300
+145,5071300014,Ingeniería Mecatrónica,Licenciatura,071300
+146,5071300082,Ingeniería Robótica,Licenciatura,071300
+147,5071300091,Ingeniería en Instrumentación Electrónica y Nanosensores,Licenciatura,071300
+148,5071400008,Ingeniería Bioquímica,Licenciatura,071400
+149,5071400015,Ingeniería Química,Licenciatura,071400
+150,5071700019,Ingeniería Industrial,Licenciatura,071700
+151,5072100002,Ingeniería Agroindustrial,Licenciatura,072100
+152,5072100018,Licenciatura en Ciencia de los Alimentos,Licenciatura,072100
+153,5072100033,Licenciatura en Ingeniería en Alimentos y Biotecnología,Licenciatura,072100
+154,5072100049,Licenciatura en Ciencias y Artes Culinarias,Licenciatura,072100
+155,5072400001,Ingeniería en Geofísica,Licenciatura,072400
+156,5073100009,Licenciatura en Arquitectura,Licenciatura,073100
+157,5073100024,Licenciatura en Urbanística y Medio Ambiente,Licenciatura,073100
+158,5073200005,Ingeniería Civil,Licenciatura,073200
+159,5073200010,Ingeniería en Obras y Servicios,Licenciatura,073200
+160,5073200035,Ingeniería en Topografía Geomática,Licenciatura,073200
+161,5081100010,Licenciatura en Agrobiotecnología,Licenciatura,081100
+162,5081100050,Ingeniería en Sistemas Pecuarios,Licenciatura,081100
+163,5081300016,Ingeniería Agrónomo,Licenciatura,081300
+164,5082100001,Licenciatura en Medicina Veterinaria y Zootecnia,Licenciatura,082100
+165,5091100011,Médico Cirujano y Partero,Licenciatura,091100
+166,5092100006,Licenciatura en Enfermería,Licenciatura,092100
+167,5093100002,Licenciatura en Cirujano Dentista,Licenciatura,093100
+168,5094100009,Licenciatura en Terapia Física,Licenciatura,094100
+169,5094200006,Licenciatura en Nutrición,Licenciatura,094200
+170,5094300009,Licenciatura en Podología,Licenciatura,094300
+171,5095400006,Licenciatura en Químico Farmacéutico Biólogo,Licenciatura,095400
+172,5095600005,Licenciatura en Salud Pública,Licenciatura,095600
+173,5101100015,Licenciatura en Cultura Física y Deportes,Licenciatura,101100
+174,5101600013,Licenciatura en Turismo,Licenciatura,101600
+175,5102100004,Ingeniería en Logística y Transporte,Licenciatura,102100
+176,5103100007,"Licenciatura en Seguridad Laboral, Protección Civil y Emergencias",Licenciatura,103100
+177,5103100017,"Licenciatura en Seguridad Laboral, Protección Civil y Emergencias",Licenciatura,103100
+178,5104100015,Licenciatura en Seguridad Ciudadana,Licenciatura,104100
+179,6041100014,Especialidad en Valuación,Especialidad,041100
+180,6051100001,Especialidad en Biología de la Reproducción Humana,Especialidad,051100
+181,6081100002,Especialidad en Producción Animal,Especialidad,081100
+182,6081100005,Especialidad en Producción Porcina,Especialidad,081100
+183,6091301004,Especialidad en Anestesiología,Especialidad,091301
+184,6091301005,Especialidad en Anestesiología Pediátrica,Especialidad,091301
+185,6091301008,Especialidad en Medicina Paliativa y del Dolor,Especialidad,091301
+186,6091302001,Especialidad en Angiología y Cirugía Vascular,Especialidad,091302
+187,6091304001,Especialidad en Cardiología,Especialidad,091304
+188,6091304018,Especialidad en Hemodinamia y Cardiología Intervencionista,Especialidad,091304
+189,6091305002,Especialidad en Cirugía General,Especialidad,091305
+190,6091306001,Especialidad en Cirugía Cardiotorácica,Especialidad,091306
+191,6091307001,Especialidad en Neurocirugía,Especialidad,091307
+192,6091308001,Especialidad en Cirugía Pediátrica,Especialidad,091308
+193,6091309002,Especialidad en Cirugía Plástica y Reconstructiva,Especialidad,091309
+194,6091310001,Especialidad en Dermatología,Especialidad,091310
+195,6091310002,Especialidad en Dermatología Pediátrica,Especialidad,091310
+196,6091311001,Especialidad en Endocrinología,Especialidad,091311
+197,6091312001,Especialidad en Coloproctología,Especialidad,091312
+198,6091313001,Especialidad en Cirugía Bariátrica y Metabólica,Especialidad,091313
+199,6091313004,Especialidad en Gastroenterología,Especialidad,091313
+200,6091313008,Especialidad en Gastroenterología y Nutrición Pediátrica,Especialidad,091313
+201,6091314001,Especialidad en Genética Médica,Especialidad,091314
+202,6091315001,Especialidad en Geriatría,Especialidad,091315
+203,6091316002,Especialidad en Ginecología y Obstetricia,Especialidad,091316
+204,6091316004,Especialidad en Medicina Materno-Fetal,Especialidad,091316
+205,6091316007,Especialidad en Ginecología Oncológica,Especialidad,091316
+206,6091317001,Especialidad en Hematología,Especialidad,091317
+207,6091317003,Especialidad en Hematologia Pediatrica,Especialidad,091317
+208,6091317009,Especialidad en Hemato-Oncologia Pediatrica,Especialidad,091317
+209,6091318001,Especialidad en Infectología,Especialidad,091318
+210,6091318002,Especialidad en Infectología Pediátrica,Especialidad,091318
+211,6091319001,Especialidad en Alergia e Inmunología Clínica,Especialidad,091319
+212,6091319004,Especialidad en Alergia e Inmunología Clínica Pediátrica,Especialidad,091319
+213,6091321003,Especialidad en Medicina del Enfermo en Estado Crítico,Especialidad,091321
+214,6091322003,Especialidad en Medicina de Rehabilitación,Especialidad,091322
+215,6091323001,Especialidad en Medicina de Urgencias,Especialidad,091323
+216,6091323002,Especialidad en Urgencias Médicas,Especialidad,091323
+217,6091325001,Especialidad en Medicina del Trabajo,Especialidad,091325
+218,6091325002,Especialidad en Medicina del Trabajo y Ambiental,Especialidad,091325
+219,6091326001,Especialidad en Medicina Familiar,Especialidad,091326
+220,6091327002,Especialidad en Medicina Interna,Especialidad,091327
+221,6091329001,Especialidad en Anatomía Patológica,Especialidad,091329
+222,6091331003,Especialidad en Nefrología,Especialidad,091331
+223,6091332001,Especialidad en Neumología,Especialidad,091332
+224,6091334001,Especialidad en Neurología,Especialidad,091334
+225,6091335001,Especialidad en Oftalmología,Especialidad,091335
+226,6091335003,Especialidad en Retina Médica y Quirúrgica,Especialidad,091335
+227,6091336001,Especialidad en Cirugía Oncológica,Especialidad,091336
+228,6091336005,Especialidad en Oncología Médica,Especialidad,091336
+229,6091336007,Especialidad en Oncología Pediátrica,Especialidad,091336
+230,6091336009,"Especialidad en Oncología, Hematología Pediátrica",Especialidad,091336
+231,6091336013,Especialidad en Radio-Oncología,Especialidad,091336
+232,6091337002,Especialidad en Ortopedia,Especialidad,091337
+233,6091337005,Especialidad en Traumatología y Ortopedia,Especialidad,091337
+234,6091337008,Especialidad en Cirugía de Trauma Toraco-Abdominal,Especialidad,091337
+235,6091338002,Especialidad en Otorrinolaringología Pediátrica,Especialidad,091338
+236,6091338003,Especialidad en Otorrinolaringología y Cirugía de Cabeza y Cuello,Especialidad,091338
+237,6091339001,Especialidad en Patología Clínica,Especialidad,091339
+238,6091340001,Especialidad en Pediatría,Especialidad,091340
+239,6091340004,Especialidad en Neonatología,Especialidad,091340
+240,6091341001,Especialidad en Psiquiatría,Especialidad,091341
+241,6091342012,Especialidad en Imagenología Diagnóstica y Terapéutica,Especialidad,091342
+242,6091342013,Especialidad en Radiología e Imagen,Especialidad,091342
+243,6091343001,Especialidad en Reumatología,Especialidad,091343
+244,6091344001,Especialidad en Urología,Especialidad,091344
+245,6091344002,Especialidad en Urología Ginecológica,Especialidad,091344
+246,6091345005,Especialidad en Calidad de la Atención Clínica,Especialidad,091345
+247,6091345008,Especialidad en Cirugía Laparoscópica,Especialidad,091345
+248,6091345011,Especialidad en Cirugía Oncológica de Cabeza y Cuello,Especialidad,091345
+249,6092202002,Especialidad en Enfermería en Cuidados Intensivos,Especialidad,092202
+250,6092203006,Especialidad en Enfermería en Gerontología y Geriatría,Especialidad,092203
+251,6092204007,Especialidad de Enfermería en Salud Pública,Especialidad,092204
+252,6092206002,Especialidad en Enfermería Pediátrica,Especialidad,092206
+253,6092206010,Especialidad en Enfermería Neonatal,Especialidad,092206
+254,6092207003,Especialidad en Enfermería Quirúrgica,Especialidad,092207
+255,6092208015,Especialidad en Enfermería en Cuidados Paliativos,Especialidad,092208
+256,6093201002,Especialidad en Cirugía Maxilofacial,Especialidad,093201
+257,6093201005,Especialidad en Prótesis Maxilofacial,Especialidad,093201
+258,6093202001,Especialidad en Endodoncia,Especialidad,093202
+259,6093203005,Especialidad en Odontopediatría,Especialidad,093203
+260,6093204001,Especialidad en Ortodoncia,Especialidad,093204
+261,6093205004,Especialidad en Periodoncia,Especialidad,093205
+262,6093206003,Especialidad en Prostodoncia,Especialidad,093206
+263,6095600002,Especialidad en Epidemiología,Especialidad,095600
+264,7011000002,Maestría en Educación Ambiental,Maestría,011000
+265,7011000042,Maestría en Innovación Social y Gestión del Bienestar,Maestría,011000
+266,7011200033,Maestría en Investigación Educativa,Maestría,011200
+267,7011200037,Maestría en Planeación de la Educación Superior,Maestría,011200
+268,7011200077,Maestría en Gestión y Políticas de la Educación Superior,Maestría,011200
+269,7011200088,Maestría en Procesos Innovadores en el Aprendizaje,Maestría,011200
+270,7011400011,Maestría en Tecnologías para el Aprendizaje,Maestría,011400
+271,7011400029,Maestría en Gestión del Aprendizaje en Ambientes Virtuales,Maestría,011400
+272,7011500003,Maestría en Educación,Maestría,011500
+273,7011500004,Maestría en Investigación en Ciencias de la Educación,Maestría,011500
+274,7012000087,Maestría en Estudios del Turismo,Maestría,012000
+275,7012400001,Maestría en Docencia para la Educación Media Superior,Maestría,012400
+276,7012500034,Maestría en Educación Superior Internacional,Maestría,012500
+277,7012601008,Maestría en Educación Física y Deporte,Maestría,012601
+278,7012601010,Maestría en Ciencias de la Educación Física y del Deporte,Maestría,012601
+279,7012602002,Maestría en Didáctica de las Artes,Maestría,012602
+280,7012602009,Maestría en Educación y Expresión para las Artes,Maestría,012602
+281,7012603017,Maestría en la Enseñanza del Inglés como Lengua Extranjera,Maestría,012603
+282,7012604029,Maestría en Enseñanza de las Matemáticas,Maestría,012604
+283,7012604064,Maestría en Ciencia y Tecnología,Maestría,012604
+284,7021000014,Maestría en Gestión de la Cultura,Maestría,021000
+285,7021300007,Maestría en Etnomusicología,Maestría,021300
+286,7021400005,Maestría en Estudios Cinematográficos,Maestría,021400
+287,7021400038,Maestría en Diseño de Información y Comunicación Digital,Maestría,021400
+288,7021600006,Maestría en Diseño y Desarrollo de Nuevos Productos,Maestría,021600
+289,7021600019,Maestría en Diseño e Innovación Industrial,Maestría,021600
+290,7021600021,Maestría en Desarrollo de Productos,Maestría,021600
+291,7022200011,Maestría en Estudios de las Lenguas y Culturas Inglesas,Maestría,022200
+292,7022200019,"Maestría Interinstitucional en Deutsch Als Fremdsprache: Estudios Interculturales de Lengua, Literatura y Cultura Alemanas",Maestría,022200
+293,7022300005,Maestría en Estudios de Literatura Mexicana,Maestría,022300
+294,7022300015,Maestría en Literatura Comparada,Maestría,022300
+295,7022300017,Maestría en Literatura del Siglo XX,Maestría,022300
+296,7022300034,Maestría en Literaturas Interamericanas,Maestría,022300
+297,7022300036,Maestría en Estudios en Literacidad,Maestría,022300
+298,7022300037,Maestría en Estudios Criticos del Lenguaje,Maestría,022300
+299,7022400002,Maestría en Lingüística Aplicada,Maestría,022400
+300,7022500015,Maestría en Historia de México,Maestría,022500
+301,7022500032,Maestría en Historia Cultural,Maestría,022500
+302,7022600002,Maestría en Bioética,Maestría,022600
+303,7022600008,Maestría en Estudios Filosóficos,Maestría,022600
+304,7031000001,Maestría en Ciencias Sociales,Maestría,031000
+305,7031000012,Maestría en Literacidad,Maestría,031000
+306,7031000052,Maestría en Estudios Transdisciplinares en Ciencia y Tecnología,Maestría,031000
+307,7031100001,Maestría en Psicología Educativa,Maestría,031100
+308,7031100005,Maestría en Ciencia del Comportamiento,Maestría,031100
+309,7031100028,Maestría en Psicología,Maestría,031100
+310,7031100030,Maestría en Psicología Clínica,Maestría,031100
+311,7031100041,Maestría en Psicología Con Orientación en Psicología Social,Maestría,031100
+312,7031100043,Maestría en Psicología de la Salud,Maestría,031100
+313,7031100057,Maestría en Psicología Social,Maestría,031100
+314,7031100103,Maestría en Terapia Familiar,Maestría,031100
+315,7031100176,Maestría en Psicología con Orientación en Calidad de Vida y Salud,Maestría,031100
+316,7031100188,Maestría en Neuropsicología,Maestría,031100
+317,7031100252,Maestría en Psicología con Orientación en Psicología Social,Maestría,031100
+318,7031100253,Maestría en Psicología con Orientación en Psicología Ecológica y Conductual,Maestría,031100
+319,7031200009,Maestría en Antropología,Maestría,031200
+320,7031200016,Maestría en Ciencias Antropológicas,Maestría,031200
+321,7031200038,Maestría en Estudios Regionales,Maestría,031200
+322,7031200043,Maestría en Gestión y Desarrollo Social,Maestría,031200
+323,7031200071,Maestría en Estudios Socioterritoriales,Maestría,031200
+324,7031200087,"Maestría en Estudios Francófonos: Pedagogía, Lingüística y Estudios Interculturales",Maestría,031200
+325,7031300005,Maestría en Ciencia Política,Maestría,031300
+326,7031300023,Maestría en Políticas Públicas,Maestría,031300
+327,7031300041,Maestría en Transparencia y Protección de Datos Personales,Maestría,031300
+328,7031300048,Maestría en Ciencia Política con Orientación en Democracias Contemporáneas,Maestría,031300
+329,7031300078,Maestría en Relaciones Internacionales de Gobiernos y Actores Locales,Maestría,031300
+330,7031400008,Maestría en Economía,Maestría,031400
+331,7031400038,Maestría en Relaciones Económicas Internacionales y Cooperación,Maestría,031400
+332,7031500022,Maestría en Gerontología,Maestría,031500
+333,7031500027,Maestría en Trabajo Social,Maestría,031500
+334,7031500062,Maestría en Resolución de Conflictos,Maestría,031500
+335,7032100004,Maestría en Comunicación,Maestría,032100
+336,7032100037,Maestría en Periodismo Digital,Maestría,032100
+337,7032100049,Maestría en Global Politics and Transpacific Studies,Maestría,032100
+338,7033100026,Maestría en Derecho,Maestría,033100
+339,7033200002,Maestría en Ciencias Forenses,Maestría,033200
+340,7033200014,Maestría en Ciencias Forenses y Criminología,Maestría,033200
+341,7041100018,Maestría en Comercio y Mercados Internacionales,Maestría,041100
+342,7041100024,Maestría en Negocios Internacionales,Maestría,041100
+343,7041100026,Maestría en Negocios y Estudios Económicos,Maestría,041100
+344,7041100029,Maestría en Valuación,Maestría,041100
+345,7041200034,Maestría en Dirección de Mercadotecnia,Maestría,041200
+346,7041200042,Maestría en Mercadotecnia,Maestría,041200
+347,7041300021,Maestría en Finanzas,Maestría,041300
+348,7041300024,Maestría en Finanzas Empresariales,Maestría,041300
+349,7041400008,Maestría en Análisis Tributario,Maestría,041400
+350,7041400009,Maestría en Auditoría,Maestría,041400
+351,7041400028,Maestría en Impuestos,Maestría,041400
+352,7041400048,Maestría en Estudios Fiscales,Maestría,041400
+353,7042000002,Maestría en Administración,Maestría,042000
+354,7042100015,Maestría en Administración y Gestión Regional,Maestría,042100
+355,7042100033,Maestría en Administración de Negocios,Maestría,042100
+356,7042100129,Maestría en Dirección Estratégica de la Calidad,Maestría,042100
+357,7042100177,Maestría en Generación y Gestión de la Innovación,Maestría,042100
+358,7042100311,Maestría en Desarrollo y Dirección de la Innovación,Maestría,042100
+359,7042200008,Maestría en Desarrollo Sustentable y Turismo,Maestría,042200
+360,7042300011,Maestría en Gestión de Gobiernos Locales,Maestría,042300
+361,7042300030,Maestría en Gestión de Servicios Públicos en Ambientes Virtuales,Maestría,042300
+362,7042300031,Maestría en Gestión Pública,Maestría,042300
+363,7042300040,Maestría en Gobierno Electrónico,Maestría,042300
+364,7042300054,"Maestría en Ciencias para el Desarrollo, la Sustentabilidad y el Turismo",Maestría,042300
+365,7042500034,Maestría en Gestión de la Calidad y Seguridad en los Servicios de Salud,Maestría,042500
+366,7042500053,Maestría en Administración de Instituciones de Salud,Maestría,042500
+367,7042500062,Maestría en Gerencia de Servicios de Salud,Maestría,042500
+368,7042500117,Maestría en Gestión y Desarrollo Cultural,Maestría,042500
+369,7051100007,Maestría en Ciencias Biológicas,Maestría,051100
+370,7051200018,Maestría en Farmacología,Maestría,051200
+371,7051200022,Maestría en Ciencias en Biología Molecular en Medicina,Maestría,051200
+372,7051300013,Maestría en Ciencias en Biosistemática y Manejo de Recursos Naturales y Agrícolas,Maestría,051300
+373,7051300018,Maestría en Ciencias en Manejo de Recursos Naturales,Maestría,051300
+374,7051300079,Maestría en Ciencias en Ecología y Manejo de Recursos Costeros y Marinos,Maestría,051300
+375,7052000001,Maestría en Ciencias,Maestría,052000
+376,7052100009,Maestría en Ciencias en Física,Maestría,052100
+377,7052100021,Maestría en Ciencias Físico Matemáticas,Maestría,052100
+378,7052200003,Maestría en Ciencia de Materiales,Maestría,052200
+379,7052200006,Maestría en Ciencias en Química,Maestría,052200
+380,7052200016,Maestría en Ciencia e Ingeniería de Materiales,Maestría,052200
+381,7052200018,Maestría en Ciencias en Ingeniería Química,Maestría,052200
+382,7052300003,Maestría en Ciencias de la Tierra,Maestría,052300
+383,7052300006,Maestría en Ciencias en Geofísica,Maestría,052300
+384,7052300025,Maestría en Ciencias en Hidrometeorología,Maestría,052300
+385,7052300035,Maestría en Geología,Maestría,052300
+386,7053100007,Maestría en Ciencias en Matemáticas,Maestría,053100
+387,7053100018,Maestría en Ciencias con Orientación en Ciencias Exactas e Ingenierías,Maestría,053100
+388,7061000002,Maestría en Computación Aplicada,Maestría,061000
+389,7061000012,Maestría en Ciencia de los Datos,Maestría,061000
+390,7061100016,Maestría en Cómputo Paralelo,Maestría,061100
+391,7061300005,Maestría en Ingeniería de Software,Maestría,061300
+392,7061300011,Maestría en Sistemas de Información,Maestría,061300
+393,7062000007,Maestría en Ciencias en Bioingeniería y Cómputo Inteligente,Maestría,062000
+394,7062000007,Maestría en Ciencias en Bioingeniería y Cómputo Inteligente,Maestría,062000
+395,7062200028,Maestría en Ingeniería de Desarrollos Tecnológicos,Maestría,062200
+396,7062200049,Maestría en Tecnologías de Información,Maestría,062200
+397,7062200074,Maestría en Cómputo Aplicado,Maestría,062200
+398,7071000033,Maestría en Ciencias en Ingeniería del Agua y la Energía,Maestría,071000
+399,7071000035,Maestría en Ingeniería en Energías Renovables,Maestría,071000
+400,7071200009,Maestría en Ciencias en Ingeniería Eléctrica,Maestría,071200
+401,7071200021,Maestría en Ingeniería del Agua y la Energía,Maestría,071200
+402,7071300003,Maestría en Ingeniería Mecatrónica,Maestría,071300
+403,7071300026,Maestría en Ciencias en Ingeniería Electrónica y Computación,Maestría,071300
+404,7071400012,Maestría en Ciencias en Procesos Biotecnológicos,Maestría,071400
+405,7071500006,Maestría en Proyectos Tecnológicos,Maestría,071500
+406,7071600009,Maestría en Protección Ambiental,Maestría,071600
+407,7071600020,Maestría en Ciencia de Productos Forestales,Maestría,071600
+408,7071700001,Maestría en Ingeniería de Proyectos,Maestría,071700
+409,7071700002,Maestría en Sistemas de Calidad,Maestría,071700
+410,7071700009,Maestría en Análisis de Sistemas Industriales,Maestría,071700
+411,7072100008,Maestría en Ciencias de los Alimentos,Maestría,072100
+412,7072100012,Maestría en Ciencias en Microbiología e Inocuidad de Alimentos,Maestría,072100
+413,7073100005,Maestría en Desarrollo Local y Territorio,Maestría,073100
+414,7073100051,Maestría en Urbanismo y Desarrollo,Maestría,073100
+415,7073100082,Maestría en Urbanismo y Territorio,Maestría,073100
+416,7073100088,Maestría en Ciencias de la Arquitectura,Maestría,073100
+417,7073100089,Maestría en Procesos y Expresión Gráfica en la Proyectación Arquitectónica-Urbana,Maestría,073100
+418,7081000006,Maestría en Tecnología de Semillas,Maestría,081000
+419,7081100023,Maestría en Ciencias en Nutrición Animal,Maestría,081100
+420,7081100033,Maestría en Ciencias Pecuarias,Maestría,081100
+421,7081100051,Maestría en Agricultura Protegida,Maestría,081100
+422,7081100056,Maestría Interinstitucional en Producción Pecuaria,Maestría,081100
+423,7081100068,Maestría en Producción Animal Sustentable,Maestría,081100
+424,7081100072,Maestría en Ciencias Agrícolas y Forestales,Maestría,081100
+425,7081100073,Maestría en Ciencias Agropecuarias,Maestría,081100
+426,7081100078,Maestría en Ciencias con Orientación en Ciencias Biológicas y Agropecuarias,Maestría,081100
+427,7091316004,"Maestría en Nutrición Humana, Orientación Materno Infantil",Maestría,091316
+428,7091325001,Maestría en Ciencias de la Salud en el Trabajo,Maestría,091325
+429,7091345002,Maestría en Ciencias de la Salud de la Adolescencia y la Juventud,Maestría,091345
+430,7091345005,Maestría en Ciencias Médicas,Maestría,091345
+431,7092208001,Maestría en Enfermería Gerencial,Maestría,092208
+432,7093100003,Maestría en Ciencias Odontológicas,Maestría,093100
+433,7093207003,Maestría en Patología y Medicina Bucal,Maestría,093207
+434,7095000001,Maestría en Investigación Clínica,Maestría,095000
+435,7095000011,Maestría en Microbiología Médica,Maestría,095000
+436,7095200012,Maestría en Ciencias Biomédicas,Maestría,095200
+437,7095300001,Maestría en Química Clínica,Maestría,095300
+438,7095600007,Maestría en Ciencias de la Salud Ambiental,Maestría,095600
+439,7095600015,Maestría en Ciencias de la Salud Pública,Maestría,095600
+440,7095600030,Maestría en Salud Pública,Maestría,095600
+441,7095600046,Maestría en Ciencias Socio Médicas,Maestría,095600
+442,7101000006,Maestría en Actividad Física y Estilo de Vida,Maestría,101000
+443,7101500016,Maestría en Ciencias en Inocuidad Alimentaria,Maestría,101500
+444,7102100006,"Maestría en Movilidad Urbana, Transporte y Territorio",Maestría,102100
+445,7103100003,Maestría en Ergonomía,Maestría,103100
+446,7103100010,Maestría en Gestión de la Seguridad y Salud en el Trabajo,Maestría,103100
+447,8011000006,Doctorado en Cognición y Aprendizaje,Doctorado,011000
+448,8011400005,Doctorado en Sistemas y Ambientes Educativos,Doctorado,011400
+449,8011500003,Doctorado en Educación,Doctorado,011500
+450,8021000010,Doctorado en Arte y Cultura,Doctorado,021000
+451,8021000011,Doctorado en Gestión de la Cultura,Doctorado,021000
+452,8022000001,Doctorado en Humanidades,Doctorado,022000
+453,8022300004,Doctorado en Letras,Doctorado,022300
+454,8022300013,Doctorado en Estudios Literarios y Lingüísticos,Doctorado,022300
+455,8022500004,Doctorado en Historia,Doctorado,022500
+456,8031000001,Doctorado en Ciencias Sociales,Doctorado,031000
+457,8031100002,Doctorado en Ciencia del Comportamiento,Doctorado,031100
+458,8031100011,Doctorado Interinstitucional en Psicología,Doctorado,031100
+459,8031100026,Doctorado en Psicología con Orientación en Calidad de Vida y Salud,Doctorado,031100
+460,8031200023,Doctorado en Estudios Regionales,Doctorado,031200
+461,8031300003,Doctorado en Ciencia Política,Doctorado,031300
+462,8031300020,Doctorado en Políticas Públicas y Desarrollo,Doctorado,031300
+463,8031400004,Doctorado en Ciencias Económico Administrativas,Doctorado,031400
+464,8031400010,Doctorado en Negocios y Estudios Económicos,Doctorado,031400
+465,8031400014,Doctorado en Estudios Económicos,Doctorado,031400
+466,8033100003,Doctorado en Derechos Humanos,Doctorado,033100
+467,8033100009,Doctorado en Derecho,Doctorado,033100
+468,8041400003,Doctorado en Estudios Fiscales,Doctorado,041400
+469,8042000005,Doctorado en Ciencias de la Administración,Doctorado,042000
+470,8042000014,Doctorado en Gestión y Negocios,Doctorado,042000
+471,8042100049,Doctorado en Innovación para el Hábitat Sustentable,Doctorado,042100
+472,8042100051,Doctorado en Innovación y Sustentabilidad en los Negocios,Doctorado,042100
+473,8042200004,"Doctorado en Ciencias para el Desarrollo, la Sustentabilidad y el Turismo",Doctorado,042200
+474,8042500005,Doctorado en Gestión de la Educación Superior,Doctorado,042500
+475,8051100004,Doctorado en Ciencias Biológicas,Doctorado,051100
+476,8051100012,Doctorado en Genética Humana,Doctorado,051100
+477,8051100024,Doctorado en Ciencias en Ecofisiología y Recursos Genéticos,Doctorado,051100
+478,8051200017,Doctorado en Farmacología,Doctorado,051200
+479,8051200020,Doctorado en Ciencias en Biología Molecular en Medicina,Doctorado,051200
+480,8051300007,"Doctorado en Ciencias en Biosistemática, Ecología y Manejo de Recursos Naturales y Agrícolas",Doctorado,051300
+481,8051300013,Doctorado en Ciencias para el Desarrollo Sustentable,Doctorado,051300
+482,8052000002,Doctorado en Ciencias,Doctorado,052000
+483,8052000007,Doctorado en Ciencias en Microbiología y la Biotecnología Molecular,Doctorado,052000
+484,8052100009,Doctorado en Ciencias en Física,Doctorado,052100
+485,8052100019,Doctorado en Ciencias Físico Matemáticas,Doctorado,052100
+486,8052200001,Doctorado en Ciencia de Materiales,Doctorado,052200
+487,8052200009,Doctorado en Ciencias en Química,Doctorado,052200
+488,8052200018,Doctorado en Ciencias en Ingeniería Química,Doctorado,052200
+489,8052200023,Doctorado en Ciencia de Biomateriales Sustentables,Doctorado,052200
+490,8052300012,Doctorado en Geografía y Ordenación Territorial,Doctorado,052300
+491,8052300021,Doctorado en Geología,Doctorado,052300
+492,8053100005,Doctorado en Ciencias en Matemáticas,Doctorado,053100
+493,8062200001,Doctorado en Ingeniería y Tecnología,Doctorado,062200
+494,8062200005,Doctorado en Tecnologías de Información,Doctorado,062200
+495,8071000002,Doctorado en Ciencia y Tecnología,Doctorado,071000
+496,8071000012,Doctorado en Ciencias en Ingeniería,Doctorado,071000
+497,8071200008,Doctorado en Agua y Energía,Doctorado,071200
+498,8071300016,Doctorado en Ciencias de la Electrónica y la Computación,Doctorado,071300
+499,8071400003,Doctorado en Ciencias en Procesos Biotecnológicos,Doctorado,071400
+500,8072100013,Doctorado en Ciencias de la Nutrición Traslacional,Doctorado,072100
+501,8072300004,Doctorado en Ciencia e Ingeniería de Materiales,Doctorado,072300
+502,8073100010,"Doctorado en Ciudad, Territorio y Sustentabilidad",Doctorado,073100
+503,8081100028,Doctorado en Ciencias Agrícolas y Forestales,Doctorado,081100
+504,8081100033,Doctorado en Ciencias con Orientación en Ciencias Biológicas y Agropecuarias,Doctorado,081100
+505,8091100003,Doctorado en Ciencias de la Salud Ocupacional,Doctorado,091100
+506,8091325001,Doctorado en Ciencias de la Salud en el Trabajo,Doctorado,091325
+507,8091345002,Doctorado en Ciencias de la Salud Orientación en Investigación Clínica,Doctorado,091345
+508,8091345005,Doctorado en Investigación Clínica,Doctorado,091345
+509,8091345016,Doctorado en Investigación Multidisciplinaria en Salud,Doctorado,091345
+510,8095000001,Doctorado en Ciencias Socio Médicas,Doctorado,095000
+511,8095000003,Doctorado en Microbiología Médica,Doctorado,095000
+512,8095200001,Doctorado en Biociencias,Doctorado,095200
+513,8095200003,Doctorado en Ciencias Biomédicas,Doctorado,095200
+514,8095600001,Doctorado en Ciencias de la Salud Pública,Doctorado,095600
+515,8102100001,"Doctorado en Movilidad Urbana, Transporte y Territorio",Doctorado,102100

@@ -1,0 +1,4 @@
+name,row,ciclo,anio,calendario,clave_plantel,cve_programa,aspirantes_h,aspirantes_m,aspirantes_nb,aspirantes_t,admitidos_h,admitidos_m,admitidos_nb,admitidos_t,no_admitidos_h,no_admitidos_m,no_admitidos_nb,no_admitidos_t,por_admision,cupo,puntaje_minimo
+2021Z 1 14USU0011G 5051200024,1,2021-2022,2021,Z,14USU0011G,5051200024,,,,42,,,,40,,,,2,95.24,40,108.5833
+2021Z 2 14USU0011G 5071100005,2,2021-2022,2021,Z,14USU0011G,5071100005,,,,53,,,,40,,,,13,75.47,40,115.5
+2021Z 3 14USU0011G 5094100009,3,2021-2022,2021,Z,14USU0011G,5094100009,,,,223,,,,120,,,,103,53.81,120,128.56

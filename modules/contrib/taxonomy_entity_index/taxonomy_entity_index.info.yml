@@ -1,0 +1,12 @@
+name: 'Taxonomy Entity Index'
+description: 'Provides an actual entity to term index table for lookups.'
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - taxonomy
+type: module
+configure: taxonomy_entity_index.admin
+
+# Information added by Drupal.org packaging script on 2023-01-19
+version: '8.x-1.12'
+project: 'taxonomy_entity_index'
+datestamp: 1674170675

@@ -3,10 +3,8 @@
 namespace Drupal\smtp\ConnectionTester;
 
 use Drupal\Core\Config\ConfigFactory;
-use Drupal\Core\Mail\MailManager;
 use Drupal\Core\Mail\MailManagerInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
-use Drupal\mailsystem\MailsystemManager;
 use PHPMailer\PHPMailer\Exception as PHPMailerException;
 use PHPMailer\PHPMailer\PHPMailer;
 use Psr\Log\LoggerInterface;
@@ -76,6 +74,7 @@ class ConnectionTester {
    * The SMTP ConnectionTester constructor.
    *
    * @param \Drupal\Core\Config\ConfigFactory $config_factory
+   *   The drupal config factory.
    * @param \Psr\Log\LoggerInterface $logger
    *   The logger channel.
    * @param \Drupal\Core\Mail\MailManagerInterface $mail_manager
@@ -94,6 +93,9 @@ class ConnectionTester {
     $this->phpMailer = new PHPMailer(TRUE);
   }
 
+  /**
+   * Set the PHPMailer Library class.
+   */
   public function setMailer(PHPMailer $mailer) {
     $this->phpMailer = $mailer;
   }
@@ -110,8 +112,9 @@ class ConnectionTester {
 
     $smtp_enabled = $this->smtpConfig->get('smtp_on');
     // Check to see if MailSystem is enabled and is using SMTPMailSystem.
+    // @phpstan-ignore-line
     if (\Drupal::moduleHandler()->moduleExists('mailsystem')) {
-      $mailsystem_defaults = $this->configFactory->get('mailsystem.settings')->get('defaults');
+      $mailsystem_defaults = (array) $this->configFactory->get('mailsystem.settings')->get('defaults');
       $smtp_enabled = in_array('SMTPMailSystem', $mailsystem_defaults);
     }
 
@@ -127,7 +130,7 @@ class ConnectionTester {
         $this->value = $this->t('SMTP module is enabled, turned on, and connection is valid.');
         return TRUE;
       }
-      $this->severity = REQUIREMENT_ERROR;
+      $this->severity = self::REQUIREMENT_ERROR;
       $this->value = $this->t('SMTP module is enabled, turned on, but SmtpConnect() returned FALSE.');
       return FALSE;
     }

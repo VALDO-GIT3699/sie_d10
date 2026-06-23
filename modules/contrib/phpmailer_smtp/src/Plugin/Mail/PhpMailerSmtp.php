@@ -4,18 +4,20 @@ namespace Drupal\phpmailer_smtp\Plugin\Mail;
 
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Config\ConfigFactoryInterface;
+use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\Logger\LoggerChannelFactoryInterface;
 use Drupal\Core\Messenger\MessengerInterface;
 use Drupal\Core\Mail\MailFormatHelper;
 use Drupal\Core\Mail\MailInterface;
 use Drupal\Core\Render\Markup;
+use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\phpmailer_smtp\PluginManager\PhpmailerOauth2PluginManagerInterface;
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\OAuth;
 use PHPMailer\PHPMailer\Exception;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use PHPMailer\PHPMailer\OAuth;
 
 /**
  * Implements the base PHPMailer SMTP class for the Drupal MailInterface.
@@ -110,6 +112,20 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
   protected $phpmailerOauth2PluginManager;
 
   /**
+   * The renderer.
+   *
+   * @var \Drupal\Core\Render\RendererInterface
+   */
+  protected $renderer;
+
+  /**
+   * The file system.
+   *
+   * @var \Drupal\Core\File\FileSystemInterface
+   */
+  protected $fileSystem;
+
+  /**
    * Creates an instance of the plugin.
    *
    * @param \Symfony\Component\DependencyInjection\ContainerInterface $container
@@ -129,14 +145,16 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
       $container->get('config.factory'),
       $container->get('logger.factory'),
       $container->get('messenger'),
-      $container->get('plugin.manager.phpmailer_oauth2')
+      $container->get('plugin.manager.phpmailer_oauth2'),
+      $container->get('renderer'),
+      $container->get('file_system')
     );
   }
 
   /**
    * Constructor.
    */
-  public function __construct(ConfigFactoryInterface $config, LoggerChannelFactoryInterface $logger_factory, MessengerInterface $messenger, PhpmailerOauth2PluginManagerInterface $plugin_manager) {
+  public function __construct(ConfigFactoryInterface $config, LoggerChannelFactoryInterface $logger_factory, MessengerInterface $messenger, PhpmailerOauth2PluginManagerInterface $plugin_manager, RendererInterface $renderer, FileSystemInterface $file_system) {
     // Throw exceptions instead of dying (since 5.0.0).
     if (method_exists(get_parent_class($this), '__construct')) {
       parent::__construct(TRUE);
@@ -147,17 +165,24 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
     $this->loggerFactory = $logger_factory;
     $this->messenger = $messenger;
     $this->phpmailerOauth2PluginManager = $plugin_manager;
+    $this->renderer = $renderer;
+    $this->fileSystem = $file_system;
+  }
 
+  /**
+   * Initialise SMTP settings.
+   */
+  public function smtpInit() {
     $this->IsSMTP();
-    $this->Reset();
     $this->SMTPAutoTLS = FALSE;
+    $this->CharSet = 'utf-8';
 
-    $this->Host = $this->config->get('smtp_host', '');
-    if ($backup = $this->config->get('smtp_hostbackup', '')) {
+    $this->Host = $this->config->get('smtp_host');
+    if ($backup = $this->config->get('smtp_hostbackup')) {
       $this->Host .= ';' . $backup;
     }
-    $this->Port = $this->config->get('smtp_port', '25');
-    $smtp_protocol = $this->config->get('smtp_protocol', '');
+    $this->Port = $this->config->get('smtp_port');
+    $smtp_protocol = $this->config->get('smtp_protocol');
     $this->SMTPSecure = $smtp_protocol;
 
     if (!empty($smtp_protocol)) {
@@ -172,8 +197,8 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
     // Check for basic authentication.
     if ($this->config->get('smtp_authentication_type') === 'basic_auth') {
       // Use SMTP authentication if both username and password are given.
-      $this->Username = $this->config->get('smtp_username', '');
-      $this->Password = $this->config->get('smtp_password', '');
+      $this->Username = $this->config->get('smtp_username');
+      $this->Password = $this->config->get('smtp_password');
       $this->SMTPAuth = (bool) ($this->Username != '' && $this->Password != '');
     }
     // If not basic auth, check for OAuth2 plugins.
@@ -186,11 +211,13 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
       $this->SMTPAuth = TRUE;
     }
 
-    $this->SMTPKeepAlive = $this->config->get('smtp_keepalive', 0);
+    $this->SMTPKeepAlive = $this->config->get('smtp_keepalive');
 
-    $this->Timeout = $this->config->get('smtp_timeout', 30);
+    if ($timeout = $this->config->get('smtp_timeout')) {
+      $this->Timeout = $timeout;
+    }
 
-    $this->drupalDebug = $this->config->get('smtp_debug', 0);
+    $this->drupalDebug = $this->config->get('smtp_debug');
     if ($this->drupalDebug > $this->SMTPDebug && \Drupal::currentUser()->hasPermission('administer phpmailer smtp settings')) {
       $this->SMTPDebug = $this->drupalDebug;
     }
@@ -222,7 +249,7 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
     if ($this->SMTPDebug) {
       if ($this->drupalDebug && ($this->drupalDebugOutput = ob_get_contents())) {
         $this->messenger->addMessage(Markup::create($this->drupalDebugOutput));
-        if ($this->config->get('smtp_debug_log', 0)) {
+        if ($this->config->get('smtp_debug_log')) {
           $this->loggerFactory->get('phpmailer_smtp')->debug('Output of communication with SMTP server:<br /><pre>{output}</pre>', [
             'output' => str_replace("<br>\n", "\n", Html::decodeEntities($this->drupalDebugOutput)),
           ]);
@@ -331,6 +358,15 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
   }
 
   /**
+   * Override PHPMailer's html2text() to handle newlines properly.
+   *
+   * {@inheritdoc}
+   */
+  public function html2text($html, $advanced = FALSE) {
+    return MailFormatHelper::htmlToText(trim(preg_replace('/<(head|title|style|script)[^>]*>.*?<\/\\1>/si', '', $html)));
+  }
+
+  /**
    * Concatenates and wraps the e-mail body for plain-text mails.
    *
    * @param array $message
@@ -340,13 +376,100 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
    *   The formatted $message.
    */
   public function format(array $message) {
-    // Join the body array into one string.
-    $message['body'] = implode("\n\n", $message['body']);
-    // Convert any HTML to plain-text.
-    $message['body'] = MailFormatHelper::htmlToText($message['body']);
-    // Wrap the mail body for sending.
-    $message['body'] = MailFormatHelper::wrapMail($message['body']);
+    $message['params']['formatter'] = 'phpmailer_smtp';
+    $config = $this->configFactory->get('phpmailer_smtp.format');
+    $format = $config->get('format');
+    $headers = array_change_key_case($message['headers']);
+
+    // Check content type header and honour text/plain if set.
+    if (isset($headers['content-type']) && !$config->get('force_html')) {
+      $parts = explode(';', $headers['content-type']);
+      $content_type = trim(array_shift($parts));
+      if ($content_type === 'text/plain') {
+        $format = 'plain_text';
+      }
+    }
+
+    if ($format === 'html') {
+      $this->isHTML();
+      // Join the body array into one string.
+      $message['body'] = implode("\n\n", $message['body']);
+
+      // Generate the HTML.
+      $render = [
+        '#theme' => isset($message['params']['theme']) ? $message['params']['theme'] : 'phpmailer_smtp',
+        '#body' => $message['body'],
+        '#module' => $message['module'],
+        '#key' => $message['key'],
+        '#recipient' => $message['to'],
+        '#subject' => $message['subject'],
+      ];
+
+      // Theme the body content.
+      $rendered = $this->renderer->renderPlain($render);
+
+      // Generate email HTML including inline images.
+      $this->msgHTML($rendered, DRUPAL_ROOT, TRUE);
+
+    }
+    else {
+      $this->isHTML(FALSE);
+      // Join the body array into one string.
+      $message['body'] = implode("\n\n", $message['body']);
+      // Convert any HTML to plain-text.
+      $message['body'] = MailFormatHelper::htmlToText($message['body']);
+      // Wrap the mail body for sending.
+      $message['body'] = MailFormatHelper::wrapMail($message['body']);
+      $this->Body = $message['body'];
+    }
+
+    // Attach files under "files".
+    if (!empty($message['params']['files']) && is_array($message['params']['files'])) {
+      $this->addAttachments($message['params']['files']);
+    }
+
+    // Attach files under "attachments".
+    if (!empty($message['params']['attachments']) && is_array($message['params']['attachments'])) {
+      $this->addAttachments($message['params']['attachments']);
+    }
+
+    // Add the message body.
+    $message['body'] = $this->Body;
+
     return $message;
+  }
+
+  /**
+   * Add attachments.
+   *
+   * @param array $attachments
+   *   An array of attachments.
+   */
+  public function addAttachments(array $attachments) {
+    foreach ($attachments as $attachment) {
+      if (is_array($attachment)) {
+        $attachment = (object) $attachment;
+      }
+      // Only the file itself is required.
+      if (empty($attachment->filepath) && empty($attachment->filecontent)) {
+        continue;
+      }
+
+      // PHPMailer can determine filename and mime type if they aren't present.
+      $filename = $attachment->filename ?? '';
+      $filemime = $attachment->filemime ?? '';
+
+      // Attach file.
+      if (!empty($attachment->filepath)) {
+        if (strpos($attachment->filepath, 'public://') === 0) {
+          $attachment->filepath = $this->fileSystem->realpath($attachment->filepath);
+        }
+        $this->addAttachment($attachment->filepath, $filename, self::ENCODING_BASE64, $filemime);
+      }
+      else {
+        $this->addStringAttachment($attachment->filecontent, $filename, self::ENCODING_BASE64, $filemime);
+      }
+    }
   }
 
   /**
@@ -361,10 +484,52 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
    * @see PHPMailer::Send()
    */
   public function mail(array $message) {
+    // Initialise SMTP configuration.
+    $this->smtpInit();
+
+    // Default is to honour the content type header.
+    $format = NULL;
+
+    // Check if PHPMailer was the formatter.
+    if (isset($message['params']['formatter']) && $message['params']['formatter'] === 'phpmailer_smtp') {
+      // If so, set the format.
+      $format = $this->configFactory->get('phpmailer_smtp.format')->get('format');
+      if ($format === 'html') {
+        $this->isHTML();
+      }
+      else {
+        $this->isHTML(FALSE);
+      }
+    }
+
     try {
       // Convert headers to lowercase.
       $headers = array_change_key_case($message['headers']);
       unset($message['headers']);
+
+      // Extract Content-Type and charset.
+      if (isset($headers['content-type'])) {
+        // Remove any trailing semicolon.
+        $headers['content-type'] = rtrim($headers['content-type'], ';');
+        if ($format === 'html' || is_null($format)) {
+          $content_type = explode(';', $headers['content-type']);
+          $this->ContentType = trim(array_shift($content_type));
+          foreach ($content_type as $param) {
+            $param = explode('=', $param, 2);
+            $key = trim($param[0]);
+            if ($key == 'charset') {
+              $this->CharSet = trim($param[1]);
+            }
+            else {
+              $this->ContentType .= '; ' . $key . '=' . trim($param[1]);
+            }
+          }
+        }
+        else {
+          $this->ContentType = 'text/plain';
+        }
+        unset($headers['content-type']);
+      }
 
       // Parse 'From' address.
       $from = $this->parseAddresses($headers['from'], TRUE, self::CHARSET_UTF8);
@@ -382,17 +547,17 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
       $phpmailer_smtp_debug_email = $this->configFactory->get('system.maintenance')->get('phpmailer_smtp_debug_email');
       if (empty($phpmailer_smtp_debug_email)) {
         // Set recipients.
-        foreach ($this->parseAddresses($message['to']) as $address) {
+        foreach ($this->parseAddresses($message['to'], TRUE, self::CHARSET_UTF8) as $address) {
           $this->AddAddress($address['address'], $address['name']);
         }
         // Extract CCs and BCCs from headers.
         if (!empty($headers['cc'])) {
-          foreach ($this->parseAddresses($headers['cc']) as $address) {
+          foreach ($this->parseAddresses($headers['cc'], TRUE, self::CHARSET_UTF8) as $address) {
             $this->AddCC($address['address'], $address['name']);
           }
         }
         if (!empty($headers['bcc'])) {
-          foreach ($this->parseAddresses($headers['bcc']) as $address) {
+          foreach ($this->parseAddresses($headers['bcc'], TRUE, self::CHARSET_UTF8) as $address) {
             $this->AddBCC($address['address'], $address['name']);
           }
         }
@@ -406,7 +571,7 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
 
       // Extract Reply-To from headers.
       if (isset($headers['reply-to'])) {
-        foreach ($this->parseAddresses($headers['reply-to']) as $address) {
+        foreach ($this->parseAddresses($headers['reply-to'], TRUE, self::CHARSET_UTF8) as $address) {
           $this->AddReplyTo($address['address'], $address['name']);
         }
         unset($headers['reply-to']);
@@ -416,23 +581,6 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
         // If no Reply-To header has been explicitly set, use the From address
         // to be able to respond to e-mails sent via Google Mail.
         $this->AddReplyTo($from['address'], $from['name']);
-      }
-
-      // Extract Content-Type and charset.
-      if (isset($headers['content-type'])) {
-        $content_type = explode(';', $headers['content-type']);
-        $this->ContentType = trim(array_shift($content_type));
-        foreach ($content_type as $param) {
-          $param = explode('=', $param, 2);
-          $key = trim($param[0]);
-          if ($key == 'charset') {
-            $this->CharSet = trim($param[1]);
-          }
-          else {
-            $this->ContentType .= '; ' . $key . '=' . trim($param[1]);
-          }
-        }
-        unset($headers['content-type']);
       }
 
       // Set additional properties.
@@ -459,7 +607,7 @@ class PhpMailerSmtp extends PHPMailer implements MailInterface, ContainerFactory
       }
 
       // Set default sender address.
-      $envelopeSender = $this->parseAddresses($message['from']);
+      $envelopeSender = $this->parseAddresses($message['from'], TRUE, self::CHARSET_UTF8);
       $envelopeSender = reset($envelopeSender);
       $this->Sender = $envelopeSender['address'];
 

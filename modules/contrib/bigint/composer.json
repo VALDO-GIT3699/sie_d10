@@ -1,0 +1,24 @@
+{
+    "name": "drupal/bigint",
+    "description": "Defines a numeric field type equivalent to a bigint db field (19) vs (10) of the default int field.",
+    "license": "GPL-2.0-or-later",
+    "type": "drupal-module",
+    "keywords": [
+        "Drupal",
+        "field"
+    ],
+    "homepage": "https://drupal.org/project/bigint",
+    "support": {
+        "issues": "https://drupal.org/project/issues/bigint",
+        "source": "https://git.drupalcode.org/project/bigint"
+    },
+    "require-dev": {
+        "drupal/feeds": "*"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    }
+}

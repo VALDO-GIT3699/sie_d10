@@ -65,3 +65,13 @@ phpmailer_smtp.settings:
     smtp_timeout:
       type: integer
       label: 'SMTP timeout'
+phpmailer_smtp.format:
+  type: config_object
+  label: 'PHPMailer SMTP format Settings'
+  mapping:
+    format:
+      type: string
+      label: 'Email format'
+    force_html:
+      type: boolean
+      label: 'Send all email as HTML'

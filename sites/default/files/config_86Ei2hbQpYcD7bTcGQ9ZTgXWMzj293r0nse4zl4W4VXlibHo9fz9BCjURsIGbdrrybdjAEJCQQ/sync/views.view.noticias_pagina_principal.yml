@@ -85,6 +85,8 @@ display:
           settings:
             image_link: content
             image_style: medium
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: false
@@ -450,6 +452,8 @@ display:
           settings:
             image_link: content
             image_style: noticia_portada_300x300
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -569,6 +573,8 @@ display:
           settings:
             image_link: file
             image_style: noticia_nodo_550x450
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: false
@@ -999,6 +1005,8 @@ display:
           settings:
             image_link: content
             image_style: medium
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: true

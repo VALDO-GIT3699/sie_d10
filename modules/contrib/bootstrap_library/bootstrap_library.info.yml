@@ -2,8 +2,7 @@ name: Bootstrap Library
 description: Register Boostrap as a library by installing files in /libraries/bootstrap.
 type: module
 package: Bootstrap
-core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
 configure: bootstrap_library.admin
 libraries:
   - bootstrap_library/bootstrap

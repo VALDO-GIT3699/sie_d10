@@ -1,0 +1,64 @@
+name,row,anio,calendario,nivel_educativo,entidad_universitaria,aspirantes_t,aspirantes_h,aspirantes_m,aspirantes_nb,admitidos_t,admitidos_h,admitidos_m,admitidos_nb,no_admitidos_t,no_admitidos_h,no_admitidos_m,no_admitidos_nb,por_admision
+13 Admisión - 1 2020B Bachillerato General SEMS,1,2020,B,Bachillerato General,SEMS,68659,31522,37137,,35241,13968,21273,,33418,17554,15864,,51.32757541
+13 Admisión - 2 2020B Bachillerato General SUV,2,2020,B,Bachillerato General,SUV,678,311,367,,121,56,65,,557,255,302,,17.84660767
+13 Admisión - 3 2020B Bachillerato Tecnológico SEMS,3,2020,B,Bachillerato Tecnológico,SEMS,5569,2971,2598,,3293,1640,1653,,2276,1331,945,,59.13090321
+13 Admisión - 4 2020B Bachillerato Tecnológico CUAAD,4,2020,B,Bachillerato Tecnológico,CUAAD,386,263,123,,112,81,31,,274,182,92,,29.01554404
+13 Admisión - 5 2020B Bachillerato Tecnológico CUCS,5,2020,B,Bachillerato Tecnológico,CUCS,534,144,390,,133,39,94,,401,105,296,,24.90636704
+13 Admisión - 6 2020B Bachillerato Tecnológico CUSUR,6,2020,B,Bachillerato Tecnológico,CUSUR,66,16,50,,22,5,17,,44,11,33,,33.33333333
+13 Admisión - 7 2020B Técnico Superior Universitario CUCS,7,2020,B,Técnico Superior Universitario,CUCS,1335,507,828,,321,99,222,,1014,408,606,,24.04494382
+13 Admisión - 8 2020B Técnico Superior Universitario CUCOSTASUR,8,2020,B,Técnico Superior Universitario,CUCOSTASUR,92,80,12,,44,42,2,,48,38,10,,47.82608696
+13 Admisión - 9 2020B Licenciatura CUCEA,9,2020,B,Licenciatura,CUCEA,11337,5281,6056,,2908,1239,1669,,8429,4042,4387,,25.65052483
+13 Admisión - 10 2020B Licenciatura CUCEI,10,2020,B,Licenciatura,CUCEI,10761,7456,3305,,2282,1660,622,,8479,5796,2683,,21.2062076
+13 Admisión - 11 2020B Licenciatura CUCSH,11,2020,B,Licenciatura,CUCSH,5910,2196,3714,,1633,564,1069,,4277,1632,2645,,27.63113367
+13 Admisión - 12 2020B Licenciatura CUCS,12,2020,B,Licenciatura,CUCS,17450,4920,12530,,1530,543,987,,15920,4377,11543,,8.767908309
+13 Admisión - 13 2020B Licenciatura CUAAD,13,2020,B,Licenciatura,CUAAD,8097,3290,4807,,889,364,525,,7208,2926,4282,,10.97937508
+13 Admisión - 14 2020B Licenciatura CUCBA,14,2020,B,Licenciatura,CUCBA,3009,1257,1752,,890,365,525,,2119,892,1227,,29.57793287
+13 Admisión - 15 2020B Licenciatura CUALTOS,15,2020,B,Licenciatura,CUALTOS,2758,982,1776,,613,233,380,,2145,749,1396,,22.22625091
+13 Admisión - 16 2020B Licenciatura CUCIÉNEGA,16,2020,B,Licenciatura,CUCIÉNEGA,2955,1189,1766,,958,393,565,,1997,796,1201,,32.41962775
+13 Admisión - 17 2020B Licenciatura CUSUR,17,2020,B,Licenciatura,CUSUR,3088,1118,1970,,963,338,625,,2125,780,1345,,31.18523316
+13 Admisión - 18 2020B Licenciatura CUCOSTA,18,2020,B,Licenciatura,CUCOSTA,3521,1399,2122,,1129,471,658,,2392,928,1464,,32.06475433
+13 Admisión - 19 2020B Licenciatura CUCOSTASUR,19,2020,B,Licenciatura,CUCOSTASUR,1128,486,642,,691,295,396,,437,191,246,,61.25886525
+13 Admisión - 20 2020B Licenciatura CUVALLES,20,2020,B,Licenciatura,CUVALLES,1878,637,1241,,812,295,517,,1066,342,724,,43.23748669
+13 Admisión - 21 2020B Licenciatura CUNORTE,21,2020,B,Licenciatura,CUNORTE,717,263,454,,526,183,343,,191,80,111,,73.36122734
+13 Admisión - 22 2020B Licenciatura CULAGOS,22,2020,B,Licenciatura,CULAGOS,978,456,522,,581,283,298,,397,173,224,,59.40695297
+13 Admisión - 23 2020B Licenciatura CUTONALÁ,23,2020,B,Licenciatura,CUTONALÁ,5302,2272,3030,,1195,489,706,,4107,1783,2324,,22.53866465
+13 Admisión - 24 2020B Licenciatura CUTLAJOMULCO,24,2020,B,Licenciatura,CUTLAJOMULCO,2728,1152,1576,,459,192,267,,2269,960,1309,,16.8255132
+13 Admisión - 25 2020B Licenciatura SUV,25,2020,B,Licenciatura,SUV,3141,1465,1676,,1177,531,646,,1964,934,1030,,37.47214263
+13 Admisión - 26 2020B Especialidad CUCBA,26,2020,B,Especialidad,CUCBA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 27 2020B Especialidad CUCS,27,2020,B,Especialidad,CUCS,101,27,74,,42,14,28,,59,13,46,,41.58415842
+13 Admisión - 28 2020B Especialidad CUALTOS,28,2020,B,Especialidad,CUALTOS,26,19,7,,20,15,5,,6,4,2,,76.92307692
+13 Admisión - 29 2020B Especialidad CUCOSTA,29,2020,B,Especialidad,CUCOSTA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 30 2020B Especialidad CUTONALÁ,30,2020,B,Especialidad,CUTONALÁ,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 31 2020B Especialidad CUSUR,31,2020,B,Especialidad,CUSUR,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 32 2020B Maestría CUCEA,32,2020,B,Maestría,CUCEA,367,190,177,,208,107,101,,159,83,76,,56.67574932
+13 Admisión - 33 2020B Maestría CUCEI,33,2020,B,Maestría,CUCEI,142,95,47,,67,42,25,,75,53,22,,47.18309859
+13 Admisión - 34 2020B Maestría CUCSH,34,2020,B,Maestría,CUCSH,156,64,92,,89,39,50,,67,25,42,,57.05128205
+13 Admisión - 35 2020B Maestría CUCS,35,2020,B,Maestría,CUCS,67,28,39,,33,14,19,,34,14,20,,49.25373134
+13 Admisión - 36 2020B Maestría CUAAD,36,2020,B,Maestría,CUAAD,70,34,36,,39,21,18,,31,13,18,,55.71428571
+13 Admisión - 37 2020B Maestría CUCBA,37,2020,B,Maestría,CUCBA,73,22,51,,56,14,42,,17,8,9,,76.71232877
+13 Admisión - 38 2020B Maestría CUALTOS,38,2020,B,Maestría,CUALTOS,14,6,8,,7,2,5,,7,4,3,,50
+13 Admisión - 39 2020B Maestría CUCIÉNEGA,39,2020,B,Maestría,CUCIÉNEGA,14,4,10,,7,2,5,,7,2,5,,50
+13 Admisión - 40 2020B Maestría CUSUR,40,2020,B,Maestría,CUSUR,39,19,20,,24,12,12,,15,7,8,,61.53846154
+13 Admisión - 41 2020B Maestría CUCOSTA,41,2020,B,Maestría,CUCOSTA,94,45,49,,42,19,23,,52,26,26,,44.68085106
+13 Admisión - 42 2020B Maestría CUCOSTASUR,42,2020,B,Maestría,CUCOSTASUR,39,23,16,,33,20,13,,6,3,3,,84.61538462
+13 Admisión - 43 2020B Maestría CUVALLES,43,2020,B,Maestría,CUVALLES,27,18,9,,24,15,9,,3,3,0,,88.88888889
+13 Admisión - 44 2020B Maestría CUNORTE,44,2020,B,Maestría,CUNORTE,45,25,20,,25,14,11,,20,11,9,,55.55555556
+13 Admisión - 45 2020B Maestría CULAGOS,45,2020,B,Maestría,CULAGOS,26,16,10,,7,5,2,,19,11,8,,26.92307692
+13 Admisión - 46 2020B Maestría CUTONALÁ,46,2020,B,Maestría,CUTONALÁ,25,13,12,,15,8,7,,10,5,5,,60
+13 Admisión - 47 2020B Maestría SUV,47,2020,B,Maestría,SUV,289,140,149,,94,42,52,,195,98,97,,32.52595156
+13 Admisión - 48 2020B Doctorado CUCEA,48,2020,B,Doctorado,CUCEA,63,41,22,,33,22,11,,30,19,11,,52.38095238
+13 Admisión - 49 2020B Doctorado CUCEI,49,2020,B,Doctorado,CUCEI,51,35,16,,22,13,9,,29,22,7,,43.1372549
+13 Admisión - 50 2020B Doctorado CUCSH,50,2020,B,Doctorado,CUCSH,45,24,21,,37,20,17,,8,4,4,,82.22222222
+13 Admisión - 51 2020B Doctorado CUCS,51,2020,B,Doctorado,CUCS,10,7,3,,7,5,2,,3,2,1,,70
+13 Admisión - 52 2020B Doctorado CUAAD,52,2020,B,Doctorado,CUAAD,30,17,13,,14,9,5,,16,8,8,,46.66666667
+13 Admisión - 53 2020B Doctorado CUCBA,53,2020,B,Doctorado,CUCBA,25,14,11,,18,11,7,,7,3,4,,72
+13 Admisión - 54 2020B Doctorado CUALTOS,54,2020,B,Doctorado,CUALTOS,11,7,4,,6,3,3,,5,4,1,,54.54545455
+13 Admisión - 55 2020B Doctorado CUCIÉNEGA,55,2020,B,Doctorado,CUCIÉNEGA,1,0,1,,0,0,0,,1,0,1,,0
+13 Admisión - 56 2020B Doctorado CUSUR,56,2020,B,Doctorado,CUSUR,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 57 2020B Doctorado CUCOSTA,57,2020,B,Doctorado,CUCOSTA,35,15,20,,16,9,7,,19,6,13,,45.71428571
+13 Admisión - 58 2020B Doctorado CUCOSTASUR,58,2020,B,Doctorado,CUCOSTASUR,5,3,2,,1,0,1,,4,3,1,,20
+13 Admisión - 59 2020B Doctorado CUVALLES,59,2020,B,Doctorado,CUVALLES,3,3,0,,3,3,0,,0,0,0,,100
+13 Admisión - 60 2020B Doctorado CUNORTE,60,2020,B,Doctorado,CUNORTE,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 61 2020B Doctorado CULAGOS,61,2020,B,Doctorado,CULAGOS,7,4,3,,2,1,1,,5,3,2,,28.57142857
+13 Admisión - 62 2020B Doctorado CUTONALÁ,62,2020,B,Doctorado,CUTONALÁ,23,11,12,,16,9,7,,7,2,5,,69.56521739
+13 Admisión - 63 2020B Doctorado SUV,63,2020,B,Doctorado,SUV,78,37,41,,26,11,15,,52,26,26,,33.33333333

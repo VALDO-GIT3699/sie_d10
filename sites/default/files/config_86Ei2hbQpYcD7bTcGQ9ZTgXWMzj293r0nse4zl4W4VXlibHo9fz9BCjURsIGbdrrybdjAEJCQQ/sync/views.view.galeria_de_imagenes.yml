@@ -255,6 +255,8 @@ display:
           settings:
             image_link: ''
             image_style: ''
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -538,6 +540,8 @@ display:
           settings:
             image_link: file
             image_style: noticia_nodo_550x450
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: false
@@ -691,6 +695,8 @@ display:
           settings:
             image_link: file
             image_style: galeria_nodo_160x160_
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: true

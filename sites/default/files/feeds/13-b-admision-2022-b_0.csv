@@ -1,0 +1,64 @@
+name,row,anio,calendario,nivel_educativo,entidad_universitaria,aspirantes_t,aspirantes_h,aspirantes_m,aspirantes_nb,admitidos_t,admitidos_h,admitidos_m,admitidos_nb,no_admitidos_t,no_admitidos_h,no_admitidos_m,no_admitidos_nb,por_admision
+13 Admisión - 1 2022B Bachillerato General SEMS,1,2022,B,Bachillerato General,SEMS,74778,35220,39558,,36324,16073,20251,,38454,19147,19307,,48.57578432
+13 Admisión - 2 2022B Bachillerato General SUV,2,2022,B,Bachillerato General,SUV,305,134,171,,93,38,55,,212,96,116,,30.49180328
+13 Admisión - 3 2022B Bachillerato Tecnológico SEMS,3,2022,B,Bachillerato Tecnológico,SEMS,6670,3571,3099,,3017,1536,1481,,3653,2035,1618,,45.23238381
+13 Admisión - 4 2022B Bachillerato Tecnológico CUAAD,4,2022,B,Bachillerato Tecnológico,CUAAD,374,237,137,,120,77,43,,254,160,94,,32.0855615
+13 Admisión - 5 2022B Bachillerato Tecnológico CUCS,5,2022,B,Bachillerato Tecnológico,CUCS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 6 2022B Bachillerato Tecnológico CUSUR,6,2022,B,Bachillerato Tecnológico,CUSUR,84,15,69,,21,3,18,,63,12,51,,25
+13 Admisión - 7 2022B Técnico Superior Universitario CUCS,7,2022,B,Técnico Superior Universitario,CUCS,758,308,450,,247,89,158,,511,219,292,,32.58575198
+13 Admisión - 8 2022B Técnico Superior Universitario CUCOSTASUR,8,2022,B,Técnico Superior Universitario,CUCOSTASUR,86,80,6,,50,49,1,,36,31,5,,58.13953488
+13 Admisión - 9 2022B Licenciatura CUCEA,9,2022,B,Licenciatura,CUCEA,9800,4568,5232,,2938,1349,1589,,6862,3219,3643,,29.97959184
+13 Admisión - 10 2022B Licenciatura CUCEI,10,2022,B,Licenciatura,CUCEI,9699,6813,2886,,2326,1691,635,,7373,5122,2251,,23.9818538
+13 Admisión - 11 2022B Licenciatura CUCSH,11,2022,B,Licenciatura,CUCSH,4976,1847,3129,,1452,524,928,,3524,1323,2201,,29.18006431
+13 Admisión - 12 2022B Licenciatura CUCS,12,2022,B,Licenciatura,CUCS,17172,4943,12229,,1623,581,1042,,15549,4362,11187,,9.451432565
+13 Admisión - 13 2022B Licenciatura CUAAD,13,2022,B,Licenciatura,CUAAD,7719,3057,4662,,867,357,510,,6852,2700,4152,,11.23202487
+13 Admisión - 14 2022B Licenciatura CUCBA,14,2022,B,Licenciatura,CUCBA,3028,1323,1705,,841,396,445,,2187,927,1260,,27.77410832
+13 Admisión - 15 2022B Licenciatura CUALTOS,15,2022,B,Licenciatura,CUALTOS,2763,982,1781,,578,222,356,,2185,760,1425,,20.91929063
+13 Admisión - 16 2022B Licenciatura CUCIÉNEGA,16,2022,B,Licenciatura,CUCIÉNEGA,2299,941,1358,,820,365,455,,1479,576,903,,35.6676816
+13 Admisión - 17 2022B Licenciatura CUSUR,17,2022,B,Licenciatura,CUSUR,3217,1148,2069,,871,333,538,,2346,815,1531,,27.07491452
+13 Admisión - 18 2022B Licenciatura CUCOSTA,18,2022,B,Licenciatura,CUCOSTA,3177,1319,1858,,1075,507,568,,2102,812,1290,,33.8369531
+13 Admisión - 19 2022B Licenciatura CUCOSTASUR,19,2022,B,Licenciatura,CUCOSTASUR,1143,527,616,,598,277,321,,545,250,295,,52.31846019
+13 Admisión - 20 2022B Licenciatura CUVALLES,20,2022,B,Licenciatura,CUVALLES,1961,759,1202,,873,400,473,,1088,359,729,,44.51810301
+13 Admisión - 21 2022B Licenciatura CUNORTE,21,2022,B,Licenciatura,CUNORTE,932,362,570,,654,257,397,,278,105,173,,70.17167382
+13 Admisión - 22 2022B Licenciatura CULAGOS,22,2022,B,Licenciatura,CULAGOS,854,424,430,,476,240,236,,378,184,194,,55.73770492
+13 Admisión - 23 2022B Licenciatura CUTONALÁ,23,2022,B,Licenciatura,CUTONALÁ,4933,2078,2855,,1097,514,583,,3836,1564,2272,,22.23798905
+13 Admisión - 24 2022B Licenciatura CUTLAJOMULCO,24,2022,B,Licenciatura,CUTLAJOMULCO,2447,985,1462,,573,253,320,,1874,732,1142,,23.41642828
+13 Admisión - 25 2022B Licenciatura SUV,25,2022,B,Licenciatura,SUV,2138,1036,1102,,833,374,459,,1305,662,643,,38.9616464
+13 Admisión - 26 2022B Especialidad CUCBA,26,2022,B,Especialidad,CUCBA,59,23,36,,0,0,0,,59,23,36,,0
+13 Admisión - 27 2022B Especialidad CUCS,27,2022,B,Especialidad,CUCS,3,1,2,,0,0,0,,3,1,2,,0
+13 Admisión - 28 2022B Especialidad CUALTOS,28,2022,B,Especialidad,CUALTOS,30,9,21,,14,6,8,,16,3,13,,46.66666667
+13 Admisión - 29 2022B Especialidad CUCOSTA,29,2022,B,Especialidad,CUCOSTA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 30 2022B Especialidad CUTONALÁ,30,2022,B,Especialidad,CUTONALÁ,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 31 2022B Especialidad CUSUR,31,2022,B,Especialidad,CUSUR,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 32 2022B Maestría CUCEA,32,2022,B,Maestría,CUCEA,382,204,178,,209,112,97,,173,92,81,,54.71204188
+13 Admisión - 33 2022B Maestría CUCEI,33,2022,B,Maestría,CUCEI,268,172,96,,100,64,36,,168,108,60,,37.31343284
+13 Admisión - 34 2022B Maestría CUCSH,34,2022,B,Maestría,CUCSH,163,56,107,,112,38,74,,51,18,33,,68.71165644
+13 Admisión - 35 2022B Maestría CUCS,35,2022,B,Maestría,CUCS,115,51,64,,51,25,26,,64,26,38,,44.34782609
+13 Admisión - 36 2022B Maestría CUAAD,36,2022,B,Maestría,CUAAD,83,42,41,,39,20,19,,44,22,22,,46.98795181
+13 Admisión - 37 2022B Maestría CUCBA,37,2022,B,Maestría,CUCBA,57,25,32,,35,14,21,,22,11,11,,61.40350877
+13 Admisión - 38 2022B Maestría CUALTOS,38,2022,B,Maestría,CUALTOS,10,4,6,,0,0,0,,10,4,6,,0
+13 Admisión - 39 2022B Maestría CUCIÉNEGA,39,2022,B,Maestría,CUCIÉNEGA,36,18,18,,11,5,6,,25,13,12,,30.55555556
+13 Admisión - 40 2022B Maestría CUSUR,40,2022,B,Maestría,CUSUR,54,28,26,,25,12,13,,29,16,13,,46.2962963
+13 Admisión - 41 2022B Maestría CUCOSTA,41,2022,B,Maestría,CUCOSTA,66,34,32,,49,23,26,,17,11,6,,74.24242424
+13 Admisión - 42 2022B Maestría CUCOSTASUR,42,2022,B,Maestría,CUCOSTASUR,56,29,27,,37,20,17,,19,9,10,,66.07142857
+13 Admisión - 43 2022B Maestría CUVALLES,43,2022,B,Maestría,CUVALLES,38,31,7,,18,14,4,,20,17,3,,47.36842105
+13 Admisión - 44 2022B Maestría CUNORTE,44,2022,B,Maestría,CUNORTE,150,94,56,,123,80,43,,27,14,13,,82
+13 Admisión - 45 2022B Maestría CULAGOS,45,2022,B,Maestría,CULAGOS,9,8,1,,2,2,0,,7,6,1,,22.22222222
+13 Admisión - 46 2022B Maestría CUTONALÁ,46,2022,B,Maestría,CUTONALÁ,29,18,11,,19,13,6,,10,5,5,,65.51724138
+13 Admisión - 47 2022B Maestría SUV,47,2022,B,Maestría,SUV,301,158,143,,100,58,42,,201,100,101,,33.22259136
+13 Admisión - 48 2022B Doctorado CUCEA,48,2022,B,Doctorado,CUCEA,80,54,26,,50,29,21,,30,25,5,,62.5
+13 Admisión - 49 2022B Doctorado CUCEI,49,2022,B,Doctorado,CUCEI,60,39,21,,30,17,13,,30,22,8,,50
+13 Admisión - 50 2022B Doctorado CUCSH,50,2022,B,Doctorado,CUCSH,58,35,23,,40,24,16,,18,11,7,,68.96551724
+13 Admisión - 51 2022B Doctorado CUCS,51,2022,B,Doctorado,CUCS,60,33,27,,24,11,13,,36,22,14,,40
+13 Admisión - 52 2022B Doctorado CUAAD,52,2022,B,Doctorado,CUAAD,25,15,10,,12,7,5,,13,8,5,,48
+13 Admisión - 53 2022B Doctorado CUCBA,53,2022,B,Doctorado,CUCBA,22,18,4,,12,10,2,,10,8,2,,54.54545455
+13 Admisión - 54 2022B Doctorado CUALTOS,54,2022,B,Doctorado,CUALTOS,10,5,5,,0,0,0,,10,5,5,,0
+13 Admisión - 55 2022B Doctorado CUCIÉNEGA,55,2022,B,Doctorado,CUCIÉNEGA,14,6,8,,1,0,1,,13,6,7,,7.142857143
+13 Admisión - 56 2022B Doctorado CUSUR,56,2022,B,Doctorado,CUSUR,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 57 2022B Doctorado CUCOSTA,57,2022,B,Doctorado,CUCOSTA,22,9,13,,10,5,5,,12,4,8,,45.45454545
+13 Admisión - 58 2022B Doctorado CUCOSTASUR,58,2022,B,Doctorado,CUCOSTASUR,20,12,8,,6,3,3,,14,9,5,,30
+13 Admisión - 59 2022B Doctorado CUVALLES,59,2022,B,Doctorado,CUVALLES,2,2,0,,2,2,0,,0,0,0,,100
+13 Admisión - 60 2022B Doctorado CUNORTE,60,2022,B,Doctorado,CUNORTE,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 61 2022B Doctorado CULAGOS,61,2022,B,Doctorado,CULAGOS,15,10,5,,4,2,2,,11,8,3,,26.66666667
+13 Admisión - 62 2022B Doctorado CUTONALÁ,62,2022,B,Doctorado,CUTONALÁ,47,25,22,,37,19,18,,10,6,4,,78.72340426
+13 Admisión - 63 2022B Doctorado SUV,63,2022,B,Doctorado,SUV,0,0,0,,0,0,0,,0,0,0,,0

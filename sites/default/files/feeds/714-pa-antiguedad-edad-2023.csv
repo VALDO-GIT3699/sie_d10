@@ -1,0 +1,77 @@
+name,row,anio,entidad_universitaria,categoria_academicos,a_0_a_4_anios,a_5_a_9_anios,a_10_a_14_anios,a_15_a_19_anios,a_20_a_24_anios,a_25_a_29_anios,a_30_a_34_anios,a_35_a_39_anios,a_40_a_44_anios,a_45_a_50_anios,a_51_o_mas_anios,edad_21_a_30,edad_31_a_40,edad_41_a_50,edad_51_a_60,edad_61_anios_o_mas
+714-2023-1 Antigüedad y edad de Docentes de CUCEA,1,2023,CUCEA,Docentes,8,4,16,22,27,19,33,11,5,3,1,0,9,37,64,39
+714-2023-2 Antigüedad y edad de Docentes de CUCEI,2,2023,CUCEI,Docentes,1,7,8,12,18,18,16,13,8,2,1,2,9,23,40,30
+714-2023-3 Antigüedad y edad de Docentes de CUCSH,3,2023,CUCSH,Docentes,8,7,16,22,31,26,36,21,9,6,1,2,15,36,73,57
+714-2023-4 Antigüedad y edad de Docentes de CUCS,4,2023,CUCS,Docentes,6,30,16,19,19,9,25,16,7,8,2,1,26,25,54,51
+714-2023-5 Antigüedad y edad de Docentes de CUAAD,5,2023,CUAAD,Docentes,3,3,7,8,17,13,14,7,2,1,0,0,6,8,31,30
+714-2023-6 Antigüedad y edad de Docentes de CUCBA,6,2023,CUCBA,Docentes,7,10,10,5,2,7,14,9,3,2,1,0,15,15,22,18
+714-2023-7 Antigüedad y edad de Docentes de CUALTOS,7,2023,CUALTOS,Docentes,4,8,8,11,4,3,9,1,0,0,0,0,9,18,14,7
+714-2023-8 Antigüedad y edad de Docentes de CUCIÉNEGA,8,2023,CUCIÉNEGA,Docentes,0,1,4,2,18,15,2,5,0,0,0,0,4,13,18,12
+714-2023-9 Antigüedad y edad de Docentes de CUSUR,9,2023,CUSUR,Docentes,1,2,2,2,10,7,5,9,2,1,0,0,3,10,13,15
+714-2023-10 Antigüedad y edad de Docentes de CUCOSTA,10,2023,CUCOSTA,Docentes,2,1,7,5,6,5,2,0,1,0,0,0,4,11,8,6
+714-2023-11 Antigüedad y edad de Docentes de CUCOSTASUR,11,2023,CUCOSTASUR,Docentes,3,3,2,5,6,6,7,5,0,0,0,0,6,5,16,10
+714-2023-12 Antigüedad y edad de Docentes de CUVALLES,12,2023,CUVALLES,Docentes,0,4,12,8,6,3,1,0,0,0,0,0,12,15,5,2
+714-2023-13 Antigüedad y edad de Docentes de CUNORTE,13,2023,CUNORTE,Docentes,0,4,5,4,1,2,1,0,0,0,0,0,4,7,6,0
+714-2023-14 Antigüedad y edad de Docentes de CULAGOS,14,2023,CULAGOS,Docentes,2,1,0,3,3,2,7,0,1,0,0,0,2,5,10,2
+714-2023-15 Antigüedad y edad de Docentes de CUTONALÁ,15,2023,CUTONALÁ,Docentes,11,18,10,10,5,5,3,3,0,0,0,0,25,27,10,3
+714-2023-16 Antigüedad y edad de Docentes de CUTLAJOMULCO,16,2023,CUTLAJOMULCO,Docentes,3,0,1,4,0,0,0,0,0,0,0,0,1,6,1,0
+714-2023-17 Antigüedad y edad de Docentes de SUV,17,2023,SUV,Docentes,1,3,2,11,8,2,2,1,1,0,0,0,5,13,9,4
+714-2023-18 Antigüedad y edad de Docentes de SEMS,18,2023,SEMS,Docentes,8,41,129,172,262,299,249,82,21,13,2,0,111,317,590,260
+714-2023-19 Antigüedad y edad de Docentes de AG,19,2023,AG,Docentes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+714-2023-20 Antigüedad y edad de Investigadores de CUCEA,20,2023,CUCEA,Investigadores,9,23,29,49,39,29,48,36,12,2,1,0,16,72,106,83
+714-2023-21 Antigüedad y edad de Investigadores de CUCEI,21,2023,CUCEI,Investigadores,20,92,52,53,45,47,55,36,5,5,1,0,63,144,133,71
+714-2023-22 Antigüedad y edad de Investigadores de CUCSH,22,2023,CUCSH,Investigadores,12,33,28,42,46,56,101,61,18,9,0,0,23,72,153,158
+714-2023-23 Antigüedad y edad de Investigadores de CUCS,23,2023,CUCS,Investigadores,19,83,38,34,30,20,66,52,18,8,1,0,70,89,98,112
+714-2023-24 Antigüedad y edad de Investigadores de CUAAD,24,2023,CUAAD,Investigadores,2,4,4,13,38,17,25,15,4,2,0,0,5,25,52,42
+714-2023-25 Antigüedad y edad de Investigadores de CUCBA,25,2023,CUCBA,Investigadores,2,28,12,33,20,24,53,37,10,3,0,0,16,42,88,76
+714-2023-26 Antigüedad y edad de Investigadores de CUALTOS,26,2023,CUALTOS,Investigadores,6,15,7,10,15,10,4,4,0,0,0,0,12,31,14,14
+714-2023-27 Antigüedad y edad de Investigadores de CUCIÉNEGA,27,2023,CUCIÉNEGA,Investigadores,2,15,12,33,28,40,6,1,0,0,0,0,13,52,60,12
+714-2023-28 Antigüedad y edad de Investigadores de CUSUR,28,2023,CUSUR,Investigadores,5,13,7,19,19,13,11,3,4,1,0,0,13,32,30,20
+714-2023-29 Antigüedad y edad de Investigadores de CUCOSTA,29,2023,CUCOSTA,Investigadores,2,8,11,17,37,15,15,5,0,0,0,0,5,41,34,30
+714-2023-30 Antigüedad y edad de Investigadores de CUCOSTASUR,30,2023,CUCOSTASUR,Investigadores,6,14,8,17,18,20,28,20,0,0,0,0,9,38,53,31
+714-2023-31 Antigüedad y edad de Investigadores de CUVALLES,31,2023,CUVALLES,Investigadores,13,31,15,16,20,5,3,0,0,0,0,0,23,52,23,5
+714-2023-32 Antigüedad y edad de Investigadores de CUNORTE,32,2023,CUNORTE,Investigadores,4,12,7,13,12,3,2,3,0,0,0,0,11,24,16,5
+714-2023-33 Antigüedad y edad de Investigadores de CULAGOS,33,2023,CULAGOS,Investigadores,0,10,10,39,8,3,2,3,0,0,0,0,9,34,27,5
+714-2023-34 Antigüedad y edad de Investigadores de CUTONALÁ,34,2023,CUTONALÁ,Investigadores,6,46,31,12,7,10,3,0,1,1,0,0,22,69,22,4
+714-2023-35 Antigüedad y edad de Investigadores de CUTLAJOMULCO,35,2023,CUTLAJOMULCO,Investigadores,8,1,2,0,0,0,0,0,0,0,0,0,6,5,0,0
+714-2023-36 Antigüedad y edad de Investigadores de SUV,36,2023,SUV,Investigadores,2,4,8,19,12,9,11,9,0,0,0,0,4,32,26,12
+714-2023-37 Antigüedad y edad de Investigadores de SEMS,37,2023,SEMS,Investigadores,0,0,1,0,0,4,0,0,0,0,0,0,1,2,2,0
+714-2023-38 Antigüedad y edad de Investigadores de AG,38,2023,AG,Investigadores,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+714-2023-39 Antigüedad y edad de Técnicos académicos de CUCEA,39,2023,CUCEA,Técnicos académicos,1,4,4,0,1,2,1,2,0,0,0,0,5,6,2,2
+714-2023-40 Antigüedad y edad de Técnicos académicos de CUCEI,40,2023,CUCEI,Técnicos académicos,16,34,10,11,6,10,11,0,0,0,0,11,37,18,26,6
+714-2023-41 Antigüedad y edad de Técnicos académicos de CUCSH,41,2023,CUCSH,Técnicos académicos,6,2,2,0,4,4,13,3,1,0,0,3,5,7,10,10
+714-2023-42 Antigüedad y edad de Técnicos académicos de CUCS,42,2023,CUCS,Técnicos académicos,12,18,14,14,10,19,40,19,4,1,0,0,29,23,55,44
+714-2023-43 Antigüedad y edad de Técnicos académicos de CUAAD,43,2023,CUAAD,Técnicos académicos,0,11,5,2,1,0,2,1,0,0,0,0,9,10,1,2
+714-2023-44 Antigüedad y edad de Técnicos académicos de CUCBA,44,2023,CUCBA,Técnicos académicos,9,12,4,9,2,3,11,4,0,0,0,3,19,10,13,9
+714-2023-45 Antigüedad y edad de Técnicos académicos de CUALTOS,45,2023,CUALTOS,Técnicos académicos,9,7,13,12,5,0,1,0,0,0,0,6,20,16,1,4
+714-2023-46 Antigüedad y edad de Técnicos académicos de CUCIÉNEGA,46,2023,CUCIÉNEGA,Técnicos académicos,4,12,5,3,3,5,0,1,0,0,0,2,17,9,5,0
+714-2023-47 Antigüedad y edad de Técnicos académicos de CUSUR,47,2023,CUSUR,Técnicos académicos,2,4,1,2,3,4,4,1,0,0,0,0,5,3,10,3
+714-2023-48 Antigüedad y edad de Técnicos académicos de CUCOSTA,48,2023,CUCOSTA,Técnicos académicos,0,5,5,4,2,1,0,0,0,0,0,1,7,5,4,0
+714-2023-49 Antigüedad y edad de Técnicos académicos de CUCOSTASUR,49,2023,CUCOSTASUR,Técnicos académicos,0,9,3,1,2,3,2,1,0,0,0,0,9,7,5,0
+714-2023-50 Antigüedad y edad de Técnicos académicos de CUVALLES,50,2023,CUVALLES,Técnicos académicos,0,4,1,2,4,0,0,0,0,0,0,0,3,6,2,0
+714-2023-51 Antigüedad y edad de Técnicos académicos de CUNORTE,51,2023,CUNORTE,Técnicos académicos,1,5,6,1,0,0,0,1,0,0,0,0,9,3,2,0
+714-2023-52 Antigüedad y edad de Técnicos académicos de CULAGOS,52,2023,CULAGOS,Técnicos académicos,0,7,9,7,1,3,2,0,0,0,0,0,8,11,10,0
+714-2023-53 Antigüedad y edad de Técnicos académicos de CUTONALÁ,53,2023,CUTONALÁ,Técnicos académicos,5,10,4,2,2,1,3,0,0,0,0,4,10,8,4,1
+714-2023-54 Antigüedad y edad de Técnicos académicos de CUTLAJOMULCO,54,2023,CUTLAJOMULCO,Técnicos académicos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+714-2023-55 Antigüedad y edad de Técnicos académicos de SUV,55,2023,SUV,Técnicos académicos,0,1,2,6,2,0,0,0,0,0,0,0,0,9,2,0
+714-2023-56 Antigüedad y edad de Técnicos académicos de SEMS,56,2023,SEMS,Técnicos académicos,140,241,170,134,94,91,91,29,6,0,0,89,326,263,230,88
+714-2023-57 Antigüedad y edad de Técnicos académicos de AG,57,2023,AG,Técnicos académicos,0,2,0,0,0,4,11,5,0,0,0,0,1,2,18,1
+714-2023-58 Antigüedad y edad de Profesores de asignatura de CUCEA,58,2023,CUCEA,Profesores de asignatura,101,129,123,72,66,36,46,13,2,0,0,6,189,185,132,76
+714-2023-59 Antigüedad y edad de Profesores de asignatura de CUCEI,59,2023,CUCEI,Profesores de asignatura,109,123,54,51,66,36,31,20,8,1,0,20,184,129,94,72
+714-2023-60 Antigüedad y edad de Profesores de asignatura de CUCSH,60,2023,CUCSH,Profesores de asignatura,40,67,76,40,58,55,27,10,1,2,0,4,64,111,104,93
+714-2023-61 Antigüedad y edad de Profesores de asignatura de CUCS,61,2023,CUCS,Profesores de asignatura,230,394,140,116,66,32,70,32,27,9,3,30,361,310,209,209
+714-2023-62 Antigüedad y edad de Profesores de asignatura de CUAAD,62,2023,CUAAD,Profesores de asignatura,60,67,84,57,56,31,35,12,2,1,0,7,101,114,108,75
+714-2023-63 Antigüedad y edad de Profesores de asignatura de CUCBA,63,2023,CUCBA,Profesores de asignatura,36,49,25,19,2,5,12,3,4,1,0,6,59,41,22,28
+714-2023-64 Antigüedad y edad de Profesores de asignatura de CUALTOS,64,2023,CUALTOS,Profesores de asignatura,38,58,65,52,17,4,6,1,0,0,0,4,80,84,51,22
+714-2023-65 Antigüedad y edad de Profesores de asignatura de CUCIÉNEGA,65,2023,CUCIÉNEGA,Profesores de asignatura,34,35,33,61,51,48,4,2,0,0,0,4,56,100,84,24
+714-2023-66 Antigüedad y edad de Profesores de asignatura de CUSUR,66,2023,CUSUR,Profesores de asignatura,36,88,111,66,43,22,6,8,2,0,0,2,108,125,84,63
+714-2023-67 Antigüedad y edad de Profesores de asignatura de CUCOSTA,67,2023,CUCOSTA,Profesores de asignatura,47,86,101,62,47,14,1,0,1,0,0,14,111,104,86,44
+714-2023-68 Antigüedad y edad de Profesores de asignatura de CUCOSTASUR,68,2023,CUCOSTASUR,Profesores de asignatura,44,42,24,33,36,13,4,3,1,0,0,9,62,67,44,18
+714-2023-69 Antigüedad y edad de Profesores de asignatura de CUVALLES,69,2023,CUVALLES,Profesores de asignatura,70,44,24,16,18,0,0,0,0,0,0,10,97,44,15,6
+714-2023-70 Antigüedad y edad de Profesores de asignatura de CUNORTE,70,2023,CUNORTE,Profesores de asignatura,23,133,78,34,11,3,1,1,0,0,0,9,120,104,48,3
+714-2023-71 Antigüedad y edad de Profesores de asignatura de CULAGOS,71,2023,CULAGOS,Profesores de asignatura,10,27,30,30,17,9,7,1,2,0,0,1,32,49,36,15
+714-2023-72 Antigüedad y edad de Profesores de asignatura de CUTONALÁ,72,2023,CUTONALÁ,Profesores de asignatura,130,131,58,18,4,4,2,1,0,0,0,30,172,103,40,3
+714-2023-73 Antigüedad y edad de Profesores de asignatura de CUTLAJOMULCO,73,2023,CUTLAJOMULCO,Profesores de asignatura,82,9,3,2,2,0,0,0,0,0,0,5,54,32,4,3
+714-2023-74 Antigüedad y edad de Profesores de asignatura de SUV,74,2023,SUV,Profesores de asignatura,14,21,86,118,29,16,10,4,0,0,0,1,43,136,83,35
+714-2023-75 Antigüedad y edad de Profesores de asignatura de SEMS,75,2023,SEMS,Profesores de asignatura,1007,1175,963,594,406,388,267,63,12,5,0,450,1770,1211,1058,391
+714-2023-76 Antigüedad y edad de Profesores de asignatura de AG,76,2023,AG,Profesores de asignatura,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1

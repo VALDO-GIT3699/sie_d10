@@ -1,0 +1,63 @@
+name,row,anio,calendario,nivel_educativo,entidad_universitaria,aspirantes_t,aspirantes_h,aspirantes_m,aspirantes_nb,admitidos_t,admitidos_h,admitidos_m,admitidos_nb,no_admitidos_t,no_admitidos_h,no_admitidos_m,no_admitidos_nb,por_admision
+13 Admisión - 1 2018A Bachillerato General SEMS,1,2018,A,Bachillerato General,SEMS,37064,18180,18884,,19077,8984,10093,,17987,9196,8791,,51.47042953
+13 Admisión - 2 2018A Bachillerato General SUV,2,2018,A,Bachillerato General,SUV,223,114,109,,81,40,41,,142,74,68,,36.32286996
+13 Admisión - 3 2018A Bachillerato Tecnológico y Profesional Medio SEMS,3,2018,A,Bachillerato Tecnológico y Profesional Medio,SEMS,3521,2012,1509,,2035,1106,929,,1486,906,580,,57.79608066
+13 Admisión - 4 2018A Bachillerato Tecnológico y Profesional Medio CUAAD,4,2018,A,Bachillerato Tecnológico y Profesional Medio,CUAAD,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 5 2018A Bachillerato Tecnológico y Profesional Medio CUCS,5,2018,A,Bachillerato Tecnológico y Profesional Medio,CUCS,475,122,353,,207,50,157,,268,72,196,,43.57894737
+13 Admisión - 6 2018A Bachillerato Tecnológico y Profesional Medio CUSUR,6,2018,A,Bachillerato Tecnológico y Profesional Medio,CUSUR,73,30,43,,40,17,23,,33,13,20,,54.79452055
+13 Admisión - 7 2018A Técnico Superior Universitario CUCS,7,2018,A,Técnico Superior Universitario,CUCS,1432,566,866,,310,122,188,,1122,444,678,,21.64804469
+13 Admisión - 8 2018A Técnico Superior Universitario CUCOSTASUR,8,2018,A,Técnico Superior Universitario,CUCOSTASUR,50,49,1,,37,37,0,,13,12,1,,74
+13 Admisión - 9 2018A Licenciatura CUCEA,9,2018,A,Licenciatura,CUCEA,7360,3680,3680,,2694,1333,1361,,4666,2347,2319,,36.60326087
+13 Admisión - 10 2018A Licenciatura CUCEI,10,2018,A,Licenciatura,CUCEI,6478,4676,1802,,2135,1557,578,,4343,3119,1224,,32.95770299
+13 Admisión - 11 2018A Licenciatura CUCSH,11,2018,A,Licenciatura,CUCSH,4537,1866,2671,,1423,584,839,,3114,1282,1832,,31.36433767
+13 Admisión - 12 2018A Licenciatura CUCS,12,2018,A,Licenciatura,CUCS,8602,2918,5684,,1478,462,1016,,7124,2456,4668,,17.18205069
+13 Admisión - 13 2018A Licenciatura CUAAD,13,2018,A,Licenciatura,CUAAD,4146,2059,2087,,875,403,472,,3271,1656,1615,,21.10467921
+13 Admisión - 14 2018A Licenciatura CUCBA,14,2018,A,Licenciatura,CUCBA,1845,888,957,,864,422,442,,981,466,515,,46.82926829
+13 Admisión - 15 2018A Licenciatura CUALTOS,15,2018,A,Licenciatura,CUALTOS,1407,503,904,,423,157,266,,984,346,638,,30.06396588
+13 Admisión - 16 2018A Licenciatura CUCIÉNEGA,16,2018,A,Licenciatura,CUCIÉNEGA,1254,630,624,,775,400,375,,479,230,249,,61.80223285
+13 Admisión - 17 2018A Licenciatura CUSUR,17,2018,A,Licenciatura,CUSUR,2254,983,1271,,901,391,510,,1353,592,761,,39.97338066
+13 Admisión - 18 2018A Licenciatura CUCOSTA ,18,2018,A,Licenciatura,CUCOSTA ,1637,754,883,,771,390,381,,866,364,502,,47.09835064
+13 Admisión - 19 2018A Licenciatura CUCOSTASUR,19,2018,A,Licenciatura,CUCOSTASUR,706,340,366,,488,228,260,,218,112,106,,69.12181303
+13 Admisión - 20 2018A Licenciatura CUVALLES,20,2018,A,Licenciatura,CUVALLES,1192,503,689,,694,289,405,,498,214,284,,58.22147651
+13 Admisión - 21 2018A Licenciatura CUNORTE,21,2018,A,Licenciatura,CUNORTE,450,218,232,,334,156,178,,116,62,54,,74.22222222
+13 Admisión - 22 2018A Licenciatura CULAGOS,22,2018,A,Licenciatura,CULAGOS,452,230,222,,288,143,145,,164,87,77,,63.71681416
+13 Admisión - 23 2018A Licenciatura CUTONALÁ,23,2018,A,Licenciatura,CUTONALÁ,3205,1487,1718,,1020,514,506,,2185,973,1212,,31.82527301
+13 Admisión - 24 2018A Licenciatura SUV,24,2018,A,Licenciatura,SUV,1591,782,809,,691,336,355,,900,446,454,,43.4318039
+13 Admisión - 25 2018A Especialidad CUCBA,25,2018,A,Especialidad,CUCBA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 26 2018A Especialidad CUCS,26,2018,A,Especialidad,CUCS,1271,669,602,,1104,578,526,,167,91,76,,86.86073958
+13 Admisión - 27 2018A Especialidad CUALTOS,27,2018,A,Especialidad,CUALTOS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 28 2018A Especialidad CUCOSTA,28,2018,A,Especialidad,CUCOSTA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 29 2018A Especialidad CUTONALÁ,29,2018,A,Especialidad,CUTONALÁ,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 30 2018A Especialidad CUSUR,30,2018,A,Especialidad,CUSUR,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 31 2018A Maestría CUCEA,31,2018,A,Maestría,CUCEA,337,208,129,,192,120,72,,145,88,57,,56.97329377
+13 Admisión - 32 2018A Maestría CUCEI,32,2018,A,Maestría,CUCEI,57,42,15,,23,16,7,,34,26,8,,40.35087719
+13 Admisión - 33 2018A Maestría CUCSH,33,2018,A,Maestría,CUCSH,80,44,36,,46,24,22,,34,20,14,,57.5
+13 Admisión - 34 2018A Maestría CUCS,34,2018,A,Maestría,CUCS,43,11,32,,25,5,20,,18,6,12,,58.13953488
+13 Admisión - 35 2018A Maestría CUAAD,35,2018,A,Maestría,CUAAD,46,31,15,,36,27,9,,10,4,6,,78.26086957
+13 Admisión - 36 2018A Maestría CUCBA,36,2018,A,Maestría,CUCBA,36,17,19,,25,13,12,,11,4,7,,69.44444444
+13 Admisión - 37 2018A Maestría CUALTOS,37,2018,A,Maestría,CUALTOS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 38 2018A Maestría CUCIÉNEGA,38,2018,A,Maestría,CUCIÉNEGA,28,12,16,,10,5,5,,18,7,11,,35.71428571
+13 Admisión - 39 2018A Maestría CUSUR,39,2018,A,Maestría,CUSUR,27,14,13,,25,12,13,,2,2,0,,92.59259259
+13 Admisión - 40 2018A Maestría CUCOSTA,40,2018,A,Maestría,CUCOSTA,4,2,2,,0,0,0,,4,2,2,,0
+13 Admisión - 41 2018A Maestría CUCOSTASUR,41,2018,A,Maestría,CUCOSTASUR,50,29,21,,47,27,20,,3,2,1,,94
+13 Admisión - 42 2018A Maestría CUVALLES,42,2018,A,Maestría,CUVALLES,18,10,8,,5,4,1,,13,6,7,,27.77777778
+13 Admisión - 43 2018A Maestría CUNORTE,43,2018,A,Maestría,CUNORTE,131,82,49,,107,68,39,,24,14,10,,81.67938931
+13 Admisión - 44 2018A Maestría CULAGOS,44,2018,A,Maestría,CULAGOS,4,2,2,,0,0,0,,4,2,2,,0
+13 Admisión - 45 2018A Maestría CUTONALÁ,45,2018,A,Maestría,CUTONALÁ,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 46 2018A Maestría SUV,46,2018,A,Maestría,SUV,96,58,38,,27,17,10,,69,41,28,,28.125
+13 Admisión - 47 2018A Doctorado CUCEA,47,2018,A,Doctorado,CUCEA,14,12,2,,10,8,2,,4,4,0,,71.42857143
+13 Admisión - 48 2018A Doctorado CUCEI,48,2018,A,Doctorado,CUCEI,29,20,9,,18,12,6,,11,8,3,,62.06896552
+13 Admisión - 49 2018A Doctorado CUCSH,49,2018,A,Doctorado,CUCSH,24,11,13,,22,10,12,,2,1,1,,91.66666667
+13 Admisión - 50 2018A Doctorado CUCS,50,2018,A,Doctorado,CUCS,139,65,74,,69,27,42,,70,38,32,,49.64028777
+13 Admisión - 51 2018A Doctorado CUAAD,51,2018,A,Doctorado,CUAAD,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 52 2018A Doctorado CUCBA,52,2018,A,Doctorado,CUCBA,7,2,5,,6,2,4,,1,0,1,,85.71428571
+13 Admisión - 53 2018A Doctorado CUALTOS,53,2018,A,Doctorado,CUALTOS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 54 2018A Doctorado CUCIÉNEGA,54,2018,A,Doctorado,CUCIÉNEGA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 55 2018A Doctorado CUSUR,55,2018,A,Doctorado,CUSUR,7,0,7,,5,0,5,,2,0,2,,71.42857143
+13 Admisión - 56 2018A Doctorado CUCOSTA,56,2018,A,Doctorado,CUCOSTA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 57 2018A Doctorado CUCOSTASUR,57,2018,A,Doctorado,CUCOSTASUR,2,2,0,,0,0,0,,2,2,0,,0
+13 Admisión - 58 2018A Doctorado CUVALLES,58,2018,A,Doctorado,CUVALLES,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 59 2018A Doctorado CUNORTE,59,2018,A,Doctorado,CUNORTE,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 60 2018A Doctorado CULAGOS,60,2018,A,Doctorado,CULAGOS,9,6,3,,5,4,1,,4,2,2,,55.55555556
+13 Admisión - 61 2018A Doctorado CUTONALÁ,61,2018,A,Doctorado,CUTONALÁ,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 62 2018A Doctorado SUV,62,2018,A,Doctorado,SUV,0,0,0,,0,0,0,,0,0,0,,0

@@ -1,7 +1,7 @@
 INTRODUCTION
 ------------
 
-Send emails via SMTP using the latest PHPMailer library. This module is strictly for sending emails only, it does nothing to the formatting or structure of the email body itself. It aims to be fully compliant with the relevant RFCs.
+Send emails via SMTP using the latest PHPMailer library.
 
 * For a full description of the module, visit the [project page](http://drupal.org/project/phpmailer_smtp).
 * Use the [issue queue](http://drupal.org/project/issues/phpmailer_smtp) to submit bug reports and feature suggestions, or to track changes,
@@ -11,15 +11,8 @@ REQUIREMENTS
 ------------
 
 * Access to an SMTP server
-* The [Mail System module](http://www.drupal.org/project/mailsystem). This allows you specify different backends for
-  formatting and sending e-mails
+* The [Mail System module](http://www.drupal.org/project/mailsystem).
 * PHPMailer library 6 - installed via composer
-
-**Optional**
-
-* To connect to an SMTP server using SSL/TLS, your PHP installation needs to
-  have SSL support.
-* [Mime Mail](http://www.drupal.org/project/mimemail) module to format HTML emails
 
 INSTALLATION
 ------------
@@ -40,11 +33,13 @@ CONFIGURATION
   allowed to access the module configuration page.
 * Configure your SMTP server settings at Administer >> Configuration >>
   PHPMailer SMTP.
+* Configure email format settings at Administer >> Configuration >>
+  PHPMailer SMTP >> Format.
 * Configure your Mail System settings at Administer >> Configuration >>
   Mail System.
 
-  Select "PHPMailer SMTP" as "Sender" under "Default Mail System" and "Module-
-  Specific Configuration" as required.
+  Select "PHPMailer SMTP" as "Sender" and "Formatter" under "Default Mail System" and 
+  "Module-Specific Configuration" as required.
 
 EXAMPLES
 --------
@@ -88,25 +83,26 @@ Port 465 is now encouraged: https://tools.ietf.org/html/rfc8314
   development site.  To enable this feature, add the following lines to the end
   of your settings.php (usually located in sites/default):
 
-    $conf['system.maintenance']['phpmailer_smtp_debug_email']
-      = 'your_debug_email@yoursite.com';
+    $conf['system.maintenance']['phpmailer_smtp_debug_email'] = 'your_debug_email@yoursite.com';
 
   This will change the recipient of all e-mails to the configured address.
 
 OAUTH2
 ------
 
-Version 2.1.x supports a very basic plugin structure for OAuth2 authentication.
+A simple plugin type is used for OAuth2 integration.
 
-To implement, extend `src/Plugin/PHPMailerOAuth2PluginBase`. 
+To implement, extend `Drupal\phpmailer_smtp\Plugin\PhpmailerOauth2\PhpmailerOauth2PluginBase`. 
 
 The method `getAuthOptions()` must return an array of options which PHPMailer expects, including
 the provider.  See `__construct()` in [PHPMailer's OAuth2 class](https://github.com/PHPMailer/PHPMailer/blob/master/src/OAuth.php).
 
-The provider is an instance of the [League OAuth Client Provider](https://oauth2-client.thephpleague.com/).
-
 **Example Oauth2 Provider**
 
-The [PHPMailer OAuth2](https://www.drupal.org/project/phpmailer_oauth2) module provides a plugin to authenticate with Azure using the client [Azure Active Directory Provider for OAuth 2.0 Client](https://github.com/theNetworg/oauth2-azure).
+The [PHPMailer OAuth2](https://www.drupal.org/project/phpmailer_oauth2) module 
+provides a plugin to authenticate with Azure using the client [Azure Active Directory Provider for OAuth 2.0 Client](https://github.com/theNetworg/oauth2-azure).
 
+**PHPMailer documentation**
 
+* [PHPMailer Wiki](https://github.com/PHPMailer/PHPMailer/wiki)
+* [PHPMailer examples](https://github.com/PHPMailer/PHPMailer/tree/master/examples)

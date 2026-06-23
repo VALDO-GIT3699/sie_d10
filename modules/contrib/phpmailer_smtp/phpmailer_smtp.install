@@ -26,7 +26,7 @@ function phpmailer_smtp_requirements($phase) {
     ];
   }
   else {
-    $required_version = '6.6.0';
+    $required_version = '6.9.1';
     $installed_version = $mail::VERSION;
     $requirements['phpmailer_smtp'] = [
       'title' => (string) t('PHPMailer library'),
@@ -61,5 +61,23 @@ function phpmailer_smtp_update_8001() {
 function phpmailer_smtp_update_8002() {
   \Drupal::configFactory()->getEditable('phpmailer_smtp.settings')
     ->set('smtp_authentication_type', 'basic_auth')
+    ->save(TRUE);
+}
+
+/**
+ * Add Email format setting.
+ */
+function phpmailer_smtp_update_8003() {
+  \Drupal::configFactory()->getEditable('phpmailer_smtp.format')
+    ->set('format', 'plain_text')
+    ->save(TRUE);
+}
+
+/**
+ * Add Send all email as HTML setting.
+ */
+function phpmailer_smtp_update_8004() {
+  \Drupal::configFactory()->getEditable('phpmailer_smtp.format')
+    ->set('force_html', 0)
     ->save(TRUE);
 }

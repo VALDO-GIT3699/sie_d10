@@ -1,0 +1,738 @@
+row,clave_carrera,nombre_carrera_911,nivel_educativo,campo_clasificacion,modalidad
+1,5033100003,Abogado,Licenciatura,Derecho,Escolarizada
+2,8071200008,Doc. en Agua y Energía,Doctorado,Electricidad y generación de energía,Escolarizada
+3,8021000010,Doc. en Arte y Cultura,Doctorado,Planes multidisciplinarios o generales del campo de artes,Escolarizada
+4,8095200001,Doc. en Biociencias,Doctorado,Biomedicina,Escolarizada
+5,8052200001,Doc. en Ciencia de Materiales,Doctorado,Química,Escolarizada
+6,8031100002,Doc. en Ciencia del Comportamiento,Doctorado,Psicología,Escolarizada
+7,8031300003,Doc. en Ciencia Política,Doctorado,Ciencias políticas,Escolarizada
+8,8071000002,Doc. en Ciencia y Tecnología,Doctorado,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",Escolarizada
+9,8052000002,Doc. en Ciencias,Doctorado,"Planes multidisciplinarios o generales del campo de ciencias físicas, químicas y de la tierra.",Escolarizada
+10,8081100028,Doc. en Ciencias Agrícolas y Forestales,Doctorado,Producción y explotación agrícola y ganadera,Escolarizada
+11,8051100004,Doc. en Ciencias Biológicas,Doctorado,Biología,Escolarizada
+12,8095200003,Doc. en Ciencias Biomédicas,Doctorado,Biomedicina,Escolarizada
+13,8081100033,Doc. en Ciencias con Orientación en Ciencias Biológicas y Agropecuarias,Doctorado,Producción y explotación agrícola y ganadera,Escolarizada
+14,8042000005,Doc. en Ciencias de la Administración,Doctorado,Planes multidisciplinarios o generales del campo de administración y gestión,Escolarizada
+15,8071300016,Doc. en Ciencias de la Electrónica y la Computación,Doctorado,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+16,8072100013,Doc. en Ciencias de la Nutrición Traslacional,Doctorado,Industria de la alimentación,Escolarizada
+17,8091325001,Doc. en Ciencias de la Salud en el Trabajo,Doctorado,Medicina de especialidad,Escolarizada
+18,8091100003,Doc. en Ciencias de la Salud Ocupacional,Doctorado,Medicina general,Escolarizada
+19,8091345002,Doc. en Ciencias de la Salud Orientación en Investigación Clínica,Doctorado,Medicina de especialidad,Escolarizada
+20,8095600001,Doc. en Ciencias de la Salud Pública,Doctorado,Salud pública,Escolarizada
+21,8031400004,Doc. en Ciencias Económico Administrativas,Doctorado,Economía,Escolarizada
+22,8051200020,Doc. en Ciencias en Biología Molecular en Medicina,Doctorado,Bioquímica y biofísica,Escolarizada
+23,8051300007,"Doc. en Ciencias en Biosistemática, Ecología y Manejo de Recursos Naturales y Agrícolas",Doctorado,Ecología y ciencias ambientales,Escolarizada
+24,8051100024,Doc. en Ciencias en Ecofisiología y Recursos Genéticos,Doctorado,Biología,Escolarizada
+25,8052100009,Doc. en Ciencias en Física,Doctorado,Física y astronomía,Escolarizada
+26,8071000012,Doc. en Ciencias en Ing.,Doctorado,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",Escolarizada
+27,8052200018,Doc. en Ciencias en Ing. Química,Doctorado,Química,Escolarizada
+28,8053100005,Doc. en Ciencias en Matemáticas,Doctorado,Matemáticas,Escolarizada
+29,8052000007,Doc. en Ciencias en Microbiología y la Biotecnología Molecular,Doctorado,"Planes multidisciplinarios o generales del campo de ciencias físicas, químicas y de la tierra.",Escolarizada
+30,8071400003,Doc. en Ciencias en Procesos Biotecnológicos,Doctorado,Ingeniería de procesos químicos,Escolarizada
+31,8052200009,Doc. en Ciencias en Química,Doctorado,Química,Escolarizada
+32,8052100019,Doc. en Ciencias Físico Matemáticas,Doctorado,Física y astronomía,Escolarizada
+33,8051300013,Doc. en Ciencias para el Desarrollo Sustentable,Doctorado,Ecología y ciencias ambientales,Escolarizada
+34,8042200004,"Doc. en Ciencias para el Desarrollo, la Sustentabilidad y el Turismo",Doctorado,Administración turísticas y de restaurantes,Escolarizada
+35,8031000001,Doc. en Ciencias Sociales,Doctorado,Planes multidisciplinarios o generales del campo de ciencias sociales y estudios del comportamiento,Escolarizada
+36,8095000001,Doc. en Ciencias Socio Médicas,Doctorado,Planes multidisciplinarios o generales del campo de disciplinas auxiliares para la salud,Escolarizada
+37,8073100010,"Doc. en Ciudad, Territorio y Sustentabilidad",Doctorado,Arquitectura y urbanismo,Escolarizada
+38,8011000006,Doc. en Cognición y Aprendizaje,Doctorado,Planes multidisciplinarios o generales del campo de ciencias de la educación y pedagogía,Escolarizada
+39,8033100009,Doc. en Derecho,Doctorado,Derecho,Escolarizada
+40,8033100003,Doc. en Derechos Humanos,Doctorado,Derecho,Escolarizada
+41,8011500003,Doc. en Educación,Doctorado,Ciencias de la educación,Escolarizada
+42,8031400014,Doc. en Estudios Económicos,Doctorado,Economía,Escolarizada
+43,8041400003,Doc. en Estudios Fiscales,Doctorado,Contabilidad y fiscalización,Escolarizada
+44,8022300013,Doc. en Estudios Literarios y Lingüísticos,Doctorado,Literatura,Escolarizada
+45,8031200023,Doc. en Estudios Regionales,Doctorado,Sociología y antropología,Escolarizada
+46,8051200017,Doc. en Farmacología,Doctorado,Bioquímica y biofísica,Escolarizada
+47,8051100012,Doc. en Genética Humana,Doctorado,Biología,Escolarizada
+48,8052300012,Doc. en Geografía y Ordenación Territorial,Doctorado,Ciencias de la tierra y de la atmósfera,Escolarizada
+49,8021000011,Doc. en Gestión de la Cultura,Doctorado,Planes multidisciplinarios o generales del campo de artes,No Escolarizada
+50,8042500005,Doc. en Gestión de la Educación Superior,Doctorado,"Administración en los campos de la educación, salud, deporte, agronomía y las artes y humanidades",Escolarizada
+51,8042000014,Doc. en Gestión y Negocios,Doctorado,Planes multidisciplinarios o generales del campo de administración y gestión,Escolarizada
+52,8022500004,Doc. en Historia,Doctorado,Historia y arqueología,Escolarizada
+53,8022000001,Doc. en Humanidades,Doctorado,Planes multidisciplinarios o generales del campo de humanidades,Escolarizada
+54,8042100049,Doc. en Innovación para el Hábitat Sustentable,Doctorado,Administración de empresas,Escolarizada
+55,8091345005,Doc. en Investigación Clínica,Doctorado,Medicina de especialidad,Escolarizada
+56,8091345016,Doc. en Investigación Multidisciplinaria en Salud,Doctorado,Medicina de especialidad,Escolarizada
+57,8022300004,Doc. en Letras,Doctorado,Literatura,Escolarizada
+58,8095000003,Doc. en Microbiología Médica,Doctorado,Planes multidisciplinarios o generales del campo de disciplinas auxiliares para la salud,Escolarizada
+59,8102100001,"Doc. en Movilidad Urbana, Transporte y Territorio",Doctorado,Servicios de transporte,Escolarizada
+60,8031400010,Doc. en Negocios y Estudios Económicos,Doctorado,Economía,Escolarizada
+61,8031300020,Doc. en Políticas Públicas y Desarrollo,Doctorado,Ciencias políticas,Escolarizada
+62,8031100026,Doc. en Psicología con Orientación en Calidad de Vida y Salud,Doctorado,Psicología,Escolarizada
+63,8011400005,Doc. en Sistemas y Ambientes Educativos,Doctorado,Tecnología y comunicación educativa,No Escolarizada
+64,8062200005,Doc. en Tecnologías de Información,Doctorado,Informática,Escolarizada
+65,8031100011,Doc. Interinstitucional en Psicología,Doctorado,Psicología,Escolarizada
+66,6092204007,Esp. de Enfermería en Salud Pública,Especialidad,Enfermería de especialidad,Escolarizada
+67,6091319001,Esp. en Alergia e Inmunología Clínica,Especialidad,Medicina de especialidad,Escolarizada
+68,6091319004,Esp. en Alergia e Inmunología Clínica Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+69,6091329001,Esp. en Anatomía Patológica,Especialidad,Medicina de especialidad,Escolarizada
+70,6091301004,Esp. en Anestesiología,Especialidad,Medicina de especialidad,Escolarizada
+71,6091301005,Esp. en Anestesiología Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+72,6091302001,Esp. en Angiología y Cirugía Vascular,Especialidad,Medicina de especialidad,Escolarizada
+73,6051100001,Esp. en Biología de la Reproducción Humana,Especialidad,Biología,Escolarizada
+74,6091345005,Esp. en Calidad de la Atención Clínica,Especialidad,Medicina de especialidad,Escolarizada
+75,6091304001,Esp. en Cardiología,Especialidad,Medicina de especialidad,Escolarizada
+76,6091313001,Esp. en Cirugía Bariátrica y Metabólica,Especialidad,Medicina de especialidad,Escolarizada
+77,6091306001,Esp. en Cirugía Cardiotorácica,Especialidad,Medicina de especialidad,Escolarizada
+78,6091337008,Esp. en Cirugía de Trauma Toraco-Abdominal,Especialidad,Medicina de especialidad,Escolarizada
+79,6091305002,Esp. en Cirugía General,Especialidad,Medicina de especialidad,Escolarizada
+80,6091345008,Esp. en Cirugía Laparoscópica,Especialidad,Medicina de especialidad,Escolarizada
+81,6093201002,Esp. en Cirugía Maxilofacial,Especialidad,Estomatología y odontología de especialidad,Escolarizada
+82,6091336001,Esp. en Cirugía Oncológica,Especialidad,Medicina de especialidad,Escolarizada
+83,6091345011,Esp. en Cirugía Oncológica de Cabeza y Cuello,Especialidad,Medicina de especialidad,Escolarizada
+84,6091308001,Esp. en Cirugía Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+85,6091309002,Esp. en Cirugía Plástica y Reconstructiva,Especialidad,Medicina de especialidad,Escolarizada
+86,6091312001,Esp. en Coloproctología,Especialidad,Medicina de especialidad,Escolarizada
+87,6091310001,Esp. en Dermatología,Especialidad,Medicina de especialidad,Escolarizada
+88,6091310002,Esp. en Dermatología Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+89,6091311001,Esp. en Endocrinología,Especialidad,Medicina de especialidad,Escolarizada
+90,6093202001,Esp. en Endodoncia,Especialidad,Estomatología y odontología de especialidad,Escolarizada
+91,6092202002,Esp. en Enfermería en Cuidados Intensivos,Especialidad,Enfermería de especialidad,Escolarizada
+92,6092208015,Esp. en Enfermería en Cuidados Paliativos,Especialidad,Enfermería de especialidad,Escolarizada
+93,6092203006,Esp. en Enfermería en Gerontología y Geriatría,Especialidad,Enfermería de especialidad,Escolarizada
+94,6092206010,Esp. en Enfermería Neonatal,Especialidad,Enfermería de especialidad,Escolarizada
+95,6092206002,Esp. en Enfermería Pediátrica,Especialidad,Enfermería de especialidad,Escolarizada
+96,6092207003,Esp. en Enfermería Quirúrgica,Especialidad,Enfermería de especialidad,Escolarizada
+97,6095600002,Esp. en Epidemiología,Especialidad,Salud pública,Escolarizada
+98,6091313004,Esp. en Gastroenterología,Especialidad,Medicina de especialidad,Escolarizada
+99,6091313008,Esp. en Gastroenterología y Nutrición Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+100,6091314001,Esp. en Genética Médica,Especialidad,Medicina de especialidad,Escolarizada
+101,6091315001,Esp. en Geriatría,Especialidad,Medicina de especialidad,Escolarizada
+102,6091316007,Esp. en Ginecología Oncológica,Especialidad,Medicina de especialidad,Escolarizada
+103,6091316002,Esp. en Ginecología y Obstetricia,Especialidad,Medicina de especialidad,Escolarizada
+104,6091317001,Esp. en Hematología,Especialidad,Medicina de especialidad,Escolarizada
+105,6091304018,Esp. en Hemodinamia y Cardiología Intervencionista,Especialidad,Medicina de especialidad,Escolarizada
+106,6091342012,Esp. en Imagenología Diagnóstica y Terapéutica,Especialidad,Medicina de especialidad,Escolarizada
+107,6091318001,Esp. en Infectología,Especialidad,Medicina de especialidad,Escolarizada
+108,6091318002,Esp. en Infectología Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+109,6091322003,Esp. en Medicina de Rehabilitación,Especialidad,Medicina de especialidad,Escolarizada
+110,6091323001,Esp. en Medicina de Urgencias,Especialidad,Medicina de especialidad,Escolarizada
+111,6091321003,Esp. en Medicina del Enfermo en Estado Crítico,Especialidad,Medicina de especialidad,Escolarizada
+112,6091325001,Esp. en Medicina del Trabajo,Especialidad,Medicina de especialidad,Escolarizada
+113,6091325002,Esp. en Medicina del Trabajo y Ambiental,Especialidad,Medicina de especialidad,Escolarizada
+114,6091326001,Esp. en Medicina Familiar,Especialidad,Medicina de especialidad,Escolarizada
+115,6091327002,Esp. en Medicina Interna,Especialidad,Medicina de especialidad,Escolarizada
+116,6091316004,Esp. en Medicina Materno-Fetal,Especialidad,Medicina de especialidad,Escolarizada
+117,6091301008,Esp. en Medicina Paliativa y del Dolor,Especialidad,Medicina de especialidad,Escolarizada
+118,6091331003,Esp. en Nefrología,Especialidad,Medicina de especialidad,Escolarizada
+119,6091340004,Esp. en Neonatología,Especialidad,Medicina de especialidad,Escolarizada
+120,6091332001,Esp. en Neumología,Especialidad,Medicina de especialidad,Escolarizada
+121,6091307001,Esp. en Neurocirugía,Especialidad,Medicina de especialidad,Escolarizada
+122,6091334001,Esp. en Neurología,Especialidad,Medicina de especialidad,Escolarizada
+123,6093203005,Esp. en Odontopediatría,Especialidad,Estomatología y odontología de especialidad,Escolarizada
+124,6091335001,Esp. en Oftalmología,Especialidad,Medicina de especialidad,Escolarizada
+125,6091336005,Esp. en Oncología Médica,Especialidad,Medicina de especialidad,Escolarizada
+126,6091336007,Esp. en Oncología Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+127,6091336009,"Esp. en Oncología, Hematología Pediátrica",Especialidad,Medicina de especialidad,Escolarizada
+128,6093204001,Esp. en Ortodoncia,Especialidad,Estomatología y odontología de especialidad,Escolarizada
+129,6091337002,Esp. en Ortopedia,Especialidad,Medicina de especialidad,Escolarizada
+130,6091338002,Esp. en Otorrinolaringología Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+131,6091338003,Esp. en Otorrinolaringología y Cirugía de Cabeza y Cuello,Especialidad,Medicina de especialidad,Escolarizada
+132,6091339001,Esp. en Patología Clínica,Especialidad,Medicina de especialidad,Escolarizada
+133,6091340001,Esp. en Pediatría,Especialidad,Medicina de especialidad,Escolarizada
+134,6093205004,Esp. en Periodoncia,Especialidad,Estomatología y odontología de especialidad,Escolarizada
+135,6081100002,Esp. en Producción Animal,Especialidad,Producción y explotación agrícola y ganadera,Escolarizada
+136,6081100005,Esp. en Producción Porcina,Especialidad,Producción y explotación agrícola y ganadera,Escolarizada
+137,6093206003,Esp. en Prostodoncia,Especialidad,Estomatología y odontología de especialidad,Escolarizada
+138,6093201005,Esp. en Prótesis Maxilofacial,Especialidad,Estomatología y odontología de especialidad,Escolarizada
+139,6091341001,Esp. en Psiquiatría,Especialidad,Medicina de especialidad,Escolarizada
+140,6091342013,Esp. en Radiología e Imagen,Especialidad,Medicina de especialidad,Escolarizada
+141,6091336013,Esp. en Radio-Oncología,Especialidad,Medicina de especialidad,Escolarizada
+142,6091335003,Esp. en Retina Médica y Quirúrgica,Especialidad,Medicina de especialidad,Escolarizada
+143,6091343001,Esp. en Reumatología,Especialidad,Medicina de especialidad,Escolarizada
+144,6091337005,Esp. en Traumatología y Ortopedia,Especialidad,Medicina de especialidad,Escolarizada
+145,6091323002,Esp. en Urgencias Médicas,Especialidad,Medicina de especialidad,Escolarizada
+146,6091344001,Esp. en Urología,Especialidad,Medicina de especialidad,Escolarizada
+147,6091344002,Esp. en Urología Ginecológica,Especialidad,Medicina de especialidad,Escolarizada
+148,6041100014,Esp. en Valuación,Especialidad,Negocios y comercio,Escolarizada
+149,5072100002,Ing. Agroindustrial,Licenciatura,Industria de la alimentación,Escolarizada
+150,5081300016,Ing. Agrónomo,Licenciatura,Silvicultura,Escolarizada
+151,5071000020,Ing. Biomédica,Licenciatura,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",Escolarizada
+152,5071400008,Ing. Bioquímica,Licenciatura,Ingeniería de procesos químicos,Escolarizada
+153,5073200005,Ing. Civil,Licenciatura,Construcción e ingeniería civil,Escolarizada
+154,5041100007,Ing. de Procesos y Comercio Internacional,Licenciatura,Negocios y comercio,Escolarizada
+155,5042400005,Ing. en Administración Industrial,Licenciatura,Administración en el ámbito de la ingeniería y la construcción,Escolarizada
+156,5051200024,Ing. en Biotecnología,Licenciatura,Bioquímica y biofísica,Escolarizada
+157,5061100001,Ing. en Ciencias Computacionales,Licenciatura,Ciencias computacionales,Escolarizada
+158,5061000002,Ing. en Computación,Licenciatura,Planes multidisciplinarios o generales del campo de innovación en tecnologías de la información y la comunicación,Escolarizada
+159,5021500002,Ing. en Comunicación Multimedia,Licenciatura,Diseño y comunicación gráfica y editorial,Escolarizada
+160,5062100009,Ing. en Comunicaciones y Electrónica,Licenciatura,Telecomunicaciones,Escolarizada
+161,5071100005,Ing. en Diseño Industrial,Licenciatura,Mecánica y profesiones afines al trabajo metálico,Escolarizada
+162,5052200021,Ing. en Diseño Molecular de Materiales,Licenciatura,Química,Escolarizada
+163,5062200073,Ing. en Electrónica y Computación,Licenciatura,Informática,Escolarizada
+164,5071200009,Ing. en Energía,Licenciatura,Electricidad y generación de energía,Escolarizada
+165,5072400001,Ing. en Geofísica,Licenciatura,"Industria de la minería, extracción y metalurgia",Escolarizada
+166,5071300091,Ing. en Instrumentación Electrónica y Nanosensores,Licenciatura,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+167,5102100004,Ing. en Logística y Transporte,Licenciatura,Servicios de transporte,Escolarizada
+168,5052200002,Ing. en Nanotecnología,Licenciatura,Química,Escolarizada
+169,5041100009,Ing. en Negocios,Licenciatura,Negocios y comercio,Escolarizada
+170,5073200010,Ing. en Obras y Servicios,Licenciatura,Construcción e ingeniería civil,Escolarizada
+171,5051300005,Ing. en Recursos Naturales y Agropecuarios,Licenciatura,Ecología y ciencias ambientales,Escolarizada
+172,5051100015,Ing. en Sistemas Biológicos,Licenciatura,Biología,Escolarizada
+173,5081100050,Ing. en Sistemas Pecuarios,Licenciatura,Producción y explotación agrícola y ganadera,Escolarizada
+174,5062100033,Ing. en Teleinformática,Licenciatura,Telecomunicaciones,Escolarizada
+175,5062100034,Ing. en Telemática,Licenciatura,Telecomunicaciones,Escolarizada
+176,5073200035,Ing. en Topografía Geomática,Licenciatura,Construcción e ingeniería civil,Escolarizada
+177,5071000047,Ing. en Videojuegos,Licenciatura,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",Escolarizada
+178,5071200034,Ing. Fotónica,Licenciatura,Electricidad y generación de energía,Escolarizada
+179,5071700019,Ing. Industrial,Licenciatura,Ingeniería industrial,Escolarizada
+180,5062200055,Ing. Informática,Licenciatura,Informática,Escolarizada
+181,5071300009,Ing. Mecánica Eléctrica,Licenciatura,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+182,5071300014,Ing. Mecatrónica,Licenciatura,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+183,5071400015,Ing. Química,Licenciatura,Ingeniería de procesos químicos,Escolarizada
+184,5071300082,Ing. Robótica,Licenciatura,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+185,5042000002,Lic. en Administración,Licenciatura,Planes multidisciplinarios o generales del campo de administración y gestión,Escolarizada
+186,5042100065,Lic. en Administración de las Organizaciones,Licenciatura,Administración de empresas,No Escolarizada
+187,5042100012,Lic. en Administración de Negocios,Licenciatura,Administración de empresas,Escolarizada
+188,5041300007,Lic. en Administración Financiera y Sistemas,Licenciatura,"Finanzas, banca y seguros",Escolarizada
+189,5042300027,Lic. en Administración Gubernamental y Políticas Públicas,Licenciatura,Administración pública,Escolarizada
+190,5042100092,Lic. en Administración y Gestión Empresarial,Licenciatura,Administración de empresas,Escolarizada
+191,5081100010,Lic. en Agrobiotecnología,Licenciatura,Producción y explotación agrícola y ganadera,Escolarizada
+192,5041100021,Lic. en Agronegocios,Licenciatura,Negocios y comercio,Escolarizada
+193,5031200004,Lic. en Antropología,Licenciatura,Sociología y antropología,Escolarizada
+194,5073100009,Lic. en Arquitectura,Licenciatura,Arquitectura y urbanismo,Escolarizada
+195,5021000002,Lic. en Artes,Licenciatura,Planes multidisciplinarios o generales del campo de artes,Escolarizada
+196,5021400012,Lic. en Artes Audiovisuales,Licenciatura,Tecnologías audiovisuales para medios de comunicación,Escolarizada
+197,5021200006,Lic. en Artes Escénicas,Licenciatura,Artes escénicas,Escolarizada
+198,5021200054,Lic. en Artes Escénicas para la Expresión Dancística,Licenciatura,Artes escénicas,Escolarizada
+199,5021200055,Lic. en Artes Escénicas para la Expresión Teatral,Licenciatura,Artes escénicas,Escolarizada
+200,5021100004,Lic. en Artes Visuales,Licenciatura,Bellas artes,Escolarizada
+201,5021000114,Lic. en Artes Visuales para la Expresión Fotográfica,Licenciatura,Planes multidisciplinarios o generales del campo de artes,Escolarizada
+202,5021700002,Lic. en Artes Visuales para la Expresión Plástica,Licenciatura,Artesanía tradicional y manualidades,Escolarizada
+203,5032200003,Lic. en Bibliotecología,Licenciatura,Biblioteconomía y archivonomía,No Escolarizada
+204,5032200012,Lic. en Bibliotecología y Gestión del Conocimiento,Licenciatura,Biblioteconomía y archivonomía,No Escolarizada
+205,5051100003,Lic. en Biología,Licenciatura,Biología,Escolarizada
+206,5051100006,Lic. en Biología Marina,Licenciatura,Biología,Escolarizada
+207,5072100018,Lic. en Ciencia de los Alimentos,Licenciatura,Industria de la alimentación,Escolarizada
+208,5052200017,Lic. en Ciencia de Materiales,Licenciatura,Química,Escolarizada
+209,5033200024,Lic. en Ciencias Forenses,Licenciatura,Criminología y criminalística,Escolarizada
+210,5072100049,Lic. en Ciencias y Artes Culinarias,Licenciatura,Industria de la alimentación,Escolarizada
+211,5093100002,Lic. en Cirujano Dentista,Licenciatura,Estomatología y odontología general,Escolarizada
+212,5032100027,Lic. en Comunicación Pública,Licenciatura,Comunicación y periodismo,Escolarizada
+213,5041400032,Lic. en Contaduría Pública,Licenciatura,Contabilidad y fiscalización,Escolarizada
+214,5033200006,Lic. en Criminología,Licenciatura,Criminología y criminalística,Escolarizada
+215,5101100015,Lic. en Cultura Física y Deportes,Licenciatura,Deportes,Escolarizada
+216,5061000015,Lic. en Desarrollo de Sistemas Web,Licenciatura,Planes multidisciplinarios o generales del campo de innovación en tecnologías de la información y la comunicación,No Escolarizada
+217,5011200004,Lic. en Desarrollo Educativo,Licenciatura,"Planeación, evaluación e investigación educativa",No Escolarizada
+218,5042200024,Lic. en Desarrollo Turístico Sustentable,Licenciatura,Administración turísticas y de restaurantes,Escolarizada
+219,5012603011,Lic. en Didáctica del Francés como Lengua Extranjera,Licenciatura,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+220,5021600062,Lic. en Diseño de Artesanía,Licenciatura,"Diseño industrial, de moda e interiores",Escolarizada
+221,5021600017,Lic. en Diseño de Interiores y Ambientación,Licenciatura,"Diseño industrial, de moda e interiores",Escolarizada
+222,5021600024,Lic. en Diseño de Modas,Licenciatura,"Diseño industrial, de moda e interiores",Escolarizada
+223,5071100019,Lic. en Diseño Industrial,Licenciatura,Mecánica y profesiones afines al trabajo metálico,Escolarizada
+224,5021500044,Lic. en Diseño para la Comunicación Gráfica,Licenciatura,Diseño y comunicación gráfica y editorial,Escolarizada
+225,5021000110,"Lic. en Diseño, Arte y Tecnologías Interactivas",Licenciatura,Planes multidisciplinarios o generales del campo de artes,Escolarizada
+226,5012603027,Lic. en Docencia del Inglés como Lengua Extranjera,Licenciatura,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+227,5031400003,Lic. en Economía,Licenciatura,Economía,Escolarizada
+228,5011500002,Lic. en Educación,Licenciatura,Ciencias de la educación,Escolarizada
+229,5092100006,Lic. en Enfermería,Licenciatura,Enfermería general y obstetricia,Escolarizada
+230,5021500119,Lic. en Escritura Creativa,Licenciatura,Diseño y comunicación gráfica y editorial,Escolarizada
+231,5022500001,Lic. en Estudios Liberales,Licenciatura,Historia y arqueología,Escolarizada
+232,5031300010,Lic. en Estudios Políticos y Gobierno,Licenciatura,Ciencias políticas,Escolarizada
+233,5022600002,Lic. en Filosofía,Licenciatura,Filosofía y ética,Escolarizada
+234,5052100005,Lic. en Física,Licenciatura,Física y astronomía,Escolarizada
+235,5052300015,Lic. en Geografía,Licenciatura,Ciencias de la tierra y de la atmósfera,Escolarizada
+236,5031500008,Lic. en Gerontología,Licenciatura,Trabajo y atención social,Escolarizada
+237,5021000007,Lic. en Gestión Cultural,Licenciatura,Planes multidisciplinarios o generales del campo de artes,No Escolarizada
+238,5041100127,Lic. en Gestión de Negocios Gastronómicos,Licenciatura,Negocios y comercio,Escolarizada
+239,5051300020,Lic. en Gestión y Economía Ambiental,Licenciatura,Ecología y ciencias ambientales,Escolarizada
+240,5022500008,Lic. en Historia,Licenciatura,Historia y arqueología,Escolarizada
+241,5021000010,Lic. en Historia del Arte,Licenciatura,Planes multidisciplinarios o generales del campo de artes,Escolarizada
+242,5022000001,Lic. en Humanidades,Licenciatura,Planes multidisciplinarios o generales del campo de humanidades,Escolarizada
+243,5072100033,Lic. en Ingeniería en Alimentos y Biotecnología,Licenciatura,Industria de la alimentación,Escolarizada
+244,5022200040,Lic. en Lenguas y Culturas Extranjeras,Licenciatura,Adquisición de idiomas extranjeros,Escolarizada
+245,5022300022,Lic. en Letras Hispánicas,Licenciatura,Literatura,Escolarizada
+246,5053100004,Lic. en Matemáticas,Licenciatura,Matemáticas,Escolarizada
+247,5082100001,Lic. en Medicina Veterinaria y Zootecnia,Licenciatura,Veterinaria,Escolarizada
+248,5041200028,Lic. en Mercadotecnia,Licenciatura,Mercadotecnia y publicidad,Escolarizada
+249,5041200075,Lic. en Mercadotecnia Digital,Licenciatura,Mercadotecnia y publicidad,No Escolarizada
+250,5021300063,Lic. en Música,Licenciatura,Música,Escolarizada
+251,5041100056,Lic. en Negocios Internacionales,Licenciatura,Negocios y comercio,Escolarizada
+252,5094200006,Lic. en Nutrición,Licenciatura,Nutrición,Escolarizada
+253,5032100038,Lic. en Periodismo,Licenciatura,Comunicación y periodismo,Escolarizada
+254,5032100001,Lic. en Periodismo Digital,Licenciatura,Comunicación y periodismo,No Escolarizada
+255,5094300009,Lic. en Podología,Licenciatura,Tratamientos alternativos y acupuntura,Escolarizada
+256,5031100007,Lic. en Psicología,Licenciatura,Psicología,Escolarizada
+257,5052200007,Lic. en Química,Licenciatura,Química,Escolarizada
+258,5095400006,Lic. en Químico Farmacéutico Biólogo,Licenciatura,Farmacia,Escolarizada
+259,5042100117,Lic. en Recursos Humanos,Licenciatura,Administración de empresas,Escolarizada
+260,5031300014,Lic. en Relaciones Internacionales,Licenciatura,Ciencias políticas,Escolarizada
+261,5032100065,Lic. en Relaciones Públicas y Comunicación,Licenciatura,Comunicación y periodismo,Escolarizada
+262,5095600005,Lic. en Salud Pública,Licenciatura,Salud pública,Escolarizada
+263,5104100015,Lic. en Seguridad Ciudadana,Licenciatura,Seguridad pública,No Escolarizada
+264,5103100007,"Lic. en Seguridad Laboral, Protección Civil y Emergencias",Licenciatura,Seguridad para el trabajo,Escolarizada
+265,5031200031,Lic. en Sociología,Licenciatura,Sociología y antropología,Escolarizada
+266,5062200082,Lic. en Tecnologías de la Información,Licenciatura,Informática,Escolarizada
+267,5062200105,Lic. en Tecnologías e Información,Licenciatura,Informática,No Escolarizada
+268,5094100009,Lic. en Terapia Física,Licenciatura,Terapia y rehabilitación,Escolarizada
+269,5031500010,Lic. en Trabajo Social,Licenciatura,Trabajo y atención social,Escolarizada
+270,5101600013,Lic. en Turismo,Licenciatura,Hospitalidad y turismo,Escolarizada
+271,5073100024,Lic. en Urbanística y Medio Ambiente,Licenciatura,Arquitectura y urbanismo,Escolarizada
+272,5091100011,Médico Cirujano y Partero,Licenciatura,Medicina general,Escolarizada
+273,7062000007,Mtría. en Ciencias en Bioingeniería y Cómputo Inteligente,Maestría,Planes multidisciplinarios o generales del campo de implementación de las tecnologías de la información y la comunicación,Escolarizada
+274,7062200028,Mtría. en Ing. de Desarrollos Tecnológicos,Maestría,Informática,Escolarizada
+275,7101000006,Mtría. en Actividad Física y Estilo de Vida,Maestría,Planes multidisciplinarios o generales del campo de servicios personales y deportes,Escolarizada
+276,7042000002,Mtría. en Administración,Maestría,Planes multidisciplinarios o generales del campo de administración y gestión,Escolarizada
+277,7042500053,Mtría. en Administración de Instituciones de Salud,Maestría,"Administración en los campos de la educación, salud, deporte, agronomía y las artes y humanidades",Escolarizada
+278,7042100033,Mtría. en Administración de Negocios,Maestría,Administración de empresas,Escolarizada
+279,7042100015,Mtría. en Administración y Gestión Regional,Maestría,Administración de empresas,Escolarizada
+280,7081100051,Mtría. en Agricultura Protegida,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+281,7071700009,Mtría. en Análisis de Sistemas Industriales,Maestría,Ingeniería industrial,Escolarizada
+282,7041400008,Mtría. en Análisis Tributario,Maestría,Contabilidad y fiscalización,Escolarizada
+283,7031200009,Mtría. en Antropología,Maestría,Sociología y antropología,Escolarizada
+284,7041400009,Mtría. en Auditoría,Maestría,Contabilidad y fiscalización,Escolarizada
+285,7022600002,Mtría. en Bioética,Maestría,Filosofía y ética,Escolarizada
+286,7061000012,Mtría. en Ciencia de los Datos,Maestría,Planes multidisciplinarios o generales del campo de innovación en tecnologías de la información y la comunicación,Escolarizada
+287,7052200003,Mtría. en Ciencia de Materiales,Maestría,Química,Escolarizada
+288,7071600020,Mtría. en Ciencia de Productos Forestales,Maestría,Tecnología para la protección del medio ambiente,Escolarizada
+289,7031100005,Mtría. en Ciencia del Comportamiento,Maestría,Psicología,Escolarizada
+290,7031300005,Mtría. en Ciencia Política,Maestría,Ciencias políticas,Escolarizada
+291,7031300048,Mtría. en Ciencia Política con Orientación en Democracias Contemporáneas,Maestría,Ciencias políticas,Escolarizada
+292,7012604064,Mtría. en Ciencia y Tecnología,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+293,7052000001,Mtría. en Ciencias,Maestría,"Planes multidisciplinarios o generales del campo de ciencias físicas, químicas y de la tierra.",Escolarizada
+294,7081100072,Mtría. en Ciencias Agrícolas y Forestales,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+295,7081100073,Mtría. en Ciencias Agropecuarias,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+296,7051100007,Mtría. en Ciencias Biológicas,Maestría,Biología,Escolarizada
+297,7095200012,Mtría. en Ciencias Biomédicas,Maestría,Biomedicina,Escolarizada
+298,7081100078,Mtría. en Ciencias con Orientación en Ciencias Biológicas y Agropecuarias,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+299,7053100018,Mtría. en Ciencias con Orientación en Ciencias Exactas e Ingenierías,Maestría,Matemáticas,Escolarizada
+300,7073100088,Mtría. en Ciencias de la Arquitectura,Maestría,Arquitectura y urbanismo,Escolarizada
+301,7012601010,Mtría. en Ciencias de la Educación Física y del Deporte,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+302,7095600007,Mtría. en Ciencias de la Salud Ambiental,Maestría,Salud pública,Escolarizada
+303,7091345002,Mtría. en Ciencias de la Salud de la Adolescencia y la Juventud,Maestría,Medicina de especialidad,Escolarizada
+304,7091325001,Mtría. en Ciencias de la Salud en el Trabajo,Maestría,Medicina de especialidad,Escolarizada
+305,7095600015,Mtría. en Ciencias de la Salud Pública,Maestría,Salud pública,Escolarizada
+306,7052300003,Mtría. en Ciencias de la Tierra,Maestría,Ciencias de la tierra y de la atmósfera,Escolarizada
+307,7072100008,Mtría. en Ciencias de los Alimentos,Maestría,Industria de la alimentación,Escolarizada
+308,7051200022,Mtría. en Ciencias en Biología Molecular en Medicina,Maestría,Bioquímica y biofísica,Escolarizada
+309,7051300013,Mtría. en Ciencias en Biosistemática y Manejo de Recursos Naturales y Agrícolas,Maestría,Ecología y ciencias ambientales,Escolarizada
+310,7051300079,Mtría. en Ciencias en Ecología y Manejo de Recursos Costeros y Marinos,Maestría,Ecología y ciencias ambientales,Escolarizada
+311,7052100009,Mtría. en Ciencias en Física,Maestría,Física y astronomía,Escolarizada
+312,7052300006,Mtría. en Ciencias en Geofísica,Maestría,Ciencias de la tierra y de la atmósfera,Escolarizada
+313,7052300025,Mtría. en Ciencias en Hidrometeorología,Maestría,Ciencias de la tierra y de la atmósfera,Escolarizada
+314,7071000033,Mtría. en Ciencias en Ingeniería del Agua y la Energía,Maestría,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",Escolarizada
+315,7071200009,Mtría. en Ciencias en Ingeniería Eléctrica,Maestría,Electricidad y generación de energía,Escolarizada
+316,7071300026,Mtría. en Ciencias en Ingeniería Electrónica y Computación,Maestría,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+317,7052200018,Mtría. en Ciencias en Ingeniería Química,Maestría,Química,Escolarizada
+318,7101500016,Mtría. en Ciencias en Inocuidad Alimentaria,Maestría,Gastronomía y servicios de alimentos,Escolarizada
+319,7051300018,Mtría. en Ciencias en Manejo de Recursos Naturales,Maestría,Ecología y ciencias ambientales,Escolarizada
+320,7053100007,Mtría. en Ciencias en Matemáticas,Maestría,Matemáticas,Escolarizada
+321,7072100012,Mtría. en Ciencias en Microbiología e Inocuidad de Alimentos,Maestría,Industria de la alimentación,Escolarizada
+322,7081100023,Mtría. en Ciencias en Nutrición Animal,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+323,7071400012,Mtría. en Ciencias en Procesos Biotecnológicos,Maestría,Ingeniería de procesos químicos,Escolarizada
+324,7052200006,Mtría. en Ciencias en Química,Maestría,Química,Escolarizada
+325,7052100021,Mtría. en Ciencias Físico Matemáticas,Maestría,Física y astronomía,Escolarizada
+326,7033200002,Mtría. en Ciencias Forenses,Maestría,Criminología y criminalística,Escolarizada
+327,7033200014,Mtría. en Ciencias Forenses y Criminología,Maestría,Criminología y criminalística,Escolarizada
+328,7091345005,Mtría. en Ciencias Médicas,Maestría,Medicina de especialidad,Escolarizada
+329,7093100003,Mtría. en Ciencias Odontológicas,Maestría,Estomatología y odontología general,Escolarizada
+330,7042300054,"Mtría. en Ciencias para el Desarrollo, la Sustentabilidad y el Turismo",Maestría,Administración pública,Escolarizada
+331,7081100033,Mtría. en Ciencias Pecuarias,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+332,7031000001,Mtría. en Ciencias Sociales,Maestría,Planes multidisciplinarios o generales del campo de ciencias sociales y estudios del comportamiento,Escolarizada
+333,7095600046,Mtría. en Ciencias Socio Médicas,Maestría,Salud pública,Escolarizada
+334,7041100018,Mtría. en Comercio y Mercados Internacionales,Maestría,Negocios y comercio,Escolarizada
+335,7061000002,Mtría. en Computación Aplicada,Maestría,Planes multidisciplinarios o generales del campo de innovación en tecnologías de la información y la comunicación,Escolarizada
+336,7062200074,Mtría. en Cómputo Aplicado,Maestría,Informática,Escolarizada
+337,7061100016,Mtría. en Cómputo Paralelo,Maestría,Ciencias computacionales,Escolarizada
+338,7032100004,Mtría. en Comunicación,Maestría,Comunicación y periodismo,Escolarizada
+339,7033100026,Mtría. en Derecho,Maestría,Derecho,Escolarizada
+340,7073100005,Mtría. en Desarrollo Local y Territorio,Maestría,Arquitectura y urbanismo,Escolarizada
+341,7042200008,Mtría. en Desarrollo Sustentable y Turismo,Maestría,Administración turísticas y de restaurantes,Escolarizada
+342,7042100311,Mtría. en Desarrollo y Dirección de la Innovación,Maestría,Administración de empresas,No Escolarizada
+343,7012602002,Mtría. en Didáctica de las Artes,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+344,7041200034,Mtría. en Dirección de Mercadotecnia,Maestría,Mercadotecnia y publicidad,Escolarizada
+345,7042100129,Mtría. en Dirección Estratégica de la Calidad,Maestría,Administración de empresas,Escolarizada
+346,7021400038,Mtría. en Diseño de Información y Comunicación Digital,Maestría,Tecnologías audiovisuales para medios de comunicación,Escolarizada
+347,7021600019,Mtría. en Diseño e Innovación Industrial,Maestría,"Diseño industrial, de moda e interiores",Escolarizada
+348,7021600006,Mtría. en Diseño y Desarrollo de Nuevos Productos,Maestría,"Diseño industrial, de moda e interiores",Escolarizada
+349,7012400001,Mtría. en Docencia para la Educación Media Superior,Maestría,Formación docente en educación media superior,No Escolarizada
+350,7031400008,Mtría. en Economía,Maestría,Economía,Escolarizada
+351,7011500003,Mtría. en Educación,Maestría,Ciencias de la educación,Escolarizada
+352,7011000002,Mtría. en Educación Ambiental,Maestría,Planes multidisciplinarios o generales del campo de ciencias de la educación y pedagogía,Escolarizada
+353,7012601008,Mtría. en Educación Física y Deporte,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+354,7012500034,Mtría. en Educación Superior Internacional,Maestría,Formación docente en educación superior,Escolarizada
+355,7012602009,Mtría. en Educación y Expresión para las Artes,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+356,7092208001,Mtría. en Enfermería Gerencial,Maestría,Enfermería de especialidad,Escolarizada
+357,7012604029,Mtría. en Enseñanza de las Matemáticas,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+358,7103100003,Mtría. en Ergonomía,Maestría,Seguridad para el trabajo,Escolarizada
+359,7021400005,Mtría. en Estudios Cinematográficos,Maestría,Tecnologías audiovisuales para medios de comunicación,Escolarizada
+360,7022200011,Mtría. en Estudios de las Lenguas y Culturas Inglesas,Maestría,Adquisición de idiomas extranjeros,Escolarizada
+361,7022300005,Mtría. en Estudios de Literatura Mexicana,Maestría,Literatura,Escolarizada
+362,7012000087,Mtría. en Estudios del Turismo,Maestría,Planes multidisciplinarios o generales del campo de formación docente,Escolarizada
+363,7022600008,Mtría. en Estudios Filosóficos,Maestría,Filosofía y ética,Escolarizada
+364,7041400048,Mtría. en Estudios Fiscales,Maestría,Contabilidad y fiscalización,Escolarizada
+365,7031200087,"Mtría. en Estudios Francófonos: Pedagogía, Lingüística y Estudios Interculturales",Maestría,Sociología y antropología,Escolarizada
+366,7031200038,Mtría. en Estudios Regionales,Maestría,Sociología y antropología,Escolarizada
+367,7031200071,Mtría. en Estudios Socioterritoriales,Maestría,Sociología y antropología,Escolarizada
+368,7031000052,Mtría. en Estudios Transdisciplinares en Ciencia y Tecnología,Maestría,Planes multidisciplinarios o generales del campo de ciencias sociales y estudios del comportamiento,Escolarizada
+369,7021300007,Mtría. en Etnomusicología,Maestría,Música,Escolarizada
+370,7051200018,Mtría. en Farmacología,Maestría,Bioquímica y biofísica,Escolarizada
+371,7041300021,Mtría. en Finanzas,Maestría,"Finanzas, banca y seguros",Escolarizada
+372,7041300024,Mtría. en Finanzas Empresariales,Maestría,"Finanzas, banca y seguros",Escolarizada
+373,7042100177,Mtría. en Generación y Gestión de la Innovación,Maestría,Administración de empresas,No Escolarizada
+374,7042500062,Mtría. en Gerencia de Servicios de Salud,Maestría,"Administración en los campos de la educación, salud, deporte, agronomía y las artes y humanidades",Escolarizada
+375,7031500022,Mtría. en Gerontología,Maestría,Trabajo y atención social,Escolarizada
+376,7042300011,Mtría. en Gestión de Gobiernos Locales,Maestría,Administración pública,Escolarizada
+377,7042500034,Mtría. en Gestión de la Calidad y Seguridad en los Servicios de Salud,Maestría,"Administración en los campos de la educación, salud, deporte, agronomía y las artes y humanidades",Escolarizada
+378,7021000014,Mtría. en Gestión de la Cultura,Maestría,Planes multidisciplinarios o generales del campo de artes,No Escolarizada
+379,7103100010,Mtría. en Gestión de la Seguridad y Salud en el Trabajo,Maestría,Seguridad para el trabajo,Escolarizada
+380,7042300030,Mtría. en Gestión de Servicios Públicos en Ambientes Virtuales,Maestría,Administración pública,No Escolarizada
+381,7011400029,Mtría. en Gestión del Aprendizaje en Ambientes Virtuales,Maestría,Tecnología y comunicación educativa,No Escolarizada
+382,7042300031,Mtría. en Gestión Pública,Maestría,Administración pública,Escolarizada
+383,7042500117,Mtría. en Gestión y Desarrollo Cultural,Maestría,"Administración en los campos de la educación, salud, deporte, agronomía y las artes y humanidades",Escolarizada
+384,7031200043,Mtría. en Gestión y Desarrollo Social,Maestría,Sociología y antropología,Escolarizada
+385,7011200077,Mtría. en Gestión y Políticas de la Educación Superior,Maestría,"Planeación, evaluación e investigación educativa",Escolarizada
+386,7032100049,Mtría. en Global Politics and Transpacific Studies,Maestría,Comunicación y periodismo,Escolarizada
+387,7042300040,Mtría. en Gobierno Electrónico,Maestría,Administración pública,No Escolarizada
+388,7022500032,Mtría. en Historia Cultural,Maestría,Historia y arqueología,Escolarizada
+389,7022500015,Mtría. en Historia de México,Maestría,Historia y arqueología,Escolarizada
+390,7041400028,Mtría. en Impuestos,Maestría,Contabilidad y fiscalización,Escolarizada
+391,7071700001,Mtría. en Ingeniería de Proyectos,Maestría,Ingeniería industrial,Escolarizada
+392,7061300005,Mtría. en Ingeniería de Software,Maestría,Desarrollo de software,Escolarizada
+393,7071200021,Mtría. en Ingeniería del Agua y la Energía,Maestría,Electricidad y generación de energía,Escolarizada
+394,7071000035,Mtría. en Ingeniería en Energías Renovables,Maestría,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",Escolarizada
+395,7071300003,Mtría. en Ingeniería Mecatrónica,Maestría,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+396,7011000042,Mtría. en Innovación Social y Gestión del Bienestar,Maestría,Planes multidisciplinarios o generales del campo de ciencias de la educación y pedagogía,Escolarizada
+397,7095000001,Mtría. en Investigación Clínica,Maestría,Planes multidisciplinarios o generales del campo de disciplinas auxiliares para la salud,Escolarizada
+398,7011200033,Mtría. en Investigación Educativa,Maestría,"Planeación, evaluación e investigación educativa",Escolarizada
+399,7011500004,Mtría. en Investigación en Ciencias de la Educación,Maestría,Ciencias de la educación,Escolarizada
+400,7012603017,Mtría. en la Enseñanza del Inglés como Lengua Extranjera,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+401,7022400002,Mtría. en Lingüística Aplicada,Maestría,Lingüística,Escolarizada
+402,7031000012,Mtría. en Literacidad,Maestría,Planes multidisciplinarios o generales del campo de ciencias sociales y estudios del comportamiento,Escolarizada
+403,7022300015,Mtría. en Literatura Comparada,Maestría,Literatura,Escolarizada
+404,7022300017,Mtría. en Literatura del Siglo XX,Maestría,Literatura,Escolarizada
+405,7041200042,Mtría. en Mercadotecnia,Maestría,Mercadotecnia y publicidad,Escolarizada
+406,7095000011,Mtría. en Microbiología Médica,Maestría,Planes multidisciplinarios o generales del campo de disciplinas auxiliares para la salud,Escolarizada
+407,7102100006,"Mtría. en Movilidad Urbana, Transporte y Territorio",Maestría,Servicios de transporte,Escolarizada
+408,7041100024,Mtría. en Negocios Internacionales,Maestría,Negocios y comercio,Escolarizada
+409,7041100026,Mtría. en Negocios y Estudios Económicos,Maestría,Negocios y comercio,Escolarizada
+410,7031100188,Mtría. en Neuropsicología,Maestría,Psicología,Escolarizada
+411,7091316004,"Mtría. en Nutrición Humana, Orientación Materno Infantil",Maestría,Medicina de especialidad,Escolarizada
+412,7093207003,Mtría. en Patología y Medicina Bucal,Maestría,Estomatología y odontología de especialidad,Escolarizada
+413,7032100037,Mtría. en Periodismo Digital,Maestría,Comunicación y periodismo,No Escolarizada
+414,7011200037,Mtría. en Planeación de la Educación Superior,Maestría,"Planeación, evaluación e investigación educativa",Escolarizada
+415,7031300023,Mtría. en Políticas Públicas,Maestría,Ciencias políticas,Escolarizada
+416,7011200088,Mtría. en Procesos Innovadores en el Aprendizaje,Maestría,"Planeación, evaluación e investigación educativa",Escolarizada
+417,7073100089,Mtría. en Procesos y Expresión Gráfica en la Proyectación Arquitectónica-Urbana,Maestría,Arquitectura y urbanismo,Escolarizada
+418,7081100068,Mtría. en Producción Animal Sustentable,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+419,7071600009,Mtría. en Protección Ambiental,Maestría,Tecnología para la protección del medio ambiente,Escolarizada
+420,7071500006,Mtría. en Proyectos Tecnológicos,Maestría,"Vehículos, barcos y aeronaves motorizadas",Escolarizada
+421,7031100028,Mtría. en Psicología,Maestría,Psicología,Escolarizada
+422,7031100030,Mtría. en Psicología Clínica,Maestría,Psicología,Escolarizada
+423,7031100176,Mtría. en Psicología con Orientación en Calidad de Vida y Salud,Maestría,Psicología,Escolarizada
+424,7031100253,Mtría. en Psicología con Orientación en Psicología Ecológica y Conductual,Maestría,Psicología,Escolarizada
+425,7031100252,Mtría. en Psicología con Orientación en Psicología Social,Maestría,Psicología,Escolarizada
+426,7031100043,Mtría. en Psicología de la Salud,Maestría,Psicología,Escolarizada
+427,7031100001,Mtría. en Psicología Educativa,Maestría,Psicología,Escolarizada
+428,7031100057,Mtría. en Psicología Social,Maestría,Psicología,Escolarizada
+429,7095300001,Mtría. en Química Clínica,Maestría,Diagnóstico médico y tecnología del tratamiento,Escolarizada
+430,7031400038,Mtría. en Relaciones Económicas Internacionales y Cooperación,Maestría,Economía,Escolarizada
+431,7031300078,Mtría. en Relaciones Internacionales de Gobiernos y Actores Locales,Maestría,Ciencias políticas,Escolarizada
+432,7031500062,Mtría. en Resolución de Conflictos,Maestría,Trabajo y atención social,Escolarizada
+433,7095600030,Mtría. en Salud Pública,Maestría,Salud pública,Escolarizada
+434,7071700002,Mtría. en Sistemas de Calidad,Maestría,Ingeniería industrial,Escolarizada
+435,7061300011,Mtría. en Sistemas de Información,Maestría,Desarrollo de software,Escolarizada
+436,7081000006,Mtría. en Tecnología de Semillas,Maestría,"Planes multidisciplinarios o generales del campo de agronomía, horticultura, silvicultura y pesca",Escolarizada
+437,7062200049,Mtría. en Tecnologías de Información,Maestría,Informática,Escolarizada
+438,7011400011,Mtría. en Tecnologías para el Aprendizaje,Maestría,Tecnología y comunicación educativa,Escolarizada
+439,7031100103,Mtría. en Terapia Familiar,Maestría,Psicología,Escolarizada
+440,7031500027,Mtría. en Trabajo Social,Maestría,Trabajo y atención social,Escolarizada
+441,7031300041,Mtría. en Transparencia y Protección de Datos Personales,Maestría,Ciencias políticas,No Escolarizada
+442,7073100051,Mtría. en Urbanismo y Desarrollo,Maestría,Arquitectura y urbanismo,Escolarizada
+443,7073100082,Mtría. en Urbanismo y Territorio,Maestría,Arquitectura y urbanismo,Escolarizada
+444,7041100029,Mtría. en Valuación,Maestría,Negocios y comercio,No Escolarizada
+445,7022200019,"Mtría. Interinstitucional en Deutsch Als Fremdsprache: Estudios Interculturales de Lengua, Literatura y Cultura Alemanas",Maestría,Adquisición de idiomas extranjeros,Escolarizada
+446,7081100056,Mtría. Interinstitucional en Producción Pecuaria,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+447,4062100001,TSU en Administración de Redes de Cómputo,T�cnico Superior Universitario,Telecomunicaciones,Escolarizada
+448,4071300015,TSU en Electrónica,T�cnico Superior Universitario,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+449,4071500002,TSU en Electrónica y Mecánica Automotriz,T�cnico Superior Universitario,"Vehículos, barcos y aeronaves motorizadas",Escolarizada
+450,4103100001,"TSU en Emergencias, Seguridad Laboral y Rescates",T�cnico Superior Universitario,Seguridad para el trabajo,Escolarizada
+451,4093100005,TSU en Prótesis Dental,T�cnico Superior Universitario,Estomatología y odontología general,Escolarizada
+452,4095300010,TSU en Radiología e Imagen,T�cnico Superior Universitario,Diagnóstico médico y tecnología del tratamiento,Escolarizada
+453,4062100003,TSU en Redes de Cómputo,T�cnico Superior Universitario,Telecomunicaciones,Escolarizada
+454,4062100004,TSU en Redes y Telecomunicaciones,T�cnico Superior Universitario,Telecomunicaciones,Escolarizada
+455,4094100005,TSU en Terapia Física,T�cnico Superior Universitario,Terapia y rehabilitación,Escolarizada
+456,4094100010,TSU en Terapia Respiratoria,T�cnico Superior Universitario,Terapia y rehabilitación,Escolarizada
+457,4101600012,TSU en Turismo Alternativo,T�cnico Superior Universitario,Hospitalidad y turismo,Escolarizada
+458,4062100009,TSU en Teleinformática,T�cnico Superior Universitario,Telecomunicaciones,Escolarizada
+459,4062200004,TSU en Informática,T�cnico Superior Universitario,Informática,Escolarizada
+460,5022500005,Lic. en Estudios Internacionales,Licenciatura,Historia y arqueología,Escolarizada
+461,5042300009,Lic. en Administración Gubernamental,Licenciatura,Administración pública,Escolarizada
+462,5061000004,Lic. en Ingeniería en Computación,Licenciatura,Planes multidisciplinarios o generales del campo de innovación en tecnologías de la información y la comunicación,Escolarizada
+463,5071300019,Lic. en Ingeniería Mecatrónica,Licenciatura,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+464,5071400027,Lic. en Ingeniería Química,Licenciatura,Ingeniería de procesos químicos,Escolarizada
+465,5073200025,Lic. en Ingeniería Topográfica,Licenciatura,Construcción e ingeniería civil,Escolarizada
+466,5081100020,Ing. Agrónomo,Licenciatura,Producción y explotación agrícola y ganadera,Escolarizada
+467,6091100001,Esp. en Medicina Integrada,Especialidad,Medicina general,Escolarizada
+468,6091305006,Esp. en Cirugía Laparoscopia,Especialidad,Medicina de especialidad,Escolarizada
+469,6091323003,Esp. en Urgencias Médico Quirúrgicas,Especialidad,Medicina de especialidad,Escolarizada
+470,6091338001,Esp. en Otorrinolaringología,Especialidad,Medicina de especialidad,Escolarizada
+471,7012603008,Mtría. en Enseñanza Del Ingles Como Lengua Extranjera,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+472,7012604060,Mtría. en Ciencias en la Enseñanza de Las Matemáticas,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+473,7021100016,Mtría. en Educación y Expresión de Las Artes,Maestría,Bellas artes,Escolarizada
+474,7022300022,"Mtría. en Estudios Interculturales de Lengua, Literatura y Cultura Alemanas",Maestría,Literatura,Escolarizada
+475,7031300025,Mtría. en Políticas Publicas y Gobiernos Locales,Maestría,Ciencias políticas,Escolarizada
+476,7031400020,Mtría. en Relaciones Económicas Internacionales,Maestría,Economía,Escolarizada
+477,7052300008,Mtría. en Ciencias en Hidrometereologia,Maestría,Ciencias de la tierra y de la atmósfera,Escolarizada
+478,7062200053,Mtría. en Tecnologías de la Información,Maestría,Informática,Escolarizada
+479,7071000005,Mtría. en Ciencias y Tecnología,Maestría,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",Escolarizada
+480,7071200013,Mtría. en Ingeniería Eléctrica,Maestría,Electricidad y generación de energía,Escolarizada
+481,7071200022,Mtría. en Ciencias en Ingeniería Del Agua y Energía,Maestría,Electricidad y generación de energía,Escolarizada
+482,7073100028,Mtría. en Ciencias en Arquitectura,Maestría,Arquitectura y urbanismo,Escolarizada
+483,7073100044,Mtría. en Procesos y Expresión Grafica de la Proyección Arquitectónica Urbana,Maestría,Arquitectura y urbanismo,Escolarizada
+484,7081300003,Mtría. en Ciencias de Productos Forestales,Maestría,Silvicultura,Escolarizada
+485,7094200008,Mtría. en Nutrición Humana,Maestría,Nutrición,Escolarizada
+486,8031500005,Doc. en Cooperación y Bienestar Social,Doctorado,Trabajo y atención social,Escolarizada
+487,8052000003,"Doc. en Ciencias (Física, Biofísica y Química)",Doctorado,"Planes multidisciplinarios o generales del campo de ciencias físicas, químicas y de la tierra.",Escolarizada
+488,8052100014,Doc. en Ciencias Fisicomatemáticas,Doctorado,Física y astronomía,Escolarizada
+489,8052200002,Doc. en Ciencias de Materiales,Doctorado,Química,Escolarizada
+490,4062100010,TSU en Telemática,T�cnico Superior Universitario,Telecomunicaciones,Escolarizada
+491,5033100011,Lic. en Derecho,Licenciatura,Derecho,Escolarizada
+492,5082100003,Medico Veterinario Zootecnista,Licenciatura,Veterinaria,Escolarizada
+493,5011100022,Lic. en Educación Indígena,Licenciatura,Diseño curricular y pedagogía,Escolarizada
+494,5061300027,Lic. en Sistemas de Información,Licenciatura,Desarrollo de software,Escolarizada
+495,5062200026,Lic. en Informática,Licenciatura,Informática,Escolarizada
+496,5092100011,Nivelación a Lic. en Enfermería,Licenciatura,Enfermería general y obstetricia,Escolarizada
+497,7042100268,Mtría. en Gestión Del Capital Humano y Desarrollo Organizacional,Maestría,Administración de empresas,Escolarizada
+498,4042100014,TSU en Gestión de Organizaciones Solidarias,T�cnico Superior Universitario,Administración de empresas,No Escolarizada
+499,5042100161,Lic. en Gestión de Organizaciones Solidarias,Licenciatura,Administración de empresas,No Escolarizada
+500,5062100055,Lic. en Tecnología E Información,Licenciatura,Telecomunicaciones,No Escolarizada
+501,5052200020,Lic. en Ingeniería en Nanotecnología,Licenciatura,Química,Escolarizada
+502,5091100010,Medico Cirujano Partero,Licenciatura,Medicina general,Escolarizada
+503,7022300034,Mtría. en Literaturas Interamericanas,Maestría,Literatura,Escolarizada
+504,7022300037,Mtría. en Estudios Críticos Del Lenguaje,Maestría,Literatura,Escolarizada
+505,5031300044,Lic. en Construcción de la Paz y Seguridad,Licenciatura,Ciencias políticas,Escolarizada
+506,5012603012,Lic. en Didácticas Del Francés,Licenciatura,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+507,5012603026,Lic. en Docencia Del Ingles,Licenciatura,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+508,5031500011,Lic. Nivelación en Trabajo Social,Licenciatura,Trabajo y atención social,Escolarizada
+509,6012603010,Esp. en la Enseñanza Del Alemán Como Lengua Extranjera,Especialidad,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+510,6031500008,Esp. en Educador de la Calle,Especialidad,Trabajo y atención social,Escolarizada
+511,7012500020,Mtría. en Educación Superior,Maestría,Formación docente en educación superior,Escolarizada
+512,7012603004,Mtría. en Docencia Del Inglés,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+513,7012603007,Mtría. en Enseñanza Del Inglés,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+514,7012604023,Mtría. en Enseñanza de la Lengua y la Literatura,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+515,7021500012,Mtría. en Edición,Maestría,Diseño y comunicación gráfica y editorial,Escolarizada
+516,7022300009,Mtría. en Lengua y Literatura Mexicana,Maestría,Literatura,Escolarizada
+517,7022600009,Mtría. en Filosofía,Maestría,Filosofía y ética,Escolarizada
+518,7031200039,Mtría. en Estudios Sobre la Región,Maestría,Sociología y antropología,Escolarizada
+519,7031300007,Mtría. en Ciencias Políticas,Maestría,Ciencias políticas,Escolarizada
+520,7033100033,Mtría. en Derecho Civil y Familiar,Maestría,Derecho,Escolarizada
+521,7033100040,Mtría. en Derecho Constitucional y Amparo,Maestría,Derecho,Escolarizada
+522,7033100066,Mtría. en Derecho Fiscal,Maestría,Derecho,Escolarizada
+523,7033100081,Mtría. en Derecho Penal y Criminología,Maestría,Derecho,Escolarizada
+524,7033100111,Mtría. en Derecho Administración de Justicia y Seguridad Pública,Maestría,Derecho,Escolarizada
+525,7033100112,Mtría. en Derecho Corporativo y Financiero,Maestría,Derecho,Escolarizada
+526,7033100113,Mtría. en Derecho Negociación Colectiva y Seguridad Social,Maestría,Derecho,Escolarizada
+527,7033100114,Mtría. en Derecho Notarial y Registral y Fiscal,Maestría,Derecho,Escolarizada
+528,7073100022,Mtría. en Arquitectura en Diseño Urbano,Maestría,Arquitectura y urbanismo,Escolarizada
+529,8022300003,Doc. en Estudios Literarios y Lingüística,Doctorado,Literatura,Escolarizada
+530,8033100020,Doc. Interinstitucional en Derecho,Doctorado,Derecho,Escolarizada
+531,4071700001,TSU en Sistemas de Calidad,T�cnico Superior Universitario,Ingeniería industrial,Escolarizada
+532,4072300002,TSU en Inyección de Plásticos,T�cnico Superior Universitario,"Industrias de materiales diversos (cerámica, madera, plástico y vidrio)",Escolarizada
+533,5051200004,Ing. Químico Farmacobiología,Licenciatura,Bioquímica y biofísica,Escolarizada
+534,5051200011,Lic. en Químico Farmacobiología,Licenciatura,Bioquímica y biofísica,Escolarizada
+535,5051200017,Químico Farmacobiología,Licenciatura,Bioquímica y biofísica,Escolarizada
+536,5071100014,Ing. Mecánica,Licenciatura,Mecánica y profesiones afines al trabajo metálico,Escolarizada
+537,5071200003,Ing. Eléctrica,Licenciatura,Electricidad y generación de energía,Escolarizada
+538,5071300011,Ing. Mecánica y Eléctrica,Licenciatura,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+539,5071300016,Lic. en Ingeniería Mecánica Eléctrica,Licenciatura,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+540,5071700012,Lic. en Ingeniería Industrial,Licenciatura,Ingeniería industrial,Escolarizada
+541,5073200017,Ing. Topógrafo,Licenciatura,Construcción e ingeniería civil,Escolarizada
+542,7012604031,Mtría. en Ciencias en Enseñanza de Las Matemáticas,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+543,7052100020,Mtría. en Física Teórica,Maestría,Física y astronomía,Escolarizada
+544,7052300018,Mtría. Regional en Ciencias de la Tierra,Maestría,Ciencias de la tierra y de la atmósfera,Escolarizada
+545,7053100009,Mtría. en Ciencias Matemáticas,Maestría,Matemáticas,Escolarizada
+546,7053100013,Mtría. en Matemáticas Aplicadas,Maestría,Matemáticas,Escolarizada
+547,7071100004,Mtría. en Ciencias en Ingeniería Mecánica,Maestría,Mecánica y profesiones afines al trabajo metálico,Escolarizada
+548,7071100007,Mtría. en Ingeniería Mecánica,Maestría,Mecánica y profesiones afines al trabajo metálico,Escolarizada
+549,7071200004,Mtría. en Ciencias de Ingeniería Eléctrica,Maestría,Electricidad y generación de energía,Escolarizada
+550,7071300015,Mtría. en Ciencias en Electrónica y Computación,Maestría,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+551,7071300037,Mtría. en Ciencias en Ingeniería Electrónica,Maestría,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+552,7071600002,Mtría. en Control de la Contaminación Ambiental,Maestría,Tecnología para la protección del medio ambiente,Escolarizada
+553,7072100024,Mtría. en Microbiología E Higiene de Los Alimentos,Maestría,Industria de la alimentación,Escolarizada
+554,7073200006,Mtría. en Ciencias de la Ingeniería Civil,Maestría,Construcción e ingeniería civil,Escolarizada
+555,7073200014,Mtría. en Ingeniería Civil Esp. en Estructuras,Maestría,Construcción e ingeniería civil,Escolarizada
+556,7095400002,Mtría. en Farmacia,Maestría,Farmacia,Escolarizada
+557,8052300004,Doc. en Ciencias Hidrometereología,Doctorado,Ciencias de la tierra y de la atmósfera,Escolarizada
+558,8062200001,Doc. en Ingeniería y Tecnología,Doctorado,Informática,Escolarizada
+559,4042200004,TSU en Gestión Hotelera,T�cnico Superior Universitario,Administración turísticas y de restaurantes,Escolarizada
+560,4101600009,TSU en Servicios de Hospedaje,T�cnico Superior Universitario,Hospitalidad y turismo,Escolarizada
+561,5041300016,Lic. en Finanzas,Licenciatura,"Finanzas, banca y seguros",Escolarizada
+562,5042100118,Lic. en Relaciones Industriales,Licenciatura,Administración de empresas,Escolarizada
+563,6041100004,Esp. en Comercio Exterior,Especialidad,Negocios y comercio,Escolarizada
+564,6041300004,Esp. en Finanzas,Especialidad,"Finanzas, banca y seguros",Escolarizada
+565,6041300005,Esp. en Finanzas Bursátiles,Especialidad,"Finanzas, banca y seguros",Escolarizada
+566,6041300010,Esp. en Mercados Financieros Internacionales,Especialidad,"Finanzas, banca y seguros",Escolarizada
+567,6041400003,Esp. en Análisis de Impuestos,Especialidad,Contabilidad y fiscalización,Escolarizada
+568,6041400010,Esp. en Impuestos,Especialidad,Contabilidad y fiscalización,Escolarizada
+569,7011400009,Mtría. en Tecnología para el Aprendizaje,Maestría,Tecnología y comunicación educativa,Escolarizada
+570,7041400011,Mtría. en Auditoria Integral,Maestría,Contabilidad y fiscalización,Escolarizada
+571,4051300001,TSU en Administración de Recursos Naturales,T�cnico Superior Universitario,Ecología y ciencias ambientales,Escolarizada
+572,4071600004,TSU en Control de Plagas Urbanas,T�cnico Superior Universitario,Tecnología para la protección del medio ambiente,Escolarizada
+573,6041100002,Esp. en Agronegocios,Especialidad,Negocios y comercio,Escolarizada
+574,7041100009,Mtría. en Agronegocios,Maestría,Negocios y comercio,Escolarizada
+575,8081100016,Doc. en Ciencias Pecuarias,Doctorado,Producción y explotación agrícola y ganadera,Escolarizada
+576,4021200007,TSU en Artes Escénicas para la Expresión Dancística,T�cnico Superior Universitario,Artes escénicas,Escolarizada
+577,5012602027,Lic. en Música Con Orientación en Pedagogía Musical,Licenciatura,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+578,5021100005,Lic. en Artes Visuales Expresión Plástica,Licenciatura,Bellas artes,Escolarizada
+579,5021100020,Lic. en Artes Visuales Expresión Fotográfica,Licenciatura,Bellas artes,Escolarizada
+580,5021200007,Lic. en Artes Escénicas Expresión Dancística,Licenciatura,Artes escénicas,Escolarizada
+581,5021200008,Lic. en Artes Escénicas Expresión Teatral,Licenciatura,Artes escénicas,Escolarizada
+582,5021300070,Lic. en Música Con Orientación en Canto,Licenciatura,Música,Escolarizada
+583,5021300071,Lic. en Música Con Orientación en Composición,Licenciatura,Música,Escolarizada
+584,5021300072,Lic. en Música Con Orientación en Concertista Solista,Licenciatura,Música,Escolarizada
+585,5021300073,Lic. en Música Con Orientación en Dirección Coral,Licenciatura,Música,Escolarizada
+586,7021000001,Mtría. en Artes,Maestría,Planes multidisciplinarios o generales del campo de artes,Escolarizada
+587,7021300001,Mtría. en Ciencias Musicales Esp. en Etnomusicología,Maestría,Música,Escolarizada
+588,7021300018,Mtría. en Ciencias Musicales en el Área de Etnomusicología,Maestría,Música,Escolarizada
+589,7021600021,Mtría. en Desarrollo de Productos,Maestría,"Diseño industrial, de moda e interiores",Escolarizada
+590,7022300036,Mtría. en Estudios en Literacidad,Maestría,Literatura,Escolarizada
+591,7073100004,Mtría. en Historia de la Arquitectura Mexicana,Maestría,Arquitectura y urbanismo,Escolarizada
+592,7073100039,Mtría. en Investigación Arquitectónica,Maestría,Arquitectura y urbanismo,Escolarizada
+593,4061300005,TSU en Sistemas de Información,T�cnico Superior Universitario,Desarrollo de software,Escolarizada
+594,5042100055,Lic. en Administración de Empresas,Licenciatura,Administración de empresas,Escolarizada
+595,4021500002,TSU en Diseño Grafico,T�cnico Superior Universitario,Diseño y comunicación gráfica y editorial,Escolarizada
+596,4021500005,TSU en Multimedia,T�cnico Superior Universitario,Diseño y comunicación gráfica y editorial,Escolarizada
+597,8042200001,Doc. en Desarrollo Sustentable y Turismo,Doctorado,Administración turísticas y de restaurantes,Escolarizada
+598,8042200005,Doc. en Ciencias para el Desarrollo,Doctorado,Administración turísticas y de restaurantes,Escolarizada
+599,7052200016,Mtría. en Ciencia E Ingeniería de Materiales,Maestría,Química,Escolarizada
+600,8072300004,Doc. en Ciencia E Ingeniería de Materiales,Doctorado,"Industrias de materiales diversos (cerámica, madera, plástico y vidrio)",Escolarizada
+601,5071300013,Ing. Mecánico y Electricista,Licenciatura,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+602,5093100001,Cirujano Dentista,Licenciatura,Estomatología y odontología general,Escolarizada
+603,6042100014,Esp. en Administración de Negocios,Especialidad,Administración de empresas,Escolarizada
+604,7012604003,Mtría. en Enseñanza de Las Ciencias,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+605,4101600010,TSU en Servicios Turísticos,T�cnico Superior Universitario,Hospitalidad y turismo,Escolarizada
+606,5101100016,"Lic. en Cultura, Física y Deporte",Licenciatura,Deportes,Escolarizada
+607,6091309001,Esp. en Cirugía Plástica,Especialidad,Medicina de especialidad,Escolarizada
+608,6091310005,Esp. en Dermatología Medico Quirúrgica,Especialidad,Medicina de especialidad,Escolarizada
+609,6091317003,Esp. en Hematología Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+610,6091317009,Esp. en Hemato-Oncologia Pediátrica,Especialidad,Medicina de especialidad,Escolarizada
+611,6091319003,Esp. en Alergias E Inmunología Clínica,Especialidad,Medicina de especialidad,Escolarizada
+612,6091323004,Esp. en Urgencias Pediátricas,Especialidad,Medicina de especialidad,Escolarizada
+613,6091328002,Esp. en Medicina Legal,Especialidad,Medicina de especialidad,Escolarizada
+614,6091336008,Esp. en Oncología Quirúrgica,Especialidad,Medicina de especialidad,Escolarizada
+615,6091340002,Esp. en Pediatría Medica,Especialidad,Medicina de especialidad,Escolarizada
+616,6091342002,Esp. en Endoscopia Ginecológica,Especialidad,Medicina de especialidad,Escolarizada
+617,6092204002,Esp. en Enfermería en Salud Publica,Especialidad,Enfermería de especialidad,Escolarizada
+618,6093207002,Esp. en Patología y Medicina Bucal,Especialidad,Estomatología y odontología de especialidad,Escolarizada
+619,7031100023,Mtría. en Orientación Psicológica,Maestría,Psicología,Escolarizada
+620,7031100037,Mtría. en Psicología Con Orientación en Neuropsicología,Maestría,Psicología,Escolarizada
+621,7031100038,Mtría. en Psicología Con Orientación en Psicología de la Salud,Maestría,Psicología,Escolarizada
+622,7031100039,Mtría. en Psicología Con Orientación en Psicología Educativa,Maestría,Psicología,Escolarizada
+623,7031100040,Mtría. en Psicología Con Orientación en Psicología Organizacional,Maestría,Psicología,Escolarizada
+624,7031100041,Mtría. en Psicología Con Orientación en Psicología Social,Maestría,Psicología,Escolarizada
+625,7031100091,Mtría. en Psicoterapia Psicoanalítica Grupal,Maestría,Psicología,Escolarizada
+626,7031500023,Mtría. en Gerontología Social,Maestría,Trabajo y atención social,Escolarizada
+627,7051100013,Mtría. en Genética Humana,Maestría,Biología,Escolarizada
+628,7091316001,Mtría. en Ginecología,Maestría,Medicina de especialidad,Escolarizada
+629,8051200002,Doc. en Biología Molecular en Medicina,Doctorado,Bioquímica y biofísica,Escolarizada
+630,8091316001,Doc. en Ginecología,Doctorado,Medicina de especialidad,Escolarizada
+631,8095200007,Doc. en Ciencias Biomédicas Inmunología,Doctorado,Biomedicina,Escolarizada
+632,8095600008,Doc. en Ciencias Sociomedicas,Doctorado,Salud pública,Escolarizada
+633,2021300033,P.M. Técnico en Música,Profesional Medio,Ciencias de la educación,No Escolarizada
+634,2092100004,P.M. Carrera de Enfermería,Profesional Medio,Negocios y comercio,Escolarizada
+635,3081100019,Bachillerato Intercultural Tecnológico Con Orientación en Agropecuario y Forestal,Bachillerato Tecnol�gico,Producción y explotación agrícola y ganadera,Escolarizada
+636,3021600008,Bachillerato Intercultural Tecnológico Con Orientación en Diseño y Confección de Prendas de Vestir y Artesanías,Bachillerato Tecnol�gico,"Diseño industrial, de moda e interiores",Escolarizada
+637,3073200001,Bachillerato Tecnológico en Diseño y Construcción,Bachillerato Tecnol�gico,Construcción e ingeniería civil,Escolarizada
+638,3071700002,Bachillerato Tecnológico Químico en Control de Calidad y Medio Ambiente,Bachillerato Tecnol�gico,Ingeniería industrial,Escolarizada
+639,2071200002,P.M. Tecnólogo Profesional en Electricidad Industrial,Profesional Medio,Electricidad y generación de energía,Escolarizada
+640,2071100002,P.M. Tecnólogo Profesional en Mecánica Industrial,Profesional Medio,Mecánica y profesiones afines al trabajo metálico,Escolarizada
+641,2072400003,P.M. Tecnólogo Profesional en Metalurgia y Fundición,Profesional Medio,"Industria de la minería, extracción y metalurgia",Escolarizada
+642,2072300001,P.M. Tecnólogo Profesional en Plásticos,Profesional Medio,"Industrias de materiales diversos (cerámica, madera, plástico y vidrio)",Escolarizada
+643,2071400003,P.M. Tecnólogo Profesional en Procesos Químicos Industriales,Profesional Medio,Ingeniería de procesos químicos,Escolarizada
+644,2062200013,P.M. Tecnólogo Profesional en Sistemas Informáticos,Profesional Medio,Informática,Escolarizada
+645,2072100002,P.M. Tecnólogo Profesional Químico en Análisis y Procesos de Alimentos,Profesional Medio,Industria de la alimentación,Escolarizada
+646,3042000001,Bachillerato Tecnológico en Administración,Bachillerato Tecnol�gico,Planes multidisciplinarios o generales del campo de administración y gestión,Escolarizada
+647,3041100005,Bachillerato Tecnológico en Gestión Aduanal y Operaciones Empresariales,Bachillerato Tecnol�gico,Negocios y comercio,Escolarizada
+648,2051200001,P.M. Tecnólogo Profesional en Biotecnología,Profesional Medio,Bioquímica y biofísica,Escolarizada
+649,2071200011,P.M. Tecnólogo Profesional en Energías Alternas,Profesional Medio,Electricidad y generación de energía,Escolarizada
+650,2062200007,P.M. Tecnólogo Profesional en Informática,Profesional Medio,Informática,Escolarizada
+651,2072000001,P.M. Tecnólogo Profesional en Procesos de Manufactura Competitiva,Profesional Medio,Planes multidisciplinarios o generales del campo de manufacturas y procesos.,Escolarizada
+652,2062100003,P.M. Tecnólogo Profesional en Telecomunicaciones,Profesional Medio,Telecomunicaciones,Escolarizada
+653,3021700001,Bachillerato Técnico en Cerámica,Bachillerato Tecnol�gico,Artesanía tradicional y manualidades,Escolarizada
+654,3042100001,Bachillerato Tecnológico en Administración de Pequeños y Medianos Negocios,Bachillerato Tecnol�gico,Administración de empresas,Escolarizada
+655,3095300007,Bachillerato Tecnológico en Citología E Histología,Bachillerato Tecnol�gico,Diagnóstico médico y tecnología del tratamiento,Escolarizada
+656,3093100005,Bachillerato Tecnológico en Prótesis Dental,Bachillerato Tecnol�gico,Estomatología y odontología general,Escolarizada
+657,3061300004,Bachillerato Técnico en Desarrollo de Software,Bachillerato Tecnol�gico,Desarrollo de software,Escolarizada
+658,3073200001,Bachillerato Técnico en Diseño Industrial,Bachillerato Tecnol�gico,Construcción e ingeniería civil,Escolarizada
+659,3101600003,Bachillerato Tecnológico en Turismo,Bachillerato Tecnol�gico,Hospitalidad y turismo,Escolarizada
+660,3042100026,Bachillerato Tecnológico en Administración de Pequeños y Medianos Negocios,Bachillerato Tecnol�gico,Administración de empresas,Escolarizada
+661,3081100003,Bachillerato Tecnológico Agropecuario,Bachillerato Tecnol�gico,Producción y explotación agrícola y ganadera,Escolarizada
+662,2092100004,P.M. Bachillerato Tecnológico en Enfermería,Profesional Medio,Enfermería general y obstetricia,Escolarizada
+663,2071400001,P.M. Tecnólogo Profesional Químico Industrial,Profesional Medio,Ingeniería de procesos químicos,Escolarizada
+664,2072400001,P.M. en Metalurgia,Profesional Medio,"Industria de la minería, extracción y metalurgia",Escolarizada
+665,2072400002,P.M. en Fundición,Profesional Medio,"Industria de la minería, extracción y metalurgia",Escolarizada
+666,2101500001,P.M. en Alimentos,Profesional Medio,Gastronomía y servicios de alimentos,Escolarizada
+667,2081100001,P.M. Agropecuario,Profesional Medio,Producción y explotación agrícola y ganadera,Escolarizada
+668,3021600010,Bachillerato Intercultural Tecnológico en Diseño y Confección de prendas de vestir y Artesanias,Bachillerato Tecnol�gico,"Diseño industrial, de moda e interiores",Escolarizada
+669,3081100024,Bachillerato Intercultural Tecnológico Agropecuario y Forestal,Bachillerato Tecnol�gico,Producción y explotación agrícola y ganadera,Escolarizada
+670,4021500005,TSU en Multimedia,T�cnico Superior Universitario,Diseño y comunicación gráfica y editorial,Escolarizada
+671,4062100001,TSU en Administración de Redes de Cómputo,T�cnico Superior Universitario,Telecomunicaciones,Escolarizada
+672,4062100004,TSU en Redes y Telecomunicaciones,T�cnico Superior Universitario,Telecomunicaciones,Escolarizada
+673,4071300015,TSU en Electrónica,T�cnico Superior Universitario,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",Escolarizada
+674,4101600010,TSU en Servicios Turísticos,T�cnico Superior Universitario,Hospitalidad y turismo,Escolarizada
+675,4101600012,TSU en Turismo Alternativo,T�cnico Superior Universitario,Hospitalidad y turismo,Escolarizada
+676,5011100022,Lic. en Educación Indígena,Licenciatura,Diseño curricular y pedagogía,Escolarizada
+677,5031300044,Lic. en Construcción de la Paz y Seguridad,Licenciatura,Ciencias políticas,Escolarizada
+678,5103100017,"Lic. en Seguridad Laboral, Protección Civil y Emergencias",Licenciatura,Seguridad para el trabajo,Escolarizada
+679,6041100014,Esp. en Valuación,Especialidad,Negocios y comercio,Escolarizada
+680,6081100005,Esp. en Producción Porcina,Especialidad,Producción y explotación agrícola y ganadera,Escolarizada
+681,6091317003,Esp. en Hematologia Pediatrica,Especialidad,Medicina de especialidad,Escolarizada
+682,6091317009,Esp. en Hemato-Oncologia Pediatrica,Especialidad,Medicina de especialidad,Escolarizada
+683,7011200037,Mtría. en Planeación de la Educación Superior,Maestría,"Planeación, evaluación e investigación educativa",Escolarizada
+684,7011500003,Mtría. en Educación,Maestría,Ciencias de la educación,Escolarizada
+685,7012602002,Mtría. en Didáctica de las Artes,Maestría,Formación docente en la enseñanza de asignaturas específicas,Escolarizada
+686,7021600021,Mtría. en Desarrollo de Productos,Maestría,"Diseño industrial, de moda e interiores",Escolarizada
+687,7022300034,Mtría. en Literaturas Interamericanas,Maestría,Literatura,Escolarizada
+688,7022300036,Mtría. en Estudios en Literacidad,Maestría,Literatura,Escolarizada
+689,7022300037,Mtría. en Estudios Criticos del Lenguaje,Maestría,Literatura,Escolarizada
+690,7031100028,Mtría. en Psicología,Maestría,Psicología,Escolarizada
+691,7031100030,Mtría. en Psicología Clínica,Maestría,Psicología,Escolarizada
+692,7031100041,Mtría. en Psicología Con Orientación en Psicología Social,Maestría,Psicología,Escolarizada
+693,7031200016,Mtría. en Ciencias Antropológicas,Maestría,Sociología y antropología,Escolarizada
+694,7031200038,Mtría. en Estudios Regionales,Maestría,Sociología y antropología,Escolarizada
+695,7031200087,"Mtría. en Estudios Francófonos: Pedagogía, Lingüística y Estudios Interculturales",Maestría,Sociología y antropología,Escolarizada
+696,7041100018,Mtría. en Comercio y Mercados Internacionales,Maestría,Negocios y comercio,Escolarizada
+697,7041200042,Mtría. en Mercadotecnia,Maestría,Mercadotecnia y publicidad,Escolarizada
+698,7041400028,Mtría. en Impuestos,Maestría,Contabilidad y fiscalización,Escolarizada
+699,7042000002,Mtría. en Administración,Maestría,Planes multidisciplinarios o generales del campo de administración y gestión,Escolarizada
+700,7042100129,Mtría. en Dirección Estratégica de la Calidad,Maestría,Administración de empresas,Escolarizada
+701,7042200008,Mtría. en Desarrollo Sustentable y Turismo,Maestría,Administración turísticas y de restaurantes,Escolarizada
+702,7042300031,Mtría. en Gestión Pública,Maestría,Administración pública,Escolarizada
+703,7051100007,Mtría. en Ciencias Biológicas,Maestría,Biología,Escolarizada
+704,7051200018,Mtría. en Farmacología,Maestría,Bioquímica y biofísica,Escolarizada
+705,7051200022,Mtría. en Ciencias en Biología Molecular en Medicina,Maestría,Bioquímica y biofísica,Escolarizada
+706,7052200016,Mtría. en Ciencia e Ingeniería de Materiales,Maestría,Química,Escolarizada
+707,7052300003,Mtría. en Ciencias de la Tierra,Maestría,Ciencias de la tierra y de la atmósfera,Escolarizada
+708,7052300035,Mtría. en Geología,Maestría,Ciencias de la tierra y de la atmósfera,Escolarizada
+709,7061000002,Mtría. en Computación Aplicada,Maestría,Planes multidisciplinarios o generales del campo de innovación en tecnologías de la información y la comunicación,Escolarizada
+710,7061300011,Mtría. en Sistemas de Información,Maestría,Desarrollo de software,Escolarizada
+711,7062200028,Mtría en Ingeniería de Desarrollos Tecnológicos,Maestría,Informática,Escolarizada
+712,7071600009,Mtría. en Protección Ambiental,Maestría,Tecnología para la protección del medio ambiente,Escolarizada
+713,7071700001,Mtría. en Ingeniería de Proyectos,Maestría,Ingeniería industrial,Escolarizada
+714,7071700002,Mtría. en Sistemas de Calidad,Maestría,Ingeniería industrial,Escolarizada
+715,7071700009,Mtría. en Análisis de Sistemas Industriales,Maestría,Ingeniería industrial,Escolarizada
+716,7072100008,Mtría. en Ciencias de los Alimentos,Maestría,Industria de la alimentación,Escolarizada
+717,7072100012,Mtría. en Ciencias en Microbiología e Inocuidad de Alimentos,Maestría,Industria de la alimentación,Escolarizada
+718,7081100023,Mtría. en Ciencias en Nutrición Animal,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+719,7081100033,Mtría. en Ciencias Pecuarias,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+720,7081100072,Mtría. en Ciencias Agrícolas y Forestales,Maestría,Producción y explotación agrícola y ganadera,Escolarizada
+721,7091345005,Mtría. en Ciencias Médicas,Maestría,Medicina de especialidad,Escolarizada
+722,7095200012,Mtría. en Ciencias Biomédicas,Maestría,Biomedicina,Escolarizada
+723,7095300001,Mtría. en Química Clínica,Maestría,Diagnóstico médico y tecnología del tratamiento,Escolarizada
+724,8022300004,Doc. en Letras,Doctorado,Literatura,Escolarizada
+725,8022300013,Doc. en Estudios Literarios y Lingüísticos,Doctorado,Literatura,Escolarizada
+726,8031400010,Doc. en Negocios y Estudios Económicos,Doctorado,Economía,Escolarizada
+727,8042100049,Doc. en Innovación para el Hábitat Sustentable,Doctorado,Administración de empresas,Escolarizada
+728,8042100051,Doc. en Innovación y Sustentabilidad en los Negocios,Doctorado,Administración de empresas,Escolarizada
+729,8051100004,Doc. en Ciencias Biológicas,Doctorado,Biología,Escolarizada
+730,8051300013,Doc. en Ciencias para el Desarrollo Sustentable,Doctorado,Ecología y ciencias ambientales,Escolarizada
+731,8052000002,Doc. en Ciencias,Doctorado,"Planes multidisciplinarios o generales del campo de ciencias físicas, químicas y de la tierra.",Escolarizada
+732,8052200023,Doc. en Ciencia de Biomateriales Sustentables,Doctorado,Química,Escolarizada
+733,8052300021,Doc. en Geología,Doctorado,Ciencias de la tierra y de la atmósfera,Escolarizada
+734,8062200001,Doc. en Ingeniería y Tecnología,Doctorado,Informática,Escolarizada
+735,8072300004,Doc. en Ciencia e Ingeniería de Materiales,Doctorado,"Industrias de materiales diversos (cerámica, madera, plástico y vidrio)",Escolarizada
+736,8081100028,Doc. en Ciencias Agrícolas y Forestales,Doctorado,Producción y explotación agrícola y ganadera,Escolarizada
+737,8091345002,Doc. en Ciencias de la Salud Orientación en Investigación Clínica,Doctorado,Medicina de especialidad,Escolarizada

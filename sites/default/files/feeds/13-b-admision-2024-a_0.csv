@@ -1,0 +1,70 @@
+name,row,anio,calendario,nivel_educativo,entidad_universitaria,aspirantes_t,aspirantes_h,aspirantes_m,aspirantes_nb,admitidos_t,admitidos_h,admitidos_m,admitidos_nb,no_admitidos_t,no_admitidos_h,no_admitidos_m,no_admitidos_nb,por_admision
+13 Admisión - 1 2024A Bachillerato General SEMS,1,2024,A,Bachillerato General,SEMS,28185,14023,14162,,28185,14023,14162,,0,0,0,,100
+13 Admisión - 2 2024A Bachillerato General SUV,2,2024,A,Bachillerato General,SUV,251,99,152,,57,23,34,,194,76,118,,22.70916335
+13 Admisión - 3 2024A Bachillerato Tecnológico SEMS,3,2024,A,Bachillerato Tecnológico,SEMS,2392,1327,1065,,2392,1327,1065,,0,0,0,,100
+13 Admisión - 4 2024A Bachillerato Tecnológico CUAAD,4,2024,A,Bachillerato Tecnológico,CUAAD,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 5 2024A Bachillerato Tecnológico CUCS,5,2024,A,Bachillerato Tecnológico,CUCS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 6 2024A Bachillerato Tecnológico CUSUR,6,2024,A,Bachillerato Tecnológico,CUSUR,33,7,26,,13,2,11,,20,5,15,,39.39393939
+13 Admisión - 7 2024A Técnico Superior Universitario CUCEA,7,2024,A,Técnico Superior Universitario,CUCEA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 8 2024A Técnico Superior Universitario CUCEI,8,2024,A,Técnico Superior Universitario,CUCEI,57,54,3,,36,36,0,,21,18,3,,63.15789474
+13 Admisión - 9 2024A Técnico Superior Universitario CUCS,9,2024,A,Técnico Superior Universitario,CUCS,518,212,306,,244,90,154,,274,122,152,,47.1042471
+13 Admisión - 10 2024A Técnico Superior Universitario CUCOSTASUR,10,2024,A,Técnico Superior Universitario,CUCOSTASUR,4,4,0,,0,0,0,,4,4,0,,0
+13 Admisión - 11 2024A Licenciatura CUCEA,11,2024,A,Licenciatura,CUCEA,5710,2684,3026,,3080,1465,1615,,2630,1219,1411,,53.94045534
+13 Admisión - 12 2024A Licenciatura CUCEI,12,2024,A,Licenciatura,CUCEI,5419,3894,1525,,2349,1707,642,,3070,2187,883,,43.34748109
+13 Admisión - 13 2024A Licenciatura CUCSH,13,2024,A,Licenciatura,CUCSH,2624,1067,1557,,1265,519,746,,1359,548,811,,48.20884146
+13 Admisión - 14 2024A Licenciatura CUCS,14,2024,A,Licenciatura,CUCS,9354,2815,6539,,1592,497,1095,,7762,2318,5444,,17.01945692
+13 Admisión - 15 2024A Licenciatura CUAAD,15,2024,A,Licenciatura,CUAAD,4574,1766,2808,,825,287,538,,3749,1479,2270,,18.03672934
+13 Admisión - 16 2024A Licenciatura CUCBA,16,2024,A,Licenciatura,CUCBA,2095,884,1211,,839,368,471,,1256,516,740,,40.0477327
+13 Admisión - 17 2024A Licenciatura CUALTOS,17,2024,A,Licenciatura,CUALTOS,1408,462,946,,493,156,337,,915,306,609,,35.01420455
+13 Admisión - 18 2024A Licenciatura CUCIÉNEGA,18,2024,A,Licenciatura,CUCIÉNEGA,1226,526,700,,690,304,386,,536,222,314,,56.28058728
+13 Admisión - 19 2024A Licenciatura CUSUR,19,2024,A,Licenciatura,CUSUR,2117,756,1361,,839,326,513,,1278,430,848,,39.63155409
+13 Admisión - 20 2024A Licenciatura CUCOSTA,20,2024,A,Licenciatura,CUCOSTA,1490,607,883,,790,343,447,,700,264,436,,53.02013423
+13 Admisión - 21 2024A Licenciatura CUCOSTASUR,21,2024,A,Licenciatura,CUCOSTASUR,626,299,327,,413,185,228,,213,114,99,,65.97444089
+13 Admisión - 22 2024A Licenciatura CUVALLES,22,2024,A,Licenciatura,CUVALLES,1384,482,902,,723,275,448,,661,207,454,,52.23988439
+13 Admisión - 23 2024A Licenciatura CUNORTE,23,2024,A,Licenciatura,CUNORTE,235,86,149,,158,58,100,,77,28,49,,67.23404255
+13 Admisión - 24 2024A Licenciatura CULAGOS,24,2024,A,Licenciatura,CULAGOS,346,147,199,,223,100,123,,123,47,76,,64.45086705
+13 Admisión - 25 2024A Licenciatura CUTONALÁ,25,2024,A,Licenciatura,CUTONALÁ,3313,1336,1977,,1157,540,617,,2156,796,1360,,34.92303049
+13 Admisión - 26 2024A Licenciatura CUTLAJOMULCO,26,2024,A,Licenciatura,CUTLAJOMULCO,1680,655,1025,,571,228,343,,1109,427,682,,33.98809524
+13 Admisión - 27 2024A Licenciatura CUGUADALAJARA,27,2024,A,Licenciatura,CUGUADALAJARA,,,,,,,,,,,,,
+13 Admisión - 28 2024A Licenciatura CUCHAPALA,28,2024,A,Licenciatura,CUCHAPALA,19,3,16,,15,3,12,,4,0,4,,78.94736842
+13 Admisión - 29 2024A Licenciatura CUTLAQUEPAQUE,29,2024,A,Licenciatura,CUTLAQUEPAQUE,493,265,228,,236,114,122,,257,151,106,,47.87018256
+13 Admisión - 30 2024A Licenciatura SUV,30,2024,A,Licenciatura,SUV,1998,943,1055,,804,369,435,,1194,574,620,,40.24024024
+13 Admisión - 31 2024A Especialidad CUCBA,31,2024,A,Especialidad,CUCBA,9,5,4,,6,5,1,,3,0,3,,66.66666667
+13 Admisión - 32 2024A Especialidad CUCS,32,2024,A,Especialidad,CUCS,130,34,96,,33,4,29,,97,30,67,,25.38461538
+13 Admisión - 33 2024A Especialidad CUALTOS,33,2024,A,Especialidad,CUALTOS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 34 2024A Especialidad CUCOSTA,34,2024,A,Especialidad,CUCOSTA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 35 2024A Especialidad CUTONALÁ,35,2024,A,Especialidad,CUTONALÁ,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 36 2024A Especialidad CUSUR,36,2024,A,Especialidad,CUSUR,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 37 2024A Especialidad CUCOSTASUR,37,2024,A,Especialidad,CUCOSTASUR,1,0,1,,0,0,0,,1,0,1,,0
+13 Admisión - 38 2024A Maestría CUCEA,38,2024,A,Maestría,CUCEA,158,85,73,,131,72,59,,27,13,14,,82.91139241
+13 Admisión - 39 2024A Maestría CUCEI,39,2024,A,Maestría,CUCEI,169,119,50,,80,59,21,,89,60,29,,47.33727811
+13 Admisión - 40 2024A Maestría CUCSH,40,2024,A,Maestría,CUCSH,50,21,29,,39,15,24,,11,6,5,,78
+13 Admisión - 41 2024A Maestría CUCS,41,2024,A,Maestría,CUCS,147,54,93,,45,18,27,,102,36,66,,30.6122449
+13 Admisión - 42 2024A Maestría CUAAD,42,2024,A,Maestría,CUAAD,25,15,10,,21,12,9,,4,3,1,,84
+13 Admisión - 43 2024A Maestría CUCBA,43,2024,A,Maestría,CUCBA,29,12,17,,23,7,16,,6,5,1,,79.31034483
+13 Admisión - 44 2024A Maestría CUALTOS,44,2024,A,Maestría,CUALTOS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 45 2024A Maestría CUCIÉNEGA,45,2024,A,Maestría,CUCIÉNEGA,34,15,19,,4,2,2,,30,13,17,,11.76470588
+13 Admisión - 46 2024A Maestría CUSUR,46,2024,A,Maestría,CUSUR,63,27,36,,47,21,26,,16,6,10,,74.6031746
+13 Admisión - 47 2024A Maestría CUCOSTA,47,2024,A,Maestría,CUCOSTA,10,6,4,,7,3,4,,3,3,0,,70
+13 Admisión - 48 2024A Maestría CUCOSTASUR,48,2024,A,Maestría,CUCOSTASUR,23,13,10,,21,12,9,,2,1,1,,91.30434783
+13 Admisión - 49 2024A Maestría CUVALLES,49,2024,A,Maestría,CUVALLES,29,22,7,,24,17,7,,5,5,0,,82.75862069
+13 Admisión - 50 2024A Maestría CUNORTE,50,2024,A,Maestría,CUNORTE,98,49,49,,53,23,30,,45,26,19,,54.08163265
+13 Admisión - 51 2024A Maestría CULAGOS,51,2024,A,Maestría,CULAGOS,17,12,5,,6,3,3,,11,9,2,,35.29411765
+13 Admisión - 52 2024A Maestría CUTONALÁ,52,2024,A,Maestría,CUTONALÁ,25,15,10,,19,13,6,,6,2,4,,76
+13 Admisión - 53 2024A Maestría SUV,53,2024,A,Maestría,SUV,193,108,85,,59,34,25,,134,74,60,,30.56994819
+13 Admisión - 54 2024A Doctorado CUCEA,54,2024,A,Doctorado,CUCEA,30,14,16,,17,7,10,,13,7,6,,56.66666667
+13 Admisión - 55 2024A Doctorado CUCEI,55,2024,A,Doctorado,CUCEI,40,27,13,,21,11,10,,19,16,3,,52.5
+13 Admisión - 56 2024A Doctorado CUCSH,56,2024,A,Doctorado,CUCSH,35,12,23,,33,10,23,,2,2,0,,94.28571429
+13 Admisión - 57 2024A Doctorado CUCS,57,2024,A,Doctorado,CUCS,136,58,78,,48,19,29,,88,39,49,,35.29411765
+13 Admisión - 58 2024A Doctorado CUAAD,58,2024,A,Doctorado,CUAAD,22,11,11,,21,11,10,,1,0,1,,95.45454545
+13 Admisión - 59 2024A Doctorado CUCBA,59,2024,A,Doctorado,CUCBA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 60 2024A Doctorado CUALTOS,60,2024,A,Doctorado,CUALTOS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 61 2024A Doctorado CUCIÉNEGA,61,2024,A,Doctorado,CUCIÉNEGA,18,11,7,,4,2,2,,14,9,5,,22.22222222
+13 Admisión - 62 2024A Doctorado CUSUR,62,2024,A,Doctorado,CUSUR,9,3,6,,8,2,6,,1,1,0,,88.88888889
+13 Admisión - 63 2024A Doctorado CUCOSTA,63,2024,A,Doctorado,CUCOSTA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 64 2024A Doctorado CUCOSTASUR,64,2024,A,Doctorado,CUCOSTASUR,2,2,0,,2,2,0,,0,0,0,,100
+13 Admisión - 65 2024A Doctorado CUVALLES,65,2024,A,Doctorado,CUVALLES,1,0,1,,1,0,1,,0,0,0,,100
+13 Admisión - 66 2024A Doctorado CUNORTE,66,2024,A,Doctorado,CUNORTE,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 67 2024A Doctorado CULAGOS,67,2024,A,Doctorado,CULAGOS,16,11,5,,12,8,4,,4,3,1,,75
+13 Admisión - 68 2024A Doctorado CUTONALÁ,68,2024,A,Doctorado,CUTONALÁ,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 69 2024A Doctorado SUV,69,2024,A,Doctorado,SUV,0,0,0,,0,0,0,,0,0,0,,0

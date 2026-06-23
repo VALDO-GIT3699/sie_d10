@@ -1,0 +1,68 @@
+name,row,anio,calendario,nivel_educativo,entidad_universitaria,aspirantes_t,aspirantes_h,aspirantes_m,aspirantes_nb,admitidos_t,admitidos_h,admitidos_m,admitidos_nb,no_admitidos_t,no_admitidos_h,no_admitidos_m,no_admitidos_nb,por_admision
+13 Admisión - 1 2023B Bachillerato General SEMS,1,2023,B,Bachillerato General,SEMS,77426,36648,40778,,37533,16831,20702,,39893,19817,20076,,48.47596415
+13 Admisión - 2 2023B Bachillerato General SUV,2,2023,B,Bachillerato General,SUV,284,139,145,,75,41,34,,209,98,111,,26.4084507
+13 Admisión - 3 2023B Bachillerato Tecnológico SEMS,3,2023,B,Bachillerato Tecnológico,SEMS,6351,3381,2970,,3081,1568,1513,,3270,1813,1457,,48.51204535
+13 Admisión - 4 2023B Bachillerato Tecnológico CUAAD,4,2023,B,Bachillerato Tecnológico,CUAAD,435,289,146,,135,87,48,,300,202,98,,31.03448276
+13 Admisión - 5 2023B Bachillerato Tecnológico CUCS,5,2023,B,Bachillerato Tecnológico,CUCS,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 6 2023B Bachillerato Tecnológico CUSUR,6,2023,B,Bachillerato Tecnológico,CUSUR,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 7 2023B Técnico Superior Universitario CUCEA,7,2023,B,Técnico Superior Universitario,CUCEA,36,24,12,,34,22,12,,2,2,0,,94.44444444
+13 Admisión - 8 2023B Técnico Superior Universitario CUCEI,8,2023,B,Técnico Superior Universitario,CUCEI,123,111,12,,50,47,3,,73,64,9,,40.6504065
+13 Admisión - 9 2023B Técnico Superior Universitario CUCS,9,2023,B,Técnico Superior Universitario,CUCS,738,317,421,,268,107,161,,470,210,260,,36.31436314
+13 Admisión - 10 2023B Técnico Superior Universitario CUCOSTASUR,10,2023,B,Técnico Superior Universitario,CUCOSTASUR,36,16,20,,33,15,18,,3,1,2,,91.66666667
+13 Admisión - 11 2023B Licenciatura CUCEA,11,2023,B,Licenciatura,CUCEA,8261,3693,4568,,2990,1300,1690,,5271,2393,2878,,36.19416536
+13 Admisión - 12 2023B Licenciatura CUCEI,12,2023,B,Licenciatura,CUCEI,8504,5962,2542,,2361,1681,680,,6143,4281,1862,,27.76340546
+13 Admisión - 13 2023B Licenciatura CUCSH,13,2023,B,Licenciatura,CUCSH,4114,1604,2510,,1424,530,894,,2690,1074,1616,,34.61351483
+13 Admisión - 14 2023B Licenciatura CUCS,14,2023,B,Licenciatura,CUCS,15002,4297,10705,,1608,537,1071,,13394,3760,9634,,10.71857086
+13 Admisión - 15 2023B Licenciatura CUAAD,15,2023,B,Licenciatura,CUAAD,6877,2557,4320,,859,314,545,,6018,2243,3775,,12.49091173
+13 Admisión - 16 2023B Licenciatura CUCBA,16,2023,B,Licenciatura,CUCBA,2972,1317,1655,,874,400,474,,2098,917,1181,,29.40780619
+13 Admisión - 17 2023B Licenciatura CUALTOS,17,2023,B,Licenciatura,CUALTOS,2937,1069,1868,,632,265,367,,2305,804,1501,,21.51855635
+13 Admisión - 18 2023B Licenciatura CUCIÉNEGA,18,2023,B,Licenciatura,CUCIÉNEGA,2276,954,1322,,839,365,474,,1437,589,848,,36.8629174
+13 Admisión - 19 2023B Licenciatura CUSUR,19,2023,B,Licenciatura,CUSUR,3861,1389,2472,,979,383,596,,2882,1006,1876,,25.35612536
+13 Admisión - 20 2023B Licenciatura CUCOSTA,20,2023,B,Licenciatura,CUCOSTA,2983,1235,1748,,1130,508,622,,1853,727,1126,,37.88132752
+13 Admisión - 21 2023B Licenciatura CUCOSTASUR,21,2023,B,Licenciatura,CUCOSTASUR,1142,513,629,,619,273,346,,523,240,283,,54.20315236
+13 Admisión - 22 2023B Licenciatura CUVALLES,22,2023,B,Licenciatura,CUVALLES,2263,857,1406,,995,412,583,,1268,445,823,,43.96818383
+13 Admisión - 23 2023B Licenciatura CUNORTE,23,2023,B,Licenciatura,CUNORTE,1072,404,668,,614,221,393,,458,183,275,,57.2761194
+13 Admisión - 24 2023B Licenciatura CULAGOS,24,2023,B,Licenciatura,CULAGOS,832,387,445,,495,231,264,,337,156,181,,59.49519231
+13 Admisión - 25 2023B Licenciatura CUTONALÁ,25,2023,B,Licenciatura,CUTONALÁ,4590,1864,2726,,1113,487,626,,3477,1377,2100,,24.24836601
+13 Admisión - 26 2023B Licenciatura CUTLAJOMULCO,26,2023,B,Licenciatura,CUTLAJOMULCO,2471,1010,1461,,578,261,317,,1893,749,1144,,23.39133954
+13 Admisión - 27 2023B Licenciatura CUCHAPALA,27,2023,B,Licenciatura,CUCHAPALA,141,35,106,,49,12,37,,92,23,69,,34.75177305
+13 Admisión - 28 2023B Licenciatura CUTLAQUEPAQUE,28,2023,B,Licenciatura,CUTLAQUEPAQUE,682,356,326,,227,112,115,,455,244,211,,33.28445748
+13 Admisión - 29 2023B Licenciatura SUV,29,2023,B,Licenciatura,SUV,2256,1058,1198,,817,359,458,,1439,699,740,,36.21453901
+13 Admisión - 30 2023B Especialidad CUCBA,30,2023,B,Especialidad,CUCBA,1,0,1,,0,0,0,,1,0,1,,0
+13 Admisión - 31 2023B Especialidad CUCS,31,2023,B,Especialidad,CUCS,81,28,53,,23,6,17,,58,22,36,,28.39506173
+13 Admisión - 32 2023B Especialidad CUALTOS,32,2023,B,Especialidad,CUALTOS,69,19,50,,50,13,37,,19,6,13,,72.46376812
+13 Admisión - 33 2023B Especialidad CUCOSTA,33,2023,B,Especialidad,CUCOSTA,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 34 2023B Especialidad CUTONALÁ,34,2023,B,Especialidad,CUTONALÁ,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 35 2023B Especialidad CUSUR,35,2023,B,Especialidad,CUSUR,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 36 2023B Maestría CUCEA,36,2023,B,Maestría,CUCEA,353,185,168,,231,118,113,,122,67,55,,65.43909348
+13 Admisión - 37 2023B Maestría CUCEI,37,2023,B,Maestría,CUCEI,276,197,79,,119,82,37,,157,115,42,,43.11594203
+13 Admisión - 38 2023B Maestría CUCSH,38,2023,B,Maestría,CUCSH,120,40,80,,58,21,37,,62,19,43,,48.33333333
+13 Admisión - 39 2023B Maestría CUCS,39,2023,B,Maestría,CUCS,168,65,103,,22,8,14,,146,57,89,,13.0952381
+13 Admisión - 40 2023B Maestría CUAAD,40,2023,B,Maestría,CUAAD,56,28,28,,43,22,21,,13,6,7,,76.78571429
+13 Admisión - 41 2023B Maestría CUCBA,41,2023,B,Maestría,CUCBA,59,23,36,,45,16,29,,14,7,7,,76.27118644
+13 Admisión - 42 2023B Maestría CUALTOS,42,2023,B,Maestría,CUALTOS,9,5,4,,4,1,3,,5,4,1,,44.44444444
+13 Admisión - 43 2023B Maestría CUCIÉNEGA,43,2023,B,Maestría,CUCIÉNEGA,26,12,14,,14,5,9,,12,7,5,,53.84615385
+13 Admisión - 44 2023B Maestría CUSUR,44,2023,B,Maestría,CUSUR,81,33,48,,47,19,28,,34,14,20,,58.02469136
+13 Admisión - 45 2023B Maestría CUCOSTA,45,2023,B,Maestría,CUCOSTA,101,43,58,,65,26,39,,36,17,19,,64.35643564
+13 Admisión - 46 2023B Maestría CUCOSTASUR,46,2023,B,Maestría,CUCOSTASUR,68,41,27,,63,37,26,,5,4,1,,92.64705882
+13 Admisión - 47 2023B Maestría CUVALLES,47,2023,B,Maestría,CUVALLES,49,25,24,,44,22,22,,5,3,2,,89.79591837
+13 Admisión - 48 2023B Maestría CUNORTE,48,2023,B,Maestría,CUNORTE,82,30,52,,49,18,31,,33,12,21,,59.75609756
+13 Admisión - 49 2023B Maestría CULAGOS,49,2023,B,Maestría,CULAGOS,21,15,6,,8,6,2,,13,9,4,,38.0952381
+13 Admisión - 50 2023B Maestría CUTONALÁ,50,2023,B,Maestría,CUTONALÁ,21,14,7,,20,13,7,,1,1,0,,95.23809524
+13 Admisión - 51 2023B Maestría SUV,51,2023,B,Maestría,SUV,630,306,324,,210,95,115,,420,211,209,,33.33333333
+13 Admisión - 52 2023B Doctorado CUCEA,52,2023,B,Doctorado,CUCEA,105,54,51,,78,39,39,,27,15,12,,74.28571429
+13 Admisión - 53 2023B Doctorado CUCEI,53,2023,B,Doctorado,CUCEI,63,40,23,,42,27,15,,21,13,8,,66.66666667
+13 Admisión - 54 2023B Doctorado CUCSH,54,2023,B,Doctorado,CUCSH,45,20,25,,22,6,16,,23,14,9,,48.88888889
+13 Admisión - 55 2023B Doctorado CUCS,55,2023,B,Doctorado,CUCS,71,26,45,,20,9,11,,51,17,34,,28.16901408
+13 Admisión - 56 2023B Doctorado CUAAD,56,2023,B,Doctorado,CUAAD,18,13,5,,11,8,3,,7,5,2,,61.11111111
+13 Admisión - 57 2023B Doctorado CUCBA,57,2023,B,Doctorado,CUCBA,25,12,13,,12,6,6,,13,6,7,,48
+13 Admisión - 58 2023B Doctorado CUALTOS,58,2023,B,Doctorado,CUALTOS,21,8,13,,9,5,4,,12,3,9,,42.85714286
+13 Admisión - 59 2023B Doctorado CUCIÉNEGA,59,2023,B,Doctorado,CUCIÉNEGA,4,4,0,,2,2,0,,2,2,0,,50
+13 Admisión - 60 2023B Doctorado CUSUR,60,2023,B,Doctorado,CUSUR,46,23,23,,29,15,14,,17,8,9,,63.04347826
+13 Admisión - 61 2023B Doctorado CUCOSTA,61,2023,B,Doctorado,CUCOSTA,40,23,17,,24,13,11,,16,10,6,,60
+13 Admisión - 62 2023B Doctorado CUCOSTASUR,62,2023,B,Doctorado,CUCOSTASUR,8,6,2,,3,2,1,,5,4,1,,37.5
+13 Admisión - 63 2023B Doctorado CUVALLES,63,2023,B,Doctorado,CUVALLES,5,4,1,,5,4,1,,0,0,0,,100
+13 Admisión - 64 2023B Doctorado CUNORTE,64,2023,B,Doctorado,CUNORTE,0,0,0,,0,0,0,,0,0,0,,0
+13 Admisión - 65 2023B Doctorado CULAGOS,65,2023,B,Doctorado,CULAGOS,9,4,5,,4,2,2,,5,2,3,,44.44444444
+13 Admisión - 66 2023B Doctorado CUTONALÁ,66,2023,B,Doctorado,CUTONALÁ,53,28,25,,40,21,19,,13,7,6,,75.47169811
+13 Admisión - 67 2023B Doctorado SUV,67,2023,B,Doctorado,SUV,106,42,64,,24,10,14,,82,32,50,,22.64150943

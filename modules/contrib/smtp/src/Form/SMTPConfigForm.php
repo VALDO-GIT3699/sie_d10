@@ -2,16 +2,10 @@
 
 namespace Drupal\smtp\Form;
 
-use Drupal\Core\Extension\ModuleHandlerInterface;
-use PHPMailer\PHPMailer\PHPMailer;
-use Drupal\Component\Utility\EmailValidatorInterface;
-use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Mail\MailManagerInterface;
-use Drupal\Core\Messenger\Messenger;
-use Drupal\Core\Session\AccountProxyInterface;
 use Drupal\Core\Url;
+use PHPMailer\PHPMailer\PHPMailer;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -22,7 +16,7 @@ class SMTPConfigForm extends ConfigFormBase {
   /**
    * Drupal messenger service.
    *
-   * @var \Drupal\Core\Messenger\Messenger
+   * @var \Drupal\Core\Messenger\MessengerInterface
    */
   protected $messenger;
 
@@ -55,36 +49,17 @@ class SMTPConfigForm extends ConfigFormBase {
   protected $moduleHandler;
 
   /**
-   * Constructs $messenger and $config_factory objects.
-   *
-   * @param \Drupal\Core\Config\ConfigFactoryInterface $config_factory
-   *   The factory for configuration objects.
-   * @param \Drupal\Core\Messenger\Messenger $messenger
-   *   The D8 messenger object.
-   * @param \Drupal\Component\Utility\EmailValidatorInterface $email_validator
-   *   The Email Validator Service.
-   */
-  public function __construct(ConfigFactoryInterface $config_factory, Messenger $messenger, EmailValidatorInterface $email_validator, AccountProxyInterface $current_user, MailManagerInterface $mail_manager, ModuleHandlerInterface $module_handler) {
-    $this->messenger = $messenger;
-    $this->emailValidator = $email_validator;
-    $this->currentUser = $current_user;
-    $this->mailManager = $mail_manager;
-    $this->moduleHandler = $module_handler;
-    parent::__construct($config_factory);
-  }
-
-  /**
    * {@inheritdoc}
    */
   public static function create(ContainerInterface $container) {
-    return new static(
-      $container->get('config.factory'),
-      $container->get('messenger'),
-      $container->get('email.validator'),
-      $container->get('current_user'),
-      $container->get('plugin.manager.mail'),
-      $container->get('module_handler')
-    );
+    $instance = parent::create($container);
+    $instance->messenger = $container->get('messenger');
+    $instance->emailValidator = $container->get('email.validator');
+    $instance->currentUser = $container->get('current_user');
+    $instance->mailManager = $container->get('plugin.manager.mail');
+    $instance->moduleHandler = $container->get('module_handler');
+
+    return $instance;
   }
 
   /**
@@ -114,6 +89,10 @@ class SMTPConfigForm extends ConfigFormBase {
     }
     else {
       $this->messenger->addMessage($this->t('SMTP module is INACTIVE.'));
+    }
+    // Add Debugging warning.
+    if ($config->get('smtp_debugging')) {
+      $this->messenger->addWarning($this->t('SMTP debugging is on, ensure it is <a href="#edit-smtp-debugging">disabled</a> before using in production.'));
     }
 
     $this->messenger->addMessage($this->t('Disabled fields are overridden in site-specific configuration file.'), 'warning');
@@ -161,7 +140,7 @@ class SMTPConfigForm extends ConfigFormBase {
       '#type' => 'textfield',
       '#title' => $this->t('SMTP backup server'),
       '#default_value' => $config->get('smtp_hostbackup'),
-      '#description' => $this->t("The address of your outgoing SMTP backup server. If the primary server can\'t be found this one will be tried. This is optional."),
+      '#description' => $this->t("The address of your outgoing SMTP backup server. If the primary server can't be found this one will be tried. This is optional."),
       '#disabled' => $this->isOverridden('smtp_hostbackup'),
     ];
     $form['server']['smtp_port'] = [
@@ -237,7 +216,7 @@ class SMTPConfigForm extends ConfigFormBase {
       '#type' => 'password',
       '#title' => $this->t('Password'),
       '#default_value' => $config->get('smtp_password'),
-      '#description' => $this->t("SMTP password. If you have already entered your password before, you should leave this field blank, unless you want to change the stored password. Please note that this password will be stored as plain-text inside Drupal\'s core configuration variables."),
+      '#description' => $this->t("SMTP password. If you have already entered your password before, you should leave this field blank, unless you want to change the stored password. Please note that this password will be stored as plain-text inside Drupal's core configuration variables."),
       '#disabled' => $this->isOverridden('smtp_password'),
     ];
 
@@ -279,7 +258,7 @@ class SMTPConfigForm extends ConfigFormBase {
       '#title' => $this->t('Hostname'),
       '#default_value' => $config->get('smtp_client_hostname'),
       '#description' => $this->t('The hostname to use in the Message-Id and Received headers, and as the default HELO string. Leave blank for using %server_name.',
-        ['%server_name' => isset($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME'] : 'localhost.localdomain']),
+        ['%server_name' => $_SERVER['SERVER_NAME'] ?? 'localhost.localdomain']),
       '#disabled' => $this->isOverridden('smtp_client_hostname'),
     ];
     $form['client']['smtp_client_helo'] = [
@@ -301,13 +280,37 @@ class SMTPConfigForm extends ConfigFormBase {
       '#default_value' => '',
       '#description' => $this->t('Type in an address to have a test e-mail sent there.'),
     ];
-
+    $form['email_test']['smtp_reroute_address'] = [
+      '#type' => 'textfield',
+      '#title' => $this->t('E-mail address to reroute all emails to'),
+      '#default_value' => $config->get('smtp_reroute_address'),
+      '#description' => $this->t('All emails sent by the site will be rerouted to this email address; use with caution.'),
+    ];
     $form['smtp_debugging'] = [
       '#type' => 'checkbox',
       '#title' => $this->t('Enable debugging'),
       '#default_value' => $config->get('smtp_debugging'),
-      '#description' => $this->t('Checking this box will print SMTP messages from the server for every e-mail that is sent.'),
+      '#description' => $this->t('Checking this box will print SMTP messages from the server for every e-mail that is sent.
+      <br /><strong>Warning!</strong> Debugging interrupts the request and will cause AJAX, Batch, and other operations to fail. Use in test environments only.'),
       '#disabled' => $this->isOverridden('smtp_debugging'),
+    ];
+    $form['smtp_debug_level'] = [
+      '#type' => 'select',
+      '#title' => $this->t('Debug level'),
+      '#options' => [
+        1 => $this->t('Debug client'),
+        2 => $this->t('Debug server'),
+        3 => $this->t('Debug connection'),
+        4 => $this->t('Debug lowlevel'),
+      ],
+      '#default_value' => $config->get('smtp_debug_level'),
+      '#description' => $this->t('Choose the appropriate log level.'),
+      '#disabled' => $this->isOverridden('smtp_debug_level'),
+      '#states' => [
+        'visible' => [
+          ':input[name="smtp_debugging"]' => ['checked' => TRUE],
+        ],
+      ],
     ];
 
     $form['server']['smtp_keepalive'] = [
@@ -351,7 +354,7 @@ class SMTPConfigForm extends ConfigFormBase {
 
     if ($values['smtp_timeout'] == '' || $values['smtp_timeout'] < 1) {
       $form_state->setErrorByName('smtp_timeout', $this->t('You must enter a Timeout value greater than 0.'));
-    } 
+    }
 
     if ($values['smtp_from'] && !$this->emailValidator->isValid($values['smtp_from'])) {
       $form_state->setErrorByName('smtp_from', $this->t('The provided from e-mail address is not valid.'));
@@ -359,6 +362,10 @@ class SMTPConfigForm extends ConfigFormBase {
 
     if ($values['smtp_test_address'] && !$this->emailValidator->isValid($values['smtp_test_address'])) {
       $form_state->setErrorByName('smtp_test_address', $this->t('The provided test e-mail address is not valid.'));
+    }
+
+    if ($values['smtp_reroute_address'] && !$this->emailValidator->isValid($values['smtp_reroute_address'])) {
+      $form_state->setErrorByName('smtp_reroute_address', $this->t('The provided reroute e-mail address is not valid.'));
     }
 
     // If username is set empty, we must set both
@@ -407,7 +414,10 @@ class SMTPConfigForm extends ConfigFormBase {
       'smtp_client_hostname',
       'smtp_client_helo',
       'smtp_allowhtml',
+      'smtp_test_address',
+      'smtp_reroute_address',
       'smtp_debugging',
+      'smtp_debug_level',
       'smtp_keepalive',
     ];
     foreach ($config_keys as $name) {

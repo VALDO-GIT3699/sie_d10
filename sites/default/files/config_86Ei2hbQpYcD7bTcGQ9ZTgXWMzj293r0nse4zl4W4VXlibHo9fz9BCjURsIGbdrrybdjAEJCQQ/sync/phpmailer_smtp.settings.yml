@@ -21,3 +21,4 @@ smtp_envelope_sender_option: default
 smtp_envelope_sender: ''
 smtp_ehlo_host: ''
 smtp_timeout: 30
+smtp_authentication_type: basic_auth

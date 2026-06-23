@@ -1,0 +1,25 @@
+Instrucciones,,,
+"1.- Renombra este archivo de la siguiente manera ""831 Bibliotecas - aaaa"" (dependiendo de los años que se vayan a subir, ejemplo 2018 si solo se subirá un año, ó 2018-2023 si se subirán varios años)
+2.- Descargar la base de datos ""8.3_Bibliotecas.xlsx"" del ""Enlace fuente de la base de datos""
+3.- Llenar la información correspondiente cómo se muestra en el ejemplo, con la información de la pestaña '8.3.1_SiUBiUDG'  y de la pestaña '8.3.2_SiUBiUDG' de la base de datos ""8.3_Bibliotecas.xlsx""
+4.- Una vez que se ha llenado la información correspondiente en la pestaña 'BD' de éste excel, guardar la información para que quede guardada en el excel, a continuación guardar la información como archivo CSV delimitado por comas (solo la pestaña 'BD') y sube a la carpeta ""Enlace de BD para carga al sistema"" los dos archivos, el xlsx y el csv",,,
+Variable,Información de la variable,Tipo de dato,Ejemplo
+name,Nombre único que sirve como identificador,Texto,"=CONCATENAR(B2,"" "",C2,"" "",""SiUBiUDG "",D2)"
+row,Número consecutivo,Entero,999
+anio,Año reportado,Entero,2024
+entidad_universitaria,Entidad universitaria,Texto,CUCEA
+bibliotecas,Cantidad de bibliotecas,Entero,100
+no_usuarios,Número de usuarios,Entero,100
+asistencia_prom,Asistencia promedia diaria,Entero,100
+busq_catalogo_linea,Búsquedas en el catálogo en línea,Entero,100
+prestamo_externo,Préstamo externo,Entero,100
+prestamo_interno,Préstamo interno,Entero,100
+comp_usuarios,Computadoras para usuarios,Entero,100
+total_m2,Total de metros cuadrados,Entero,100
+m2_ser_publico,Servicio al público,Entero,100
+estanteria_m,Estantería en metros,Entero,100
+asientos,Asientos,Entero,100
+mesas,Mesas,Entero,100
+cubiculos_ind,Cubículos individuales,Entero,100
+cubiculos_grup,Cubículos grupales,Entero,100
+salas_audiovisuales,Salas audiovisuales,Entero,100

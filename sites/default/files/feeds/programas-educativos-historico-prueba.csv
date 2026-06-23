@@ -1,0 +1,20 @@
+row,clave_programa,programa_educativo,nivel_educativo,campo_clasificacion
+1,BGAI,Bachillerato General por Áreas Interdisciplinarias,Bachillerato General,
+2,BGC,Bachillerato General por Competencias,Bachillerato General,
+3,2021300033,Música,Bachillerato General,21300
+4,2051200001,Biotecnología,Bachillerato Tecnológico,51200
+5,2062100003,Telecomunicaciones,Bachillerato Tecnológico,62100
+6,2062200007,Informática,Bachillerato Tecnológico,62200
+7,2062200013,Sistemas Informáticos,Bachillerato Tecnológico,62200
+8,2071100002,Mecánica Industrial,Bachillerato Tecnológico,71100
+9,2071200002,Electricidad Industrial,Bachillerato Tecnológico,71200
+10,2071200011,Energías Alternas,Bachillerato Tecnológico,71200
+11,2071400001,Química Industrial,Bachillerato Tecnológico,71400
+12,2071400003,Procesos Químicos Industriales,Bachillerato Tecnológico,71400
+13,2072000001,Procesos de Manufactura Competitiva,Bachillerato Tecnológico,72000
+14,2072100002,Químico en Análisis y Procesos de Alimentos,Bachillerato Tecnológico,72100
+15,2072300001,Plásticos,Bachillerato Tecnológico,72300
+16,2072400001,Metalurgia,Bachillerato Tecnológico,72400
+17,2072400002,Fundición,Bachillerato Tecnológico,72400
+18,2072400003,Metalurgia y Fundición,Bachillerato Tecnológico,72400
+19,2081100001,Agropecuario,Profesional Medio,81100

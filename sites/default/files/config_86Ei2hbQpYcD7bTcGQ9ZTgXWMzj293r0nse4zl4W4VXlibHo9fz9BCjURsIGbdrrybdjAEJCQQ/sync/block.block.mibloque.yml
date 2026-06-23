@@ -1,0 +1,30 @@
+uuid: 9dd901e5-636f-46f8-9092-1773b43786e5
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bb668549-68d3-4b48-a56e-77498aba5e80'
+  module:
+    - block_content
+    - system
+  theme:
+    - drudg8b3
+id: mibloque
+theme: drudg8b3
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:bb668549-68d3-4b48-a56e-77498aba5e80'
+settings:
+  id: 'block_content:bb668549-68d3-4b48-a56e-77498aba5e80'
+  label: 'mi bloque'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /acerca/mision

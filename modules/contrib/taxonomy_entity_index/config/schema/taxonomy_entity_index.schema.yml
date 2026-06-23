@@ -1,0 +1,16 @@
+taxonomy_entity_index.settings:
+  type: config_object
+  label: 'Taxonomy Entity Index settings'
+  mapping:
+    types:
+      type: sequence
+      label: 'Types'
+      sequence:
+        -  type: string
+           label: 'Content type machine name'
+    index_revisions:
+      type: boolean
+      label: 'Index revisions'
+    index_per_field:
+      type: boolean
+      label: 'Index per field'

@@ -1,0 +1,1843 @@
+/*-----------------------------------------------------------------------------------
+	Theme Name: SIE
+	Theme URI: http://sie.udg.mx
+	Author: Joane Manél
+	Version: 1.0
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*Título de la página*/
+a.name-site{
+	color:#045E6C;
+	font-size: 26px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.div-name-site{
+	padding-top: 20px;
+	display: inline;
+}
+
+h1.page-title{
+	text-align: center;
+	font-weight: bold;
+}
+/*Fin título*/
+h1{
+	color:#045E6C;
+	font-size: 24px;
+	border-bottom: 3px solid #019f9c;
+	padding-bottom: 10px;
+}
+h2{
+	color: #595959;	
+	font-size: 20px;
+	border-bottom: 1px solid #c0c0c0;
+	padding-bottom: 10px;
+}
+body{
+	color: #555555;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header nav.navbar{
+	background: #f3f3f3;
+}
+header #block-b4seutheme-main-navigation ul li a{
+	color: #929292;
+	font-weight: 700;
+}
+
+/*Logos encabezado*/
+
+.logos-sup{
+	display: inline;
+}
+
+.logo{
+	display: inline-block;
+}
+.logo img{
+	max-height: 70px;
+	width: auto;
+}
+
+@media(min-width: 0px) and (max-width: 992px){
+	.logo img{
+		max-height: 40px;
+		width: auto;
+	}
+	#block-logodelaudegimg{
+		display: block;
+	}
+	.logos-sup{
+		display: none;
+	}
+}
+
+@media(min-width: 993px){
+	.logo img{
+		max-height: 50px;
+		width: auto;
+	}
+	/*#block-logodelaudeg{
+		display: none;
+	}*/
+	.logos-sup{
+		display: none;
+	}
+}
+
+
+/* Banner */
+.banner-title div.color-separator{
+	background: url('../images/header-separator.png');	
+	height: 20px;
+    background-size: contain;
+    width: 100%;
+}
+.banner-title div.wrapper-row{
+	background: url('../images/banner.png')  no-repeat;	
+	height: 100px;
+    background-size: cover;
+    width: 100%;
+    padding-top: 15px;
+}
+.banner-title div.wrapper-row h1{
+	border-bottom: none;
+	margin: 0px;
+	padding: 30px 0px;
+	font-weight: bolder;
+}
+
+/* Sidebar */
+.region.region-sidebar-first{
+	box-shadow: 1px 3px 5px rgb(0 0 0 / 28%);
+    border-color: #ccc;
+	padding: 0px;
+}
+.region.region-sidebar-first .bg-grey{
+	background: #929292;
+}
+
+img.icon-image {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+/* Side bar Menu style*/
+
+nav#block-b4seutheme-sidebar .active.is-active{
+	background-color: rgba(2,133,135,0.6);
+	color: #fff;
+}
+
+nav#block-b4seutheme-sidebar ul li ul li:hover{
+	background: rgba(146,146, 146, 0.15);
+}
+
+nav#block-b4seutheme-sidebar ul li ul li{
+	list-style: none;
+}
+nav#block-b4seutheme-sidebar ul li a{
+	font-weight: 500;
+	color: #595959;
+}
+nav#block-b4seutheme-sidebar ul li ul li a{
+	color: #045E6C;
+	font-weight: 500;
+}
+
+nav#block-b4seutheme-sidebar a.icon{
+	padding-left: 50px !important;
+    background-size: 35px 35px;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	padding: 15px 0;
+    background-position-y: 8px;
+	background-position-x: 10px;
+}
+
+a.icon-numeralia{ 
+    background:url('../images/icons/icono-numeralia.png') no-repeat;  
+}
+a.icon-alumnos{ 
+    background:url('../images/icons/icono-alumnos.png') no-repeat;    
+}
+a.icon-oferta{ 
+    background:url('../images/icons/icono-oferta.png') no-repeat;
+}
+a.icon-investigacion{ 
+    background:url('../images/icons/icono-investigacion.png') no-repeat;
+}
+a.icon-internacionalizacion{ 
+    background:url('../images/icons/icono-internacionalizacion.png') no-repeat;    
+}
+a.icon-doscentes{ 
+    background:url('../images/icons/icono-doscentes.png') no-repeat;
+}
+a.icon-cultura{ 
+    background:url('../images/icons/icono-cultura.png') no-repeat;   
+}
+a.icon-extension{ 
+    background:url('../images/icons/icono-extension.png') no-repeat;
+}
+a.icon-recursosh{ 
+    background:url('../images/icons/icono-recursosh.png') no-repeat;
+}
+a.icon-infraestructura{ 
+    background:url('../images/icons/icono-infraestructura.png') no-repeat;    
+}
+a.icon-presupuesto{ 
+    background:url('../images/icons/icono-presupuesto.png') no-repeat;
+}
+a.icon-sostenibilidad{ 
+    background:url('../images/icons/icono-sostenibilidad.png') no-repeat;    
+}
+
+/* Content */
+.region.region-content {
+    margin-top: 40px;
+}
+
+/* Better exposed filters */
+.bef-exposed-form {
+	background-color: #f7f7f773;
+    padding: 10px;
+	margin-top: 0px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bef-exposed-form select {
+	max-width: 300px;
+}
+
+.bef-exposed-form label {
+	font-size: .85rem;
+	margin-bottom: .2rem;
+}
+
+.bef-exposed-form .form-control {
+	font-size: .85rem;
+}
+
+
+/* Footer */
+footer{
+	border-top: 5px solid #1e9a9a;
+	background: #f3f3f3;
+	margin-top: 50px;
+}
+.footer-content img{
+	max-width: 300px;
+}
+@media (max-width: 768px){
+	.footer-content img{
+		margin: 0 auto;
+		display: block;
+	}
+	.footer-content .footer-address {
+		text-align: center;
+	}
+	.navbar-nav > li{
+		width: 14%;
+    	text-align: center;
+    	box-sizing: border-box;
+    	border-left: solid thin #757575;
+  	}
+  	ul.navbar-nav{
+  		float:none;
+  	}
+  	.navbar-nav > li > a{
+  		padding-top: 5px;
+  		padding-bottom: 5px;
+  	}
+}
+
+/* Buttons */
+.btn-primary {
+    color: #fff;
+    background-color: #006e8c;
+    border-color: #006e8c;
+}
+.btn-primary:hover{
+	background-color: rgba(0, 110, 140, 0.8);
+	border-color: rgba(0, 110, 140, 0.5);
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #006e8c !important;
+    border-color: #006e8c !important;
+}
+/* Exposed filters */
+.ui-widget-content{
+	background: #c0c0c0;
+	margin-top: 5px;
+	
+}
+.ui-state-default, 
+.ui-widget-content .ui-state-hover{
+	background: #07878a;
+} 
+.form--inline label{
+	font-weight: 500;
+}
+/* Highchart Tables */
+.highcharts-data-table table {
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 1rem;
+	border-collapse: collapse;	
+}
+
+@media (max-width: 992px){
+/* Highchart Tables */
+	.highcharts-data-table table {		
+		display: block;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+
+	}	
+}
+
+.highcharts-data-table table thead th{
+	vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.highcharts-data-table table th, 
+.highcharts-data-table table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.highcharts-data-table table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+.highcharts-data-table  caption.highcharts-table-caption{
+	display: none !important;
+}
+
+.descripcion-pagina img{
+	max-height: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+.dynamic-layouts-container .blue .block-views h2 {
+    background: #1a6180;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+.dynamic-layouts-container .green .block-views h2 {
+    background: #07878a;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+.views-exposed-form,
+.dynamic-layouts-container .dynamic-layout-row{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/*Miembros del SNI*/
+
+.SNI div.col-12,
+.SNI div.col-11,
+.SNI div.col-10,
+.SNI div.col-9,
+.SNI div.col-8,
+.SNI div.col-7,
+.SNI div.col-6,
+.SNI div.col-5,
+.SNI div.col-4,
+.SNI div.col-3,
+.SNI div.col-2,
+.SNI div.col-1{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.SNI div.text-black.big.cel2,
+.SNI div.text-gray.big.cel2,
+.SNI div.text-black.cel2,
+.SNI div.text-gray.cel2{
+	background: #E9FFFF;
+}
+
+.Matricula {
+	margin: 0px;
+}
+
+.mat-di {
+	margin: 0px;
+	text-align: center;
+}
+
+.mat-di img{
+	max-width: 75px;
+	height: auto;
+}
+
+.text-graf{
+	border-top: 2px solid #3fa6b4;
+	margin: 0px;
+}
+
+/* Pager */
+.page-item.active .page-link {
+	background-color: #045E6C !important;
+    border-color: #045E6C !important;
+}
+.page-link{
+	color: #045E6C;
+}
+
+@media(min-width: 1180px) and (max-width: 1440px){
+	.region.region-sidebar-first {
+	min-width: 240px;
+	}
+}
+@media(min-width: 1180px) and (max-width: 1250px){
+	.region.region-content {
+		padding-left: 50px;
+	}
+}
+@media(min-width: 1250px) and (max-width: 1350px){
+	.region.region-content {
+		padding-left: 35px;
+	}
+}
+@media(min-width: 1350px) and (max-width: 1440px){
+	.region.region-content {
+		padding-left: 20px;
+	}
+}
+/* Content */
+.region-content {
+	margin: 20px;
+}
+/* Blocks */
+.block h2 a{
+	color: #595959 !important;
+}
+/* Breadcrumb */
+.block-system-breadcrumb-block {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 20px;
+	display: none !important;
+}
+/* Automatic ajax submit on dynamic pages */
+.dynamic-layouts-container  .views-element-container form.views-exposed-form input[type='submit'] {
+	display: none !important;
+}
+
+.block-quick-node-block h2 {
+	pointer-events: none !important;
+}
+.node--type-notas-de-grafico.node--view-mode-default,
+.node--type-fuentes.node--view-mode-default {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.node--type-notas-de-grafico.node--view-mode-default .field--name-body,
+.node--type-fuentes.node--view-mode-default .field--name-body {
+	font-size: 12px !important;
+}
+
+.chosen-container {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    border: 0px;
+	display: block !important;
+}
+.chosen-container > a {
+	padding-top: 6px !important;
+	height: 38px !important;
+}
+.chosen-container > a > div {
+	padding-top: 8px !important;
+}
+.order-2 {
+    margin-bottom: 25px;
+}
+input.form-file.form-control{
+	border: none !important; 
+}
+.block-quick-node-block article.node--type-notas-de-grafico h2{
+	display: none;
+}
+
+.path-frontpage .block h2{
+   color: #045E6C !important;
+}
+.block-custom-composicion-universitaria{
+	padding: 10px 0; 
+}
+.block-custom-composicion-universitaria .num-cat{
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.block-custom-composicion-universitaria .num-cat.blue{
+	background: #CFECEC;
+}
+.block-custom-composicion-universitaria .num-cat.white{
+	background: #fff;
+}
+.block-custom-composicion-universitaria .num-big.blue{
+	color:#045E6C;
+	font-size: 18px;
+	font-weight: bold;
+}
+.block-custom-composicion-universitaria .num-big.gray{
+	color:rgb(87,89,89);
+	font-size: 18px;
+	font-weight: bold;
+}
+.text-gray{
+	color:rgb(87,89,89);
+	font-size: 14px;
+}
+.text-black{
+	color: #000;
+	font-size: 14px;
+}
+
+.text-blue {
+	color:#045E6C;
+	font-size: 14px;
+}
+
+.big{
+	font-size: 18px !important;
+	font-weight: bold;
+}
+.extra-big{
+	font-size: 22px !important;
+	font-weight: bold;
+}
+
+.float-right{
+    float: right;
+}
+
+.view-matricula-ciclo.view-display-id-block_1 .views-field {
+    display: inline-block;
+}
+
+.block-views-blockmatricula-ciclo-block-1,
+.block-views-blockmatricula-ciclo-block-3{
+	border-radius: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+/*Numeralia - Matrícula*/
+
+@media(min-width: 0px) and (max-width: 500px){
+	.matricula-summary .big,
+	.matricula-summary,
+	.matricula-summary .text-black,
+	.numeralia-ciclo .big,
+	.numeralia-ciclo {
+		font-size: 12px !important;
+	}
+	.matricula-summary .extra-big {
+		font-size: 14px !important;
+	}
+	#block-views-block-numeralia-block-1 .col-3{
+		flex: 0 0 0%;
+		max-width: 0%;
+	}
+
+	 #block-views-block-numeralia-block-1 .col-9{
+		flex: 0 0 100%;
+		max-width: 100%;
+		width: 100%;
+	}
+	.img-numeralia img{
+		display: none;
+	}
+
+	#block-views-block-numeralia-block-1{
+		width: 100%;
+	}
+	.numeralia-fila .numeralia-titulo{
+		font-size: 14px;
+	}
+	.numeralia-fila .numeralia-descripcion{
+		max-width: 180px;
+	}
+	.numeralia-fila .numeralia-total{
+		max-width: 50px;
+	}
+}
+@media(min-width: 501px) and (max-width: 650px){
+	.matricula-summary .big,
+	.matricula-summary .text-black,
+	.matricula-summary,
+	.numeralia-ciclo .big,
+	.numeralia-ciclo {
+		font-size: 12px !important;
+	}
+	.matricula-summary .extra-big,
+	.numeralia-fila .numeralia-titulo {
+		font-size: 14px !important;
+	}
+	#block-views-block-numeralia-block-1 .col-3{
+		flex: 0 0 0%;
+		max-width: 0%;
+	}
+
+	#block-views-block-numeralia-block-1 .col-9{
+		flex: 0 0 100%;
+		max-width: 100%;
+		width: 100%;
+	}
+	.img-numeralia img{
+		display: none;
+	}
+
+	#block-views-block-numeralia-block-1{
+		width: 100%;
+	}
+	.numeralia-fila{
+		text-align: center;
+	}
+	.numeralia-fila .numeralia-descripcion{
+		max-width: 200px;
+		text-align: left;
+	}
+	.numeralia-fila .numeralia-total{
+		max-width: 50px;
+	}
+}
+
+@media(min-width: 651px) and (max-width: 992px){
+	.matricula-summary .big,
+	.matricula-summary .text-black,
+	.matricula-summary,
+	.numeralia-ciclo .big,
+	.numeralia-ciclo {
+		font-size: 14px !important;
+	}
+	.matricula-summary .extra-big {
+		font-size: 16px !important;
+	}
+	#block-views-block-numeralia-block-1 .col-3{
+		flex: 0 0 0%;
+		max-width: 0%;
+	}
+
+	#block-views-block-numeralia-block-1 .col-9{
+		flex: 0 0 100%;
+		max-width: 100%;
+		width: 100%;
+	}
+	.img-numeralia img{
+		display: none;
+	}
+
+	#block-views-block-numeralia-block-1{
+		width: 100%;
+	}
+	.numeralia-fila{
+		text-align: center;
+	}
+	.numeralia-fila .numeralia-titulo{
+		font-size: 14px;
+	}
+	.numeralia-fila .numeralia-descripcion{
+		max-width: 325px;
+		text-align: left;
+	}
+	.numeralia-fila .numeralia-total{
+		max-width: 60px;
+	}
+}
+
+@media(min-width: 993px) and (max-width: 1400px){
+	.matricula-summary .big,
+	.matricula-summary,
+	.numeralia-ciclo .big,
+	.numeralia-ciclo,
+	.numeralia-ciclo .text-black {
+		font-size: 16px !important;
+	}
+	.matricula-summary .extra-big,
+	.numeralia-fila .numeralia-titulo {
+		font-size: 18px !important;
+	}
+	#block-views-block-numeralia-block-1 .col-3{
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+
+	#block-views-block-numeralia-block-1 .col-9{
+		flex: 0 0 80%;
+		max-width: 80%;
+	}
+	.img-numeralia img{
+		display: block;
+		height: 350px;
+		width: auto;
+	}
+	.img-numeralia{
+		top: 30px;
+		left: -15px;
+	}
+
+	#block-views-block-numeralia-block-1{
+		width: 100%;
+	}
+	.numeralia-fila{
+		text-align: center;
+	}
+	.numeralia-fila .numeralia-descripcion{
+		max-width: 380px;
+		text-align: left;
+	}
+	.numeralia-fila .numeralia-total{
+		max-width: 75px;
+	}
+}
+
+@media(min-width: 1401px) and (max-width: 1679px){
+	.matricula-summary .big,
+	.matricula-summary,
+	.numeralia-ciclo .big,
+	.numeralia-ciclo {
+		font-size: 14px !important;
+	}
+	.matricula-summary .extra-big,
+	.numeralia-fila .numeralia-titulo {
+		font-size: 16px !important;
+	}
+	#block-views-block-numeralia-block-1 .col-3{
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+	#block-views-block-numeralia-block-1 .col-9{
+		flex: 0 0 80%;
+		max-width: 80%;
+	}
+	.img-numeralia img{
+		display: block;
+		height: 225px;
+		width: auto;
+	}
+	.img-numeralia{
+		top: 110px;
+		left: -25px;
+	}
+	#block-views-block-numeralia-block-1{
+		width: 42%;
+		display: inline-block;
+    	float: left;
+	}
+	.numeralia-fila{
+		text-align: center;
+	}
+	.numeralia-fila .numeralia-descripcion{
+		max-width: 330px;
+		text-align: left;
+	}
+	.numeralia-fila .numeralia-total{
+		max-width: 65px;
+	}
+	#block-views-block-numeralia-block-2,
+	#block-views-block-numeralia-block-3,
+	#block-views-block-numeralia-block-4,
+	#block-views-block-numeralia-block-5,
+	#block-views-block-numeralia-block-6,
+	#block-views-block-numeralia-block-7,
+	#block-views-block-numeralia-block-8{
+		width: 56.5% !important;
+		max-width: 900px;
+	}
+	#block-views-block-numeralia-block-3{
+		margin-top: 30px;
+	}
+	#block-views-block-numeralia-block-8{
+		margin-bottom: 70px;
+	}
+}
+
+@media(min-width: 1680px){
+	.img-numeralia img{
+		display: block;
+		height: 300px;
+		width: auto;
+	}
+	.img-numeralia{
+		top: 135px;
+		left: -30px;
+	}
+	#block-views-block-numeralia-block-1{
+		display: inline-block;
+    	max-width: 620px;
+    	width: 100%;
+    	float: left;
+	}
+	.numeralia-fila{
+		text-align: center;
+	}
+	#block-views-block-numeralia-block-2,
+	#block-views-block-numeralia-block-3,
+	#block-views-block-numeralia-block-4,
+	#block-views-block-numeralia-block-5,
+	#block-views-block-numeralia-block-6,
+	#block-views-block-numeralia-block-7,
+	#block-views-block-numeralia-block-8{
+		width: 56.5% !important;
+		max-width: 900px;
+	}
+	.matricula-summary .summary{
+		font-size: 18px !important;
+	}
+	.numeralia-fila .numeralia-titulo{
+		font-size: 18px;
+	}
+	.numeralia-fila .numeralia-descripcion{
+		max-width: 400px;
+		text-align: left;
+	}
+	.numeralia-fila .numeralia-total{
+		max-width: 85px;
+	}
+	#block-views-block-numeralia-block-3{
+		margin-top: 30px;
+	}
+	#block-views-block-numeralia-block-8{
+		margin-bottom: 130px;
+	}
+}
+
+#block-views-block-numeralia-block-2,
+#block-views-block-numeralia-block-3,
+#block-views-block-numeralia-block-4,
+#block-views-block-numeralia-block-5,
+#block-views-block-numeralia-block-6,
+#block-views-block-numeralia-block-7,
+#block-views-block-numeralia-block-8{
+	display: inline-block;
+    width: 100%;
+    padding: 10px 0px 0px 10px;
+    clear: both;
+    margin-left: 10px;
+}
+.numeralia-fila .numeralia-titulo{
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.numeralia-fila .numeralia-descripcion{
+	display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#block-views-block-numeralia-block-1 h2,
+#block-views-block-infografias-block-1 h2{
+	background: none;
+	text-align: left;
+	color: #045E6C;
+}
+.matricula-summary{
+	border-radius: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#block-views-block-numeralia-block-3{
+	border-top: 1px solid #ccc;
+	border-radius: 10px;
+	z-index: ;
+	bottom: -25px !important;
+	padding-bottom: 20px !important;
+	position: relative;
+}
+
+#block-views-block-numeralia-block-8{
+	border-bottom: 1px solid #ccc;
+	border-radius: 10px;
+	padding-bottom: 30px;
+	z-index: ;
+	top: -25px !important;
+	padding-top: 20px !important;
+	position: relative;
+}
+#block-views-block-numeralia-block-6{
+	padding-top: 20px;
+}
+
+#block-views-block-numeralia-block-2,
+#block-views-block-numeralia-block-3,
+#block-views-block-numeralia-block-4,
+#block-views-block-numeralia-block-5,
+#block-views-block-numeralia-block-6,
+#block-views-block-numeralia-block-7,
+#block-views-block-numeralia-block-8{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-radius: none;
+}
+
+#block-views-block-numeralia-block-2,
+#block-views-block-numeralia-block-7{
+	background: #fff;
+}
+
+.numeralia-fila{
+	font-weight: bold;
+}
+
+.numeralia-fila .numeralia-total{
+	display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: #000;
+}
+
+.numeralia-fila .numeralia-mm,
+.numeralia-fila .numeralia-mh{
+	display: inline-block;
+	max-width: 85px;
+    width: 100%;
+    text-align: right;
+}
+
+
+@media(max-width: 600px){
+	.block-views-blockmatricula-ciclo-block-1 .row.views-row,
+	.block-views-blockmatricula-ciclo-block-3 .row.views-row {
+		margin-bottom: 15px;
+	}
+}
+
+@media(min-width: 1200px){
+	.block-views-blockmatricula-ciclo-block-2{
+		margin-top: 35px;	
+	}
+}
+
+body.user-logged-in .region-nav-main a.login-item{
+    display: none;
+}
+
+nav.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.6%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");	
+}
+
+
+/* Notas del gráfico*/
+
+div.notas_grafico {
+    color: #595959;
+    margin-bottom: 20px;
+    font-size:13px;
+}
+
+div.notas_grafico div.notas_gr_titulo{
+    font-size: 14px;
+    color: #045E6C;
+    margin: 5px 0px 5px;
+}
+
+div.notas_grafico div.notas_gr_des{
+	font-size: 12px;
+    padding-top: 10px;
+    color: #045E6C;
+}
+
+/*Fecha de corte*/
+div.fecha-corte{
+    font-size: 13px;
+    color: #045E6C;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 5px;
+}
+
+/* Notas a pie de página*/
+
+#block-views-block-fuentes-block-1 {
+    color: #595959;
+    margin-bottom: 20px;
+}
+
+#block-views-block-fuentes-block-1 .views-label-field-fuentes,
+#block-views-block-fuentes-block-1 .views-label-field-bases-de-datos{
+    font-size: 18px;
+    border-bottom: 2px solid #07878a;
+    padding-bottom: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+#block-views-block-fuentes-block-1 .field-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Etiquetas para buscador*/
+
+.field.field--name-field-tags.field--type-entity-reference.field--label-inline.clearfix div.field__label,
+.field.field--name-field-tags.field--type-entity-reference.field--label-inline.clearfix div.field__items{
+	display: none!important;
+}
+
+/*Vistas de los gráficos*/
+
+.block-views h2{
+	background: #1C808E;
+	padding: 10px 0px;
+	text-align: center;
+	color: #fff;
+}
+
+/* Graficos en dos columnas*/
+
+#block-views-block-matricula-block-5,
+#block-views-block-matricula-block-6,
+#block-views-block-matricula-block-18,
+#block-views-block-matricula-block-19,
+#block-views-block-egresados-block-5,
+#block-views-block-egresados-block-6,
+#block-views-block-15-titulados-block-5,
+#block-views-block-15-titulados-block-6,
+#block-views-block-13-admision-block-9,
+#block-views-block-13-admision-block-10,
+#block-views-block-13-admision-block-11,
+#block-views-block-13-admision-block-12,
+#block-views-block-personal-academico-block-16,
+#block-views-block-personal-academico-block-21,
+#block-views-block-personal-academico-block-22,
+#block-views-block-personal-academico-block-23,
+#block-views-block-personal-academico-block-24,
+#block-views-block-personal-academico-block-25,
+#block-views-block-convenios-block-6,
+#block-views-block-convenios-block-7,
+#block-views-block-convenios-block-8,
+#block-views-block-convenios-block-9,
+#block-views-block-personal-academico-block-39,
+#block-views-block-personal-academico-block-40,
+#block-views-block-matricula-block-23,
+#block-views-block-matricula-block-22{
+	display: inline-block;
+	max-width: 49%;
+	width: 100%;
+	height: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	vertical-align: top;
+}
+
+/*Admisión - Programas educativos*/
+
+#block-views-block-13-admision-block-2 .highcharts-axis-labels.highcharts-xaxis-labels{
+	max-width: 100px !important;
+}
+
+/*Siglario*/
+
+div.siglario{
+
+}
+
+div.siglario div.siglario_sigla{
+	display: inline-block;
+	width: 150px;
+	height: auto;
+	color: #07878a;
+	font-weight: bold;
+}
+
+div.siglario div.siglario_desc{
+	display: inline-block;
+	max-width: 1375px;
+	width: 100%;
+	height: auto;
+}
+
+/*Menú dispositivos móviles*/
+#block-mainnavigation-2 a,
+#block-mainnavigation-2 ul li a,
+#block-mainnavigation-2 a.nav-item.nav-link.active.is-active{
+	color: #045E6C;
+}
+
+/*Menú superior*/
+
+.region-breadcrumb{
+	border-bottom: 1px solid #c0c0c0;
+}
+
+@media(min-width: 0px) and (max-width: 992px){
+	#block-mainnavigation,
+	#block-menulateral,
+	#block-menucolapsable,
+	#block-menucolapsabledividido,
+	#bblock-menucolapsabledividido-2{
+		display: none;
+	}
+	#block-mainnavigation-2{
+		display: block;
+	}
+	.col-md-4{
+		flex: 0 0 0%;
+	}
+	.col-md-8{
+		flex: 0 0 100%;
+		width: 100%;
+		max-width: 992px;
+	}
+	#block-mainnavigation ul li.menu-icon-33, 
+	#block-mainnavigation ul li.menu-icon-36, 
+	#block-mainnavigation ul li.menu-icon-121, 
+	#block-mainnavigation ul li.menu-icon-102, 
+	#block-mainnavigation ul li.menu-icon-105, 
+	#block-mainnavigation ul li.menu-icon-107, 
+	#block-mainnavigation ul li.menu-icon-109, 
+	#block-mainnavigation ul li.menu-icon-101, 
+	#block-mainnavigation ul li.menu-icon-112, 
+	#block-mainnavigation ul li.menu-icon-115, 
+	#block-mainnavigation ul li.menu-icon-117, 
+	#block-mainnavigation ul li.menu-icon-119{
+		background-position-x: 3px;
+		background-size: 25px 25px;
+	}
+}
+
+@media(min-width: 993px){
+	#block-mainnavigation,
+	#block-menulateral,
+	#block-menucolapsable,
+	#block-menucolapsabledividido,
+	#block-menucolapsabledividido-2{
+		display: block;
+	}
+	#block-mainnavigation-2{
+		display: none;
+	}
+}
+
+#block-mainnavigation{
+	background: #045F6C;
+}
+
+#block-mainnavigation{
+	text-align: center;
+}
+
+#block-mainnavigation .navbar-nav ul{
+	text-align: center;
+	background: #045F6C;
+}
+
+#block-mainnavigation li{
+	text-align: center;
+	font-size: 14px;
+	background: #045F6C;
+	clear: both;
+}
+
+/*#block-mainnavigation ul li,
+#block-mainnavigation ul.mr-auto,
+#block-menucolapsabledividido-2 ul li,
+#block-menucolapsabledividido-2 ul.mr-auto{
+	display: inline-block;
+}*/
+
+#block-mainnavigation .navbar-nav{
+	display: unset;
+}
+
+#block-mainnavigation li.dropdown{
+	display: inline-block;
+}
+
+#block-mainnavigation li li.dropdown{
+	display: unset;
+}
+
+#block-mainnavigation .drowdown-menu li{
+	display: flex;
+	background: #045F6C;
+	clear: both;
+}
+
+#block-mainnavigation a.nav-link.active.is-active,
+#block-mainnavigation a.nav-link.is-active,
+#block-mainnavigation a.nav-link:hover{
+	border-bottom: 4px solid #3CB9B6;
+}
+
+#block-mainnavigation ul li a.nav-link{
+	color: #fff;
+}
+
+/*Íconos menú superior*/
+
+#block-mainnavigation ul li.menu-icon-33,
+#block-mainnavigation ul li.menu-icon-36,
+#block-mainnavigation ul li.menu-icon-121,
+#block-mainnavigation ul li.menu-icon-102,
+#block-mainnavigation ul li.menu-icon-105,
+#block-mainnavigation ul li.menu-icon-107,
+#block-mainnavigation ul li.menu-icon-109,
+#block-mainnavigation ul li.menu-icon-101,
+#block-mainnavigation ul li.menu-icon-112,
+#block-mainnavigation ul li.menu-icon-115,
+#block-mainnavigation ul li.menu-icon-117,
+#block-mainnavigation ul li.menu-icon-119{
+	background-size: 35px 35px;
+    padding: 5px 0;
+    background-position-y: 8px;
+    background-position-x: 10px;
+}
+
+#block-mainnavigation ul li.menu-icon-33 a,
+#block-mainnavigation ul li.menu-icon-36 a,
+#block-mainnavigation ul li.menu-icon-121 a,
+#block-mainnavigation ul li.menu-icon-102 a,
+#block-mainnavigation ul li.menu-icon-105 a,
+#block-mainnavigation ul li.menu-icon-107 a,
+#block-mainnavigation ul li.menu-icon-109 a,
+#block-mainnavigation ul li.menu-icon-101 a,
+#block-mainnavigation ul li.menu-icon-112 a,
+#block-mainnavigation ul li.menu-icon-115 a,
+#block-mainnavigation ul li.menu-icon-117 a,
+#block-mainnavigation ul li.menu-icon-119 a{
+	padding-left: 50px;
+}
+
+#block-mainnavigation li.menu-icon-33,
+#block-mainnavigation li.menu-icon-36,
+#block-mainnavigation li.menu-icon-121,
+#block-mainnavigation li.menu-icon-102,
+#block-mainnavigation li.menu-icon-105,
+#block-mainnavigation li.menu-icon-107,
+#block-mainnavigation li.menu-icon-109,
+#block-mainnavigation li.menu-icon-101,
+#block-mainnavigation li.menu-icon-112,
+#block-mainnavigation li.menu-icon-115,
+#block-mainnavigation li.menu-icon-117,
+#block-mainnavigation li.menu-icon-119{
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+}
+
+#block-mainnavigation ul li.menu-icon-33 ul li a, 
+#block-mainnavigation ul li.menu-icon-36 ul li a, 
+#block-mainnavigation ul li.menu-icon-121 ul li a, 
+#block-mainnavigation ul li.menu-icon-102 ul li a, 
+#block-mainnavigation ul li.menu-icon-105 ul li a, 
+#block-mainnavigation ul li.menu-icon-107 ul li a, 
+#block-mainnavigation ul li.menu-icon-109 ul li a, 
+#block-mainnavigation ul li.menu-icon-101 ul li a, 
+#block-mainnavigation ul li.menu-icon-112 ul li a, 
+#block-mainnavigation ul li.menu-icon-115 ul li a, 
+#block-mainnavigation ul li.menu-icon-117 ul li a, 
+#block-mainnavigation ul li.menu-icon-119 ul li a{
+		padding-left: 5px;
+		text-align: left;
+}
+
+#block-mainnavigation li.menu-icon-33{
+	background-image: url(../images/icons/icono-numeralia.png);
+}
+#block-mainnavigation li.menu-icon-36{
+	background-image: url(../images/icons/icono-alumnos.png);
+}
+#block-mainnavigation li.menu-icon-121{
+	background-image: url(../images/icons/icono-oferta.png);
+}
+#block-mainnavigation li.menu-icon-102{
+	background-image: url(../images/icons/icono-investigacion.png);
+}
+#block-mainnavigation li.menu-icon-105{
+	background-image: url(../images/icons/icono-extension.png);
+}
+#block-mainnavigation li.menu-icon-107{
+	background-image: url(../images/icons/icono-internacionalizacion.png);
+}
+#block-mainnavigation li.menu-icon-109{
+	background-image: url(../images/icons/icono-cultura.png);
+}
+#block-mainnavigation li.menu-icon-101{
+	background-image: url(../images/icons/icono-recursosh.png);
+}
+#block-mainnavigation li.menu-icon-112{
+	background-image: url(../images/icons/icono-infraestructura.png);
+}
+#block-mainnavigation li.menu-icon-115{
+	background-image: url(../images/icons/icono-sostenibilidad.png);
+}
+#block-mainnavigation li.menu-icon-117{
+	background-image: url(../images/icons/icono-doscentes.png);
+}
+#block-mainnavigation li.menu-icon-119{
+	background-image: url(../images/icons/icono-presupuesto.png);
+}
+
+
+/*Estilos menú lateral*/
+
+#block-menucolapsable,
+#block-menucolapsabledividido,
+#block-menucolapsabledividido-2 {
+	background: #fff;
+}
+
+
+#block-menulateral .active.is-active{
+	background: rgb(207, 236, 236, 0.5);
+	color: #045E6C;
+}
+
+#block-menulateral ul li ul li a{
+	color: #045E6C;
+}
+
+#block-menucolapsable ul li ul li a,
+#block-menucolapsabledividido ul li ul li a{
+	padding-left: 50px;
+}
+
+#block-menulateral ul li a{
+	color: #045E6C;
+	padding-left: 50px;
+}
+
+#block-menulateral ul ul,
+#block-menucolapsable ul ul,
+#block-menucolapsabledividido ul ul,
+#block-menucolapsabledividido-2 ul ul{
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+
+
+#block-menucolapsable ul li ul li,
+#block-menucolapsabledividido ul li ul li,
+#block-menucolapsabledividido-2 ul li ul li{
+	background: rgba(4, 95, 108, .95);
+	color: #fff;
+}
+
+#block-menucolapsable .dropdown-menu,
+#block-menucolapsabledividido .dropdown-menu,
+#block-menucolapsabledividido-2 .dropdown-menu{
+	background: transparent;
+}
+
+#block-menucolapsable ul li a,
+#block-menucolapsabledividido ul li a,
+#block-menucolapsabledividido-2 ul li a{
+	color: #045F6C;
+}
+
+#block-menucolapsable ul li ul li a,
+#block-menucolapsabledividido ul li ul li a,
+#block-menucolapsabledividido-2 ul li ul li a{
+	color: #fff;
+}
+
+#block-menulateral ul li.menu-icon{
+    background-size: 35px 35px;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 5px 0;
+    background-position-y: 8px;
+    background-position-x: 10px;
+    max-width: 315px;
+}
+
+
+#block-menucolapsable ul li.menu-icon,
+#block-menucolapsabledividido ul li.menu-icon{
+    background-size: 35px 35px;
+    padding: 5px 0;
+    background-position-y: 8px;
+    background-position-x: 10px;
+    max-width: 315px;
+}
+
+#block-menulateral ul li.menu-icon ul li,
+#block-menucolapsable ul li.menu-icon ul li,
+#block-menucolapsabledividido ul li.menu-icon ul li,
+#block-menucolapsabledividido-2 ul li.menu-icon ul li{
+    border-top: none;
+    border-bottom: none;
+}
+
+#block-menulateral ul li,
+#block-menucolapsable ul li,
+#block-menucolapsabledividido ul li,
+#block-menucolapsabledividido-2 ul li{
+	font-weight: 500;
+    color: #595959;
+}
+
+#block-menulateral .dropdown-toggle,
+#block-menucolapsable .dropdown-toggle,
+#block-menucolapsabledividido .dropdown-toggle,
+#block-menucolapsabledividido-2 .dropdown-toggle{
+	white-space: break-spaces;
+}
+
+#block-menucolapsable li.menu-icon-127,
+#block-menucolapsabledividido li.menu-icon-160,
+#block-menucolapsable li.menu-icon-128,
+#block-menucolapsabledividido li.menu-icon-157,
+#block-menucolapsable li.menu-icon-136,
+#block-menucolapsabledividido li.menu-icon-164,
+#block-menucolapsable li.menu-icon-137,
+#block-menucolapsabledividido li.menu-icon-165,
+#block-menucolapsable li.menu-icon-139,
+#block-menucolapsabledividido li.menu-icon-167,
+#block-menucolapsable li.menu-icon-141,
+#block-menucolapsabledividido li.menu-icon-169,
+#block-menucolapsable li.menu-icon-143,
+#block-menucolapsabledividido li.menu-icon-171,
+#block-menucolapsable li.menu-icon-144,
+#block-menucolapsabledividido li.menu-icon-173,
+#block-menucolapsable li.menu-icon-147,
+#block-menucolapsabledividido li.menu-icon-176,
+#block-menucolapsable li.menu-icon-150,
+#block-menucolapsabledividido li.menu-icon-179,
+#block-menucolapsable li.menu-icon-152,
+#block-menucolapsabledividido li.menu-icon-181,
+#block-menucolapsable li.menu-icon-154,
+#block-menucolapsabledividido li.menu-icon-183{
+    background-blend-mode: screen;
+}
+
+#block-menulateral li.menu-icon-39,
+#block-menucolapsable li.menu-icon-127,
+#block-menucolapsabledividido li.menu-icon-160{
+	background-image: url(../images/icons/icono-numeralia.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+}
+
+#block-menulateral li.menu-icon-40,
+#block-menucolapsable li.menu-icon-128,
+#block-menucolapsabledividido li.menu-icon-157{
+	background-image: url(../images/icons/icono-alumnos.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-70,
+#block-menucolapsable li.menu-icon-136,
+#block-menucolapsabledividido li.menu-icon-164{
+	background-image: url(../images/icons/icono-oferta.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-71,
+#block-menucolapsable li.menu-icon-137,
+#block-menucolapsabledividido li.menu-icon-165{
+	background-image: url(../images/icons/icono-investigacion.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-72,
+#block-menucolapsable li.menu-icon-139,
+#block-menucolapsabledividido li.menu-icon-167{
+	background-image: url(../images/icons/icono-extension.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-45,
+#block-menucolapsable li.menu-icon-141,
+#block-menucolapsabledividido li.menu-icon-169{
+	background-image: url(../images/icons/icono-internacionalizacion.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-73,
+#block-menucolapsable li.menu-icon-143,
+#block-menucolapsabledividido li.menu-icon-171{
+	background-image: url(../images/icons/icono-cultura.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-100,
+#block-menucolapsable li.menu-icon-144,
+#block-menucolapsabledividido li.menu-icon-173{
+	background-image: url(../images/icons/icono-recursosh.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-48,
+#block-menucolapsable li.menu-icon-147,
+#block-menucolapsabledividido li.menu-icon-176{
+	background-image: url(../images/icons/icono-infraestructura.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-74,
+#block-menucolapsable li.menu-icon-150,
+#block-menucolapsabledividido li.menu-icon-179{
+	background-image: url(../images/icons/icono-sostenibilidad.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-75,
+#block-menucolapsable li.menu-icon-152,
+#block-menucolapsabledividido li.menu-icon-181{
+	background-image: url(../images/icons/icono-doscentes.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-76,
+#block-menucolapsable li.menu-icon-154,
+#block-menucolapsabledividido li.menu-icon-183{
+	background-image: url(../images/icons/icono-presupuesto.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#block-menulateral li.menu-icon-64{
+	background-image: url(../images/icons/30-anios-de-la-red.png);	
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+/*Vistas con campos agrupados*/
+
+#block-views-block-bibliotecas-block-8 .view-grouping{
+	display: inline-block;
+	vertical-align: top;
+	width: 49.8%;
+}
+
+#block-views-block-bibliotecas-block-8 .view-grouping-header{
+	background: #1C808E;
+    color: #fff;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#block-views-block-bibliotecas-block-8 h3{
+	background: #3FA6B4;
+    color: #fff;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Secciones de los subapartados*/
+#block-menulateral-2{
+    text-align: center;
+}
+
+#block-menulateral-2 .navbar-nav{
+    flex-direction: initial;
+}
+
+#block-menulateral-2 .nav-link{
+    padding: 0px;
+}
+
+#block-menulateral-2 .navbar-nav ul{
+    text-align: center;
+}
+
+#block-menulateral-2 .navbar-nav li{
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    background: #045F6C;
+}
+
+#block-menulateral-2 a.nav-link.active.is-active,
+#block-menulateral-2 a.nav-link.is-active{
+    border-bottom: 4px solid #fff;
+}
+
+#block-menulateral-2 ul li a.nav-link{
+    color: #fff;
+}
+
+/* Infraestructura -> Bibliotecas*/
+
+#block-views-block-bibliotecas-block-9{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#block-views-block-bibliotecas-block-9 li.active{
+	padding: 10px;
+	background: rgb(158, 217, 215);
+	border-radius: 10px;
+}
+
+#block-views-block-bibliotecas-block-9 .views-row{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 15px;
+	display: inline-block;
+	width: 100%;
+	max-width: 680px;
+}
+
+#block-views-block-bibliotecas-block-9 .views-label,
+#block-views-block-bibliotecas-block-9 .field-content{
+	display: inline-block;
+	font-size: 20px;
+}
+
+#block-views-block-bibliotecas-block-9 .views-label{
+	font-weight: bold;
+	width: 100%;
+	max-width: 540px;
+}
+
+#block-views-block-bibliotecas-block-9 .field-content{
+	text-align: right;
+	width: 100%;
+	max-width: 100px
+}
+
+#block-views-block-bibliotecas-block-9 .view-content{
+	margin-bottom: 20px;
+}
+
+/*Tablas*/
+
+#block-views-block-personal-academico-block-19 caption,
+#block-views-block-21-programas-educativos-block-1 caption{
+	caption-side: top;
+	color: #045F6C;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#block-views-block-personal-academico-block-19 .table-striped tbody tr:nth-of-type(odd),
+#block-views-block-21-programas-educativos-block-1 .table-striped tbody tr:nth-of-type(odd),
+#block-views-block-81-planteles-block-1 .table-striped tbody tr:nth-of-type(odd){
+	background: #d4f4f3;
+}
+
+#block-views-block-personal-academico-block-19 .table td,
+#block-views-block-personal-academico-block-19 .table th,
+#block-views-block-21-programas-educativos-block-1 .table td,
+#block-views-block-21-programas-educativos-block-1 .table th,
+#block-views-block-81-planteles-block-1 .table td,
+#block-views-block-81-planteles-block-1.table th{
+	padding: 0.25rem;
+}
+
+#block-views-block-21-programas-educativos-block-1 .view-grouping-header{
+	caption-side: top;
+	background: rgb(158, 217, 215);
+	font-weight: bold;
+	font-size: 22px;
+	color: #111;
+	text-align: center;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#block-views-block-81-planteles-block-1 caption{
+	caption-side: top;
+	background: rgb(158, 217, 215);
+	font-weight: bold;
+	font-size: 22px;
+	color: #111;
+	text-align: center;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+/*Ajustes de pantalla*/
+@media(min-width: 993px) and (max-width: 1300px){
+	#block-mainnavigation ul li.menu-icon-33, 
+	#block-mainnavigation ul li.menu-icon-36, 
+	#block-mainnavigation ul li.menu-icon-121, 
+	#block-mainnavigation ul li.menu-icon-102, 
+	#block-mainnavigation ul li.menu-icon-105, 
+	#block-mainnavigation ul li.menu-icon-107, 
+	#block-mainnavigation ul li.menu-icon-109, 
+	#block-mainnavigation ul li.menu-icon-101, 
+	#block-mainnavigation ul li.menu-icon-112, 
+	#block-mainnavigation ul li.menu-icon-115, 
+	#block-mainnavigation ul li.menu-icon-117, 
+	#block-mainnavigation ul li.menu-icon-119{
+		background-position-x: 3px;
+		background-size: 25px 25px;
+	}
+	#block-mainnavigation ul li.menu-icon-33 a, 
+	#block-mainnavigation ul li.menu-icon-36 a, 
+	#block-mainnavigation ul li.menu-icon-121 a, 
+	#block-mainnavigation ul li.menu-icon-102 a, 
+	#block-mainnavigation ul li.menu-icon-105 a, 
+	#block-mainnavigation ul li.menu-icon-107 a, 
+	#block-mainnavigation ul li.menu-icon-109 a, 
+	#block-mainnavigation ul li.menu-icon-101 a, 
+	#block-mainnavigation ul li.menu-icon-112 a, 
+	#block-mainnavigation ul li.menu-icon-115 a, 
+	#block-mainnavigation ul li.menu-icon-117 a, 
+	#block-mainnavigation ul li.menu-icon-119 a{
+		padding-left: 30px;
+	}
+	#block-mainnavigation ul li.menu-icon-33 ul li a, 
+	#block-mainnavigation ul li.menu-icon-36 ul li a, 
+	#block-mainnavigation ul li.menu-icon-121 ul li a, 
+	#block-mainnavigation ul li.menu-icon-102 ul li a, 
+	#block-mainnavigation ul li.menu-icon-105 ul li a, 
+	#block-mainnavigation ul li.menu-icon-107 ul li a, 
+	#block-mainnavigation ul li.menu-icon-109 ul li a, 
+	#block-mainnavigation ul li.menu-icon-101 ul li a, 
+	#block-mainnavigation ul li.menu-icon-112 ul li a, 
+	#block-mainnavigation ul li.menu-icon-115 ul li a, 
+	#block-mainnavigation ul li.menu-icon-117 ul li a, 
+	#block-mainnavigation ul li.menu-icon-119 ul li a{
+		padding-left: 5px;
+		text-align: left;
+	}
+	#block-mainnavigation li{
+		font-size: 11px;
+		}
+}
+
+/*Paleta de colores*/
+
+div.paleta-color{
+	width: 100%;
+}
+
+div.pc-color{
+	display: inline-block;
+	width: 15%;
+	margin: 0px 10px 30px 10px;
+}
+
+div.pc-nom{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.pc-colores{
+	width: 100%;
+	height: 30px;
+}
+
+div#pcolor1{
+	background: #58BFCD;
+}
+div#pcolor2{
+	background: #9FA1DB;
+}
+div#pcolor3{
+	background: #C45890;
+}
+div#pcolor4{
+	background: #A97172;
+}
+div#pcolor5{
+	background: #C4B858;
+}
+div#pcolor6{
+	background: #3A8F47;
+}
+div#pcolor7{
+	background: #33676E;
+}
+div#pcolor8{
+	background: #272969;
+}
+div#pcolor9{
+	background: #80194F;
+}
+div#pcolor10{
+	background: #551F1F;
+}
+div#pcolor11{
+	background: #7E7534;
+}
+div#pcolor12{
+	background: #083910;
+}
+div#pcolor13{
+	background: #5B4886;
+}
+div#pcolor14{
+	background: #24C7A4;
+}
+div#pcolor15{
+	background: #FFCE55;
+}
+div#pcolor16{
+	background: #3D83C5;
+}
+div#pcolor17{
+	background: #002F6C;
+}
+div#pcolor18{
+	background: #007A33;
+}
+
+/*Página de infografías*/
+
+.view-id-infografias .views-row,
+#block-views-block-infografias-block-1 .views-row{
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.view-id-infografias .view-grouping-header,
+#block-views-block-infografias-block-1 .view-grouping-header{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.view-id-infografias .views-field-title{
+	text-align: center;
+}
+
+.view-id-infografias .view-grouping{
+	margin-bottom: 30px;
+}
