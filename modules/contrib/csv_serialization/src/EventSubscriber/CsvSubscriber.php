@@ -2,8 +2,8 @@
 
 namespace Drupal\csv_serialization\EventSubscriber;
 
-use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
+use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**

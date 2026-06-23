@@ -2,15 +2,13 @@
 
 namespace Drupal\csv_serialization\Encoder;
 
-use Exception;
 use Symfony\Component\Serializer\Encoder\DecoderInterface;
 use Symfony\Component\Serializer\Encoder\EncoderInterface;
 use League\Csv\Writer;
 use League\Csv\Reader;
-use SplTempFileObject;
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Serialization\Exception\InvalidDataTypeException;
-use League\Csv\CharsetConverter;
+use League\Csv\ByteSequence;
 
 /**
  * Adds CSV encoder support for the Serialization API.
@@ -105,14 +103,14 @@ class CsvEncoder implements EncoderInterface, DecoderInterface {
   /**
    * {@inheritdoc}
    */
-  public function supportsEncoding($format) {
+  public function supportsEncoding(string $format):bool {
     return $format == static::$format;
   }
 
   /**
    * {@inheritdoc}
    */
-  public function supportsDecoding($format) {
+  public function supportsDecoding(string $format):bool {
     return $format == static::$format;
   }
 
@@ -121,7 +119,7 @@ class CsvEncoder implements EncoderInterface, DecoderInterface {
    *
    * Uses HTML-safe strings, with several characters escaped.
    */
-  public function encode($data, $format, array $context = []) {
+  public function encode($data, string $format, array $context = []):string {
     switch (gettype($data)) {
       case "array":
         break;
@@ -142,26 +140,18 @@ class CsvEncoder implements EncoderInterface, DecoderInterface {
 
     try {
       // Instantiate CSV writer with options.
-      //$csv = Writer::createFromFileObject(new SplTempFileObject());
-      $csv = Writer::from(new SplTempFileObject());
+      $csv = Writer::createFromFileObject(new \SplTempFileObject());
       $csv->setDelimiter($this->delimiter);
       $csv->setEnclosure($this->enclosure);
       $csv->setEscape($this->escapeChar);
 
       if ($this->newline) {
-          $newline = stripcslashes($this->newline);
-          if (method_exists($csv, 'setEndOfLine')) {
-           $csv->setEndOfLine($newline);
-          }
-          else {
-           $newline_method = 'setNewline';
-           $csv->{$newline_method}($newline);
-          }
+        $csv->setNewline(stripcslashes($this->newline));
       }
 
       // Set data.
       if ($this->useUtf8Bom) {
-          $csv->setOutputBOM(self::getUtf8BomValue());
+        $csv->setOutputBOM(ByteSequence::BOM_UTF8);
       }
       // Set headers.
       if ($this->outputHeader) {
@@ -174,17 +164,11 @@ class CsvEncoder implements EncoderInterface, DecoderInterface {
           $csv->insertOne($row);
         }
       }
-      if (method_exists($csv, 'toString')) {
-        $output = $csv->toString();
-      }
-      else {
-        $content_method = 'getContent';
-        $output = $csv->{$content_method}();
-      }
+      $output = $csv->getContent();
 
       return trim($output);
     }
-    catch (Exception $e) {
+    catch (\Exception $e) {
       throw new InvalidDataTypeException($e->getMessage(), $e->getCode(), $e);
     }
   }
@@ -268,12 +252,12 @@ class CsvEncoder implements EncoderInterface, DecoderInterface {
       return implode('|', $data);
     }
 
-      $cell_value = "";
-      foreach ($data as $item) {
-        $cell_value .= '|' . (is_array($item) ? $this->flattenCell($item) : $item);
-      }
+    $cell_value = "";
+    foreach ($data as $item) {
+      $cell_value .= '|' . (is_array($item) ? $this->flattenCell($item) : $item);
+    }
 
-      return trim($cell_value, '|');
+    return trim($cell_value, '|');
   }
 
   /**
@@ -297,20 +281,18 @@ class CsvEncoder implements EncoderInterface, DecoderInterface {
     return $value;
   }
 
-    /**
-     * {@inheritdoc}
-     * @throws \League\Csv\Exception
-     * @throws \League\Csv\Exception
-     * @throws \League\Csv\Exception
-     */
-  public function decode($data, $format, array $context = []) {
-    if (method_exists(Reader::class, 'fromString')) {
-      $csv = Reader::fromString($data);
-    }
-    else {
-      $factory_method = 'createFromString';
-      $csv = Reader::{$factory_method}($data);
-    }
+  /**
+   * {@inheritdoc}
+   *
+   * @return mixed
+   *   The decoded data.
+   *
+   * @throws \League\Csv\Exception
+   * @throws \League\Csv\Exception
+   * @throws \League\Csv\Exception
+   */
+  public function decode($data, string $format, array $context = []) {
+    $csv = Reader::createFromString($data);
     $csv->setDelimiter($this->delimiter);
     $csv->setEnclosure($this->enclosure);
     $csv->setEscape($this->escapeChar);
@@ -348,26 +330,6 @@ class CsvEncoder implements EncoderInterface, DecoderInterface {
    */
   public static function getFileExtension() {
     return static::$format;
-  }
-
-  /**
-   * Gets the UTF-8 BOM constant across league/csv versions.
-   *
-   * @return string
-   *   The UTF-8 BOM byte sequence.
-   */
-  protected static function getUtf8BomValue() {
-    if (class_exists('League\\Csv\\Bom')) {
-      $bom_reflection = new \ReflectionClass('League\\Csv\\Bom');
-      if ($bom_reflection->hasConstant('Utf8')) {
-        return $bom_reflection->getConstant('Utf8');
-      }
-      if ($bom_reflection->hasConstant('UTF8')) {
-        return $bom_reflection->getConstant('UTF8');
-      }
-    }
-
-    return "\xEF\xBB\xBF";
   }
 
   /**
@@ -422,7 +384,7 @@ class CsvEncoder implements EncoderInterface, DecoderInterface {
     $this->enclosure = $settings['enclosure'];
     $this->escapeChar = $settings['escape_char'];
     $this->useUtf8Bom = ($settings['encoding'] === 'utf8' && !empty($settings['utf8_bom']));
-    $this->newline = isset($settings['new_line']) ? $settings['new_line'] : NULL;
+    $this->newline = $settings['new_line'] ?? NULL;
     $this->stripTags = $settings['strip_tags'];
     $this->trimValues = $settings['trim'];
     if (array_key_exists('output_header', $settings)) {

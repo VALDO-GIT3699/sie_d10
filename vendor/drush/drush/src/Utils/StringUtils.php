@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Drush\Utils;
 
 class StringUtils
@@ -22,7 +24,8 @@ class StringUtils
         // Step 4: array_map(...) trims extra whitespace from each item
         // (handles csv strings with extra whitespace, e.g. 'a, b, c')
         //
-        return array_map('trim', array_filter(explode(',', is_array($args) ? implode(',', $args) : $args)));
+        $args = is_array($args) ? implode(',', array_map('strval', $args)) : (string) $args;
+        return array_map('trim', array_filter(explode(',', $args)));
     }
 
     /**
@@ -117,7 +120,7 @@ class StringUtils
         for ($i = 0; $i < $length; $i++) {
             // Each iteration, pick a random character from the
             // allowable string and append it to the password:
-            $pass .= $allowable_characters[mt_rand(0, $len)];
+            $pass .= $allowable_characters[random_int(0, $len)];
         }
 
         return $pass;
