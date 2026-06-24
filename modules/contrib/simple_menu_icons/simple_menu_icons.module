@@ -17,11 +17,21 @@ define('SIMPLE_MENU_ICONS_CSS_PATH', 'public://simple_menu_icons_css');
 /**
  * Implements hook_theme().
  */
+// function simple_menu_icons_theme($existing, $type, $theme, $path) {
+//   return [
+//     'simple_menu_icons_css_item' => [
+//       'render element' => 'element',
+//       'template' => 'simple-menu-icons-css-item',
+//     ],
+//   ];
+// }
+
 function simple_menu_icons_theme($existing, $type, $theme, $path) {
   return [
     'simple_menu_icons_css_item' => [
-      'variables' => ['icons' => NULL],
-      'template' => 'simple-menu-icons-css-item',
+      'variables' => [
+        'icons' => NULL,
+      ],
     ],
   ];
 }
