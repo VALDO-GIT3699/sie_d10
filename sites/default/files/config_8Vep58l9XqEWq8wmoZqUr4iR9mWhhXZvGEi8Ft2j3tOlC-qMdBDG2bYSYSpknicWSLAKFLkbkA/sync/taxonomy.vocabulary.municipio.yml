@@ -1,0 +1,9 @@
+uuid: c9a07a80-6ed4-49ed-b2a9-111ab01423ef
+langcode: es
+status: true
+dependencies: {  }
+name: Municipio
+vid: municipio
+description: Municipios
+weight: 0
+new_revision: false

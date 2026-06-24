@@ -1,0 +1,20 @@
+uuid: e6c92094-d2c5-4408-8acc-95dbde0793cb
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_por_total
+field_name: field_por_total
+entity_type: storage
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

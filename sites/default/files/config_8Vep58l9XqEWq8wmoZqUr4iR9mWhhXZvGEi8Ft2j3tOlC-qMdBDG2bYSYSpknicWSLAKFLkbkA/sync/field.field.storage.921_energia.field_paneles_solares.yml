@@ -1,0 +1,23 @@
+uuid: fd6e605e-efe4-4885-a75d-aebf56d9985f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_paneles_solares
+    - storage.storage_type.921_energia
+id: storage.921_energia.field_paneles_solares
+field_name: field_paneles_solares
+entity_type: storage
+bundle: 921_energia
+label: 'Cantidad de paneles solares'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: c5849930-8ff1-4382-86c0-1a4a68daf56c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_vis_ceguera_nb
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_vis_ceguera_nb
+field_name: field_disc_vis_ceguera_nb
+entity_type: storage
+bundle: matricula
+label: 'Personas no binarias con discapacidad visual ceguera'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

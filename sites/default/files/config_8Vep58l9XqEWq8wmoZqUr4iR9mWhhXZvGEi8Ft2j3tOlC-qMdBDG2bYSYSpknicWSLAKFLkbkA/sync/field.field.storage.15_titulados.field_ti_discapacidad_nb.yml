@@ -1,0 +1,23 @@
+uuid: 720d72a4-37c7-42bf-8d67-3516dbf7777a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_discapacidad_nb
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_ti_discapacidad_nb
+field_name: field_ti_discapacidad_nb
+entity_type: storage
+bundle: 15_titulados
+label: 'Personas no binarias con discapacidad tituladas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

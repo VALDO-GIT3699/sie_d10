@@ -1,0 +1,23 @@
+uuid: d17c4ea1-b551-4719-ac8a-4f311d09c033
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.611_patrimonio_cultural_en_el_si
+id: storage.611_patrimonio_cultural_en_el_si.field_row
+field_name: field_row
+entity_type: storage
+bundle: 611_patrimonio_cultural_en_el_si
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

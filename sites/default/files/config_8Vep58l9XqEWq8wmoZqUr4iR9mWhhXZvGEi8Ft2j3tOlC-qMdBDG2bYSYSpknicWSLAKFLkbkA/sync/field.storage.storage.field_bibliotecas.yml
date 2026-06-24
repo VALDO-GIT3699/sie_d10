@@ -1,0 +1,20 @@
+uuid: cc43b4fb-ddf2-45c1-9704-e581a33a8b75
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_bibliotecas
+field_name: field_bibliotecas
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

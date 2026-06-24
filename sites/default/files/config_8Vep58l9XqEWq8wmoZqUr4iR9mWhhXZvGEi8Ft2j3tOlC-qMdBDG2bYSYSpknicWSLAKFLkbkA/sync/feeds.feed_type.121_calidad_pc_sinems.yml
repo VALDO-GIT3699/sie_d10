@@ -1,0 +1,198 @@
+uuid: 65168a91-1e86-4f0d-b55a-b1685d8a8858
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.121_calidad_pc_sinems.field_ciclo
+    - field.field.storage.121_calidad_pc_sinems.field_clasificacion_plantel
+    - field.field.storage.121_calidad_pc_sinems.field_hombres
+    - field.field.storage.121_calidad_pc_sinems.field_mujeres
+    - field.field.storage.121_calidad_pc_sinems.field_nivel_pc_sinems
+    - field.field.storage.121_calidad_pc_sinems.field_personas_no_binarias
+    - field.field.storage.121_calidad_pc_sinems.field_row
+    - field.field.storage.121_calidad_pc_sinems.field_tipo_plantel
+    - field.field.storage.121_calidad_pc_sinems.field_total
+    - storage.storage_type.121_calidad_pc_sinems
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '121 Calidad PC-SINEMS'
+id: 121_calidad_pc_sinems
+description: 'Matrícula en planteles en el Padrón de Calidad del Sistema Nacional de Educación Media Superior'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 121_calidad_pc_sinems
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  ciclo:
+    value: ciclo
+    label: ciclo
+    machine_name: ciclo
+    type: csv
+  clasificacion_plantel:
+    value: clasificacion_plantel
+    label: clasificacion_plantel
+    machine_name: clasificacion_plantel
+    type: csv
+  tipo_plantel:
+    value: tipo_plantel
+    label: tipo_plantel
+    machine_name: tipo_plantel
+    type: csv
+  nivel_pc_sinems:
+    value: nivel_pc_sinems
+    label: nivel_pc_sinems
+    machine_name: nivel_pc_sinems
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+  hombres:
+    value: hombres
+    label: hombres
+    machine_name: hombres
+    type: csv
+  mujeres:
+    value: mujeres
+    label: mujeres
+    machine_name: mujeres
+    type: csv
+  personas_nb:
+    value: personas_nb
+    label: personas_nb
+    machine_name: personas_nb
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ciclo
+    map:
+      target_id: ciclo
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ciclo
+      feeds_item: false
+  -
+    target: field_clasificacion_plantel
+    map:
+      target_id: clasificacion_plantel
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: clasificacion_de_planteles
+      feeds_item: false
+  -
+    target: field_tipo_plantel
+    map:
+      target_id: tipo_plantel
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: tipo_de_plantel
+      feeds_item: false
+  -
+    target: field_nivel_pc_sinems
+    map:
+      target_id: nivel_pc_sinems
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: nivel_pc_sinems
+      feeds_item: false
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_hombres
+    map:
+      value: hombres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_mujeres
+    map:
+      value: mujeres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_personas_no_binarias
+    map:
+      value: personas_nb
+    settings:
+      language: null
+    unique: {  }

@@ -1,0 +1,23 @@
+uuid: c6fa1a78-6e04-4a4e-915e-c1a9be27a80c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_a_20_a_24_anios
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_a_20_a_24_anios
+field_name: field_a_20_a_24_anios
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Antigüedad de 20 a 24 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

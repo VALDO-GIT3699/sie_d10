@@ -1,0 +1,11 @@
+uuid: 11244be7-570c-45d5-88c3-59e329f65f5e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.puesto
+id: taxonomy_term.puesto
+target_entity_type_id: taxonomy_term
+target_bundle: puesto
+default_langcode: site_default
+language_alterable: false

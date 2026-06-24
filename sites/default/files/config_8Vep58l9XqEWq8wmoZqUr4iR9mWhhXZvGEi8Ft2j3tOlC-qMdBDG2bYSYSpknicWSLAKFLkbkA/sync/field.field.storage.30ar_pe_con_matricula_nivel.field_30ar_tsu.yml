@@ -1,0 +1,23 @@
+uuid: 93bf1774-e0f5-456c-bff3-f547f4a4d872
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_tsu
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_tsu
+field_name: field_30ar_tsu
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: 'Técnico Superior Universitario'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

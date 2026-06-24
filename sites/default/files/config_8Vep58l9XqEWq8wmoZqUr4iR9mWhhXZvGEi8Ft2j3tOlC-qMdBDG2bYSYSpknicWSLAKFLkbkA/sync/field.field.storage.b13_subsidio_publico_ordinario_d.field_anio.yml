@@ -1,0 +1,29 @@
+uuid: 960dd6b2-b0a2-40dc-af64-58b0313ac450
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.b13_subsidio_publico_ordinario_d
+    - taxonomy.vocabulary.ano
+id: storage.b13_subsidio_publico_ordinario_d.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: b13_subsidio_publico_ordinario_d
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: a774d24e-2837-40be-a53a-4a155fa8e855
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_personas_nb
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.field_por_personas_nb
+field_name: field_por_personas_nb
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Porcentaje de personas no binarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

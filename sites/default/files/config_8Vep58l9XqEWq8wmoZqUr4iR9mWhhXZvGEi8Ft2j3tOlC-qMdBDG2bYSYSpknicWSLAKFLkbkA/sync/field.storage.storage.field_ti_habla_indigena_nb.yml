@@ -1,0 +1,20 @@
+uuid: 67d360df-7eb2-4e81-8359-d606f2a319e5
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_ti_habla_indigena_nb
+field_name: field_ti_habla_indigena_nb
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

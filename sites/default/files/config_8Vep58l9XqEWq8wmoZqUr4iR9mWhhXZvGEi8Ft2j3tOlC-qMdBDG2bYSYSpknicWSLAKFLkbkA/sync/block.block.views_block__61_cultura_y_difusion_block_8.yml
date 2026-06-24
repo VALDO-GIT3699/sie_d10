@@ -1,0 +1,29 @@
+uuid: b162a316-8884-4d68-aa83-bc9c3b2111b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.61_cultura_y_difusion
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__61_cultura_y_difusion_block_8
+theme: b4seutheme
+region: content
+weight: 13
+provider: null
+plugin: 'views_block:61_cultura_y_difusion-block_8'
+settings:
+  id: 'views_block:61_cultura_y_difusion-block_8'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /cultura-y-difusion/patrimonio-cultural

@@ -1,0 +1,23 @@
+uuid: b00b6654-bad2-452c-a365-202cbea8b2f3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_hipoacusia_nb
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_aud_hipoacusia_nb
+field_name: field_disc_aud_hipoacusia_nb
+entity_type: storage
+bundle: matricula
+label: 'Personas no binarias con discapacidad auditiva hipoacusia'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 2f189992-7d36-4b32-ae98-f7f954b8ef60
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.922_residuos_solidos
+  module:
+    - feeds
+id: storage.922_residuos_solidos.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 922_residuos_solidos
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

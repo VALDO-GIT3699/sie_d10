@@ -1,0 +1,23 @@
+uuid: 06d33735-86fd-4d47-bb35-de44f2c598f8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_personas_no_binarias
+    - storage.storage_type.124_estudiantes_en_pec_por_progr
+id: storage.124_estudiantes_en_pec_por_progr.field_personas_no_binarias
+field_name: field_personas_no_binarias
+entity_type: storage
+bundle: 124_estudiantes_en_pec_por_progr
+label: 'Personas no binarias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 6f9b283d-1729-4321-b712-da7d3aa30996
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_discapacidad_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_discapacidad_h
+field_name: field_discapacidad_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres con discapacidad'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

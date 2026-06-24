@@ -1,0 +1,23 @@
+uuid: 5123a02b-9e7e-48e7-82d6-43cafea67303
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.312_investigadores_por_categoria
+  module:
+    - feeds
+id: storage.312_investigadores_por_categoria.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 312_investigadores_por_categoria
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

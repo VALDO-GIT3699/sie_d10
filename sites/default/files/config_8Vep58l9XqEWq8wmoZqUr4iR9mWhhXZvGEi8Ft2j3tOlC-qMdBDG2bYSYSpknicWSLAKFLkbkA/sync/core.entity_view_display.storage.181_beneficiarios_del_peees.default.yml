@@ -1,0 +1,95 @@
+uuid: 84f85461-ad4f-4fca-aee9-9e5003179333
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.181_beneficiarios_del_peees.feeds_item
+    - field.field.storage.181_beneficiarios_del_peees.field_anio
+    - field.field.storage.181_beneficiarios_del_peees.field_entidad_universitaria
+    - field.field.storage.181_beneficiarios_del_peees.field_hombres
+    - field.field.storage.181_beneficiarios_del_peees.field_mujeres
+    - field.field.storage.181_beneficiarios_del_peees.field_personas_no_binarias
+    - field.field.storage.181_beneficiarios_del_peees.field_row
+    - field.field.storage.181_beneficiarios_del_peees.field_total
+    - storage.storage_type.181_beneficiarios_del_peees
+id: storage.181_beneficiarios_del_peees.default
+targetEntityType: storage
+bundle: 181_beneficiarios_del_peees
+mode: default
+content:
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_hombres:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_mujeres:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_personas_no_binarias:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_total:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

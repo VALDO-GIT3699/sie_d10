@@ -1,0 +1,193 @@
+uuid: eae412f9-c6aa-41a7-8fc4-445fb1e7c099
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.15_titulados.feeds_item
+    - field.field.storage.15_titulados.field_ciclo
+    - field.field.storage.15_titulados.field_cve_plantel
+    - field.field.storage.15_titulados.field_cve_programa
+    - field.field.storage.15_titulados.field_modalidad
+    - field.field.storage.15_titulados.field_row
+    - field.field.storage.15_titulados.field_ti_discapacidad_h
+    - field.field.storage.15_titulados.field_ti_discapacidad_m
+    - field.field.storage.15_titulados.field_ti_discapacidad_nb
+    - field.field.storage.15_titulados.field_ti_discapacidad_t
+    - field.field.storage.15_titulados.field_ti_habla_indigena_h
+    - field.field.storage.15_titulados.field_ti_habla_indigena_m
+    - field.field.storage.15_titulados.field_ti_habla_indigena_nb
+    - field.field.storage.15_titulados.field_ti_habla_indigena_t
+    - field.field.storage.15_titulados.field_titulados_h
+    - field.field.storage.15_titulados.field_titulados_m
+    - field.field.storage.15_titulados.field_titulados_nb
+    - field.field.storage.15_titulados.field_titulados_t
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.default
+targetEntityType: storage
+bundle: 15_titulados
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_cve_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_cve_programa:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_modalidad:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ti_discapacidad_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_ti_discapacidad_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_ti_discapacidad_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_ti_discapacidad_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_ti_habla_indigena_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_ti_habla_indigena_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_ti_habla_indigena_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_ti_habla_indigena_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_titulados_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_titulados_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_titulados_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_titulados_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

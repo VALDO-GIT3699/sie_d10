@@ -1,0 +1,23 @@
+uuid: baf37576-9e21-4ec7-a14c-ce0641a21407
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.831_bibliotecas
+  module:
+    - feeds
+id: storage.831_bibliotecas.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 831_bibliotecas
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

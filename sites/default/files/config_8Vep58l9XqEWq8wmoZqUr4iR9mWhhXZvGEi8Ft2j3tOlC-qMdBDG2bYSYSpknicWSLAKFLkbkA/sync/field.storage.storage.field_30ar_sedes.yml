@@ -1,0 +1,20 @@
+uuid: 926fc26b-c500-4495-a3ec-6ca856453a79
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_30ar_sedes
+field_name: field_30ar_sedes
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

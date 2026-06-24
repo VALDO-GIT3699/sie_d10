@@ -1,0 +1,19 @@
+uuid: ccebaa4d-cb83-45d2-a210-6df337c065f8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_direccion
+    - node.type.directorio
+id: node.directorio.field_direccion
+field_name: field_direccion
+entity_type: node
+bundle: directorio
+label: Dirección
+description: Dirección
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

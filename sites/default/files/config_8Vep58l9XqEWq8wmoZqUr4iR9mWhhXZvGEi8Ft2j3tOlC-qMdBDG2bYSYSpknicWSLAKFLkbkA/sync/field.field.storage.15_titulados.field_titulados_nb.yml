@@ -1,0 +1,23 @@
+uuid: 6692c5ff-ce3f-49ce-8f4c-d1ac8d2432b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_nb
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_titulados_nb
+field_name: field_titulados_nb
+entity_type: storage
+bundle: 15_titulados
+label: 'Personas no binarias tituladas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: e009dbe2-b35f-429d-b750-3e8e2f45c3af
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_suv
+    - storage.storage_type.30ar_planteles
+id: storage.30ar_planteles.field_30ar_suv
+field_name: field_30ar_suv
+entity_type: storage
+bundle: 30ar_planteles
+label: SUV
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

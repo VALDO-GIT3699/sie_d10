@@ -1,0 +1,136 @@
+uuid: bef8be7c-bca0-4b11-be27-4d1302066016
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.base_field_override.storage.833_bases_de_datos.name
+    - field.field.storage.833_bases_de_datos.field_anio
+    - field.field.storage.833_bases_de_datos.field_base_de_datos
+    - field.field.storage.833_bases_de_datos.field_row
+    - field.field.storage.833_bases_de_datos.field_suscripcion
+    - field.field.storage.833_bases_de_datos.field_tipo_bd
+    - storage.storage_type.833_bases_de_datos
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '833 Bases de datos'
+id: 833_bases_de_datos
+description: 'Bases de datos de la Biblioteca digital del SiUBiUDG'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 833_bases_de_datos
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  base_de_datos:
+    value: base_de_datos
+    label: base_de_datos
+    machine_name: base_de_datos
+    type: csv
+  suscripcion:
+    value: suscripcion
+    label: suscripcion
+    machine_name: suscripcion
+    type: csv
+  tipo_bd:
+    value: tipo_bd
+    label: tipo_bd
+    machine_name: tipo_bd
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_base_de_datos
+    map:
+      value: base_de_datos
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_suscripcion
+    map:
+      value: suscripcion
+    settings:
+      language: null
+  -
+    target: field_tipo_bd
+    map:
+      value: tipo_bd
+    settings:
+      language: null

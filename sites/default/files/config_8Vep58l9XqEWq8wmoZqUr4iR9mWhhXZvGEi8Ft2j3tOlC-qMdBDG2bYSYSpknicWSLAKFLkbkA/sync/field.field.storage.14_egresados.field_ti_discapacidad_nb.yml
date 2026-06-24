@@ -1,0 +1,23 @@
+uuid: d57d76b2-9294-4fae-99ae-02ea65e9ca62
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_discapacidad_nb
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_ti_discapacidad_nb
+field_name: field_ti_discapacidad_nb
+entity_type: storage
+bundle: 14_egresados
+label: 'Personas no binarias con discapacidad tituladas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

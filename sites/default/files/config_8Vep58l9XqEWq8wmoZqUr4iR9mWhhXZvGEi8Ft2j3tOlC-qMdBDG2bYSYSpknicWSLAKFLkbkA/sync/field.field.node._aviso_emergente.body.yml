@@ -1,0 +1,23 @@
+uuid: d91d126d-edf0-463a-a578-829b785bf5c8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type._aviso_emergente
+  module:
+    - text
+id: node._aviso_emergente.body
+field_name: body
+entity_type: node
+bundle: _aviso_emergente
+label: Mensaje
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

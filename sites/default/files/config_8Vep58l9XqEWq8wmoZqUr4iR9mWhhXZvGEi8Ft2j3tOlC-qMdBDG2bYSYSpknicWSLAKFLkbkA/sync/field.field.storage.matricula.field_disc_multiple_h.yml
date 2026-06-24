@@ -1,0 +1,23 @@
+uuid: 4f48b44e-cb1f-44b7-9e31-d7ec8dd16e3f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_multiple_h
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_multiple_h
+field_name: field_disc_multiple_h
+entity_type: storage
+bundle: matricula
+label: 'Hombres con discapacidad múltiple'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

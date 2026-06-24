@@ -1,0 +1,40 @@
+uuid: d20eb560-ca52-4d77-b146-9b21beb22b48
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.directorio.field_categoria_de_directorio
+    - field.field.node.directorio.field_correo_electronico
+    - field.field.node.directorio.field_direccion
+    - field.field.node.directorio.field_fotografia
+    - field.field.node.directorio.field_puesto
+    - field.field.node.directorio.field_semblanza
+    - field.field.node.directorio.field_telefono
+    - field.field.node.directorio.field_titulo_educativo
+    - node.type.directorio
+  module:
+    - user
+id: node.directorio.teaser
+targetEntityType: node
+bundle: directorio
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_categoria_de_directorio: true
+  field_correo_electronico: true
+  field_direccion: true
+  field_fotografia: true
+  field_puesto: true
+  field_semblanza: true
+  field_telefono: true
+  field_titulo_educativo: true
+  langcode: true

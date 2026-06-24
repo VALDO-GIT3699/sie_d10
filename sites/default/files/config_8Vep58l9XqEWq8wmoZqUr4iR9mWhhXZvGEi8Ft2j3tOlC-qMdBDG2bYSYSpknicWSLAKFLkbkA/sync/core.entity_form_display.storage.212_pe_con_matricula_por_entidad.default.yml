@@ -1,0 +1,80 @@
+uuid: 8f6e2ff6-e8a7-42da-a64a-efcaa31ee546
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.212_pe_con_matricula_por_entidad.feeds_item
+    - field.field.storage.212_pe_con_matricula_por_entidad.field_ciclo
+    - field.field.storage.212_pe_con_matricula_por_entidad.field_cve_programa
+    - field.field.storage.212_pe_con_matricula_por_entidad.field_entidad_universitaria
+    - field.field.storage.212_pe_con_matricula_por_entidad.field_row
+    - field.field.storage.212_pe_con_matricula_por_entidad.field_total
+    - storage.storage_type.212_pe_con_matricula_por_entidad
+id: storage.212_pe_con_matricula_por_entidad.default
+targetEntityType: storage
+bundle: 212_pe_con_matricula_por_entidad
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_cve_programa:
+    type: entity_reference_autocomplete
+    weight: 29
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

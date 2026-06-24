@@ -1,0 +1,23 @@
+uuid: ba92a15c-54b7-4a40-86b3-4267f49117bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_tiempo_completo
+    - storage.storage_type.312_investigadores_por_categoria
+id: storage.312_investigadores_por_categoria.field_tiempo_completo
+field_name: field_tiempo_completo
+entity_type: storage
+bundle: 312_investigadores_por_categoria
+label: 'Investigadores de tiempo completo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

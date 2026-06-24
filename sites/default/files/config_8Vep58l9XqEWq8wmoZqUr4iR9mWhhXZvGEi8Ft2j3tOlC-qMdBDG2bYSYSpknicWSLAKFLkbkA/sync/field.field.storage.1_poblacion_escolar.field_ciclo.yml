@@ -1,0 +1,29 @@
+uuid: 8a3ef052-3ea8-4ebc-877a-05335a7fccf8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ciclo
+    - storage.storage_type.1_poblacion_escolar
+    - taxonomy.vocabulary.ciclo
+id: storage.1_poblacion_escolar.field_ciclo
+field_name: field_ciclo
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: Ciclo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ciclo: ciclo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

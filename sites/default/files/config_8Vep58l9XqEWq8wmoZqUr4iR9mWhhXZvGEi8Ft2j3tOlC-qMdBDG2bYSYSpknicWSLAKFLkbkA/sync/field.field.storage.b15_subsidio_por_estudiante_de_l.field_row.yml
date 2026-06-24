@@ -1,0 +1,23 @@
+uuid: 0dac7707-2be4-4e92-b27c-0f3d7b2b729b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.b15_subsidio_por_estudiante_de_l
+id: storage.b15_subsidio_por_estudiante_de_l.field_row
+field_name: field_row
+entity_type: storage
+bundle: b15_subsidio_por_estudiante_de_l
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

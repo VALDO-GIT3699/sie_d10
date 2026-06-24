@@ -1,0 +1,9 @@
+uuid: 8bfa5a3a-7b7b-457b-a0c1-23048fdbd0a7
+langcode: es
+status: true
+dependencies: {  }
+name: 'Nivel de investigadores'
+vid: nivel_invest
+description: 'Nivel de investigadores'
+weight: 0
+new_revision: false

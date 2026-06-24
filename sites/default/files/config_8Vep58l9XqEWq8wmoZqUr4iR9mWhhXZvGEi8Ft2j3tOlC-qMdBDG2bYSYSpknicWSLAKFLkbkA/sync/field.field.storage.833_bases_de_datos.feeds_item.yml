@@ -1,0 +1,23 @@
+uuid: 3ec393d8-b099-428f-a368-ef7e05fc2eea
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.833_bases_de_datos
+  module:
+    - feeds
+id: storage.833_bases_de_datos.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 833_bases_de_datos
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

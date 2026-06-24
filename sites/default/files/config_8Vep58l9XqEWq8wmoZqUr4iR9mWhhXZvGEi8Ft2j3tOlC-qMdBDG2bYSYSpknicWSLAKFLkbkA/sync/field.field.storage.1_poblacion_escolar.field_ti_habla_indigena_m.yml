@@ -1,0 +1,23 @@
+uuid: ce53b2a5-b47d-4db4-ac28-ee793d708189
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_habla_indigena_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_ti_habla_indigena_m
+field_name: field_ti_habla_indigena_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujeres de habla indígena tituladas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,13 @@
+uuid: c355bdc5-88db-415c-8337-6b0ac22349e6
+langcode: es
+status: true
+dependencies: {  }
+id: 122_estudiantes_en_pec
+label: '122 Estudiantes en PEC'
+description: 'Estudiantes en programas educativos de calidad respecto a la matrícula evaluable'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

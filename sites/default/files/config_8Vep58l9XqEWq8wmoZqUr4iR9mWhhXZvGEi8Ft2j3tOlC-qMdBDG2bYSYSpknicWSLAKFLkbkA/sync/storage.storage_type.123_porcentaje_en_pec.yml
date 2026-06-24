@@ -1,0 +1,13 @@
+uuid: 73b79a08-ccf9-46ef-9fc7-fa0868b71daf
+langcode: es
+status: true
+dependencies: {  }
+id: 123_porcentaje_en_pec
+label: '123 Porcentaje en PEC'
+description: 'Porcentajes de la matrícula en programas educativos de calidad'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

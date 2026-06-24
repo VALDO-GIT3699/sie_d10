@@ -1,0 +1,23 @@
+uuid: fd739a7c-e55e-48af-9bfe-c761193d0a5f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.anexo
+id: storage.anexo.field_row
+field_name: field_row
+entity_type: storage
+bundle: anexo
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

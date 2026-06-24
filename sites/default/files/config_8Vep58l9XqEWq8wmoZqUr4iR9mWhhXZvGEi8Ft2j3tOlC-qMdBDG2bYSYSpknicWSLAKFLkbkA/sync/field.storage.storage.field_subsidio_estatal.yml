@@ -1,0 +1,21 @@
+uuid: e04869c3-2773-4d1d-8199-2bfc68387652
+langcode: es
+status: true
+dependencies:
+  module:
+    - bigint
+    - storage
+id: storage.field_subsidio_estatal
+field_name: field_subsidio_estatal
+entity_type: storage
+type: bigint
+settings:
+  unsigned: true
+  size: big
+module: bigint
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

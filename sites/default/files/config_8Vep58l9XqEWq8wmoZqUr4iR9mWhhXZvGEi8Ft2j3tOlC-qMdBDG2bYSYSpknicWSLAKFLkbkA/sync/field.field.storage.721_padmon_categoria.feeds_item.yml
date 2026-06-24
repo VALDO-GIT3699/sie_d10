@@ -1,0 +1,23 @@
+uuid: e9944c5c-3ef8-4fe3-8c5d-ffd0e70ab19b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.721_padmon_categoria
+  module:
+    - feeds
+id: storage.721_padmon_categoria.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 721_padmon_categoria
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

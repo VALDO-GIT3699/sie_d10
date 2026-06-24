@@ -1,0 +1,13 @@
+uuid: 35903fbb-99e4-4e32-9f83-cfda4b0eb89d
+langcode: es
+status: true
+dependencies: {  }
+id: 13_admision
+label: '13 Admisión'
+description: 'Almacenamiento para las personas admitidas.'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

@@ -1,0 +1,23 @@
+uuid: e3927a07-292a-4a83-aca2-6f790c6df564
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_puntaje_minimo
+    - storage.storage_type.13_admision
+id: storage.13_admision.field_puntaje_minimo
+field_name: field_puntaje_minimo
+entity_type: storage
+bundle: 13_admision
+label: 'Puntaje mínimo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,29 @@
+uuid: cab769a7-03c9-4d3b-91bd-974ab5dc310c
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.bibliotecas
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__bibliotecas_block_10
+theme: b4seutheme
+region: content
+weight: 59
+provider: null
+plugin: 'views_block:bibliotecas-block_10'
+settings:
+  id: 'views_block:bibliotecas-block_10'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/85

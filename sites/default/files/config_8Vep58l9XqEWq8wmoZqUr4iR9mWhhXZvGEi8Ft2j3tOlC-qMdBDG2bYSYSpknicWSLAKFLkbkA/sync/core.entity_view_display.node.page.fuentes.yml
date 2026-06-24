@@ -1,0 +1,55 @@
+uuid: 5adbd81a-6f7c-4670-a37b-f35ea6a497b3
+langcode: es
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.fuentes
+    - field.field.node.page.body
+    - field.field.node.page.field_adjunto
+    - field.field.node.page.field_bases_de_datos
+    - field.field.node.page.field_fuentes
+    - field.field.node.page.field_liston
+    - field.field.node.page.field_notas_pagina
+    - field.field.node.page.field_tags
+    - node.type.page
+  module:
+    - file
+    - text
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.fuentes
+targetEntityType: node
+bundle: page
+mode: fuentes
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_adjunto:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_bases_de_datos: true
+  field_fuentes: true
+  field_liston: true
+  field_notas_pagina: true
+  field_tags: true
+  langcode: true

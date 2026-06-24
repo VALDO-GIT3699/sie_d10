@@ -1,0 +1,20 @@
+uuid: 288d494c-c17a-48bb-8d71-bccc0cae6871
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_30ar_otros
+field_name: field_30ar_otros
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

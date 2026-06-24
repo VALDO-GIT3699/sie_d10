@@ -1,0 +1,21 @@
+uuid: 564a22b2-88e2-4d6b-bcc1-61de6f85eeb3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_programa_educativo
+    - storage.storage_type.programa_educativo
+  module:
+    - options
+id: storage.programa_educativo.field_programa_educativo
+field_name: field_programa_educativo
+entity_type: storage
+bundle: programa_educativo
+label: 'Nombre del programa educativo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

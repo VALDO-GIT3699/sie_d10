@@ -1,0 +1,11 @@
+uuid: 12219ecb-958e-4dcf-a053-a82acba05050
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.liston_de_contenido
+id: node.liston_de_contenido
+target_entity_type_id: node
+target_bundle: liston_de_contenido
+default_langcode: site_default
+language_alterable: false

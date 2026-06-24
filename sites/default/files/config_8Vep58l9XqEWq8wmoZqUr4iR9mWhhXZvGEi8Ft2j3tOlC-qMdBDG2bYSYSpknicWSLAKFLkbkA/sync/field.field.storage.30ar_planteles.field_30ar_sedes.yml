@@ -1,0 +1,23 @@
+uuid: b7332bd2-1c69-4773-8496-7dc476b8d0c2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_sedes
+    - storage.storage_type.30ar_planteles
+id: storage.30ar_planteles.field_30ar_sedes
+field_name: field_30ar_sedes
+entity_type: storage
+bundle: 30ar_planteles
+label: Sedes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

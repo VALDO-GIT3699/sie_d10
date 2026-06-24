@@ -1,0 +1,20 @@
+uuid: 68c7779d-0e06-495e-ad4f-ce0f5d11963c
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_disc_vis_baja_vision_t
+field_name: field_disc_vis_baja_vision_t
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

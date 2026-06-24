@@ -1,0 +1,13 @@
+uuid: 47ec517f-5d52-4448-97a8-9e706a0dfae5
+langcode: es
+status: true
+dependencies: {  }
+id: 124_estudiantes_en_pec_por_progr
+label: '124 Estudiantes en PEC por programa'
+description: 'Estudiantes en programas educativos de calidad por programa educativo'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

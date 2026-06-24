@@ -1,0 +1,19 @@
+uuid: e78f3979-6048-4690-8d1f-da2d84321951
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_domicilio
+    - storage.storage_type.plantel
+id: storage.plantel.field_domicilio
+field_name: field_domicilio
+entity_type: storage
+bundle: plantel
+label: Domicilio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

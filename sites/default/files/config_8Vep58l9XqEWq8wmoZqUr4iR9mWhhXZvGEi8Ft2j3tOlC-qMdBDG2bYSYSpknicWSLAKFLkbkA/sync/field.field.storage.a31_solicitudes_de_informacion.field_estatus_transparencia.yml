@@ -1,0 +1,29 @@
+uuid: 908ecda0-3499-4512-af3f-0da80c229135
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_estatus_transparencia
+    - storage.storage_type.a31_solicitudes_de_informacion
+    - taxonomy.vocabulary.estatus_transparencia
+id: storage.a31_solicitudes_de_informacion.field_estatus_transparencia
+field_name: field_estatus_transparencia
+entity_type: storage
+bundle: a31_solicitudes_de_informacion
+label: 'Estatus de transparencia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      estatus_transparencia: estatus_transparencia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

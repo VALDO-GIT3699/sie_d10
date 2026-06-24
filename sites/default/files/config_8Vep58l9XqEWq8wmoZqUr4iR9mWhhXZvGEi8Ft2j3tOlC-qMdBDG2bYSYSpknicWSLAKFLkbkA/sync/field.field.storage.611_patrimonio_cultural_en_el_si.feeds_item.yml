@@ -1,0 +1,23 @@
+uuid: 45cd06ae-cb99-426b-9610-32c0638e061c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.611_patrimonio_cultural_en_el_si
+  module:
+    - feeds
+id: storage.611_patrimonio_cultural_en_el_si.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 611_patrimonio_cultural_en_el_si
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

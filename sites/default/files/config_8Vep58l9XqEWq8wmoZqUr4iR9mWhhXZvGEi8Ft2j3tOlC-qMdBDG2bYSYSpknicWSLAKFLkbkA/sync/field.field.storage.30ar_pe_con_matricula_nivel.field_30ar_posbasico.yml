@@ -1,0 +1,23 @@
+uuid: 420a8b6c-bb05-439f-9ec9-929537ca5c68
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_posbasico
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_posbasico
+field_name: field_30ar_posbasico
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: Posbásico
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

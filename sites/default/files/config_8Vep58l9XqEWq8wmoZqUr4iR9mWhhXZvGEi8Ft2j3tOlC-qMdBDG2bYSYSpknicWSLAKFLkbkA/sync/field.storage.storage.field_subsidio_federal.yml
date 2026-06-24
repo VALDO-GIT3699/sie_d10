@@ -1,0 +1,21 @@
+uuid: 929b53d0-35ff-428c-9bff-079ea07de45c
+langcode: es
+status: true
+dependencies:
+  module:
+    - bigint
+    - storage
+id: storage.field_subsidio_federal
+field_name: field_subsidio_federal
+entity_type: storage
+type: bigint
+settings:
+  unsigned: false
+  size: big
+module: bigint
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

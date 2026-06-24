@@ -1,0 +1,23 @@
+uuid: a91f5168-b583-422e-9a42-922afdecc894
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.833_bases_de_datos
+id: storage.833_bases_de_datos.field_row
+field_name: field_row
+entity_type: storage
+bundle: 833_bases_de_datos
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

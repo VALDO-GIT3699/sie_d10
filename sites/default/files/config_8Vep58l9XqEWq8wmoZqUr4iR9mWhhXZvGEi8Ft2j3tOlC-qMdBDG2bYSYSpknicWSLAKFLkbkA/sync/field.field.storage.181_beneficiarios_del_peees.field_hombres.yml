@@ -1,0 +1,23 @@
+uuid: 8ab19429-f087-486b-b224-33230974fb58
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_hombres
+    - storage.storage_type.181_beneficiarios_del_peees
+id: storage.181_beneficiarios_del_peees.field_hombres
+field_name: field_hombres
+entity_type: storage
+bundle: 181_beneficiarios_del_peees
+label: Hombres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

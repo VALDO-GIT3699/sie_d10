@@ -1,0 +1,20 @@
+uuid: 394856fb-a1fd-4e28-bb5b-b04b5b6905d1
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_30ar_pm
+field_name: field_30ar_pm
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

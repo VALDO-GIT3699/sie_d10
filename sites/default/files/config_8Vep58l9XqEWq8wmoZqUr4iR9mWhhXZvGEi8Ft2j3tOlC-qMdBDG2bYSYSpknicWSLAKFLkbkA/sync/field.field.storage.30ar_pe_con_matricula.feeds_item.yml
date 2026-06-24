@@ -1,0 +1,23 @@
+uuid: b9ba9463-031b-48a4-a982-2f92b8720a13
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.30ar_pe_con_matricula
+  module:
+    - feeds
+id: storage.30ar_pe_con_matricula.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 30ar_pe_con_matricula
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

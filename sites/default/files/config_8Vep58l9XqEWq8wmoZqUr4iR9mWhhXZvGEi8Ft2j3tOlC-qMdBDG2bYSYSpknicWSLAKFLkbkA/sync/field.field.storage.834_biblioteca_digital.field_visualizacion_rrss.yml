@@ -1,0 +1,23 @@
+uuid: ee70f2d8-85bf-451f-bd18-9a2578ed59ce
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_visualizacion_rrss
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_visualizacion_rrss
+field_name: field_visualizacion_rrss
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Visualizaciones posteriores en redes sociales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

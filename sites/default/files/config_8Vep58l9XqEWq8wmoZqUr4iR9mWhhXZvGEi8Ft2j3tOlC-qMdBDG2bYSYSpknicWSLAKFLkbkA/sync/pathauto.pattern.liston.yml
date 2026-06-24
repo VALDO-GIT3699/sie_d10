@@ -1,0 +1,23 @@
+uuid: 85b404d6-cb5c-4f2f-81a4-896d0ea120c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.titulo
+  module:
+    - node
+id: liston
+label: Listón
+type: 'canonical_entities:node'
+pattern: '/liston/[node:title]'
+selection_criteria:
+  3ac1ee6f-992d-4d70-b14e-b3c97e4ab1aa:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      titulo: titulo
+selection_logic: and
+weight: -5
+relationships: {  }

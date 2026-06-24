@@ -1,0 +1,21 @@
+uuid: b938850e-8091-48e0-8987-bc3a79bd556c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_notas_pagina
+    - node.type.page
+  module:
+    - text
+id: node.page.field_notas_pagina
+field_name: field_notas_pagina
+entity_type: node
+bundle: page
+label: Notas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,23 @@
+uuid: 052968b1-ad9d-4b1d-9bbd-b03b71c27b62
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anexo_2
+    - storage.storage_type.anexo
+id: storage.anexo.field_anexo_2
+field_name: field_anexo_2
+entity_type: storage
+bundle: anexo
+label: 'Anexo 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

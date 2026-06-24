@@ -1,0 +1,11 @@
+uuid: c94683f9-3a05-479d-bb31-0ec571c6fce3
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.estatus_transparencia
+id: taxonomy_term.estatus_transparencia
+target_entity_type_id: taxonomy_term
+target_bundle: estatus_transparencia
+default_langcode: site_default
+language_alterable: false

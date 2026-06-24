@@ -1,0 +1,29 @@
+uuid: 98bd21c9-db37-4c9e-981b-0ee7a9b02957
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.numeralia
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__numeralia_block_1
+theme: b4seutheme
+region: content
+weight: -88
+provider: null
+plugin: 'views_block:numeralia-block_1'
+settings:
+  id: 'views_block:numeralia-block_1'
+  label: 'Matrícula ciclo 2024-2025'
+  label_display: visible
+  provider: views
+  views_label: 'Matrícula ciclo 2024-2025'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/numeralia\r\n/prueba\r\n"

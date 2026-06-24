@@ -1,0 +1,23 @@
+uuid: b7c34a8a-dc0c-4939-803a-b4ed6021a3a1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.922_residuos_solidos
+id: storage.922_residuos_solidos.field_row
+field_name: field_row
+entity_type: storage
+bundle: 922_residuos_solidos
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

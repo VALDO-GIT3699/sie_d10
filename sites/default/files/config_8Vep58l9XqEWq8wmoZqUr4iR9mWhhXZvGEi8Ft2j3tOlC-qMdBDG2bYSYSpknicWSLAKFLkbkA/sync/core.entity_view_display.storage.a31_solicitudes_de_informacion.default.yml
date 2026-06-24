@@ -1,0 +1,65 @@
+uuid: 64c69333-b6d9-45a5-bfe3-b83307cfd6ca
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.a31_solicitudes_de_informacion.feeds_item
+    - field.field.storage.a31_solicitudes_de_informacion.field_anio
+    - field.field.storage.a31_solicitudes_de_informacion.field_estatus_transparencia
+    - field.field.storage.a31_solicitudes_de_informacion.field_row
+    - field.field.storage.a31_solicitudes_de_informacion.field_total
+    - storage.storage_type.a31_solicitudes_de_informacion
+id: storage.a31_solicitudes_de_informacion.default
+targetEntityType: storage
+bundle: a31_solicitudes_de_informacion
+mode: default
+content:
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_estatus_transparencia:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_total:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

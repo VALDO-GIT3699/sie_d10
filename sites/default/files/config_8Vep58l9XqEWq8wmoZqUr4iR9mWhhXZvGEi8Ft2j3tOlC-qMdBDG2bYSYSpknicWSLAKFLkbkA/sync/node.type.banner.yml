@@ -1,0 +1,18 @@
+uuid: 22704029-8ac9-40e9-becd-e62547c96741
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Banner
+type: banner
+description: 'Crea un banner'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

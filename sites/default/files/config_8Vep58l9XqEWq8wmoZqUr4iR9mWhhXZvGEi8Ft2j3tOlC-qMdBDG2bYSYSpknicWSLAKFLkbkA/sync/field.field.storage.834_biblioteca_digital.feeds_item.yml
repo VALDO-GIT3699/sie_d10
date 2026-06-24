@@ -1,0 +1,23 @@
+uuid: 2451374f-bc87-4bb8-ada9-02e71f6bc609
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.834_biblioteca_digital
+  module:
+    - feeds
+id: storage.834_biblioteca_digital.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

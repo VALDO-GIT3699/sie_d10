@@ -1,0 +1,21 @@
+uuid: d4a17937-684a-46b4-a174-88a41d8a6c30
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_orden
+    - node.type.banner
+  module:
+    - options
+id: node.banner.field_orden
+field_name: field_orden
+entity_type: node
+bundle: banner
+label: Orden
+description: 'Orden en que se mostrará el banner.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

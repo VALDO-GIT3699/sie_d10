@@ -1,0 +1,23 @@
+uuid: afc7f351-09b9-41ef-80d9-88dcaf80f569
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_bg
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_bg
+field_name: field_30ar_bg
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: 'Bachillerato General'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

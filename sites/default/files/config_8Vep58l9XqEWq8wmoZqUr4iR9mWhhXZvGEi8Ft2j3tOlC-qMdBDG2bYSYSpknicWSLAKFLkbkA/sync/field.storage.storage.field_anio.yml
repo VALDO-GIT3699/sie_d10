@@ -1,0 +1,20 @@
+uuid: 13f8109a-37d6-46bd-8d65-a49fd865f38e
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_anio
+field_name: field_anio
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

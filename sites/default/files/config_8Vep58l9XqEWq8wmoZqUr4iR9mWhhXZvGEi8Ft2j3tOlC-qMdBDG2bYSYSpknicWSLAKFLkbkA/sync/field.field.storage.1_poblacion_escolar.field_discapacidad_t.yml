@@ -1,0 +1,23 @@
+uuid: 211ad7a9-3ccc-4138-a061-28a4435f9b6b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_discapacidad_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_discapacidad_t
+field_name: field_discapacidad_t
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Total discapacidad'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

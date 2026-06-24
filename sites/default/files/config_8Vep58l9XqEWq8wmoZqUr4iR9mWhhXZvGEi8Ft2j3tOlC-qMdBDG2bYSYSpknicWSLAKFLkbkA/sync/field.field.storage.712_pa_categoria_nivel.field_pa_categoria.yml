@@ -1,0 +1,29 @@
+uuid: 362f128f-5087-4d47-9fd1-0a7eb82ba358
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_pa_categoria
+    - storage.storage_type.712_pa_categoria_nivel
+    - taxonomy.vocabulary.pa_categoria
+id: storage.712_pa_categoria_nivel.field_pa_categoria
+field_name: field_pa_categoria
+entity_type: storage
+bundle: 712_pa_categoria_nivel
+label: Categoría
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pa_categoria: pa_categoria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 825a01ee-355e-4096-b532-67bb438da2f3
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_tesis_bd
+field_name: field_tesis_bd
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

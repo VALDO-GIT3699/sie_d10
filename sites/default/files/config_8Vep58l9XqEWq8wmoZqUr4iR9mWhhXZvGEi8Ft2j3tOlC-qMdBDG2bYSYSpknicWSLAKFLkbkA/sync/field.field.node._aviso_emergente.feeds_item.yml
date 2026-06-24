@@ -1,0 +1,23 @@
+uuid: ab3e2fba-9aa2-4864-b91d-2a1d5cd2bbe5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.feeds_item
+    - node.type._aviso_emergente
+  module:
+    - feeds
+id: node._aviso_emergente.feeds_item
+field_name: feeds_item
+entity_type: node
+bundle: _aviso_emergente
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

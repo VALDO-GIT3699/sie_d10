@@ -1,0 +1,23 @@
+uuid: b69639ae-33f0-4033-befa-8768c6b059b0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_tesis_bd
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_tesis_bd
+field_name: field_tesis_bd
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Tesis en bases de datos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

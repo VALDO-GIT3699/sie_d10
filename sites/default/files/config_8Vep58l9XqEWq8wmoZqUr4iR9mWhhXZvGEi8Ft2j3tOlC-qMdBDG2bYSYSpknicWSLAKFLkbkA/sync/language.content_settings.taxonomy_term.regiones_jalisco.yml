@@ -1,0 +1,11 @@
+uuid: d79bea2b-48ca-47c7-82ce-2a13e4299483
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.regiones_jalisco
+id: taxonomy_term.regiones_jalisco
+target_entity_type_id: taxonomy_term
+target_bundle: regiones_jalisco
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,23 @@
+uuid: 8ba3ea77-6b27-4184-87d7-f602fcbe8b4c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mostrar_en_video_slideshow
+    - node.type.slideshow
+id: node.slideshow.field_mostrar_en_video_slideshow
+field_name: field_mostrar_en_video_slideshow
+entity_type: node
+bundle: slideshow
+label: 'Mostrar en video Slideshow'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

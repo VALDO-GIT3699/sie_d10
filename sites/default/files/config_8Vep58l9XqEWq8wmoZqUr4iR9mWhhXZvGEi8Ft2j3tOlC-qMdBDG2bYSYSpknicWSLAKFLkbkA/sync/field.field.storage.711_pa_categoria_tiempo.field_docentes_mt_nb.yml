@@ -1,0 +1,23 @@
+uuid: 5d2d7b81-a460-402b-9762-2c3feebb8b32
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_docentes_mt_nb
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_docentes_mt_nb
+field_name: field_docentes_mt_nb
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Docentes de medio tiempo personas no binarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

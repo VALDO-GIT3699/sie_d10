@@ -1,0 +1,23 @@
+uuid: 1b0be208-794b-460e-80ab-328c2bbfcaf8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_matricula_nb
+    - storage.storage_type.matricula
+id: storage.matricula.field_matricula_nb
+field_name: field_matricula_nb
+entity_type: storage
+bundle: matricula
+label: 'Matrícula personas no binarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

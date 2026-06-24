@@ -1,0 +1,9 @@
+uuid: 10879d0a-0902-4875-b73d-bd88de76f36b
+langcode: es
+status: true
+dependencies: {  }
+name: 'Regiones Jalisco'
+vid: regiones_jalisco
+description: 'Listado de las Regiones del Estado de Jalisco'
+weight: 0
+new_revision: false

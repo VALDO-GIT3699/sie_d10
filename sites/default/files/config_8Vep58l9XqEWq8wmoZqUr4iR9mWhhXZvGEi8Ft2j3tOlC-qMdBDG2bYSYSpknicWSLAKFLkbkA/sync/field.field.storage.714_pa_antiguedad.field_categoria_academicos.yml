@@ -1,0 +1,21 @@
+uuid: 7c5135b0-3b52-4877-a158-2e8d0912c827
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_categoria_academicos
+    - storage.storage_type.714_pa_antiguedad
+  module:
+    - options
+id: storage.714_pa_antiguedad.field_categoria_academicos
+field_name: field_categoria_academicos
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Categoría de académicos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

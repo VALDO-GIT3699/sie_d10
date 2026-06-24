@@ -1,0 +1,23 @@
+uuid: 48f6f85e-1cc0-41bc-b77b-182f1dfcb104
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_volumenes_ad_donacion
+    - storage.storage_type.832_titulos_y_volumenes
+id: storage.832_titulos_y_volumenes.field_volumenes_ad_donacion
+field_name: field_volumenes_ad_donacion
+entity_type: storage
+bundle: 832_titulos_y_volumenes
+label: 'Volúmenes adquiridos por donación'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

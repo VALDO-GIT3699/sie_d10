@@ -1,0 +1,11 @@
+uuid: 01514416-6a74-4221-ad56-ca6af826a1a6
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ambito_geogra
+id: taxonomy_term.ambito_geogra
+target_entity_type_id: taxonomy_term
+target_bundle: ambito_geogra
+default_langcode: site_default
+language_alterable: false

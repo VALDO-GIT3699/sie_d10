@@ -1,0 +1,23 @@
+uuid: b22ec524-ceef-4dbb-ab0c-2ea78e8cc376
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_aspirantes_m
+    - storage.storage_type.13_admision_b
+id: storage.13_admision_b.field_aspirantes_m
+field_name: field_aspirantes_m
+entity_type: storage
+bundle: 13_admision_b
+label: 'Mujeres aspirantes'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

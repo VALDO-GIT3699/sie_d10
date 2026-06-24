@@ -1,0 +1,29 @@
+uuid: 17510325-c5bd-4166-89a3-669ba9ab3e61
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.713_pa_sems_categoria_nivel
+    - taxonomy.vocabulary.ano
+id: storage.713_pa_sems_categoria_nivel.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 713_pa_sems_categoria_nivel
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

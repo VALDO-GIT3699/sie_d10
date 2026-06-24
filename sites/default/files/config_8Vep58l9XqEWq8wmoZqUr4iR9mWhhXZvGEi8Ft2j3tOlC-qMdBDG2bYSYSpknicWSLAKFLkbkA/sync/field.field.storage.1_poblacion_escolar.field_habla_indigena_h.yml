@@ -1,0 +1,23 @@
+uuid: 1a579ad7-390c-4cf4-a0f4-3cd790aaa48b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_habla_indigena_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_habla_indigena_h
+field_name: field_habla_indigena_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres de habla indígena'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

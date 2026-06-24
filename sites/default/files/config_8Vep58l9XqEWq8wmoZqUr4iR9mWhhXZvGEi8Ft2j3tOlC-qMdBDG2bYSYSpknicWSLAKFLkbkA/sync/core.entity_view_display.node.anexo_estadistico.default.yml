@@ -1,0 +1,118 @@
+uuid: f3324748-dece-4fba-8082-017448d3b059
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.anexo_estadistico.body
+    - field.field.node.anexo_estadistico.field_ano_anexo
+    - field.field.node.anexo_estadistico.field_documento
+    - field.field.node.anexo_estadistico.field_infografia
+    - field.field.node.anexo_estadistico.field_infografia_doc
+    - field.field.node.anexo_estadistico.field_paginas
+    - field.field.node.anexo_estadistico.field_periodo_rectoria
+    - field.field.node.anexo_estadistico.field_portada
+    - field.field.node.anexo_estadistico.field_rector
+    - node.type.anexo_estadistico
+  module:
+    - entity_print
+    - file
+    - image
+    - text
+    - user
+third_party_settings:
+  entity_print:
+    pdf_label: 'View PDF'
+id: node.anexo_estadistico.default
+targetEntityType: node
+bundle: anexo_estadistico
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ano_anexo:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_documento:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_infografia:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_infografia_doc:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_paginas:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_periodo_rectoria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_portada:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_rector:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: c877ea54-563e-4d57-90d2-b910d9995bdf
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_admitidos_h
+field_name: field_admitidos_h
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+uuid: 5c89d4e5-e3b3-4408-9fe7-26bd592bea3d
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo de plantel'
+vid: tipo_de_plantel
+description: 'Tipo plantel'
+weight: 0
+new_revision: false

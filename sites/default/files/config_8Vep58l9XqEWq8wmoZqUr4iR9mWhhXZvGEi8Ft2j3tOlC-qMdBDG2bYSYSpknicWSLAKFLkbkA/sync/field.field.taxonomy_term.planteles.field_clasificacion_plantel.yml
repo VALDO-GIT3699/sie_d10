@@ -1,0 +1,29 @@
+uuid: 83222e99-d42c-4f18-882a-28c935c486f9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_clasificacion_plantel
+    - taxonomy.vocabulary.clasificacion_de_planteles
+    - taxonomy.vocabulary.planteles
+id: taxonomy_term.planteles.field_clasificacion_plantel
+field_name: field_clasificacion_plantel
+entity_type: taxonomy_term
+bundle: planteles
+label: 'Clasificación de plantel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      clasificacion_de_planteles: clasificacion_de_planteles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

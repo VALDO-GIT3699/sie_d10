@@ -1,0 +1,23 @@
+uuid: 42c9dd49-5d75-448e-bdd5-b74f16cb4679
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_fis_motriz_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_fis_motriz_nb
+field_name: field_disc_fis_motriz_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Personas no binarias con discapacidad física / motriz'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

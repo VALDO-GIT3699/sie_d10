@@ -1,0 +1,23 @@
+uuid: 3200624b-e269-4abd-9fdc-47908c51a4ea
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_matricula_t
+    - storage.storage_type.matricula
+id: storage.matricula.field_matricula_t
+field_name: field_matricula_t
+entity_type: storage
+bundle: matricula
+label: 'Matrícula total'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

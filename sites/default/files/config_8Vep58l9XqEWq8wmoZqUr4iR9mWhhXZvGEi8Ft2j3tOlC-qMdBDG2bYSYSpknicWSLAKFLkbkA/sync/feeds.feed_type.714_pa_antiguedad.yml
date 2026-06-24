@@ -1,0 +1,339 @@
+uuid: 1d036e9a-30e4-40d6-8b52-92db799cd95c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.714_pa_antiguedad.field_a_0_a_4_anios
+    - field.field.storage.714_pa_antiguedad.field_a_10_a_14_anios
+    - field.field.storage.714_pa_antiguedad.field_a_15_a_19_anios
+    - field.field.storage.714_pa_antiguedad.field_a_20_a_24_anios
+    - field.field.storage.714_pa_antiguedad.field_a_25_a_29_anios
+    - field.field.storage.714_pa_antiguedad.field_a_30_a_34_anios
+    - field.field.storage.714_pa_antiguedad.field_a_35_a_39_anios
+    - field.field.storage.714_pa_antiguedad.field_a_40_a_44_anios
+    - field.field.storage.714_pa_antiguedad.field_a_45_a_50_anios
+    - field.field.storage.714_pa_antiguedad.field_a_51_o_mas_anios
+    - field.field.storage.714_pa_antiguedad.field_a_5_a_9_anios
+    - field.field.storage.714_pa_antiguedad.field_anio
+    - field.field.storage.714_pa_antiguedad.field_categoria_academicos
+    - field.field.storage.714_pa_antiguedad.field_edad_21_a_30
+    - field.field.storage.714_pa_antiguedad.field_edad_31_a_40
+    - field.field.storage.714_pa_antiguedad.field_edad_41_a_50
+    - field.field.storage.714_pa_antiguedad.field_edad_51_a_60
+    - field.field.storage.714_pa_antiguedad.field_edad_61_anios_o_mas
+    - field.field.storage.714_pa_antiguedad.field_entidad_universitaria
+    - field.field.storage.714_pa_antiguedad.field_row
+    - storage.storage_type.714_pa_antiguedad
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '714 PA Antigüedad/Edad'
+id: 714_pa_antiguedad
+description: 'Personal académico de acuerdo a su rango de antigüedad y edad por entidad universitaria y categoría'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 714_pa_antiguedad
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  categoria_academicos:
+    value: categoria_academicos
+    label: categoria_academicos
+    machine_name: categoria_academicos
+    type: csv
+  a_0_a_4_anios:
+    value: a_0_a_4_anios
+    label: a_0_a_4_anios
+    machine_name: a_0_a_4_anios
+    type: csv
+  a_5_a_9_anios:
+    value: a_5_a_9_anios
+    label: a_5_a_9_anios
+    machine_name: a_5_a_9_anios
+    type: csv
+  '':
+    value: ''
+    label: ''
+    machine_name: ''
+    type: csv
+  a_10_a_14_anios:
+    value: a_10_a_14_anios
+    label: a_10_a_14_anios
+    machine_name: a_10_a_14_anios
+    type: csv
+  a_15_a_19_anios:
+    value: a_15_a_19_anios
+    label: a_15_a_19_anios
+    machine_name: a_15_a_19_anios
+    type: csv
+  a_20_a_24_anios:
+    value: a_20_a_24_anios
+    label: a_20_a_24_anios
+    machine_name: a_20_a_24_anios
+    type: csv
+  a_25_a_29_anios:
+    value: a_25_a_29_anios
+    label: a_25_a_29_anios
+    machine_name: a_25_a_29_anios
+    type: csv
+  a_30_a_34_anios:
+    value: a_30_a_34_anios
+    label: a_30_a_34_anios
+    machine_name: a_30_a_34_anios
+    type: csv
+  a_35_a_39_anios:
+    value: a_35_a_39_anios
+    label: a_35_a_39_anios
+    machine_name: a_35_a_39_anios
+    type: csv
+  a_40_a_44_anios:
+    value: a_40_a_44_anios
+    label: a_40_a_44_anios
+    machine_name: a_40_a_44_anios
+    type: csv
+  a_45_a_50_anios:
+    value: a_45_a_50_anios
+    label: a_45_a_50_anios
+    machine_name: a_45_a_50_anios
+    type: csv
+  a_51_o_mas_anios:
+    value: a_51_o_mas_anios
+    label: a_51_o_mas_anios
+    machine_name: a_51_o_mas_anios
+    type: csv
+  edad_21_a_30:
+    value: edad_21_a_30
+    label: edad_21_a_30
+    machine_name: edad_21_a_30
+    type: csv
+  edad_31_a_40:
+    value: edad_31_a_40
+    label: edad_31_a_40
+    machine_name: edad_31_a_40
+    type: csv
+  edad_41_a_50:
+    value: edad_41_a_50
+    label: edad_41_a_50
+    machine_name: edad_41_a_50
+    type: csv
+  edad_51_a_60:
+    value: edad_51_a_60
+    label: edad_51_a_60
+    machine_name: edad_51_a_60
+    type: csv
+  edad_61_anios_o_mas:
+    value: edad_61_anios_o_mas
+    label: edad_61_anios_o_mas
+    machine_name: edad_61_anios_o_mas
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_categoria_academicos
+    map:
+      value: categoria_academicos
+    settings:
+      language: null
+  -
+    target: field_a_0_a_4_anios
+    map:
+      value: a_0_a_4_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_5_a_9_anios
+    map:
+      value: a_5_a_9_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_10_a_14_anios
+    map:
+      value: a_10_a_14_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_15_a_19_anios
+    map:
+      value: a_15_a_19_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_20_a_24_anios
+    map:
+      value: a_20_a_24_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_25_a_29_anios
+    map:
+      value: a_25_a_29_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_30_a_34_anios
+    map:
+      value: a_30_a_34_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_35_a_39_anios
+    map:
+      value: a_35_a_39_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_40_a_44_anios
+    map:
+      value: a_40_a_44_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_45_a_50_anios
+    map:
+      value: a_45_a_50_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_a_51_o_mas_anios
+    map:
+      value: a_51_o_mas_anios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_edad_21_a_30
+    map:
+      value: edad_21_a_30
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_edad_31_a_40
+    map:
+      value: edad_31_a_40
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_edad_41_a_50
+    map:
+      value: edad_41_a_50
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_edad_51_a_60
+    map:
+      value: edad_51_a_60
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_edad_61_anios_o_mas
+    map:
+      value: edad_61_anios_o_mas
+    settings:
+      language: null
+    unique: {  }

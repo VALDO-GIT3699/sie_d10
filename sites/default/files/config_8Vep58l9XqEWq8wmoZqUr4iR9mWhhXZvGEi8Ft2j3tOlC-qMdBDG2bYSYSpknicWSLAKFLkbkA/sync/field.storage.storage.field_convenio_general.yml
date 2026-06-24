@@ -1,0 +1,20 @@
+uuid: d70a2d65-33f8-4c50-ba13-7790cfbc3347
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_convenio_general
+field_name: field_convenio_general
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

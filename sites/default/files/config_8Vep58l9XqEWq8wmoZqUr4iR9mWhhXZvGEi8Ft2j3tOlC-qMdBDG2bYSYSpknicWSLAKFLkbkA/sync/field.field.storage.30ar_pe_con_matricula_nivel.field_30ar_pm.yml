@@ -1,0 +1,23 @@
+uuid: 0ab822c5-9bb0-4304-b94e-eae020d15d9a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_pm
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_pm
+field_name: field_30ar_pm
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: 'Profesional medio'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,13 @@
+uuid: 14c74dfa-4ef4-4f1f-8080-7c9008cdf58e
+langcode: es
+status: true
+dependencies: {  }
+id: 922_residuos_solidos
+label: '922 Residuos sólidos'
+description: 'Kilogramos de residuos sólidos producidos por la comunidad universitaria'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

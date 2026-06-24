@@ -1,0 +1,29 @@
+uuid: 600f9fc2-78cf-42fa-9c0b-ed0e14a3d0b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.duplicado_de_3_investigacion_e_innovacion
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__duplicado_de_3_investigacion_e_innovacion_block_10
+theme: b4seutheme
+region: content
+weight: -22
+provider: null
+plugin: 'views_block:duplicado_de_3_investigacion_e_innovacion-block_10'
+settings:
+  id: 'views_block:duplicado_de_3_investigacion_e_innovacion-block_10'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /gobierno/transparencia

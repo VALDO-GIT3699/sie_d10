@@ -1,0 +1,29 @@
+uuid: 595ed678-5d13-4bb5-b13a-036e5de3f36f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_sector
+    - storage.storage_type.421_practicas_profesionales
+    - taxonomy.vocabulary.sector_ss
+id: storage.421_practicas_profesionales.field_sector
+field_name: field_sector
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: Sector
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sector_ss: sector_ss
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

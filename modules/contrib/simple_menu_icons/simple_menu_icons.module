@@ -1,16 +1,18 @@
 <?php
-use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Asset\AttachedAssetsInterface;
+
 /**
  * @file
  * Module to associate icons with menu items
  */
 
+use Drupal\Core\Asset\AttachedAssetsInterface;
+use Drupal\Core\File\FileExists;
 use Drupal\Core\File\FileSystemInterface;
-use Drupal\Core\Render\Element;
+use Drupal\Core\Form\FormStateInterface;
 use Drupal\file\Entity\File;
 
-define('SIMPLE_MENU_ICONS_CSS_PATH', 'public://css');
+// Do not use the public://css path to store it's serviceable by core for aggregated CSS
+define('SIMPLE_MENU_ICONS_CSS_PATH', 'public://simple_menu_icons_css');
 
 /**
  * Implements hook_theme().
@@ -62,7 +64,7 @@ function simple_menu_icons_menu_link_content_form_submit($form, FormStateInterfa
   if (!empty($file_id)) {
     // Make this a permanent file so that cron doesn't delete it later.
     $file = File::load($file_id);
-    $file->status = FILE_STATUS_PERMANENT;
+    $file->setPermanent();
     $file->save();
     $file_usage = \Drupal::service('file.usage');
     $file_usage->add($file, 'simple_menu_icons', 'default_image', $file_id);
@@ -126,7 +128,7 @@ function simple_menu_icons_css_generate() {
       '#theme' => 'simple_menu_icons_css_item',
       '#icons' => $menu_icons,
     ];
-    $css = \Drupal::service('renderer')->renderPlain($menu_css);
+    $css = \Drupal::service('renderer')->renderInIsolation($menu_css);
 
     // If theme debug is enabled, there will be HTML comments showing the
     // path to the Twig template. That breaks the CSS, so we convert them
@@ -149,7 +151,7 @@ function simple_menu_icons_css_generate() {
     // Save the CSS to a file in the files directory.
     // make directory writable if it is read-only.
     \Drupal::service('file_system')->prepareDirectory($csspath, FileSystemInterface::CREATE_DIRECTORY | FileSystemInterface::MODIFY_PERMISSIONS);
-    \Drupal::service('file_system')->saveData($css, $csspath . '/menu_icons_' . $css_suffix . '.css', FileSystemInterface::EXISTS_REPLACE);
+    \Drupal::service('file_system')->saveData($css, $csspath . '/menu_icons_' . $css_suffix . '.css', FileExists::Replace);
   }
   else {
     $css_suffix = \Drupal::state()->get('simple_menu_icons_css_suffix') ?: NULL;
@@ -163,7 +165,7 @@ function simple_menu_icons_css_generate() {
 
   // Either way, we should flush CSS cache so that aggregated CSS gets rebuilt.
   \Drupal::service('asset.css.collection_optimizer')->deleteAll();
-  _drupal_flush_css_js();
+  \Drupal::service('asset.query_string')->reset();
 }
 
 /**
@@ -188,7 +190,7 @@ function simple_menu_icons_css_alter(&$css, AttachedAssetsInterface $assets) {
     $cssfile = SIMPLE_MENU_ICONS_CSS_PATH . '/menu_icons.css';
   }
   if (file_exists($cssfile) && $css) {
-    $css_path = \Drupal::service('file_url_generator')->generateAbsoluteString($cssfile);
+    $css_path = \Drupal::service('file_url_generator')->transformRelative($cssfile);
     if (!empty($css_path)) {
       $css[$css_path] = [
         'weight' => CSS_COMPONENT,
@@ -196,10 +198,16 @@ function simple_menu_icons_css_alter(&$css, AttachedAssetsInterface $assets) {
         'type' => 'file',
         'data' => $css_path,
         'media' => 'all',
+        'version' => -1,
         'preprocess' => TRUE,
         'browsers' => [
           'IE' => TRUE,
           '!IE' => TRUE,
+        ],
+        'license' => [
+          'name' => 'GPL-2.0-or-later',
+          'url' => 'https://www.drupal.org/licensing/faq"',
+          'gpl-compatible' => TRUE,
         ],
       ];
     }

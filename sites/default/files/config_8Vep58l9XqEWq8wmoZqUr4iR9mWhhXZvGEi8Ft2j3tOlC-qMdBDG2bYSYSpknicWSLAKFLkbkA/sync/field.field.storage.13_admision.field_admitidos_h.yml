@@ -1,0 +1,23 @@
+uuid: d26907c7-2c93-4e5e-b4da-36b12d60db65
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_admitidos_h
+    - storage.storage_type.13_admision
+id: storage.13_admision.field_admitidos_h
+field_name: field_admitidos_h
+entity_type: storage
+bundle: 13_admision
+label: 'Hombres admitidos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

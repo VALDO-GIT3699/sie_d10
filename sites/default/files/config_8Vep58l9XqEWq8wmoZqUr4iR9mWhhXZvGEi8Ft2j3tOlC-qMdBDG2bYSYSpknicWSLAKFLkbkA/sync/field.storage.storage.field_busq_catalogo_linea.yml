@@ -1,0 +1,20 @@
+uuid: df7e12c6-5860-46dc-95ac-a02bbab189a3
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_busq_catalogo_linea
+field_name: field_busq_catalogo_linea
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

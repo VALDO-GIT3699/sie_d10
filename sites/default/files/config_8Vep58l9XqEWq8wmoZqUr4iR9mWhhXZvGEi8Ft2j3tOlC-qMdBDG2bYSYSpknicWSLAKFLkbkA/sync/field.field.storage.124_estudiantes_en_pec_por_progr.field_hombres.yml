@@ -1,0 +1,23 @@
+uuid: f52bede9-3657-40bd-9534-5e1d661ea072
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_hombres
+    - storage.storage_type.124_estudiantes_en_pec_por_progr
+id: storage.124_estudiantes_en_pec_por_progr.field_hombres
+field_name: field_hombres
+entity_type: storage
+bundle: 124_estudiantes_en_pec_por_progr
+label: Hombres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

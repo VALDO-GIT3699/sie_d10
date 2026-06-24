@@ -1,0 +1,20 @@
+uuid: 8892d7b4-3cc6-4b9a-952e-aef0bee85d14
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_asistencia_prom
+field_name: field_asistencia_prom
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: bb2a61ac-6192-4e2a-b494-9569c067d458
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_tipo_patrimonio
+    - storage.storage_type.611_patrimonio_cultural_en_el_si
+    - taxonomy.vocabulary.tipo_patrimonio
+id: storage.611_patrimonio_cultural_en_el_si.field_tipo_patrimonio
+field_name: field_tipo_patrimonio
+entity_type: storage
+bundle: 611_patrimonio_cultural_en_el_si
+label: 'Tipo de patrimonio'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tipo_patrimonio: tipo_patrimonio
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

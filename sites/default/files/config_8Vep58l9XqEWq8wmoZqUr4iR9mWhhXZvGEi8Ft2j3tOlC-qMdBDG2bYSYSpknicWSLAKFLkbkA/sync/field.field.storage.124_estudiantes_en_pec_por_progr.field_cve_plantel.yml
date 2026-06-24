@@ -1,0 +1,29 @@
+uuid: 62163ecb-4006-48f7-9fb3-b82d3bc380c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_plantel
+    - storage.storage_type.124_estudiantes_en_pec_por_progr
+    - taxonomy.vocabulary.planteles
+id: storage.124_estudiantes_en_pec_por_progr.field_cve_plantel
+field_name: field_cve_plantel
+entity_type: storage
+bundle: 124_estudiantes_en_pec_por_progr
+label: Plantel
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      planteles: planteles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

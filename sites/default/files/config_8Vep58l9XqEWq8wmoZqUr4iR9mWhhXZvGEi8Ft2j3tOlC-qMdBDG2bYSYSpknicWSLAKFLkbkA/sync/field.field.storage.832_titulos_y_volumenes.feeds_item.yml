@@ -1,0 +1,23 @@
+uuid: 3be9ade7-7c72-4c92-a34f-bc45cf777ea9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.832_titulos_y_volumenes
+  module:
+    - feeds
+id: storage.832_titulos_y_volumenes.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 832_titulos_y_volumenes
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

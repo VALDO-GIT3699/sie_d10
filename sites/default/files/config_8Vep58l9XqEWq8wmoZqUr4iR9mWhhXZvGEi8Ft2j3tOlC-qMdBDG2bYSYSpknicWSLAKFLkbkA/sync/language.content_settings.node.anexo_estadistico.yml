@@ -1,0 +1,11 @@
+uuid: 9cb2c47c-4f75-4fe4-b19a-250db9a04fab
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.anexo_estadistico
+id: node.anexo_estadistico
+target_entity_type_id: node
+target_bundle: anexo_estadistico
+default_langcode: site_default
+language_alterable: false

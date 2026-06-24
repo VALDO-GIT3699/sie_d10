@@ -1,0 +1,29 @@
+uuid: 4479106f-5e2b-458f-9feb-898ef0b3d803
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.matricula
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__matricula_block_18
+theme: b4seutheme
+region: content
+weight: -73
+provider: null
+plugin: 'views_block:matricula-block_18'
+settings:
+  id: 'views_block:matricula-block_18'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /estudiantes

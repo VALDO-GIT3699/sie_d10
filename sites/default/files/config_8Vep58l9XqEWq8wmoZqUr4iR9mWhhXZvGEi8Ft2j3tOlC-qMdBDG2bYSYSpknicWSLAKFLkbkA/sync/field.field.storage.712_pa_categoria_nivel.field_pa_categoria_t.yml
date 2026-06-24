@@ -1,0 +1,29 @@
+uuid: 76967ce0-2bb9-4562-9a06-b2af6c35b5d4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_pa_categoria_t
+    - storage.storage_type.712_pa_categoria_nivel
+    - taxonomy.vocabulary.pa_categoria_tiempo
+id: storage.712_pa_categoria_nivel.field_pa_categoria_t
+field_name: field_pa_categoria_t
+entity_type: storage
+bundle: 712_pa_categoria_nivel
+label: Categoría/Tiempo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pa_categoria_tiempo: pa_categoria_tiempo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

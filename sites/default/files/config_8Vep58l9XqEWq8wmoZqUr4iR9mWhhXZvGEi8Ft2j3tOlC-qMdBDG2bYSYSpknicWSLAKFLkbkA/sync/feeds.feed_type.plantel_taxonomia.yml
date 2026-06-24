@@ -1,0 +1,243 @@
+uuid: b2a75fe7-0205-42a9-8a06-c70844e3f41e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.planteles.field_clasificacion_plantel
+    - field.field.taxonomy_term.planteles.field_clave_plantel
+    - field.field.taxonomy_term.planteles.field_entidad_universitaria
+    - field.field.taxonomy_term.planteles.field_municipio
+    - field.field.taxonomy_term.planteles.field_nombre_plantel_corto
+    - field.field.taxonomy_term.planteles.field_notas
+    - field.field.taxonomy_term.planteles.field_plantel
+    - field.field.taxonomy_term.planteles.field_plantel_adscripcion
+    - field.field.taxonomy_term.planteles.field_region_jalisco
+    - field.field.taxonomy_term.planteles.field_tipo_plantel
+    - taxonomy.vocabulary.planteles
+  module:
+    - feeds_log
+    - taxonomy
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: 'Plantel taxonomía'
+id: plantel_taxonomia
+description: 'Planteles de la Red Universitaria'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:taxonomy_term'
+processor_configuration:
+  values:
+    vid: planteles
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: false
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  orden:
+    value: orden
+    label: orden
+    machine_name: orden
+    type: csv
+  termino_padre:
+    value: termino_padre
+    label: termino_padre
+    machine_name: termino_padre
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  plantel_adscripcion:
+    value: plantel_adscripcion
+    label: plantel_adscripcion
+    machine_name: plantel_adscripcion
+    type: csv
+  clave_plantel:
+    value: clave_plantel
+    label: clave_plantel
+    machine_name: clave_plantel
+    type: csv
+  nombre_plantel_corto:
+    value: nombre_plantel_corto
+    label: nombre_plantel_corto
+    machine_name: nombre_plantel_corto
+    type: csv
+  tipo_plantel:
+    value: tipo_plantel
+    label: tipo_plantel
+    machine_name: tipo_plantel
+    type: csv
+  clasificacion_plantel:
+    value: clasificacion_plantel
+    label: clasificacion_plantel
+    machine_name: clasificacion_plantel
+    type: csv
+  region:
+    value: region
+    label: region
+    machine_name: region
+    type: csv
+  municipio:
+    value: municipio
+    label: municipio
+    machine_name: municipio
+    type: csv
+  region_jalisco:
+    value: region_jalisco
+    label: region_jalisco
+    machine_name: region_jalisco
+    type: csv
+  notas:
+    value: notas
+    label: notas
+    machine_name: notas
+    type: csv
+  nombre_plantel:
+    value: nombre_plantel
+    label: nombre_plantel
+    machine_name: nombre_plantel
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: nombre_plantel
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: weight
+    map:
+      value: orden
+    settings: {  }
+    unique: {  }
+  -
+    target: parent
+    map:
+      target_id: plantel_adscripcion
+    settings:
+      reference_by: field_clave_plantel
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: planteles
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_plantel_adscripcion
+    map:
+      value: plantel_adscripcion
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_clave_plantel
+    map:
+      value: clave_plantel
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_nombre_plantel_corto
+    map:
+      value: nombre_plantel_corto
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_tipo_plantel
+    map:
+      target_id: tipo_plantel
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: tipo_de_plantel
+      feeds_item: false
+  -
+    target: field_clasificacion_plantel
+    map:
+      target_id: clasificacion_plantel
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: clasificacion_de_planteles
+      feeds_item: false
+  -
+    target: field_municipio
+    map:
+      target_id: municipio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: municipio
+      feeds_item: false
+  -
+    target: field_plantel
+    map:
+      value: clave_plantel
+    settings:
+      language: ''
+  -
+    target: field_region_jalisco
+    map:
+      target_id: region_jalisco
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: regiones_jalisco
+      feeds_item: false
+  -
+    target: field_notas
+    map:
+      value: notas
+    settings:
+      language: ''
+      format: plain_text

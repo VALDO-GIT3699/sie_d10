@@ -1,0 +1,23 @@
+uuid: ac201ba7-f44d-4d9c-bcf8-d6ff6ac2e72b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_prestamo_externo
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.field_prestamo_externo
+field_name: field_prestamo_externo
+entity_type: storage
+bundle: 831_bibliotecas
+label: 'Préstamo externo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

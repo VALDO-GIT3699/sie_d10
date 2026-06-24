@@ -1,0 +1,23 @@
+uuid: c30a53f4-6a5f-4db3-9de8-88d7abc7f78e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_egresados_m
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_egresados_m
+field_name: field_egresados_m
+entity_type: storage
+bundle: 14_egresados
+label: 'Mujeres egresadas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

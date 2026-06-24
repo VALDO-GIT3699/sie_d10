@@ -1,0 +1,9 @@
+uuid: 4ba371e3-3acc-4c7a-a769-1ec475f6d8bf
+langcode: es
+status: true
+dependencies: {  }
+name: Calendario
+vid: calendario
+description: 'Calendarios de la UdeG'
+weight: 0
+new_revision: false

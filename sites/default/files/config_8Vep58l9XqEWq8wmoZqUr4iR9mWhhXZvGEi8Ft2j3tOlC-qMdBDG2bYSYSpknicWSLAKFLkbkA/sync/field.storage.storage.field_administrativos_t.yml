@@ -1,0 +1,20 @@
+uuid: ade42813-bd3f-48ce-b80f-aa4cd84af6ac
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_administrativos_t
+field_name: field_administrativos_t
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

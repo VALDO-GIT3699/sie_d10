@@ -1,0 +1,59 @@
+uuid: 3c319371-8536-4a24-9cd3-5e3597782039
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.liston_de_contenido.body
+    - field.field.node.liston_de_contenido.field_liston_c
+    - field.field.node.liston_de_contenido.field_url_lc
+    - node.type.liston_de_contenido
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.liston_de_contenido.default
+targetEntityType: node
+bundle: liston_de_contenido
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_liston_c:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_url_lc:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

@@ -1,0 +1,9 @@
+uuid: 303d2e39-1356-485c-a90d-3488819906a4
+langcode: es
+status: true
+dependencies: {  }
+name: Región
+vid: region
+description: 'Listado de regiones'
+weight: 0
+new_revision: false

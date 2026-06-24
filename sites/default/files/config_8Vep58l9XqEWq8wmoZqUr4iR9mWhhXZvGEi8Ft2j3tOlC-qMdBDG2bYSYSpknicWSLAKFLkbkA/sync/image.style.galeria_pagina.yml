@@ -1,0 +1,15 @@
+uuid: c35ec389-b21f-46b4-8fd1-590cac0f9e77
+langcode: es
+status: true
+dependencies: {  }
+name: galeria_pagina
+label: 'Galeria nodo (840x560)'
+effects:
+  84a4aa9b-e5db-4400-a695-e04e974ecf34:
+    uuid: 84a4aa9b-e5db-4400-a695-e04e974ecf34
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 840
+      height: 560
+      anchor: center-center

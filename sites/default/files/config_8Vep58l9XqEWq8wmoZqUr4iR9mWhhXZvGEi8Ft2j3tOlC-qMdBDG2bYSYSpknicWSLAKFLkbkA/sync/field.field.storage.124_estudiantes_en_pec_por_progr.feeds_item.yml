@@ -1,0 +1,23 @@
+uuid: 631df2cc-3424-492c-8b6b-42784013f415
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.124_estudiantes_en_pec_por_progr
+  module:
+    - feeds
+id: storage.124_estudiantes_en_pec_por_progr.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 124_estudiantes_en_pec_por_progr
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

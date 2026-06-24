@@ -1,0 +1,23 @@
+uuid: 2122536f-467f-4721-91cb-fec95050d781
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.b12_ingresos_de_la_udeg
+  module:
+    - feeds
+id: storage.b12_ingresos_de_la_udeg.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: b12_ingresos_de_la_udeg
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

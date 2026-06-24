@@ -1,0 +1,34 @@
+uuid: e7080aea-9e23-4c75-9148-fdcbe5e06c05
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.padmon_categorias.field_clave_padmon_categoria
+    - taxonomy.vocabulary.padmon_categorias
+  module:
+    - text
+id: taxonomy_term.padmon_categorias.default
+targetEntityType: taxonomy_term
+bundle: padmon_categorias
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_clave_padmon_categoria:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

@@ -1,0 +1,28 @@
+uuid: 6e79714e-e6c0-434e-92a3-401da1b34c8b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_galeria_asociada
+    - node.type.galeria_de_imagenes
+    - node.type.noticia
+id: node.noticia.field_galeria_asociada
+field_name: field_galeria_asociada
+entity_type: node
+bundle: noticia
+label: 'Galería asociada'
+description: 'Asocia galería de imágenes a esta noticia, solo si la galería ya ha sido creada.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      galeria_de_imagenes: galeria_de_imagenes
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

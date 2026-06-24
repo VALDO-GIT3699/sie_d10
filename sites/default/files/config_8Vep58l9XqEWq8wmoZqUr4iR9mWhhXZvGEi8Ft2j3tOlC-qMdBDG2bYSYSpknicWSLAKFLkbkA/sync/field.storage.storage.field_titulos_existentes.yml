@@ -1,0 +1,20 @@
+uuid: ef2a4284-2d60-4856-adb6-cb609201cb49
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_titulos_existentes
+field_name: field_titulos_existentes
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

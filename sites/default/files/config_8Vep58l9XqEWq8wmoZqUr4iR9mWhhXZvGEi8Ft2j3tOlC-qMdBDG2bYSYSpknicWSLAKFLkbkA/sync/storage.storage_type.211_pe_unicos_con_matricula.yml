@@ -1,0 +1,13 @@
+uuid: def203de-45a6-4e75-94f0-994cbc9b82a4
+langcode: es
+status: true
+dependencies: {  }
+id: 211_pe_unicos_con_matricula
+label: '211 PE únicos con matrícula'
+description: 'Programas educativos únicos con matrícula'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

@@ -1,0 +1,33 @@
+uuid: 816653e3-36fc-44ce-b77e-70b436657191
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - storage
+id: storage.field_categoria_academicos
+field_name: field_categoria_academicos
+entity_type: storage
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Docentes
+      label: Docentes
+    -
+      value: Investigadores
+      label: Investigadores
+    -
+      value: 'Técnicos académicos'
+      label: 'Técnicos académicos'
+    -
+      value: 'Profesores de asignatura'
+      label: 'Profesores de asignatura'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

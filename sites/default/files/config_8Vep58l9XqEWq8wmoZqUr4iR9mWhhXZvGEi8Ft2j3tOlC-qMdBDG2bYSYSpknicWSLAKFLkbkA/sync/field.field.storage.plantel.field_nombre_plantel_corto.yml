@@ -1,0 +1,19 @@
+uuid: fc6c3721-64ef-4791-8805-753480dc3f44
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_nombre_plantel_corto
+    - storage.storage_type.plantel
+id: storage.plantel.field_nombre_plantel_corto
+field_name: field_nombre_plantel_corto
+entity_type: storage
+bundle: plantel
+label: 'Nombre del plantel corto'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

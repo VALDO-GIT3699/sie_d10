@@ -1,0 +1,23 @@
+uuid: 03b624bc-60f8-4040-a1f4-837b58e94709
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.b14_ingresos_autogenerados_de_la
+id: storage.b14_ingresos_autogenerados_de_la.field_row
+field_name: field_row
+entity_type: storage
+bundle: b14_ingresos_autogenerados_de_la
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: 51e95b21-5a07-4951-9191-0e8503e3a3ba
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_docentes_mt_h
+field_name: field_docentes_mt_h
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

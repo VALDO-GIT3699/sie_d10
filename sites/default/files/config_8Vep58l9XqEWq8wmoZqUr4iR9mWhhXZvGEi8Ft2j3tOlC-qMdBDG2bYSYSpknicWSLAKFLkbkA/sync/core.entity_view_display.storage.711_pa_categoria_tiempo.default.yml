@@ -1,0 +1,365 @@
+uuid: 577a7f50-c704-4482-8049-4634d176d1e8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.711_pa_categoria_tiempo.feeds_item
+    - field.field.storage.711_pa_categoria_tiempo.field_academicos_h
+    - field.field.storage.711_pa_categoria_tiempo.field_academicos_m
+    - field.field.storage.711_pa_categoria_tiempo.field_academicos_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_anio
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_mt_h
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_mt_m
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_mt_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_mt_t
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_tc_h
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_tc_m
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_tc_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_tc_t
+    - field.field.storage.711_pa_categoria_tiempo.field_entidad_universitaria
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_mt_h
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_mt_m
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_mt_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_mt_t
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_tc_h
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_tc_m
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_tc_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_tc_t
+    - field.field.storage.711_pa_categoria_tiempo.field_prof_asig_h
+    - field.field.storage.711_pa_categoria_tiempo.field_prof_asig_m
+    - field.field.storage.711_pa_categoria_tiempo.field_prof_asig_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_prof_asig_t
+    - field.field.storage.711_pa_categoria_tiempo.field_row
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_mt_h
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_mt_m
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_mt_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_mt_t
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_tc_h
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_tc_m
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_tc_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_tc_t
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.default
+targetEntityType: storage
+bundle: 711_pa_categoria_tiempo
+mode: default
+content:
+  field_academicos_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  field_academicos_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_academicos_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_docentes_mt_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_docentes_mt_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_docentes_mt_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_docentes_mt_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_docentes_tc_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_docentes_tc_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_docentes_tc_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_docentes_tc_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_investigadores_mt_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_investigadores_mt_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_investigadores_mt_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_investigadores_mt_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_investigadores_tc_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_investigadores_tc_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_investigadores_tc_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_investigadores_tc_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_prof_asig_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_prof_asig_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_prof_asig_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_prof_asig_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  field_tecnicos_mt_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_tecnicos_mt_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_tecnicos_mt_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_tecnicos_mt_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_tecnicos_tc_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_tecnicos_tc_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_tecnicos_tc_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_tecnicos_tc_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

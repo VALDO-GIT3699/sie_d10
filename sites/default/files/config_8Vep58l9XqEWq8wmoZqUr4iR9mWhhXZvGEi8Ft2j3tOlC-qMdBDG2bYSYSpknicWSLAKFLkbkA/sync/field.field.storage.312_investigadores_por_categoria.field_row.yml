@@ -1,0 +1,23 @@
+uuid: 0bfe338c-44dc-4d95-a950-cefcd5581402
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.312_investigadores_por_categoria
+id: storage.312_investigadores_por_categoria.field_row
+field_name: field_row
+entity_type: storage
+bundle: 312_investigadores_por_categoria
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

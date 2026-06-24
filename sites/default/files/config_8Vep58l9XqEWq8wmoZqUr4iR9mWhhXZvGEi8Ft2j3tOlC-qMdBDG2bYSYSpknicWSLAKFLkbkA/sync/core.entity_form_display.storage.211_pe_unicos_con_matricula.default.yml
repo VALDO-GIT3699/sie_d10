@@ -1,0 +1,69 @@
+uuid: 6acf0f0d-3c7a-413e-a6df-eac691b05b18
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.211_pe_unicos_con_matricula.feeds_item
+    - field.field.storage.211_pe_unicos_con_matricula.field_ciclo
+    - field.field.storage.211_pe_unicos_con_matricula.field_cve_programa
+    - field.field.storage.211_pe_unicos_con_matricula.field_row
+    - field.field.storage.211_pe_unicos_con_matricula.field_total
+    - storage.storage_type.211_pe_unicos_con_matricula
+id: storage.211_pe_unicos_con_matricula.default
+targetEntityType: storage
+bundle: 211_pe_unicos_con_matricula
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_cve_programa:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total:
+    type: number
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

@@ -1,0 +1,23 @@
+uuid: ada2a483-8f8c-4a8d-841e-f4875d66e587
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_discapacidad_t
+    - storage.storage_type.matricula
+id: storage.matricula.field_discapacidad_t
+field_name: field_discapacidad_t
+entity_type: storage
+bundle: matricula
+label: 'Total discapacidad'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

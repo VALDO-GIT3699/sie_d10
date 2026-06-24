@@ -1,0 +1,19 @@
+uuid: 03bb9604-5580-41e5-98ce-4d2a7c1f7065
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sinopsis_
+    - node.type.noticia
+id: node.noticia.field_sinopsis_
+field_name: field_sinopsis_
+entity_type: node
+bundle: noticia
+label: "Sinopsis\t"
+description: "Sinopsis de la noticia\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

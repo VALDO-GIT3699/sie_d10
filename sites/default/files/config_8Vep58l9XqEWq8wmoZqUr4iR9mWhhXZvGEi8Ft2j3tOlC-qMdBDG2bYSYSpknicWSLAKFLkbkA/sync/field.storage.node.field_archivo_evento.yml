@@ -1,0 +1,23 @@
+uuid: 7b9b2366-274c-4e97-a7a9-75e4cd0f04ed
+langcode: es
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_archivo_evento
+field_name: field_archivo_evento
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

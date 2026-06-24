@@ -1,0 +1,21 @@
+uuid: f8491e27-8be1-4a0b-90ca-45f7deebbc87
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_municipio
+    - storage.storage_type.plantel
+id: storage.plantel.field_municipio
+field_name: field_municipio
+entity_type: storage
+bundle: plantel
+label: Municipio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

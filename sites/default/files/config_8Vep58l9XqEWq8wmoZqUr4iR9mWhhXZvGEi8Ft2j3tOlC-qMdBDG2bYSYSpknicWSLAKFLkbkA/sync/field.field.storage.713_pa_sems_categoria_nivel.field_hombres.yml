@@ -1,0 +1,23 @@
+uuid: 18ba2624-3e9b-4bbe-ad9d-7d9cd65a2bff
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_hombres
+    - storage.storage_type.713_pa_sems_categoria_nivel
+id: storage.713_pa_sems_categoria_nivel.field_hombres
+field_name: field_hombres
+entity_type: storage
+bundle: 713_pa_sems_categoria_nivel
+label: Hombres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

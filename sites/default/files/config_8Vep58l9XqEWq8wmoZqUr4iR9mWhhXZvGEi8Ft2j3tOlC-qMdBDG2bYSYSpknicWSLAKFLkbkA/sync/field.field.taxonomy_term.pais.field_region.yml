@@ -1,0 +1,29 @@
+uuid: cd2b1ccc-056e-45e7-8c0a-6d0f917e2402
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_region
+    - taxonomy.vocabulary.pais
+    - taxonomy.vocabulary.region
+id: taxonomy_term.pais.field_region
+field_name: field_region
+entity_type: taxonomy_term
+bundle: pais
+label: Región
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      region: region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

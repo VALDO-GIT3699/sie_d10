@@ -1,0 +1,23 @@
+uuid: 6377f625-dbae-4bcc-807d-767024a81ed9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_mujeres
+    - storage.storage_type.421_practicas_profesionales
+id: storage.421_practicas_profesionales.field_mujeres
+field_name: field_mujeres
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: Mujeres
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

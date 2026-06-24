@@ -1,0 +1,20 @@
+uuid: 04bf1c85-5809-4014-a984-cdc87ce81ffa
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_matricula_m
+field_name: field_matricula_m
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

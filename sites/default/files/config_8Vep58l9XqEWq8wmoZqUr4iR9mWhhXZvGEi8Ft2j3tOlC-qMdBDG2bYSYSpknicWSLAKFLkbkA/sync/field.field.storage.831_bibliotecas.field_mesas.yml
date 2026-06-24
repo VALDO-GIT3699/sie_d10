@@ -1,0 +1,23 @@
+uuid: edd39396-912c-478a-ae39-26d7c81399c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_mesas
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.field_mesas
+field_name: field_mesas
+entity_type: storage
+bundle: 831_bibliotecas
+label: Mesas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

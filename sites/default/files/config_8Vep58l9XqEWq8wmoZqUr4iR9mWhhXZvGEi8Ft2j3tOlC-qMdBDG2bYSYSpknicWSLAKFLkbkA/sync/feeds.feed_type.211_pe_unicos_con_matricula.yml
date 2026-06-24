@@ -1,0 +1,127 @@
+uuid: 2855d871-40e8-40d4-907f-806f3808e7c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.211_pe_unicos_con_matricula.field_ciclo
+    - field.field.storage.211_pe_unicos_con_matricula.field_cve_programa
+    - field.field.storage.211_pe_unicos_con_matricula.field_row
+    - field.field.storage.211_pe_unicos_con_matricula.field_total
+    - storage.storage_type.211_pe_unicos_con_matricula
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '211 PE únicos con matrícula'
+id: 211_pe_unicos_con_matricula
+description: 'Programas educativos únicos con matrícula'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 211_pe_unicos_con_matricula
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  ciclo:
+    value: ciclo
+    label: ciclo
+    machine_name: ciclo
+    type: csv
+  cve_programa:
+    value: cve_programa
+    label: cve_programa
+    machine_name: cve_programa
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ciclo
+    map:
+      target_id: ciclo
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ciclo
+      feeds_item: false
+  -
+    target: field_cve_programa
+    map:
+      target_id: cve_programa
+    settings:
+      language: ''
+      reference_by: field_clave_programa
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: programa_educativo
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }

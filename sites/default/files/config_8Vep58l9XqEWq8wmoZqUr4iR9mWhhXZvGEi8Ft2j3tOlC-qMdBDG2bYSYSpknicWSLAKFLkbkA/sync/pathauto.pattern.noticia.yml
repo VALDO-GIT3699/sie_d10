@@ -1,0 +1,23 @@
+uuid: 074231b4-2224-441c-8b01-8dc6043c27b4
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.noticia
+  module:
+    - node
+id: noticia
+label: Noticia
+type: 'canonical_entities:node'
+pattern: '/noticias/[node:title]'
+selection_criteria:
+  8d0c8b6f-5623-4f6c-9337-27fee4933249:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      noticia: noticia
+selection_logic: and
+weight: -5
+relationships: {  }

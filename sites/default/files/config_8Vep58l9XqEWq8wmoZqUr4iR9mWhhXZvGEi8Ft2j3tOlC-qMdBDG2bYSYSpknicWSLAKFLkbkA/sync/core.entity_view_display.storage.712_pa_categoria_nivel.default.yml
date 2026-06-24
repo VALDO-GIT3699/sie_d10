@@ -1,0 +1,153 @@
+uuid: 84136b24-8ca4-454a-84d2-4cfd56ac7b73
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.712_pa_categoria_nivel.feeds_item
+    - field.field.storage.712_pa_categoria_nivel.field_academicos_h
+    - field.field.storage.712_pa_categoria_nivel.field_academicos_m
+    - field.field.storage.712_pa_categoria_nivel.field_academicos_nb
+    - field.field.storage.712_pa_categoria_nivel.field_anio
+    - field.field.storage.712_pa_categoria_nivel.field_entidad_universitaria
+    - field.field.storage.712_pa_categoria_nivel.field_hombres
+    - field.field.storage.712_pa_categoria_nivel.field_mujeres
+    - field.field.storage.712_pa_categoria_nivel.field_pa_categoria
+    - field.field.storage.712_pa_categoria_nivel.field_pa_categoria_t
+    - field.field.storage.712_pa_categoria_nivel.field_pa_nivel
+    - field.field.storage.712_pa_categoria_nivel.field_personas_no_binarias
+    - field.field.storage.712_pa_categoria_nivel.field_row
+    - field.field.storage.712_pa_categoria_nivel.field_total
+    - storage.storage_type.712_pa_categoria_nivel
+  module:
+    - options
+id: storage.712_pa_categoria_nivel.default
+targetEntityType: storage
+bundle: 712_pa_categoria_nivel
+mode: default
+content:
+  field_academicos_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_academicos_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_academicos_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_hombres:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_mujeres:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_pa_categoria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_pa_categoria_t:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_pa_nivel:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_personas_no_binarias:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_total:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

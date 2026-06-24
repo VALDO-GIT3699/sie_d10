@@ -1,0 +1,23 @@
+uuid: 19576dc6-2d02-4788-a580-256ad3e15623
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_docentes_mt_m
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_docentes_mt_m
+field_name: field_docentes_mt_m
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Docentes de medio tiempo mujeres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

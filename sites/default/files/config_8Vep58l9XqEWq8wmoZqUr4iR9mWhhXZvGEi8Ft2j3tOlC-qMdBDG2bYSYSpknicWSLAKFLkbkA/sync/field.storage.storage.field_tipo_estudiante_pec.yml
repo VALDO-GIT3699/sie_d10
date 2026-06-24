@@ -1,0 +1,20 @@
+uuid: 7cff02fc-d1b5-4beb-bc73-e1b22952a094
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_tipo_estudiante_pec
+field_name: field_tipo_estudiante_pec
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

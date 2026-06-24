@@ -1,0 +1,9 @@
+uuid: f0383457-40be-4f9c-8657-aa90c6588f05
+langcode: es
+status: true
+dependencies: {  }
+name: Planteles
+vid: planteles
+description: 'Directorio de planteles'
+weight: 0
+new_revision: false

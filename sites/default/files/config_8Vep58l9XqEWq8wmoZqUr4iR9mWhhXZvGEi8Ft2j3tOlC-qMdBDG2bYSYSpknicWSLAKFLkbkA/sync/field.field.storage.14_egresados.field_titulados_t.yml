@@ -1,0 +1,23 @@
+uuid: 21322df1-d701-4474-b667-13e745bcb7c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_t
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_titulados_t
+field_name: field_titulados_t
+entity_type: storage
+bundle: 14_egresados
+label: 'Total de titulados'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

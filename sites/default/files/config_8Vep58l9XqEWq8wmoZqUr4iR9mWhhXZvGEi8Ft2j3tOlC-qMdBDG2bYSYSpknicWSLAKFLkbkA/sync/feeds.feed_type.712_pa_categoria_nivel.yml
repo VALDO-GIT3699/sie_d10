@@ -1,0 +1,233 @@
+uuid: 17213315-ddd0-4ded-bee4-360cb1be4fa6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.712_pa_categoria_nivel.field_academicos_h
+    - field.field.storage.712_pa_categoria_nivel.field_academicos_m
+    - field.field.storage.712_pa_categoria_nivel.field_academicos_nb
+    - field.field.storage.712_pa_categoria_nivel.field_anio
+    - field.field.storage.712_pa_categoria_nivel.field_entidad_universitaria
+    - field.field.storage.712_pa_categoria_nivel.field_hombres
+    - field.field.storage.712_pa_categoria_nivel.field_mujeres
+    - field.field.storage.712_pa_categoria_nivel.field_pa_categoria
+    - field.field.storage.712_pa_categoria_nivel.field_pa_categoria_t
+    - field.field.storage.712_pa_categoria_nivel.field_pa_nivel
+    - field.field.storage.712_pa_categoria_nivel.field_personas_no_binarias
+    - field.field.storage.712_pa_categoria_nivel.field_row
+    - storage.storage_type.712_pa_categoria_nivel
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '712 Personal académico por categoría/nivel'
+id: 712_pa_categoria_nivel
+description: 'Personal académico por categoría/tiempo'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 712_pa_categoria_nivel
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  pa_categoria_t:
+    value: pa_categoria_t
+    label: pa_categoria_t
+    machine_name: pa_categoria_t
+    type: csv
+  pa_categoria:
+    value: pa_categoria
+    label: pa_categoria
+    machine_name: pa_categoria
+    type: csv
+  pa_nivel:
+    value: pa_nivel
+    label: pa_nivel
+    machine_name: pa_nivel
+    type: csv
+  hombres:
+    value: hombres
+    label: hombres
+    machine_name: hombres
+    type: csv
+  mujeres:
+    value: mujeres
+    label: mujeres
+    machine_name: mujeres
+    type: csv
+  personas_nb:
+    value: personas_nb
+    label: personas_nb
+    machine_name: personas_nb
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_pa_categoria_t
+    map:
+      target_id: pa_categoria_t
+    settings:
+      language: ''
+      reference_by: field_clave_pa_categoria_t
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: pa_categoria_tiempo
+  -
+    target: field_pa_categoria
+    map:
+      target_id: pa_categoria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: pa_categoria
+      feeds_item: false
+  -
+    target: field_pa_nivel
+    map:
+      value: pa_nivel
+    settings:
+      language: null
+  -
+    target: field_academicos_h
+    map:
+      value: ''
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_academicos_m
+    map:
+      value: ''
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_academicos_nb
+    map:
+      value: ''
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_hombres
+    map:
+      value: hombres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_mujeres
+    map:
+      value: mujeres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_personas_no_binarias
+    map:
+      value: personas_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }

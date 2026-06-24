@@ -1,0 +1,20 @@
+uuid: a2920cfe-7795-4f5b-a3d9-7c42ea35303b
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_comp_usuarios
+field_name: field_comp_usuarios
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

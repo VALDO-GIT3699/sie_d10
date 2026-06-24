@@ -1,0 +1,19 @@
+uuid: e4c8e2a6-96a3-46c8-af92-86aa2eea852e
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - storage
+id: storage.field_enlace_ubicacion
+field_name: field_enlace_ubicacion
+entity_type: storage
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

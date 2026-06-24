@@ -1,0 +1,197 @@
+uuid: 7e00ac65-3001-4a35-906c-09ee98b28c36
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.511_convenios.field_anio
+    - field.field.storage.511_convenios.field_continente
+    - field.field.storage.511_convenios.field_convenio_especifico
+    - field.field.storage.511_convenios.field_convenio_estatus
+    - field.field.storage.511_convenios.field_convenio_general
+    - field.field.storage.511_convenios.field_pais
+    - field.field.storage.511_convenios.field_region
+    - field.field.storage.511_convenios.field_row
+    - field.field.storage.511_convenios.field_total
+    - storage.storage_type.511_convenios
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '511 Convenios'
+id: 511_convenios
+description: 'Convenios de la Universidad de Guadalajara con otros países'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 511_convenios
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  continente:
+    value: continente
+    label: continente
+    machine_name: continente
+    type: csv
+  region:
+    value: region
+    label: region
+    machine_name: region
+    type: csv
+  pais:
+    value: pais
+    label: pais
+    machine_name: pais
+    type: csv
+  convenio_estatus:
+    value: convenio_estatus
+    label: convenio_estatus
+    machine_name: convenio_estatus
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+  convenio_general:
+    value: convenio_general
+    label: convenio_general
+    machine_name: convenio_general
+    type: csv
+  convenio_especifico:
+    value: convenio_especifico
+    label: convenio_especifico
+    machine_name: convenio_especifico
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_continente
+    map:
+      target_id: continente
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: contine
+      feeds_item: false
+  -
+    target: field_region
+    map:
+      target_id: region
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: region
+      feeds_item: false
+  -
+    target: field_pais
+    map:
+      target_id: pais
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: pais
+      feeds_item: false
+  -
+    target: field_convenio_estatus
+    map:
+      value: convenio_estatus
+    settings:
+      language: null
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_convenio_general
+    map:
+      value: convenio_general
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_convenio_especifico
+    map:
+      value: convenio_especifico
+    settings:
+      language: null
+    unique: {  }

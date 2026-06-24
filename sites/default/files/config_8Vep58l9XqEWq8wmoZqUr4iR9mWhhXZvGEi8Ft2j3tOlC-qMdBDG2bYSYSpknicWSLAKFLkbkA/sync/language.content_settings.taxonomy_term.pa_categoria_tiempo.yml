@@ -1,0 +1,11 @@
+uuid: c09e8367-cfa5-438f-9d8d-a3e3c89a6475
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pa_categoria_tiempo
+id: taxonomy_term.pa_categoria_tiempo
+target_entity_type_id: taxonomy_term
+target_bundle: pa_categoria_tiempo
+default_langcode: site_default
+language_alterable: false

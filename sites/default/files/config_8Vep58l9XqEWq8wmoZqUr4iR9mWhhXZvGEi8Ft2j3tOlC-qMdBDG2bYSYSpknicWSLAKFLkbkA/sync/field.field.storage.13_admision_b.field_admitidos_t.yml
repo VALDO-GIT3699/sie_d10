@@ -1,0 +1,23 @@
+uuid: f617eed2-9688-45be-b4c9-70889e38bf41
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_admitidos_t
+    - storage.storage_type.13_admision_b
+id: storage.13_admision_b.field_admitidos_t
+field_name: field_admitidos_t
+entity_type: storage
+bundle: 13_admision_b
+label: 'Admitidos totales'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: accf9a1d-22d5-4b7b-a650-7f7f9a0f4b98
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_hipoacusia_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_aud_hipoacusia_t
+field_name: field_disc_aud_hipoacusia_t
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Total de personas con discapacidad auditiva hipoacusia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

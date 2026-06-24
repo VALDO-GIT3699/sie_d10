@@ -1,0 +1,23 @@
+uuid: 2fde57ee-a268-4f2a-b1e2-373bba0baae1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_bibliotecas
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.field_bibliotecas
+field_name: field_bibliotecas
+entity_type: storage
+bundle: 831_bibliotecas
+label: Bibliotecas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

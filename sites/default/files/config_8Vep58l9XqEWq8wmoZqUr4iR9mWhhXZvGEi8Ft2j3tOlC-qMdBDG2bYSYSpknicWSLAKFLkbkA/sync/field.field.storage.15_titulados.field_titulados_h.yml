@@ -1,0 +1,23 @@
+uuid: 2293539b-b210-4d04-bda8-ab08055c16bb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_h
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_titulados_h
+field_name: field_titulados_h
+entity_type: storage
+bundle: 15_titulados
+label: 'Hombres titulados'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

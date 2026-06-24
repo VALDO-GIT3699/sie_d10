@@ -1,0 +1,23 @@
+uuid: c9df144a-248c-46af-a15d-4dc945e07b6b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_dif_mujeres
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.field_por_dif_mujeres
+field_name: field_por_dif_mujeres
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Porcentaje diferencia de mujeres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

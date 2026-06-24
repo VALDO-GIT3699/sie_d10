@@ -1,0 +1,23 @@
+uuid: c52389b4-e422-472c-a03b-cc9019b465b1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_orden_taxonomia
+    - taxonomy.vocabulary.entidad_universitaria
+id: taxonomy_term.entidad_universitaria.field_orden_taxonomia
+field_name: field_orden_taxonomia
+entity_type: taxonomy_term
+bundle: entidad_universitaria
+label: Orden
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

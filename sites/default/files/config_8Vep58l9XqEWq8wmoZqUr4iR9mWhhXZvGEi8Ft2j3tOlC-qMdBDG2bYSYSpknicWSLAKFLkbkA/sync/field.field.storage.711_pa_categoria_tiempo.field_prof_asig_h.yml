@@ -1,0 +1,23 @@
+uuid: fd69bfe1-04d9-48e9-970d-387df6620cf1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_prof_asig_h
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_prof_asig_h
+field_name: field_prof_asig_h
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Profesores de asignatura hombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

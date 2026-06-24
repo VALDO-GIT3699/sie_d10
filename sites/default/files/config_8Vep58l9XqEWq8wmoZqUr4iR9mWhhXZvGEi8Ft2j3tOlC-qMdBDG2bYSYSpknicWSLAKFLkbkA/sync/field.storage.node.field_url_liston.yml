@@ -1,0 +1,19 @@
+uuid: c87ce267-acbf-42f5-85e5-e12a7a5a2e32
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_url_liston
+field_name: field_url_liston
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

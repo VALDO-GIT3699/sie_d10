@@ -1,0 +1,23 @@
+uuid: e925ef03-d963-4d83-be3d-f37c8d23ba39
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_mujeres
+    - storage.storage_type.311_historico_de_investigadores
+id: storage.311_historico_de_investigadores.field_mujeres
+field_name: field_mujeres
+entity_type: storage
+bundle: 311_historico_de_investigadores
+label: Mujeres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

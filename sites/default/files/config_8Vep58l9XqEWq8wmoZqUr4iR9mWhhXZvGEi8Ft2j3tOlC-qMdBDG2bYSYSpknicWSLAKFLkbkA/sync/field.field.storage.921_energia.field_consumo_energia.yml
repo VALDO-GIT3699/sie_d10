@@ -1,0 +1,23 @@
+uuid: 436d1e98-e186-4073-b9fb-1b05cada7179
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_consumo_energia
+    - storage.storage_type.921_energia
+id: storage.921_energia.field_consumo_energia
+field_name: field_consumo_energia
+entity_type: storage
+bundle: 921_energia
+label: 'Consumo de energía total proveniente de fuentes conveniconales (KWh)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

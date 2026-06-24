@@ -1,0 +1,21 @@
+uuid: ec92b1c8-25a4-450c-abab-0f5664b81bca
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_categoria
+    - taxonomy.vocabulary.entidad_universitaria
+  module:
+    - options
+id: taxonomy_term.entidad_universitaria.field_categoria
+field_name: field_categoria
+entity_type: taxonomy_term
+bundle: entidad_universitaria
+label: Categoría
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

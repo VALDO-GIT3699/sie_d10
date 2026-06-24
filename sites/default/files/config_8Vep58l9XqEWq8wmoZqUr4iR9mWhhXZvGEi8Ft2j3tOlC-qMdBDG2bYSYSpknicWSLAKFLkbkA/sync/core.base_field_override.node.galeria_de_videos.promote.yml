@@ -1,0 +1,22 @@
+uuid: 3c9a0c77-2e6c-4880-ae9d-96c7084ffce4
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.galeria_de_videos
+id: node.galeria_de_videos.promote
+field_name: promote
+entity_type: node
+bundle: galeria_de_videos
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

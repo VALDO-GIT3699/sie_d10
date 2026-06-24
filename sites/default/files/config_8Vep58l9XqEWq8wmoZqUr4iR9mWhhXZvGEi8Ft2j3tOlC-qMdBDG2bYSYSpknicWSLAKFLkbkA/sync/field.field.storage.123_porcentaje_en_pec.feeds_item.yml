@@ -1,0 +1,23 @@
+uuid: a36ce24b-1819-480c-87b8-349e61de3c2b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.123_porcentaje_en_pec
+  module:
+    - feeds
+id: storage.123_porcentaje_en_pec.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

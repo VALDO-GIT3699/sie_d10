@@ -1,0 +1,234 @@
+uuid: ce1b602d-ba2d-4370-a9b4-df5615e8beb1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.123_porcentaje_en_pec.field_ciclo
+    - field.field.storage.123_porcentaje_en_pec.field_entidad_universitaria
+    - field.field.storage.123_porcentaje_en_pec.field_nivel_estudiante
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_hombres
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_mujeres
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_personas_nb
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_total
+    - field.field.storage.123_porcentaje_en_pec.field_por_hombres
+    - field.field.storage.123_porcentaje_en_pec.field_por_mujeres
+    - field.field.storage.123_porcentaje_en_pec.field_por_personas_nb
+    - field.field.storage.123_porcentaje_en_pec.field_por_total
+    - field.field.storage.123_porcentaje_en_pec.field_row
+    - storage.storage_type.123_porcentaje_en_pec
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '123 Porcentaje en PEC'
+id: 123_porcentaje_en_pec
+description: 'Porcentajes de la matrícula en programas educativos de calidad'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 123_porcentaje_en_pec
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  ciclo:
+    value: ciclo
+    label: ciclo
+    machine_name: ciclo
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  nivel_estudiante:
+    value: nivel_estudiante
+    label: nivel_estudiante
+    machine_name: nivel_estudiante
+    type: csv
+  por_total:
+    value: por_total
+    label: por_total
+    machine_name: por_total
+    type: csv
+  por_hombres:
+    value: por_hombres
+    label: por_hombres
+    machine_name: por_hombres
+    type: csv
+  por_mujeres:
+    value: por_mujeres
+    label: por_mujeres
+    machine_name: por_mujeres
+    type: csv
+  por_personas_nb:
+    value: por_personas_nb
+    label: por_personas_nb
+    machine_name: por_personas_nb
+    type: csv
+  por_dif_total:
+    value: por_dif_total
+    label: por_dif_total
+    machine_name: por_dif_total
+    type: csv
+  por_dif_hombres:
+    value: por_dif_hombres
+    label: por_dif_hombres
+    machine_name: por_dif_hombres
+    type: csv
+  por_dif_mujeres:
+    value: por_dif_mujeres
+    label: por_dif_mujeres
+    machine_name: por_dif_mujeres
+    type: csv
+  por_dif_personas_nb:
+    value: por_dif_personas_nb
+    label: por_dif_personas_nb
+    machine_name: por_dif_personas_nb
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ciclo
+    map:
+      target_id: ciclo
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ciclo
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_nivel_estudiante
+    map:
+      target_id: nivel_estudiante
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: nivel_estudiante
+      feeds_item: false
+  -
+    target: field_por_total
+    map:
+      value: por_total
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_hombres
+    map:
+      value: por_hombres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_mujeres
+    map:
+      value: por_mujeres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_personas_nb
+    map:
+      value: por_personas_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_dif_total
+    map:
+      value: por_dif_total
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_dif_hombres
+    map:
+      value: por_dif_hombres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_dif_mujeres
+    map:
+      value: por_dif_mujeres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_dif_personas_nb
+    map:
+      value: por_dif_personas_nb
+    settings:
+      language: null
+    unique: {  }

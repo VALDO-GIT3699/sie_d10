@@ -1,0 +1,75 @@
+uuid: 3261282c-394c-44fa-8078-3c763c078526
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.b12_ingresos_de_la_udeg.feeds_item
+    - field.field.storage.b12_ingresos_de_la_udeg.field_anio
+    - field.field.storage.b12_ingresos_de_la_udeg.field_fuente_financiamiento
+    - field.field.storage.b12_ingresos_de_la_udeg.field_pesos_corrientes
+    - field.field.storage.b12_ingresos_de_la_udeg.field_por_total
+    - field.field.storage.b12_ingresos_de_la_udeg.field_row
+    - storage.storage_type.b12_ingresos_de_la_udeg
+  module:
+    - bigint
+id: storage.b12_ingresos_de_la_udeg.default
+targetEntityType: storage
+bundle: b12_ingresos_de_la_udeg
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_fuente_financiamiento:
+    type: options_select
+    weight: 28
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_pesos_corrientes:
+    type: bigint
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_total:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

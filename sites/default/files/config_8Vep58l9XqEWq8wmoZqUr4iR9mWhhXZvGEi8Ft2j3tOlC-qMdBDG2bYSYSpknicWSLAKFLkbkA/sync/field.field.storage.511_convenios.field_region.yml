@@ -1,0 +1,29 @@
+uuid: 23857db6-108d-4405-ab03-28e44b4ba342
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_region
+    - storage.storage_type.511_convenios
+    - taxonomy.vocabulary.region
+id: storage.511_convenios.field_region
+field_name: field_region
+entity_type: storage
+bundle: 511_convenios
+label: Región
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      region: region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

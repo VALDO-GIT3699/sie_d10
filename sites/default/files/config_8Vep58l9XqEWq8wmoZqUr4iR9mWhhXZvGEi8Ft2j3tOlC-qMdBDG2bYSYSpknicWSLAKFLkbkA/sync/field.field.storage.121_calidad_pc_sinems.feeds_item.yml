@@ -1,0 +1,23 @@
+uuid: fe1a44e1-6e32-44d2-b0f3-bbf4cf19006d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.121_calidad_pc_sinems
+  module:
+    - feeds
+id: storage.121_calidad_pc_sinems.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 121_calidad_pc_sinems
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

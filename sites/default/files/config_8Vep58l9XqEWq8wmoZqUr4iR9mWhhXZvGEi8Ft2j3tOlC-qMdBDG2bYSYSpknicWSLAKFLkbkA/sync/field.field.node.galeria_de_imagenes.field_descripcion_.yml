@@ -1,0 +1,23 @@
+uuid: db652f61-d784-4a12-8fc5-9c2ca4a01b47
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_
+    - node.type.galeria_de_imagenes
+  module:
+    - text
+id: node.galeria_de_imagenes.field_descripcion_
+field_name: field_descripcion_
+entity_type: node
+bundle: galeria_de_imagenes
+label: Descripción
+description: 'Referente a las imagenes subidas'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

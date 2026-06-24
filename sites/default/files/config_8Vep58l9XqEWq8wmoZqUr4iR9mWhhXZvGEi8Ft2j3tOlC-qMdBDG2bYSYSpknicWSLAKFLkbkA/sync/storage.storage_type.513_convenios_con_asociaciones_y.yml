@@ -1,0 +1,13 @@
+uuid: dc73e3d1-e5b2-4138-85d3-a858480ed0bb
+langcode: es
+status: true
+dependencies: {  }
+id: 513_convenios_con_asociaciones_y
+label: '513 Convenios con asociaciones y redes'
+description: 'Convenios de colaboración de la Universidad de Guadalajara con asociaciones y redes'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

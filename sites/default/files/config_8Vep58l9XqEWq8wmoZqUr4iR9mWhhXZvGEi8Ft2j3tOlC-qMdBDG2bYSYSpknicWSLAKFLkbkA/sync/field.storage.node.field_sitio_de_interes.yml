@@ -1,0 +1,19 @@
+uuid: 1f39183b-ef35-44f3-98b1-01a409b7d005
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_sitio_de_interes
+field_name: field_sitio_de_interes
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

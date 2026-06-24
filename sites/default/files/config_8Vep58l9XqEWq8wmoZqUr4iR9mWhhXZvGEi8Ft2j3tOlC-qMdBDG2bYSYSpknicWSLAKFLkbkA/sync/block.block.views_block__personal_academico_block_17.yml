@@ -1,0 +1,29 @@
+uuid: ffd1ed6a-223c-42ba-9ef4-efa76e98e0c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.personal_academico
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__personal_academico_block_17
+theme: b4seutheme
+region: content
+weight: -48
+provider: null
+plugin: 'views_block:personal_academico-block_17'
+settings:
+  id: 'views_block:personal_academico-block_17'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /recursos-humanos/personal-academico/personal-academico-por-categoria-y-nivel

@@ -1,0 +1,23 @@
+uuid: 17094ab5-9fd3-4611-ab58-4d77a75d1449
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_a_5_a_9_anios
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_a_5_a_9_anios
+field_name: field_a_5_a_9_anios
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Antigüedad de 5 a 9 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

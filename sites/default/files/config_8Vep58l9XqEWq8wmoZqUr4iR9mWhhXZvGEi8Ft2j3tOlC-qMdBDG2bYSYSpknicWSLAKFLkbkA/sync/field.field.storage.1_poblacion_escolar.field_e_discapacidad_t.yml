@@ -1,0 +1,23 @@
+uuid: f579b35e-2933-4f94-9ed0-bd69a22edcf8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_e_discapacidad_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_e_discapacidad_t
+field_name: field_e_discapacidad_t
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Total de egresados con discapacidad'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

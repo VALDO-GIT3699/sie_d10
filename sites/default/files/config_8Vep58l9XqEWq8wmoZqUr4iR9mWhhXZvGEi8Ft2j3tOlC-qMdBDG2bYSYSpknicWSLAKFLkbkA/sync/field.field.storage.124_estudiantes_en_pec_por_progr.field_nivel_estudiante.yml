@@ -1,0 +1,29 @@
+uuid: 98333efb-cb30-4e5a-8a97-818d81bd8352
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_nivel_estudiante
+    - storage.storage_type.124_estudiantes_en_pec_por_progr
+    - taxonomy.vocabulary.nivel_estudiante
+id: storage.124_estudiantes_en_pec_por_progr.field_nivel_estudiante
+field_name: field_nivel_estudiante
+entity_type: storage
+bundle: 124_estudiantes_en_pec_por_progr
+label: 'Nivel del estudiante'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nivel_estudiante: nivel_estudiante
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

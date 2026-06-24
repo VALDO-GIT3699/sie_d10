@@ -1,0 +1,19 @@
+uuid: 7ffcdef5-ffc4-46ac-8534-31f96624fe9c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_clave_pa_categoria_t
+    - taxonomy.vocabulary.pa_categoria_tiempo
+id: taxonomy_term.pa_categoria_tiempo.field_clave_pa_categoria_t
+field_name: field_clave_pa_categoria_t
+entity_type: taxonomy_term
+bundle: pa_categoria_tiempo
+label: Clave
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

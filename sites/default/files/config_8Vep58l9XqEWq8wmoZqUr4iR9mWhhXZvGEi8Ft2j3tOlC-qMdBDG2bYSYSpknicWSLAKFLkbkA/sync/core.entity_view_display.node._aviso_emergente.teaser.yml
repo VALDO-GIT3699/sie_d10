@@ -1,0 +1,40 @@
+uuid: 97d2c378-0dfe-45ad-bae9-db5a0eed2805
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node._aviso_emergente.body
+    - field.field.node._aviso_emergente.feeds_item
+    - field.field.node._aviso_emergente.field_fecha
+    - field.field.node._aviso_emergente.field_tipo_de_mensaje
+    - node.type._aviso_emergente
+  module:
+    - text
+    - user
+id: node._aviso_emergente.teaser
+targetEntityType: node
+bundle: _aviso_emergente
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  field_fecha: true
+  field_tipo_de_mensaje: true
+  langcode: true

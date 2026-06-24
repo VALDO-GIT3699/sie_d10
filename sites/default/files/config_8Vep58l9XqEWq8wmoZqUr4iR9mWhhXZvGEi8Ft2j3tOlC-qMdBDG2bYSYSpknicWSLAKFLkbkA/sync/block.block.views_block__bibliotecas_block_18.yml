@@ -1,0 +1,29 @@
+uuid: 1c8e022a-ac86-4570-805e-30fcb43c898d
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.bibliotecas
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__bibliotecas_block_18
+theme: b4seutheme
+region: content
+weight: 53
+provider: null
+plugin: 'views_block:bibliotecas-block_18'
+settings:
+  id: 'views_block:bibliotecas-block_18'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/84

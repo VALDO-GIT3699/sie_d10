@@ -1,0 +1,29 @@
+uuid: c11a9dfa-690d-4704-9ad0-91127af34827
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_entidad_universitaria
+    - storage.storage_type.13_admision_b
+    - taxonomy.vocabulary.entidad_universitaria
+id: storage.13_admision_b.field_entidad_universitaria
+field_name: field_entidad_universitaria
+entity_type: storage
+bundle: 13_admision_b
+label: 'Entidad universitaria'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      entidad_universitaria: entidad_universitaria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

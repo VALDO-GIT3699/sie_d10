@@ -1,0 +1,20 @@
+uuid: 0c78701e-d903-49cf-b618-68adc25bb534
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_anexo_15
+field_name: field_anexo_15
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

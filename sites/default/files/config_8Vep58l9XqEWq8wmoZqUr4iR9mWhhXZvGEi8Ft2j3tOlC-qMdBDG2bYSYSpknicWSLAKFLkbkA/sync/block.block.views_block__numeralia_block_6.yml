@@ -1,0 +1,29 @@
+uuid: a76e3ec8-50ff-41a9-910a-b3a9301c4d69
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.numeralia
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__numeralia_block_6
+theme: b4seutheme
+region: content
+weight: -85
+provider: null
+plugin: 'views_block:numeralia-block_6'
+settings:
+  id: 'views_block:numeralia-block_6'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/numeralia\r\n/prueba"

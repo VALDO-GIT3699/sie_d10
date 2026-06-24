@@ -1,0 +1,23 @@
+uuid: 3ac98499-a0ff-4380-8d30-0a43ded65e07
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_hombres
+    - storage.storage_type.121_calidad_pc_sinems
+id: storage.121_calidad_pc_sinems.field_hombres
+field_name: field_hombres
+entity_type: storage
+bundle: 121_calidad_pc_sinems
+label: Hombres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

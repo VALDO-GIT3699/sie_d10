@@ -1,0 +1,23 @@
+uuid: e52cd288-a9ae-4a5c-84e4-88e460360a5d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_hipoacusia_m
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_aud_hipoacusia_m
+field_name: field_disc_aud_hipoacusia_m
+entity_type: storage
+bundle: matricula
+label: 'Mujeres con discapacidad auditiva hipoacusia'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

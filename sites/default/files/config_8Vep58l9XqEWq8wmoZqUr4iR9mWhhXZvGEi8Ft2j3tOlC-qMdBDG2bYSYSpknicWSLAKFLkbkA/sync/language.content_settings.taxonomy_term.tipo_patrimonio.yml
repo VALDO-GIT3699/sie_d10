@@ -1,0 +1,11 @@
+uuid: 8cf9ca7c-d6b9-4faa-8ebc-a3ef8390de8e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_patrimonio
+id: taxonomy_term.tipo_patrimonio
+target_entity_type_id: taxonomy_term
+target_bundle: tipo_patrimonio
+default_langcode: site_default
+language_alterable: false

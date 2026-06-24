@@ -1,0 +1,23 @@
+uuid: 7b92dfca-8605-42fb-bd37-0b6a1461e21a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_potencia_kwh
+    - storage.storage_type.921_energia
+id: storage.921_energia.field_potencia_kwh
+field_name: field_potencia_kwh
+entity_type: storage
+bundle: 921_energia
+label: 'Potencia (KWh)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

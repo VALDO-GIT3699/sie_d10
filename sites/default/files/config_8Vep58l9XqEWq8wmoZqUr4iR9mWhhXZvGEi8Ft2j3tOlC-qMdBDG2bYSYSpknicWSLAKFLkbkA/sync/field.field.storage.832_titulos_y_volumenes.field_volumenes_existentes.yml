@@ -1,0 +1,23 @@
+uuid: 2798704b-ad53-4edc-b9f5-2b57f8f57b47
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_volumenes_existentes
+    - storage.storage_type.832_titulos_y_volumenes
+id: storage.832_titulos_y_volumenes.field_volumenes_existentes
+field_name: field_volumenes_existentes
+entity_type: storage
+bundle: 832_titulos_y_volumenes
+label: 'Volúmenes existentes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

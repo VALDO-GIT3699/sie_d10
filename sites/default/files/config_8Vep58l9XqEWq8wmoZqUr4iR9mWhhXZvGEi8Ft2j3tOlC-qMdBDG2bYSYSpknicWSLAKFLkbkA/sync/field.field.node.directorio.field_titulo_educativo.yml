@@ -1,0 +1,21 @@
+uuid: ec58c0dd-2e94-436d-8f4c-c2824393fd0f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_educativo
+    - node.type.directorio
+  module:
+    - options
+id: node.directorio.field_titulo_educativo
+field_name: field_titulo_educativo
+entity_type: node
+bundle: directorio
+label: 'Titulo Educativo'
+description: 'Titulo Educativo'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

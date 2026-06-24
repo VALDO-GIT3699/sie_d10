@@ -1,0 +1,29 @@
+uuid: 88c2fefb-be0d-43ac-a03f-3c9505debf33
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_plantel
+    - storage.storage_type.13_admision
+    - taxonomy.vocabulary.planteles
+id: storage.13_admision.field_cve_plantel
+field_name: field_cve_plantel
+entity_type: storage
+bundle: 13_admision
+label: Plantel
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      planteles: planteles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

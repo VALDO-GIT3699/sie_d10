@@ -1,0 +1,101 @@
+uuid: 784b530f-02b2-45d6-8271-c1724f4503c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.921_energia.feeds_item
+    - field.field.storage.921_energia.field_anio
+    - field.field.storage.921_energia.field_consumo_energia
+    - field.field.storage.921_energia.field_emisiones_gei
+    - field.field.storage.921_energia.field_energia
+    - field.field.storage.921_energia.field_entidad_universitaria
+    - field.field.storage.921_energia.field_paneles_solares
+    - field.field.storage.921_energia.field_potencia_kwh
+    - field.field.storage.921_energia.field_row
+    - storage.storage_type.921_energia
+id: storage.921_energia.default
+targetEntityType: storage
+bundle: 921_energia
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_consumo_energia:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_emisiones_gei:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_energia:
+    type: number
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_paneles_solares:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_potencia_kwh:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

@@ -1,0 +1,23 @@
+uuid: cf6a1d3b-e0f8-4db8-b8bf-4bdea322efc8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anexo_15
+    - storage.storage_type.anexo
+id: storage.anexo.field_anexo_15
+field_name: field_anexo_15
+entity_type: storage
+bundle: anexo
+label: 'Anexo 15'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

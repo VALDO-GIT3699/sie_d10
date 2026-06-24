@@ -1,0 +1,23 @@
+uuid: 6303344c-ee2b-4d87-bb2f-1065c77c9d1c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_docentes_mt_t
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_docentes_mt_t
+field_name: field_docentes_mt_t
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Docentes de medio tiempo total'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

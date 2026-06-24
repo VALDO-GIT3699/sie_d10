@@ -1,0 +1,160 @@
+uuid: ad5448eb-15f4-4d38-9542-f939b5356650
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.123_porcentaje_en_pec.feeds_item
+    - field.field.storage.123_porcentaje_en_pec.field_ciclo
+    - field.field.storage.123_porcentaje_en_pec.field_entidad_universitaria
+    - field.field.storage.123_porcentaje_en_pec.field_nivel_estudiante
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_hombres
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_mujeres
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_personas_nb
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_total
+    - field.field.storage.123_porcentaje_en_pec.field_por_hombres
+    - field.field.storage.123_porcentaje_en_pec.field_por_mujeres
+    - field.field.storage.123_porcentaje_en_pec.field_por_personas_nb
+    - field.field.storage.123_porcentaje_en_pec.field_por_total
+    - field.field.storage.123_porcentaje_en_pec.field_row
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.default
+targetEntityType: storage
+bundle: 123_porcentaje_en_pec
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_nivel_estudiante:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_por_dif_hombres:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_por_dif_mujeres:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_por_dif_personas_nb:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_por_dif_total:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_por_hombres:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_por_mujeres:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_por_personas_nb:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_por_total:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

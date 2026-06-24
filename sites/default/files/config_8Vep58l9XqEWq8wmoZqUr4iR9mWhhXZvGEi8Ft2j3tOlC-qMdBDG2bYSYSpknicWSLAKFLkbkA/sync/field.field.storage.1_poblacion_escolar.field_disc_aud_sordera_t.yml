@@ -1,0 +1,23 @@
+uuid: 720f612b-59d2-49d0-81a3-62477f9de763
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_sordera_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_aud_sordera_t
+field_name: field_disc_aud_sordera_t
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Total de personas con discapacidad auditiva sordera'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

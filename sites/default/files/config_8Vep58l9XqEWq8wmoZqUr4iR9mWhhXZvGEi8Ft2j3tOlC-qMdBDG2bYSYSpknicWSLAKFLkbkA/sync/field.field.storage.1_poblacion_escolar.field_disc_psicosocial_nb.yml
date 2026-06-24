@@ -1,0 +1,23 @@
+uuid: 5601f392-9349-49b4-ba76-ed3fb1f7d007
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_psicosocial_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_psicosocial_nb
+field_name: field_disc_psicosocial_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Personas no binarias con discapacidad psicosocial'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

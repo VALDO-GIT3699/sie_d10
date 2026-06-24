@@ -1,0 +1,13 @@
+uuid: 94bd05ff-1e08-4063-be57-f85b5023afc4
+langcode: es
+status: true
+dependencies: {  }
+id: b14_ingresos_autogenerados_de_la
+label: 'b14 Ingresos autogenerados de la UdeG'
+description: 'Ingresos autogenerados de la Universidad de Guadalajara'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

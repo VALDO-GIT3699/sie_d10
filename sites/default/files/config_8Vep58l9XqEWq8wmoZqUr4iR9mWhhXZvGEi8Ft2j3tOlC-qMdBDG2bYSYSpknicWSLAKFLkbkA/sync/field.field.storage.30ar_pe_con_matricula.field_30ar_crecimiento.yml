@@ -1,0 +1,23 @@
+uuid: 5fe8b267-4867-46b2-8d97-179f55000f33
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_crecimiento
+    - storage.storage_type.30ar_pe_con_matricula
+id: storage.30ar_pe_con_matricula.field_30ar_crecimiento
+field_name: field_30ar_crecimiento
+entity_type: storage
+bundle: 30ar_pe_con_matricula
+label: 'Porcentaje de crecimiento'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: '%'
+field_type: integer

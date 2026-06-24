@@ -1,0 +1,23 @@
+uuid: 517f325d-555d-49a1-95e5-b1c87d1f8053
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.anexo
+  module:
+    - feeds
+id: storage.anexo.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: anexo
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

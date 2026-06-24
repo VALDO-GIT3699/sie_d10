@@ -1,0 +1,20 @@
+uuid: d05d5172-51e9-475d-9a87-b8bc9e190df9
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_no_admitidos_m
+field_name: field_no_admitidos_m
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

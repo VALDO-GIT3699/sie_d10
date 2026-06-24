@@ -1,0 +1,23 @@
+uuid: 91d14f54-f842-4186-ac4c-5457979da358
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.124_estudiantes_en_pec_por_progr
+id: storage.124_estudiantes_en_pec_por_progr.field_row
+field_name: field_row
+entity_type: storage
+bundle: 124_estudiantes_en_pec_por_progr
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,25 @@
+uuid: a7dad9ae-f741-47e5-b353-3e3cc3d88a02
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_pesos_corrientes
+    - storage.storage_type.b13_subsidio_publico_ordinario_d
+  module:
+    - bigint
+id: storage.b13_subsidio_publico_ordinario_d.field_pesos_corrientes
+field_name: field_pesos_corrientes
+entity_type: storage
+bundle: b13_subsidio_publico_ordinario_d
+label: 'Pesos corrientes'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: bigint

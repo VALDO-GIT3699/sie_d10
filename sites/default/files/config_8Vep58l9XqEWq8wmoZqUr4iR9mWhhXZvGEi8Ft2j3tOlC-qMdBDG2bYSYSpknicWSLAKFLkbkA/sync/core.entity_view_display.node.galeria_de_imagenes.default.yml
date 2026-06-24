@@ -1,0 +1,45 @@
+uuid: 327ec433-a6da-4dff-8720-fa36f29fc410
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.galeria_de_imagenes.field_descripcion_
+    - field.field.node.galeria_de_imagenes.field_fecha_
+    - field.field.node.galeria_de_imagenes.field_imagenes
+    - node.type.galeria_de_imagenes
+  module:
+    - datetime
+    - text
+    - user
+id: node.galeria_de_imagenes.default
+targetEntityType: node
+bundle: galeria_de_imagenes
+mode: default
+content:
+  field_descripcion_:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_fecha_:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: fecha_noticia
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_imagenes: true
+  langcode: true

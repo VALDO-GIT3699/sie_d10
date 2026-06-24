@@ -1,0 +1,11 @@
+uuid: ba5c7ce5-61c4-4b80-9d48-ac4d553abcbd
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fuentes
+id: taxonomy_term.fuentes
+target_entity_type_id: taxonomy_term
+target_bundle: fuentes
+default_langcode: site_default
+language_alterable: false

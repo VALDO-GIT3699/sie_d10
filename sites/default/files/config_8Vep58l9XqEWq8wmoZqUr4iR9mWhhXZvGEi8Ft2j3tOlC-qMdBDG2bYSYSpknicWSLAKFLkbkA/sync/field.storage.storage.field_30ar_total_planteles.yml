@@ -1,0 +1,20 @@
+uuid: f69ae127-c104-457b-b2c9-a44f170b8e6b
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_30ar_total_planteles
+field_name: field_30ar_total_planteles
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

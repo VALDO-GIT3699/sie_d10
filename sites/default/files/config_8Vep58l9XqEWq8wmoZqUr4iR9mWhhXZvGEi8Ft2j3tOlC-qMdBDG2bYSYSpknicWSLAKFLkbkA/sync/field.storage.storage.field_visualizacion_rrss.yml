@@ -1,0 +1,20 @@
+uuid: dc824575-29ec-4a60-be96-02e60f402519
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_visualizacion_rrss
+field_name: field_visualizacion_rrss
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

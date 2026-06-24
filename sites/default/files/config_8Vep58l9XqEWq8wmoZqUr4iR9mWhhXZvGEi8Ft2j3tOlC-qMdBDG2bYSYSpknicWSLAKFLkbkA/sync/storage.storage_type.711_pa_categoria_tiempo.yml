@@ -1,0 +1,13 @@
+uuid: a9c67639-67ee-406d-be1a-69c23bd4b4ed
+langcode: es
+status: true
+dependencies: {  }
+id: 711_pa_categoria_tiempo
+label: '711 PA Categoría-Tiempo'
+description: "Histórico del personal académico por entidad universitaria, categoría, tiempo de dedicación y sexo\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

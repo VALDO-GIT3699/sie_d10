@@ -1,0 +1,29 @@
+uuid: c68be653-7493-476b-8ce3-705a42c84183
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b4seutheme
+_core:
+  default_config_hash: 0XmTH5dbJRl-fsDBgX10MzeFMarkhKpzU7ZGdGPfAMU
+id: b4seutheme_branding
+theme: b4seutheme
+region: nav_additional
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: ''

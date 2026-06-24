@@ -1,0 +1,23 @@
+uuid: 98d7f3e3-ae93-42ee-8a48-3191e9f232e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_row
+field_name: field_row
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

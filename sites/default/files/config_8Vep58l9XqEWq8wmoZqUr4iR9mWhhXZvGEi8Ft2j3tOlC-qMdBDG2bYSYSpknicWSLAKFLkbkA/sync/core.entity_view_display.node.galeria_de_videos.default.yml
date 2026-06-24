@@ -1,0 +1,57 @@
+uuid: cb90d084-d030-4ec4-b990-0fc2e9d94c37
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.galeria_de_videos.body
+    - field.field.node.galeria_de_videos.field_descripcion_galeria_videos
+    - field.field.node.galeria_de_videos.field_fecha_galeria_videos
+    - field.field.node.galeria_de_videos.field_video_galeria
+    - node.type.galeria_de_videos
+  module:
+    - datetime
+    - text
+    - user
+    - video
+id: node.galeria_de_videos.default
+targetEntityType: node
+bundle: galeria_de_videos
+mode: default
+content:
+  field_descripcion_galeria_videos:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_fecha_galeria_videos:
+    type: datetime_default
+    label: visually_hidden
+    settings:
+      timezone_override: ''
+      format_type: fecha_noticia
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_video_galeria:
+    type: video_embed_player
+    label: visually_hidden
+    settings:
+      autoplay: true
+      width: '854'
+      height: '480'
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  body: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

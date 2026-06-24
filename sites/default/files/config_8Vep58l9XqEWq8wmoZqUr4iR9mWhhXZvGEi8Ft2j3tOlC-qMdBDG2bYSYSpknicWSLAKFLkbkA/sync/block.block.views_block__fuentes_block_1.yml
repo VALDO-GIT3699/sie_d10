@@ -1,0 +1,30 @@
+uuid: 1fa24843-cc35-4602-b35a-96e0b4993728
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.fuentes
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__fuentes_block_1
+theme: b4seutheme
+region: content
+weight: 81
+provider: null
+plugin: 'views_block:fuentes-block_1'
+settings:
+  id: 'views_block:fuentes-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/inicio2\r\n/creditos\r\n\r\n\r\n\r\n"

@@ -1,0 +1,73 @@
+uuid: 786112a3-944f-4203-8ccc-f3798bccf3cb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.833_bases_de_datos.feeds_item
+    - field.field.storage.833_bases_de_datos.field_anio
+    - field.field.storage.833_bases_de_datos.field_base_de_datos
+    - field.field.storage.833_bases_de_datos.field_row
+    - field.field.storage.833_bases_de_datos.field_suscripcion
+    - field.field.storage.833_bases_de_datos.field_tipo_bd
+    - storage.storage_type.833_bases_de_datos
+id: storage.833_bases_de_datos.default
+targetEntityType: storage
+bundle: 833_bases_de_datos
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_base_de_datos:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_suscripcion:
+    type: options_select
+    weight: 29
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tipo_bd:
+    type: options_select
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

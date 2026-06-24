@@ -1,0 +1,23 @@
+uuid: cb2a141f-eab9-485d-b122-e58716cb94ac
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_e_habla_indigena_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_e_habla_indigena_m
+field_name: field_e_habla_indigena_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujeres de habla indígena egresadas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

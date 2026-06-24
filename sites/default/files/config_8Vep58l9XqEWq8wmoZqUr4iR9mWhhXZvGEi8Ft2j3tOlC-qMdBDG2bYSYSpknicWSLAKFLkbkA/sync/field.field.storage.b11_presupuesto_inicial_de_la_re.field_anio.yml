@@ -1,0 +1,29 @@
+uuid: 2726bd88-fb9d-485a-834a-40df677ef146
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.b11_presupuesto_inicial_de_la_re
+    - taxonomy.vocabulary.ano
+id: storage.b11_presupuesto_inicial_de_la_re.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: b11_presupuesto_inicial_de_la_re
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

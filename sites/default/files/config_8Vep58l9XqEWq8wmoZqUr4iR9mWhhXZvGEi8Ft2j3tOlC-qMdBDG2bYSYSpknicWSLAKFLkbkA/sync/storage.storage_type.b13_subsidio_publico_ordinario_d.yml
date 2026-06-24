@@ -1,0 +1,13 @@
+uuid: 9e1ed827-c1d6-407a-879d-afadf0f253de
+langcode: es
+status: true
+dependencies: {  }
+id: b13_subsidio_publico_ordinario_d
+label: 'b13 Subsidio público ordinario de la UdeG'
+description: 'Subsidio público ordinario de la Universidad de Guadalajara'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

@@ -1,0 +1,23 @@
+uuid: 46508d6a-c16b-4986-9587-ff5b2f35eef2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_psicosocial_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_psicosocial_h
+field_name: field_disc_psicosocial_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres con discapacidad psicosocial'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

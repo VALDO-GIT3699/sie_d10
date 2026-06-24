@@ -1,0 +1,78 @@
+uuid: af89c5ca-8fee-4bf0-935b-7edaaa373311
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.422_pe_que_requieren_pp.feeds_item
+    - field.field.storage.422_pe_que_requieren_pp.field_anio
+    - field.field.storage.422_pe_que_requieren_pp.field_entidad_universitaria
+    - field.field.storage.422_pe_que_requieren_pp.field_programa_educativo_vigente
+    - field.field.storage.422_pe_que_requieren_pp.field_row
+    - field.field.storage.422_pe_que_requieren_pp.field_total
+    - storage.storage_type.422_pe_que_requieren_pp
+id: storage.422_pe_que_requieren_pp.default
+targetEntityType: storage
+bundle: 422_pe_que_requieren_pp
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_programa_educativo_vigente:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total:
+    type: number
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

@@ -1,0 +1,20 @@
+uuid: 04a0e0b0-5c53-4e5e-b43e-151a658dbe6a
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_estatus_transparencia
+field_name: field_estatus_transparencia
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

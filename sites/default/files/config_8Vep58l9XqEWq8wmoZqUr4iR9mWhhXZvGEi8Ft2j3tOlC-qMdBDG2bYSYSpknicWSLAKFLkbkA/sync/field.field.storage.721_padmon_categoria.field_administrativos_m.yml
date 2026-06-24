@@ -1,0 +1,23 @@
+uuid: c3a05e78-dc90-4390-a378-130877b89b49
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_administrativos_m
+    - storage.storage_type.721_padmon_categoria
+id: storage.721_padmon_categoria.field_administrativos_m
+field_name: field_administrativos_m
+entity_type: storage
+bundle: 721_padmon_categoria
+label: 'Administrativas mujeres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

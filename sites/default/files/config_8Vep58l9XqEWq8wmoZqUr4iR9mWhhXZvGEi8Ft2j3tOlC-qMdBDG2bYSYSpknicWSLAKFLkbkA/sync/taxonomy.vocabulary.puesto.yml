@@ -1,0 +1,9 @@
+uuid: 45d38592-ac16-4b3a-9c52-399be853392f
+langcode: es
+status: true
+dependencies: {  }
+name: Puesto
+vid: puesto
+description: 'Para puesto del directorio'
+weight: -9
+new_revision: false

@@ -1,0 +1,20 @@
+uuid: 323942a6-58a6-43ed-bfd9-f88c46faa660
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_energia
+field_name: field_energia
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

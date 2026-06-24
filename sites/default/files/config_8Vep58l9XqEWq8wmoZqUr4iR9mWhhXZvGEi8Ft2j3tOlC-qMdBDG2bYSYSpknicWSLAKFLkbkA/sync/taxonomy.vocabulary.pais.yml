@@ -1,0 +1,9 @@
+uuid: 28c1cc5d-70d6-4de0-b20e-42ff4d6b0f54
+langcode: es
+status: true
+dependencies: {  }
+name: País
+vid: pais
+description: 'Listado de países'
+weight: 0
+new_revision: false

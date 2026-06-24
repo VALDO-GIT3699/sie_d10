@@ -1,0 +1,22 @@
+uuid: fcdf1051-e133-4473-a370-62df661fd601
+langcode: es
+status: true
+dependencies:
+  theme:
+    - b4seutheme
+_core:
+  default_config_hash: IzSbK3zk-Gon9y7WLEWop15Wn__7LeKzBJIXqajlb00
+id: b4seutheme_local_tasks
+theme: b4seutheme
+region: content
+weight: -95
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

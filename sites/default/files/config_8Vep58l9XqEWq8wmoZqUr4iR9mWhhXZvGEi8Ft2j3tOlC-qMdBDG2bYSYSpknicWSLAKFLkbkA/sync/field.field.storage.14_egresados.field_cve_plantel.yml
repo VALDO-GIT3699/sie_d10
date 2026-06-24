@@ -1,0 +1,29 @@
+uuid: 73403352-332f-4b94-a529-b4ab54c99809
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_plantel
+    - storage.storage_type.14_egresados
+    - taxonomy.vocabulary.planteles
+id: storage.14_egresados.field_cve_plantel
+field_name: field_cve_plantel
+entity_type: storage
+bundle: 14_egresados
+label: Plantel
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      planteles: planteles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

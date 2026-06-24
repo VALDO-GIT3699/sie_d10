@@ -1,0 +1,23 @@
+uuid: af07b4b4-37c3-43b4-84aa-ed13046c04ee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_discapacidad_t
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_ti_discapacidad_t
+field_name: field_ti_discapacidad_t
+entity_type: storage
+bundle: 15_titulados
+label: 'Total de titulados con discapacidad'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

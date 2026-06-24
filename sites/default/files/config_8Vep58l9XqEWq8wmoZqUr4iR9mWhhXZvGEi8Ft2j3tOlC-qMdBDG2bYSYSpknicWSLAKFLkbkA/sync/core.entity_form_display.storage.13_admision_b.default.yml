@@ -1,0 +1,187 @@
+uuid: 695ba694-9e2e-4745-8585-0f27ad19a236
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.13_admision_b.feeds_item
+    - field.field.storage.13_admision_b.field_admitidos_h
+    - field.field.storage.13_admision_b.field_admitidos_m
+    - field.field.storage.13_admision_b.field_admitidos_nb
+    - field.field.storage.13_admision_b.field_admitidos_t
+    - field.field.storage.13_admision_b.field_anio
+    - field.field.storage.13_admision_b.field_aspirantes_h
+    - field.field.storage.13_admision_b.field_aspirantes_m
+    - field.field.storage.13_admision_b.field_aspirantes_nb
+    - field.field.storage.13_admision_b.field_aspirantes_t
+    - field.field.storage.13_admision_b.field_calendario
+    - field.field.storage.13_admision_b.field_entidad_universitaria
+    - field.field.storage.13_admision_b.field_nivel_educativo
+    - field.field.storage.13_admision_b.field_no_admitidos_h
+    - field.field.storage.13_admision_b.field_no_admitidos_m
+    - field.field.storage.13_admision_b.field_no_admitidos_nb
+    - field.field.storage.13_admision_b.field_no_admitidos_t
+    - field.field.storage.13_admision_b.field_por_admision
+    - field.field.storage.13_admision_b.field_row
+    - storage.storage_type.13_admision_b
+id: storage.13_admision_b.default
+targetEntityType: storage
+bundle: 13_admision_b
+mode: default
+content:
+  field_admitidos_h:
+    type: number
+    weight: 35
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_admitidos_m:
+    type: number
+    weight: 36
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_admitidos_nb:
+    type: number
+    weight: 37
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_admitidos_t:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_aspirantes_h:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_aspirantes_m:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_aspirantes_nb:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_aspirantes_t:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_calendario:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 29
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nivel_educativo:
+    type: entity_reference_autocomplete
+    weight: 43
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_admitidos_h:
+    type: number
+    weight: 39
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_admitidos_m:
+    type: number
+    weight: 40
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_admitidos_nb:
+    type: number
+    weight: 41
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_admitidos_t:
+    type: number
+    weight: 38
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_admision:
+    type: number
+    weight: 42
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

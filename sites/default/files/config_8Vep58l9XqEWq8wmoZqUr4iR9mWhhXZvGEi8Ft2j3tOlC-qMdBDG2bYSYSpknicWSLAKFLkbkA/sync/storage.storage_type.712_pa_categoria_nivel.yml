@@ -1,0 +1,13 @@
+uuid: f65273d6-6174-4ef0-a55a-c90f2d4a0b42
+langcode: es
+status: true
+dependencies: {  }
+id: 712_pa_categoria_nivel
+label: '712 PA Categoría-Nivel'
+description: 'Personal académico con categoría y nivel'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

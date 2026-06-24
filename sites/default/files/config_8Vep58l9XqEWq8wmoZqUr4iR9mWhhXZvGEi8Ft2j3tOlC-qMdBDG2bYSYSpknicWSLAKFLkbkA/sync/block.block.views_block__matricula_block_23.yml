@@ -1,0 +1,29 @@
+uuid: b00554b6-55f8-47d6-b41d-30a5ce12583c
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.matricula
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__matricula_block_23
+theme: b4seutheme
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:matricula-block_23'
+settings:
+  id: 'views_block:matricula-block_23'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /prueba

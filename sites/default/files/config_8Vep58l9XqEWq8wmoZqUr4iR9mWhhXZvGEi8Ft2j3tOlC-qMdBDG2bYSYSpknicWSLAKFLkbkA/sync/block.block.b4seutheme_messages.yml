@@ -1,0 +1,22 @@
+uuid: 641dc192-564e-4bb2-bc9b-6baa02c50263
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b4seutheme
+_core:
+  default_config_hash: tZtWC6EKIYALVtpV4mPz79GsLZD6IFWb7Wk1B7Rd8Go
+id: b4seutheme_messages
+theme: b4seutheme
+region: content
+weight: -97
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: cea479ca-331c-48c4-864e-ec5794476729
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.421_practicas_profesionales
+    - taxonomy.vocabulary.ano
+id: storage.421_practicas_profesionales.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,13 @@
+uuid: e40840bd-14ae-409e-9790-9d83c3e35c58
+langcode: es
+status: true
+dependencies: {  }
+id: 30ar_pe_con_matricula
+label: '30AR PE con matrícula'
+description: 'Histórico de los programas educativos con matrícula de la Universidad de Guadalajara'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

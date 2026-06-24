@@ -1,0 +1,23 @@
+uuid: 49bd02fd-5cda-4593-b17e-2a4eb1cf7611
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_h
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_titulados_h
+field_name: field_titulados_h
+entity_type: storage
+bundle: 14_egresados
+label: 'Hombres titulados'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

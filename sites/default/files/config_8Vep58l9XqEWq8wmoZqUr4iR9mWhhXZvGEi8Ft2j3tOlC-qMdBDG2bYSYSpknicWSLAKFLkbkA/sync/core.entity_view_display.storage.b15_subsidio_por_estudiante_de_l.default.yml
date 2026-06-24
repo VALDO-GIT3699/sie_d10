@@ -1,0 +1,108 @@
+uuid: c5ac9b9f-b214-4f71-a5d3-441a640659a3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.feeds_item
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_anio
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_matricula_t
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_pesos_corrientes
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_row
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_sub_estatal_estudiante
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_sub_federal_estudiante
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_subsidio_estatal
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_subsidio_federal
+    - storage.storage_type.b15_subsidio_por_estudiante_de_l
+  module:
+    - bigint
+id: storage.b15_subsidio_por_estudiante_de_l.default
+targetEntityType: storage
+bundle: b15_subsidio_por_estudiante_de_l
+mode: default
+content:
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_matricula_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_pesos_corrientes:
+    type: bigint_item_default
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_sub_estatal_estudiante:
+    type: bigint_item_default
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_sub_federal_estudiante:
+    type: bigint_item_default
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_subsidio_estatal:
+    type: bigint_item_default
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_subsidio_federal:
+    type: bigint_item_default
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

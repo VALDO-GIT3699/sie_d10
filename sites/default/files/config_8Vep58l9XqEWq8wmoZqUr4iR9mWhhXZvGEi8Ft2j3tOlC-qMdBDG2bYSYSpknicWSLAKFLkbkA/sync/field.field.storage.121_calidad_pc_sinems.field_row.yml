@@ -1,0 +1,23 @@
+uuid: 365ab589-b117-49a6-b08d-27fa99206adb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.121_calidad_pc_sinems
+id: storage.121_calidad_pc_sinems.field_row
+field_name: field_row
+entity_type: storage
+bundle: 121_calidad_pc_sinems
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

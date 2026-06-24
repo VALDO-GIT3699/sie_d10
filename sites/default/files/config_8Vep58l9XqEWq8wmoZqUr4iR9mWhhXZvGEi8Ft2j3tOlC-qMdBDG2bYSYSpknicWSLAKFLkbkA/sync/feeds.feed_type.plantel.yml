@@ -1,0 +1,359 @@
+uuid: 3a4ed290-7b25-4aa3-9fff-82cff33cfb1b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.plantel.field_anio
+    - field.field.storage.plantel.field_clasificacion_plantel
+    - field.field.storage.plantel.field_clave_de_plantel
+    - field.field.storage.plantel.field_codigo_postal
+    - field.field.storage.plantel.field_conteo
+    - field.field.storage.plantel.field_domicilio
+    - field.field.storage.plantel.field_enlace_plantel
+    - field.field.storage.plantel.field_enlace_ubicacion
+    - field.field.storage.plantel.field_entidad_universitaria
+    - field.field.storage.plantel.field_localidad
+    - field.field.storage.plantel.field_municipio
+    - field.field.storage.plantel.field_nombre_plantel
+    - field.field.storage.plantel.field_nombre_plantel_corto
+    - field.field.storage.plantel.field_num_ext
+    - field.field.storage.plantel.field_num_int
+    - field.field.storage.plantel.field_orden
+    - field.field.storage.plantel.field_plantel_adscripcion
+    - field.field.storage.plantel.field_region
+    - field.field.storage.plantel.field_tipo_plantel
+    - storage.storage_type.plantel
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: Plantel
+id: plantel
+description: 'Planteles de la Red Universitaria'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: plantel
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  orden:
+    value: orden
+    label: orden
+    machine_name: orden
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  clave_plantel:
+    value: clave_plantel
+    label: clave_plantel
+    machine_name: clave_plantel
+    type: csv
+  nombre_plantel:
+    value: nombre_plantel
+    label: nombre_plantel
+    machine_name: nombre_plantel
+    type: csv
+  nombre_plantel_corto:
+    value: nombre_plantel_corto
+    label: nombre_plantel_corto
+    machine_name: nombre_plantel_corto
+    type: csv
+  tipo_plantel:
+    value: tipo_plantel
+    label: tipo_plantel
+    machine_name: tipo_plantel
+    type: csv
+  clasificacion_plantel:
+    value: clasificacion_plantel
+    label: clasificacion_plantel
+    machine_name: clasificacion_plantel
+    type: csv
+  region:
+    value: region
+    label: region
+    machine_name: region
+    type: csv
+  municipio:
+    value: municipio
+    label: municipio
+    machine_name: municipio
+    type: csv
+  localidad:
+    value: localidad
+    label: localidad
+    machine_name: localidad
+    type: csv
+  domicilio:
+    value: domicilio
+    label: domicilio
+    machine_name: domicilio
+    type: csv
+  num_ext:
+    value: num_ext
+    label: num_ext
+    machine_name: num_ext
+    type: csv
+  num_int:
+    value: num_int
+    label: num_int
+    machine_name: num_int
+    type: csv
+  codigo_postal:
+    value: codigo_postal
+    label: codigo_postal
+    machine_name: codigo_postal
+    type: csv
+  enlace_plantel:
+    value: enlace_plantel
+    label: enlace_plantel
+    machine_name: enlace_plantel
+    type: csv
+  nombre_portal:
+    value: nombre_plantel_corto
+    label: nombre_plantel_corto
+    machine_name: nombre_portal
+    type: csv
+  mapa:
+    value: mapa
+    label: mapa
+    machine_name: mapa
+    type: csv
+  enlace_ubicacion:
+    value: enlace_ubicacion
+    label: enlace_ubicacion
+    machine_name: enlace_ubicacion
+    type: csv
+  enlace_de_ubicacion:
+    value: 'Enlace de ubicación'
+    label: 'Enlace de ubicación'
+    machine_name: enlace_de_ubicacion
+    type: blank
+  notas:
+    value: notas
+    label: notas
+    machine_name: notas
+    type: csv
+  plantel_adscripcion:
+    value: plantel_adscripcion
+    label: plantel_adscripcion
+    machine_name: plantel_adscripcion
+    type: csv
+  conteo:
+    value: conteo
+    label: conteo
+    machine_name: conteo
+    type: csv
+  region_jalisco:
+    value: region_jalisco
+    label: region_jalisco
+    machine_name: region_jalisco
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_orden
+    map:
+      value: orden
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: false
+      feeds_item: false
+  -
+    target: field_clave_de_plantel
+    map:
+      value: clave_plantel
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_nombre_plantel
+    map:
+      value: nombre_plantel
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_nombre_plantel_corto
+    map:
+      value: nombre_plantel_corto
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_tipo_plantel
+    map:
+      target_id: tipo_plantel
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: tipo_de_plantel
+      feeds_item: false
+  -
+    target: field_clasificacion_plantel
+    map:
+      target_id: clasificacion_plantel
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: clasificacion_de_planteles
+      feeds_item: false
+  -
+    target: field_region
+    map:
+      target_id: region_jalisco
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: regiones_jalisco
+      feeds_item: false
+  -
+    target: field_municipio
+    map:
+      target_id: municipio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: false
+      feeds_item: false
+  -
+    target: field_localidad
+    map:
+      value: localidad
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_domicilio
+    map:
+      value: domicilio
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_num_ext
+    map:
+      value: num_ext
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_num_int
+    map:
+      value: num_int
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_codigo_postal
+    map:
+      value: codigo_postal
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_enlace_plantel
+    map:
+      uri: enlace_plantel
+      title: nombre_portal
+    settings:
+      language: null
+  -
+    target: field_enlace_ubicacion
+    map:
+      uri: enlace_ubicacion
+      title: enlace_de_ubicacion
+    settings:
+      language: null
+  -
+    target: field_plantel_adscripcion
+    map:
+      value: plantel_adscripcion
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_conteo
+    map:
+      value: conteo
+    settings:
+      language: null
+    unique: {  }

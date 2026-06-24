@@ -1,0 +1,11 @@
+uuid: 24f3d5b1-c4aa-4e31-91dc-943f96dbb36c
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_estudiante_pec
+id: taxonomy_term.tipo_estudiante_pec
+target_entity_type_id: taxonomy_term
+target_bundle: tipo_estudiante_pec
+default_langcode: site_default
+language_alterable: false

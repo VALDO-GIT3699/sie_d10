@@ -1,0 +1,151 @@
+uuid: 9a504699-3a2b-439d-bb52-841b206afe1a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.planteles.feeds_item
+    - field.field.taxonomy_term.planteles.field_clasificacion_plantel
+    - field.field.taxonomy_term.planteles.field_clave_plantel
+    - field.field.taxonomy_term.planteles.field_entidad_universitaria
+    - field.field.taxonomy_term.planteles.field_municipio
+    - field.field.taxonomy_term.planteles.field_nombre_plantel_corto
+    - field.field.taxonomy_term.planteles.field_notas
+    - field.field.taxonomy_term.planteles.field_plantel
+    - field.field.taxonomy_term.planteles.field_plantel_adscripcion
+    - field.field.taxonomy_term.planteles.field_region_jalisco
+    - field.field.taxonomy_term.planteles.field_tipo_plantel
+    - taxonomy.vocabulary.planteles
+  module:
+    - path
+    - text
+id: taxonomy_term.planteles.default
+targetEntityType: taxonomy_term
+bundle: planteles
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_clasificacion_plantel:
+    type: entity_reference_autocomplete
+    weight: 109
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_clave_plantel:
+    type: string_textfield
+    weight: 105
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 103
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_municipio:
+    type: entity_reference_autocomplete
+    weight: 111
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nombre_plantel_corto:
+    type: string_textfield
+    weight: 107
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_notas:
+    type: text_textarea
+    weight: 113
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_plantel:
+    type: options_select
+    weight: 112
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_plantel_adscripcion:
+    type: string_textfield
+    weight: 104
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_region_jalisco:
+    type: entity_reference_autocomplete
+    weight: 110
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tipo_plantel:
+    type: entity_reference_autocomplete
+    weight: 108
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  feeds_item: true

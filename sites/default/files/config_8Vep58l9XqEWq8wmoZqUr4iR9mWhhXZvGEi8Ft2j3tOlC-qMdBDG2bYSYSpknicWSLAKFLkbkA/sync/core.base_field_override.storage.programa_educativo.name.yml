@@ -1,0 +1,18 @@
+uuid: bff62647-32a6-4c4c-86f8-365bc58c7bab
+langcode: es
+status: true
+dependencies:
+  config:
+    - storage.storage_type.programa_educativo
+id: storage.programa_educativo.name
+field_name: name
+entity_type: storage
+bundle: programa_educativo
+label: 'Nombre del programa'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

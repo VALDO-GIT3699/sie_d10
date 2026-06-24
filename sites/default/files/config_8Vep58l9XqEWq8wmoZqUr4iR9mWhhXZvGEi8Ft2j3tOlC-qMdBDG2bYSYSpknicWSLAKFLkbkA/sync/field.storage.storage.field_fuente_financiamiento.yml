@@ -1,0 +1,33 @@
+uuid: a47c58c1-a2eb-4048-ac91-d925285320d9
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - storage
+id: storage.field_fuente_financiamiento
+field_name: field_fuente_financiamiento
+entity_type: storage
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Subsidio público federal'
+      label: 'Subsidio público federal'
+    -
+      value: 'Subsidio público estatal'
+      label: 'Subsidio público estatal'
+    -
+      value: 'Apoyo especial'
+      label: 'Apoyo especial'
+    -
+      value: 'Ingreso autogenerado'
+      label: 'Ingreso autogenerado'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

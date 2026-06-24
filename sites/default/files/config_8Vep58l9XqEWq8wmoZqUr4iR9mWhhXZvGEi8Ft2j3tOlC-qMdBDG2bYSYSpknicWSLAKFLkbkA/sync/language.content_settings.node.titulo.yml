@@ -1,0 +1,11 @@
+uuid: 229a6751-c4ff-4343-aba2-b75d37c9ce87
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.titulo
+id: node.titulo
+target_entity_type_id: node
+target_bundle: titulo
+default_langcode: site_default
+language_alterable: false

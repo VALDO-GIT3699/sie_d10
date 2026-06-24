@@ -1,0 +1,104 @@
+uuid: b647cc8e-f737-403a-b66a-b3e437a6bdbc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.721_padmon_categoria.feeds_item
+    - field.field.storage.721_padmon_categoria.field_administrativos_h
+    - field.field.storage.721_padmon_categoria.field_administrativos_m
+    - field.field.storage.721_padmon_categoria.field_administrativos_nb
+    - field.field.storage.721_padmon_categoria.field_administrativos_t
+    - field.field.storage.721_padmon_categoria.field_anio
+    - field.field.storage.721_padmon_categoria.field_categoria_admon
+    - field.field.storage.721_padmon_categoria.field_entidad_universitaria
+    - field.field.storage.721_padmon_categoria.field_row
+    - storage.storage_type.721_padmon_categoria
+id: storage.721_padmon_categoria.default
+targetEntityType: storage
+bundle: 721_padmon_categoria
+mode: default
+content:
+  field_administrativos_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_administrativos_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_administrativos_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_administrativos_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_categoria_admon:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

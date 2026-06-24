@@ -1,0 +1,29 @@
+uuid: 40bf1a20-0c0d-4963-a77d-9414e30fd554
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ciclo
+    - storage.storage_type.123_porcentaje_en_pec
+    - taxonomy.vocabulary.ciclo
+id: storage.123_porcentaje_en_pec.field_ciclo
+field_name: field_ciclo
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: Ciclo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ciclo: ciclo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 08312ba1-698c-48b6-b23b-eafc821db1c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.713_pa_sems_categoria_nivel
+  module:
+    - feeds
+id: storage.713_pa_sems_categoria_nivel.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 713_pa_sems_categoria_nivel
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

@@ -1,0 +1,23 @@
+uuid: a8eedc44-0fab-4a68-a37d-cfeef4d8dd6c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_orden
+    - storage.storage_type.plantel
+id: storage.plantel.field_orden
+field_name: field_orden
+entity_type: storage
+bundle: plantel
+label: Orden
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

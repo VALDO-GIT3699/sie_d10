@@ -1,0 +1,9 @@
+uuid: 339c1c1e-764f-4ce9-9871-277dad57fde3
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo dependencia'
+vid: tipo_dependencia
+description: 'Tipo dependencia'
+weight: 0
+new_revision: false

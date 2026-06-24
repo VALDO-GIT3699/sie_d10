@@ -1,0 +1,38 @@
+uuid: 04ea4167-6a23-44c6-b913-ab1251119e73
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.liston_de_contenido.body
+    - field.field.node.liston_de_contenido.field_liston_c
+    - field.field.node.liston_de_contenido.field_url_lc
+    - node.type.liston_de_contenido
+  module:
+    - text
+    - user
+id: node.liston_de_contenido.teaser
+targetEntityType: node
+bundle: liston_de_contenido
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_liston_c: true
+  field_url_lc: true
+  langcode: true

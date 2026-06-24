@@ -1,0 +1,189 @@
+uuid: dd6c7feb-086f-4a6b-b652-196ae4618ece
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.30ar_planteles.field_30ar_centro_u
+    - field.field.storage.30ar_planteles.field_30ar_escuela
+    - field.field.storage.30ar_planteles.field_30ar_extension
+    - field.field.storage.30ar_planteles.field_30ar_modulo
+    - field.field.storage.30ar_planteles.field_30ar_sedes
+    - field.field.storage.30ar_planteles.field_30ar_suv
+    - field.field.storage.30ar_planteles.field_30ar_total_planteles
+    - field.field.storage.30ar_planteles.field_ciclo_red
+    - field.field.storage.30ar_planteles.field_row
+    - storage.storage_type.30ar_planteles
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '30AR Planteles'
+id: 30ar_planteles
+description: 'Histórico de planteles en la Red UdeG'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 30ar_planteles
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  ciclo_red:
+    value: ciclo_red
+    label: ciclo_red
+    machine_name: ciclo_red
+    type: csv
+  30ar_centro_u:
+    value: 30ar_centro_u
+    label: 30ar_centro_u
+    machine_name: 30ar_centro_u
+    type: csv
+  30ar_escuela:
+    value: 30ar_escuela
+    label: 30ar_escuela
+    machine_name: 30ar_escuela
+    type: csv
+  30ar_extension:
+    value: 30ar_extension
+    label: 30ar_extension
+    machine_name: 30ar_extension
+    type: csv
+  30ar_modulo:
+    value: 30ar_modulo
+    label: 30ar_modulo
+    machine_name: 30ar_modulo
+    type: csv
+  30ar_suv:
+    value: 30ar_suv
+    label: 30ar_suv
+    machine_name: 30ar_suv
+    type: csv
+  30ar_total_planteles:
+    value: 30ar_total_planteles
+    label: 30ar_total_planteles
+    machine_name: 30ar_total_planteles
+    type: csv
+  30ar_sedes:
+    value: 30ar_sedes
+    label: 30ar_sedes
+    machine_name: 30ar_sedes
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ciclo_red
+    map:
+      target_id: ciclo_red
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ciclo_red
+      feeds_item: false
+  -
+    target: field_30ar_centro_u
+    map:
+      value: 30ar_centro_u
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_escuela
+    map:
+      value: 30ar_escuela
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_extension
+    map:
+      value: 30ar_extension
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_modulo
+    map:
+      value: 30ar_modulo
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_suv
+    map:
+      value: 30ar_suv
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_total_planteles
+    map:
+      value: 30ar_total_planteles
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_sedes
+    map:
+      value: 30ar_sedes
+    settings:
+      language: null
+    unique: {  }

@@ -1,0 +1,20 @@
+uuid: b0d051e4-f12e-4058-a847-6cf7843cc86f
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_por_hombres
+field_name: field_por_hombres
+entity_type: storage
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

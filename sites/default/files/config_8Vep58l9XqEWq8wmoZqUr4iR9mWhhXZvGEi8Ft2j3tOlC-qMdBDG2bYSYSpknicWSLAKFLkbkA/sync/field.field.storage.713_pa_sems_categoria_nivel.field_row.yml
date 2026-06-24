@@ -1,0 +1,23 @@
+uuid: 70e107d1-d3a7-43b1-92a8-da50f049057d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.713_pa_sems_categoria_nivel
+id: storage.713_pa_sems_categoria_nivel.field_row
+field_name: field_row
+entity_type: storage
+bundle: 713_pa_sems_categoria_nivel
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

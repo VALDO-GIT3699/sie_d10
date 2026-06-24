@@ -1,0 +1,511 @@
+uuid: a822fb28-63a3-40e9-912b-13e0413f1cec
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.matricula.field_ciclo
+    - field.field.storage.matricula.field_cve_plantel
+    - field.field.storage.matricula.field_cve_programa
+    - field.field.storage.matricula.field_disc_aud_hipoacusia_h
+    - field.field.storage.matricula.field_disc_aud_hipoacusia_m
+    - field.field.storage.matricula.field_disc_aud_hipoacusia_nb
+    - field.field.storage.matricula.field_disc_aud_hipoacusia_t
+    - field.field.storage.matricula.field_disc_aud_sordera_h
+    - field.field.storage.matricula.field_disc_aud_sordera_m
+    - field.field.storage.matricula.field_disc_aud_sordera_nb
+    - field.field.storage.matricula.field_disc_aud_sordera_t
+    - field.field.storage.matricula.field_disc_fis_motriz_h
+    - field.field.storage.matricula.field_disc_fis_motriz_m
+    - field.field.storage.matricula.field_disc_fis_motriz_nb
+    - field.field.storage.matricula.field_disc_fis_motriz_t
+    - field.field.storage.matricula.field_disc_intelectual_h
+    - field.field.storage.matricula.field_disc_intelectual_m
+    - field.field.storage.matricula.field_disc_intelectual_nb
+    - field.field.storage.matricula.field_disc_intelectual_t
+    - field.field.storage.matricula.field_disc_multiple_h
+    - field.field.storage.matricula.field_disc_multiple_m
+    - field.field.storage.matricula.field_disc_multiple_nb
+    - field.field.storage.matricula.field_disc_multiple_t
+    - field.field.storage.matricula.field_disc_psicosocial_h
+    - field.field.storage.matricula.field_disc_psicosocial_m
+    - field.field.storage.matricula.field_disc_psicosocial_nb
+    - field.field.storage.matricula.field_disc_psicosocial_t
+    - field.field.storage.matricula.field_disc_vis_baja_vision_h
+    - field.field.storage.matricula.field_disc_vis_baja_vision_m
+    - field.field.storage.matricula.field_disc_vis_baja_vision_nb
+    - field.field.storage.matricula.field_disc_vis_baja_vision_t
+    - field.field.storage.matricula.field_disc_vis_ceguera_h
+    - field.field.storage.matricula.field_disc_vis_ceguera_m
+    - field.field.storage.matricula.field_disc_vis_ceguera_nb
+    - field.field.storage.matricula.field_disc_vis_ceguera_t
+    - field.field.storage.matricula.field_discapacidad_h
+    - field.field.storage.matricula.field_discapacidad_m
+    - field.field.storage.matricula.field_discapacidad_nb
+    - field.field.storage.matricula.field_discapacidad_t
+    - field.field.storage.matricula.field_habla_indigena_h
+    - field.field.storage.matricula.field_habla_indigena_m
+    - field.field.storage.matricula.field_habla_indigena_nb
+    - field.field.storage.matricula.field_habla_indigena_t
+    - field.field.storage.matricula.field_matricula_h
+    - field.field.storage.matricula.field_matricula_m
+    - field.field.storage.matricula.field_matricula_nb
+    - field.field.storage.matricula.field_matricula_t
+    - field.field.storage.matricula.field_modalidad
+    - field.field.storage.matricula.field_row
+    - storage.storage_type.matricula
+id: storage.matricula.default
+targetEntityType: storage
+bundle: matricula
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_cve_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_cve_programa:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_disc_aud_hipoacusia_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  field_disc_aud_hipoacusia_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 31
+    region: content
+  field_disc_aud_hipoacusia_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 32
+    region: content
+  field_disc_aud_hipoacusia_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 33
+    region: content
+  field_disc_aud_sordera_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 34
+    region: content
+  field_disc_aud_sordera_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 35
+    region: content
+  field_disc_aud_sordera_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 36
+    region: content
+  field_disc_aud_sordera_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 37
+    region: content
+  field_disc_fis_motriz_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_disc_fis_motriz_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_disc_fis_motriz_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_disc_fis_motriz_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_disc_intelectual_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_disc_intelectual_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_disc_intelectual_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_disc_intelectual_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_disc_multiple_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  field_disc_multiple_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_disc_multiple_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_disc_multiple_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 29
+    region: content
+  field_disc_psicosocial_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 46
+    region: content
+  field_disc_psicosocial_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 47
+    region: content
+  field_disc_psicosocial_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 48
+    region: content
+  field_disc_psicosocial_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 49
+    region: content
+  field_disc_vis_baja_vision_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 38
+    region: content
+  field_disc_vis_baja_vision_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 39
+    region: content
+  field_disc_vis_baja_vision_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 40
+    region: content
+  field_disc_vis_baja_vision_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 41
+    region: content
+  field_disc_vis_ceguera_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 42
+    region: content
+  field_disc_vis_ceguera_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 43
+    region: content
+  field_disc_vis_ceguera_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 44
+    region: content
+  field_disc_vis_ceguera_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 45
+    region: content
+  field_discapacidad_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_discapacidad_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_discapacidad_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_discapacidad_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_habla_indigena_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_habla_indigena_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_habla_indigena_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_habla_indigena_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_matricula_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_matricula_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_matricula_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_matricula_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_modalidad:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  user_id: true

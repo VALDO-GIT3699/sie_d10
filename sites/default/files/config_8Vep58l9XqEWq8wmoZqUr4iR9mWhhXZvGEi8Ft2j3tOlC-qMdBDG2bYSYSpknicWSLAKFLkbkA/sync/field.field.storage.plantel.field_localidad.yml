@@ -1,0 +1,19 @@
+uuid: cf8644d1-885e-4672-a550-1e6e9b610ea6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_localidad
+    - storage.storage_type.plantel
+id: storage.plantel.field_localidad
+field_name: field_localidad
+entity_type: storage
+bundle: plantel
+label: Localidad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

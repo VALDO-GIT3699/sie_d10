@@ -1,0 +1,23 @@
+uuid: 6121718e-a1c1-4349-a67d-e83d8cce87f8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_personas_no_binarias
+    - storage.storage_type.181_beneficiarios_del_peees
+id: storage.181_beneficiarios_del_peees.field_personas_no_binarias
+field_name: field_personas_no_binarias
+entity_type: storage
+bundle: 181_beneficiarios_del_peees
+label: 'Personas no binarias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

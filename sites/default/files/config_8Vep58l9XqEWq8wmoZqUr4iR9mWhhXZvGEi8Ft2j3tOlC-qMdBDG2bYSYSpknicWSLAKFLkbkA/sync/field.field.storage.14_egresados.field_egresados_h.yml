@@ -1,0 +1,23 @@
+uuid: f414c440-4eeb-44cf-856d-a903a4baf7ba
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_egresados_h
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_egresados_h
+field_name: field_egresados_h
+entity_type: storage
+bundle: 14_egresados
+label: 'Hombres egresados'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

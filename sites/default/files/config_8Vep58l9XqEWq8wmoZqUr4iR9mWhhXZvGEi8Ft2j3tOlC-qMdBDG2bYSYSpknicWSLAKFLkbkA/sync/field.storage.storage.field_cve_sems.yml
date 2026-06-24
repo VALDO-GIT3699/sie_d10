@@ -1,0 +1,552 @@
+uuid: 4f939aa0-76e7-4efc-a338-4ae3264192a6
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - storage
+id: storage.field_cve_sems
+field_name: field_cve_sems
+entity_type: storage
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 14MMS0607X
+      label: 'Escuela Preparatoria de Jalisco'
+    -
+      value: 14MMS0608W
+      label: 'Escuela Preparatoria No. 2'
+    -
+      value: 14MMS0609V
+      label: 'Escuela Preparatoria No. 3'
+    -
+      value: 14MMS0610K
+      label: 'Escuela Preparatoria No. 4'
+    -
+      value: 14MMS0611J
+      label: 'Escuela Preparatoria No. 5'
+    -
+      value: 14MMS0612I
+      label: 'Escuela Preparatoria No. 6'
+    -
+      value: 14MMS0613H
+      label: 'Escuela Preparatoria No. 7'
+    -
+      value: 14MMS0647Y
+      label: 'Escuela Preparatoria No. 8'
+    -
+      value: 14MMS0762P
+      label: 'Módulo Cuquío'
+    -
+      value: 14MMS0761Q
+      label: 'Módulo Ixtlahuacán del Río'
+    -
+      value: 14MMS0648X
+      label: 'Escuela Preparatoria No. 9'
+    -
+      value: 14MMS0649W
+      label: 'Escuela Preparatoria No. 10'
+    -
+      value: 14MMS0650L
+      label: 'Escuela Preparatoria No. 11'
+    -
+      value: 14MMS0646Z
+      label: 'Escuela Preparatoria No. 12'
+    -
+      value: 14MMS0640E
+      label: 'Módulo Tlaquepaque'
+    -
+      value: 14MMS0615F
+      label: 'Escuela Preparatoria No. 13 “El Sauz”'
+    -
+      value: 14MMS0630Y
+      label: 'Escuela Preparatoria No. 14'
+    -
+      value: 14MMS0641D
+      label: 'Módulo La Experiencia'
+    -
+      value: 14MMS0631X
+      label: 'Escuela Preparatoria No. 15'
+    -
+      value: 14MMS0636S
+      label: 'Escuela Preparatoria No. 16'
+    -
+      value: 14MMS0752I
+      label: 'Escuela Preparatoria No. 17'
+    -
+      value: 14MMS0753H
+      label: 'Escuela Preparatoria No. 18'
+    -
+      value: 14MMS0757D
+      label: 'Escuela Preparatoria No. 19'
+    -
+      value: 14MMS0756E
+      label: 'Escuela Preparatoria No. 20'
+    -
+      value: 14MMS0614G
+      label: 'Escuela Vocacional'
+    -
+      value: 14MMS0645Z
+      label: 'Escuela Preparatoria de Tonalá'
+    -
+      value: 14MMS0623O
+      label: 'Escuela Preparatoria Regional Tonalá Norte'
+    -
+      value: 14MMS0776S
+      label: 'Escuela Politécnica de Guadalajara'
+    -
+      value: 14MMS0799C
+      label: 'Escuela Politécnica “Ing. Jorge Matute Remus”'
+    -
+      value: 14MMS0878P
+      label: 'Escuela Preparatoria No. 21 de Zapopan.'
+    -
+      value: 14MMS0844Z
+      label: 'Escuela Preparatoria No. 22 de Tlaquepaque'
+    -
+      value: 14MMS0643B
+      label: 'Escuela Preparatoria Regional de Ahualulco de Mercado'
+    -
+      value: 14MMS0727J
+      label: 'Módulo Teuchitlán'
+    -
+      value: 14MMS0717C
+      label: 'Escuela Preparatoria Regional de Amatitán'
+    -
+      value: 14MMS0741C
+      label: 'Módulo “El Salvador”'
+    -
+      value: 14MMS0617D
+      label: 'Escuela Preparatoria Regional de Ameca'
+    -
+      value: 14MMS0662Q
+      label: 'Módulo de Atenguillo'
+    -
+      value: 14MMS0663P
+      label: 'Módulo Mascota'
+    -
+      value: 14MMS0664O
+      label: 'Módulo San Antonio Matute'
+    -
+      value: 14MMS0665N
+      label: 'Módulo Talpa de Allende'
+    -
+      value: 14MMS0619B
+      label: 'Escuela Preparatoria Regional de Arandas'
+    -
+      value: 14MMS0666M
+      label: 'Módulo Jesús María'
+    -
+      value: 14MMS0667L
+      label: 'Módulo San Ignacio Cerro Gordo'
+    -
+      value: 14MMS0728I
+      label: 'Módulo Santa María del Valle'
+    -
+      value: 14MMS0618C
+      label: 'Escuela Preparatoria Regional de Atotonilco'
+    -
+      value: 14MMS0668K
+      label: 'Módulo Ayotlán'
+    -
+      value: 14MMS0747X
+      label: 'Módulo La Ribera'
+    -
+      value: 14MMS0750K
+      label: 'Módulo San Francisco de Asís'
+    -
+      value: 14MMS0621Q
+      label: 'Escuela Preparatoria Regional de Autlán'
+    -
+      value: 14MMS0622P
+      label: 'Escuela Preparatoria Regional de Casimiro Castillo'
+    -
+      value: 14MMS0732V
+      label: 'Módulo Ayotitlán'
+    -
+      value: 14MMS0733U
+      label: 'Módulo Chacala'
+    -
+      value: 14MMS0674V
+      label: 'Módulo Cuautitlán de García Barragán'
+    -
+      value: 14MMS0675U
+      label: 'Módulo H. Galeana'
+    -
+      value: 14MMS0676T
+      label: 'Módulo La Huerta'
+    -
+      value: 14MMS0736R
+      label: 'Módulo Telcruz'
+    -
+      value: 14MMS0677S
+      label: 'Módulo Villa Purificación'
+    -
+      value: 14MMS0734T
+      label: 'Módulo Cuzalapa'
+    -
+      value: 14MMS0735S
+      label: 'Módulo Tecomates'
+    -
+      value: 14MMS0737Q
+      label: 'Módulo Tequesquitlán'
+    -
+      value: 14MMS0651K
+      label: 'Escuela Preparatoria Regional de Chapala'
+    -
+      value: 14MMS0698E
+      label: 'Módulo de Mezcala'
+    -
+      value: 14MMS0624N
+      label: 'Escuela Preparatoria Regional de Cihuatlán'
+    -
+      value: 14MMS0682D
+      label: 'Módulo Miguel Hidalgo'
+    -
+      value: 14MMS0683C
+      label: 'Módulo San Patricio Melaque'
+    -
+      value: 14MMS0626L
+      label: 'Escuela Preparatoria Regional de Ciudad Guzmán'
+    -
+      value: 14MMS0758C
+      label: 'Módulo Copala'
+    -
+      value: 14MMS0680F
+      label: 'Módulo Tolimán'
+    -
+      value: 14MMS0681E
+      label: 'Módulo Zapotitlán de Vadillo'
+    -
+      value: 14MMS0707W
+      label: 'Escuela Preparatoria Regional de Cocula'
+    -
+      value: 14MMS0625M
+      label: 'Escuela Preparatoria Regional de Colotlán'
+    -
+      value: 14MMS0738P
+      label: 'Módulo Bolaños'
+    -
+      value: 14MMS0684B
+      label: 'Módulo Huejúcar'
+    -
+      value: 14MMS0687Z
+      label: 'Módulo San Martin de Bolaños'
+    -
+      value: 14MMS0688Y
+      label: 'Módulo Villa Guerrero'
+    -
+      value: 14MMS0652J
+      label: 'Escuela Preparatoria Regional de Degollado'
+    -
+      value: 14MMS0718B
+      label: 'Escuela Preparatoria Regional de El Arenal'
+    -
+      value: 14MMS0637R
+      label: 'Escuela Preparatoria Regional de El Grullo'
+    -
+      value: 14MMS0760R
+      label: 'Módulo El Chante'
+    -
+      value: 14MMS0671Y
+      label: 'Módulo El Limón'
+    -
+      value: 14MMS0673W
+      label: 'Módulo Tonaya'
+    -
+      value: 14MMS0731W
+      label: 'Módulo Tuxcacuesco'
+    -
+      value: 14MMS0654H
+      label: 'Escuela Preparatoria Regional de El Salto'
+    -
+      value: 14MMS0879O
+      label: 'Módulo Juanacatlán'
+    -
+      value: 14MMS0642C
+      label: 'Escuela Preparatoria Regional de Etzatlán'
+    -
+      value: 14MMS0726K
+      label: 'Módulo Oconahua'
+    -
+      value: 14MMS0661R
+      label: 'Módulo San Marcos'
+    -
+      value: 14MMS0685A
+      label: 'Escuela Preparatoria Regional de Huejuquilla el Alto'
+    -
+      value: 14MMS0686Z
+      label: 'Módulo Mezquitic'
+    -
+      value: 14MMS0798D
+      label: 'Escuela Preparatoria Regional de Ixtlahuacán de los Membrillos'
+    -
+      value: 14MMS0705Y
+      label: 'Escuela Preparatoria Regional de Jalostotitlán'
+    -
+      value: 14MMS0693J
+      label: 'Escuela Preparatoria Regional de Jamay'
+    -
+      value: 14MMS0653I
+      label: 'Escuela Preparatoria de Jocotepec'
+    -
+      value: 14MMS0678R
+      label: 'Módulo Concepción de Buenos Aires'
+    -
+      value: 14MMS0691L
+      label: 'Módulo La Manzanilla de la Paz'
+    -
+      value: 14MMS0692K
+      label: 'Módulo Tizapán el Alto'
+    -
+      value: 14MMS0635T
+      label: 'Escuela Preparatoria Regional de La Barca'
+    -
+      value: 14MMS0628J
+      label: 'Escuela Preparatoria Regional de Lagos de Moreno'
+    -
+      value: 14MMS0764N
+      label: 'Módulo Encarnación de Díaz'
+    -
+      value: 14MMS0697F
+      label: 'Módulo Ojuelos'
+    -
+      value: 14MMS0694I
+      label: 'Módulo San Diego de Alejandría'
+    -
+      value: 14MMS0695H
+      label: 'Módulo Unión de San Antonio'
+    -
+      value: 14MMS0696G
+      label: 'Módulo Villa Hidalgo'
+    -
+      value: 14MMS0722O
+      label: 'Escuela Preparatoria Regional de Mazamitla'
+    -
+      value: 14MMS0634U
+      label: 'Escuela Preparatoria Regional de Puerto Vallarta'
+    -
+      value: 14MMS0700C
+      label: 'Módulo El Tuito'
+    -
+      value: 14MMS0701B
+      label: 'Módulo Ixtapa'
+    -
+      value: 14MMS0702A
+      label: 'Módulo Morelos'
+    -
+      value: 14MMS0703Z
+      label: 'Módulo Pino Suárez'
+    -
+      value: 14MMS0704Z
+      label: 'Módulo Tomatlán'
+    -
+      value: 14MMS0629I
+      label: 'Escuela Preparatoria Regional de San Juan de los Lagos'
+    -
+      value: 14MMS0769I
+      label: 'Módulo Teocaltiche'
+    -
+      value: 14MMS0644A
+      label: 'Escuela Preparatoria Regional de San Martín Hidalgo'
+    -
+      value: 14MMS0739O
+      label: 'Módulo Buenavista'
+    -
+      value: 14MMS0706X
+      label: 'Escuela Preparatoria Regional de San Miguel el Alto'
+    -
+      value: 14MMS0714F
+      label: 'Módulo San Julián'
+    -
+      value: 14MMS0759B
+      label: 'Escuela Preparatoria Regional de Santa Anita'
+    -
+      value: 14MMS0627K
+      label: 'Escuela Preparatoria Regional de Sayula'
+    -
+      value: 14MMS0754G
+      label: 'Módulo Amacueca'
+    -
+      value: 14MMS0709U
+      label: 'Módulo San Gabriel'
+    -
+      value: 14MMS0710J
+      label: 'Módulo Tapalpa'
+    -
+      value: 14MMS0832U
+      label: 'Módulo Usmajac'
+    -
+      value: 14MMS0655G
+      label: 'Escuela Preparatoria Regional de Tala'
+    -
+      value: 14MMS0771X
+      label: 'Módulo San Isidro Mazatepec'
+    -
+      value: 14MMS0620R
+      label: 'Escuela Preparatoria Regional de Tamazula de Gordiano “Dr. Roberto Mendiola Orta”'
+    -
+      value: 14MMS0766L
+      label: 'Módulo Contla'
+    -
+      value: 14MMS0689X
+      label: 'Módulo Quitupan'
+    -
+      value: 14MMS0770Y
+      label: 'Módulo Valle de Juárez'
+    -
+      value: 14MMS0690M
+      label: 'Módulo Lázaro Cárdenas'
+    -
+      value: 14MMS0740D
+      label: 'Módulo Vista Hermosa'
+    -
+      value: 14MMS0656F
+      label: 'Escuela Preparatoria Regional de Tecolotlán'
+    -
+      value: 14MMS0768J
+      label: 'Módulo Chiquilistlán'
+    -
+      value: 14MMS0711I
+      label: 'Módulo Juchitlán'
+    -
+      value: 14MMS0730X
+      label: 'Módulo Soyatlán del Oro'
+    -
+      value: 14MMS0670Z
+      label: 'Módulo Tenamaxtlán'
+    -
+      value: 14MMS0632W
+      label: 'Escuela Preparatoria Regional de Tepatitlán'
+    -
+      value: 14MMS0713G
+      label: 'Módulo Acatic'
+    -
+      value: 14MMS0763O
+      label: 'Módulo de Cañadas de Obregón'
+    -
+      value: 14MMS0715E
+      label: 'Módulo Valle de Guadalupe'
+    -
+      value: 14MMS0716D
+      label: 'Módulo Yahualica'
+    -
+      value: 14MMS0660S
+      label: 'Escuela Preparatoria Regional de Tequila'
+    -
+      value: 14MMS0719A
+      label: 'Módulo Hostotipaquillo'
+    -
+      value: 14MMS0720Q
+      label: 'Módulo Magdalena'
+    -
+      value: 14MMS0742B
+      label: 'Módulo La Venta de Mochitiltic'
+    -
+      value: 14MMS0743A
+      label: 'Módulo San Andrés'
+    -
+      value: 14MMS0657E
+      label: 'Escuela Preparatoria Regional de Tlajomulco de Zúñiga'
+    -
+      value: 14MMS0721P
+      label: 'Módulo Cajititlán'
+    -
+      value: 14MMS0744Z
+      label: 'Módulo San Agustín'
+    -
+      value: 14MMS0817B
+      label: 'Módulo El Zapote'
+    -
+      value: 14MMS0773V
+      label: 'Escuela Preparatoria Regional de Toluquilla'
+    -
+      value: 14MMS0633V
+      label: 'Escuela Preparatoria Regional de Tuxpan'
+    -
+      value: 14MMS0772W
+      label: 'Módulo Pihuamo'
+    -
+      value: 14MMS0679Q
+      label: 'Módulo Tecalitlán'
+    -
+      value: 14MMS0723N
+      label: 'Módulo Tonila'
+    -
+      value: 14MMS0712H
+      label: 'Escuela Preparatoria Regional de Unión de Tula'
+    -
+      value: 14MMS0669J
+      label: 'Módulo Ayutla'
+    -
+      value: 14MMS0672X
+      label: 'Módulo Ejutla'
+    -
+      value: 14MMS0708V
+      label: 'Escuela Preparatoria Regional de Villa Corona'
+    -
+      value: 14MMS0767K
+      label: 'Módulo Acatlán de Juárez'
+    -
+      value: 14MMS0659C
+      label: 'Escuela Preparatoria Regional de Zacoalco de Torres'
+    -
+      value: 14MMS0755F
+      label: 'Módulo Atemajac de Brizuela'
+    -
+      value: 14MMS0746Y
+      label: 'Módulo Teocuitatlán de Corona'
+    -
+      value: 14MMS0724M
+      label: 'Módulo Villa Atoyac'
+    -
+      value: 14MMS0745Z
+      label: 'Módulo Cítala'
+    -
+      value: 14MMS0638Q
+      label: 'Escuela Preparatoria Regional de Zapotiltic'
+    -
+      value: 14MMS0658D
+      label: 'Escuela Preparatoria Regional de Zapotlanejo'
+    -
+      value: 14MMS0725L
+      label: 'Módulo Matatlán'
+    -
+      value: 14MMS0616E
+      label: 'Escuela Regional de Educación Media Superior de Ocotlán'
+    -
+      value: 14MMS0639P
+      label: 'Módulo Atequiza'
+    -
+      value: 14MMS0699D
+      label: 'Módulo Tototlán'
+    -
+      value: 14MMS0748W
+      label: 'Módulo Zapotlán del Rey'
+    -
+      value: 14MMS0827I
+      label: 'Módulo Poncitlán'
+    -
+      value: 14MMS0751J
+      label: 'Escuela de Educación Media Superior Wixárika'
+    -
+      value: 14MMS0830W
+      label: 'Módulo Ocota de la Sierra'
+    -
+      value: 14MMS0818A
+      label: 'Escuela Preparatoria de San José del Valle de Tlajomulco de Zúñiga'
+    -
+      value: 14MMS0912F
+      label: 'Módulo Haciendas de Santa Fe'
+    -
+      value: DGSEMS
+      label: 'Dirección General del Sistema de Educación Media Superior'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

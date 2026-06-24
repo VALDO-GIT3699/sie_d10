@@ -1,0 +1,23 @@
+uuid: 9e4750ec-9877-447a-8e2e-87f36ca71387
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.30ar_planteles
+id: storage.30ar_planteles.field_row
+field_name: field_row
+entity_type: storage
+bundle: 30ar_planteles
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

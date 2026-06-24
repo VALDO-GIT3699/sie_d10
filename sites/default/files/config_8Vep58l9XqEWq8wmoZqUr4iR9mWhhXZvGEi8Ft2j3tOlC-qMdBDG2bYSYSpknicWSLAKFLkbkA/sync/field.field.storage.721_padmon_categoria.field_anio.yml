@@ -1,0 +1,29 @@
+uuid: 23ecf4d1-765f-4d59-a19a-18a921a28f57
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.721_padmon_categoria
+    - taxonomy.vocabulary.ano
+id: storage.721_padmon_categoria.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 721_padmon_categoria
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

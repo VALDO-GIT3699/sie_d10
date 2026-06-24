@@ -1,0 +1,23 @@
+uuid: 640e2bad-c642-497b-a17c-b6e649e5260e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total
+    - storage.storage_type.211_pe_unicos_con_matricula
+id: storage.211_pe_unicos_con_matricula.field_total
+field_name: field_total
+entity_type: storage
+bundle: 211_pe_unicos_con_matricula
+label: Total
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

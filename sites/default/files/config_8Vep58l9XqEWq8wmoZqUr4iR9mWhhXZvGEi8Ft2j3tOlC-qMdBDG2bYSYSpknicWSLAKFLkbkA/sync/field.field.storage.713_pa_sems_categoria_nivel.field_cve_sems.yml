@@ -1,0 +1,21 @@
+uuid: 9e663e1a-c93d-4bb4-8f14-fb38fd105ab2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_sems
+    - storage.storage_type.713_pa_sems_categoria_nivel
+  module:
+    - options
+id: storage.713_pa_sems_categoria_nivel.field_cve_sems
+field_name: field_cve_sems
+entity_type: storage
+bundle: 713_pa_sems_categoria_nivel
+label: 'Clave de plantel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

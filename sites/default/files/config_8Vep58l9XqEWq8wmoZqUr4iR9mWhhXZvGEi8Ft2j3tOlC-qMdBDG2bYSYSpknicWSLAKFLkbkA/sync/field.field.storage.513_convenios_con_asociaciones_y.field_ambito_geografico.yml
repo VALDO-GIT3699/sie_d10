@@ -1,0 +1,29 @@
+uuid: 8454483a-6c71-414a-be11-a12427b1bbcc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ambito_geografico
+    - storage.storage_type.513_convenios_con_asociaciones_y
+    - taxonomy.vocabulary.ambito_geogra
+id: storage.513_convenios_con_asociaciones_y.field_ambito_geografico
+field_name: field_ambito_geografico
+entity_type: storage
+bundle: 513_convenios_con_asociaciones_y
+label: 'Ámbito geográfico'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ambito_geogra: ambito_geogra
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

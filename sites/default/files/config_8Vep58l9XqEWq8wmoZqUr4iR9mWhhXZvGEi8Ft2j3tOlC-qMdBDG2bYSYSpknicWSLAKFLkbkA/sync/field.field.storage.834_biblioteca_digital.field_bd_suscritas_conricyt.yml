@@ -1,0 +1,23 @@
+uuid: 88a154ee-49a4-4854-a2c5-6a7c6507a6e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_bd_suscritas_conricyt
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_bd_suscritas_conricyt
+field_name: field_bd_suscritas_conricyt
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Bases de datos sucritas a través de CONRICYT'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

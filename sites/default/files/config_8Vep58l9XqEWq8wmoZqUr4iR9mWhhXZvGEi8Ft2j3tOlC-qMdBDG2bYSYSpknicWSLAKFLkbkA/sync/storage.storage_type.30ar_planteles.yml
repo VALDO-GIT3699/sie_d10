@@ -1,0 +1,13 @@
+uuid: 9f0b4006-da8c-4b47-aeaa-4c5d7c3a845f
+langcode: es
+status: true
+dependencies: {  }
+id: 30ar_planteles
+label: '30AR Planteles'
+description: 'Histórico de planteles por tipo de plantel'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

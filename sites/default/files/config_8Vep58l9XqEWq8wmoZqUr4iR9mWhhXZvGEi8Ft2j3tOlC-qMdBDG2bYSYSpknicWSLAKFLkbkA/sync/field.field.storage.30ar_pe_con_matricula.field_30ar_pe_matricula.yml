@@ -1,0 +1,23 @@
+uuid: 6cbc4dd8-d3bf-4d76-b0b4-8f26a9428816
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_pe_matricula
+    - storage.storage_type.30ar_pe_con_matricula
+id: storage.30ar_pe_con_matricula.field_30ar_pe_matricula
+field_name: field_30ar_pe_matricula
+entity_type: storage
+bundle: 30ar_pe_con_matricula
+label: 'Programas educativos con matrícula'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

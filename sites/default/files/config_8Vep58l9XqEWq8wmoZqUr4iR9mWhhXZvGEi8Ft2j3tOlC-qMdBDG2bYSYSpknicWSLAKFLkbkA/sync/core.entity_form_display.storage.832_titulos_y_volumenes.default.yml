@@ -1,0 +1,117 @@
+uuid: 5b6d0707-f468-42cc-b663-53b5896039c4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.832_titulos_y_volumenes.feeds_item
+    - field.field.storage.832_titulos_y_volumenes.field_anio
+    - field.field.storage.832_titulos_y_volumenes.field_entidad_universitaria
+    - field.field.storage.832_titulos_y_volumenes.field_row
+    - field.field.storage.832_titulos_y_volumenes.field_sus_rev_impresas
+    - field.field.storage.832_titulos_y_volumenes.field_titulos_ad_compra
+    - field.field.storage.832_titulos_y_volumenes.field_titulos_ad_donacion
+    - field.field.storage.832_titulos_y_volumenes.field_titulos_existentes
+    - field.field.storage.832_titulos_y_volumenes.field_volumenes_ad_compra
+    - field.field.storage.832_titulos_y_volumenes.field_volumenes_ad_donacion
+    - field.field.storage.832_titulos_y_volumenes.field_volumenes_existentes
+    - storage.storage_type.832_titulos_y_volumenes
+id: storage.832_titulos_y_volumenes.default
+targetEntityType: storage
+bundle: 832_titulos_y_volumenes
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_sus_rev_impresas:
+    type: number
+    weight: 35
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_titulos_ad_compra:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_titulos_ad_donacion:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_titulos_existentes:
+    type: number
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_volumenes_ad_compra:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_volumenes_ad_donacion:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_volumenes_existentes:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

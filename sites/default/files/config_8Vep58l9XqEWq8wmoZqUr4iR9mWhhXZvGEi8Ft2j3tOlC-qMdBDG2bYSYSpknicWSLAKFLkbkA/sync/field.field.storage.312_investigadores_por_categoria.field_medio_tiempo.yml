@@ -1,0 +1,23 @@
+uuid: 47fe7464-e573-4ba2-b8d8-ae2023ba9c8a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_medio_tiempo
+    - storage.storage_type.312_investigadores_por_categoria
+id: storage.312_investigadores_por_categoria.field_medio_tiempo
+field_name: field_medio_tiempo
+entity_type: storage
+bundle: 312_investigadores_por_categoria
+label: 'Investigadores de medio tiempo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

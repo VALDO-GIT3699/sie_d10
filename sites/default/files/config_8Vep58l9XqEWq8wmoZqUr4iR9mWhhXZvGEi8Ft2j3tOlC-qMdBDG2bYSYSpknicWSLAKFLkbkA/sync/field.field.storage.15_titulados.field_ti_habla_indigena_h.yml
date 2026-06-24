@@ -1,0 +1,23 @@
+uuid: ce63359f-d90a-4b8b-a859-4e07f429b708
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_habla_indigena_h
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_ti_habla_indigena_h
+field_name: field_ti_habla_indigena_h
+entity_type: storage
+bundle: 15_titulados
+label: 'Hombres de habla indígena titulados'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

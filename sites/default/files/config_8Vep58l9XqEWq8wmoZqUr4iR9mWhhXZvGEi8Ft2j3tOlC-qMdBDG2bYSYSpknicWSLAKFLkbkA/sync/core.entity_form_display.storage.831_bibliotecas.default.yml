@@ -1,0 +1,181 @@
+uuid: ed3f0958-2cbd-4703-a7c7-fa9e3c3211ef
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.831_bibliotecas.feeds_item
+    - field.field.storage.831_bibliotecas.field_anio
+    - field.field.storage.831_bibliotecas.field_asientos
+    - field.field.storage.831_bibliotecas.field_asistencia_prom
+    - field.field.storage.831_bibliotecas.field_bibliotecas
+    - field.field.storage.831_bibliotecas.field_busq_catalogo_linea
+    - field.field.storage.831_bibliotecas.field_comp_usuarios
+    - field.field.storage.831_bibliotecas.field_cubiculos_grup
+    - field.field.storage.831_bibliotecas.field_cubiculos_ind
+    - field.field.storage.831_bibliotecas.field_entidad_universitaria
+    - field.field.storage.831_bibliotecas.field_estanteria_m
+    - field.field.storage.831_bibliotecas.field_m2_ser_publico
+    - field.field.storage.831_bibliotecas.field_mesas
+    - field.field.storage.831_bibliotecas.field_no_usuarios
+    - field.field.storage.831_bibliotecas.field_prestamo_externo
+    - field.field.storage.831_bibliotecas.field_prestamo_interno
+    - field.field.storage.831_bibliotecas.field_row
+    - field.field.storage.831_bibliotecas.field_salas_audiovisuales
+    - field.field.storage.831_bibliotecas.field_total_m2
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.default
+targetEntityType: storage
+bundle: 831_bibliotecas
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_asientos:
+    type: number
+    weight: 39
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_asistencia_prom:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_bibliotecas:
+    type: number
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_busq_catalogo_linea:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_comp_usuarios:
+    type: number
+    weight: 35
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_cubiculos_grup:
+    type: number
+    weight: 42
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_cubiculos_ind:
+    type: number
+    weight: 41
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_estanteria_m:
+    type: number
+    weight: 38
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_m2_ser_publico:
+    type: number
+    weight: 37
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_mesas:
+    type: number
+    weight: 40
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_usuarios:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_prestamo_externo:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_prestamo_interno:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_salas_audiovisuales:
+    type: number
+    weight: 43
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total_m2:
+    type: number
+    weight: 36
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

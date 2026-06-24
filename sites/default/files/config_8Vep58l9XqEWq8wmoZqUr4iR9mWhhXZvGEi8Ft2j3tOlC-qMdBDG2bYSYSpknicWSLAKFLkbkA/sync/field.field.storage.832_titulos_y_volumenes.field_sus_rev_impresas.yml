@@ -1,0 +1,23 @@
+uuid: c8b7f620-1a6b-48b6-9e3b-3cdb2d4be1bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_sus_rev_impresas
+    - storage.storage_type.832_titulos_y_volumenes
+id: storage.832_titulos_y_volumenes.field_sus_rev_impresas
+field_name: field_sus_rev_impresas
+entity_type: storage
+bundle: 832_titulos_y_volumenes
+label: 'Suscripción a revistas impresas científicas y académicas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

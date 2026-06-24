@@ -1,0 +1,23 @@
+uuid: 3bf20fbb-b1e0-4d38-916b-054e5dcb16af
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.422_pe_que_requieren_pp
+  module:
+    - feeds
+id: storage.422_pe_que_requieren_pp.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 422_pe_que_requieren_pp
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

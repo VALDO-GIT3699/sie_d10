@@ -1,0 +1,13 @@
+uuid: 3771c058-d2a9-4b5e-a87b-5bde9aa9208d
+langcode: es
+status: true
+dependencies: {  }
+id: 511_convenios
+label: '511 Convenios'
+description: 'Convenios de la Universidad de Guadalajara con otros páises'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

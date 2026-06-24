@@ -1,0 +1,23 @@
+uuid: 0b28f36f-6f3e-4089-86cc-c60c6d401d72
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_vis_ceguera_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_vis_ceguera_m
+field_name: field_disc_vis_ceguera_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujeres con discapacidad visual ceguera'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

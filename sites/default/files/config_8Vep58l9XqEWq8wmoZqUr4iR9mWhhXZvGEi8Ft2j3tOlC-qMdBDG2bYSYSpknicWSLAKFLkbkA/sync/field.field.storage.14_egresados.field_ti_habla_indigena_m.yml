@@ -1,0 +1,23 @@
+uuid: f8983c4d-1414-4ada-b7c1-02efaf1f8436
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_habla_indigena_m
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_ti_habla_indigena_m
+field_name: field_ti_habla_indigena_m
+entity_type: storage
+bundle: 14_egresados
+label: 'Mujeres de habla indígena tituladas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

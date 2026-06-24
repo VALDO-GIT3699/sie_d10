@@ -1,0 +1,29 @@
+uuid: 9b3e3c22-c40e-466f-8439-1844f076b534
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.30_anos_de_la_red_udeg
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__30_anos_de_la_red_udeg_block_16
+theme: b4seutheme
+region: content
+weight: -49
+provider: null
+plugin: 'views_block:30_anos_de_la_red_udeg-block_16'
+settings:
+  id: 'views_block:30_anos_de_la_red_udeg-block_16'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /30-anos-de-la-red-udeg

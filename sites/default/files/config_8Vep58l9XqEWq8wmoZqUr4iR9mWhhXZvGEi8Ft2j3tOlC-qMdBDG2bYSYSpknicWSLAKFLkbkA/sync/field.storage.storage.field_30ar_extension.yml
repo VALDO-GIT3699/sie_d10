@@ -1,0 +1,20 @@
+uuid: 0aa9d9eb-ef25-49b1-814d-7734e170b0c3
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_30ar_extension
+field_name: field_30ar_extension
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

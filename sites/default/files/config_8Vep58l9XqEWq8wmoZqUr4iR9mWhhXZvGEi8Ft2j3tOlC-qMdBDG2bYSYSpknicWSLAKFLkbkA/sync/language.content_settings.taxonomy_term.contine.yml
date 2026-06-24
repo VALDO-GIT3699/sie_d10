@@ -1,0 +1,11 @@
+uuid: 05c230fc-3aa3-4570-ab7f-a63faa98f3b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.contine
+id: taxonomy_term.contine
+target_entity_type_id: taxonomy_term
+target_bundle: contine
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,23 @@
+uuid: 57702442-4b98-4592-aa9d-976972472ea7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_investigadores_tc_nb
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_investigadores_tc_nb
+field_name: field_investigadores_tc_nb
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Investigadores de tiempo completo personas no binarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

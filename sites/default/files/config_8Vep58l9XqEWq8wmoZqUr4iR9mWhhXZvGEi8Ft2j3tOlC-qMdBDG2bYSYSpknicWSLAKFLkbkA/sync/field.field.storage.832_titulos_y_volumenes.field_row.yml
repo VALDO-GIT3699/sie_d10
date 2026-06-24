@@ -1,0 +1,23 @@
+uuid: 1884b129-eaee-451a-a79e-02b66fae277e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.832_titulos_y_volumenes
+id: storage.832_titulos_y_volumenes.field_row
+field_name: field_row
+entity_type: storage
+bundle: 832_titulos_y_volumenes
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

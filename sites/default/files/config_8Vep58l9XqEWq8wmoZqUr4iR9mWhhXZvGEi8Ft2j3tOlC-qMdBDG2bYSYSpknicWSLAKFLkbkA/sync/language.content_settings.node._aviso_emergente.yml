@@ -1,0 +1,11 @@
+uuid: a0eb001a-27c5-43f3-8102-7ffb01c60a47
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type._aviso_emergente
+id: node._aviso_emergente
+target_entity_type_id: node
+target_bundle: _aviso_emergente
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,21 @@
+uuid: 2212f859-83aa-4e24-862a-7c3f086f2352
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_pa_nivel
+    - storage.storage_type.312_investigadores_por_categoria
+  module:
+    - options
+id: storage.312_investigadores_por_categoria.field_pa_nivel
+field_name: field_pa_nivel
+entity_type: storage
+bundle: 312_investigadores_por_categoria
+label: Nivel
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

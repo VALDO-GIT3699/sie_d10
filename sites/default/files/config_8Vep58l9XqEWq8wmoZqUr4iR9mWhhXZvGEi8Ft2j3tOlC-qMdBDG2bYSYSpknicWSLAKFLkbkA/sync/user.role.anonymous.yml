@@ -1,0 +1,30 @@
+uuid: b236a416-43dc-47d4-8901-f19b75fe0f35
+langcode: es
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+    - storage.storage_type.plantel
+  module:
+    - comment
+    - contact
+    - entity_print
+    - filter
+    - search
+    - storage
+    - system
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Usuario anónimo'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'entity print access bundle noticia'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view published plantel storage entities'
+  - 'view published storage entities'

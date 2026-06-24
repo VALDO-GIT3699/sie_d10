@@ -1,0 +1,23 @@
+uuid: c7e2a5e1-1359-477b-830e-8f6dc3770614
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.galeria_de_videos
+  module:
+    - node
+id: galeria_de_videos
+label: 'Galería de videos'
+type: 'canonical_entities:node'
+pattern: '/multimedia/galeria_de_videos/[node:title]'
+selection_criteria:
+  edfc06db-ffa4-4447-8285-b59da9427a06:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      galeria_de_videos: galeria_de_videos
+selection_logic: and
+weight: -5
+relationships: {  }

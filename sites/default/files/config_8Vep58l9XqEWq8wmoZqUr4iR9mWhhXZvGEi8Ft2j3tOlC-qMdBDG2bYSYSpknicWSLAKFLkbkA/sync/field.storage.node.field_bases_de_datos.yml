@@ -1,0 +1,19 @@
+uuid: b11c3e9c-75e5-4652-b1b3-77f970a93eac
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_bases_de_datos
+field_name: field_bases_de_datos
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

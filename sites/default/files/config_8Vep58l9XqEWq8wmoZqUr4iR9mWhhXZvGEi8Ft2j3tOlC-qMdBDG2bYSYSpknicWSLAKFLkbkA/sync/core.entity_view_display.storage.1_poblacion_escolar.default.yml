@@ -1,0 +1,753 @@
+uuid: 6cf9bb31-a6c3-4302-b248-37ad69101081
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.1_poblacion_escolar.feeds_item
+    - field.field.storage.1_poblacion_escolar.field_ciclo
+    - field.field.storage.1_poblacion_escolar.field_cve_plantel
+    - field.field.storage.1_poblacion_escolar.field_cve_programa
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_hipoacusia_h
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_hipoacusia_m
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_hipoacusia_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_hipoacusia_t
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_sordera_h
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_sordera_m
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_sordera_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_sordera_t
+    - field.field.storage.1_poblacion_escolar.field_disc_fis_motriz_h
+    - field.field.storage.1_poblacion_escolar.field_disc_fis_motriz_m
+    - field.field.storage.1_poblacion_escolar.field_disc_fis_motriz_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_fis_motriz_t
+    - field.field.storage.1_poblacion_escolar.field_disc_intelectual_h
+    - field.field.storage.1_poblacion_escolar.field_disc_intelectual_m
+    - field.field.storage.1_poblacion_escolar.field_disc_intelectual_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_intelectual_t
+    - field.field.storage.1_poblacion_escolar.field_disc_multiple_h
+    - field.field.storage.1_poblacion_escolar.field_disc_multiple_m
+    - field.field.storage.1_poblacion_escolar.field_disc_multiple_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_multiple_t
+    - field.field.storage.1_poblacion_escolar.field_disc_psicosocial_h
+    - field.field.storage.1_poblacion_escolar.field_disc_psicosocial_m
+    - field.field.storage.1_poblacion_escolar.field_disc_psicosocial_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_psicosocial_t
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_baja_vision_h
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_baja_vision_m
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_baja_vision_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_baja_vision_t
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_ceguera_h
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_ceguera_m
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_ceguera_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_ceguera_t
+    - field.field.storage.1_poblacion_escolar.field_discapacidad_h
+    - field.field.storage.1_poblacion_escolar.field_discapacidad_m
+    - field.field.storage.1_poblacion_escolar.field_discapacidad_nb
+    - field.field.storage.1_poblacion_escolar.field_discapacidad_t
+    - field.field.storage.1_poblacion_escolar.field_e_discapacidad_h
+    - field.field.storage.1_poblacion_escolar.field_e_discapacidad_m
+    - field.field.storage.1_poblacion_escolar.field_e_discapacidad_nb
+    - field.field.storage.1_poblacion_escolar.field_e_discapacidad_t
+    - field.field.storage.1_poblacion_escolar.field_e_habla_indigena_h
+    - field.field.storage.1_poblacion_escolar.field_e_habla_indigena_m
+    - field.field.storage.1_poblacion_escolar.field_e_habla_indigena_nb
+    - field.field.storage.1_poblacion_escolar.field_e_habla_indigena_t
+    - field.field.storage.1_poblacion_escolar.field_egresados_h
+    - field.field.storage.1_poblacion_escolar.field_egresados_m
+    - field.field.storage.1_poblacion_escolar.field_egresados_nb
+    - field.field.storage.1_poblacion_escolar.field_egresados_t
+    - field.field.storage.1_poblacion_escolar.field_habla_indigena_h
+    - field.field.storage.1_poblacion_escolar.field_habla_indigena_m
+    - field.field.storage.1_poblacion_escolar.field_habla_indigena_nb
+    - field.field.storage.1_poblacion_escolar.field_habla_indigena_t
+    - field.field.storage.1_poblacion_escolar.field_matricula_h
+    - field.field.storage.1_poblacion_escolar.field_matricula_m
+    - field.field.storage.1_poblacion_escolar.field_matricula_nb
+    - field.field.storage.1_poblacion_escolar.field_matricula_t
+    - field.field.storage.1_poblacion_escolar.field_modalidad
+    - field.field.storage.1_poblacion_escolar.field_row
+    - field.field.storage.1_poblacion_escolar.field_ti_discapacidad_h
+    - field.field.storage.1_poblacion_escolar.field_ti_discapacidad_m
+    - field.field.storage.1_poblacion_escolar.field_ti_discapacidad_nb
+    - field.field.storage.1_poblacion_escolar.field_ti_discapacidad_t
+    - field.field.storage.1_poblacion_escolar.field_ti_habla_indigena_h
+    - field.field.storage.1_poblacion_escolar.field_ti_habla_indigena_m
+    - field.field.storage.1_poblacion_escolar.field_ti_habla_indigena_nb
+    - field.field.storage.1_poblacion_escolar.field_ti_habla_indigena_t
+    - field.field.storage.1_poblacion_escolar.field_titulados_h
+    - field.field.storage.1_poblacion_escolar.field_titulados_m
+    - field.field.storage.1_poblacion_escolar.field_titulados_nb
+    - field.field.storage.1_poblacion_escolar.field_titulados_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.default
+targetEntityType: storage
+bundle: 1_poblacion_escolar
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_cve_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_cve_programa:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_disc_aud_hipoacusia_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 47
+    region: content
+  field_disc_aud_hipoacusia_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 48
+    region: content
+  field_disc_aud_hipoacusia_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 49
+    region: content
+  field_disc_aud_hipoacusia_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 50
+    region: content
+  field_disc_aud_sordera_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 51
+    region: content
+  field_disc_aud_sordera_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 52
+    region: content
+  field_disc_aud_sordera_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 53
+    region: content
+  field_disc_aud_sordera_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 54
+    region: content
+  field_disc_fis_motriz_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 35
+    region: content
+  field_disc_fis_motriz_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 36
+    region: content
+  field_disc_fis_motriz_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 37
+    region: content
+  field_disc_fis_motriz_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 38
+    region: content
+  field_disc_intelectual_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 39
+    region: content
+  field_disc_intelectual_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 40
+    region: content
+  field_disc_intelectual_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 41
+    region: content
+  field_disc_intelectual_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 42
+    region: content
+  field_disc_multiple_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 43
+    region: content
+  field_disc_multiple_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 44
+    region: content
+  field_disc_multiple_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 45
+    region: content
+  field_disc_multiple_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 46
+    region: content
+  field_disc_psicosocial_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 63
+    region: content
+  field_disc_psicosocial_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 64
+    region: content
+  field_disc_psicosocial_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 65
+    region: content
+  field_disc_psicosocial_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 66
+    region: content
+  field_disc_vis_baja_vision_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 55
+    region: content
+  field_disc_vis_baja_vision_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 56
+    region: content
+  field_disc_vis_baja_vision_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 57
+    region: content
+  field_disc_vis_baja_vision_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 58
+    region: content
+  field_disc_vis_ceguera_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 59
+    region: content
+  field_disc_vis_ceguera_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 60
+    region: content
+  field_disc_vis_ceguera_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 61
+    region: content
+  field_disc_vis_ceguera_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 62
+    region: content
+  field_discapacidad_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 69
+    region: content
+  field_discapacidad_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_discapacidad_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_discapacidad_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_e_discapacidad_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_e_discapacidad_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_e_discapacidad_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_e_discapacidad_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_e_habla_indigena_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_e_habla_indigena_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_e_habla_indigena_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_e_habla_indigena_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_egresados_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_egresados_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_egresados_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_egresados_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_habla_indigena_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_habla_indigena_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_habla_indigena_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_habla_indigena_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_matricula_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_matricula_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_matricula_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_matricula_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 68
+    region: content
+  field_modalidad:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 67
+    region: content
+  field_ti_discapacidad_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_ti_discapacidad_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_ti_discapacidad_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 29
+    region: content
+  field_ti_discapacidad_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  field_ti_habla_indigena_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 31
+    region: content
+  field_ti_habla_indigena_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 32
+    region: content
+  field_ti_habla_indigena_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 33
+    region: content
+  field_ti_habla_indigena_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 34
+    region: content
+  field_titulados_h:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_titulados_m:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_titulados_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_titulados_t:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

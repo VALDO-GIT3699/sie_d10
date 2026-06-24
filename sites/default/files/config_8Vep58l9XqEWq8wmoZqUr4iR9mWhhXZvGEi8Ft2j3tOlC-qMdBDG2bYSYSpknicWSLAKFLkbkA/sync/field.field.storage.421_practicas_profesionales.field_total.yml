@@ -1,0 +1,23 @@
+uuid: 305d627b-1206-4138-a3dc-2c8a26c452a8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total
+    - storage.storage_type.421_practicas_profesionales
+id: storage.421_practicas_profesionales.field_total
+field_name: field_total
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: Total
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

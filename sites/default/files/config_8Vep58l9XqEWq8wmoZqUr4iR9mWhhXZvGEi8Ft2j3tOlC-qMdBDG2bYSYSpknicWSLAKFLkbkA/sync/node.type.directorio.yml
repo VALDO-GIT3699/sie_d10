@@ -1,0 +1,18 @@
+uuid: 13ce2dee-5f45-411f-82b9-ea473ef52ea9
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Directorio
+type: directorio
+description: 'Utilícelo para crear fichas de funcionarios que aparecerán en el directorio oficial del sitio en <em>/directorio</em>.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

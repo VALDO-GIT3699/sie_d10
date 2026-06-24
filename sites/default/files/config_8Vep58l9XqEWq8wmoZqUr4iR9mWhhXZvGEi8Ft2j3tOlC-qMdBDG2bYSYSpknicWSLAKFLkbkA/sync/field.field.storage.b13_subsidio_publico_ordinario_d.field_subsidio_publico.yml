@@ -1,0 +1,21 @@
+uuid: 688459b4-c68d-4c01-a220-1631369cabd1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_subsidio_publico
+    - storage.storage_type.b13_subsidio_publico_ordinario_d
+  module:
+    - options
+id: storage.b13_subsidio_publico_ordinario_d.field_subsidio_publico
+field_name: field_subsidio_publico
+entity_type: storage
+bundle: b13_subsidio_publico_ordinario_d
+label: 'Subsidio público'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

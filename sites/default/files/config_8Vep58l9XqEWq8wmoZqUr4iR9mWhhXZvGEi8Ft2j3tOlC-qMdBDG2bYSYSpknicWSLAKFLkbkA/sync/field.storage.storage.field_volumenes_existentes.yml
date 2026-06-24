@@ -1,0 +1,20 @@
+uuid: cb759c03-21a0-4e32-bda9-6afc03dadbeb
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_volumenes_existentes
+field_name: field_volumenes_existentes
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: eb2337e0-0d11-4c8c-a260-c8e847e09379
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_otros
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_otros
+field_name: field_30ar_otros
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: Otros
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

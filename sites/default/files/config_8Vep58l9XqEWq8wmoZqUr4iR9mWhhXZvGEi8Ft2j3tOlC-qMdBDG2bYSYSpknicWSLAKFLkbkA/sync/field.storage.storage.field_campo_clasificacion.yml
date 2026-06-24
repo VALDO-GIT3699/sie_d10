@@ -1,0 +1,20 @@
+uuid: cc1365a7-0812-44ad-8a3b-043c52f9123c
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_campo_clasificacion
+field_name: field_campo_clasificacion
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

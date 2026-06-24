@@ -1,0 +1,11 @@
+uuid: 88db150a-ab5e-45ef-a0e6-22bbbad9358e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.campos_de_clasificacion_sep
+id: taxonomy_term.campos_de_clasificacion_sep
+target_entity_type_id: taxonomy_term
+target_bundle: campos_de_clasificacion_sep
+default_langcode: site_default
+language_alterable: false

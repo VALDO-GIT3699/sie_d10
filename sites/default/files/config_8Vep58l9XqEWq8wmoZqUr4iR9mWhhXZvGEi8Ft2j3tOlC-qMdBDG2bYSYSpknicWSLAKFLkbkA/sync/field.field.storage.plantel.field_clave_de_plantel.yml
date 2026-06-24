@@ -1,0 +1,19 @@
+uuid: 52ba649a-d931-4d7c-86df-fcff8af193c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_clave_de_plantel
+    - storage.storage_type.plantel
+id: storage.plantel.field_clave_de_plantel
+field_name: field_clave_de_plantel
+entity_type: storage
+bundle: plantel
+label: 'Clave de plantel'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

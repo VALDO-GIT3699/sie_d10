@@ -1,0 +1,179 @@
+uuid: bd8e00d9-86db-45fe-978e-3c840714dde2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.921_energia.field_anio
+    - field.field.storage.921_energia.field_consumo_energia
+    - field.field.storage.921_energia.field_emisiones_gei
+    - field.field.storage.921_energia.field_energia
+    - field.field.storage.921_energia.field_entidad_universitaria
+    - field.field.storage.921_energia.field_paneles_solares
+    - field.field.storage.921_energia.field_potencia_kwh
+    - field.field.storage.921_energia.field_row
+    - storage.storage_type.921_energia
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '921 Energía'
+id: 921_energia
+description: 'Histórico de energía'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 921_energia
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  energia:
+    value: energia
+    label: energia
+    machine_name: energia
+    type: csv
+  potencia_kwh:
+    value: potencia_kwh
+    label: potencia_kwh
+    machine_name: potencia_kwh
+    type: csv
+  paneles_solares:
+    value: paneles_solares
+    label: paneles_solares
+    machine_name: paneles_solares
+    type: csv
+  consumo_energia:
+    value: consumo_energia
+    label: consumo_energia
+    machine_name: consumo_energia
+    type: csv
+  emisiones_gei:
+    value: emisiones_gei
+    label: emisiones_gei
+    machine_name: emisiones_gei
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_energia
+    map:
+      value: energia
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_potencia_kwh
+    map:
+      value: potencia_kwh
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_paneles_solares
+    map:
+      value: paneles_solares
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_consumo_energia
+    map:
+      value: consumo_energia
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_emisiones_gei
+    map:
+      value: emisiones_gei
+    settings:
+      language: null
+    unique: {  }

@@ -1,0 +1,23 @@
+uuid: a699515c-93bb-4497-8e98-4dddf46e3ec8
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.galeria_de_imagenes
+  module:
+    - node
+id: galeria
+label: Galería
+type: 'canonical_entities:node'
+pattern: '/multimedia/galeria_de_imagenes/[node:title]'
+selection_criteria:
+  054b3005-9d9a-4908-9707-94cf1182d679:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      galeria_de_imagenes: galeria_de_imagenes
+selection_logic: and
+weight: -5
+relationships: {  }

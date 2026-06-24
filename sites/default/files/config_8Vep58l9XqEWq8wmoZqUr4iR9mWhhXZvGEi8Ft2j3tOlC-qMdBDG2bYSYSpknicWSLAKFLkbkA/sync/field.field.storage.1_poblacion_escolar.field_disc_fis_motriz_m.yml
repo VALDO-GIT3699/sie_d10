@@ -1,0 +1,23 @@
+uuid: f2165b4c-222a-4dd0-b943-a18eb52d8548
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_fis_motriz_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_fis_motriz_m
+field_name: field_disc_fis_motriz_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujers con discapacidad física / motriz'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

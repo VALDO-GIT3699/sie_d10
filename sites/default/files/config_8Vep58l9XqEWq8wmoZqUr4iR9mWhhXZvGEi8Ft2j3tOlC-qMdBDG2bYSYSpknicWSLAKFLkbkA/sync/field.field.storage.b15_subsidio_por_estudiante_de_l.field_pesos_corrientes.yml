@@ -1,0 +1,25 @@
+uuid: d9d2a884-55a6-4ce4-a00f-4e53678f0cea
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_pesos_corrientes
+    - storage.storage_type.b15_subsidio_por_estudiante_de_l
+  module:
+    - bigint
+id: storage.b15_subsidio_por_estudiante_de_l.field_pesos_corrientes
+field_name: field_pesos_corrientes
+entity_type: storage
+bundle: b15_subsidio_por_estudiante_de_l
+label: 'Pesos corrientes'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: bigint

@@ -1,0 +1,23 @@
+uuid: 88a5230c-bed2-401f-a7ef-8d029baa9474
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_psicosocial_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_psicosocial_m
+field_name: field_disc_psicosocial_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujeres con discapacidad psicosocial'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

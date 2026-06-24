@@ -1,0 +1,9 @@
+uuid: 3e3d74ae-4879-46d4-848d-11f5035f3337
+langcode: es
+status: true
+dependencies: {  }
+name: 'Estatus de transparencia'
+vid: estatus_transparencia
+description: '¿Es un contrato o es un convenio?'
+weight: 0
+new_revision: false

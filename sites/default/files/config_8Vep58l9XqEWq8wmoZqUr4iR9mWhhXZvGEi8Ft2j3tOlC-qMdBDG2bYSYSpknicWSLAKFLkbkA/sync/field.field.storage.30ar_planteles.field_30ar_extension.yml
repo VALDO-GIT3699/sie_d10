@@ -1,0 +1,23 @@
+uuid: d26a1527-11dd-4612-9c4e-c426230dac14
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_extension
+    - storage.storage_type.30ar_planteles
+id: storage.30ar_planteles.field_30ar_extension
+field_name: field_30ar_extension
+entity_type: storage
+bundle: 30ar_planteles
+label: Extensiones
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

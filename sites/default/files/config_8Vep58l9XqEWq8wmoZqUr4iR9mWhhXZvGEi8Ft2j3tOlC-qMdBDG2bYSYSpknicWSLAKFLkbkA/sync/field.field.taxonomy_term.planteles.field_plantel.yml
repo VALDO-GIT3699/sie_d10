@@ -1,0 +1,21 @@
+uuid: bfe42de3-86fd-44de-b50d-9740499f7109
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_plantel
+    - taxonomy.vocabulary.planteles
+  module:
+    - options
+id: taxonomy_term.planteles.field_plantel
+field_name: field_plantel
+entity_type: taxonomy_term
+bundle: planteles
+label: Plantel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

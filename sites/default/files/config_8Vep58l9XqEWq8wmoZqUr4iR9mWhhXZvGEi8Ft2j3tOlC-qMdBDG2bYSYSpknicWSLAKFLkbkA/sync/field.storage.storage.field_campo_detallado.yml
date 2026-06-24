@@ -1,0 +1,20 @@
+uuid: 2dba591d-6639-4a39-8d28-3ca1263adc21
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_campo_detallado
+field_name: field_campo_detallado
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

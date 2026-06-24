@@ -1,0 +1,29 @@
+uuid: 1afe1b04-e00c-45b7-b77e-5fe8d0f2a631
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.personal_academico
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__personal_academico_block_34
+theme: b4seutheme
+region: content
+weight: 34
+provider: null
+plugin: 'views_block:personal_academico-block_34'
+settings:
+  id: 'views_block:personal_academico-block_34'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /recursos-humanos/personal-administrativo

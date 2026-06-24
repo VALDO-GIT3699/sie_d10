@@ -1,0 +1,23 @@
+uuid: c30f2b57-35ae-4cab-9b30-db13a3a8dac3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_bd_total
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_bd_total
+field_name: field_bd_total
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Bases de datos totales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

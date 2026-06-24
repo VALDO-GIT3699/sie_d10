@@ -1,0 +1,23 @@
+uuid: c51c2b3c-cd38-4229-8286-75c7e2191744
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_total
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.field_por_total
+field_name: field_por_total
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Porcentaje total'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

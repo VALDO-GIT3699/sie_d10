@@ -1,0 +1,5858 @@
+uuid: 7d6089fd-693e-4f3f-9dd1-eaca34df0401
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_campo_amplio
+    - field.storage.storage.field_ciclo
+    - field.storage.storage.field_discapacidad_m
+    - field.storage.storage.field_discapacidad_nb
+    - field.storage.storage.field_modalidad
+    - field.storage.storage.field_nivel_educativo
+    - field.storage.storage.field_programa_educativo
+    - field.storage.taxonomy_term.field_entidad_universitaria
+    - storage.storage_type.14_egresados
+    - storage.storage_type.matricula
+    - taxonomy.vocabulary.campos_de_clasificacion_sep
+    - taxonomy.vocabulary.ciclo
+    - taxonomy.vocabulary.entidad_universitaria
+    - taxonomy.vocabulary.ni
+    - taxonomy.vocabulary.regiones_jalisco
+  content:
+    - 'taxonomy_term:campos_de_clasificacion_sep:009a6915-5f5e-4dbe-a2a8-9a7b82997b41'
+    - 'taxonomy_term:campos_de_clasificacion_sep:0118f217-65f0-42d3-942a-5f6f3411995a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:02089fc3-5570-4d52-96bf-57d962347fa9'
+    - 'taxonomy_term:campos_de_clasificacion_sep:0331a0ea-d67c-4366-8e83-343bfca35b0e'
+    - 'taxonomy_term:campos_de_clasificacion_sep:038457c2-a99b-457b-9467-a11ff3028712'
+    - 'taxonomy_term:campos_de_clasificacion_sep:043ec9c8-ca66-4e97-9f61-87a00d62a4c1'
+    - 'taxonomy_term:campos_de_clasificacion_sep:065e1827-8742-4094-8195-608cd8f69bb0'
+    - 'taxonomy_term:campos_de_clasificacion_sep:06e74b00-18f3-44be-993a-e558e43c6e61'
+    - 'taxonomy_term:campos_de_clasificacion_sep:08049eb6-e1e5-448d-947c-7313b5ec8c5d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:093e4bc1-4f36-4ac0-9373-3d2f2bd57115'
+    - 'taxonomy_term:campos_de_clasificacion_sep:0a1eb128-4fab-4d0b-bbf9-1aa0ceee3791'
+    - 'taxonomy_term:campos_de_clasificacion_sep:0f074ec8-5ea6-4a3f-b272-f1b94ee190d3'
+    - 'taxonomy_term:campos_de_clasificacion_sep:0fb1e451-83f7-447c-ab2f-614835adfe9f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:116ce748-c5db-4139-9b71-7984a89ad648'
+    - 'taxonomy_term:campos_de_clasificacion_sep:14948d10-f42e-4250-8951-69f481edf9dd'
+    - 'taxonomy_term:campos_de_clasificacion_sep:14c6eb72-bd74-444e-ac79-31fe26685da2'
+    - 'taxonomy_term:campos_de_clasificacion_sep:150d336c-a05b-4422-bce8-ca2eaf8060c1'
+    - 'taxonomy_term:campos_de_clasificacion_sep:153b46b7-ef56-4aa0-8294-f1d3c9563ef5'
+    - 'taxonomy_term:campos_de_clasificacion_sep:157e54ae-7fdb-417a-a22e-296f7d2c95bc'
+    - 'taxonomy_term:campos_de_clasificacion_sep:15f966b7-ff1c-4871-b9a8-6d480698b046'
+    - 'taxonomy_term:campos_de_clasificacion_sep:17358094-dcae-4c69-bb10-7df5b8ee44dc'
+    - 'taxonomy_term:campos_de_clasificacion_sep:17a85878-0b2f-4a97-8e16-6166e5886808'
+    - 'taxonomy_term:campos_de_clasificacion_sep:17e6c895-06e1-4293-bdd0-f553325ce874'
+    - 'taxonomy_term:campos_de_clasificacion_sep:18ee3ec3-adb7-434c-9f4a-81fc7c1856c2'
+    - 'taxonomy_term:campos_de_clasificacion_sep:1a76dfeb-73d0-4d9d-ba96-82a7b7039451'
+    - 'taxonomy_term:campos_de_clasificacion_sep:1b1e5c55-e79b-4e0c-9dc4-29a099b52fa1'
+    - 'taxonomy_term:campos_de_clasificacion_sep:1c013c09-ead7-40e4-8255-40436dcac0e5'
+    - 'taxonomy_term:campos_de_clasificacion_sep:1c55af6b-074b-4420-8cc6-f173f9c96c27'
+    - 'taxonomy_term:campos_de_clasificacion_sep:1c99a7ec-63b5-4324-9618-6873e840127c'
+    - 'taxonomy_term:campos_de_clasificacion_sep:1ddfdc64-93fc-4147-9a36-12c963997d0f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:1df5229f-f16c-4fb9-b3a8-6c17991bc427'
+    - 'taxonomy_term:campos_de_clasificacion_sep:20014231-dc94-4d53-89c7-4942c4675c9a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:22b95731-37b1-46d0-a28a-579d7a504b29'
+    - 'taxonomy_term:campos_de_clasificacion_sep:23a4ba3b-d76c-4e06-b2a7-17ce2dd443b1'
+    - 'taxonomy_term:campos_de_clasificacion_sep:23bf52d1-8556-4860-9d81-23e893f1b30d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:2659999e-45c4-4327-ab89-528cd799021d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:26cfe877-667a-4935-a54a-fdaf1e64be41'
+    - 'taxonomy_term:campos_de_clasificacion_sep:27ee9fef-57d2-4055-acd2-692536f7afd6'
+    - 'taxonomy_term:campos_de_clasificacion_sep:286c9697-c7bf-4789-8502-3c10a6998a03'
+    - 'taxonomy_term:campos_de_clasificacion_sep:29c62ed6-4e0e-454e-a260-4c4e84107a15'
+    - 'taxonomy_term:campos_de_clasificacion_sep:29ea20c5-67df-419a-ae81-d94aa64d67c4'
+    - 'taxonomy_term:campos_de_clasificacion_sep:2a798eab-8e5d-4c2d-9a61-8a056f8d8a3f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:2ae630bc-16e4-4ff8-b64b-fa2e8d1e832d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:2b912d4f-946d-479f-9757-5e4da87b8e74'
+    - 'taxonomy_term:campos_de_clasificacion_sep:2c0542b2-39d7-403d-90ca-a9498e434c7f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:2c4a28ef-5ad9-4109-9844-7e8dea291c49'
+    - 'taxonomy_term:campos_de_clasificacion_sep:2c6e5a8f-4ebf-4777-97b4-88004d89e4c1'
+    - 'taxonomy_term:campos_de_clasificacion_sep:2cacd22c-5016-40df-bdc6-832af3d3e0ce'
+    - 'taxonomy_term:campos_de_clasificacion_sep:300a6967-3aa0-47c6-9c6b-fda185ab53ce'
+    - 'taxonomy_term:campos_de_clasificacion_sep:3094dde3-f406-490b-b033-1c1a2d58fa35'
+    - 'taxonomy_term:campos_de_clasificacion_sep:318094a0-da6c-42cc-a9c7-eb13ddea0c6f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:321a2597-9718-420c-bf83-7d9ac736f4e2'
+    - 'taxonomy_term:campos_de_clasificacion_sep:322a62ad-72d8-4fe8-970c-de4932fa872e'
+    - 'taxonomy_term:campos_de_clasificacion_sep:323ff872-d1aa-4ee7-aaaa-36578e87d1e0'
+    - 'taxonomy_term:campos_de_clasificacion_sep:34b3fc89-de48-4891-af5f-e5c6eff2a789'
+    - 'taxonomy_term:campos_de_clasificacion_sep:3749463e-59ee-4ab1-a87f-0f0f7e14e240'
+    - 'taxonomy_term:campos_de_clasificacion_sep:3a5e132b-10cd-49d4-bf6e-117b8ec1d56a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:3c9ed550-c29c-4b92-bfd9-001bec0e1262'
+    - 'taxonomy_term:campos_de_clasificacion_sep:3d541fd2-15bd-40d1-9076-a975511e871f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:3f4f36ee-92e9-4a03-8a7d-6e68a1d87687'
+    - 'taxonomy_term:campos_de_clasificacion_sep:3fee3089-a488-4f3d-9c8a-61ef57577de9'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4015a5da-9c6c-4b5e-b9b8-768c117712fb'
+    - 'taxonomy_term:campos_de_clasificacion_sep:42519569-6d78-4882-b03f-835b352c6e28'
+    - 'taxonomy_term:campos_de_clasificacion_sep:427dd0fb-4c9b-4725-8e24-9c09b7a9ced9'
+    - 'taxonomy_term:campos_de_clasificacion_sep:42afeced-d3f2-4a9c-bd2c-96edeb26acec'
+    - 'taxonomy_term:campos_de_clasificacion_sep:42cb1630-d7c9-47ed-beb5-c93182d4e09a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:43518ae8-029c-4bee-8477-c62efd739d5e'
+    - 'taxonomy_term:campos_de_clasificacion_sep:439437cc-29de-4392-81a5-e55ea2740ee7'
+    - 'taxonomy_term:campos_de_clasificacion_sep:44b868ad-127f-4284-adb1-58b04125b3a1'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4657fdfd-7506-472d-8e9c-0dfc245ef26b'
+    - 'taxonomy_term:campos_de_clasificacion_sep:475445dc-28ba-42c4-81dd-56e84bbb9b74'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4806d185-03e2-4e64-8b1c-1a0e50a20434'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4a0bbdd0-7b2b-4cd8-9a2c-ef3d4ccb507d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4c722398-e58d-4433-a726-bf69c5278354'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4cad43e5-513b-410a-8a03-2caf93689b27'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4d24e6d9-b222-4aef-a28e-cdd710b3476e'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4e15a9ab-ea11-4ebe-981b-861bc0fba82c'
+    - 'taxonomy_term:campos_de_clasificacion_sep:4e986c0c-2546-4476-8b03-5dde434f9f2b'
+    - 'taxonomy_term:campos_de_clasificacion_sep:502204d8-3eb3-4561-849c-be70dfb42aa2'
+    - 'taxonomy_term:campos_de_clasificacion_sep:526093bc-dbeb-4f54-a002-f380d139024b'
+    - 'taxonomy_term:campos_de_clasificacion_sep:546ab300-a333-4f5f-bf7b-4f5c00c503ec'
+    - 'taxonomy_term:campos_de_clasificacion_sep:54de9174-ee0a-48f4-a208-7b05d38ca24b'
+    - 'taxonomy_term:campos_de_clasificacion_sep:5668400b-1200-4077-a6cb-afe3dfb461e2'
+    - 'taxonomy_term:campos_de_clasificacion_sep:59fd277e-58d2-4b93-8cf0-2311a5c68542'
+    - 'taxonomy_term:campos_de_clasificacion_sep:5b942fc9-5c93-4d94-a99f-99fdefd75976'
+    - 'taxonomy_term:campos_de_clasificacion_sep:5c5ffd9e-ba0f-4ac6-bec7-97139baaf1e4'
+    - 'taxonomy_term:campos_de_clasificacion_sep:5d2ce49b-3392-4b72-a902-46ce1ca6e88f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:60a61c9e-5857-4b9c-bae9-26c2ba02cb55'
+    - 'taxonomy_term:campos_de_clasificacion_sep:611893af-41e2-40d3-83ac-1fa8922db842'
+    - 'taxonomy_term:campos_de_clasificacion_sep:624b086c-c8c2-4ff8-8853-424dff0b67e7'
+    - 'taxonomy_term:campos_de_clasificacion_sep:6351bdc1-8d02-4c90-864f-c84dd742d95a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:64ae7ac6-3430-4651-b3d1-28fd92dab81c'
+    - 'taxonomy_term:campos_de_clasificacion_sep:64f7adf2-52c4-4fe7-95e3-93cc78dd7123'
+    - 'taxonomy_term:campos_de_clasificacion_sep:6bc510d7-2e41-4c95-a03f-d4c30901daa3'
+    - 'taxonomy_term:campos_de_clasificacion_sep:6be32a1b-a3f5-4ef0-9ffb-00f0680a666c'
+    - 'taxonomy_term:campos_de_clasificacion_sep:6c56261d-d65e-470a-9ddc-5ae7b683c8a8'
+    - 'taxonomy_term:campos_de_clasificacion_sep:6cef69fc-a319-43c2-b31f-05e5df544e9b'
+    - 'taxonomy_term:campos_de_clasificacion_sep:6fa177cb-c288-4315-b27e-13fcaf9f9895'
+    - 'taxonomy_term:campos_de_clasificacion_sep:6fad244a-3e07-4397-9e3e-4e8a3cbf35b4'
+    - 'taxonomy_term:campos_de_clasificacion_sep:75945088-f173-4382-a5c3-37f4c0c6d455'
+    - 'taxonomy_term:campos_de_clasificacion_sep:79ffe951-0f7e-4152-b732-4c7642e70b4a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:7a22ae39-abf5-4d7a-b3f3-649064926143'
+    - 'taxonomy_term:campos_de_clasificacion_sep:7da0407a-658a-4b73-a1bc-8105507ef3c3'
+    - 'taxonomy_term:campos_de_clasificacion_sep:7e33a419-03d4-4eea-8287-f12e93b2b373'
+    - 'taxonomy_term:campos_de_clasificacion_sep:8224320c-d899-444f-ba93-797a657769ce'
+    - 'taxonomy_term:campos_de_clasificacion_sep:830ba4b7-e3e7-4ec4-b80d-ca0d0f4e9ead'
+    - 'taxonomy_term:campos_de_clasificacion_sep:835d3be2-0b00-470e-922e-150b8bc59fa1'
+    - 'taxonomy_term:campos_de_clasificacion_sep:84e5b3e3-556a-40b3-b920-3f9fd228bf0f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:85eac87a-34aa-4dd1-9a93-d86c27ab2c76'
+    - 'taxonomy_term:campos_de_clasificacion_sep:86ad4e8e-ebe5-4b4a-bb11-dcf989a0f657'
+    - 'taxonomy_term:campos_de_clasificacion_sep:86bfdb1f-fbe8-4022-8d8d-4f70197a04b8'
+    - 'taxonomy_term:campos_de_clasificacion_sep:8972e18a-d718-4c73-8932-b25155dbc4dc'
+    - 'taxonomy_term:campos_de_clasificacion_sep:8ce2e05a-d2bf-4cfd-97de-0a40743e10f8'
+    - 'taxonomy_term:campos_de_clasificacion_sep:8d77547a-7f7a-44dc-a8a7-f8eb78a4775a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:8ef15401-0f8f-4d73-a851-171aa3919b52'
+    - 'taxonomy_term:campos_de_clasificacion_sep:8fb71379-3649-42f3-b5e4-6c8f6e3a68cd'
+    - 'taxonomy_term:campos_de_clasificacion_sep:923330ba-6c57-4e52-9de0-8130bff05146'
+    - 'taxonomy_term:campos_de_clasificacion_sep:93a708fb-6f15-41c3-8577-c605c731b89c'
+    - 'taxonomy_term:campos_de_clasificacion_sep:96df52c5-2e5a-49ad-8962-693937e6d017'
+    - 'taxonomy_term:campos_de_clasificacion_sep:976c9d4b-f5e0-4d36-8194-10d92b36adcd'
+    - 'taxonomy_term:campos_de_clasificacion_sep:97eb6bd1-b7f6-44f5-8fd5-5512cd196aae'
+    - 'taxonomy_term:campos_de_clasificacion_sep:99f44174-8884-44dd-995b-b9f8a84ece7d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:9afef2c5-4852-4066-8c27-e011d7837667'
+    - 'taxonomy_term:campos_de_clasificacion_sep:9b177eec-96c7-44cc-a0c5-b9b1ed16d421'
+    - 'taxonomy_term:campos_de_clasificacion_sep:9c9638e2-2f06-44dc-821d-73a9e25e26c7'
+    - 'taxonomy_term:campos_de_clasificacion_sep:9d5fb21c-8ffd-4290-b5e0-c8f1657883ee'
+    - 'taxonomy_term:campos_de_clasificacion_sep:9f4969df-ed65-4326-bd4c-8ae54ce331f9'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a108d470-d2db-43d0-b880-4b2d6332cef8'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a191b76d-c099-420c-9572-eb31bf946ebb'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a298949f-30ce-4bee-8efc-c03d59038ac0'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a40496a3-9afc-4af9-becd-e375db1de612'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a4990fa9-f544-4dbe-8a27-85b7fc98a066'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a6aa60a0-f11f-40b5-a6e5-cb903b891323'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a7013653-f95e-403f-afd2-4d2221d98719'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a72757d2-da98-4978-ae53-6216ac376342'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a73a0b43-7831-4b32-9d5e-f55024755ec2'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a8bcf892-cdf5-4ff9-831e-ee303a78911e'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a90b16e5-37e4-43fc-87af-05458d313b74'
+    - 'taxonomy_term:campos_de_clasificacion_sep:a957b5f5-cde8-430d-b009-a292496ba1c3'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ab22af3b-28f3-4ad7-8674-f10b757a6b65'
+    - 'taxonomy_term:campos_de_clasificacion_sep:abcfec67-37b2-4be2-aea1-68b23993e605'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ac4fa1c1-30e1-4497-b52c-d26fcd997001'
+    - 'taxonomy_term:campos_de_clasificacion_sep:adaffbf7-b649-4fbb-baef-9dba7bb56496'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ae1c1f04-40c3-4285-bcda-ae4fd76f3563'
+    - 'taxonomy_term:campos_de_clasificacion_sep:aeac7467-c406-4da3-9b11-c08d7a6b554a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:aec69bab-f328-473b-854a-57ef088d4196'
+    - 'taxonomy_term:campos_de_clasificacion_sep:afdb19f7-8b3c-4124-8e41-56aa7eead508'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b053e3c4-2eea-45d8-b599-85babff1caac'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b1b03149-8c47-4816-8307-6798874091c9'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b1d777a8-a427-42d8-a4c6-82d5eee8cfc3'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b3580a96-b28d-4f99-bde8-ceca23263c14'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b37b1ed4-98cb-44dc-a238-44b08e6d0339'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b3fbe63d-cc53-4a23-a640-c4bba502a0ce'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b543bc48-6049-41f0-8de1-2d0a77faf1e9'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b640036f-1093-4ebc-b46b-b011969b30c6'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b64d210f-cf4f-4536-a487-e90ec1ddd6a4'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b6de0420-9451-4294-9fcb-2e047c93c0df'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b7e7bb80-a16b-48b4-9a37-d22682b36bfb'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b856c4da-d836-4e76-9402-07b327afa927'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b8aa0fdf-3ad0-44ef-bd0c-655694f937eb'
+    - 'taxonomy_term:campos_de_clasificacion_sep:b9d0ac8a-be06-43f9-b309-d956a6d1da37'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ba514f48-1b35-4b7f-9c95-fb22d88f252f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:bb49dca8-be6e-4e17-ba93-c9f06d321dcc'
+    - 'taxonomy_term:campos_de_clasificacion_sep:c011a34b-272d-4880-b469-d3aa9c39b18f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:c10961ff-1cc4-4364-a0e5-d2b49f77ca8c'
+    - 'taxonomy_term:campos_de_clasificacion_sep:c2544051-7f9a-41c8-bd96-f6d3de2e7ade'
+    - 'taxonomy_term:campos_de_clasificacion_sep:c330411f-aff9-44fe-beb3-5622437f257f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:c493fad6-2100-457d-b4a8-51b0f4d3f7c9'
+    - 'taxonomy_term:campos_de_clasificacion_sep:c5a3185b-b257-49cd-a87b-530e1c58a78f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:cb561282-513c-4a60-8be8-ce1d8b038287'
+    - 'taxonomy_term:campos_de_clasificacion_sep:cb7a4f1a-d7ac-41db-a693-f87a31cb513f'
+    - 'taxonomy_term:campos_de_clasificacion_sep:cbac6198-6c2f-4ba0-a86a-26c0b6ebd9cf'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ccdbd177-f07f-4d17-bcc7-263bb0cd6325'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ceada7b0-a476-4c5c-b993-75f16fd64b63'
+    - 'taxonomy_term:campos_de_clasificacion_sep:cf72c156-9f80-4ea0-a9c8-bf3a2fb28b6a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d1b6456c-6b64-44be-af08-0b1465944be1'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d1f06162-2674-454b-996a-ee53740b82bc'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d2c30a77-2170-4a22-817e-4c6d35efceb0'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d3aeebb0-bfc4-49fb-9b2e-6bdccdbe64de'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d3b14ba1-2be0-437d-9628-24f3ff9dd72a'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d731c142-1b68-43df-a55c-f487d14c130d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d79a29f6-23ee-4f69-8fb9-bfb6db66e2cf'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d7fab2f8-3e87-436d-addc-fc3b74650008'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d8580cbd-8a01-4b1e-af40-9ee246893d19'
+    - 'taxonomy_term:campos_de_clasificacion_sep:d916724d-ef20-47b8-99d3-13fb57ea7d37'
+    - 'taxonomy_term:campos_de_clasificacion_sep:db515c6b-71e4-4b92-929e-46f048ef1061'
+    - 'taxonomy_term:campos_de_clasificacion_sep:db792615-a172-4850-890c-971cf853b3ac'
+    - 'taxonomy_term:campos_de_clasificacion_sep:dd14e274-631b-48ca-b70c-f34fc3b3e025'
+    - 'taxonomy_term:campos_de_clasificacion_sep:dd502513-e2bb-491f-8c4b-c9659e99c6b2'
+    - 'taxonomy_term:campos_de_clasificacion_sep:de5c31e6-bc5b-4265-be2d-a1c7da7936fa'
+    - 'taxonomy_term:campos_de_clasificacion_sep:df10a3e2-0ebb-42d2-ba73-568e45dd9671'
+    - 'taxonomy_term:campos_de_clasificacion_sep:df87782b-e089-43be-a637-b1d4d73c3bb8'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e01f5847-6ca3-4cc9-b1bc-542d629a16ce'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e1251783-3b10-410b-ae7b-a8ea2e192f65'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e1aa12c7-b40b-404b-bd0e-8289a0beafe8'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e26a4f1b-3be9-405c-b498-d501b9d84c5d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e27c7614-b66c-47fc-bfca-2579b15adcff'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e3b30e12-da1e-48be-9771-fae1ba06cfe7'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e481c5c7-7c80-4e04-b3ab-c09c1c728dd6'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e610740e-ad80-4bf1-9bcd-26b3ee9d195e'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e63cbc67-bd4c-4afd-9310-c7616f543c23'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e6a26a30-b6b7-42b2-8e34-45025266cb34'
+    - 'taxonomy_term:campos_de_clasificacion_sep:e96555a3-a9c7-41bc-9100-9395b81e3489'
+    - 'taxonomy_term:campos_de_clasificacion_sep:eb283410-c565-4be6-bd88-1d959b828d77'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ece65654-213e-40b4-a8d6-65e8a0fd0b8e'
+    - 'taxonomy_term:campos_de_clasificacion_sep:eee8f68e-db04-444d-8cf3-7457084a66c5'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ef7929b5-2ce9-44f2-be02-3a1b7b17c86d'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f0391a68-3f0a-44da-ad37-26d81d2a906b'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f1d10534-0b11-4410-a445-ce76c57f6c21'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f3673ccc-637e-4eba-9d64-b225d78fbd65'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f376ae8e-d555-4e5b-917a-6c3185460760'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f6af3d1d-c971-4d1a-a5d6-8588f049acef'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f73e654d-692c-4455-9bfc-62ac13859c31'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f76f456f-729c-48af-a392-70c31181ed39'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f78539da-2aba-43e2-a1dc-7b0c9d892a35'
+    - 'taxonomy_term:campos_de_clasificacion_sep:f92aa0cd-9321-4c8d-b674-e6aadc6ff507'
+    - 'taxonomy_term:campos_de_clasificacion_sep:fa091708-eba1-40e2-94ed-a50a4b4fa020'
+    - 'taxonomy_term:campos_de_clasificacion_sep:fc379d52-adb1-454c-8b6d-3a5ea3ba35ad'
+    - 'taxonomy_term:campos_de_clasificacion_sep:fc60ddd0-8aab-4f1f-9f3f-f321c7b355d5'
+    - 'taxonomy_term:campos_de_clasificacion_sep:fd67bad6-a95b-4802-a9d2-c2c972a99601'
+    - 'taxonomy_term:campos_de_clasificacion_sep:fda6faeb-09e0-42ea-a10b-b7d19a13254e'
+    - 'taxonomy_term:campos_de_clasificacion_sep:fe579b7b-dbb7-4da8-8ecd-1098038fa6ec'
+    - 'taxonomy_term:campos_de_clasificacion_sep:ff185c4e-aaf2-47aa-be45-56b1c7ecd7d2'
+    - 'taxonomy_term:ciclo:298e8bc8-0663-4651-8219-639301c480b1'
+    - 'taxonomy_term:ciclo:485fe027-68d7-46ef-8da0-dc5054cc9185'
+    - 'taxonomy_term:ciclo:507746bf-de61-4fd5-8923-0c20d4a3af0f'
+    - 'taxonomy_term:ciclo:5565d40e-0b4d-4c27-ad38-14e4e5b5aa9f'
+    - 'taxonomy_term:ciclo:62bc453b-c46f-4cb0-8416-6fa5dc6dcdc8'
+    - 'taxonomy_term:ciclo:b74c31b8-9932-4719-8e1a-fa858fa1f09c'
+    - 'taxonomy_term:ciclo:be250b2f-9031-45d9-9c0f-6e32157b1c43'
+    - 'taxonomy_term:ciclo:e56e83b6-dce6-4fc7-b03d-14ed914283a2'
+    - 'taxonomy_term:entidad_universitaria:3d938ecf-4265-4a88-849a-b8ef281524c9'
+    - 'taxonomy_term:entidad_universitaria:40c2ecae-c1f3-4c53-ae6c-6732db9ee92a'
+    - 'taxonomy_term:entidad_universitaria:47338975-cb8e-428d-be90-25ab4afd6adf'
+    - 'taxonomy_term:entidad_universitaria:6889b7df-aa3c-4c49-a6e5-bac5f75ae253'
+    - 'taxonomy_term:entidad_universitaria:70d1da2a-8407-428b-864f-48611a6bdc2f'
+    - 'taxonomy_term:entidad_universitaria:741f4fee-dce5-47a6-acab-664d0c87c77c'
+    - 'taxonomy_term:entidad_universitaria:74b8c833-6769-4cfd-857a-790c6dd8c059'
+    - 'taxonomy_term:entidad_universitaria:74cf7740-0db7-456c-9b2c-95c17f49f7cd'
+    - 'taxonomy_term:entidad_universitaria:7aa0de54-720c-48e3-b45a-ada3fe91a54a'
+    - 'taxonomy_term:entidad_universitaria:8a2f2b41-da6f-4109-b675-46cc750f9d85'
+    - 'taxonomy_term:entidad_universitaria:a4e2d380-9843-402b-899d-9954e6dddb55'
+    - 'taxonomy_term:entidad_universitaria:a826b149-c1da-4ef6-93f5-a74b5d4d755e'
+    - 'taxonomy_term:entidad_universitaria:b20b7f25-3291-469e-94ef-5da56d1cef50'
+    - 'taxonomy_term:entidad_universitaria:c164fc0c-8993-4143-bcde-a82ab12e3ca4'
+    - 'taxonomy_term:entidad_universitaria:d0f43615-c217-4b3b-ac99-6c1bb02e8ee1'
+    - 'taxonomy_term:entidad_universitaria:e3a104f9-c086-410c-b5ed-cc2b2ef3d862'
+    - 'taxonomy_term:entidad_universitaria:e491d75d-2f38-417d-8ffb-6c4aee8a6b83'
+    - 'taxonomy_term:entidad_universitaria:e6595edb-e046-4305-8167-dd3b48d7e00b'
+    - 'taxonomy_term:entidad_universitaria:ed64c846-feec-496b-80af-8174034bb743'
+    - 'taxonomy_term:entidad_universitaria:fd7fba6b-f390-4bac-bb5d-a5ec209ef0bf'
+    - 'taxonomy_term:entidad_universitaria:fe40a99d-7cb7-43f9-93c1-f49b0ef84b72'
+    - 'taxonomy_term:ni:30e18d35-1097-4696-b0d1-836410fe571b'
+    - 'taxonomy_term:ni:3cbc5fdc-bf49-4e4b-ae22-05124324561b'
+    - 'taxonomy_term:ni:59be7d1b-daec-4249-9d30-6c42bf3e51b9'
+    - 'taxonomy_term:ni:74ee9dc0-ebf7-431a-8677-f371b7e99780'
+    - 'taxonomy_term:ni:b06d3185-381f-4e25-8a65-3a37d034f7e0'
+    - 'taxonomy_term:ni:d524efb4-1cef-472a-b4bd-acaffc0baf5b'
+    - 'taxonomy_term:ni:d789b85a-d3e1-412f-9652-7a7e5dfb45ba'
+    - 'taxonomy_term:ni:ea673620-a54a-49af-b1b5-5390a16b0341'
+    - 'taxonomy_term:regiones_jalisco:048caa42-3561-4191-b88e-082476a0e4ea'
+    - 'taxonomy_term:regiones_jalisco:146f8792-b336-4cbb-a6f4-970ef4053fd1'
+    - 'taxonomy_term:regiones_jalisco:20363025-cc57-4f83-b175-46c19cfd2a82'
+    - 'taxonomy_term:regiones_jalisco:2513712d-5c65-45c6-8a39-903b6e2066fb'
+    - 'taxonomy_term:regiones_jalisco:6803802c-b160-48ac-a6c1-5bd3ce1430c3'
+    - 'taxonomy_term:regiones_jalisco:7aa34338-9c1a-4863-bb68-034bfb71ac16'
+    - 'taxonomy_term:regiones_jalisco:895873fb-3833-4334-b6a2-410009a5dea4'
+    - 'taxonomy_term:regiones_jalisco:8a2f6742-9f5d-4888-ade6-3cee9f70c45d'
+    - 'taxonomy_term:regiones_jalisco:925c1b0d-a7e5-4094-aaa6-54ad6ee47ed8'
+    - 'taxonomy_term:regiones_jalisco:d84e53a9-ba7a-40bf-9604-d5968c797457'
+    - 'taxonomy_term:regiones_jalisco:f6e1c1f9-c867-4357-b6b6-81347c2c0f72'
+    - 'taxonomy_term:regiones_jalisco:fab5a376-bdd2-4a41-9f24-92691f4977f6'
+  module:
+    - better_exposed_filters
+    - charts
+    - charts_highcharts
+    - options
+    - storage
+    - taxonomy
+id: egresados
+label: Egresados
+module: views
+description: ''
+tag: ''
+base_table: storage_field_data
+base_field: id
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      title: 'Histórico de la mátricula total'
+      fields:
+        name:
+          id: name
+          table: storage_field_data
+          field: name
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: name
+          plugin_id: field
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      pager:
+        type: none
+        options:
+          offset: 0
+          items_per_page: null
+      exposed_form:
+        type: basic
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      access:
+        type: none
+        options: {  }
+      cache:
+        type: tag
+        options: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: true
+          content:
+            value: "<div class=\"alert alert-warning\">\r\nNo se han capturado datos\r\n</div>"
+            format: full_html
+          tokenize: false
+      sorts: {  }
+      arguments: {  }
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          value:
+            matricula: matricula
+          expose:
+            operator_limit_selection: false
+            operator_list: {  }
+      style:
+        type: default
+      row:
+        type: fields
+      query:
+        type: views_query
+        options:
+          query_comment: ''
+          disable_sql_rewrite: false
+          distinct: false
+          replica: false
+          query_tags: {  }
+      relationships:
+        reverse__storage__field_cve_programa:
+          id: reverse__storage__field_cve_programa
+          table: storage_field_data
+          field: reverse__storage__field_cve_programa
+          entity_type: storage
+          plugin_id: entity_reverse
+      header: {  }
+      footer: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+      tags: {  }
+  block_1:
+    id: block_1
+    display_title: 'Entidad universitaria'
+    display_plugin: block
+    position: 1
+    display_options:
+      title: 'Egresados por entidad universitaria'
+      fields:
+        field_entidad_universitaria:
+          id: field_entidad_universitaria
+          table: taxonomy_term__field_entidad_universitaria
+          field: field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: 'Entidad universitaria'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_h:
+          id: field_egresados_h
+          table: storage__field_egresados_h
+          field: field_egresados_h
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Hombres egresados'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_m:
+          id: field_egresados_m
+          table: storage__field_egresados_m
+          field: field_egresados_m
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Mujeres egresadas'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_nb:
+          id: field_egresados_nb
+          table: storage__field_egresados_nb
+          field: field_egresados_nb
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Personas no binarias egresadas'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          text_input_required: 'Seleccione cualquier filtro y pulse Aplicar para ver los resultados'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: true
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 500
+              autosubmit_hide: true
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Opciones avanzadas'
+              secondary_open: false
+              reset_button_always_show: false
+            filter:
+              field_ciclo_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            14_egresados: 14_egresados
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        field_ciclo_target_id:
+          id: field_ciclo_target_id
+          table: storage__field_ciclo
+          field: field_ciclo_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            750: 750
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_ciclo_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_entidad_universitaria_target_id:
+          id: field_entidad_universitaria_target_id
+          table: taxonomy_term__field_entidad_universitaria
+          field: field_entidad_universitaria_target_id
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            487: 487
+            488: 488
+            490: 490
+            489: 489
+            484: 484
+            486: 486
+            491: 491
+            492: 492
+            497: 497
+            493: 493
+            494: 494
+            498: 498
+            496: 496
+            495: 495
+            499: 499
+            500: 500
+            5022: 5022
+            485: 485
+            4955: 4955
+            501: 501
+            502: 502
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_entidad_universitaria_target_id_op
+            label: 'Entidad universitaria'
+            description: ''
+            use_operator: false
+            operator: field_entidad_universitaria_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_entidad_universitaria_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: entidad_universitaria
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: chart
+        options:
+          grouping: {  }
+          chart_settings:
+            library: highcharts
+            type: column
+            fields:
+              label: field_entidad_universitaria
+              stacking: false
+              data_providers:
+                field_entidad_universitaria:
+                  enabled: false
+                  color: '#006fb0'
+                  weight: -4
+                field_egresados_m:
+                  enabled: true
+                  color: '#5b4886'
+                  weight: -3
+                field_egresados_h:
+                  enabled: true
+                  color: '#24c7a4'
+                  weight: -2
+                field_egresados_nb:
+                  enabled: false
+                  color: '#ffce55'
+                  weight: -1
+            display:
+              title: ''
+              title_position: ''
+              data_labels: false
+              data_markers: false
+              legend_position: bottom
+              background: ''
+              three_dimensional: 0
+              polar: 0
+              tooltips: true
+              dimensions:
+                width: ''
+                width_units: '%'
+                height: ''
+                height_units: ''
+              gauge:
+                max: '100'
+                min: '0'
+                green_from: '85'
+                green_to: '100'
+                yellow_from: '50'
+                yellow_to: '85'
+                red_from: '0'
+                red_to: '50'
+              color_changer: false
+            xaxis:
+              title: ''
+              labels_rotation: '0'
+            yaxis:
+              title: ''
+              min: ''
+              max: ''
+              prefix: ''
+              suffix: ''
+              decimal_count: ''
+              labels_rotation: '0'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        use_ajax: false
+        exposed_form: false
+        group_by: false
+        style: false
+        row: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+        footer: false
+      relationships:
+        field_cve_plantel:
+          id: field_cve_plantel
+          table: storage__field_cve_plantel
+          field: field_cve_plantel
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_plantel: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        reverse__taxonomy_term__field_entidad_universitaria:
+          id: reverse__taxonomy_term__field_entidad_universitaria
+          table: taxonomy_term_field_data
+          field: reverse__taxonomy_term__field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: field_entidad_universitaria
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: false
+      use_ajax: true
+      group_by: true
+      display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<div class=\"notas_grafico\">\r\n   <div class=\"fecha-corte\">Fecha de corte: Septiembre del año reportado.</div>\r\n   <div class=\"notas_gr_titulo\">Descripción</div>\r\n   <div>Se presentan los egresados reportados en la Estadística 911 de la Secretaría de Educación Pública, tomado en cuenta los distintos estatus aplicados durante el ciclo una vez que este ha concluido. Un egresado es aquel estudiante que ha aprobado la totalidad de los cursos necesarios o el mínimo de créditos requeridos para obtener el grado de un programa educativo.</div>\r\n   <div class=\"notas_gr_des\">Notas del gráfico</div>\r\n   <div>No hay información para reportar en el ciclo escolar 2024-2025, ya que el cierre del mismo ocurre después de la fecha de corte de la publicación de los datos.</div>\r\n   </div>\r\n</div>"
+            format: full_html
+          tokenize: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags:
+        - 'config:field.storage.taxonomy_term.field_entidad_universitaria'
+  block_2:
+    id: block_2
+    display_title: 'Programa educativo'
+    display_plugin: block
+    position: 1
+    display_options:
+      title: 'Egresados por programa educativo'
+      fields:
+        field_programa_educativo:
+          id: field_programa_educativo
+          table: storage__field_programa_educativo
+          field: field_programa_educativo
+          relationship: field_cve_programa
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: 'Programa educativo'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_h:
+          id: field_egresados_h
+          table: storage__field_egresados_h
+          field: field_egresados_h
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Hombres egresados'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_m:
+          id: field_egresados_m
+          table: storage__field_egresados_m
+          field: field_egresados_m
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Mujeres egresadas'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_nb:
+          id: field_egresados_nb
+          table: storage__field_egresados_nb
+          field: field_egresados_nb
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Personas no binarias egresadas'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_t:
+          id: field_egresados_t
+          table: storage__field_egresados_t
+          field: field_egresados_t
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Total de egresados'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      pager:
+        type: full
+        options:
+          offset: 0
+          pagination_heading_level: h4
+          items_per_page: 10
+          total_pages: null
+          id: 0
+          tags:
+            next: 'Siguiente ›'
+            previous: '‹ Anterior'
+            first: '« Inicio'
+            last: 'Final »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Aplicar
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          text_input_required: 'Seleccione cualquier filtro y pulse Aplicar para ver los resultados'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: true
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 600
+              autosubmit_hide: true
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Opciones avanzadas'
+              secondary_open: false
+              reset_button_always_show: false
+            filter:
+              field_ciclo_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_entidad_universitaria_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_region_jalisco_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_plantel_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_programa_educativo_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            14_egresados: 14_egresados
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        field_ciclo_target_id:
+          id: field_ciclo_target_id
+          table: storage__field_ciclo
+          field: field_ciclo_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            750: 750
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_ciclo_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_entidad_universitaria_target_id_1:
+          id: field_entidad_universitaria_target_id_1
+          table: taxonomy_term__field_entidad_universitaria
+          field: field_entidad_universitaria_target_id
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            487: 487
+            488: 488
+            490: 490
+            489: 489
+            484: 484
+            486: 486
+            491: 491
+            492: 492
+            497: 497
+            493: 493
+            494: 494
+            498: 498
+            496: 496
+            495: 495
+            499: 499
+            500: 500
+            5022: 5022
+            485: 485
+            4955: 4955
+            501: 501
+            502: 502
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_entidad_universitaria_target_id_1_op
+            label: 'Entidad universitaria'
+            description: ''
+            use_operator: false
+            operator: field_entidad_universitaria_target_id_1_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_entidad_universitaria_target_id_1
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: entidad_universitaria
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: chart
+        options:
+          grouping: {  }
+          chart_settings:
+            library: highcharts
+            type: bar
+            fields:
+              label: field_programa_educativo
+              stacking: false
+              data_providers:
+                field_programa_educativo:
+                  enabled: false
+                  color: '#73c7d2'
+                  weight: -5
+                field_egresados_m:
+                  enabled: true
+                  color: '#5b4886'
+                  weight: -4
+                field_egresados_h:
+                  enabled: true
+                  color: '#24c7a4'
+                  weight: -3
+                field_egresados_nb:
+                  enabled: false
+                  color: '#ffce55'
+                  weight: -2
+                field_egresados_t:
+                  enabled: true
+                  color: '#3d83c5'
+                  weight: -1
+            display:
+              title: ''
+              title_position: ''
+              data_labels: true
+              data_markers: true
+              legend_position: bottom
+              background: ''
+              three_dimensional: 0
+              polar: 0
+              tooltips: true
+              dimensions:
+                width: ''
+                width_units: '%'
+                height: '1000'
+                height_units: px
+              gauge:
+                max: '100'
+                min: '0'
+                green_from: '85'
+                green_to: '100'
+                yellow_from: '50'
+                yellow_to: '85'
+                red_from: '0'
+                red_to: '50'
+              color_changer: false
+            xaxis:
+              title: ''
+              labels_rotation: '0'
+            yaxis:
+              title: ''
+              min: ''
+              max: ''
+              prefix: ''
+              suffix: ''
+              decimal_count: ''
+              labels_rotation: '0'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        use_ajax: false
+        pager: false
+        exposed_form: false
+        group_by: false
+        style: false
+        row: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+        footer: false
+      relationships:
+        field_cve_plantel:
+          id: field_cve_plantel
+          table: storage__field_cve_plantel
+          field: field_cve_plantel
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_plantel: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        reverse__taxonomy_term__field_entidad_universitaria:
+          id: reverse__taxonomy_term__field_entidad_universitaria
+          table: taxonomy_term_field_data
+          field: reverse__taxonomy_term__field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: field_entidad_universitaria
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: false
+        field_cve_programa:
+          id: field_cve_programa
+          table: storage__field_cve_programa
+          field: field_cve_programa
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_programa: Almacenamiento'
+          plugin_id: standard
+          required: false
+      use_ajax: true
+      group_by: true
+      display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<div class=\"notas_grafico\">\r\n   <div class=\"fecha-corte\">Fecha de corte: Septiembre del año reportado. </div>\r\n   <div class=\"notas_gr_titulo\">Descripción</div>\r\n   <div>Se presentan los egresados reportados en la Estadística 911 de la Secretaría de Educación Pública, tomado en cuenta los distintos estatus aplicados durante el ciclo una vez que este ha concluido. Un egresado es aquel estudiante que ha aprobado la totalidad de los cursos necesarios o el mínimo de créditos requeridos para obtener el grado de un programa educativo.</div>\r\n   <div class=\"notas_gr_des\">Notas del gráfico</div>\r\n   <div>No hay información para reportar en el ciclo escolar 2024-2025, ya que el cierre del mismo ocurre después de la fecha de corte de la publicación de los datos.</div>\r\n   </div>\r\n</div>"
+            format: full_html
+          tokenize: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+      tags:
+        - 'config:field.storage.storage.field_programa_educativo'
+  block_3:
+    id: block_3
+    display_title: 'Histórico de egresados total'
+    display_plugin: block
+    position: 1
+    display_options:
+      title: 'Histórico de egresados total'
+      fields:
+        field_ciclo:
+          id: field_ciclo
+          table: storage__field_ciclo
+          field: field_ciclo
+          plugin_id: field
+        field_egresados_h:
+          id: field_egresados_h
+          table: storage__field_egresados_h
+          field: field_egresados_h
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Hombres egresados'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ','
+          field_api_classes: false
+          set_precision: false
+          precision: 0
+          decimal: .
+          format_plural: 0
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+        field_egresados_m:
+          id: field_egresados_m
+          table: storage__field_egresados_m
+          field: field_egresados_m
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Mujeres egresadas'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ','
+          field_api_classes: false
+          set_precision: false
+          precision: 0
+          decimal: .
+          format_plural: 0
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+        field_egresados_nb:
+          id: field_egresados_nb
+          table: storage__field_egresados_nb
+          field: field_egresados_nb
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Personas no binarias egresadas'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ','
+          field_api_classes: false
+          set_precision: false
+          precision: 0
+          decimal: .
+          format_plural: 0
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+        field_egresados_t:
+          id: field_egresados_t
+          table: storage__field_egresados_t
+          field: field_egresados_t
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Total de egresados'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Aplicar
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          text_input_required: 'Seleccione cualquier filtro y pulse Aplicar para ver los resultados'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: true
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 600
+              autosubmit_hide: true
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Opciones avanzadas'
+              secondary_open: false
+              reset_button_always_show: false
+            filter:
+              field_ciclo_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_entidad_universitaria_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_region_jalisco_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_plantel_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_programa_educativo_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            14_egresados: 14_egresados
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        field_ciclo_et_target_id:
+          id: field_ciclo_et_target_id
+          table: storage__field_ciclo_et
+          field: field_ciclo_et_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_ciclo_et_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_et_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_et_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_ciclo_target_id:
+          id: field_ciclo_target_id
+          table: storage__field_ciclo
+          field: field_ciclo_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            88: 88
+            89: 89
+            90: 90
+            91: 91
+            92: 92
+            93: 93
+            750: 750
+            5197: 5197
+          group: 1
+          exposed: false
+          expose:
+            operator_id: field_ciclo_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_entidad_universitaria_target_id:
+          id: field_entidad_universitaria_target_id
+          table: taxonomy_term__field_entidad_universitaria
+          field: field_entidad_universitaria_target_id
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            487: 487
+            488: 488
+            490: 490
+            489: 489
+            484: 484
+            486: 486
+            491: 491
+            492: 492
+            497: 497
+            493: 493
+            494: 494
+            498: 498
+            496: 496
+            495: 495
+            499: 499
+            500: 500
+            5022: 5022
+            485: 485
+            4955: 4955
+            501: 501
+            502: 502
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_entidad_universitaria_target_id_op
+            label: 'Entidad universitaria'
+            description: ''
+            use_operator: false
+            operator: field_entidad_universitaria_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_entidad_universitaria_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: 'Entidad universitaria (field_entidad_universitaria)'
+            description: null
+            identifier: field_entidad_universitaria_target_id
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items:
+              1: {  }
+              2: {  }
+              3: {  }
+          reduce_duplicates: false
+          vid: entidad_universitaria
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_nivel_educativo_target_id:
+          id: field_nivel_educativo_target_id
+          table: storage__field_nivel_educativo
+          field: field_nivel_educativo_target_id
+          relationship: field_cve_programa
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            285: 285
+            289: 289
+            286: 286
+            290: 290
+            291: 291
+            287: 287
+            292: 292
+            293: 293
+          group: 1
+          exposed: false
+          expose:
+            operator_id: field_nivel_educativo_target_id_op
+            label: 'Nivel educativo'
+            description: ''
+            use_operator: false
+            operator: field_nivel_educativo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_nivel_educativo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ni
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_region_jalisco_target_id:
+          id: field_region_jalisco_target_id
+          table: taxonomy_term__field_region_jalisco
+          field: field_region_jalisco_target_id
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            763: 763
+            758: 758
+            755: 755
+            759: 759
+            761: 761
+            756: 756
+            764: 764
+            765: 765
+            762: 762
+            766: 766
+            760: 760
+            757: 757
+          group: 1
+          exposed: false
+          expose:
+            operator_id: field_region_jalisco_target_id_op
+            label: Región
+            description: ''
+            use_operator: false
+            operator: field_region_jalisco_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_region_jalisco_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: regiones_jalisco
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_plantel_value:
+          id: field_plantel_value
+          table: taxonomy_term__field_plantel
+          field: field_plantel_value
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: list_field
+          operator: or
+          value:
+            14USU0120N: 14USU0120N
+            14USU0110G: 14USU0110G
+            14USU0100Z: 14USU0100Z
+            14USU0010H: 14USU0010H
+            14USU0230T: 14USU0230T
+            14USU0140A: 14USU0140A
+            14USU0005W: 14USU0005W
+            14USU0006V: 14USU0006V
+            14USU0130U: 14USU0130U
+            14USU0220M: 14USU0220M
+            14USU0160O: 14USU0160O
+            14USU0150H: 14USU0150H
+            14USU0170V: 14USU0170V
+            14USU0210F: 14USU0210F
+            14USU0190I: 14USU0190I
+            14USU0009S: 14USU0009S
+            14USU0200Z: 14USU0200Z
+            14USU0007U: 14USU0007U
+            14USU0003Y: 14USU0003Y
+            14USU0002Z: 14USU0002Z
+            14USU0221L: 14USU0221L
+            14USU0222K: 14USU0222K
+            14USU0008T: 14USU0008T
+            14USU0011G: 14USU0011G
+            14USU0012F: 14USU0012F
+            14USU0013E: 14USU0013E
+            CUTLAQUEPAQUE: CUTLAQUEPAQUE
+            14USU0004X: 14USU0004X
+            14MMS0607X: 14MMS0607X
+            14MMS0608W: 14MMS0608W
+            14MMS0609V: 14MMS0609V
+            14MMS0610K: 14MMS0610K
+            14MMS0611J: 14MMS0611J
+            14MMS0612I: 14MMS0612I
+            14MMS0613H: 14MMS0613H
+            14MMS0647Y: 14MMS0647Y
+            14MMS0762P: 14MMS0762P
+            14MMS0761Q: 14MMS0761Q
+            14MMS0648X: 14MMS0648X
+            14MMS0649W: 14MMS0649W
+            14MMS0650L: 14MMS0650L
+            14MMS0646Z: 14MMS0646Z
+            14MMS0640E: 14MMS0640E
+            14MMS0615F: 14MMS0615F
+            14MMS0630Y: 14MMS0630Y
+            14MMS0641D: 14MMS0641D
+            14MMS0631X: 14MMS0631X
+            14MMS0636S: 14MMS0636S
+            14MMS0752I: 14MMS0752I
+            14MMS0753H: 14MMS0753H
+            14MMS0757D: 14MMS0757D
+            14MMS0756E: 14MMS0756E
+            14MMS0614G: 14MMS0614G
+            14MMS0645Z: 14MMS0645Z
+            14MMS0623O: 14MMS0623O
+            14MMS0776S: 14MMS0776S
+            14MMS0799C: 14MMS0799C
+            14MMS0878P: 14MMS0878P
+            14MMS0844Z: 14MMS0844Z
+            14MMS0643B: 14MMS0643B
+            14MMS0727J: 14MMS0727J
+            14MMS0717C: 14MMS0717C
+            14MMS0741C: 14MMS0741C
+            14MMS0617D: 14MMS0617D
+            14MMS0662Q: 14MMS0662Q
+            14MMS0663P: 14MMS0663P
+            14MMS0664O: 14MMS0664O
+            14MMS0665N: 14MMS0665N
+            14MMS0619B: 14MMS0619B
+            14MMS0666M: 14MMS0666M
+            14MMS0667L: 14MMS0667L
+            14MMS0728I: 14MMS0728I
+            14MMS0618C: 14MMS0618C
+            14MMS0668K: 14MMS0668K
+            14MMS0747X: 14MMS0747X
+            14MMS0750K: 14MMS0750K
+            14MMS0621Q: 14MMS0621Q
+            14MMS0622P: 14MMS0622P
+            14MMS0732V: 14MMS0732V
+            14MMS0733U: 14MMS0733U
+            14MMS0674V: 14MMS0674V
+            14MMS0675U: 14MMS0675U
+            14MMS0676T: 14MMS0676T
+            14MMS0736R: 14MMS0736R
+            14MMS0677S: 14MMS0677S
+            14MMS0734T: 14MMS0734T
+            14MMS0735S: 14MMS0735S
+            14MMS0737Q: 14MMS0737Q
+            14MMS0651K: 14MMS0651K
+            14MMS0698E: 14MMS0698E
+            14MMS0624N: 14MMS0624N
+            14MMS0682D: 14MMS0682D
+            14MMS0683C: 14MMS0683C
+            14MMS0626L: 14MMS0626L
+            14MMS0758C: 14MMS0758C
+            14MMS0680F: 14MMS0680F
+            14MMS0681E: 14MMS0681E
+            14MMS0707W: 14MMS0707W
+            14MMS0625M: 14MMS0625M
+            14MMS0738P: 14MMS0738P
+            14MMS0684B: 14MMS0684B
+            14MMS0687Z: 14MMS0687Z
+            14MMS0688Y: 14MMS0688Y
+            14MMS0652J: 14MMS0652J
+            14MMS0718B: 14MMS0718B
+            14MMS0637R: 14MMS0637R
+            14MMS0760R: 14MMS0760R
+            14MMS0671Y: 14MMS0671Y
+            14MMS0673W: 14MMS0673W
+            14MMS0731W: 14MMS0731W
+            14MMS0654H: 14MMS0654H
+            14MMS0879O: 14MMS0879O
+            14MMS0642C: 14MMS0642C
+            14MMS0726K: 14MMS0726K
+            14MMS0661R: 14MMS0661R
+            14MMS0685A: 14MMS0685A
+            14MMS0686Z: 14MMS0686Z
+            14MMS0798D: 14MMS0798D
+            14MMS0705Y: 14MMS0705Y
+            14MMS0693J: 14MMS0693J
+            14MMS0653I: 14MMS0653I
+            14MMS0678R: 14MMS0678R
+            14MMS0691L: 14MMS0691L
+            14MMS0692K: 14MMS0692K
+            14MMS0635T: 14MMS0635T
+            14MMS0628J: 14MMS0628J
+            14MMS0764N: 14MMS0764N
+            14MMS0697F: 14MMS0697F
+            14MMS0694I: 14MMS0694I
+            14MMS0695H: 14MMS0695H
+            14MMS0696G: 14MMS0696G
+            14MMS0722O: 14MMS0722O
+            14MMS0634U: 14MMS0634U
+            14MMS0700C: 14MMS0700C
+            14MMS0701B: 14MMS0701B
+            14MMS0702A: 14MMS0702A
+            14MMS0703Z: 14MMS0703Z
+            14MMS0704Z: 14MMS0704Z
+            14MMS0629I: 14MMS0629I
+            14MMS0769I: 14MMS0769I
+            14MMS0644A: 14MMS0644A
+            14MMS0739O: 14MMS0739O
+            14MMS0706X: 14MMS0706X
+            14MMS0714F: 14MMS0714F
+            14MMS0759B: 14MMS0759B
+            14MMS0627K: 14MMS0627K
+            14MMS0754G: 14MMS0754G
+            14MMS0709U: 14MMS0709U
+            14MMS0710J: 14MMS0710J
+            14MMS0832U: 14MMS0832U
+            14MMS0655G: 14MMS0655G
+            14MMS0771X: 14MMS0771X
+            14MMS0620R: 14MMS0620R
+            14MMS0766L: 14MMS0766L
+            14MMS0689X: 14MMS0689X
+            14MMS0770Y: 14MMS0770Y
+            14MMS0690M: 14MMS0690M
+            14MMS0740D: 14MMS0740D
+            14MMS0656F: 14MMS0656F
+            14MMS0768J: 14MMS0768J
+            14MMS0711I: 14MMS0711I
+            14MMS0730X: 14MMS0730X
+            14MMS0670Z: 14MMS0670Z
+            14MMS0632W: 14MMS0632W
+            14MMS0713G: 14MMS0713G
+            14MMS0763O: 14MMS0763O
+            14MMS0715E: 14MMS0715E
+            14MMS0716D: 14MMS0716D
+            14MMS0660S: 14MMS0660S
+            14MMS0719A: 14MMS0719A
+            14MMS0720Q: 14MMS0720Q
+            14MMS0742B: 14MMS0742B
+            14MMS0743A: 14MMS0743A
+            14MMS0657E: 14MMS0657E
+            14MMS0721P: 14MMS0721P
+            14MMS0744Z: 14MMS0744Z
+            14MMS0817B: 14MMS0817B
+            14MMS0773V: 14MMS0773V
+            14MMS0633V: 14MMS0633V
+            14MMS0772W: 14MMS0772W
+            14MMS0679Q: 14MMS0679Q
+            14MMS0723N: 14MMS0723N
+            14MMS0712H: 14MMS0712H
+            14MMS0669J: 14MMS0669J
+            14MMS0672X: 14MMS0672X
+            14MMS0708V: 14MMS0708V
+            14MMS0767K: 14MMS0767K
+            14MMS0659C: 14MMS0659C
+            14MMS0755F: 14MMS0755F
+            14MMS0746Y: 14MMS0746Y
+            14MMS0724M: 14MMS0724M
+            14MMS0745Z: 14MMS0745Z
+            14MMS0638Q: 14MMS0638Q
+            14MMS0658D: 14MMS0658D
+            14MMS0725L: 14MMS0725L
+            14MMS0616E: 14MMS0616E
+            14MMS0639P: 14MMS0639P
+            14MMS0699D: 14MMS0699D
+            14MMS0748W: 14MMS0748W
+            14MMS0827I: 14MMS0827I
+            14MMS0751J: 14MMS0751J
+            14MMS0830W: 14MMS0830W
+            14MMS0818A: 14MMS0818A
+            14MMS0912F: 14MMS0912F
+            14MMS0775T: 14MMS0775T
+            14MMS0774U: 14MMS0774U
+            14MMS0777R: 14MMS0777R
+            14MMS0749V: 14MMS0749V
+            14USU0180B: 14USU0180B
+          group: 1
+          exposed: false
+          expose:
+            operator_id: field_plantel_value_op
+            label: Pantel
+            description: ''
+            use_operator: false
+            operator: field_plantel_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_plantel_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: chart
+        options:
+          grouping: {  }
+          chart_settings:
+            library: highcharts
+            type: column
+            fields:
+              label: field_ciclo
+              stacking: false
+              data_providers:
+                field_ciclo:
+                  enabled: false
+                  color: '#73c7d2'
+                  weight: -5
+                field_egresados_m:
+                  enabled: true
+                  color: '#5b4886'
+                  weight: -4
+                field_egresados_h:
+                  enabled: true
+                  color: '#24c7a4'
+                  weight: -3
+                field_egresados_nb:
+                  enabled: false
+                  color: '#ffce55'
+                  weight: -2
+                field_egresados_t:
+                  enabled: true
+                  color: '#3d83c5'
+                  weight: -1
+            display:
+              title: ''
+              title_position: ''
+              data_labels: true
+              data_markers: true
+              legend_position: bottom
+              background: ''
+              three_dimensional: 0
+              polar: 0
+              tooltips: true
+              dimensions:
+                width: ''
+                width_units: '%'
+                height: ''
+                height_units: ''
+              gauge:
+                max: '100'
+                min: '0'
+                green_from: '85'
+                green_to: '100'
+                yellow_from: '50'
+                yellow_to: '85'
+                red_from: '0'
+                red_to: '50'
+              color_changer: false
+            xaxis:
+              title: ''
+              labels_rotation: '0'
+            yaxis:
+              title: ''
+              min: ''
+              max: ''
+              prefix: ''
+              suffix: ''
+              decimal_count: ''
+              labels_rotation: '0'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        use_ajax: false
+        exposed_form: false
+        group_by: false
+        style: false
+        row: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+        footer: false
+      relationships:
+        field_cve_plantel:
+          id: field_cve_plantel
+          table: storage__field_cve_plantel
+          field: field_cve_plantel
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_plantel: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        reverse__taxonomy_term__field_entidad_universitaria:
+          id: reverse__taxonomy_term__field_entidad_universitaria
+          table: taxonomy_term_field_data
+          field: reverse__taxonomy_term__field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: field_entidad_universitaria
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: false
+        field_cve_programa:
+          id: field_cve_programa
+          table: storage__field_cve_programa
+          field: field_cve_programa
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_programa: Almacenamiento'
+          plugin_id: standard
+          required: false
+      use_ajax: true
+      group_by: true
+      display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<div class=\"notas_grafico\">\r\n   <div class=\"fecha-corte\">Fecha de corte: Septiembre de cada año.</div>\r\n   <div class=\"notas_gr_titulo\">Descripción</div>\r\n   <div> Se presentan los egresados reportados en la Estadística 911 de la Secretaría de Educación Pública, tomado en cuenta los distintos estatus aplicados durante el ciclo una vez que este ha concluido. Un egresado es aquel estudiante que ha aprobado la totalidad de los cursos necesarios o el mínimo de créditos requeridos para obtener el grado de un programa educativo.</div>\r\n   <div class=\"notas_gr_des\">Notas del gráfico</div>\r\n   <div>No hay información para reportar en el ciclo escolar 2024-2025, ya que el cierre del mismo ocurre después de la fecha de corte de la publicación de los datos.</div>\r\n   </div>\r\n</div>"
+            format: full_html
+          tokenize: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags:
+        - 'config:field.storage.storage.field_ciclo'
+  block_4:
+    id: block_4
+    display_title: Modalidad
+    display_plugin: block
+    position: 1
+    display_options:
+      title: 'Egresados por modalidad'
+      fields:
+        field_modalidad:
+          id: field_modalidad
+          table: storage__field_modalidad
+          field: field_modalidad
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: Modalidad
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_t:
+          id: field_egresados_t
+          table: storage__field_egresados_t
+          field: field_egresados_t
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Total de egresados'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Aplicar
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          text_input_required: 'Seleccione cualquier filtro y pulse Aplicar para ver los resultados'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: true
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 600
+              autosubmit_hide: true
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Opciones avanzadas'
+              secondary_open: false
+              reset_button_always_show: false
+            filter:
+              field_ciclo_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_entidad_universitaria_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_region_jalisco_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_plantel_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_programa_educativo_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            14_egresados: 14_egresados
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        field_ciclo_target_id:
+          id: field_ciclo_target_id
+          table: storage__field_ciclo
+          field: field_ciclo_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            750: 750
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_ciclo_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_entidad_universitaria_target_id_1:
+          id: field_entidad_universitaria_target_id_1
+          table: taxonomy_term__field_entidad_universitaria
+          field: field_entidad_universitaria_target_id
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            487: 487
+            488: 488
+            490: 490
+            489: 489
+            484: 484
+            486: 486
+            491: 491
+            492: 492
+            497: 497
+            493: 493
+            494: 494
+            498: 498
+            496: 496
+            495: 495
+            499: 499
+            500: 500
+            5022: 5022
+            485: 485
+            4955: 4955
+            501: 501
+            502: 502
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_entidad_universitaria_target_id_1_op
+            label: 'Entidad universitaria'
+            description: ''
+            use_operator: false
+            operator: field_entidad_universitaria_target_id_1_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_entidad_universitaria_target_id_1
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: entidad_universitaria
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: chart
+        options:
+          grouping: {  }
+          chart_settings:
+            library: highcharts
+            type: donut
+            fields:
+              label: field_modalidad
+              stacking: false
+              data_providers:
+                field_modalidad:
+                  enabled: false
+                  color: '#73c7d2'
+                  weight: 4
+                field_egresados_t:
+                  enabled: true
+                  color: '#58b7c4'
+                  weight: 2
+            display:
+              title: ''
+              title_position: ''
+              data_labels: true
+              data_markers: true
+              legend_position: bottom
+              background: ''
+              three_dimensional: 0
+              polar: 0
+              tooltips: true
+              dimensions:
+                width: ''
+                width_units: '%'
+                height: ''
+                height_units: ''
+              gauge:
+                max: '100'
+                min: '0'
+                green_from: '85'
+                green_to: '100'
+                yellow_from: '50'
+                yellow_to: '85'
+                red_from: '0'
+                red_to: '50'
+              color_changer: false
+            xaxis:
+              title: ''
+              labels_rotation: '0'
+            yaxis:
+              title: ''
+              min: ''
+              max: ''
+              prefix: ''
+              suffix: ''
+              decimal_count: ''
+              labels_rotation: '0'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        use_ajax: false
+        exposed_form: false
+        group_by: false
+        style: false
+        row: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+        footer: false
+      relationships:
+        field_cve_plantel:
+          id: field_cve_plantel
+          table: storage__field_cve_plantel
+          field: field_cve_plantel
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_plantel: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        reverse__taxonomy_term__field_entidad_universitaria:
+          id: reverse__taxonomy_term__field_entidad_universitaria
+          table: taxonomy_term_field_data
+          field: reverse__taxonomy_term__field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: field_entidad_universitaria
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: false
+        field_cve_programa:
+          id: field_cve_programa
+          table: storage__field_cve_programa
+          field: field_cve_programa
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_programa: Almacenamiento'
+          plugin_id: standard
+          required: false
+      use_ajax: true
+      group_by: true
+      display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<div class=\"notas_grafico\">\r\n   <div class=\"fecha-corte\">Fecha de corte: Septiembre del año reportado.</div>\r\n   <div class=\"notas_gr_titulo\">Descripción</div>\r\n   <div> Se presentan los egresados reportados en la Estadística 911 de la Secretaría de Educación Pública, tomado en cuenta los distintos estatus aplicados durante el ciclo una vez que este ha concluido. Un egresado es aquel estudiante que ha aprobado la totalidad de los cursos necesarios o el mínimo de créditos requeridos para obtener el grado de un programa educativo.</div>\r\n   <div class=\"notas_gr_des\">Notas del gráfico</div>\r\n   <div>No hay información para reportar en el ciclo escolar 2024-2025, ya que el cierre del mismo ocurre después de la fecha de corte de la publicación de los datos.</div>\r\n   </div>\r\n</div>"
+            format: full_html
+          tokenize: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags:
+        - 'config:field.storage.storage.field_modalidad'
+  block_5:
+    id: block_5
+    display_title: Discapacidad
+    display_plugin: block
+    position: 1
+    display_options:
+      title: 'Egresados con discapacidad'
+      fields:
+        field_ciclo:
+          id: field_ciclo
+          table: storage__field_ciclo
+          field: field_ciclo
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: Ciclo
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_e_discapacidad_t:
+          id: field_e_discapacidad_t
+          table: storage__field_e_discapacidad_t
+          field: field_e_discapacidad_t
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Total de egresados con discapacidad'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_discapacidad_h:
+          id: field_discapacidad_h
+          table: storage__field_discapacidad_h
+          field: field_discapacidad_h
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Hombres con discapacidad'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_discapacidad_m:
+          id: field_discapacidad_m
+          table: storage__field_discapacidad_m
+          field: field_discapacidad_m
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: 'Mujeres con discapacidad'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_discapacidad_nb:
+          id: field_discapacidad_nb
+          table: storage__field_discapacidad_nb
+          field: field_discapacidad_nb
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: 'Personas no binarias con discapacidad'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          text_input_required: 'Seleccione cualquier filtro y pulse Aplicar para ver los resultados'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: true
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 500
+              autosubmit_hide: true
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Opciones avanzadas'
+              secondary_open: false
+              reset_button_always_show: false
+            filter:
+              field_ciclo_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            14_egresados: 14_egresados
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        field_ciclo_target_id:
+          id: field_ciclo_target_id
+          table: storage__field_ciclo
+          field: field_ciclo_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_ciclo_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_entidad_universitaria_target_id:
+          id: field_entidad_universitaria_target_id
+          table: storage__field_entidad_universitaria
+          field: field_entidad_universitaria_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            487: 487
+            488: 488
+            490: 490
+            489: 489
+            484: 484
+            486: 486
+            491: 491
+            492: 492
+            497: 497
+            493: 493
+            494: 494
+            498: 498
+            496: 496
+            495: 495
+            499: 499
+            500: 500
+            5022: 5022
+            485: 485
+            4955: 4955
+            501: 501
+            502: 502
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_entidad_universitaria_target_id_op
+            label: 'Entidad universitaria'
+            description: ''
+            use_operator: false
+            operator: field_entidad_universitaria_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_entidad_universitaria_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: entidad_universitaria
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: chart
+        options:
+          grouping: {  }
+          chart_settings:
+            library: highcharts
+            type: column
+            fields:
+              label: field_ciclo
+              stacking: false
+              data_providers:
+                field_ciclo:
+                  enabled: false
+                  color: '#58bfcd'
+                  weight: 2
+                field_e_discapacidad_t:
+                  enabled: true
+                  color: '#003f87'
+                  weight: 2
+                field_discapacidad_h:
+                  enabled: false
+                  color: '#c45890'
+                  weight: 5
+                field_discapacidad_m:
+                  enabled: false
+                  color: '#a97172'
+                  weight: 5
+                field_discapacidad_nb:
+                  enabled: false
+                  color: '#c4b858'
+                  weight: 5
+            display:
+              title: ''
+              title_position: ''
+              data_labels: true
+              data_markers: true
+              legend_position: bottom
+              background: ''
+              three_dimensional: 0
+              polar: 0
+              tooltips: true
+              dimensions:
+                width: ''
+                width_units: '%'
+                height: ''
+                height_units: ''
+              gauge:
+                max: '100'
+                min: '0'
+                green_from: '85'
+                green_to: '100'
+                yellow_from: '50'
+                yellow_to: '85'
+                red_from: '0'
+                red_to: '50'
+              color_changer: false
+            xaxis:
+              title: ''
+              labels_rotation: '0'
+            yaxis:
+              title: ''
+              min: ''
+              max: ''
+              prefix: ''
+              suffix: ''
+              decimal_count: ''
+              labels_rotation: '0'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        use_ajax: false
+        exposed_form: false
+        group_by: false
+        style: false
+        row: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+        footer: false
+      relationships:
+        field_cve_plantel:
+          id: field_cve_plantel
+          table: storage__field_cve_plantel
+          field: field_cve_plantel
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_plantel: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        reverse__taxonomy_term__field_entidad_universitaria:
+          id: reverse__taxonomy_term__field_entidad_universitaria
+          table: taxonomy_term_field_data
+          field: reverse__taxonomy_term__field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: field_entidad_universitaria
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: false
+        field_cve_programa:
+          id: field_cve_programa
+          table: storage__field_cve_programa
+          field: field_cve_programa
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_programa: Almacenamiento'
+          plugin_id: standard
+          required: false
+      use_ajax: true
+      group_by: true
+      display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<div class=\"notas_grafico\">\r\n   <div class=\"fecha-corte\">Fecha de corte: Septiembre del año reportado.</div>\r\n   <div class=\"notas_gr_titulo\">Descripción</div>\r\n   <div> Se presentan los egresados reportados en la Estadística 911 de la Secretaría de Educación Pública, tomado en cuenta los distintos estatus aplicados durante el ciclo una vez que este ha concluido. Un egresado es aquel estudiante que ha aprobado la totalidad de los cursos necesarios o el mínimo de créditos requeridos para obtener el grado de un programa educativo. </div>\r\n   <div class=\"notas_gr_des\">Notas del gráfico</div>\r\n   <div>No hay información para reportar en el ciclo escolar 2024-2025, ya que el cierre del mismo ocurre después de la fecha de corte de la publicación de los datos.</div>\r\n   </div>\r\n</div>"
+            format: full_html
+          tokenize: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags:
+        - 'config:field.storage.storage.field_ciclo'
+        - 'config:field.storage.storage.field_discapacidad_m'
+        - 'config:field.storage.storage.field_discapacidad_nb'
+  block_6:
+    id: block_6
+    display_title: 'Habla indígena'
+    display_plugin: block
+    position: 1
+    display_options:
+      title: 'Egresados de habla indígena'
+      fields:
+        field_e_habla_indigena_t:
+          id: field_e_habla_indigena_t
+          table: storage__field_e_habla_indigena_t
+          field: field_e_habla_indigena_t
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: 'Total de egresados de habla indígena'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_ciclo:
+          id: field_ciclo
+          table: storage__field_ciclo
+          field: field_ciclo
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: Ciclo
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          text_input_required: 'Seleccione cualquier filtro y pulse Aplicar para ver los resultados'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: true
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 500
+              autosubmit_hide: true
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Opciones avanzadas'
+              secondary_open: false
+              reset_button_always_show: false
+            filter:
+              field_ciclo_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            14_egresados: 14_egresados
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        field_ciclo_target_id:
+          id: field_ciclo_target_id
+          table: storage__field_ciclo
+          field: field_ciclo_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_ciclo_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_entidad_universitaria_target_id:
+          id: field_entidad_universitaria_target_id
+          table: taxonomy_term__field_entidad_universitaria
+          field: field_entidad_universitaria_target_id
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            487: 487
+            488: 488
+            490: 490
+            489: 489
+            484: 484
+            486: 486
+            491: 491
+            492: 492
+            497: 497
+            493: 493
+            494: 494
+            498: 498
+            496: 496
+            495: 495
+            499: 499
+            500: 500
+            5022: 5022
+            485: 485
+            4955: 4955
+            501: 501
+            502: 502
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_entidad_universitaria_target_id_op
+            label: 'Entidad universitaria'
+            description: ''
+            use_operator: false
+            operator: field_entidad_universitaria_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_entidad_universitaria_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: entidad_universitaria
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: chart
+        options:
+          grouping: {  }
+          chart_settings:
+            library: highcharts
+            type: column
+            fields:
+              label: field_ciclo
+              stacking: false
+              data_providers:
+                field_e_habla_indigena_t:
+                  enabled: true
+                  color: '#007a33'
+                  weight: 3
+                field_ciclo:
+                  enabled: false
+                  color: '#9fa1db'
+                  weight: 2
+            display:
+              title: ''
+              title_position: ''
+              data_labels: true
+              data_markers: true
+              legend_position: bottom
+              background: ''
+              three_dimensional: 0
+              polar: 0
+              tooltips: true
+              dimensions:
+                width: ''
+                width_units: '%'
+                height: ''
+                height_units: ''
+              gauge:
+                max: '100'
+                min: '0'
+                green_from: '85'
+                green_to: '100'
+                yellow_from: '50'
+                yellow_to: '85'
+                red_from: '0'
+                red_to: '50'
+              color_changer: false
+            xaxis:
+              title: ''
+              labels_rotation: '0'
+            yaxis:
+              title: ''
+              min: ''
+              max: ''
+              prefix: ''
+              suffix: ''
+              decimal_count: ''
+              labels_rotation: '0'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        use_ajax: false
+        exposed_form: false
+        group_by: false
+        style: false
+        row: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+        footer: false
+      relationships:
+        field_cve_plantel:
+          id: field_cve_plantel
+          table: storage__field_cve_plantel
+          field: field_cve_plantel
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_plantel: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        reverse__taxonomy_term__field_entidad_universitaria:
+          id: reverse__taxonomy_term__field_entidad_universitaria
+          table: taxonomy_term_field_data
+          field: reverse__taxonomy_term__field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: field_entidad_universitaria
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: false
+        field_cve_programa:
+          id: field_cve_programa
+          table: storage__field_cve_programa
+          field: field_cve_programa
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_programa: Almacenamiento'
+          plugin_id: standard
+          required: false
+      use_ajax: true
+      group_by: true
+      display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<div class=\"notas_grafico\">\r\n   <div class=\"fecha-corte\">Fecha de corte: Septiembre del año reportado.</div>\r\n   <div class=\"notas_gr_titulo\">Descripción</div>\r\n   <div> Se presentan los egresados reportados en la Estadística 911 de la Secretaría de Educación Pública, tomado en cuenta los distintos estatus aplicados durante el ciclo una vez que este ha concluido. Un egresado es aquel estudiante que ha aprobado la totalidad de los cursos necesarios o el mínimo de créditos requeridos para obtener el grado de un programa educativo.</div>\r\n   <div class=\"notas_gr_des\">Notas del gráfico</div>\r\n   <div>No hay información para reportar en el ciclo escolar 2024-2025, ya que el cierre del mismo ocurre después de la fecha de corte de la publicación de los datos.</div>\r\n   </div>\r\n</div>"
+            format: full_html
+          tokenize: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags:
+        - 'config:field.storage.storage.field_ciclo'
+  block_7:
+    id: block_7
+    display_title: 'Nivel educativo'
+    display_plugin: block
+    position: 1
+    display_options:
+      title: 'Egresados por nivel educativo'
+      fields:
+        field_nivel_educativo:
+          id: field_nivel_educativo
+          table: storage__field_nivel_educativo
+          field: field_nivel_educativo
+          relationship: field_cve_programa
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_t:
+          id: field_egresados_t
+          table: storage__field_egresados_t
+          field: field_egresados_t
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: Total
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: .
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ','
+          field_api_classes: false
+          set_precision: false
+          precision: 0
+          decimal: .
+          format_plural: 0
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Aplicar
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          text_input_required: 'Seleccione cualquier filtro y pulse Aplicar para ver los resultados'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: true
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 600
+              autosubmit_hide: true
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Opciones avanzadas'
+              secondary_open: false
+              reset_button_always_show: false
+            filter:
+              field_ciclo_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_entidad_universitaria_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_region_jalisco_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_plantel_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_programa_educativo_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            14_egresados: 14_egresados
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        field_ciclo_target_id:
+          id: field_ciclo_target_id
+          table: storage__field_ciclo
+          field: field_ciclo_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            750: 750
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_ciclo_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_entidad_universitaria_target_id_1:
+          id: field_entidad_universitaria_target_id_1
+          table: taxonomy_term__field_entidad_universitaria
+          field: field_entidad_universitaria_target_id
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            487: 487
+            488: 488
+            490: 490
+            489: 489
+            484: 484
+            486: 486
+            491: 491
+            492: 492
+            497: 497
+            493: 493
+            494: 494
+            498: 498
+            496: 496
+            495: 495
+            499: 499
+            500: 500
+            5022: 5022
+            485: 485
+            4955: 4955
+            501: 501
+            502: 502
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_entidad_universitaria_target_id_1_op
+            label: 'Entidad universitaria'
+            description: ''
+            use_operator: false
+            operator: field_entidad_universitaria_target_id_1_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_entidad_universitaria_target_id_1
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: entidad_universitaria
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: chart
+        options:
+          grouping: {  }
+          chart_settings:
+            library: highcharts
+            type: donut
+            fields:
+              label: field_nivel_educativo
+              stacking: false
+              data_providers:
+                field_egresados_t:
+                  enabled: true
+                  color: '#58b7c4'
+                  weight: 2
+                field_nivel_educativo:
+                  enabled: false
+                  color: '#73c7d2'
+                  weight: 1
+            display:
+              title: ''
+              title_position: ''
+              data_labels: true
+              data_markers: true
+              legend_position: bottom
+              background: ''
+              three_dimensional: 0
+              polar: 0
+              tooltips: true
+              dimensions:
+                width: ''
+                width_units: '%'
+                height: ''
+                height_units: ''
+              gauge:
+                max: '100'
+                min: '0'
+                green_from: '85'
+                green_to: '100'
+                yellow_from: '50'
+                yellow_to: '85'
+                red_from: '0'
+                red_to: '50'
+              color_changer: false
+            xaxis:
+              title: ''
+              labels_rotation: '0'
+            yaxis:
+              title: ''
+              min: ''
+              max: ''
+              prefix: ''
+              suffix: ''
+              decimal_count: ''
+              labels_rotation: '0'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        use_ajax: false
+        exposed_form: false
+        group_by: false
+        style: false
+        row: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+        footer: false
+      relationships:
+        field_cve_plantel:
+          id: field_cve_plantel
+          table: storage__field_cve_plantel
+          field: field_cve_plantel
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_plantel: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        reverse__taxonomy_term__field_entidad_universitaria:
+          id: reverse__taxonomy_term__field_entidad_universitaria
+          table: taxonomy_term_field_data
+          field: reverse__taxonomy_term__field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: field_entidad_universitaria
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: false
+        field_cve_programa:
+          id: field_cve_programa
+          table: storage__field_cve_programa
+          field: field_cve_programa
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_programa: Almacenamiento'
+          plugin_id: standard
+          required: false
+        field_nivel_educativo:
+          id: field_nivel_educativo
+          table: storage__field_nivel_educativo
+          field: field_nivel_educativo
+          relationship: field_cve_programa
+          group_type: group
+          admin_label: 'field_nivel_educativo: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        parent_target_id:
+          id: parent_target_id
+          table: taxonomy_term__parent
+          field: parent_target_id
+          relationship: field_nivel_educativo
+          group_type: group
+          admin_label: Padre
+          entity_type: taxonomy_term
+          entity_field: parent
+          plugin_id: standard
+          required: false
+      use_ajax: true
+      group_by: true
+      display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<div class=\"notas_grafico\">\r\n   <div class=\"fecha-corte\">Fecha de corte: Septiembre del año reportado.</div>\r\n   <div class=\"notas_gr_titulo\">Descripción</div>\r\n   <div> Se presentan los egresados reportados en la Estadística 911 de la Secretaría de Educación Pública, tomado en cuenta los distintos estatus aplicados durante el ciclo una vez que este ha concluido. Un egresado es aquel estudiante que ha aprobado la totalidad de los cursos necesarios o el mínimo de créditos requeridos para obtener el grado de un programa educativo.</div>\r\n   <div class=\"notas_gr_des\">Notas del gráfico</div>\r\n   <div>No hay información para reportar en el ciclo escolar 2024-2025, ya que el cierre del mismo ocurre después de la fecha de corte de la publicación de los datos.</div>\r\n   </div>\r\n</div>"
+            format: full_html
+          tokenize: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags:
+        - 'config:field.storage.storage.field_nivel_educativo'
+  block_8:
+    id: block_8
+    display_title: 'Campo de formación'
+    display_plugin: block
+    position: 1
+    display_options:
+      title: 'Egresados por campo de formación'
+      fields:
+        field_campo_amplio:
+          id: field_campo_amplio
+          table: storage__field_campo_amplio
+          field: field_campo_amplio
+          relationship: field_cve_programa
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_egresados_t:
+          id: field_egresados_t
+          table: storage__field_egresados_t
+          field: field_egresados_t
+          relationship: none
+          group_type: sum
+          admin_label: ''
+          plugin_id: field
+          label: Egresados
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ','
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      pager:
+        type: none
+        options:
+          offset: 0
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Aplicar
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          text_input_required: 'Seleccione cualquier filtro y pulse Aplicar para ver los resultados'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: true
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 600
+              autosubmit_hide: true
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Opciones avanzadas'
+              secondary_open: false
+              reset_button_always_show: false
+            filter:
+              field_ciclo_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_entidad_universitaria_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_region_jalisco_target_id:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_plantel_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+              field_programa_educativo_value:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      filters:
+        status:
+          id: status
+          table: storage_field_data
+          field: status
+          entity_type: storage
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        type:
+          id: type
+          table: storage_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: storage
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            14_egresados: 14_egresados
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        field_ciclo_target_id:
+          id: field_ciclo_target_id
+          table: storage__field_ciclo
+          field: field_ciclo_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            750: 750
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_ciclo_target_id_op
+            label: Ciclo
+            description: ''
+            use_operator: false
+            operator: field_ciclo_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_ciclo_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: ciclo
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_entidad_universitaria_target_id_1:
+          id: field_entidad_universitaria_target_id_1
+          table: taxonomy_term__field_entidad_universitaria
+          field: field_entidad_universitaria_target_id
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            487: 487
+            488: 488
+            490: 490
+            489: 489
+            484: 484
+            486: 486
+            491: 491
+            492: 492
+            497: 497
+            493: 493
+            494: 494
+            498: 498
+            496: 496
+            495: 495
+            499: 499
+            500: 500
+            5022: 5022
+            485: 485
+            4955: 4955
+            501: 501
+            502: 502
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_entidad_universitaria_target_id_1_op
+            label: 'Entidad universitaria'
+            description: ''
+            use_operator: false
+            operator: field_entidad_universitaria_target_id_1_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_entidad_universitaria_target_id_1
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: entidad_universitaria
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+        field_campo_amplio_target_id:
+          id: field_campo_amplio_target_id
+          table: storage__field_campo_amplio
+          field: field_campo_amplio_target_id
+          relationship: field_cve_programa
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: 'not empty'
+          value:
+            447: 447
+            448: 448
+            449: 449
+            450: 450
+            451: 451
+            446: 446
+            445: 445
+            479: 479
+            459: 459
+            460: 460
+            775: 775
+            776: 776
+            692: 692
+            693: 693
+            469: 469
+            471: 471
+            468: 468
+            470: 470
+            645: 645
+            777: 777
+            646: 646
+            472: 472
+            662: 662
+            624: 624
+            647: 647
+            625: 625
+            778: 778
+            623: 623
+            734: 734
+            676: 676
+            675: 675
+            661: 661
+            636: 636
+            629: 629
+            628: 628
+            637: 637
+            622: 622
+            641: 641
+            665: 665
+            660: 660
+            664: 664
+            780: 780
+            779: 779
+            781: 781
+            828: 828
+            782: 782
+            783: 783
+            663: 663
+            694: 694
+            454: 454
+            672: 672
+            720: 720
+            673: 673
+            671: 671
+            784: 784
+            735: 735
+            736: 736
+            648: 648
+            644: 644
+            677: 677
+            473: 473
+            474: 474
+            626: 626
+            666: 666
+            674: 674
+            696: 696
+            697: 697
+            785: 785
+            829: 829
+            786: 786
+            652: 652
+            820: 820
+            821: 821
+            653: 653
+            822: 822
+            823: 823
+            654: 654
+            824: 824
+            825: 825
+            826: 826
+            634: 634
+            642: 642
+            643: 643
+            649: 649
+            480: 480
+            455: 455
+            630: 630
+            682: 682
+            767: 767
+            683: 683
+            684: 684
+            685: 685
+            772: 772
+            771: 771
+            686: 686
+            773: 773
+            687: 687
+            688: 688
+            769: 769
+            770: 770
+            689: 689
+            768: 768
+            787: 787
+            721: 721
+            788: 788
+            789: 789
+            790: 790
+            791: 791
+            481: 481
+            461: 461
+            722: 722
+            478: 478
+            728: 728
+            705: 705
+            707: 707
+            709: 709
+            708: 708
+            792: 792
+            729: 729
+            698: 698
+            699: 699
+            695: 695
+            691: 691
+            793: 793
+            733: 733
+            482: 482
+            483: 483
+            704: 704
+            635: 635
+            633: 633
+            700: 700
+            794: 794
+            803: 803
+            795: 795
+            638: 638
+            796: 796
+            797: 797
+            798: 798
+            799: 799
+            800: 800
+            639: 639
+            640: 640
+            801: 801
+            802: 802
+            804: 804
+            456: 456
+            475: 475
+            805: 805
+            457: 457
+            453: 453
+            806: 806
+            807: 807
+            808: 808
+            656: 656
+            830: 830
+            809: 809
+            810: 810
+            678: 678
+            831: 831
+            811: 811
+            812: 812
+            827: 827
+            834: 834
+            819: 819
+            813: 813
+            814: 814
+            832: 832
+            462: 462
+            679: 679
+            452: 452
+            464: 464
+            476: 476
+            627: 627
+            680: 680
+            631: 631
+            667: 667
+            650: 650
+            690: 690
+            620: 620
+            730: 730
+            701: 701
+            737: 737
+            710: 710
+            458: 458
+            723: 723
+            657: 657
+            465: 465
+            833: 833
+            668: 668
+            815: 815
+            632: 632
+            816: 816
+            817: 817
+            651: 651
+            712: 712
+            713: 713
+            715: 715
+            711: 711
+            724: 724
+            725: 725
+            714: 714
+            717: 717
+            718: 718
+            726: 726
+            716: 716
+            719: 719
+            466: 466
+            669: 669
+            731: 731
+            702: 702
+            681: 681
+            477: 477
+            727: 727
+            732: 732
+            621: 621
+            658: 658
+            655: 655
+            670: 670
+            659: 659
+            818: 818
+            703: 703
+            467: 467
+            774: 774
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: campos_de_clasificacion_sep
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: chart
+        options:
+          grouping: {  }
+          chart_settings:
+            library: highcharts
+            type: donut
+            fields:
+              label: field_campo_amplio
+              stacking: false
+              data_providers:
+                field_campo_clasificacion:
+                  enabled: false
+                  color: '#73c7d2'
+                  weight: 2
+                field_campo_amplio:
+                  enabled: false
+                  color: '#58b7c4'
+                  weight: 2
+                field_egresados_t:
+                  enabled: true
+                  color: '#3fa6b4'
+                  weight: 3
+            display:
+              title: ''
+              title_position: ''
+              data_labels: true
+              data_markers: true
+              legend_position: bottom
+              background: ''
+              three_dimensional: 0
+              polar: 0
+              tooltips: true
+              dimensions:
+                width: ''
+                width_units: '%'
+                height: ''
+                height_units: ''
+              gauge:
+                max: '100'
+                min: '0'
+                green_from: '85'
+                green_to: '100'
+                yellow_from: '50'
+                yellow_to: '85'
+                red_from: '0'
+                red_to: '50'
+              color_changer: false
+            xaxis:
+              title: ''
+              labels_rotation: '0'
+            yaxis:
+              title: ''
+              min: ''
+              max: ''
+              prefix: ''
+              suffix: ''
+              decimal_count: ''
+              labels_rotation: '0'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        use_ajax: false
+        pager: false
+        exposed_form: false
+        group_by: false
+        style: false
+        row: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+        footer: false
+      relationships:
+        field_cve_plantel:
+          id: field_cve_plantel
+          table: storage__field_cve_plantel
+          field: field_cve_plantel
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_plantel: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        reverse__taxonomy_term__field_entidad_universitaria:
+          id: reverse__taxonomy_term__field_entidad_universitaria
+          table: taxonomy_term_field_data
+          field: reverse__taxonomy_term__field_entidad_universitaria
+          relationship: field_cve_plantel
+          group_type: group
+          admin_label: field_entidad_universitaria
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: false
+        field_cve_programa:
+          id: field_cve_programa
+          table: storage__field_cve_programa
+          field: field_cve_programa
+          relationship: none
+          group_type: group
+          admin_label: 'field_cve_programa: Almacenamiento'
+          plugin_id: standard
+          required: false
+        field_campo_clasificacion:
+          id: field_campo_clasificacion
+          table: storage__field_campo_clasificacion
+          field: field_campo_clasificacion
+          relationship: field_cve_programa
+          group_type: group
+          admin_label: 'field_campo_clasificacion: Término de taxonomía'
+          plugin_id: standard
+          required: false
+        parent_target_id:
+          id: parent_target_id
+          table: taxonomy_term__parent
+          field: parent_target_id
+          relationship: field_campo_clasificacion
+          group_type: group
+          admin_label: Padre
+          entity_type: taxonomy_term
+          entity_field: parent
+          plugin_id: standard
+          required: false
+        parent_target_id_1:
+          id: parent_target_id_1
+          table: taxonomy_term__parent
+          field: parent_target_id
+          relationship: parent_target_id
+          group_type: group
+          admin_label: Abuelo
+          entity_type: taxonomy_term
+          entity_field: parent
+          plugin_id: standard
+          required: false
+      use_ajax: true
+      group_by: true
+      display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<div class=\"notas_grafico\">\r\n   <div class=\"fecha-corte\">Fecha de corte: Septiembre del año reportado.</div>\r\n   <div class=\"notas_gr_titulo\">Descripción</div>\r\n   <div>Se presentan los egresados reportados en la Estadística 911 de la Secretaría de Educación Pública, tomado en cuenta los distintos estatus aplicados durante el ciclo una vez que este ha concluido. Un egresado es aquel estudiante que ha aprobado la totalidad de los cursos necesarios o el mínimo de créditos requeridos para obtener el grado de un programa educativo.</div>\r\n   <div class=\"notas_gr_des\">Notas del gráfico</div>\r\n   <div>No hay información para reportar en el ciclo escolar 2024-2025, ya que el cierre del mismo ocurre después de la fecha de corte de la publicación de los datos.</div>\r\n   </div>\r\n</div>"
+            format: full_html
+          tokenize: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags:
+        - 'config:field.storage.storage.field_campo_amplio'

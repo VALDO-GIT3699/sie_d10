@@ -1,0 +1,21 @@
+uuid: 1edb2033-6c04-4915-a3b5-47fc63cd02e6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_notas
+    - taxonomy.vocabulary.planteles
+  module:
+    - text
+id: taxonomy_term.planteles.field_notas
+field_name: field_notas
+entity_type: taxonomy_term
+bundle: planteles
+label: Notas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

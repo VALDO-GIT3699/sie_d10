@@ -1,0 +1,23 @@
+uuid: e347ea8d-0036-4e35-a73d-6051e9566a4f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.15_titulados
+  module:
+    - feeds
+id: storage.15_titulados.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 15_titulados
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

@@ -1,0 +1,23 @@
+uuid: 7949ab88-a830-421a-bfac-0ecb4ac0cb78
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_titulados_t
+field_name: field_titulados_t
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Total de titulados'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

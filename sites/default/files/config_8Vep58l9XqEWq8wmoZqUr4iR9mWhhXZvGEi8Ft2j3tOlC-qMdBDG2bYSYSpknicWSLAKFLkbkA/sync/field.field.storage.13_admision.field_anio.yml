@@ -1,0 +1,29 @@
+uuid: cb2da853-616c-4f07-a763-e584e3e7e1d7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.13_admision
+    - taxonomy.vocabulary.ano
+id: storage.13_admision.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 13_admision
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

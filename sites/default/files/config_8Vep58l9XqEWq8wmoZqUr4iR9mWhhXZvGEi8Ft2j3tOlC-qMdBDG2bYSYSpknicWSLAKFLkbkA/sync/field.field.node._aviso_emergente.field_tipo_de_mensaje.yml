@@ -1,0 +1,21 @@
+uuid: b58ced1c-5e4c-4bc2-bc24-f73b78169178
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_mensaje
+    - node.type._aviso_emergente
+  module:
+    - options
+id: node._aviso_emergente.field_tipo_de_mensaje
+field_name: field_tipo_de_mensaje
+entity_type: node
+bundle: _aviso_emergente
+label: 'Tipo de mensaje'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

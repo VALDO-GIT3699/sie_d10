@@ -1,0 +1,23 @@
+uuid: f82cb3ea-0045-462f-bc2e-348a9f26a910
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_egresados_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_egresados_h
+field_name: field_egresados_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres egresados'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

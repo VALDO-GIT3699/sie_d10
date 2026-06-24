@@ -1,0 +1,23 @@
+uuid: b88551cc-12dc-45b7-b088-ae08f2fba7b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.421_practicas_profesionales
+id: storage.421_practicas_profesionales.field_row
+field_name: field_row
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,25 @@
+uuid: aa2c7190-4fd3-4caa-a0ad-e6e8f69af95a
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:92ce830c-a0c0-4858-8cf8-40c6755f8ed9'
+  module:
+    - block_content
+  theme:
+    - b4seutheme
+id: sitebanner
+theme: b4seutheme
+region: breadcrumb
+weight: -6
+provider: null
+plugin: 'block_content:92ce830c-a0c0-4858-8cf8-40c6755f8ed9'
+settings:
+  id: 'block_content:92ce830c-a0c0-4858-8cf8-40c6755f8ed9'
+  label: 'site banner'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

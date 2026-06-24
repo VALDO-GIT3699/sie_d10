@@ -1,0 +1,29 @@
+uuid: 489198d2-a33c-4e81-aa27-5b06a768bd79
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.a31_solicitudes_de_informacion
+    - taxonomy.vocabulary.ano
+id: storage.a31_solicitudes_de_informacion.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: a31_solicitudes_de_informacion
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

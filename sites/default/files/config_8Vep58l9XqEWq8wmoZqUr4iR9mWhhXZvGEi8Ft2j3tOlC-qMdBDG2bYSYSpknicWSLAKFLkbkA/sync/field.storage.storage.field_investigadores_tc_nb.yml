@@ -1,0 +1,20 @@
+uuid: cec82acc-6bb0-4b14-88c9-c13680eeb70b
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_investigadores_tc_nb
+field_name: field_investigadores_tc_nb
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

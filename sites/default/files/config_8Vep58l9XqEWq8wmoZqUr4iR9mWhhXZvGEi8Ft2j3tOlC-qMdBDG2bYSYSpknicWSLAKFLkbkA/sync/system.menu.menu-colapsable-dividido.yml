@@ -1,0 +1,8 @@
+uuid: 362312ba-9c7c-4f82-8689-7f4c32a75996
+langcode: es
+status: true
+dependencies: {  }
+id: menu-colapsable-dividido
+label: 'Menú colapsable dividido'
+description: 'Este menú se colapsa completo, pero para mostrar los demás enlaces, habrá que configurarlos'
+locked: false

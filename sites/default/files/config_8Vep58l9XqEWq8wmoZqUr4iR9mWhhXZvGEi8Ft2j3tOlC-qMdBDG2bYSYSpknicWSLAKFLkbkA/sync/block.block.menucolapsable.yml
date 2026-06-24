@@ -1,0 +1,36 @@
+uuid: 88760467-5d33-44b9-a63b-6338abcf2ffe
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.menu-colapsable
+  module:
+    - menu_block
+    - system
+  theme:
+    - b4seutheme
+id: menucolapsable
+theme: b4seutheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'menu_block:menu-colapsable'
+settings:
+  id: 'menu_block:menu-colapsable'
+  label: 'Menú colapsable'
+  label_display: '0'
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  label_link: false
+  label_type: block
+  level: 1
+  depth: 4
+  expand_all_items: true
+  parent: 'menu-colapsable:'
+  suggestion: main
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /segundo-menu

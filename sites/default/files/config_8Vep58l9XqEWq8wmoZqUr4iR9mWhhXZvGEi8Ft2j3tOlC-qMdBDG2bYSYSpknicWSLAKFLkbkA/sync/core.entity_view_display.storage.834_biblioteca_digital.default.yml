@@ -1,0 +1,186 @@
+uuid: 90caee1b-3ae5-47b1-bd2b-deda97f7941f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.834_biblioteca_digital.feeds_item
+    - field.field.storage.834_biblioteca_digital.field_anio
+    - field.field.storage.834_biblioteca_digital.field_bd_suscritas_conricyt
+    - field.field.storage.834_biblioteca_digital.field_bd_suscritas_udg
+    - field.field.storage.834_biblioteca_digital.field_bd_total
+    - field.field.storage.834_biblioteca_digital.field_consultas_wdgbiblio
+    - field.field.storage.834_biblioteca_digital.field_cursos_p
+    - field.field.storage.834_biblioteca_digital.field_cursos_v
+    - field.field.storage.834_biblioteca_digital.field_doc_prod_udg
+    - field.field.storage.834_biblioteca_digital.field_libros_e
+    - field.field.storage.834_biblioteca_digital.field_prom_dia_consultas
+    - field.field.storage.834_biblioteca_digital.field_revistas_e
+    - field.field.storage.834_biblioteca_digital.field_row
+    - field.field.storage.834_biblioteca_digital.field_t_usuarios_p
+    - field.field.storage.834_biblioteca_digital.field_t_usuarios_v
+    - field.field.storage.834_biblioteca_digital.field_tesis_bd
+    - field.field.storage.834_biblioteca_digital.field_visualizacion_rrss
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.default
+targetEntityType: storage
+bundle: 834_biblioteca_digital
+mode: default
+content:
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_bd_suscritas_conricyt:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_bd_suscritas_udg:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_bd_total:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_consultas_wdgbiblio:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_cursos_p:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_cursos_v:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_doc_prod_udg:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_libros_e:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_prom_dia_consultas:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_revistas_e:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_t_usuarios_p:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_t_usuarios_v:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_tesis_bd:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_visualizacion_rrss:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

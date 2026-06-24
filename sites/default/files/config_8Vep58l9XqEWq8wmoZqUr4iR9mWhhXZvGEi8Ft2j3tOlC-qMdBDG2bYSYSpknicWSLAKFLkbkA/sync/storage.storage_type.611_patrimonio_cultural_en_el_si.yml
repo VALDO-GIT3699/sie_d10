@@ -1,0 +1,13 @@
+uuid: fa73d9bc-1c99-46dc-9f9c-fc4b0cafe1bb
+langcode: es
+status: true
+dependencies: {  }
+id: 611_patrimonio_cultural_en_el_si
+label: '611 Patrimonio cultural en el SICI'
+description: 'Patrimonio artístico y cultural de la Red Universitaria registrado en el Sistema Institucional de Control de Inventarios por entidad universitaria y tipo'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

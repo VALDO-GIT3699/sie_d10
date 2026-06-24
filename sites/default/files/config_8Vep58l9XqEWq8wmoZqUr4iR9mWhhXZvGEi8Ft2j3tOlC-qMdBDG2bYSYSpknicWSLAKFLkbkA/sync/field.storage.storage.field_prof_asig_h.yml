@@ -1,0 +1,20 @@
+uuid: 50f30b5d-1bc8-4dcd-a3b9-be862f5fed65
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_prof_asig_h
+field_name: field_prof_asig_h
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

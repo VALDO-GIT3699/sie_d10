@@ -1,0 +1,29 @@
+uuid: 07e13d52-0894-4d94-87a7-1290fbe93256
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.711_pa_categoria_tiempo
+    - taxonomy.vocabulary.ano
+id: storage.711_pa_categoria_tiempo.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

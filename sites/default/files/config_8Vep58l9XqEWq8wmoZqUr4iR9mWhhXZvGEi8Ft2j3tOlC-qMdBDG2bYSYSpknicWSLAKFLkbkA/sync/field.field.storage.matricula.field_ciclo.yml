@@ -1,0 +1,29 @@
+uuid: 93de008c-caff-430e-8bf4-0bc05a20f790
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ciclo
+    - storage.storage_type.matricula
+    - taxonomy.vocabulary.ciclo
+id: storage.matricula.field_ciclo
+field_name: field_ciclo
+entity_type: storage
+bundle: matricula
+label: Ciclo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ciclo: ciclo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

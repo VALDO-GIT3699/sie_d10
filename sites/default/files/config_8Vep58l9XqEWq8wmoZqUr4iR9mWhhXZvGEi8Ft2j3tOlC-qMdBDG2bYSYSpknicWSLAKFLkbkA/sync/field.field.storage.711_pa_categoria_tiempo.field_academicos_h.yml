@@ -1,0 +1,23 @@
+uuid: dbc6236e-e3e4-4200-b11f-6a31388ebd1a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_academicos_h
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_academicos_h
+field_name: field_academicos_h
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Académicos hombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

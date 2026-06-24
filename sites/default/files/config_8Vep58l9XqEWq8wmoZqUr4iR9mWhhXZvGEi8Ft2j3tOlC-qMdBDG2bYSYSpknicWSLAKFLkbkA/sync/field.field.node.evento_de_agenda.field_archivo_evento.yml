@@ -1,0 +1,27 @@
+uuid: 40f4996d-ee06-41b4-bdc2-f7bf6fabdc89
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archivo_evento
+    - node.type.evento_de_agenda
+  module:
+    - file
+id: node.evento_de_agenda.field_archivo_evento
+field_name: field_archivo_evento
+entity_type: node
+bundle: evento_de_agenda
+label: Archivo
+description: 'Archivo del evento'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt zip tar.gz doc xls xlsx pdf docx'
+  max_filesize: '5 MB'
+  description_field: true
+field_type: file

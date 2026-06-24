@@ -1,0 +1,27 @@
+uuid: 3dd8dc7a-3588-47dc-b0a5-78c89f9e84e0
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - storage
+id: storage.field_convenio_estatus
+field_name: field_convenio_estatus
+entity_type: storage
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Vigentes
+      label: Vigentes
+    -
+      value: 'Firmados en el año'
+      label: 'Firmados en el año'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

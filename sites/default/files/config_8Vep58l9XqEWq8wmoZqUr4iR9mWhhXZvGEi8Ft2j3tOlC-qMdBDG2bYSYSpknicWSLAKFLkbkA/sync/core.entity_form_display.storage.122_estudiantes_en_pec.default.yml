@@ -1,0 +1,115 @@
+uuid: 4053bcc2-16e6-45d5-acf8-12bd577fb6d1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.122_estudiantes_en_pec.feeds_item
+    - field.field.storage.122_estudiantes_en_pec.field_ciclo
+    - field.field.storage.122_estudiantes_en_pec.field_entidad_universitaria
+    - field.field.storage.122_estudiantes_en_pec.field_hombres
+    - field.field.storage.122_estudiantes_en_pec.field_mujeres
+    - field.field.storage.122_estudiantes_en_pec.field_nivel_estudiante
+    - field.field.storage.122_estudiantes_en_pec.field_personas_no_binarias
+    - field.field.storage.122_estudiantes_en_pec.field_row
+    - field.field.storage.122_estudiantes_en_pec.field_tipo_estudiante_pec
+    - field.field.storage.122_estudiantes_en_pec.field_total
+    - storage.storage_type.122_estudiantes_en_pec
+id: storage.122_estudiantes_en_pec.default
+targetEntityType: storage
+bundle: 122_estudiantes_en_pec
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hombres:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_mujeres:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_nivel_estudiante:
+    type: entity_reference_autocomplete
+    weight: 29
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_personas_no_binarias:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tipo_estudiante_pec:
+    type: entity_reference_autocomplete
+    weight: 30
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_total:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

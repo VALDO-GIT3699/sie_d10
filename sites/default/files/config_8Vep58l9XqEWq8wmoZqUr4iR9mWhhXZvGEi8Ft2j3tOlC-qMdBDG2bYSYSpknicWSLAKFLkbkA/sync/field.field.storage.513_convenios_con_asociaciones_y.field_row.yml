@@ -1,0 +1,23 @@
+uuid: 2f0354d0-348d-4a20-a69d-1bd722c76481
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.513_convenios_con_asociaciones_y
+id: storage.513_convenios_con_asociaciones_y.field_row
+field_name: field_row
+entity_type: storage
+bundle: 513_convenios_con_asociaciones_y
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

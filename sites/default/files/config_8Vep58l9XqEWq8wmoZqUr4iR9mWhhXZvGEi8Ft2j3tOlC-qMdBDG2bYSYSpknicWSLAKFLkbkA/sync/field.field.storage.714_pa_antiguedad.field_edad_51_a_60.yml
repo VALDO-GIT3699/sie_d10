@@ -1,0 +1,23 @@
+uuid: a10c8d40-6872-49a9-9cfe-851ce20a6e50
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_edad_51_a_60
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_edad_51_a_60
+field_name: field_edad_51_a_60
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Edad de 51 a 60 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

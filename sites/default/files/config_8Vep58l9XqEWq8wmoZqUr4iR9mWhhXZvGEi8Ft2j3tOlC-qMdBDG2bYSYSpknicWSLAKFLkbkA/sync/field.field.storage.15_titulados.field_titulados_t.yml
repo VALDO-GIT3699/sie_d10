@@ -1,0 +1,23 @@
+uuid: ca2668e7-78ed-4684-8e90-fe942d90b133
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_t
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_titulados_t
+field_name: field_titulados_t
+entity_type: storage
+bundle: 15_titulados
+label: 'Total de titulados'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

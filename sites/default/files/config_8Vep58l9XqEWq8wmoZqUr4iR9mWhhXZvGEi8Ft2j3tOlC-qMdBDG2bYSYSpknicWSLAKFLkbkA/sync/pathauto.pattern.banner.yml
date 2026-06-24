@@ -1,0 +1,23 @@
+uuid: d3f7a489-51f4-4828-a9df-d0b17aeaaf32
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.banner
+  module:
+    - node
+id: banner
+label: Banner
+type: 'canonical_entities:node'
+pattern: '/banner/[node:title]'
+selection_criteria:
+  d85d5a7c-5757-4718-8cd8-43aa7c6dd79a:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      banner: banner
+selection_logic: and
+weight: -5
+relationships: {  }

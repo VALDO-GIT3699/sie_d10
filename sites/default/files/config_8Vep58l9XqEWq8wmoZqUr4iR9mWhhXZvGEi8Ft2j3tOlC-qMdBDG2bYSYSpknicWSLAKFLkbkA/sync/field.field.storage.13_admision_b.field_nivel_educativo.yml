@@ -1,0 +1,29 @@
+uuid: 0868a649-afc9-467e-848f-1ee08304fa73
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_nivel_educativo
+    - storage.storage_type.13_admision_b
+    - taxonomy.vocabulary.ni
+id: storage.13_admision_b.field_nivel_educativo
+field_name: field_nivel_educativo
+entity_type: storage
+bundle: 13_admision_b
+label: 'Nivel educativo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ni: ni
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

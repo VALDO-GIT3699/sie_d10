@@ -1,0 +1,15 @@
+uuid: 220aba6d-233e-4a08-be23-a0e34cebff6d
+langcode: es
+status: true
+dependencies: {  }
+name: cartel_de_agenda
+label: 'Cartel de agenda 270 x 365'
+effects:
+  2fa6c133-a303-4a7d-8a8a-4b527a2b8732:
+    uuid: 2fa6c133-a303-4a7d-8a8a-4b527a2b8732
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 270
+      height: 365
+      anchor: center-top

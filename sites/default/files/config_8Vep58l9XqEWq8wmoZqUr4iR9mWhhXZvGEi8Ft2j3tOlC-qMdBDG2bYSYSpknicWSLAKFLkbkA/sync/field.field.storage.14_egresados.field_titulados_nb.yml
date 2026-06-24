@@ -1,0 +1,23 @@
+uuid: 87f75f03-7709-4cb8-88aa-92d153751317
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_nb
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_titulados_nb
+field_name: field_titulados_nb
+entity_type: storage
+bundle: 14_egresados
+label: 'Personas no binarias tituladas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

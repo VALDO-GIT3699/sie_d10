@@ -1,0 +1,23 @@
+uuid: 87da1778-8b18-4369-8b0a-63e042d0a83f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.30ar_planteles
+  module:
+    - feeds
+id: storage.30ar_planteles.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 30ar_planteles
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

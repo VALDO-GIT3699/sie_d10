@@ -1,0 +1,23 @@
+uuid: 8941a65b-a8a5-4313-b0f5-44f0a63a7110
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_semblanza
+    - node.type.directorio
+  module:
+    - text
+id: node.directorio.field_semblanza
+field_name: field_semblanza
+entity_type: node
+bundle: directorio
+label: Semblanza
+description: Semblanza
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

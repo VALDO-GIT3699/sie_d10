@@ -1,0 +1,23 @@
+uuid: ec626904-6263-4786-b20f-3d4b7a5e094c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_habla_indigena_h
+    - storage.storage_type.matricula
+id: storage.matricula.field_habla_indigena_h
+field_name: field_habla_indigena_h
+entity_type: storage
+bundle: matricula
+label: 'Hombres de habla indígena'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

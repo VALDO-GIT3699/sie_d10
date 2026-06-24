@@ -1,0 +1,23 @@
+uuid: a1590e3c-bf88-4b57-b3fd-61df05c1f451
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_escuela
+    - storage.storage_type.30ar_planteles
+id: storage.30ar_planteles.field_30ar_escuela
+field_name: field_30ar_escuela
+entity_type: storage
+bundle: 30ar_planteles
+label: Escuelas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

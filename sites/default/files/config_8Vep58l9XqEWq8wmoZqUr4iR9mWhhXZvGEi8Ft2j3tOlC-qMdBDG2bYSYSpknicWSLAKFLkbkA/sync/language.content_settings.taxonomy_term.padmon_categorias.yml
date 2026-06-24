@@ -1,0 +1,11 @@
+uuid: fa6c69f1-9253-4675-ada5-02b85f21a63f
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.padmon_categorias
+id: taxonomy_term.padmon_categorias
+target_entity_type_id: taxonomy_term
+target_bundle: padmon_categorias
+default_langcode: site_default
+language_alterable: false

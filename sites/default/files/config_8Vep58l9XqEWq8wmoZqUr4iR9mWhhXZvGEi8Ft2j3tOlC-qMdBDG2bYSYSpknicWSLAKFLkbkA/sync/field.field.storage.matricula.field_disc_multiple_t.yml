@@ -1,0 +1,23 @@
+uuid: b29adce6-f1ef-4b96-a243-fb6497016c1b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_multiple_t
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_multiple_t
+field_name: field_disc_multiple_t
+entity_type: storage
+bundle: matricula
+label: 'Total de personas con discapacidad múltiple'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

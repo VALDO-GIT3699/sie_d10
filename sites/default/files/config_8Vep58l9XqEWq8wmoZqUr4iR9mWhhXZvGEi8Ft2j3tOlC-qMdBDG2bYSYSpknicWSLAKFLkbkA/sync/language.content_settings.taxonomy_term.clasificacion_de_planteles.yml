@@ -1,0 +1,11 @@
+uuid: 827acaf1-d7c7-4c8c-bd15-41c136e605de
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.clasificacion_de_planteles
+id: taxonomy_term.clasificacion_de_planteles
+target_entity_type_id: taxonomy_term
+target_bundle: clasificacion_de_planteles
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,13 @@
+uuid: df54b5a1-64eb-463e-98b9-8ea35ab6815c
+langcode: es
+status: true
+dependencies: {  }
+id: 833_bases_de_datos
+label: '833 Bases de datos'
+description: 'Bases de datos de la Biblioteca Digital del SiUBiUDG'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

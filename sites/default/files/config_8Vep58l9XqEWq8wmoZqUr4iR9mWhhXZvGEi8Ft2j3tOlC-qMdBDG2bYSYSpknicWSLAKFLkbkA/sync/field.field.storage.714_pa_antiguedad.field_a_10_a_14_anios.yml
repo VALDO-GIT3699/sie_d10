@@ -1,0 +1,23 @@
+uuid: c6f8c724-185a-4775-92c3-ff1d6e1b1773
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_a_10_a_14_anios
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_a_10_a_14_anios
+field_name: field_a_10_a_14_anios
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Antigüedad de 10 a 14 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

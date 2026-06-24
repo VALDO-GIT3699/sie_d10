@@ -1,0 +1,23 @@
+uuid: a4c4f7c9-e38c-4e6b-b59c-8dd0154366b9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_prom_dia_consultas
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_prom_dia_consultas
+field_name: field_prom_dia_consultas
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Promedio de consultas diarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

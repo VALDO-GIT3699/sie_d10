@@ -1,0 +1,463 @@
+uuid: 33b1c96b-148e-4182-adfe-b4353cf39ff1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.14_egresados.field_ciclo
+    - field.field.storage.14_egresados.field_cve_plantel
+    - field.field.storage.14_egresados.field_cve_programa
+    - field.field.storage.14_egresados.field_e_discapacidad_h
+    - field.field.storage.14_egresados.field_e_discapacidad_m
+    - field.field.storage.14_egresados.field_e_discapacidad_nb
+    - field.field.storage.14_egresados.field_e_discapacidad_t
+    - field.field.storage.14_egresados.field_e_habla_indigena_h
+    - field.field.storage.14_egresados.field_e_habla_indigena_m
+    - field.field.storage.14_egresados.field_e_habla_indigena_nb
+    - field.field.storage.14_egresados.field_e_habla_indigena_t
+    - field.field.storage.14_egresados.field_egresados_h
+    - field.field.storage.14_egresados.field_egresados_m
+    - field.field.storage.14_egresados.field_egresados_nb
+    - field.field.storage.14_egresados.field_egresados_t
+    - field.field.storage.14_egresados.field_modalidad
+    - field.field.storage.14_egresados.field_row
+    - field.field.storage.14_egresados.field_ti_discapacidad_h
+    - field.field.storage.14_egresados.field_ti_discapacidad_m
+    - field.field.storage.14_egresados.field_ti_discapacidad_nb
+    - field.field.storage.14_egresados.field_ti_discapacidad_t
+    - field.field.storage.14_egresados.field_ti_habla_indigena_h
+    - field.field.storage.14_egresados.field_ti_habla_indigena_m
+    - field.field.storage.14_egresados.field_ti_habla_indigena_nb
+    - field.field.storage.14_egresados.field_ti_habla_indigena_t
+    - field.field.storage.14_egresados.field_titulados_h
+    - field.field.storage.14_egresados.field_titulados_m
+    - field.field.storage.14_egresados.field_titulados_nb
+    - field.field.storage.14_egresados.field_titulados_t
+    - storage.storage_type.14_egresados
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '14 Egresados y titulados'
+id: 14_egresados
+description: 'Carga masiva de la egresados y titulados'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 14_egresados
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  ciclo:
+    value: ciclo
+    label: ciclo
+    machine_name: ciclo
+    type: csv
+  clave_plantel:
+    value: clave_plantel
+    label: clave_plantel
+    machine_name: clave_plantel
+    type: csv
+  cve_programa:
+    value: cve_programa
+    label: cve_programa
+    machine_name: cve_programa
+    type: csv
+  modalidad:
+    value: modalidad
+    label: modalidad
+    machine_name: modalidad
+    type: csv
+  egresados_h:
+    value: egresados_h
+    label: egresados_h
+    machine_name: egresados_h
+    type: csv
+  egresados_m:
+    value: egresados_m
+    label: egresados_m
+    machine_name: egresados_m
+    type: csv
+  egresados_nb:
+    value: egresados_nb
+    label: egresados_nb
+    machine_name: egresados_nb
+    type: csv
+  egresados_t:
+    value: egresados_t
+    label: egresados_t
+    machine_name: egresados_t
+    type: csv
+  e_discapacidad_h:
+    value: e_discapacidad_h
+    label: e_discapacidad_h
+    machine_name: e_discapacidad_h
+    type: csv
+  e_discapacidad_m:
+    value: e_discapacidad_m
+    label: e_discapacidad_m
+    machine_name: e_discapacidad_m
+    type: csv
+  e_discapacidad_nb:
+    value: e_discapacidad_nb
+    label: e_discapacidad_nb
+    machine_name: e_discapacidad_nb
+    type: csv
+  e_discapacidad_t:
+    value: e_discapacidad_t
+    label: e_discapacidad_t
+    machine_name: e_discapacidad_t
+    type: csv
+  e_habla_indigena_h:
+    value: e_habla_indigena_h
+    label: e_habla_indigena_h
+    machine_name: e_habla_indigena_h
+    type: csv
+  e_habla_indigena_m:
+    value: e_habla_indigena_m
+    label: e_habla_indigena_m
+    machine_name: e_habla_indigena_m
+    type: csv
+  e_habla_indigena_nb:
+    value: e_habla_indigena_nb
+    label: e_habla_indigena_nb
+    machine_name: e_habla_indigena_nb
+    type: csv
+  e_habla_indigena_t:
+    value: e_habla_indigena_t
+    label: e_habla_indigena_t
+    machine_name: e_habla_indigena_t
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  titulados_h:
+    value: titulados_h
+    label: titulados_h
+    machine_name: titulados_h
+    type: csv
+  titulados_m:
+    value: titulados_m
+    label: titulados_m
+    machine_name: titulados_m
+    type: csv
+  titulados_nb:
+    value: titulados_nb
+    label: titulados_nb
+    machine_name: titulados_nb
+    type: csv
+  titulados_t:
+    value: titulados_t
+    label: titulados_t
+    machine_name: titulados_t
+    type: csv
+  ti_discapacidad_h:
+    value: ti_discapacidad_h
+    label: ti_discapacidad_h
+    machine_name: ti_discapacidad_h
+    type: csv
+  ti_discapacidad_m:
+    value: ti_discapacidad_m
+    label: ti_discapacidad_m
+    machine_name: ti_discapacidad_m
+    type: csv
+  ti_discapacidad_nb:
+    value: ti_discapacidad_nb
+    label: ti_discapacidad_nb
+    machine_name: ti_discapacidad_nb
+    type: csv
+  ti_discapacidad_t:
+    value: ti_discapacidad_t
+    label: ti_discapacidad_t
+    machine_name: ti_discapacidad_t
+    type: csv
+  ti_habla_indigena_h:
+    value: ti_habla_indigena_h
+    label: ti_habla_indigena_h
+    machine_name: ti_habla_indigena_h
+    type: csv
+  ti_habla_indigena_m:
+    value: ti_habla_indigena_m
+    label: ti_habla_indigena_m
+    machine_name: ti_habla_indigena_m
+    type: csv
+  ti_habla_indigena_nb:
+    value: ti_habla_indigena_nb
+    label: ti_habla_indigena_nb
+    machine_name: ti_habla_indigena_nb
+    type: csv
+  ti_habla_indigena_t:
+    value: ti_habla_indigena_t
+    label: ti_habla_indigena_t
+    machine_name: ti_habla_indigena_t
+    type: csv
+  cve_plantel:
+    value: cve_plantel
+    label: cve_plantel
+    machine_name: cve_plantel
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_ciclo
+    map:
+      target_id: ciclo
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ciclo
+      feeds_item: false
+  -
+    target: field_cve_plantel
+    map:
+      target_id: cve_plantel
+    settings:
+      language: ''
+      reference_by: field_clave_plantel
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: planteles
+  -
+    target: field_cve_programa
+    map:
+      target_id: cve_programa
+    settings:
+      language: ''
+      reference_by: field_clave_programa
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: programa_educativo
+  -
+    target: field_modalidad
+    map:
+      target_id: modalidad
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: modalidad
+      feeds_item: false
+  -
+    target: field_egresados_h
+    map:
+      value: egresados_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_egresados_m
+    map:
+      value: egresados_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_egresados_nb
+    map:
+      value: egresados_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_egresados_t
+    map:
+      value: egresados_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_e_discapacidad_h
+    map:
+      value: e_discapacidad_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_e_discapacidad_m
+    map:
+      value: e_discapacidad_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_e_discapacidad_nb
+    map:
+      value: e_discapacidad_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_e_discapacidad_t
+    map:
+      value: e_discapacidad_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_e_habla_indigena_h
+    map:
+      value: e_habla_indigena_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_e_habla_indigena_m
+    map:
+      value: e_habla_indigena_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_e_habla_indigena_nb
+    map:
+      value: e_habla_indigena_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_e_habla_indigena_t
+    map:
+      value: e_habla_indigena_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_titulados_h
+    map:
+      value: titulados_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_titulados_m
+    map:
+      value: titulados_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_titulados_nb
+    map:
+      value: titulados_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_titulados_t
+    map:
+      value: titulados_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ti_discapacidad_h
+    map:
+      value: ti_discapacidad_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ti_discapacidad_m
+    map:
+      value: ti_discapacidad_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ti_discapacidad_nb
+    map:
+      value: ti_discapacidad_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ti_discapacidad_t
+    map:
+      value: ti_discapacidad_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ti_habla_indigena_h
+    map:
+      value: ti_habla_indigena_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ti_habla_indigena_m
+    map:
+      value: ti_habla_indigena_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ti_habla_indigena_nb
+    map:
+      value: ti_habla_indigena_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ti_habla_indigena_t
+    map:
+      value: ti_habla_indigena_t
+    settings:
+      language: null
+    unique: {  }

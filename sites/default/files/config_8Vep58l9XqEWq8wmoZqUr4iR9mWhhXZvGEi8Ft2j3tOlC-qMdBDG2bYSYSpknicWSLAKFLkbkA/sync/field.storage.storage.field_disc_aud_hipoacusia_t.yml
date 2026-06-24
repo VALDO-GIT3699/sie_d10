@@ -1,0 +1,20 @@
+uuid: a426ba99-4d2b-4680-ae5e-6241f97345a6
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_disc_aud_hipoacusia_t
+field_name: field_disc_aud_hipoacusia_t
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

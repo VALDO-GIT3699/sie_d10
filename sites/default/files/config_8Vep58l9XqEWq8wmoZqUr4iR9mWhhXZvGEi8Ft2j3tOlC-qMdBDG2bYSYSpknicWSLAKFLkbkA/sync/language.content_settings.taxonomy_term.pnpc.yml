@@ -1,0 +1,11 @@
+uuid: 2b06b133-4540-41e0-b868-5f413faa8259
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pnpc
+id: taxonomy_term.pnpc
+target_entity_type_id: taxonomy_term
+target_bundle: pnpc
+default_langcode: site_default
+language_alterable: false

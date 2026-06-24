@@ -1,0 +1,23 @@
+uuid: da5091aa-8413-4b06-b879-fe462170b70f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_sordera_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_aud_sordera_h
+field_name: field_disc_aud_sordera_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres con discapacidad auditiva sordera'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,13 @@
+uuid: 43eb02c5-ccd1-4a4d-95fe-147005dabfc0
+langcode: es
+status: true
+dependencies: {  }
+id: b15_subsidio_por_estudiante_de_l
+label: 'b15 Subsidio por estudiante de la UdeG'
+description: 'Subsidio público por estudiante de la Universidad de Guadalajara'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

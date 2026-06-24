@@ -1,0 +1,23 @@
+uuid: b1cb9242-1e83-4748-97c8-148a0f2117a1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_habla_indigena_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_ti_habla_indigena_h
+field_name: field_ti_habla_indigena_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres de habla indígena titulados'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: 2d3ad9c4-9252-4cdb-b9df-c553ce03ebb4
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_potencia_kwh
+field_name: field_potencia_kwh
+entity_type: storage
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

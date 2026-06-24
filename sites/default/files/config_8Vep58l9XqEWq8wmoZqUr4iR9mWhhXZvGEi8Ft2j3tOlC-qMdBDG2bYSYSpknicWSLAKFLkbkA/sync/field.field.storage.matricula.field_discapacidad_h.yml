@@ -1,0 +1,23 @@
+uuid: 3461c55d-2b2e-48db-b5fe-a7e96d29fa61
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_discapacidad_h
+    - storage.storage_type.matricula
+id: storage.matricula.field_discapacidad_h
+field_name: field_discapacidad_h
+entity_type: storage
+bundle: matricula
+label: 'Hombres con discapacidad'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

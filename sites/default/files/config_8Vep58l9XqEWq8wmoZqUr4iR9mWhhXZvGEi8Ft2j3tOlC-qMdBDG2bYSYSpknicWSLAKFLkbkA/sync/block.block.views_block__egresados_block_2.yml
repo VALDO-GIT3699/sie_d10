@@ -1,0 +1,29 @@
+uuid: 71641fae-a0bc-492c-ad23-92f7b7985779
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.egresados
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__egresados_block_2
+theme: b4seutheme
+region: content
+weight: -60
+provider: null
+plugin: 'views_block:egresados-block_2'
+settings:
+  id: 'views_block:egresados-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /egresados

@@ -1,0 +1,1701 @@
+uuid: 7ce91a2e-2377-4090-b872-343dcdb61832
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - storage
+id: storage.field_programa_educativo
+field_name: field_programa_educativo
+entity_type: storage
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: BGAI
+      label: 'Bachillerato General por Áreas Interdisciplinarias'
+    -
+      value: BGC
+      label: 'Bachillerato General por Competencias'
+    -
+      value: '2021300033'
+      label: 'Técnico en Música'
+    -
+      value: '2051200001'
+      label: 'Tecnólogo Profesional en Biotecnología'
+    -
+      value: '2062100003'
+      label: 'Tecnólogo Profesional en Telecomunicaciones'
+    -
+      value: '2062200007'
+      label: 'Tecnólogo Profesional en Informática'
+    -
+      value: '2062200013'
+      label: 'Tecnólogo Profesional en Sistemas Informáticos'
+    -
+      value: '2071100002'
+      label: 'Tecnólogo Profesional en Mecánica Industrial'
+    -
+      value: '2071200002'
+      label: 'Tecnólogo Profesional en Electricidad Industrial'
+    -
+      value: '2071200011'
+      label: 'Tecnólogo Profesional en Energías Alternas'
+    -
+      value: '2071400001'
+      label: 'Tecnólogo Profesional Químico Industrial'
+    -
+      value: '2071400003'
+      label: 'Tecnólogo Profesional en Procesos Químicos Industriales'
+    -
+      value: '2072000001'
+      label: 'Tecnólogo Profesional en Procesos de Manufactura Competitiva'
+    -
+      value: '2072100002'
+      label: 'Tecnólogo Profesional Químico en Análisis y Procesos de Alimentos'
+    -
+      value: '2072300001'
+      label: 'Tecnólogo Profesional en Plásticos'
+    -
+      value: '2072400001'
+      label: Metalurgia
+    -
+      value: '2072400002'
+      label: Fundición
+    -
+      value: '2072400003'
+      label: 'Tecnólogo Profesional en Metalurgia y Fundición'
+    -
+      value: '2081100001'
+      label: Agropecuario
+    -
+      value: '2092100004'
+      label: Enfermería
+    -
+      value: '2101500001'
+      label: Alimentos
+    -
+      value: '3021600008'
+      label: 'Bachillerato Tecnológico en Diseño y Confección de Prendas de Vestir y Artesanías'
+    -
+      value: '3021600010'
+      label: 'Bachillerato Intercultural Tecnológico en Diseño y Confección de prendas de vestir y Artesanias'
+    -
+      value: '3021700001'
+      label: 'Bachillerato Tecnológico en Cerámica'
+    -
+      value: '3041100005'
+      label: 'Bachillerato Tecnológico en Gestión Aduanal y Operaciones Empresariales'
+    -
+      value: '3042000001'
+      label: 'Bachillerato Tecnológico en Administración'
+    -
+      value: '3042100001'
+      label: 'Administración de Empresas'
+    -
+      value: '3042100026'
+      label: 'Bachillerato Tecnológico en Administración de Pequeños y Medianos Negocios'
+    -
+      value: '3061300004'
+      label: 'Bachillerato Técnico en Desarrollo de Software'
+    -
+      value: '3071700002'
+      label: 'Bachillerato Tecnológico Químico en Control de Calidad y Medio Ambiente'
+    -
+      value: '3073200001'
+      label: 'Bachillerato Tecnológico en Diseño Industrial'
+    -
+      value: '3081100003'
+      label: 'Bachillerato Tecnológico Agropecuario'
+    -
+      value: '3081100019'
+      label: 'Bachillerato Tecnológico Agropecuario y Forestal'
+    -
+      value: '3081100024'
+      label: 'Bachillerato Intercultural Tecnológico Agropecuario y Forestal'
+    -
+      value: '3093100005'
+      label: 'Bachillerato Tecnológico en Prótesis Dental'
+    -
+      value: '3095300007'
+      label: 'Bachillerato Tecnológico en Citología e Histología'
+    -
+      value: '3101600003'
+      label: 'Bachillerato Tecnológico en Turismo'
+    -
+      value: '4021500005'
+      label: 'Técnico Superior Universitario en Multimedia'
+    -
+      value: '4042100031'
+      label: 'Técnico Superior Universitario en Control de Calidad'
+    -
+      value: '4061300006'
+      label: 'Técnico Superior Universitario en Sistemas Informáticos'
+    -
+      value: '4062100001'
+      label: 'Técnico Superior Universitario en Administración de Redes de Cómputo'
+    -
+      value: '4062100003'
+      label: 'Técnico Superior Universitario en Redes de Cómputo'
+    -
+      value: '4062100004'
+      label: 'Técnico Superior Universitario en Redes y Telecomunicaciones'
+    -
+      value: '4062200010'
+      label: 'Técnico Superior Universitario en Tecnologías de la Información'
+    -
+      value: '4071100009'
+      label: 'Técnico Superior Universitario en Mantenimiento Industrial'
+    -
+      value: '4071300015'
+      label: 'Técnico Superior Universitario en Electrónica'
+    -
+      value: '4071300020'
+      label: 'Técnico Superior Universitario en Electrónica y Pruebas'
+    -
+      value: '4071500002'
+      label: 'Técnico Superior Universitario en Electrónica y Mecánica Automotriz'
+    -
+      value: '4072000010'
+      label: 'Técnico Superior Universitario en Procesos de Manufactura'
+    -
+      value: '4093100005'
+      label: 'Técnico Superior Universitario en Prótesis Dental'
+    -
+      value: '4094100005'
+      label: 'Técnico Superior Universitario en Terapia Física'
+    -
+      value: '4094100010'
+      label: 'Técnico Superior Universitario en Terapia Respiratoria'
+    -
+      value: '4095300010'
+      label: 'Técnico Superior Universitario en Radiología e Imagen'
+    -
+      value: '4101600010'
+      label: 'Técnico Superior Universitario en Servicios Turísticos'
+    -
+      value: '4101600012'
+      label: 'Técnico Superior Universitario en Turismo Alternativo'
+    -
+      value: '4103100001'
+      label: 'Técnico Superior Universitario en Emergencias, Seguridad Laboral y Rescates'
+    -
+      value: '5011100022'
+      label: 'Licenciatura en Educación Indígena'
+    -
+      value: '5011200004'
+      label: 'Licenciatura en Desarrollo Educativo'
+    -
+      value: '5011500002'
+      label: 'Licenciatura en Educación'
+    -
+      value: '5012603011'
+      label: 'Licenciatura en Didáctica del Francés como Lengua Extranjera'
+    -
+      value: '5012603027'
+      label: 'Licenciatura en Docencia del Inglés como Lengua Extranjera'
+    -
+      value: '5021000002'
+      label: 'Licenciatura en Artes'
+    -
+      value: '5021000007'
+      label: 'Licenciatura en Gestión Cultural'
+    -
+      value: '5021000010'
+      label: 'Licenciatura en Historia del Arte'
+    -
+      value: '5021000110'
+      label: 'Licenciatura en Diseño, Arte y Tecnologías Interactivas'
+    -
+      value: '5021000114'
+      label: 'Licenciatura en Artes Visuales para la Expresión Fotográfica'
+    -
+      value: '5021100004'
+      label: 'Licenciatura en Artes Visuales'
+    -
+      value: '5021200006'
+      label: 'Licenciatura en Artes Escénicas'
+    -
+      value: '5021200054'
+      label: 'Licenciatura en Artes Escénicas para la Expresión Dancística'
+    -
+      value: '5021200055'
+      label: 'Licenciatura en Artes Escénicas para la Expresión Teatral'
+    -
+      value: '5021300063'
+      label: 'Licenciatura en Música'
+    -
+      value: '5021400012'
+      label: 'Licenciatura en Artes Audiovisuales'
+    -
+      value: '5021500002'
+      label: 'Ingeniería en Comunicación Multimedia'
+    -
+      value: '5021500044'
+      label: 'Licenciatura en Diseño para la Comunicación Gráfica'
+    -
+      value: '5021500119'
+      label: 'Licenciatura en Escritura Creativa'
+    -
+      value: '5021600017'
+      label: 'Licenciatura en Diseño de Interiores y Ambientación'
+    -
+      value: '5021600024'
+      label: 'Licenciatura en Diseño de Modas'
+    -
+      value: '5021600062'
+      label: 'Licenciatura en Diseño de Artesanía'
+    -
+      value: '5021700002'
+      label: 'Licenciatura en Artes Visuales para la Expresión Plástica'
+    -
+      value: '5022000001'
+      label: 'Licenciatura en Humanidades'
+    -
+      value: '5022200040'
+      label: 'Licenciatura en Lenguas y Culturas Extranjeras'
+    -
+      value: '5022300022'
+      label: 'Licenciatura en Letras Hispánicas'
+    -
+      value: '5022500001'
+      label: 'Licenciatura en Estudios Liberales'
+    -
+      value: '5022500008'
+      label: 'Licenciatura en Historia'
+    -
+      value: '5022600002'
+      label: 'Licenciatura en Filosofía'
+    -
+      value: '5031100007'
+      label: 'Licenciatura en Psicología'
+    -
+      value: '5031200004'
+      label: 'Licenciatura en Antropología'
+    -
+      value: '5031200031'
+      label: 'Licenciatura en Sociología'
+    -
+      value: '5031300010'
+      label: 'Licenciatura en Estudios Políticos y Gobierno'
+    -
+      value: '5031300014'
+      label: 'Licenciatura en Relaciones Internacionales'
+    -
+      value: '5031300044'
+      label: 'Licenciatura en Construcción De La Paz y Seguridad'
+    -
+      value: '5031400003'
+      label: 'Licenciatura en Economía'
+    -
+      value: '5031500008'
+      label: 'Licenciatura en Gerontología'
+    -
+      value: '5031500010'
+      label: 'Licenciatura en Trabajo Social'
+    -
+      value: '5032100001'
+      label: 'Licenciatura en Periodismo Digital'
+    -
+      value: '5032100027'
+      label: 'Licenciatura en Comunicación Pública'
+    -
+      value: '5032100038'
+      label: 'Licenciatura en Periodismo'
+    -
+      value: '5032100065'
+      label: 'Licenciatura en Relaciones Públicas y Comunicación'
+    -
+      value: '5032200003'
+      label: 'Licenciatura en Bibliotecología'
+    -
+      value: '5032200012'
+      label: 'Licenciatura en Bibliotecología y Gestión del Conocimiento'
+    -
+      value: '5033100003'
+      label: Abogado
+    -
+      value: '5033200006'
+      label: 'Licenciatura en Criminología'
+    -
+      value: '5033200024'
+      label: 'Licenciatura en Ciencias Forenses'
+    -
+      value: '5041100007'
+      label: 'Ingeniería de Procesos y Comercio Internacional'
+    -
+      value: '5041100009'
+      label: 'Ingeniería en Negocios'
+    -
+      value: '5041100021'
+      label: 'Licenciatura en Agronegocios'
+    -
+      value: '5041100056'
+      label: 'Licenciatura en Negocios Internacionales'
+    -
+      value: '5041100127'
+      label: 'Licenciatura en Gestión de Negocios Gastronómicos'
+    -
+      value: '5041200028'
+      label: 'Licenciatura en Mercadotecnia'
+    -
+      value: '5041200075'
+      label: 'Licenciatura en Mercadotecnia Digital'
+    -
+      value: '5041300007'
+      label: 'Licenciatura en Administración Financiera y Sistemas'
+    -
+      value: '5041300066'
+      label: 'Licenciatura en Inteligencia Financiera y de Negocios'
+    -
+      value: '5041400032'
+      label: 'Licenciatura en Contaduría Pública'
+    -
+      value: '5042000002'
+      label: 'Licenciatura en Administración'
+    -
+      value: '5042100012'
+      label: 'Licenciatura en Administración de Negocios'
+    -
+      value: '5042100065'
+      label: 'Licenciatura en Administración de las Organizaciones'
+    -
+      value: '5042100092'
+      label: 'Licenciatura en Administración y Gestión Empresarial'
+    -
+      value: '5042100117'
+      label: 'Licenciatura en Recursos Humanos'
+    -
+      value: '5042200024'
+      label: 'Licenciatura en Desarrollo Turístico Sustentable'
+    -
+      value: '5042300027'
+      label: 'Licenciatura en Administración Gubernamental y Políticas Públicas'
+    -
+      value: '5042400005'
+      label: 'Ingeniería en Administración Industrial'
+    -
+      value: '5051100003'
+      label: 'Licenciatura en Biología'
+    -
+      value: '5051100006'
+      label: 'Licenciatura en Biología Marina'
+    -
+      value: '5051100015'
+      label: 'Ingeniería en Sistemas Biológicos'
+    -
+      value: '5051200024'
+      label: 'Ingeniería en Biotecnología'
+    -
+      value: '5051300005'
+      label: 'Ingeniería en Recursos Naturales y Agropecuarios'
+    -
+      value: '5051300020'
+      label: 'Licenciatura en Gestión y Economía Ambiental'
+    -
+      value: '5051300048'
+      label: 'Licenciatura en Ciencias Ambientales y del Territorio'
+    -
+      value: '5052100005'
+      label: 'Licenciatura en Física'
+    -
+      value: '5052200002'
+      label: 'Ingeniería en Nanotecnología'
+    -
+      value: '5052200007'
+      label: 'Licenciatura en Química'
+    -
+      value: '5052200017'
+      label: 'Licenciatura en Ciencia de Materiales'
+    -
+      value: '5052200021'
+      label: 'Ingeniería en Diseño Molecular de Materiales'
+    -
+      value: '5052300015'
+      label: 'Licenciatura en Geografía'
+    -
+      value: '5053100004'
+      label: 'Licenciatura en Matemáticas'
+    -
+      value: '5061000002'
+      label: 'Ingeniería en Computación'
+    -
+      value: '5061000015'
+      label: 'Licenciatura en Desarrollo de Sistemas Web'
+    -
+      value: '5061100001'
+      label: 'Ingeniería en Ciencias Computacionales'
+    -
+      value: '5061300147'
+      label: 'Licenciatura en Ciberseguridad'
+    -
+      value: '5061300148'
+      label: 'Licenciatura en Creatividad Digital'
+    -
+      value: '5062100009'
+      label: 'Ingeniería en Comunicaciones y Electrónica'
+    -
+      value: '5062100033'
+      label: 'Ingeniería en Teleinformática'
+    -
+      value: '5062100034'
+      label: 'Ingeniería en Telemática'
+    -
+      value: '5062200055'
+      label: 'Ingeniería Informática'
+    -
+      value: '5062200073'
+      label: 'Ingeniería en Electrónica y Computación'
+    -
+      value: '5062200082'
+      label: 'Licenciatura en Tecnologías de la Información'
+    -
+      value: '5062200105'
+      label: 'Licenciatura en Tecnologías e Información'
+    -
+      value: '5071000020'
+      label: 'Ingeniería Biomédica'
+    -
+      value: '5071000047'
+      label: 'Ingeniería en Videojuegos'
+    -
+      value: '5071100005'
+      label: 'Ingeniería en Diseño Industrial'
+    -
+      value: '5071100019'
+      label: 'Licenciatura en Diseño Industrial'
+    -
+      value: '5071200009'
+      label: 'Ingeniería en Energía'
+    -
+      value: '5071200034'
+      label: 'Ingeniería Fotónica'
+    -
+      value: '5071300009'
+      label: 'Ingeniería Mecánica Eléctrica'
+    -
+      value: '5071300014'
+      label: 'Ingeniería Mecatrónica'
+    -
+      value: '5071300082'
+      label: 'Ingeniería Robótica'
+    -
+      value: '5071300091'
+      label: 'Ingeniería en Instrumentación Electrónica y Nanosensores'
+    -
+      value: '5071300110'
+      label: 'Licenciatura en Ingeniería en Automatización Industrial'
+    -
+      value: '5071300147'
+      label: 'Ingeniería Mecatrónica Dual'
+    -
+      value: '5071300158'
+      label: 'Licenciatura en Inteligencia Artificial y Ciencia de los Datos'
+    -
+      value: '5071400008'
+      label: 'Ingeniería Bioquímica'
+    -
+      value: '5071400015'
+      label: 'Ingeniería Química'
+    -
+      value: '5071700019'
+      label: 'Ingeniería Industrial'
+    -
+      value: '5072100002'
+      label: 'Ingeniería Agroindustrial'
+    -
+      value: '5072100018'
+      label: 'Licenciatura en Ciencia de los Alimentos'
+    -
+      value: '5072100033'
+      label: 'Licenciatura en Ingeniería en Alimentos y Biotecnología'
+    -
+      value: '5072100049'
+      label: 'Licenciatura en Ciencias y Artes Culinarias'
+    -
+      value: '5072400001'
+      label: 'Ingeniería en Geofísica'
+    -
+      value: '5073100009'
+      label: 'Licenciatura en Arquitectura'
+    -
+      value: '5073100024'
+      label: 'Licenciatura en Urbanística y Medio Ambiente'
+    -
+      value: '5073200005'
+      label: 'Ingeniería Civil'
+    -
+      value: '5073200010'
+      label: 'Ingeniería en Obras y Servicios'
+    -
+      value: '5073200035'
+      label: 'Ingeniería en Topografía Geomática'
+    -
+      value: '5081100010'
+      label: 'Licenciatura en Agrobiotecnología'
+    -
+      value: '5081100050'
+      label: 'Ingeniería en Sistemas Pecuarios'
+    -
+      value: '5081300016'
+      label: 'Ingeniero Agrónomo'
+    -
+      value: '5082100001'
+      label: 'Licenciatura en Medicina Veterinaria y Zootecnia'
+    -
+      value: '5091100010'
+      label: 'Médico Cirujano y Partero'
+    -
+      value: '5091100011'
+      label: 'Médico Cirujano y Partero'
+    -
+      value: '5092100006'
+      label: 'Licenciatura en Enfermería'
+    -
+      value: '5093100002'
+      label: 'Licenciatura en Cirujano Dentista'
+    -
+      value: '5094100009'
+      label: 'Licenciatura en Terapia Física'
+    -
+      value: '5094200006'
+      label: 'Licenciatura en Nutrición'
+    -
+      value: '5094300009'
+      label: 'Licenciatura en Podología'
+    -
+      value: '5095200007'
+      label: 'Licenciatura en Tecnologías Biomédicas'
+    -
+      value: '5095400006'
+      label: 'Licenciatura en Químico Farmacéutico Biólogo'
+    -
+      value: '5095600005'
+      label: 'Licenciatura en Salud Pública'
+    -
+      value: '5101100015'
+      label: 'Licenciatura en Cultura Física y Deportes'
+    -
+      value: '5101600013'
+      label: 'Licenciatura en Turismo'
+    -
+      value: '5102100004'
+      label: 'Ingeniería en Logística y Transporte'
+    -
+      value: '5103100007'
+      label: 'Licenciatura en Seguridad Laboral, Protección Civil y Emergencias'
+    -
+      value: '5103100017'
+      label: 'Licenciatura en Seguridad Laboral, Protección Civil y Emergencias'
+    -
+      value: '5104100015'
+      label: 'Licenciatura en Seguridad Ciudadana'
+    -
+      value: '6033100087'
+      label: 'Especialidad en Juicio de Amparo'
+    -
+      value: '6041100014'
+      label: 'Especialidad en Valuación'
+    -
+      value: '6051100001'
+      label: 'Especialidad en Biología de la Reproducción Humana'
+    -
+      value: '6081100002'
+      label: 'Especialidad en Producción Animal'
+    -
+      value: '6081100005'
+      label: 'Especialidad en Producción Porcina'
+    -
+      value: '6091301004'
+      label: 'Especialidad en Anestesiología'
+    -
+      value: '6091301005'
+      label: 'Especialidad en Anestesiología Pediátrica'
+    -
+      value: '6091301008'
+      label: 'Especialidad en Medicina Paliativa y del Dolor'
+    -
+      value: '6091302001'
+      label: 'Especialidad en Angiología y Cirugía Vascular'
+    -
+      value: '6091304001'
+      label: 'Especialidad en Cardiología'
+    -
+      value: '6091304018'
+      label: 'Especialidad en Hemodinamia y Cardiología Intervencionista'
+    -
+      value: '6091305002'
+      label: 'Especialidad en Cirugía General'
+    -
+      value: '6091306001'
+      label: 'Especialidad en Cirugía Cardiotorácica'
+    -
+      value: '6091307001'
+      label: 'Especialidad en Neurocirugía'
+    -
+      value: '6091308001'
+      label: 'Especialidad en Cirugía Pediátrica'
+    -
+      value: '6091309002'
+      label: 'Especialidad en Cirugía Plástica y Reconstructiva'
+    -
+      value: '6091310001'
+      label: 'Especialidad en Dermatología'
+    -
+      value: '6091310002'
+      label: 'Especialidad en Dermatología Pediátrica'
+    -
+      value: '6091311001'
+      label: 'Especialidad en Endocrinología'
+    -
+      value: '6091312001'
+      label: 'Especialidad en Coloproctología'
+    -
+      value: '6091313001'
+      label: 'Especialidad en Cirugía Bariátrica y Metabólica'
+    -
+      value: '6091313004'
+      label: 'Especialidad en Gastroenterología'
+    -
+      value: '6091313008'
+      label: 'Especialidad en Gastroenterología y Nutrición Pediátrica'
+    -
+      value: '6091314001'
+      label: 'Especialidad en Genética Médica'
+    -
+      value: '6091315001'
+      label: 'Especialidad en Geriatría'
+    -
+      value: '6091316002'
+      label: 'Especialidad en Ginecología y Obstetricia'
+    -
+      value: '6091316004'
+      label: 'Especialidad en Medicina Materno-Fetal'
+    -
+      value: '6091316007'
+      label: 'Especialidad en Ginecología Oncológica'
+    -
+      value: '6091317001'
+      label: 'Especialidad en Hematología'
+    -
+      value: '6091317003'
+      label: 'Especialidad en Hematología Pediátrica'
+    -
+      value: '6091317009'
+      label: 'Especialidad en Hemato-Oncología Pediátrica'
+    -
+      value: '6091318001'
+      label: 'Especialidad en Infectología'
+    -
+      value: '6091318002'
+      label: 'Especialidad en Infectología Pediátrica'
+    -
+      value: '6091319001'
+      label: 'Especialidad en Alergia e Inmunología Clínica'
+    -
+      value: '6091319004'
+      label: 'Especialidad en Alergia e Inmunología Clínica Pediátrica'
+    -
+      value: '6091321003'
+      label: 'Especialidad en Medicina del Enfermo en Estado Crítico'
+    -
+      value: '6091322003'
+      label: 'Especialidad en Medicina de Rehabilitación'
+    -
+      value: '6091323001'
+      label: 'Especialidad en Medicina de Urgencias'
+    -
+      value: '6091323002'
+      label: 'Especialidad en Urgencias Médicas'
+    -
+      value: '6091323004'
+      label: 'Especialidad en Urgencias Pediátricas'
+    -
+      value: '6091325001'
+      label: 'Especialidad en Medicina del Trabajo'
+    -
+      value: '6091325002'
+      label: 'Especialidad en Medicina del Trabajo y Ambiental'
+    -
+      value: '6091326001'
+      label: 'Especialidad en Medicina Familiar'
+    -
+      value: '6091327002'
+      label: 'Especialidad en Medicina Interna'
+    -
+      value: '6091329001'
+      label: 'Especialidad en Anatomía Patológica'
+    -
+      value: '6091331003'
+      label: 'Especialidad en Nefrología'
+    -
+      value: '6091331004'
+      label: 'Especialidad en Nefrología Pediátrica'
+    -
+      value: '6091332001'
+      label: 'Especialidad en Neumología'
+    -
+      value: '6091334001'
+      label: 'Especialidad en Neurología'
+    -
+      value: '6091335001'
+      label: 'Especialidad en Oftalmología'
+    -
+      value: '6091335003'
+      label: 'Especialidad en Retina Médica y Quirúrgica'
+    -
+      value: '6091336001'
+      label: 'Especialidad en Cirugía Oncológica'
+    -
+      value: '6091336005'
+      label: 'Especialidad en Oncología Médica'
+    -
+      value: '6091336007'
+      label: 'Especialidad en Oncología Pediátrica'
+    -
+      value: '6091336009'
+      label: 'Especialidad en Oncología, Hematología Pediátrica'
+    -
+      value: '6091336013'
+      label: 'Especialidad en Radio-Oncología'
+    -
+      value: '6091337002'
+      label: 'Especialidad en Ortopedia'
+    -
+      value: '6091337005'
+      label: 'Especialidad en Traumatología y Ortopedia'
+    -
+      value: '6091337008'
+      label: 'Especialidad en Cirugía de Trauma Toraco-Abdominal'
+    -
+      value: '6091338002'
+      label: 'Especialidad en Otorrinolaringología Pediátrica'
+    -
+      value: '6091338003'
+      label: 'Especialidad en Otorrinolaringología y Cirugía de Cabeza y Cuello'
+    -
+      value: '6091339001'
+      label: 'Especialidad en Patología Clínica'
+    -
+      value: '6091340001'
+      label: 'Especialidad en Pediatría'
+    -
+      value: '6091340004'
+      label: 'Especialidad en Neonatología'
+    -
+      value: '6091341001'
+      label: 'Especialidad en Psiquiatría'
+    -
+      value: '6091342012'
+      label: 'Especialidad en Imagenología Diagnóstica y Terapéutica'
+    -
+      value: '6091342013'
+      label: 'Especialidad en Radiología e Imagen'
+    -
+      value: '6091343001'
+      label: 'Especialidad en Reumatología'
+    -
+      value: '6091344001'
+      label: 'Especialidad en Urología'
+    -
+      value: '6091344002'
+      label: 'Especialidad en Urología Ginecológica'
+    -
+      value: '6091345005'
+      label: 'Especialidad en Calidad de la Atención Clínica'
+    -
+      value: '6091345008'
+      label: 'Especialidad en Cirugía Laparoscópica'
+    -
+      value: '6091345011'
+      label: 'Especialidad en Cirugía Oncológica de Cabeza y Cuello'
+    -
+      value: '6092202002'
+      label: 'Especialidad en Enfermería en Cuidados Intensivos'
+    -
+      value: '6092203006'
+      label: 'Especialidad en Enfermería en Gerontología y Geriatría'
+    -
+      value: '6092204007'
+      label: 'Especialidad de Enfermería en Salud Pública'
+    -
+      value: '6092205001'
+      label: 'Especialidad en Enfermería Oncológica'
+    -
+      value: '6092206002'
+      label: 'Especialidad en Enfermería Pediátrica'
+    -
+      value: '6092206010'
+      label: 'Especialidad en Enfermería Neonatal'
+    -
+      value: '6092207003'
+      label: 'Especialidad en Enfermería Quirúrgica'
+    -
+      value: '6092208015'
+      label: 'Especialidad en Enfermería en Cuidados Paliativos'
+    -
+      value: '6093201002'
+      label: 'Especialidad en Cirugía Maxilofacial'
+    -
+      value: '6093201005'
+      label: 'Especialidad en Prótesis Maxilofacial'
+    -
+      value: '6093202001'
+      label: 'Especialidad en Endodoncia'
+    -
+      value: '6093203005'
+      label: 'Especialidad en Odontopediatría'
+    -
+      value: '6093204001'
+      label: 'Especialidad en Ortodoncia'
+    -
+      value: '6093205004'
+      label: 'Especialidad en Periodoncia'
+    -
+      value: '6093206003'
+      label: 'Especialidad en Prostodoncia'
+    -
+      value: '6093207002'
+      label: 'Especialidad en Patología y Medicina Bucal'
+    -
+      value: '6095600002'
+      label: 'Especialidad en Epidemiología'
+    -
+      value: '7011000002'
+      label: 'Maestría en Educación Ambiental'
+    -
+      value: '7011000042'
+      label: 'Maestría en Innovación Social y Gestión del Bienestar'
+    -
+      value: '7011000094'
+      label: 'Maestría en Inclusión y Atención a la Diversidad'
+    -
+      value: '7011200033'
+      label: 'Maestría en Investigación Educativa'
+    -
+      value: '7011200037'
+      label: 'Maestría en Planeación de la Educación Superior'
+    -
+      value: '7011200077'
+      label: 'Maestría en Gestión y Políticas de la Educación Superior'
+    -
+      value: '7011200088'
+      label: 'Maestría en Procesos Innovadores en el Aprendizaje'
+    -
+      value: '7011400011'
+      label: 'Maestría en Tecnologías para el Aprendizaje'
+    -
+      value: '7011400029'
+      label: 'Maestría en Gestión del Aprendizaje en Ambientes Virtuales'
+    -
+      value: '7011500003'
+      label: 'Maestría en Educación'
+    -
+      value: '7011500004'
+      label: 'Maestría en Investigación en Ciencias de la Educación'
+    -
+      value: '7012000087'
+      label: 'Maestría en Estudios del Turismo'
+    -
+      value: '7012400001'
+      label: 'Maestría en Docencia para la Educación Media Superior'
+    -
+      value: '7012500034'
+      label: 'Maestría en Educación Superior Internacional'
+    -
+      value: '7012601008'
+      label: 'Maestría en Educación Física y Deporte'
+    -
+      value: '7012601010'
+      label: 'Maestría en Ciencias de la Educación Física y del Deporte'
+    -
+      value: '7012602002'
+      label: 'Maestría en Didáctica de las Artes'
+    -
+      value: '7012602009'
+      label: 'Maestría en Educación y Expresión para las Artes'
+    -
+      value: '7012603017'
+      label: 'Maestría en la Enseñanza del Inglés como Lengua Extranjera'
+    -
+      value: '7012604029'
+      label: 'Maestría en Enseñanza de las Matemáticas'
+    -
+      value: '7012604064'
+      label: 'Maestría en Ciencia y Tecnología'
+    -
+      value: '7021000014'
+      label: 'Maestría en Gestión de la Cultura'
+    -
+      value: '7021300007'
+      label: 'Maestría en Etnomusicología'
+    -
+      value: '7021400005'
+      label: 'Maestría en Estudios Cinematográficos'
+    -
+      value: '7021400038'
+      label: 'Maestría en Diseño de Información y Comunicación Digital'
+    -
+      value: '7021600006'
+      label: 'Maestría en Diseño y Desarrollo de Nuevos Productos'
+    -
+      value: '7021600019'
+      label: 'Maestría en Diseño e Innovación Industrial'
+    -
+      value: '7021600021'
+      label: 'Maestría en Diseño y Desarrollo de Nuevos Productos'
+    -
+      value: '7022200011'
+      label: 'Maestría en Estudios de las Lenguas y Culturas Inglesas'
+    -
+      value: '7022200019'
+      label: 'Maestría Interinstitucional en Deutsch Als Fremdsprache: Estudios Interculturales de Lengua, Literatura y Cultura Alemanas'
+    -
+      value: '7022300005'
+      label: 'Maestría en Estudios de Literatura Mexicana'
+    -
+      value: '7022300015'
+      label: 'Maestría en Literaturas Comparadas'
+    -
+      value: '7022300017'
+      label: 'Maestría en Literatura del Siglo XX'
+    -
+      value: '7022300034'
+      label: 'Maestría en Literaturas Interamericanas'
+    -
+      value: '7022300036'
+      label: 'Maestría en Estudios en Literacidad'
+    -
+      value: '7022300037'
+      label: 'Maestría en Estudios Críticos del Lenguaje'
+    -
+      value: '7022400002'
+      label: 'Maestría en Lingüística Aplicada'
+    -
+      value: '7022400011'
+      label: 'Maestría en Lexicografia y Producción Editorial'
+    -
+      value: '7022500008'
+      label: 'Maestría en Estudios Mesoamericanos'
+    -
+      value: '7022500015'
+      label: 'Maestría en Historia de México'
+    -
+      value: '7022500032'
+      label: 'Maestría en Historia Cultural'
+    -
+      value: '7022600002'
+      label: 'Maestría en Bioética'
+    -
+      value: '7022600008'
+      label: 'Maestría en Estudios Filosóficos'
+    -
+      value: '7031000001'
+      label: 'Maestría en Ciencias Sociales'
+    -
+      value: '7031000012'
+      label: 'Maestría en Literacidad'
+    -
+      value: '7031000052'
+      label: 'Maestría en Estudios Transdisciplinares en Ciencia y Tecnología'
+    -
+      value: '7031000067'
+      label: 'Maestría en Desarrollo Humano, Educación e Interculturalidad'
+    -
+      value: '7031100001'
+      label: 'Maestría en Psicología Educativa'
+    -
+      value: '7031100005'
+      label: 'Maestría en Ciencia del Comportamiento'
+    -
+      value: '7031100028'
+      label: 'Maestría en Psicología'
+    -
+      value: '7031100030'
+      label: 'Maestría en Psicología Clínica'
+    -
+      value: '7031100041'
+      label: 'Maestría en Psicología Con Orientación en Psicología Social'
+    -
+      value: '7031100043'
+      label: 'Maestría en Psicología de la Salud'
+    -
+      value: '7031100057'
+      label: 'Maestría en Psicología Social'
+    -
+      value: '7031100103'
+      label: 'Maestría en Terapia Familiar'
+    -
+      value: '7031100176'
+      label: 'Maestría en Psicología con Orientación en Calidad de Vida y Salud'
+    -
+      value: '7031100188'
+      label: 'Maestría en Neuropsicología'
+    -
+      value: '7031100252'
+      label: 'Maestría en Psicología con Orientación en Psicología Social'
+    -
+      value: '7031100253'
+      label: 'Maestría en Psicología con Orientación en Psicología Ecológica y Conductual'
+    -
+      value: '7031200009'
+      label: 'Maestría en Antropología'
+    -
+      value: '7031200016'
+      label: 'Maestría en Ciencias Antropológicas'
+    -
+      value: '7031200035'
+      label: 'Maestría en Estudios de Género'
+    -
+      value: '7031200038'
+      label: 'Maestría en Estudios Regionales'
+    -
+      value: '7031200043'
+      label: 'Maestría en Gestión y Desarrollo Social'
+    -
+      value: '7031200071'
+      label: 'Maestría en Estudios Socioterritoriales'
+    -
+      value: '7031200087'
+      label: 'Maestría en Estudios Francófonos: Pedagogía, Lingüística y Estudios Interculturales'
+    -
+      value: '7031200093'
+      label: 'Maestría en Estudios Rurales'
+    -
+      value: '7031300005'
+      label: 'Maestría en Ciencia Política'
+    -
+      value: '7031300023'
+      label: 'Maestría en Políticas Públicas'
+    -
+      value: '7031300041'
+      label: 'Maestría en Transparencia y Protección de Datos Personales'
+    -
+      value: '7031300048'
+      label: 'Maestría en Ciencia Política con Orientación en Democracias Contemporáneas'
+    -
+      value: '7031300078'
+      label: 'Maestría en Relaciones Internacionales de Gobiernos y Actores Locales'
+    -
+      value: '7031300118'
+      label: 'Maestría en Ciencia de la Ciudad'
+    -
+      value: '7031400008'
+      label: 'Maestría en Economía'
+    -
+      value: '7031400038'
+      label: 'Maestría en Relaciones Económicas Internacionales y Cooperación'
+    -
+      value: '7031500022'
+      label: 'Maestría en Gerontología'
+    -
+      value: '7031500027'
+      label: 'Maestría en Trabajo Social'
+    -
+      value: '7031500062'
+      label: 'Maestría en Resolución de Conflictos'
+    -
+      value: '7031500078'
+      label: 'Maestría en Neurociencias De Las Adicciones'
+    -
+      value: '7032100004'
+      label: 'Maestría en Comunicación'
+    -
+      value: '7032100037'
+      label: 'Maestría en Periodismo Digital'
+    -
+      value: '7032100049'
+      label: 'Maestría en Global Politics and Transpacific Studies'
+    -
+      value: '7033100026'
+      label: 'Maestría en Derecho'
+    -
+      value: '7033200002'
+      label: 'Maestría en Ciencias Forenses'
+    -
+      value: '7033200014'
+      label: 'Maestría en Ciencias Forenses y Criminología'
+    -
+      value: '7033200077'
+      label: 'Maestría en Genética Forense e Identificación Humana'
+    -
+      value: '7041100018'
+      label: 'Maestría en Comercio y Mercados Internacionales'
+    -
+      value: '7041100024'
+      label: 'Maestría en Negocios Internacionales'
+    -
+      value: '7041100026'
+      label: 'Maestría en Negocios y Estudios Económicos'
+    -
+      value: '7041100029'
+      label: 'Maestría en Valuación'
+    -
+      value: '7041200034'
+      label: 'Maestría en Dirección de Mercadotecnia'
+    -
+      value: '7041200042'
+      label: 'Maestría en Mercadotecnia'
+    -
+      value: '7041300021'
+      label: 'Maestría en Finanzas'
+    -
+      value: '7041300024'
+      label: 'Maestría en Finanzas Empresariales'
+    -
+      value: '7041300082'
+      label: 'Maestría en Finanzas para el Desarrollo Sostenible'
+    -
+      value: '7041400008'
+      label: 'Maestría en Análisis Tributario'
+    -
+      value: '7041400009'
+      label: 'Maestría en Auditoría'
+    -
+      value: '7041400028'
+      label: 'Maestría en Impuestos'
+    -
+      value: '7041400048'
+      label: 'Maestría en Estudios Fiscales'
+    -
+      value: '7042000002'
+      label: 'Maestría en Administración'
+    -
+      value: '7042100015'
+      label: 'Maestría en Administración y Gestión Regional'
+    -
+      value: '7042100033'
+      label: 'Maestría en Administración de Negocios'
+    -
+      value: '7042100129'
+      label: 'Maestría en Dirección Estratégica de la Calidad'
+    -
+      value: '7042100177'
+      label: 'Maestría en Generación y Gestión de la Innovación'
+    -
+      value: '7042100268'
+      label: 'Maestría en Gestión del Capital Humano y Desarrollo Organizacional'
+    -
+      value: '7042100311'
+      label: 'Maestría en Desarrollo y Dirección de la Innovación'
+    -
+      value: '7042200008'
+      label: 'Maestría en Desarrollo Sustentable y Turismo'
+    -
+      value: '7042300011'
+      label: 'Maestría en Gestión de Gobiernos Locales'
+    -
+      value: '7042300030'
+      label: 'Maestría en Gestión de Servicios Públicos en Ambientes Virtuales'
+    -
+      value: '7042300031'
+      label: 'Maestría en Gestión Pública'
+    -
+      value: '7042300040'
+      label: 'Maestría en Gobierno Electrónico'
+    -
+      value: '7042300054'
+      label: 'Maestría en Ciencias para el Desarrollo, la Sustentabilidad y el Turismo'
+    -
+      value: '7042500034'
+      label: 'Maestría en Gestión de la Calidad y Seguridad en los Servicios de Salud'
+    -
+      value: '7042500053'
+      label: 'Maestría en Administración de Instituciones de Salud'
+    -
+      value: '7042500062'
+      label: 'Maestría en Gerencia de Servicios de Salud'
+    -
+      value: '7042500117'
+      label: 'Maestría en Gestión y Desarrollo Cultural'
+    -
+      value: '7051100007'
+      label: 'Maestría en Ciencias Biológicas'
+    -
+      value: '7051200018'
+      label: 'Maestría en Farmacología'
+    -
+      value: '7051200022'
+      label: 'Maestría en Ciencias en Biología Molecular en Medicina'
+    -
+      value: '7051300013'
+      label: 'Maestría en Ciencias en Biosistemática y Manejo de Recursos Naturales y Agrícolas'
+    -
+      value: '7051300018'
+      label: 'Maestría en Ciencias en Manejo de Recursos Naturales'
+    -
+      value: '7051300079'
+      label: 'Maestría en Ciencias en Ecología y Manejo de Recursos Costeros y Marinos'
+    -
+      value: '7051300093'
+      label: 'Maestría en Ciudad, Cambio Climático y Resiliencia'
+    -
+      value: '7052000001'
+      label: 'Maestría en Ciencias'
+    -
+      value: '7052100009'
+      label: 'Maestría en Ciencias en Física'
+    -
+      value: '7052100021'
+      label: 'Maestría en Ciencias Físico Matemáticas'
+    -
+      value: '7052100029'
+      label: 'Maestría en Ciencias en Óptica y Fotónica'
+    -
+      value: '7052200003'
+      label: 'Maestría en Ciencia de Materiales'
+    -
+      value: '7052200006'
+      label: 'Maestría en Ciencias en Química'
+    -
+      value: '7052200016'
+      label: 'Maestría en Ciencia e Ingeniería de Materiales'
+    -
+      value: '7052200018'
+      label: 'Maestría en Ciencias en Ingeniería Química'
+    -
+      value: '7052300003'
+      label: 'Maestría en Ciencias de la Tierra'
+    -
+      value: '7052300006'
+      label: 'Maestría en Ciencias en Geofísica'
+    -
+      value: '7052300025'
+      label: 'Maestría en Ciencias en Hidrometeorología'
+    -
+      value: '7052300035'
+      label: 'Maestría en Geología'
+    -
+      value: '7053100007'
+      label: 'Maestría en Ciencias en Matemáticas'
+    -
+      value: '7053100018'
+      label: 'Maestría en Ciencias con Orientación en Ciencias Exactas e Ingenierías'
+    -
+      value: '7061000002'
+      label: 'Maestría en Computación Aplicada'
+    -
+      value: '7061000012'
+      label: 'Maestría en Ciencia de los Datos'
+    -
+      value: '7061100016'
+      label: 'Maestría en Cómputo Paralelo'
+    -
+      value: '7061300005'
+      label: 'Maestría en Ingeniería de Software'
+    -
+      value: '7061300011'
+      label: 'Maestría en Sistemas de Información'
+    -
+      value: '7061300057'
+      label: 'Maestría en Ingeniería y Ciencia De Datos'
+    -
+      value: '7062000007'
+      label: 'Maestría en Ciencias en Bioingeniería y Cómputo Inteligente'
+    -
+      value: '7062200028'
+      label: 'Mtría en Ingeniería de Desarrollos Tecnológicos'
+    -
+      value: '7062200049'
+      label: 'Maestría en Tecnologías de Información'
+    -
+      value: '7062200074'
+      label: 'Maestría en Cómputo Aplicado'
+    -
+      value: '7071000033'
+      label: 'Maestría en Ciencias en Ingeniería del Agua y la Energía'
+    -
+      value: '7071000035'
+      label: 'Maestría en Ingeniería en Energías Renovables'
+    -
+      value: '7071200009'
+      label: 'Maestría en Ciencias en Ingeniería Eléctrica'
+    -
+      value: '7071200021'
+      label: 'Maestría en Ingeniería del Agua y la Energía'
+    -
+      value: '7071300003'
+      label: 'Maestría en Ingeniería Mecatrónica'
+    -
+      value: '7071300026'
+      label: 'Maestría en Ciencias en Ingeniería Electrónica y Computación'
+    -
+      value: '7071300053'
+      label: 'Maestría en Ciencias en Robótica e Inteligencia Artificial'
+    -
+      value: '7071400012'
+      label: 'Maestría en Ciencias en Procesos Biotecnológicos'
+    -
+      value: '7071500006'
+      label: 'Maestría en Proyectos Tecnológicos'
+    -
+      value: '7071600009'
+      label: 'Maestría en Protección Ambiental'
+    -
+      value: '7071600020'
+      label: 'Maestría en Ciencia de Productos Forestales'
+    -
+      value: '7071700001'
+      label: 'Maestría en Ingeniería de Proyectos'
+    -
+      value: '7071700002'
+      label: 'Maestría en Sistemas de Calidad'
+    -
+      value: '7071700009'
+      label: 'Maestría en Análisis de Sistemas Industriales'
+    -
+      value: '7072100008'
+      label: 'Maestría en Ciencias de los Alimentos'
+    -
+      value: '7072100012'
+      label: 'Maestría en Ciencias en Microbiología e Inocuidad de Alimentos'
+    -
+      value: '7073100005'
+      label: 'Maestría en Desarrollo Local y Territorio'
+    -
+      value: '7073100051'
+      label: 'Maestría en Urbanismo y Desarrollo'
+    -
+      value: '7073100082'
+      label: 'Maestría en Urbanismo y Territorio'
+    -
+      value: '7073100088'
+      label: 'Maestría en Ciencias de la Arquitectura'
+    -
+      value: '7073100089'
+      label: 'Maestría en Procesos y Expresión Gráfica en la Proyectación Arquitectónica-Urbana'
+    -
+      value: '7073200013'
+      label: 'Maestría en Ingeniería Civil'
+    -
+      value: '7081000006'
+      label: 'Maestría en Tecnología de Semillas'
+    -
+      value: '7081100023'
+      label: 'Maestría en Ciencias en Nutrición Animal'
+    -
+      value: '7081100033'
+      label: 'Maestría en Ciencias Pecuarias'
+    -
+      value: '7081100051'
+      label: 'Maestría en Agricultura Protegida'
+    -
+      value: '7081100056'
+      label: 'Maestría Interinstitucional en Producción Pecuaria'
+    -
+      value: '7081100068'
+      label: 'Maestría en Produccion Animal Sustentable'
+    -
+      value: '7081100072'
+      label: 'Maestría en Ciencias Agrícolas y Forestales'
+    -
+      value: '7081100073'
+      label: 'Maestría en Ciencias Agropecuarias'
+    -
+      value: '7081100078'
+      label: 'Maestría en Ciencias con Orientación en Ciencias Biológicas y Agropecuarias'
+    -
+      value: '7081100105'
+      label: 'Maestría en Producción Apícola'
+    -
+      value: '7091316004'
+      label: 'Maestría en Nutrición Humana, Orientación Materno Infantil'
+    -
+      value: '7091325001'
+      label: 'Maestría en Ciencias de la Salud en el Trabajo'
+    -
+      value: '7091345002'
+      label: 'Maestría en Ciencias de la Salud de la Adolescencia y la Juventud'
+    -
+      value: '7091345005'
+      label: 'Maestría en Ciencias Médicas'
+    -
+      value: '7092208001'
+      label: 'Maestría en Enfermería Gerencial'
+    -
+      value: '7093100003'
+      label: 'Maestría en Ciencias Odontológicas'
+    -
+      value: '7093207003'
+      label: 'Maestría en Patología y Medicina Bucal'
+    -
+      value: '7094200035'
+      label: 'Maestría en Ciencia del comportamiento con orientación en alimentación y nutrición'
+    -
+      value: '7095000001'
+      label: 'Maestría en Investigación Clínica'
+    -
+      value: '7095000011'
+      label: 'Maestría en Microbiología Médica'
+    -
+      value: '7095200012'
+      label: 'Maestría en Ciencias Biomédicas'
+    -
+      value: '7095300001'
+      label: 'Maestría en Química Clínica'
+    -
+      value: '7095400007'
+      label: 'Maestría en Ciencias Biofarmacéuticas'
+    -
+      value: '7095600007'
+      label: 'Maestría en Ciencias de la Salud Ambiental'
+    -
+      value: '7095600015'
+      label: 'Maestría en Ciencias de la Salud Pública'
+    -
+      value: '7095600030'
+      label: 'Maestría en Salud Pública'
+    -
+      value: '7095600046'
+      label: 'Maestría en Ciencias Socio Médicas'
+    -
+      value: '7095600068'
+      label: 'Maestría en Educación en Ciencias de la Salud'
+    -
+      value: '7101000006'
+      label: 'Maestría en Actividad Física y Estilo de Vida'
+    -
+      value: '7101500016'
+      label: 'Maestría en Ciencias en Inocuidad Alimentaria'
+    -
+      value: '7102100006'
+      label: 'Maestría en Movilidad Urbana, Transporte y Territorio'
+    -
+      value: '7103100003'
+      label: 'Maestría en Ergonomía'
+    -
+      value: '7103100010'
+      label: 'Maestría en Gestión de la Seguridad y Salud en el Trabajo'
+    -
+      value: '8011000006'
+      label: 'Doctorado en Cognición y Aprendizaje'
+    -
+      value: '8011400005'
+      label: 'Doctorado en Sistemas y Ambientes Educativos'
+    -
+      value: '8011500003'
+      label: 'Doctorado en Educación'
+    -
+      value: '8021000010'
+      label: 'Doctorado en Arte y Cultura'
+    -
+      value: '8021000011'
+      label: 'Doctorado en Gestión de la Cultura'
+    -
+      value: '8022000001'
+      label: 'Doctorado en Humanidades'
+    -
+      value: '8022300004'
+      label: 'Doctorado en Letras'
+    -
+      value: '8022300013'
+      label: 'Doctorado en Estudios Literarios y Lingüísticos'
+    -
+      value: '8022500004'
+      label: 'Doctorado en Historia'
+    -
+      value: '8031000001'
+      label: 'Doctorado en Ciencias Sociales'
+    -
+      value: '8031000021'
+      label: 'Doctorado en Desarrollo Humano, Educación e Interculturalidad'
+    -
+      value: '8031100002'
+      label: 'Doctorado en Ciencia del Comportamiento'
+    -
+      value: '8031100011'
+      label: 'Doctorado Interinstitucional'
+    -
+      value: '8031100026'
+      label: 'Doctorado en Psicología con Orientación en Calidad de Vida y Salud'
+    -
+      value: '8031100040'
+      label: 'Doctorado en Psicología de la Salud'
+    -
+      value: '8031200023'
+      label: 'Doctorado en Estudios Regionales'
+    -
+      value: '8031300003'
+      label: 'Doctorado en Ciencia Política'
+    -
+      value: '8031300020'
+      label: 'Doctorado en Políticas Públicas y Desarrollo'
+    -
+      value: '8031300039'
+      label: 'Doctorado en Gestión de Paz y Prevención de las Violencias'
+    -
+      value: '8031400004'
+      label: 'Doctorado en Ciencias Económico Administrativas'
+    -
+      value: '8031400010'
+      label: 'Doctorado en Negocios y Estudios Económicos'
+    -
+      value: '8031400014'
+      label: 'Doctorado en Estudios Económicos'
+    -
+      value: '8033100003'
+      label: 'Doctorado en Derechos Humanos'
+    -
+      value: '8033100009'
+      label: 'Doctorado en Derecho'
+    -
+      value: '8041400003'
+      label: 'Doctorado en Estudios Fiscales'
+    -
+      value: '8042000005'
+      label: 'Doctorado en Ciencias de la Administración'
+    -
+      value: '8042000014'
+      label: 'Doctorado en Gestión y Negocios'
+    -
+      value: '8042100049'
+      label: 'Doctorado en Innovación para el Hábitat Sustentable'
+    -
+      value: '8042100051'
+      label: 'Doctorado en Innovación y Sustentabilidad en los Negocios'
+    -
+      value: '8042200004'
+      label: 'Doctorado en Ciencias para el Desarrollo, la Sustentabilidad y el Turismo'
+    -
+      value: '8042500005'
+      label: 'Doctorado en Gestión de la Educación Superior'
+    -
+      value: '8051100004'
+      label: 'Doctorado en Ciencias Biológicas'
+    -
+      value: '8051100012'
+      label: 'Doctorado en Genética Humana'
+    -
+      value: '8051100024'
+      label: 'Doctorado en Ciencias en Ecofisiología y Recursos Genéticos'
+    -
+      value: '8051200017'
+      label: 'Doctorado en Farmacología'
+    -
+      value: '8051200020'
+      label: 'Doctorado en Ciencias en Biología Molecular en Medicina'
+    -
+      value: '8051200038'
+      label: 'Doctorado en Ciencias en Bioquímica Molecular y Traslacional'
+    -
+      value: '8051300007'
+      label: 'Doctorado en Ciencias en Biosistemática, Ecología y Manejo de Recursos Naturales y Agrícolas'
+    -
+      value: '8051300013'
+      label: 'Doctorado en Ciencias para el Desarrollo Sustentable'
+    -
+      value: '8052000002'
+      label: 'Doctorado en Ciencias'
+    -
+      value: '8052000007'
+      label: 'Doctorado en Ciencias en Microbiología y la Biotecnología Molecular'
+    -
+      value: '8052100009'
+      label: 'Doctorado en Ciencias en Física'
+    -
+      value: '8052100019'
+      label: 'Doctorado en Ciencias Físico Matemáticas'
+    -
+      value: '8052200001'
+      label: 'Doctorado en Ciencia de Materiales'
+    -
+      value: '8052200009'
+      label: 'Doctorado en Ciencias en Química'
+    -
+      value: '8052200018'
+      label: 'Doctorado en Ciencias en Ingeniería Química'
+    -
+      value: '8052200023'
+      label: 'Doctorado en Ciencia de Biomateriales Sustentables'
+    -
+      value: '8052300012'
+      label: 'Doctorado en Geografía y Ordenación Territorial'
+    -
+      value: '8052300021'
+      label: 'Doctorado en Geología'
+    -
+      value: '8053100005'
+      label: 'Doctorado en Ciencias en Matemáticas'
+    -
+      value: '8061100020'
+      label: 'Doctorado en Ciencias en Inteligencia Computacional'
+    -
+      value: '8062200001'
+      label: 'Doctorado en Ingeniería y Tecnología'
+    -
+      value: '8062200005'
+      label: 'Doctorado en Tecnologías de Información'
+    -
+      value: '8071000002'
+      label: 'Doctorado en Ciencia y Tecnología'
+    -
+      value: '8071000012'
+      label: 'Doctorado en Ciencias en Ingeniería'
+    -
+      value: '8071200008'
+      label: 'Doctorado en Agua y Energía'
+    -
+      value: '8071300016'
+      label: 'Doctorado en Ciencias de la Electrónica y la Computación'
+    -
+      value: '8071400003'
+      label: 'Doctorado en Ciencias en Procesos Biotecnológicos'
+    -
+      value: '8072100013'
+      label: 'Doctorado en Ciencias de la Nutrición Traslacional'
+    -
+      value: '8072300004'
+      label: 'Doctorado en Ciencia e Ingeniería de Materiales'
+    -
+      value: '8073100010'
+      label: 'Doctorado en Ciudad, Territorio y Sustentabilidad'
+    -
+      value: '8081100028'
+      label: 'Doctorado en Ciencias Agrícolas y Forestales'
+    -
+      value: '8081100033'
+      label: 'Doctorado en Ciencias con Orientación en Ciencias Biológicas y Agropecuarias'
+    -
+      value: '8091100003'
+      label: 'Doctorado en Ciencias de la Salud Ocupacional'
+    -
+      value: '8091325001'
+      label: 'Doctorado en Ciencias de la Salud en el Trabajo'
+    -
+      value: '8091345002'
+      label: 'Doctorado en Ciencias de la Salud Orientación en Investigación Clínica'
+    -
+      value: '8091345005'
+      label: 'Doctorado en Investigación Clínica'
+    -
+      value: '8091345016'
+      label: 'Doctorado en Investigación Multidisciplinaria en Salud'
+    -
+      value: '8094200006'
+      label: 'Doctorado en Ciencia del comportamiento con orientación en alimentación y nutrición'
+    -
+      value: '8095000001'
+      label: 'Doctorado en Ciencias Socio Médicas'
+    -
+      value: '8095000003'
+      label: 'Doctorado en Microbiología Médica'
+    -
+      value: '8095200001'
+      label: 'Doctorado en Biociencias'
+    -
+      value: '8095200003'
+      label: 'Doctorado en Ciencias Biomédicas'
+    -
+      value: '8095600001'
+      label: 'Doctorado en Ciencias de la Salud Pública'
+    -
+      value: '8102100001'
+      label: 'Doctorado en Movilidad Urbana, Transporte y Territorio'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 30d0cd75-5dea-48cd-a4e6-3e5d381d3122
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_prof_asig_m
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_prof_asig_m
+field_name: field_prof_asig_m
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Profesores de asignatura mujeres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: dbeca5f6-771c-46d9-9eb5-c5d53abec09d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total
+    - storage.storage_type.422_pe_que_requieren_pp
+id: storage.422_pe_que_requieren_pp.field_total
+field_name: field_total
+entity_type: storage
+bundle: 422_pe_que_requieren_pp
+label: Total
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

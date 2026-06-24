@@ -1,0 +1,20 @@
+uuid: 9a571a0c-599b-4953-82f7-208097f2aa2a
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_aspirantes_t
+field_name: field_aspirantes_t
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

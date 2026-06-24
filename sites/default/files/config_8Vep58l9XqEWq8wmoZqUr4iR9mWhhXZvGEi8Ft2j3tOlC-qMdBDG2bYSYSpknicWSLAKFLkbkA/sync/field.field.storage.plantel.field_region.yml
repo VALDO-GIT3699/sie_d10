@@ -1,0 +1,29 @@
+uuid: ec00fb95-e831-45ee-b8db-86a5c280ab65
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_region
+    - storage.storage_type.plantel
+    - taxonomy.vocabulary.regiones_jalisco
+id: storage.plantel.field_region
+field_name: field_region
+entity_type: storage
+bundle: plantel
+label: Región
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      regiones_jalisco: regiones_jalisco
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

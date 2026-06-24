@@ -1,0 +1,23 @@
+uuid: b414f168-c49a-4edf-8f90-a46b79a9be9f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_academicos_nb
+    - storage.storage_type.713_pa_sems_categoria_nivel
+id: storage.713_pa_sems_categoria_nivel.field_academicos_nb
+field_name: field_academicos_nb
+entity_type: storage
+bundle: 713_pa_sems_categoria_nivel
+label: 'Personas no binarias académicas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

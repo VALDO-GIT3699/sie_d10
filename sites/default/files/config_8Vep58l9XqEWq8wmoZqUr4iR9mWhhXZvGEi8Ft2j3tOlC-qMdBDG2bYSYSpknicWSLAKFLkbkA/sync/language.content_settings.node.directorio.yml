@@ -1,0 +1,11 @@
+uuid: 0a1a28ed-a5cb-43c0-8e28-31d5ec6d874d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.directorio
+id: node.directorio
+target_entity_type_id: node
+target_bundle: directorio
+default_langcode: site_default
+language_alterable: false

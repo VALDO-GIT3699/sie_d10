@@ -1,0 +1,11 @@
+uuid: 9f77c106-0923-4b52-8d66-f189661ba197
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.fuentes
+label: Fuentes
+description: ''
+targetEntityType: node
+cache: true

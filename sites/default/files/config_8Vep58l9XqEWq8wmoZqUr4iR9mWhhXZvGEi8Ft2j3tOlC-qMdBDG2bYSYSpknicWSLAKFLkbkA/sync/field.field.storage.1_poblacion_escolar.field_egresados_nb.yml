@@ -1,0 +1,23 @@
+uuid: c6e57713-e072-462a-8a7e-c05fe1d5d779
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_egresados_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_egresados_nb
+field_name: field_egresados_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Personas no binarias egresadas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

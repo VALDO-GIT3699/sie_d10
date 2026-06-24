@@ -1,0 +1,36 @@
+uuid: 041e37a0-cad2-4d0a-85a5-ce15d71547e2
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.menu-colapsable-dividido
+  module:
+    - menu_block
+    - system
+  theme:
+    - b4seutheme
+id: menucolapsabledividido_2
+theme: b4seutheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'menu_block:menu-colapsable-dividido'
+settings:
+  id: 'menu_block:menu-colapsable-dividido'
+  label: 'Menú colapsable dividido'
+  label_display: '0'
+  provider: menu_block
+  follow: false
+  follow_parent: active
+  label_link: false
+  label_type: block
+  level: 3
+  depth: 0
+  expand_all_items: false
+  parent: 'menu-colapsable-dividido:'
+  suggestion: main
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/tercer-menu\r\n/pagina-submenu"

@@ -1,0 +1,23 @@
+uuid: c8896dc1-98d0-4b1f-842a-63ca0295970a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.a31_solicitudes_de_informacion
+id: storage.a31_solicitudes_de_informacion.field_row
+field_name: field_row
+entity_type: storage
+bundle: a31_solicitudes_de_informacion
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

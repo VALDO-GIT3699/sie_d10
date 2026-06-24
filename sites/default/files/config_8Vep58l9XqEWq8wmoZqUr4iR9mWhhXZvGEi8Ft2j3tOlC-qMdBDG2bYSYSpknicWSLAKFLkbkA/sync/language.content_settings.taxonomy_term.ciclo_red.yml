@@ -1,0 +1,11 @@
+uuid: a50709eb-2b0f-4d21-8684-2419e43e7ef4
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ciclo_red
+id: taxonomy_term.ciclo_red
+target_entity_type_id: taxonomy_term
+target_bundle: ciclo_red
+default_langcode: site_default
+language_alterable: false

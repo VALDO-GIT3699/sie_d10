@@ -1,0 +1,13 @@
+uuid: 5b1edfb0-d1ba-4eb9-ad5f-7ac4c6949ac9
+langcode: es
+status: true
+dependencies: {  }
+id: matricula
+label: Base
+description: 'Base de la matrícula no funcional'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

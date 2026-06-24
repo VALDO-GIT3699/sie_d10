@@ -1,0 +1,29 @@
+uuid: c1b28bfe-8e38-4786-a4b4-88fb5197b65f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.plantel
+    - taxonomy.vocabulary.ano
+id: storage.plantel.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: plantel
+label: Año
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

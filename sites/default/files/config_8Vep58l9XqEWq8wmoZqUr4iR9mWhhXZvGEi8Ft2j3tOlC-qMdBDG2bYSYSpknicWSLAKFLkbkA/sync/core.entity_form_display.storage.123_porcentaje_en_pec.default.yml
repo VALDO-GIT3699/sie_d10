@@ -1,0 +1,136 @@
+uuid: 879767e5-0217-4072-b8f6-e8ce9efd7f46
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.123_porcentaje_en_pec.feeds_item
+    - field.field.storage.123_porcentaje_en_pec.field_ciclo
+    - field.field.storage.123_porcentaje_en_pec.field_entidad_universitaria
+    - field.field.storage.123_porcentaje_en_pec.field_nivel_estudiante
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_hombres
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_mujeres
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_personas_nb
+    - field.field.storage.123_porcentaje_en_pec.field_por_dif_total
+    - field.field.storage.123_porcentaje_en_pec.field_por_hombres
+    - field.field.storage.123_porcentaje_en_pec.field_por_mujeres
+    - field.field.storage.123_porcentaje_en_pec.field_por_personas_nb
+    - field.field.storage.123_porcentaje_en_pec.field_por_total
+    - field.field.storage.123_porcentaje_en_pec.field_row
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.default
+targetEntityType: storage
+bundle: 123_porcentaje_en_pec
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nivel_estudiante:
+    type: entity_reference_autocomplete
+    weight: 29
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_dif_hombres:
+    type: number
+    weight: 35
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_dif_mujeres:
+    type: number
+    weight: 36
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_dif_personas_nb:
+    type: number
+    weight: 37
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_dif_total:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_hombres:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_mujeres:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_personas_nb:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_total:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

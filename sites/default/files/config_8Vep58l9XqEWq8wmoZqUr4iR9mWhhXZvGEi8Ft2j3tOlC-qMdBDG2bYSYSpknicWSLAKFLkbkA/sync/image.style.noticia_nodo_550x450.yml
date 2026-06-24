@@ -1,0 +1,15 @@
+uuid: 1d941469-2fa9-492f-b80f-6c8e59210142
+langcode: es
+status: true
+dependencies: {  }
+name: noticia_nodo_550x450
+label: 'Noticia nodo 550x450'
+effects:
+  e15fbfe0-550d-492f-8407-3e0bb358a062:
+    uuid: e15fbfe0-550d-492f-8407-3e0bb358a062
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 550
+      height: 450
+      anchor: center-center

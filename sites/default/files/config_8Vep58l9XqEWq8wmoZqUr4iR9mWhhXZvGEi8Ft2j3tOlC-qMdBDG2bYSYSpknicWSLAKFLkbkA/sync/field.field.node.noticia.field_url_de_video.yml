@@ -1,0 +1,26 @@
+uuid: 4235b87d-95ec-4573-a4e5-9d696dc9e507
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_url_de_video
+    - node.type.noticia
+  module:
+    - video
+id: node.noticia.field_url_de_video
+field_name: field_url_de_video
+entity_type: node
+bundle: noticia
+label: 'URL de video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'videos/[date:custom:Y]-[date:custom:m]'
+  file_extensions: ''
+  max_filesize: ''
+field_type: video

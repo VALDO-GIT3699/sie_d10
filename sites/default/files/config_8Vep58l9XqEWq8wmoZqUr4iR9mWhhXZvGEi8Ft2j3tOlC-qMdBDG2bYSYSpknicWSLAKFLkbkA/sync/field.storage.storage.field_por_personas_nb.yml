@@ -1,0 +1,20 @@
+uuid: a0d346cc-0b4d-4d7b-991c-ba1dec758de6
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_por_personas_nb
+field_name: field_por_personas_nb
+entity_type: storage
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

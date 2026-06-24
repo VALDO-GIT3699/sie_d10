@@ -1,0 +1,202 @@
+uuid: 518c4566-d38c-4dc5-8893-7b76f1054271
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.721_padmon_categoria.field_administrativos_h
+    - field.field.storage.721_padmon_categoria.field_administrativos_m
+    - field.field.storage.721_padmon_categoria.field_administrativos_nb
+    - field.field.storage.721_padmon_categoria.field_administrativos_t
+    - field.field.storage.721_padmon_categoria.field_anio
+    - field.field.storage.721_padmon_categoria.field_categoria_admon
+    - field.field.storage.721_padmon_categoria.field_entidad_universitaria
+    - field.field.storage.721_padmon_categoria.field_row
+    - storage.storage_type.721_padmon_categoria
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '721 PAdmon por categoría'
+id: 721_padmon_por_categoria
+description: 'Personal administrativas por categoría'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 721_padmon_categoria
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  categoria_admon:
+    value: categoria_admon
+    label: categoria_admon
+    machine_name: categoria_admon
+    type: csv
+  administrativos_h:
+    value: administrativos_h
+    label: administrativos_h
+    machine_name: administrativos_h
+    type: csv
+  administrativos_m:
+    value: administrativos_m
+    label: administrativos_m
+    machine_name: administrativos_m
+    type: csv
+  administrativos_nb:
+    value: administrativos_nb
+    label: administrativos_nb
+    machine_name: administrativos_nb
+    type: csv
+  administrativos_t:
+    value: administrativos_t
+    label: administrativos_t
+    machine_name: administrativos_t
+    type: csv
+  hombres:
+    value: hombres
+    label: hombres
+    machine_name: hombres
+    type: csv
+  mujeres:
+    value: mujeres
+    label: mujeres
+    machine_name: mujeres
+    type: csv
+  personas_nb:
+    value: personas_nb
+    label: personas_nb
+    machine_name: personas_nb
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_categoria_admon
+    map:
+      target_id: categoria_admon
+    settings:
+      language: ''
+      reference_by: field_clave_padmon_categoria
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: padmon_categorias
+  -
+    target: field_administrativos_h
+    map:
+      value: hombres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_administrativos_m
+    map:
+      value: mujeres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_administrativos_nb
+    map:
+      value: personas_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_administrativos_t
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }

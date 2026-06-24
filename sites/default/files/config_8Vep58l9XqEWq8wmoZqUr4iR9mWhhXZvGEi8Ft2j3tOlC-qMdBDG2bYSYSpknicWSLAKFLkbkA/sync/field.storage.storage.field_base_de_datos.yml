@@ -1,0 +1,21 @@
+uuid: 690156e4-b277-4b27-b342-10abc8fc42b7
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_base_de_datos
+field_name: field_base_de_datos
+entity_type: storage
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

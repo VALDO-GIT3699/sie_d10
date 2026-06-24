@@ -1,0 +1,23 @@
+uuid: aa90c3f7-7df0-4d3d-ac51-e9809a3044c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.422_pe_que_requieren_pp
+id: storage.422_pe_que_requieren_pp.field_row
+field_name: field_row
+entity_type: storage
+bundle: 422_pe_que_requieren_pp
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,130 @@
+uuid: ad8a75af-f895-4bce-a297-900cdb4adbec
+langcode: es
+status: true
+dependencies: {  }
+id: 83_bibliotecas
+label: Bibliotecas
+renderer: quick_tabs
+hide_empty_tabs: false
+default_tab: 0
+options:
+  quick_tabs:
+    ajax: false
+    class: ''
+    style: tabsbar
+configuration_data:
+  -
+    title: Servicios
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: 'entity_view:node'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: '81'
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: 13_admision
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: Infraestructura
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: 'entity_view:node'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: '83'
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: 13_admision
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Títulos y volúmenes'
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: 'entity_view:node'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: '84'
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: 13_admision
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Biblioteca digital'
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: 'entity_view:node'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: '85'
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: 13_admision
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Bases de datos'
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: 'entity_view:node'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: node/86
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: bibliotecas
+          display: block_8
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''

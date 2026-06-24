@@ -1,0 +1,23 @@
+uuid: 07c2eef5-4a41-4ca0-abb9-2dd3a9739e7e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_titulados_m
+field_name: field_titulados_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujeres tituladas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

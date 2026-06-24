@@ -1,0 +1,29 @@
+uuid: a970f0ed-d51f-41aa-aa48-160aef23956c
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.numeralia
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__numeralia_block_2
+theme: b4seutheme
+region: content
+weight: -86
+provider: null
+plugin: 'views_block:numeralia-block_2'
+settings:
+  id: 'views_block:numeralia-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/no-mostrar\r\n"

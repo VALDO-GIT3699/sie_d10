@@ -1,0 +1,23 @@
+uuid: 1faa25b7-6063-4750-8692-adb57950859b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_titulados_m
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_titulados_m
+field_name: field_titulados_m
+entity_type: storage
+bundle: 14_egresados
+label: 'Mujeres tituladas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

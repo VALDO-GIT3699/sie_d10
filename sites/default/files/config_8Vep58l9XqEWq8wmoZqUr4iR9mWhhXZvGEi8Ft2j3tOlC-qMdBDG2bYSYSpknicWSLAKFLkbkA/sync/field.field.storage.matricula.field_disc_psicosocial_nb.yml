@@ -1,0 +1,23 @@
+uuid: 55748a9b-6053-4aca-a244-de267b34e23d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_psicosocial_nb
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_psicosocial_nb
+field_name: field_disc_psicosocial_nb
+entity_type: storage
+bundle: matricula
+label: 'Personas no binarias con discapacidad psicosocial'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

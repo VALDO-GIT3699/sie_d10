@@ -1,0 +1,27 @@
+uuid: 809b6ebf-4db8-42f4-949e-7d39387fdf1d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archivo_noticia
+    - node.type.noticia
+  module:
+    - file
+id: node.noticia.field_archivo_noticia
+field_name: field_archivo_noticia
+entity_type: node
+bundle: noticia
+label: Archivo
+description: 'Archivo de la noticia'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt zip tar.gz doc xls xlsx pdf docx'
+  max_filesize: ''
+  description_field: true
+field_type: file

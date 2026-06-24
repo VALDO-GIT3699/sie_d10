@@ -1,0 +1,116 @@
+uuid: 64167172-a81b-4137-ac03-5c728af3ae4b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.planteles.feeds_item
+    - field.field.taxonomy_term.planteles.field_clasificacion_plantel
+    - field.field.taxonomy_term.planteles.field_clave_plantel
+    - field.field.taxonomy_term.planteles.field_entidad_universitaria
+    - field.field.taxonomy_term.planteles.field_municipio
+    - field.field.taxonomy_term.planteles.field_nombre_plantel_corto
+    - field.field.taxonomy_term.planteles.field_notas
+    - field.field.taxonomy_term.planteles.field_plantel
+    - field.field.taxonomy_term.planteles.field_plantel_adscripcion
+    - field.field.taxonomy_term.planteles.field_region_jalisco
+    - field.field.taxonomy_term.planteles.field_tipo_plantel
+    - taxonomy.vocabulary.planteles
+  module:
+    - options
+    - text
+id: taxonomy_term.planteles.default
+targetEntityType: taxonomy_term
+bundle: planteles
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_clasificacion_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_clave_plantel:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_municipio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_nombre_plantel_corto:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_notas:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_plantel:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_plantel_adscripcion:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_region_jalisco:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_tipo_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true

@@ -1,0 +1,23 @@
+uuid: a648065f-0e37-4d53-8c41-31d281ec3204
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_asientos
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.field_asientos
+field_name: field_asientos
+entity_type: storage
+bundle: 831_bibliotecas
+label: Asientos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

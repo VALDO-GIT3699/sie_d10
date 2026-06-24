@@ -1,0 +1,106 @@
+uuid: 2b790119-a56b-40f2-b988-0247a3d36787
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.galeria_de_videos.body
+    - field.field.node.galeria_de_videos.field_descripcion_galeria_videos
+    - field.field.node.galeria_de_videos.field_fecha_galeria_videos
+    - field.field.node.galeria_de_videos.field_video_galeria
+    - node.type.galeria_de_videos
+  module:
+    - datetime
+    - path
+    - text
+    - video
+id: node.galeria_de_videos.default
+targetEntityType: node
+bundle: galeria_de_videos
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_descripcion_galeria_videos:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_fecha_galeria_videos:
+    type: datetime_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_video_galeria:
+    type: video_embed
+    weight: 27
+    region: content
+    settings:
+      allowed_providers:
+        youtube: youtube
+      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
+      uri_scheme: public
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 3
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 9
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true

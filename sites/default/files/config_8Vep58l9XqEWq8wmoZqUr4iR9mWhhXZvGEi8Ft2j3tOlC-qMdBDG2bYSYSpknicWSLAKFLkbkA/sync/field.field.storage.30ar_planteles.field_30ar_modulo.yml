@@ -1,0 +1,23 @@
+uuid: 64845638-ec13-4457-9198-6f848be6e1d3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_modulo
+    - storage.storage_type.30ar_planteles
+id: storage.30ar_planteles.field_30ar_modulo
+field_name: field_30ar_modulo
+entity_type: storage
+bundle: 30ar_planteles
+label: Módulos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

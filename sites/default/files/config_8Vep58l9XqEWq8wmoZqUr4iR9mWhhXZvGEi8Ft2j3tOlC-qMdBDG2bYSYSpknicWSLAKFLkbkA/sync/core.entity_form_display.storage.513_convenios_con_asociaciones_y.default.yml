@@ -1,0 +1,76 @@
+uuid: 5a46f38d-1562-4620-afb2-a16e8d216082
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.513_convenios_con_asociaciones_y.feeds_item
+    - field.field.storage.513_convenios_con_asociaciones_y.field_ambito_geografico
+    - field.field.storage.513_convenios_con_asociaciones_y.field_anio
+    - field.field.storage.513_convenios_con_asociaciones_y.field_convenios_tipo
+    - field.field.storage.513_convenios_con_asociaciones_y.field_row
+    - field.field.storage.513_convenios_con_asociaciones_y.field_total
+    - storage.storage_type.513_convenios_con_asociaciones_y
+id: storage.513_convenios_con_asociaciones_y.default
+targetEntityType: storage
+bundle: 513_convenios_con_asociaciones_y
+mode: default
+content:
+  field_ambito_geografico:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_convenios_tipo:
+    type: options_select
+    weight: 26
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total:
+    type: number
+    weight: 28
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

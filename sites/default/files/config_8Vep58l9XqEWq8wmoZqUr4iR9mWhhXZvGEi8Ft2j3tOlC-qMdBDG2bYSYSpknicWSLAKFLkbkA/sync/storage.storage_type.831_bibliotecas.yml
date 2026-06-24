@@ -1,0 +1,13 @@
+uuid: 69626de3-4a5a-4e70-8a25-e42530b0c4c2
+langcode: es
+status: true
+dependencies: {  }
+id: 831_bibliotecas
+label: '831 Bibliotecas'
+description: 'Bibliotecas del SiUBiUDG'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

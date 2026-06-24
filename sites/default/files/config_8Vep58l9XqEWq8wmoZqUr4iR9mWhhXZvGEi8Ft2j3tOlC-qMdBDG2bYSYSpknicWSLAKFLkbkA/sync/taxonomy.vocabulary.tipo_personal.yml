@@ -1,0 +1,9 @@
+uuid: d118f5df-78a0-4d4e-a541-e6a8fc9b0783
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo de personal'
+vid: tipo_personal
+description: 'Tipo de personal: Académico / Administrativo'
+weight: 0
+new_revision: false

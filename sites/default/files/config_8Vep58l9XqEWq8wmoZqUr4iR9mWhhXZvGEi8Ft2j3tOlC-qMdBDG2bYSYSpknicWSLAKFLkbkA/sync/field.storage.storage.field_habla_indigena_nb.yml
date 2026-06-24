@@ -1,0 +1,20 @@
+uuid: 4a8fcfa8-8256-4b30-89f5-2fd80d5646a0
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_habla_indigena_nb
+field_name: field_habla_indigena_nb
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

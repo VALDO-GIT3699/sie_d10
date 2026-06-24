@@ -1,0 +1,23 @@
+uuid: f3961b8b-70f3-460f-8f10-9d9d3266b37a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_investigadores_mt_nb
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_investigadores_mt_nb
+field_name: field_investigadores_mt_nb
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Investigadores de medio tiempo personas no binarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

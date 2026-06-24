@@ -1,0 +1,23 @@
+uuid: 0fcc7016-2851-4de7-a3d4-3e4bcb3867c2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_discapacidad_h
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_ti_discapacidad_h
+field_name: field_ti_discapacidad_h
+entity_type: storage
+bundle: 14_egresados
+label: 'Hombres con discapacidad titulados'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

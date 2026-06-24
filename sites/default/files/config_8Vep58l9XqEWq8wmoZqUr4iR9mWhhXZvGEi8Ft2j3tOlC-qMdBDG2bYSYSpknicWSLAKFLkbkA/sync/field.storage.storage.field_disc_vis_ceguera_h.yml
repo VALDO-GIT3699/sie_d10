@@ -1,0 +1,20 @@
+uuid: 35ef3c1f-db53-4b9f-878d-7201d4c770d8
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_disc_vis_ceguera_h
+field_name: field_disc_vis_ceguera_h
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: bcd6b661-595e-4e72-ae65-a67748075716
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.721_padmon_categoria
+id: storage.721_padmon_categoria.field_row
+field_name: field_row
+entity_type: storage
+bundle: 721_padmon_categoria
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 83960d93-8fea-4dc2-99a4-72c72f4d18c9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_discapacidad_h
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_ti_discapacidad_h
+field_name: field_ti_discapacidad_h
+entity_type: storage
+bundle: 15_titulados
+label: 'Hombres con discapacidad titulados'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

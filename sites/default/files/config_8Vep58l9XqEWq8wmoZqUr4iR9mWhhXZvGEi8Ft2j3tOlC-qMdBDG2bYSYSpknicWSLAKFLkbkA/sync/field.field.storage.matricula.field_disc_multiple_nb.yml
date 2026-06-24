@@ -1,0 +1,23 @@
+uuid: 551487f3-57a8-4f3d-85ee-8af858e9611d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_multiple_nb
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_multiple_nb
+field_name: field_disc_multiple_nb
+entity_type: storage
+bundle: matricula
+label: 'Personas no binarias con discapacidad múltiple'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

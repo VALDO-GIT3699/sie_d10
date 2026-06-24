@@ -1,0 +1,29 @@
+uuid: 33751521-352a-47f9-8f64-70a91c5dab16
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.30_anos_de_la_red_udeg
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__30_anos_de_la_red_udeg_block_3
+theme: b4seutheme
+region: content
+weight: -53
+provider: null
+plugin: 'views_block:30_anos_de_la_red_udeg-block_3'
+settings:
+  id: 'views_block:30_anos_de_la_red_udeg-block_3'
+  label: 'Comparativo de los programas educativos de Educación Superior de la UdeG de los ciclos 1994-1995 a 2023-2024'
+  label_display: visible
+  provider: views
+  views_label: 'Comparativo de los programas educativos de Educación Superior de la UdeG de los ciclos 1994-1995 a 2023-2024'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /30-anos-de-la-red-udeg

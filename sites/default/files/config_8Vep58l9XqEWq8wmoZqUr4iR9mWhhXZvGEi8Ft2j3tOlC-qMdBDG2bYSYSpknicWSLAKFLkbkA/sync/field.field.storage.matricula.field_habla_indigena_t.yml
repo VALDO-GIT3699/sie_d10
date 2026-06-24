@@ -1,0 +1,23 @@
+uuid: e744bf81-5661-4838-8d90-753c2239a331
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_habla_indigena_t
+    - storage.storage_type.matricula
+id: storage.matricula.field_habla_indigena_t
+field_name: field_habla_indigena_t
+entity_type: storage
+bundle: matricula
+label: 'Total habla indígena'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

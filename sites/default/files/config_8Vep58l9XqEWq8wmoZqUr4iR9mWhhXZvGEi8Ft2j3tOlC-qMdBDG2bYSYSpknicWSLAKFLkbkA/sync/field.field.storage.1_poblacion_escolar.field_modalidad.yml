@@ -1,0 +1,29 @@
+uuid: 61a7c693-eab9-4b32-9465-19815f54b062
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_modalidad
+    - storage.storage_type.1_poblacion_escolar
+    - taxonomy.vocabulary.modalidad
+id: storage.1_poblacion_escolar.field_modalidad
+field_name: field_modalidad
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: Modalidad
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      modalidad: modalidad
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

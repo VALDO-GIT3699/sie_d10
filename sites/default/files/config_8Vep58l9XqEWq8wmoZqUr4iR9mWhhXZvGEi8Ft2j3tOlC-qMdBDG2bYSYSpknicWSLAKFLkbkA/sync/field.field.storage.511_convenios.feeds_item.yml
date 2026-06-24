@@ -1,0 +1,23 @@
+uuid: b78cb915-f3a2-4b42-890a-792c5f0bbe4f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.511_convenios
+  module:
+    - feeds
+id: storage.511_convenios.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 511_convenios
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

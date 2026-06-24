@@ -1,0 +1,23 @@
+uuid: e27e9cdc-d1e1-4570-a97b-01be86668118
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anexo_9
+    - storage.storage_type.anexo
+id: storage.anexo.field_anexo_9
+field_name: field_anexo_9
+entity_type: storage
+bundle: anexo
+label: 'Anexo 9'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

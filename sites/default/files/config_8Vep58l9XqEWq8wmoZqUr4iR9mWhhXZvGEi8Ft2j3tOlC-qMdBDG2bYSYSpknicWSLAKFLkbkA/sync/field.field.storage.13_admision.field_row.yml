@@ -1,0 +1,23 @@
+uuid: fddce640-c1b1-4a92-a803-231831736620
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.13_admision
+id: storage.13_admision.field_row
+field_name: field_row
+entity_type: storage
+bundle: 13_admision
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

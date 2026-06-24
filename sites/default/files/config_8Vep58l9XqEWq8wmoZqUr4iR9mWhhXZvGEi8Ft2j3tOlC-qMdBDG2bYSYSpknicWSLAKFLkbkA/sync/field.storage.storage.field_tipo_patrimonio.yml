@@ -1,0 +1,20 @@
+uuid: 9348f2a6-3aad-4ff8-ae90-694d1f5cfef9
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_tipo_patrimonio
+field_name: field_tipo_patrimonio
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

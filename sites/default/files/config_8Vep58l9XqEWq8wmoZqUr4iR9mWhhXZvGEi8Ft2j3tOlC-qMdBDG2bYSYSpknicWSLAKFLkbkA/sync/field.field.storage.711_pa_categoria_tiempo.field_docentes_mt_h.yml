@@ -1,0 +1,23 @@
+uuid: 60c07a5c-f839-4052-a339-81a89b2c2568
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_docentes_mt_h
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_docentes_mt_h
+field_name: field_docentes_mt_h
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Docentes de medio tiempo hombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

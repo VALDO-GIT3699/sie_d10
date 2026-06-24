@@ -1,0 +1,29 @@
+uuid: 345794fd-3c76-4d33-9242-7a20633ff817
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_plantel
+    - storage.storage_type.1_poblacion_escolar
+    - taxonomy.vocabulary.planteles
+id: storage.1_poblacion_escolar.field_cve_plantel
+field_name: field_cve_plantel
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: Plantel
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      planteles: planteles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

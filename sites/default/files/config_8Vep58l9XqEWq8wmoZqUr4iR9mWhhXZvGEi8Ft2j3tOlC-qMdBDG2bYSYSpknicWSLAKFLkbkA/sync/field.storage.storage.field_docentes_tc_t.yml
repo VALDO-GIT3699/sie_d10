@@ -1,0 +1,20 @@
+uuid: 0f0916a7-d53b-4ea7-8222-278977d86ab4
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_docentes_tc_t
+field_name: field_docentes_tc_t
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 6aadd844-66c5-44c1-8a63-d6e589e3b0ce
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_investigadores_mt_h
+field_name: field_investigadores_mt_h
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: b33ff008-e86f-4b10-8e3a-8acc428f2331
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_intelectual_nb
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_intelectual_nb
+field_name: field_disc_intelectual_nb
+entity_type: storage
+bundle: matricula
+label: 'Personas no binarias con discapacidad intelectual'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

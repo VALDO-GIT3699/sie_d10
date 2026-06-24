@@ -1,0 +1,20 @@
+uuid: 587d8b26-1e71-4ec8-90c2-deee33b86e1b
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_disc_aud_sordera_nb
+field_name: field_disc_aud_sordera_nb
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

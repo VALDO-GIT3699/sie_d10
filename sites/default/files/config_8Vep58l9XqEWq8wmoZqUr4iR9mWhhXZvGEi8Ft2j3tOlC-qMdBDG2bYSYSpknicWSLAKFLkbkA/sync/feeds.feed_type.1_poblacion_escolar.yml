@@ -1,0 +1,718 @@
+uuid: f6c73fa5-0827-4287-8534-b90b0f7b6ad6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.1_poblacion_escolar.field_ciclo
+    - field.field.storage.1_poblacion_escolar.field_cve_plantel
+    - field.field.storage.1_poblacion_escolar.field_cve_programa
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_hipoacusia_h
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_hipoacusia_m
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_hipoacusia_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_hipoacusia_t
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_sordera_h
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_sordera_m
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_sordera_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_aud_sordera_t
+    - field.field.storage.1_poblacion_escolar.field_disc_fis_motriz_h
+    - field.field.storage.1_poblacion_escolar.field_disc_fis_motriz_m
+    - field.field.storage.1_poblacion_escolar.field_disc_fis_motriz_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_fis_motriz_t
+    - field.field.storage.1_poblacion_escolar.field_disc_intelectual_h
+    - field.field.storage.1_poblacion_escolar.field_disc_intelectual_m
+    - field.field.storage.1_poblacion_escolar.field_disc_intelectual_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_intelectual_t
+    - field.field.storage.1_poblacion_escolar.field_disc_multiple_h
+    - field.field.storage.1_poblacion_escolar.field_disc_multiple_m
+    - field.field.storage.1_poblacion_escolar.field_disc_multiple_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_multiple_t
+    - field.field.storage.1_poblacion_escolar.field_disc_psicosocial_h
+    - field.field.storage.1_poblacion_escolar.field_disc_psicosocial_m
+    - field.field.storage.1_poblacion_escolar.field_disc_psicosocial_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_psicosocial_t
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_baja_vision_h
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_baja_vision_m
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_baja_vision_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_baja_vision_t
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_ceguera_h
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_ceguera_m
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_ceguera_nb
+    - field.field.storage.1_poblacion_escolar.field_disc_vis_ceguera_t
+    - field.field.storage.1_poblacion_escolar.field_discapacidad_h
+    - field.field.storage.1_poblacion_escolar.field_discapacidad_m
+    - field.field.storage.1_poblacion_escolar.field_discapacidad_nb
+    - field.field.storage.1_poblacion_escolar.field_discapacidad_t
+    - field.field.storage.1_poblacion_escolar.field_habla_indigena_h
+    - field.field.storage.1_poblacion_escolar.field_habla_indigena_m
+    - field.field.storage.1_poblacion_escolar.field_habla_indigena_nb
+    - field.field.storage.1_poblacion_escolar.field_habla_indigena_t
+    - field.field.storage.1_poblacion_escolar.field_matricula_h
+    - field.field.storage.1_poblacion_escolar.field_matricula_m
+    - field.field.storage.1_poblacion_escolar.field_matricula_nb
+    - field.field.storage.1_poblacion_escolar.field_matricula_t
+    - field.field.storage.1_poblacion_escolar.field_modalidad
+    - field.field.storage.1_poblacion_escolar.field_row
+    - storage.storage_type.1_poblacion_escolar
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '1 Población escolar'
+id: 1_poblacion_escolar
+description: ''
+help: 'Carga masiva de la población escolar'
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 1_poblacion_escolar
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  ciclo:
+    value: ciclo
+    label: ciclo
+    machine_name: ciclo
+    type: csv
+  cve_programa:
+    value: cve_programa
+    label: cve_programa
+    machine_name: cve_programa
+    type: csv
+  modalidad:
+    value: modalidad
+    label: modalidad
+    machine_name: modalidad
+    type: csv
+  matricula_h:
+    value: matricula_h
+    label: matricula_h
+    machine_name: matricula_h
+    type: csv
+  matricula_m:
+    value: matricula_m
+    label: matricula_m
+    machine_name: matricula_m
+    type: csv
+  matricula_nb:
+    value: matricula_nb
+    label: matricula_nb
+    machine_name: matricula_nb
+    type: csv
+  matricula_t:
+    value: matricula_t
+    label: matricula_t
+    machine_name: matricula_t
+    type: csv
+  disc_fis_motriz_h:
+    value: disc_fis_motriz_h
+    label: disc_fis_motriz_h
+    machine_name: disc_fis_motriz_h
+    type: csv
+  disc_fis_motriz_m:
+    value: disc_fis_motriz_m
+    label: disc_fis_motriz_m
+    machine_name: disc_fis_motriz_m
+    type: csv
+  disc_fis_motriz_nb:
+    value: disc_fis_motriz_nb
+    label: disc_fis_motriz_nb
+    machine_name: disc_fis_motriz_nb
+    type: csv
+  disc_fis_motriz_t:
+    value: disc_fis_motriz_t
+    label: disc_fis_motriz_t
+    machine_name: disc_fis_motriz_t
+    type: csv
+  disc_intelectual_h:
+    value: disc_intelectual_h
+    label: disc_intelectual_h
+    machine_name: disc_intelectual_h
+    type: csv
+  disc_intelectual_m:
+    value: disc_intelectual_m
+    label: disc_intelectual_m
+    machine_name: disc_intelectual_m
+    type: csv
+  disc_intelectual_nb:
+    value: disc_intelectual_nb
+    label: disc_intelectual_nb
+    machine_name: disc_intelectual_nb
+    type: csv
+  disc_intelectual_t:
+    value: disc_intelectual_t
+    label: disc_intelectual_t
+    machine_name: disc_intelectual_t
+    type: csv
+  disc_multiple_h:
+    value: disc_multiple_h
+    label: disc_multiple_h
+    machine_name: disc_multiple_h
+    type: csv
+  disc_multiple_m:
+    value: disc_multiple_m
+    label: disc_multiple_m
+    machine_name: disc_multiple_m
+    type: csv
+  disc_multiple_nb:
+    value: disc_multiple_nb
+    label: disc_multiple_nb
+    machine_name: disc_multiple_nb
+    type: csv
+  disc_multiple_t:
+    value: disc_multiple_t
+    label: disc_multiple_t
+    machine_name: disc_multiple_t
+    type: csv
+  disc_aud_hipoacusia_h:
+    value: disc_aud_hipoacusia_h
+    label: disc_aud_hipoacusia_h
+    machine_name: disc_aud_hipoacusia_h
+    type: csv
+  disc_aud_hipoacusia_m:
+    value: disc_aud_hipoacusia_m
+    label: disc_aud_hipoacusia_m
+    machine_name: disc_aud_hipoacusia_m
+    type: csv
+  disc_aud_hipoacusia_nb:
+    value: disc_aud_hipoacusia_nb
+    label: disc_aud_hipoacusia_nb
+    machine_name: disc_aud_hipoacusia_nb
+    type: csv
+  disc_aud_hipoacusia_t:
+    value: disc_aud_hipoacusia_t
+    label: disc_aud_hipoacusia_t
+    machine_name: disc_aud_hipoacusia_t
+    type: csv
+  disc_aud_sordera_h:
+    value: disc_aud_sordera_h
+    label: disc_aud_sordera_h
+    machine_name: disc_aud_sordera_h
+    type: csv
+  disc_aud_sordera_m:
+    value: disc_aud_sordera_m
+    label: disc_aud_sordera_m
+    machine_name: disc_aud_sordera_m
+    type: csv
+  disc_aud_sordera_nb:
+    value: disc_aud_sordera_nb
+    label: disc_aud_sordera_nb
+    machine_name: disc_aud_sordera_nb
+    type: csv
+  disc_aud_sordera_t:
+    value: disc_aud_sordera_t
+    label: disc_aud_sordera_t
+    machine_name: disc_aud_sordera_t
+    type: csv
+  disc_vis_baja_vision_h:
+    value: disc_vis_baja_vision_h
+    label: disc_vis_baja_vision_h
+    machine_name: disc_vis_baja_vision_h
+    type: csv
+  disc_vis_baja_vision_m:
+    value: disc_vis_baja_vision_m
+    label: disc_vis_baja_vision_m
+    machine_name: disc_vis_baja_vision_m
+    type: csv
+  disc_vis_baja_vision_nb:
+    value: disc_vis_baja_vision_nb
+    label: disc_vis_baja_vision_nb
+    machine_name: disc_vis_baja_vision_nb
+    type: csv
+  disc_vis_baja_vision_t:
+    value: disc_vis_baja_vision_t
+    label: disc_vis_baja_vision_t
+    machine_name: disc_vis_baja_vision_t
+    type: csv
+  disc_vis_ceguera_h:
+    value: disc_vis_ceguera_h
+    label: disc_vis_ceguera_h
+    machine_name: disc_vis_ceguera_h
+    type: csv
+  disc_vis_ceguera_m:
+    value: disc_vis_ceguera_m
+    label: disc_vis_ceguera_m
+    machine_name: disc_vis_ceguera_m
+    type: csv
+  disc_vis_ceguera_nb:
+    value: disc_vis_ceguera_nb
+    label: disc_vis_ceguera_nb
+    machine_name: disc_vis_ceguera_nb
+    type: csv
+  disc_vis_ceguera_t:
+    value: disc_vis_ceguera_t
+    label: disc_vis_ceguera_t
+    machine_name: disc_vis_ceguera_t
+    type: csv
+  disc_psicosocial_h:
+    value: disc_psicosocial_h
+    label: disc_psicosocial_h
+    machine_name: disc_psicosocial_h
+    type: csv
+  disc_psicosocial_m:
+    value: disc_psicosocial_m
+    label: disc_psicosocial_m
+    machine_name: disc_psicosocial_m
+    type: csv
+  disc_psicosocial_nb:
+    value: disc_psicosocial_nb
+    label: disc_psicosocial_nb
+    machine_name: disc_psicosocial_nb
+    type: csv
+  disc_psicosocial_t:
+    value: disc_psicosocial_t
+    label: disc_psicosocial_t
+    machine_name: disc_psicosocial_t
+    type: csv
+  discapacidad_h:
+    value: discapacidad_h
+    label: discapacidad_h
+    machine_name: discapacidad_h
+    type: csv
+  discapacidad_m:
+    value: discapacidad_m
+    label: discapacidad_m
+    machine_name: discapacidad_m
+    type: csv
+  discapacidad_nb:
+    value: discapacidad_nb
+    label: discapacidad_nb
+    machine_name: discapacidad_nb
+    type: csv
+  discapacidad_t:
+    value: discapacidad_t
+    label: discapacidad_t
+    machine_name: discapacidad_t
+    type: csv
+  habla_indigena_h:
+    value: habla_indigena_h
+    label: habla_indigena_h
+    machine_name: habla_indigena_h
+    type: csv
+  habla_indigena_m:
+    value: habla_indigena_m
+    label: habla_indigena_m
+    machine_name: habla_indigena_m
+    type: csv
+  habla_indigena_nb:
+    value: habla_indigena_nb
+    label: habla_indigena_nb
+    machine_name: habla_indigena_nb
+    type: csv
+  habla_indigena_t:
+    value: habla_indigena_t
+    label: habla_indigena_t
+    machine_name: habla_indigena_t
+    type: csv
+  cve_plantel:
+    value: cve_plantel
+    label: cve_plantel
+    machine_name: cve_plantel
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ciclo
+    map:
+      target_id: ciclo
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ciclo
+      feeds_item: false
+  -
+    target: field_cve_plantel
+    map:
+      target_id: cve_plantel
+    settings:
+      language: ''
+      reference_by: field_clave_plantel
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: planteles
+  -
+    target: field_cve_programa
+    map:
+      target_id: cve_programa
+    settings:
+      language: ''
+      reference_by: field_clave_programa
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: programa_educativo
+  -
+    target: field_modalidad
+    map:
+      target_id: modalidad
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: modalidad
+      feeds_item: false
+  -
+    target: field_matricula_h
+    map:
+      value: matricula_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_matricula_m
+    map:
+      value: matricula_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_matricula_nb
+    map:
+      value: matricula_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_matricula_t
+    map:
+      value: matricula_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_fis_motriz_h
+    map:
+      value: disc_fis_motriz_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_fis_motriz_m
+    map:
+      value: disc_fis_motriz_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_fis_motriz_nb
+    map:
+      value: disc_fis_motriz_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_fis_motriz_t
+    map:
+      value: disc_fis_motriz_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_intelectual_h
+    map:
+      value: disc_intelectual_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_intelectual_m
+    map:
+      value: disc_intelectual_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_intelectual_nb
+    map:
+      value: disc_intelectual_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_intelectual_t
+    map:
+      value: disc_intelectual_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_multiple_h
+    map:
+      value: disc_multiple_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_multiple_m
+    map:
+      value: disc_multiple_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_multiple_nb
+    map:
+      value: disc_multiple_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_multiple_t
+    map:
+      value: disc_multiple_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_aud_hipoacusia_h
+    map:
+      value: disc_aud_hipoacusia_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_aud_hipoacusia_m
+    map:
+      value: disc_aud_hipoacusia_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_aud_hipoacusia_nb
+    map:
+      value: disc_aud_hipoacusia_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_aud_hipoacusia_t
+    map:
+      value: disc_aud_hipoacusia_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_aud_sordera_h
+    map:
+      value: disc_aud_sordera_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_aud_sordera_m
+    map:
+      value: disc_aud_sordera_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_aud_sordera_nb
+    map:
+      value: disc_aud_sordera_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_aud_sordera_t
+    map:
+      value: disc_aud_sordera_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_vis_baja_vision_h
+    map:
+      value: disc_vis_baja_vision_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_vis_baja_vision_m
+    map:
+      value: disc_vis_baja_vision_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_vis_baja_vision_nb
+    map:
+      value: disc_vis_baja_vision_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_vis_baja_vision_t
+    map:
+      value: disc_vis_baja_vision_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_vis_ceguera_h
+    map:
+      value: disc_vis_ceguera_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_vis_ceguera_m
+    map:
+      value: disc_vis_ceguera_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_vis_ceguera_nb
+    map:
+      value: disc_vis_ceguera_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_vis_ceguera_t
+    map:
+      value: disc_vis_ceguera_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_psicosocial_h
+    map:
+      value: disc_psicosocial_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_psicosocial_m
+    map:
+      value: disc_psicosocial_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_psicosocial_nb
+    map:
+      value: disc_psicosocial_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_disc_psicosocial_t
+    map:
+      value: disc_psicosocial_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_discapacidad_m
+    map:
+      value: discapacidad_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_discapacidad_nb
+    map:
+      value: discapacidad_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_discapacidad_t
+    map:
+      value: discapacidad_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_habla_indigena_h
+    map:
+      value: habla_indigena_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_habla_indigena_m
+    map:
+      value: habla_indigena_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_habla_indigena_nb
+    map:
+      value: habla_indigena_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_habla_indigena_t
+    map:
+      value: habla_indigena_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_discapacidad_h
+    map:
+      value: discapacidad_h
+    settings:
+      language: null
+    unique: {  }

@@ -1,0 +1,20 @@
+uuid: c0073a7b-75ef-4a5c-a3b4-efbfc11e2b72
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_academicos_nb
+field_name: field_academicos_nb
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

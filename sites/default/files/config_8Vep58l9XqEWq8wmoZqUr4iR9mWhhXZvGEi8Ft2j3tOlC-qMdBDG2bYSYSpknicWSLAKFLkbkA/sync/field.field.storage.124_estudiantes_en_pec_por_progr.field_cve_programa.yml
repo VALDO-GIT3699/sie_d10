@@ -1,0 +1,29 @@
+uuid: 42ebafc9-8389-420c-bd0f-f779b8f05beb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_programa
+    - storage.storage_type.124_estudiantes_en_pec_por_progr
+    - storage.storage_type.programa_educativo
+id: storage.124_estudiantes_en_pec_por_progr.field_cve_programa
+field_name: field_cve_programa
+entity_type: storage
+bundle: 124_estudiantes_en_pec_por_progr
+label: 'Programa educativo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:storage'
+  handler_settings:
+    target_bundles:
+      programa_educativo: programa_educativo
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

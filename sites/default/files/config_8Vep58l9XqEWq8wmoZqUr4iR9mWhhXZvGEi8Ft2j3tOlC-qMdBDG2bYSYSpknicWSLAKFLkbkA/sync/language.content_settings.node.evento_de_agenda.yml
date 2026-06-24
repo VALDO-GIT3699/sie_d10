@@ -1,0 +1,11 @@
+uuid: 7519c983-428c-4eed-9f6a-94a6f73cf74b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.evento_de_agenda
+id: node.evento_de_agenda
+target_entity_type_id: node
+target_bundle: evento_de_agenda
+default_langcode: site_default
+language_alterable: false

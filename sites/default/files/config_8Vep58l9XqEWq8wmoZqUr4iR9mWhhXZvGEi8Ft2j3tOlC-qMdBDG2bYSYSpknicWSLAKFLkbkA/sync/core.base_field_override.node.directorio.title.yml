@@ -1,0 +1,18 @@
+uuid: 049fd137-9703-41f3-b515-b28773a9f18d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.directorio
+id: node.directorio.title
+field_name: title
+entity_type: node
+bundle: directorio
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

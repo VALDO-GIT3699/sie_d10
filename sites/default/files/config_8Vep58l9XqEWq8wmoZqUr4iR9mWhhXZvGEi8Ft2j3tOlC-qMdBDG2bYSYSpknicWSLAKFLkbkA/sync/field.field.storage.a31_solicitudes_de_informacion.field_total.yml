@@ -1,0 +1,23 @@
+uuid: faaed0c3-e41d-49ab-bf26-74f666747a8f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total
+    - storage.storage_type.a31_solicitudes_de_informacion
+id: storage.a31_solicitudes_de_informacion.field_total
+field_name: field_total
+entity_type: storage
+bundle: a31_solicitudes_de_informacion
+label: Total
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

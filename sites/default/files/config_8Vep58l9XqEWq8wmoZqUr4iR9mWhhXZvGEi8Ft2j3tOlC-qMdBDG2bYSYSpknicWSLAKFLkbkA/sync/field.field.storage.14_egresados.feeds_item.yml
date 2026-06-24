@@ -1,0 +1,23 @@
+uuid: 5a6a5379-f5b2-4151-909d-b3025d8d4610
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.14_egresados
+  module:
+    - feeds
+id: storage.14_egresados.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 14_egresados
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

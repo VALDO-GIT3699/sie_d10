@@ -1,0 +1,19 @@
+uuid: 7cab9a9e-073f-4f5d-9d79-fab840428a69
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_clave_padmon_categoria
+    - taxonomy.vocabulary.padmon_categorias
+id: taxonomy_term.padmon_categorias.field_clave_padmon_categoria
+field_name: field_clave_padmon_categoria
+entity_type: taxonomy_term
+bundle: padmon_categorias
+label: 'Clave categoría de administrativos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

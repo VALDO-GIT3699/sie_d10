@@ -1,0 +1,29 @@
+uuid: cbe7446c-38c2-4398-9e25-98c12114f2ef
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.312_investigadores_por_categoria
+    - taxonomy.vocabulary.ano
+id: storage.312_investigadores_por_categoria.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 312_investigadores_por_categoria
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,205 @@
+uuid: e28cbac8-d465-4618-8757-58fff8eb9355
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.832_titulos_y_volumenes.field_anio
+    - field.field.storage.832_titulos_y_volumenes.field_entidad_universitaria
+    - field.field.storage.832_titulos_y_volumenes.field_row
+    - field.field.storage.832_titulos_y_volumenes.field_sus_rev_impresas
+    - field.field.storage.832_titulos_y_volumenes.field_titulos_ad_compra
+    - field.field.storage.832_titulos_y_volumenes.field_titulos_ad_donacion
+    - field.field.storage.832_titulos_y_volumenes.field_titulos_existentes
+    - field.field.storage.832_titulos_y_volumenes.field_volumenes_ad_compra
+    - field.field.storage.832_titulos_y_volumenes.field_volumenes_ad_donacion
+    - field.field.storage.832_titulos_y_volumenes.field_volumenes_existentes
+    - storage.storage_type.832_titulos_y_volumenes
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '832 Títulos y Volúmenes'
+id: 832_titulos_y_volumenes
+description: 'Títulos y Volúmenes de las bibliotecas del SiUBiUDG'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 832_titulos_y_volumenes
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  titulos_existentes:
+    value: titulos_existentes
+    label: titulos_existentes
+    machine_name: titulos_existentes
+    type: csv
+  titulos_ad_compra:
+    value: titulos_ad_compra
+    label: titulos_ad_compra
+    machine_name: titulos_ad_compra
+    type: csv
+  titulos_ad_donacion:
+    value: titulos_ad_donacion
+    label: titulos_ad_donacion
+    machine_name: titulos_ad_donacion
+    type: csv
+  volumenes_existentes:
+    value: volumenes_existentes
+    label: volumenes_existentes
+    machine_name: volumenes_existentes
+    type: csv
+  volumenes_ad_compra:
+    value: volumenes_ad_compra
+    label: volumenes_ad_compra
+    machine_name: volumenes_ad_compra
+    type: csv
+  volumenes_ad_donacion:
+    value: volumenes_ad_donacion
+    label: volumenes_ad_donacion
+    machine_name: volumenes_ad_donacion
+    type: csv
+  sus_rev_impresas:
+    value: sus_rev_impresas
+    label: sus_rev_impresas
+    machine_name: sus_rev_impresas
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_titulos_existentes
+    map:
+      value: titulos_existentes
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_titulos_ad_compra
+    map:
+      value: titulos_ad_compra
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_titulos_ad_donacion
+    map:
+      value: titulos_ad_donacion
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_volumenes_existentes
+    map:
+      value: volumenes_existentes
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_volumenes_ad_compra
+    map:
+      value: volumenes_ad_compra
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_volumenes_ad_donacion
+    map:
+      value: volumenes_ad_donacion
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_sus_rev_impresas
+    map:
+      value: sus_rev_impresas
+    settings:
+      language: null
+    unique: {  }

@@ -1,0 +1,38 @@
+uuid: 602b82d5-41bd-44b6-9e21-735b44a5c80d
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.evento_de_agenda.body
+    - field.field.node.evento_de_agenda.field_archivo_evento
+    - field.field.node.evento_de_agenda.field_cartel
+    - field.field.node.evento_de_agenda.field_fecha_agenda
+    - field.field.node.evento_de_agenda.field_liston
+    - field.field.node.evento_de_agenda.field_lugar
+    - field.field.node.evento_de_agenda.field_sitio_de_interes
+    - node.type.evento_de_agenda
+  module:
+    - user
+id: node.evento_de_agenda.teaser
+targetEntityType: node
+bundle: evento_de_agenda
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_archivo_evento: true
+  field_cartel: true
+  field_fecha_agenda: true
+  field_liston: true
+  field_lugar: true
+  field_sitio_de_interes: true
+  langcode: true

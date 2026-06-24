@@ -1,0 +1,23 @@
+uuid: 86d3e53a-4491-41a8-82e9-08835cf809e6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_total
+    - storage.storage_type.b13_subsidio_publico_ordinario_d
+id: storage.b13_subsidio_publico_ordinario_d.field_por_total
+field_name: field_por_total
+entity_type: storage
+bundle: b13_subsidio_publico_ordinario_d
+label: Porcentaje
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

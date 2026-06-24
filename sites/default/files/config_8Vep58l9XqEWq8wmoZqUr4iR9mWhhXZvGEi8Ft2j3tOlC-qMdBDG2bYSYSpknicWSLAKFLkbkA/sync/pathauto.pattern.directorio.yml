@@ -1,0 +1,23 @@
+uuid: e634a13e-1864-48f3-9969-ea6f141f36ab
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.directorio
+  module:
+    - node
+id: directorio
+label: Directorio
+type: 'canonical_entities:node'
+pattern: '/directorio/[node:title]'
+selection_criteria:
+  7c4d96a4-cdd6-4232-b1cb-9153665fe0e8:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      directorio: directorio
+selection_logic: and
+weight: -5
+relationships: {  }

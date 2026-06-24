@@ -1,0 +1,13 @@
+uuid: 76487369-55b8-4e03-b0a4-c5ee275352f3
+langcode: es
+status: true
+dependencies: {  }
+id: 181_beneficiarios_del_peees
+label: '181 Beneficiarios del PEEES'
+description: 'Beneficiarios del Programa de Estímulos Económicos a Estudiantes Sobresalientes'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

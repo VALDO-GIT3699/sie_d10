@@ -1,0 +1,11 @@
+uuid: 62c8b504-7cc0-4553-86fc-419cda504b47
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_de_plantel
+id: taxonomy_term.tipo_de_plantel
+target_entity_type_id: taxonomy_term
+target_bundle: tipo_de_plantel
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,20 @@
+uuid: bef81f1a-2dde-458f-ae09-d60f161bb278
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_cursos_p
+field_name: field_cursos_p
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

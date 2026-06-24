@@ -1,0 +1,11 @@
+uuid: 887bc793-d5ee-4c28-a7b6-93ed60bc987e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria_de_directorio
+id: taxonomy_term.categoria_de_directorio
+target_entity_type_id: taxonomy_term
+target_bundle: categoria_de_directorio
+default_langcode: site_default
+language_alterable: false

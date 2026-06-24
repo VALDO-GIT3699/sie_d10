@@ -1,0 +1,29 @@
+uuid: fd3738ec-e287-4bf0-8d3b-8b3063a72b79
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ciclo
+    - storage.storage_type.15_titulados
+    - taxonomy.vocabulary.ciclo
+id: storage.15_titulados.field_ciclo
+field_name: field_ciclo
+entity_type: storage
+bundle: 15_titulados
+label: Ciclo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ciclo: ciclo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

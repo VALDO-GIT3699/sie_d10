@@ -1,0 +1,23 @@
+uuid: 80e6e374-eb58-4d15-850e-1f3274ff35b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_matricula_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_matricula_h
+field_name: field_matricula_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Matrícula hombres'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

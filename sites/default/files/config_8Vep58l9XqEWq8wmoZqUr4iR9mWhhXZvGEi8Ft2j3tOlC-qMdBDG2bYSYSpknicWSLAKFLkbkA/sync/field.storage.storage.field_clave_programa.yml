@@ -1,0 +1,21 @@
+uuid: cd8d1b38-c182-41b3-a60d-0fc3cd1ab747
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_clave_programa
+field_name: field_clave_programa
+entity_type: storage
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 8a856a27-1a6b-42f1-9ee8-2107c1496b8c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.matricula
+id: storage.matricula.field_row
+field_name: field_row
+entity_type: storage
+bundle: matricula
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

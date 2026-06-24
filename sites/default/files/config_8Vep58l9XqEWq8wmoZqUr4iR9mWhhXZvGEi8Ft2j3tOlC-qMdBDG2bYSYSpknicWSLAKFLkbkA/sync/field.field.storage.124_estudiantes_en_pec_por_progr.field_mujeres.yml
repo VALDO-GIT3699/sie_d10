@@ -1,0 +1,23 @@
+uuid: 8afcde28-afa6-4ec9-a587-340e16056fc3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_mujeres
+    - storage.storage_type.124_estudiantes_en_pec_por_progr
+id: storage.124_estudiantes_en_pec_por_progr.field_mujeres
+field_name: field_mujeres
+entity_type: storage
+bundle: 124_estudiantes_en_pec_por_progr
+label: Mujeres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

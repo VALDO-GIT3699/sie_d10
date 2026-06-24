@@ -1,0 +1,23 @@
+uuid: 25b79955-cdf5-41f0-b77e-a5b80779a90f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_volumenes_ad_compra
+    - storage.storage_type.832_titulos_y_volumenes
+id: storage.832_titulos_y_volumenes.field_volumenes_ad_compra
+field_name: field_volumenes_ad_compra
+entity_type: storage
+bundle: 832_titulos_y_volumenes
+label: 'Volúmenes adquiridos por compra'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

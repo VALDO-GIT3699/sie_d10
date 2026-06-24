@@ -1,0 +1,23 @@
+uuid: 0c0ebfc4-f339-4918-821c-2a06e875f357
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_t_usuarios_p
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_t_usuarios_p
+field_name: field_t_usuarios_p
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Usuarios beneficiados de los cursos presenciales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

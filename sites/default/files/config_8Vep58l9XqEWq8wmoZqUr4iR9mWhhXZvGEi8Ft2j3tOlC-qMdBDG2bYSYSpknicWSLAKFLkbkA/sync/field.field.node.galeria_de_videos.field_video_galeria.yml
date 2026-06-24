@@ -1,0 +1,26 @@
+uuid: 6944ed69-9a82-4568-a143-f25ff9d8a77c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_galeria
+    - node.type.galeria_de_videos
+  module:
+    - video
+id: node.galeria_de_videos.field_video_galeria
+field_name: field_video_galeria
+entity_type: node
+bundle: galeria_de_videos
+label: video_galeria
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'videos/[date:custom:Y]-[date:custom:m]'
+  file_extensions: ''
+  max_filesize: ''
+field_type: video

@@ -1,0 +1,257 @@
+uuid: 495d5eaf-ff72-45b3-ae3a-c5578b0f324d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_basico
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_bg
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_bt
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_doc
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_esp
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_lic
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_mtr
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_otros
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_pm
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_posbasico
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_tsu
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_ciclo_red
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_entidad_universitaria
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_row
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '30AR PE con matrícula-nivel'
+id: 30ar_pe_con_matricula_nivel
+description: 'Programas educativos con matrícula-nivel'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 30ar_pe_con_matricula_nivel
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  ciclo_red:
+    value: ciclo_red
+    label: ciclo_red
+    machine_name: ciclo_red
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  30ar_pm:
+    value: 30ar_pm
+    label: 30ar_pm
+    machine_name: 30ar_pm
+    type: csv
+  30ar_tsu:
+    value: 30ar_tsu
+    label: 30ar_tsu
+    machine_name: 30ar_tsu
+    type: csv
+  30ar_lic:
+    value: 30ar_lic
+    label: 30ar_lic
+    machine_name: 30ar_lic
+    type: csv
+  30ar_esp:
+    value: 30ar_esp
+    label: 30ar_esp
+    machine_name: 30ar_esp
+    type: csv
+  30ar_mtr:
+    value: 30ar_mtr
+    label: 30ar_mtr
+    machine_name: 30ar_mtr
+    type: csv
+  30ar_doc:
+    value: 30ar_doc
+    label: 30ar_doc
+    machine_name: 30ar_doc
+    type: csv
+  30ar_bg:
+    value: 30ar_bg
+    label: 30ar_bg
+    machine_name: 30ar_bg
+    type: csv
+  30ar_bt:
+    value: 30ar_bt
+    label: 30ar_bt
+    machine_name: 30ar_bt
+    type: csv
+  30ar_posbasico:
+    value: 30ar_posbasico
+    label: 30ar_posbasico
+    machine_name: 30ar_posbasico
+    type: csv
+  30ar_basico:
+    value: 30ar_basico
+    label: 30ar_basico
+    machine_name: 30ar_basico
+    type: csv
+  30ar_otros:
+    value: 30ar_otros
+    label: 30ar_otros
+    machine_name: 30ar_otros
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ciclo_red
+    map:
+      target_id: ciclo_red
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ciclo_red
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_30ar_pm
+    map:
+      value: 30ar_pm
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_tsu
+    map:
+      value: 30ar_tsu
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_lic
+    map:
+      value: 30ar_lic
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_esp
+    map:
+      value: 30ar_esp
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_mtr
+    map:
+      value: 30ar_mtr
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_doc
+    map:
+      value: 30ar_doc
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_bg
+    map:
+      value: 30ar_bg
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_bt
+    map:
+      value: 30ar_bt
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_posbasico
+    map:
+      value: 30ar_posbasico
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_basico
+    map:
+      value: 30ar_basico
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_30ar_otros
+    map:
+      value: 30ar_otros
+    settings:
+      language: null
+    unique: {  }

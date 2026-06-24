@@ -1,0 +1,29 @@
+uuid: 170daabd-0b7b-4048-a967-c1c2e4181df6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.21_programas_educativos
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__21_programas_educativos_block_4
+theme: b4seutheme
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:21_programas_educativos-block_4'
+settings:
+  id: 'views_block:21_programas_educativos-block_4'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /prueba

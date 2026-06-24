@@ -1,0 +1,23 @@
+uuid: 039b9128-0712-4101-939c-3206cde577d6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_sordera_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_aud_sordera_nb
+field_name: field_disc_aud_sordera_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Personas no binarias con discapacidad auditiva sordera'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

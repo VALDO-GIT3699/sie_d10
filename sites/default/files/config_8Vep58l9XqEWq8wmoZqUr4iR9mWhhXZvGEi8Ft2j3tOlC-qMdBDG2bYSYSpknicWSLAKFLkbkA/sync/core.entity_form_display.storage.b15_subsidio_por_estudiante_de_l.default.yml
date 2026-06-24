@@ -1,0 +1,100 @@
+uuid: 64a1fd73-c84a-44d7-9949-60222a5a4ae5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.feeds_item
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_anio
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_matricula_t
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_pesos_corrientes
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_row
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_sub_estatal_estudiante
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_sub_federal_estudiante
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_subsidio_estatal
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_subsidio_federal
+    - storage.storage_type.b15_subsidio_por_estudiante_de_l
+  module:
+    - bigint
+id: storage.b15_subsidio_por_estudiante_de_l.default
+targetEntityType: storage
+bundle: b15_subsidio_por_estudiante_de_l
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_matricula_t:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_pesos_corrientes:
+    type: bigint
+    weight: 28
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_sub_estatal_estudiante:
+    type: bigint
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_sub_federal_estudiante:
+    type: bigint
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_subsidio_estatal:
+    type: bigint
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_subsidio_federal:
+    type: bigint
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

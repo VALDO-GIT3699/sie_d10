@@ -1,0 +1,21 @@
+uuid: 08c725aa-7069-453c-8046-1b7f580a12cf
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_programa_educativo_vigente
+field_name: field_programa_educativo_vigente
+entity_type: storage
+type: string
+settings:
+  max_length: 400
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

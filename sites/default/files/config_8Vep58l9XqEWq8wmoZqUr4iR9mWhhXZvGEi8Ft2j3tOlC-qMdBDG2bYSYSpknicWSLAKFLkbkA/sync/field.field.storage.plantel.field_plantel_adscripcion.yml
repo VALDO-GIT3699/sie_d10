@@ -1,0 +1,19 @@
+uuid: 05809ebf-5674-433f-a9a8-19827a439ebc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_plantel_adscripcion
+    - storage.storage_type.plantel
+id: storage.plantel.field_plantel_adscripcion
+field_name: field_plantel_adscripcion
+entity_type: storage
+bundle: plantel
+label: 'Plantel de adscripción'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 89115d82-e39b-436a-97a9-df2551bc160b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.421_practicas_profesionales
+  module:
+    - feeds
+id: storage.421_practicas_profesionales.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

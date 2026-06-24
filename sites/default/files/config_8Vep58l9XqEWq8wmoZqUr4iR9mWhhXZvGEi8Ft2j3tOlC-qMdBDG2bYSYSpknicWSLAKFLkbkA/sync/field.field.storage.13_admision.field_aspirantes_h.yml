@@ -1,0 +1,23 @@
+uuid: da5c194e-2c8a-43a3-8139-91b01d9193cf
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_aspirantes_h
+    - storage.storage_type.13_admision
+id: storage.13_admision.field_aspirantes_h
+field_name: field_aspirantes_h
+entity_type: storage
+bundle: 13_admision
+label: 'Hombres aspirantes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

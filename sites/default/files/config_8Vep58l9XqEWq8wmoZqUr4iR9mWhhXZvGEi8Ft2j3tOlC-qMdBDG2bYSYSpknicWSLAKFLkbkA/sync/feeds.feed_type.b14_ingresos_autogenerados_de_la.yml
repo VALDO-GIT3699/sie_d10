@@ -1,0 +1,128 @@
+uuid: 2f099b59-4024-460f-8cd1-b6dd39879055
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.b14_ingresos_autogenerados_de_la.field_anio
+    - field.field.storage.b14_ingresos_autogenerados_de_la.field_concepto_ingreso
+    - field.field.storage.b14_ingresos_autogenerados_de_la.field_pesos_corrientes
+    - field.field.storage.b14_ingresos_autogenerados_de_la.field_row
+    - storage.storage_type.b14_ingresos_autogenerados_de_la
+  module:
+    - bigint
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: 'b14 Ingresos autogenerados de la UdeG'
+id: b14_ingresos_autogenerados_de_la
+description: 'Ingresos autogenerados de la Universidad de Guadalajara'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: b14_ingresos_autogenerados_de_la
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  concepto_ingreso:
+    value: concepto_ingreso
+    label: concepto_ingreso
+    machine_name: concepto_ingreso
+    type: csv
+  pesos_corrientes:
+    value: pesos_corrientes
+    label: pesos_corrientes
+    machine_name: pesos_corrientes
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_concepto_ingreso
+    map:
+      target_id: concepto_ingreso
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: concepto_del_ingreso
+      feeds_item: false
+  -
+    target: field_pesos_corrientes
+    map:
+      value: pesos_corrientes
+    settings:
+      language: null
+    unique: {  }

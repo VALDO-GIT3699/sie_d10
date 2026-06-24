@@ -1,0 +1,23 @@
+uuid: 8190de33-2c78-4f5e-b6d8-0e2d90a10b88
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_matricula_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_matricula_nb
+field_name: field_matricula_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Matrícula personas no binarias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

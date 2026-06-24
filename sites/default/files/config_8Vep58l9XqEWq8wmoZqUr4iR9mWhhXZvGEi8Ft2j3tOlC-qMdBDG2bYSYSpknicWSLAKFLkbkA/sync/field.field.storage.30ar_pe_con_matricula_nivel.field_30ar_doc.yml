@@ -1,0 +1,23 @@
+uuid: b8f5dd48-3e8f-45bb-bfe2-110ea71f10ea
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_doc
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_doc
+field_name: field_30ar_doc
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: Doctorado
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 4681bea5-cb3b-4d0d-8c8b-202fc402ccee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_a_0_a_4_anios
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_a_0_a_4_anios
+field_name: field_a_0_a_4_anios
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Antigüedad de 0 a 4 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: 5552ef02-43f4-45ce-865d-6aa2f5b494c7
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_edad_41_a_50
+field_name: field_edad_41_a_50
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

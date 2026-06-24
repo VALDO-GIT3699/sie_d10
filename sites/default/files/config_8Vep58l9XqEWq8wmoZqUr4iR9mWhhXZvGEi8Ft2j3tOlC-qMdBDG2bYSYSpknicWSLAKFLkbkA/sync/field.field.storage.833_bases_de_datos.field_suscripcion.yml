@@ -1,0 +1,21 @@
+uuid: 2120d2f4-ac16-4e07-80e2-b318db212bbc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_suscripcion
+    - storage.storage_type.833_bases_de_datos
+  module:
+    - options
+id: storage.833_bases_de_datos.field_suscripcion
+field_name: field_suscripcion
+entity_type: storage
+bundle: 833_bases_de_datos
+label: Suscripción
+description: 'Pueden ser <strong>"Suscritas por la Universidad de Guadalajara"</strong> o <strong>"Suscritas por CONRICYT"</strong>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

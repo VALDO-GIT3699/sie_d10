@@ -1,0 +1,29 @@
+uuid: ef09e47d-3dd8-4d44-8a81-82616eeead4e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_concepto_ingreso
+    - storage.storage_type.b14_ingresos_autogenerados_de_la
+    - taxonomy.vocabulary.concepto_del_ingreso
+id: storage.b14_ingresos_autogenerados_de_la.field_concepto_ingreso
+field_name: field_concepto_ingreso
+entity_type: storage
+bundle: b14_ingresos_autogenerados_de_la
+label: 'Concepto del ingreso'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      concepto_del_ingreso: concepto_del_ingreso
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

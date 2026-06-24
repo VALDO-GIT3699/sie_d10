@@ -1,0 +1,23 @@
+uuid: 879e9e94-2ad7-4df9-b88f-bf55ce4b0427
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_convenio_especifico
+    - storage.storage_type.511_convenios
+id: storage.511_convenios.field_convenio_especifico
+field_name: field_convenio_especifico
+entity_type: storage
+bundle: 511_convenios
+label: 'Convenios específicos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

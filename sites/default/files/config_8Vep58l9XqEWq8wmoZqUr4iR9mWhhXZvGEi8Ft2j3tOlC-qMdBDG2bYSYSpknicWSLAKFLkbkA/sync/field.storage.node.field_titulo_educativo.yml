@@ -1,0 +1,54 @@
+uuid: c4a95163-cf1f-4e84-b517-4a07e10e0c1f
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_titulo_educativo
+field_name: field_titulo_educativo
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Dr.
+      label: Dr.
+    -
+      value: Dra.
+      label: Dra.
+    -
+      value: Ing.
+      label: Ing.
+    -
+      value: Lic.
+      label: Lic.
+    -
+      value: M.C.
+      label: M.C.
+    -
+      value: Mtra.
+      label: Mtra.
+    -
+      value: Mtro.
+      label: Mtro.
+    -
+      value: Biol.
+      label: Biol.
+    -
+      value: M.V.Z.
+      label: M.V.Z.
+    -
+      value: Arq.
+      label: Arq.
+    -
+      value: L.C.P
+      label: L.C.P
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: ed240fb5-f45c-491e-8300-0a55443d7183
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_plantel
+    - storage.storage_type.15_titulados
+    - taxonomy.vocabulary.planteles
+id: storage.15_titulados.field_cve_plantel
+field_name: field_cve_plantel
+entity_type: storage
+bundle: 15_titulados
+label: Plantel
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      planteles: planteles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

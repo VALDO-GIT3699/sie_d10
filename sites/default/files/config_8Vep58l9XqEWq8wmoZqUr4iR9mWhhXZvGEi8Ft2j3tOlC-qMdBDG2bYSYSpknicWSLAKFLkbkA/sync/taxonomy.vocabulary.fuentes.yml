@@ -1,0 +1,9 @@
+uuid: bd0118b6-13fc-40e1-b9b1-8e57db3b7a9f
+langcode: es
+status: true
+dependencies: {  }
+name: Fuentes
+vid: fuentes
+description: 'Fuentes de la información proporcionada en las bases de datos'
+weight: 0
+new_revision: false

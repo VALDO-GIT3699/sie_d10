@@ -1,0 +1,137 @@
+uuid: 95773e7e-8f6f-4ee5-a149-8c704e2b5523
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.b13_subsidio_publico_ordinario_d.field_anio
+    - field.field.storage.b13_subsidio_publico_ordinario_d.field_pesos_corrientes
+    - field.field.storage.b13_subsidio_publico_ordinario_d.field_por_total
+    - field.field.storage.b13_subsidio_publico_ordinario_d.field_row
+    - field.field.storage.b13_subsidio_publico_ordinario_d.field_subsidio_publico
+    - storage.storage_type.b13_subsidio_publico_ordinario_d
+  module:
+    - bigint
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: 'b13 Subsidio público ordinario de la UdeG'
+id: b13_subsidio_publico_ordinario_d
+description: 'Subsidio público ordinario de la Universidad de Guadalajara'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: b13_subsidio_publico_ordinario_d
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  subsidio_publico:
+    value: subsidio_publico
+    label: subsidio_publico
+    machine_name: subsidio_publico
+    type: csv
+  pesos_corrientes:
+    value: pesos_corrientes
+    label: pesos_corrientes
+    machine_name: pesos_corrientes
+    type: csv
+  por_total:
+    value: por_total
+    label: por_total
+    machine_name: por_total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_subsidio_publico
+    map:
+      value: subsidio_publico
+    settings:
+      language: null
+  -
+    target: field_pesos_corrientes
+    map:
+      value: pesos_corrientes
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_total
+    map:
+      value: por_total
+    settings:
+      language: null
+    unique: {  }

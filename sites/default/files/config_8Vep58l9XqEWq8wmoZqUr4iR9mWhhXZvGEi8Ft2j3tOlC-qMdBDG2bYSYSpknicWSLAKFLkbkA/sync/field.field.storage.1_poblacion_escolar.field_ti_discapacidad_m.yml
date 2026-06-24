@@ -1,0 +1,23 @@
+uuid: 5b55a5a4-95c0-4b46-8adb-28f931359498
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_discapacidad_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_ti_discapacidad_m
+field_name: field_ti_discapacidad_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujeres con discapacidad tituladas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

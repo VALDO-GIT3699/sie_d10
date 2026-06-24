@@ -1,0 +1,23 @@
+uuid: bde21930-41dc-40bf-bc18-9139035cb449
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_fis_motriz_h
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_fis_motriz_h
+field_name: field_disc_fis_motriz_h
+entity_type: storage
+bundle: matricula
+label: 'Hombres con discapacidad física / motriz'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

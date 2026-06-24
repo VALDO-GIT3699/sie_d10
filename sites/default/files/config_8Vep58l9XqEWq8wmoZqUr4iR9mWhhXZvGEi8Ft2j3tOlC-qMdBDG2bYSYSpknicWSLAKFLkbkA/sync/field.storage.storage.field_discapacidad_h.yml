@@ -1,0 +1,20 @@
+uuid: 7eabe956-4cc2-4ea5-8277-b552fab6688a
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_discapacidad_h
+field_name: field_discapacidad_h
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

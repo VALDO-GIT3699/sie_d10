@@ -1,0 +1,25 @@
+uuid: 269e44fa-f685-4452-9e0e-4ae120d2f6dd
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:77fabd7b-9fd7-4917-a1ee-fa67f48b7f44'
+  module:
+    - block_content
+  theme:
+    - b4seutheme
+id: logodelaudeg
+theme: b4seutheme
+region: nav_branding
+weight: 0
+provider: null
+plugin: 'block_content:77fabd7b-9fd7-4917-a1ee-fa67f48b7f44'
+settings:
+  id: 'block_content:77fabd7b-9fd7-4917-a1ee-fa67f48b7f44'
+  label: 'Logo de la UdeG'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

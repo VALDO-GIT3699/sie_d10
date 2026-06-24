@@ -1,0 +1,20 @@
+uuid: a41d4893-61cc-4bc6-b6f9-2d3fd4a9c7fa
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_convenios_vigentes_pp
+field_name: field_convenios_vigentes_pp
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

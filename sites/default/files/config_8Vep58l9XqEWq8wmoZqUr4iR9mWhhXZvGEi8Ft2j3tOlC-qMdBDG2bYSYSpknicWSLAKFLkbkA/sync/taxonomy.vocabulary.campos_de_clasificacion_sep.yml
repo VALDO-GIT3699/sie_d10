@@ -1,0 +1,9 @@
+uuid: 735447d8-1224-46b8-a840-2aebc63a758e
+langcode: es
+status: true
+dependencies: {  }
+name: 'Campos de clasificación SEP'
+vid: campos_de_clasificacion_sep
+description: 'Campos de clasificación SEP'
+weight: 0
+new_revision: false

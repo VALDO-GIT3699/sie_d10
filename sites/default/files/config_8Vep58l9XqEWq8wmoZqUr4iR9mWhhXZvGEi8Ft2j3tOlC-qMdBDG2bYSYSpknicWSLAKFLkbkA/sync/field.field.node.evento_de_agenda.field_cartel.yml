@@ -1,0 +1,38 @@
+uuid: 858e2211-9edc-4149-9987-cf178b99ae95
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cartel
+    - node.type.evento_de_agenda
+  module:
+    - image
+id: node.evento_de_agenda.field_cartel
+field_name: field_cartel
+entity_type: node
+bundle: evento_de_agenda
+label: Cartel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: 9d93c51c-09a0-44a6-9ba7-84f2b46adb83
+    alt: 'Imagen no disponible'
+    title: ''
+    width: 271
+    height: 420
+field_type: image

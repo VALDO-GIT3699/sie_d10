@@ -1,0 +1,23 @@
+uuid: e2f52b3b-0f92-497c-8a11-38f1e7443d0f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_administrativos_nb
+    - storage.storage_type.721_padmon_categoria
+id: storage.721_padmon_categoria.field_administrativos_nb
+field_name: field_administrativos_nb
+entity_type: storage
+bundle: 721_padmon_categoria
+label: 'Personas no binarias administrativas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

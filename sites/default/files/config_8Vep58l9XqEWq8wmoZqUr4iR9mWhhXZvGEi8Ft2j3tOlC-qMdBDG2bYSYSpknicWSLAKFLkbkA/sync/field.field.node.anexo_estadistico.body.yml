@@ -1,0 +1,23 @@
+uuid: 1a32ea0d-47c7-4321-952f-746bfbdceb6d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.anexo_estadistico
+  module:
+    - text
+id: node.anexo_estadistico.body
+field_name: body
+entity_type: node
+bundle: anexo_estadistico
+label: Detalles
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

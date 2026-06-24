@@ -1,0 +1,20 @@
+uuid: 60cbaf43-4e87-4551-8717-54750141ab9c
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_entidad_universitaria
+field_name: field_entidad_universitaria
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

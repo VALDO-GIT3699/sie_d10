@@ -1,0 +1,20 @@
+uuid: 6361a515-6340-4a40-b4ad-d240c09e15ac
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_ciclo
+field_name: field_ciclo
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

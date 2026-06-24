@@ -1,0 +1,23 @@
+uuid: dd6d91e0-39f9-47b0-b35e-6b29d501d1d8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_convenio_general
+    - storage.storage_type.511_convenios
+id: storage.511_convenios.field_convenio_general
+field_name: field_convenio_general
+entity_type: storage
+bundle: 511_convenios
+label: 'Convenios generales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

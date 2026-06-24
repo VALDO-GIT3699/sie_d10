@@ -1,0 +1,23 @@
+uuid: df4dcef8-1376-4a0b-b909-957e275013fb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_investigadores_tc_h
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_investigadores_tc_h
+field_name: field_investigadores_tc_h
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Investigadores de tiempo completo hombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

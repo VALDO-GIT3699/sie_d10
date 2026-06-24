@@ -1,0 +1,23 @@
+uuid: f58a6254-dde1-4eab-a84a-ee8577f54a66
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_habla_indigena_nb
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_ti_habla_indigena_nb
+field_name: field_ti_habla_indigena_nb
+entity_type: storage
+bundle: 15_titulados
+label: 'Personas no binarias de habla indígena tituladas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

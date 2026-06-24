@@ -1,0 +1,27 @@
+uuid: f6dcd8a8-f3a6-4be9-959e-c40e88ef5afe
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_adjunto
+    - node.type.page
+  module:
+    - file
+id: node.page.field_adjunto
+field_name: field_adjunto
+entity_type: node
+bundle: page
+label: Adjunto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: adjuntos
+  file_extensions: 'txt pdf doc docx ppt pptx xls xlsx jpg'
+  max_filesize: ''
+  description_field: true
+field_type: file

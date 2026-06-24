@@ -1,0 +1,23 @@
+uuid: 25e5d17f-b0b0-433c-9485-2093b99920e0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_m2_ser_publico
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.field_m2_ser_publico
+field_name: field_m2_ser_publico
+entity_type: storage
+bundle: 831_bibliotecas
+label: 'Servicio al público (m2)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

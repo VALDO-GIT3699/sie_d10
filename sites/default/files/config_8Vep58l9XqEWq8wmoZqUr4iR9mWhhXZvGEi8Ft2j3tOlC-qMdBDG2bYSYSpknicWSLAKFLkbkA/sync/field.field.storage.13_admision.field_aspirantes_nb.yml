@@ -1,0 +1,23 @@
+uuid: b72c9ac0-168b-4222-aa16-61ea66ada762
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_aspirantes_nb
+    - storage.storage_type.13_admision
+id: storage.13_admision.field_aspirantes_nb
+field_name: field_aspirantes_nb
+entity_type: storage
+bundle: 13_admision
+label: 'Personas no binarias aspirantes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

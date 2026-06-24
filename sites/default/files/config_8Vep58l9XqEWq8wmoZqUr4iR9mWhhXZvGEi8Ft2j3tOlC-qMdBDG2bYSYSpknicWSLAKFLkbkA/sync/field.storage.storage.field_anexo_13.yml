@@ -1,0 +1,20 @@
+uuid: b9c8cf67-b13a-4e9d-ab08-1bcf0a0aa6c7
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_anexo_13
+field_name: field_anexo_13
+entity_type: storage
+type: decimal
+settings:
+  precision: 15
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

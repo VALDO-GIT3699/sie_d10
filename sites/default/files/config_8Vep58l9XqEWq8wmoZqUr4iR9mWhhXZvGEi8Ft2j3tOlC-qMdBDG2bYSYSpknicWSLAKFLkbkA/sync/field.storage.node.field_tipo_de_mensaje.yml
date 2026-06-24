@@ -1,0 +1,30 @@
+uuid: 31470fa4-fb85-4ccd-a0b1-66d4790cbb54
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tipo_de_mensaje
+field_name: field_tipo_de_mensaje
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Obituario
+      label: Obituario
+    -
+      value: Aviso
+      label: Aviso
+    -
+      value: Informativo
+      label: Informativo
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

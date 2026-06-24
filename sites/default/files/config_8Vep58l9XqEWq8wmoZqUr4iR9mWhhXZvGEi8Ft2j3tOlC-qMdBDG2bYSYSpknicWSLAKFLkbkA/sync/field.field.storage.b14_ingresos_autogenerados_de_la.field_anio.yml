@@ -1,0 +1,29 @@
+uuid: 11a3aba6-9513-4e7f-89c3-9bcce0903d7d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.b14_ingresos_autogenerados_de_la
+    - taxonomy.vocabulary.ano
+id: storage.b14_ingresos_autogenerados_de_la.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: b14_ingresos_autogenerados_de_la
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

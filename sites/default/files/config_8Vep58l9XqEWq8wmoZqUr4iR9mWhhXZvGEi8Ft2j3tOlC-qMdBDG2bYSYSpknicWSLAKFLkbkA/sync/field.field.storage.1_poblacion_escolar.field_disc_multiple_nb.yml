@@ -1,0 +1,23 @@
+uuid: 2e18ecb3-7566-4b06-a275-2b6ea5f0bb7f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_multiple_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_multiple_nb
+field_name: field_disc_multiple_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Personas no binarias con discapacidad múltiple'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

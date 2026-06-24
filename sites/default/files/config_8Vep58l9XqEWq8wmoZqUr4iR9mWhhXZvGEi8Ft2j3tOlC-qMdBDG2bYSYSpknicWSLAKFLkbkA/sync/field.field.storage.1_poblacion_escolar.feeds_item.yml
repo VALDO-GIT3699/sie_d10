@@ -1,0 +1,23 @@
+uuid: cb6e0f43-fe47-43f4-92ad-f706b57aa5a7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.1_poblacion_escolar
+  module:
+    - feeds
+id: storage.1_poblacion_escolar.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

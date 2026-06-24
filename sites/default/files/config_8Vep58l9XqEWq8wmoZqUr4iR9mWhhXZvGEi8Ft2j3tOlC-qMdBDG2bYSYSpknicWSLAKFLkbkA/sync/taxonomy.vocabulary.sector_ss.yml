@@ -1,0 +1,9 @@
+uuid: 88ad63a5-0e1f-443c-9af5-0eb401d6b42b
+langcode: es
+status: true
+dependencies: {  }
+name: Sector
+vid: sector_ss
+description: 'Sector en el que se ubica'
+weight: 0
+new_revision: false

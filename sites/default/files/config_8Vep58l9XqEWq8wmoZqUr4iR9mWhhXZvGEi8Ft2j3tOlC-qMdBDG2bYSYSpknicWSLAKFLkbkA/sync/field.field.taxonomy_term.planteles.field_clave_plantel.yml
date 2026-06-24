@@ -1,0 +1,19 @@
+uuid: 02cd674f-4e35-4479-89ec-0aaa4037485a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_clave_plantel
+    - taxonomy.vocabulary.planteles
+id: taxonomy_term.planteles.field_clave_plantel
+field_name: field_clave_plantel
+entity_type: taxonomy_term
+bundle: planteles
+label: 'Clave de plantel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: abee720b-52b3-42f0-8cca-a76691c1ca75
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.714_pa_antiguedad
+  module:
+    - feeds
+id: storage.714_pa_antiguedad.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

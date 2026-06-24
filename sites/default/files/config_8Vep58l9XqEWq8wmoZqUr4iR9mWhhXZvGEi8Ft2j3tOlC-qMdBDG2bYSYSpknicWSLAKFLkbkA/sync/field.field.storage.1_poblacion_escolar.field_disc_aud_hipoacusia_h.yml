@@ -1,0 +1,23 @@
+uuid: 2cf0a231-3e46-4cff-8b2a-435c513cdfd2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_hipoacusia_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_aud_hipoacusia_h
+field_name: field_disc_aud_hipoacusia_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres con discapacidad auditiva hipoacusia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

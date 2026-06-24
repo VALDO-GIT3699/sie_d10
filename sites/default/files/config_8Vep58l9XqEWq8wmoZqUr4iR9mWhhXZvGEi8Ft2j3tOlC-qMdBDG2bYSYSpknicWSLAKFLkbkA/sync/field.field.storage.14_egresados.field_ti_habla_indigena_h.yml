@@ -1,0 +1,23 @@
+uuid: ed3c134f-fb8c-46fc-9e36-1bba9d8d7ffe
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_habla_indigena_h
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_ti_habla_indigena_h
+field_name: field_ti_habla_indigena_h
+entity_type: storage
+bundle: 14_egresados
+label: 'Hombres de habla indígena titulados'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

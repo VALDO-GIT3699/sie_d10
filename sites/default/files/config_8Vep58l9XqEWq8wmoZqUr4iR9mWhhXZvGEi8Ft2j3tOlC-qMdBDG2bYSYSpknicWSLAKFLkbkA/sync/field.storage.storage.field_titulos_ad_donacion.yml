@@ -1,0 +1,20 @@
+uuid: ef092056-662a-4143-a936-87f09a933472
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_titulos_ad_donacion
+field_name: field_titulos_ad_donacion
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

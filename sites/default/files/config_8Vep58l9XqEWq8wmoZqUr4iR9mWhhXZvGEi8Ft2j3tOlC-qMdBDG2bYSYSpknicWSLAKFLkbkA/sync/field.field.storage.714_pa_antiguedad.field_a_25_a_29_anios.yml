@@ -1,0 +1,23 @@
+uuid: fe010d5e-2450-42d9-9d12-4392400cfe81
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_a_25_a_29_anios
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_a_25_a_29_anios
+field_name: field_a_25_a_29_anios
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Antigüedad de 25 a 29 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

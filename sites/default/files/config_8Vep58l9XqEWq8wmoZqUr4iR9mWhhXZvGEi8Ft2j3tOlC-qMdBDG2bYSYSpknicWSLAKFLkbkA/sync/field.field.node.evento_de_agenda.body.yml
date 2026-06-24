@@ -1,0 +1,23 @@
+uuid: aad5b20a-e185-4ebf-8577-e2c9ab26a023
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.evento_de_agenda
+  module:
+    - text
+id: node.evento_de_agenda.body
+field_name: body
+entity_type: node
+bundle: evento_de_agenda
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

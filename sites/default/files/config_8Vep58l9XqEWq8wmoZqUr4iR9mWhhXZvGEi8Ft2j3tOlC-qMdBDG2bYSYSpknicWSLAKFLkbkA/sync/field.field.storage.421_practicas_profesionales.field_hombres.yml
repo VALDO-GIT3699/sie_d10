@@ -1,0 +1,23 @@
+uuid: 5b14d4fd-02d0-47b3-850a-422280ee0719
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_hombres
+    - storage.storage_type.421_practicas_profesionales
+id: storage.421_practicas_profesionales.field_hombres
+field_name: field_hombres
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: Hombres
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

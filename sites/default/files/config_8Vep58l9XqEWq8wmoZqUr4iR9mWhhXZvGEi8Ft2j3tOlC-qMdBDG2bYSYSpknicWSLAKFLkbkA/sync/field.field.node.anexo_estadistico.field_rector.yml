@@ -1,0 +1,29 @@
+uuid: 01ae253a-8d85-448a-9772-276810b28e35
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rector
+    - node.type.anexo_estadistico
+    - taxonomy.vocabulary.rectorias
+id: node.anexo_estadistico.field_rector
+field_name: field_rector
+entity_type: node
+bundle: anexo_estadistico
+label: Rectoría
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      rectorias: rectorias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

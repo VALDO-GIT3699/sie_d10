@@ -1,0 +1,26 @@
+uuid: f4f94c71-1ac8-440b-8d9e-a3b101ad8f22
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha
+    - node.type._aviso_emergente
+  module:
+    - datetime_range
+id: node._aviso_emergente.field_fecha
+field_name: field_fecha
+entity_type: node
+bundle: _aviso_emergente
+label: Fecha
+description: 'Fecha en que se mostrará el mensaje.'
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: now
+    default_end_date: now
+default_value_callback: ''
+settings: {  }
+field_type: daterange

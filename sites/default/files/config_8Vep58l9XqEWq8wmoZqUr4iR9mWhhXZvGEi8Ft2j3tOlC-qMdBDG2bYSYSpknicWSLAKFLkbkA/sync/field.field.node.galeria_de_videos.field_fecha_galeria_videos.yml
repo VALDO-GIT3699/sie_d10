@@ -1,0 +1,24 @@
+uuid: 1c3d23b2-1f54-4eef-ae2d-cf69b7ccecae
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_galeria_videos
+    - node.type.galeria_de_videos
+  module:
+    - datetime
+id: node.galeria_de_videos.field_fecha_galeria_videos
+field_name: field_fecha_galeria_videos
+entity_type: node
+bundle: galeria_de_videos
+label: Fecha
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

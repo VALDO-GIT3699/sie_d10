@@ -1,0 +1,140 @@
+uuid: 31dc7a52-7818-4e44-a1c7-dfb3242dd2a7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.422_pe_que_requieren_pp.field_anio
+    - field.field.storage.422_pe_que_requieren_pp.field_entidad_universitaria
+    - field.field.storage.422_pe_que_requieren_pp.field_programa_educativo_vigente
+    - field.field.storage.422_pe_que_requieren_pp.field_row
+    - field.field.storage.422_pe_que_requieren_pp.field_total
+    - storage.storage_type.422_pe_que_requieren_pp
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '422 PE que requieren PP'
+id: 422_pe_que_requieren_pp
+description: 'Programas educativos vigentes que tienen como requisito las prácticas profesionales'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 422_pe_que_requieren_pp
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  programa_educativo_vigente:
+    value: programa_educativo_vigente
+    label: programa_educativo_vigente
+    machine_name: programa_educativo_vigente
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_programa_educativo_vigente
+    map:
+      value: programa_educativo_vigente
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }

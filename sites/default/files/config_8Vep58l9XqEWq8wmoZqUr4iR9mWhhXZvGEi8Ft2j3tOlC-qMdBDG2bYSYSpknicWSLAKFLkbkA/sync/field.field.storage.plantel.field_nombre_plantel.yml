@@ -1,0 +1,19 @@
+uuid: e391c28d-3765-4ec7-b0c8-38f0f22b81a0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_nombre_plantel
+    - storage.storage_type.plantel
+id: storage.plantel.field_nombre_plantel
+field_name: field_nombre_plantel
+entity_type: storage
+bundle: plantel
+label: 'Nombre del plantel'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

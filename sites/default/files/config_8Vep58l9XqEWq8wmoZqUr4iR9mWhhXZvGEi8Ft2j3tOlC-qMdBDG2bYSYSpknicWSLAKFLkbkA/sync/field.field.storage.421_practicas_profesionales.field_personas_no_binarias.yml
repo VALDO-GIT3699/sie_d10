@@ -1,0 +1,23 @@
+uuid: bc8bc3cb-d1e0-49d2-ac6c-6e26aa531d50
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_personas_no_binarias
+    - storage.storage_type.421_practicas_profesionales
+id: storage.421_practicas_profesionales.field_personas_no_binarias
+field_name: field_personas_no_binarias
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: 'Personas no binarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

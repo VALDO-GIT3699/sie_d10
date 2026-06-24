@@ -1,0 +1,348 @@
+uuid: aae75e21-6a64-472e-b38c-86c4dfcc312f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.anexo.field_anexo_1
+    - field.field.storage.anexo.field_anexo_10
+    - field.field.storage.anexo.field_anexo_11
+    - field.field.storage.anexo.field_anexo_12
+    - field.field.storage.anexo.field_anexo_13
+    - field.field.storage.anexo.field_anexo_14
+    - field.field.storage.anexo.field_anexo_15
+    - field.field.storage.anexo.field_anexo_16
+    - field.field.storage.anexo.field_anexo_17
+    - field.field.storage.anexo.field_anexo_18
+    - field.field.storage.anexo.field_anexo_2
+    - field.field.storage.anexo.field_anexo_3
+    - field.field.storage.anexo.field_anexo_4
+    - field.field.storage.anexo.field_anexo_5
+    - field.field.storage.anexo.field_anexo_6
+    - field.field.storage.anexo.field_anexo_7
+    - field.field.storage.anexo.field_anexo_8
+    - field.field.storage.anexo.field_anexo_9
+    - field.field.storage.anexo.field_anexo_ano
+    - field.field.storage.anexo.field_entidad_universitaria
+    - field.field.storage.anexo.field_row
+    - storage.storage_type.anexo
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: Anexo
+id: anexo
+description: 'Numeralia del anexo'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: anexo
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  anexo_1:
+    value: anexo_1
+    label: anexo_1
+    machine_name: anexo_1
+    type: csv
+  anexo_2:
+    value: anexo_2
+    label: anexo_2
+    machine_name: anexo_2
+    type: csv
+  anexo_3:
+    value: anexo_3
+    label: anexo_3
+    machine_name: anexo_3
+    type: csv
+  anexo_4:
+    value: anexo_4
+    label: anexo_4
+    machine_name: anexo_4
+    type: csv
+  anexo_5:
+    value: anexo_5
+    label: anexo_5
+    machine_name: anexo_5
+    type: csv
+  anexo_6:
+    value: anexo_6
+    label: anexo_6
+    machine_name: anexo_6
+    type: csv
+  anexo_7:
+    value: anexo_7
+    label: anexo_7
+    machine_name: anexo_7
+    type: csv
+  anexo_8:
+    value: anexo_8
+    label: anexo_8
+    machine_name: anexo_8
+    type: csv
+  anexo_9:
+    value: anexo_9
+    label: anexo_9
+    machine_name: anexo_9
+    type: csv
+  anexo_10:
+    value: anexo_10
+    label: anexo_10
+    machine_name: anexo_10
+    type: csv
+  anexo_11:
+    value: anexo_11
+    label: anexo_11
+    machine_name: anexo_11
+    type: csv
+  anexo_12:
+    value: anexo_12
+    label: anexo_12
+    machine_name: anexo_12
+    type: csv
+  anexo_13:
+    value: anexo_13
+    label: anexo_13
+    machine_name: anexo_13
+    type: csv
+  anexo_14:
+    value: anexo_14
+    label: anexo_14
+    machine_name: anexo_14
+    type: csv
+  anexo_15:
+    value: anexo_15
+    label: anexo_15
+    machine_name: anexo_15
+    type: csv
+  anexo_16:
+    value: anexo_16
+    label: anexo_16
+    machine_name: anexo_16
+    type: csv
+  anexo_17:
+    value: anexo_17
+    label: anexo_17
+    machine_name: anexo_17
+    type: csv
+  anexo_18:
+    value: anexo_18
+    label: anexo_18
+    machine_name: anexo_18
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_ano
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano_anexo
+      feeds_item: false
+  -
+    target: field_anexo_1
+    map:
+      value: anexo_1
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_2
+    map:
+      value: anexo_2
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_3
+    map:
+      value: anexo_3
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_4
+    map:
+      value: anexo_4
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_5
+    map:
+      value: anexo_5
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_6
+    map:
+      value: anexo_6
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_7
+    map:
+      value: anexo_7
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_8
+    map:
+      value: anexo_8
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_9
+    map:
+      value: anexo_9
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_10
+    map:
+      value: anexo_10
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_11
+    map:
+      value: anexo_11
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_12
+    map:
+      value: anexo_12
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_13
+    map:
+      value: anexo_13
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_14
+    map:
+      value: anexo_14
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_15
+    map:
+      value: anexo_15
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_16
+    map:
+      value: anexo_16
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_17
+    map:
+      value: anexo_17
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anexo_18
+    map:
+      value: anexo_18
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: ''
+      reference_by: field_clave_entidad_universitari
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: entidad_universitaria

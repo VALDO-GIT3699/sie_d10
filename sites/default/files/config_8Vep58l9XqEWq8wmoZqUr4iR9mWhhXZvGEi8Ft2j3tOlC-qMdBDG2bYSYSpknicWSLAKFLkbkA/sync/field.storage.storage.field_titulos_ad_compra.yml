@@ -1,0 +1,20 @@
+uuid: 80a13032-99bc-4dea-b5fe-32cb5b265e71
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_titulos_ad_compra
+field_name: field_titulos_ad_compra
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

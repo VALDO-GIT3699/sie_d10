@@ -1,0 +1,29 @@
+uuid: 89044ed7-fd7e-44c1-81b0-a7285e7d5d0c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.511_convenios
+    - taxonomy.vocabulary.ano
+id: storage.511_convenios.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 511_convenios
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

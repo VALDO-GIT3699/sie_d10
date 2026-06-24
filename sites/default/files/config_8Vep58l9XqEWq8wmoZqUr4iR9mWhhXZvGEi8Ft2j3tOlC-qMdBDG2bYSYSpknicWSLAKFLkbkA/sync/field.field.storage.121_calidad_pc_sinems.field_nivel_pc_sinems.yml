@@ -1,0 +1,29 @@
+uuid: d9467d4a-e80f-4cc2-b6d4-7a15936b5712
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_nivel_pc_sinems
+    - storage.storage_type.121_calidad_pc_sinems
+    - taxonomy.vocabulary.nivel_pc_sinems
+id: storage.121_calidad_pc_sinems.field_nivel_pc_sinems
+field_name: field_nivel_pc_sinems
+entity_type: storage
+bundle: 121_calidad_pc_sinems
+label: 'Nivel de categoría de calidad PC-SINEMS'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nivel_pc_sinems: nivel_pc_sinems
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 7d1101fd-6471-496b-865e-c0e2a8ba9fe3
+langcode: es
+status: true
+dependencies:
+  module:
+    - feeds
+    - taxonomy
+id: taxonomy_term.feeds_item
+field_name: feeds_item
+entity_type: taxonomy_term
+type: feeds_item
+settings:
+  target_type: feeds_feed
+module: feeds
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: 19e39228-7fdc-4db3-ba49-3c21256b03f6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_programa
+    - storage.storage_type.15_titulados
+    - storage.storage_type.programa_educativo
+id: storage.15_titulados.field_cve_programa
+field_name: field_cve_programa
+entity_type: storage
+bundle: 15_titulados
+label: 'Programa educativo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:storage'
+  handler_settings:
+    target_bundles:
+      programa_educativo: programa_educativo
+    sort:
+      field: field_clave_programa
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

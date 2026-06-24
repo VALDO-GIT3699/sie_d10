@@ -1,0 +1,29 @@
+uuid: 978164c8-6f4b-409a-bb2e-332782c8bab1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_nivel_educativo
+    - storage.storage_type.programa_educativo
+    - taxonomy.vocabulary.ni
+id: storage.programa_educativo.field_nivel_educativo
+field_name: field_nivel_educativo
+entity_type: storage
+bundle: programa_educativo
+label: 'Nivel educativo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ni: ni
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

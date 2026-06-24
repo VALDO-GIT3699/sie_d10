@@ -1,0 +1,16 @@
+uuid: 41297a16-d6fc-4ccd-b1bf-fd27df1e8f69
+langcode: es
+status: true
+dependencies: {  }
+id: dompdf
+settings:
+  default_paper_size: letter
+  username: ''
+  password: ''
+  enable_html5_parser: true
+  enable_remote: true
+  cafile: ''
+  verify_peer: true
+  verify_peer_name: true
+  disable_log: 0
+  default_paper_orientation: portrait

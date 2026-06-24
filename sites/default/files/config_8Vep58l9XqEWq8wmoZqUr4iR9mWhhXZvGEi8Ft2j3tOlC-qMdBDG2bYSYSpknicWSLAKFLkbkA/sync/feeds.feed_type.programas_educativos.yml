@@ -1,0 +1,183 @@
+uuid: 0cbfcc29-0e77-4a46-aca7-c87c4ef49841
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.base_field_override.storage.programa_educativo.name
+    - field.field.storage.programa_educativo.field_campo_amplio
+    - field.field.storage.programa_educativo.field_campo_clasificacion
+    - field.field.storage.programa_educativo.field_campo_detallado
+    - field.field.storage.programa_educativo.field_campo_especifico
+    - field.field.storage.programa_educativo.field_clave_programa
+    - field.field.storage.programa_educativo.field_nivel_educativo
+    - field.field.storage.programa_educativo.field_programa_educativo
+    - field.field.storage.programa_educativo.field_row
+    - storage.storage_type.programa_educativo
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: 'Programas educativos'
+id: programas_educativos
+description: 'Catálogo de programas educativos'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: programa_educativo
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  programa_educativo:
+    value: programa_educativo
+    label: programa_educativo
+    machine_name: programa_educativo
+    type: csv
+  clave_programa:
+    value: clave_programa
+    label: clave_programa
+    machine_name: clave_programa
+    type: csv
+  nivel_educativo:
+    value: nivel_educativo
+    label: nivel_educativo
+    machine_name: nivel_educativo
+    type: csv
+  campo_clasificacion:
+    value: campo_clasificacion
+    label: campo_clasificacion
+    machine_name: campo_clasificacion
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  campo_amplio:
+    value: campo_amplio
+    label: campo_amplio
+    machine_name: campo_amplio
+    type: csv
+  campo_especifico:
+    value: campo_especifico
+    label: campo_especifico
+    machine_name: campo_especifico
+    type: csv
+  campo_detallado:
+    value: campo_detallado
+    label: campo_detallado
+    machine_name: campo_detallado
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: programa_educativo
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_clave_programa
+    map:
+      value: clave_programa
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_nivel_educativo
+    map:
+      target_id: nivel_educativo
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ni
+      feeds_item: false
+  -
+    target: field_campo_clasificacion
+    map:
+      target_id: campo_clasificacion
+    settings:
+      language: ''
+      reference_by: field_clave_de_campo
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: campos_de_clasificacion_sep
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_programa_educativo
+    map:
+      value: clave_programa
+    settings:
+      language: null
+  -
+    target: field_campo_amplio
+    map:
+      target_id: campo_amplio
+    settings:
+      language: ''
+      reference_by: field_clave_de_campo
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: campos_de_clasificacion_sep
+  -
+    target: field_campo_especifico
+    map:
+      target_id: campo_especifico
+    settings:
+      language: ''
+      reference_by: field_clave_de_campo
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: campos_de_clasificacion_sep
+  -
+    target: field_campo_detallado
+    map:
+      target_id: campo_detallado
+    settings:
+      language: ''
+      reference_by: field_clave_de_campo
+      feeds_item: guid
+      autocreate: 0
+      autocreate_bundle: campos_de_clasificacion_sep

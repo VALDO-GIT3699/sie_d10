@@ -1,0 +1,23 @@
+uuid: 8c391810-37aa-49fc-9a9d-fe7c5b0e5b17
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_vis_ceguera_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_vis_ceguera_nb
+field_name: field_disc_vis_ceguera_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Personas no binarias con discapacidad visual ceguera'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,29 @@
+uuid: 5bdfd649-321c-472b-8b3d-57754bdeb493
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cve_plantel
+    - storage.storage_type.matricula
+    - taxonomy.vocabulary.planteles
+id: storage.matricula.field_cve_plantel
+field_name: field_cve_plantel
+entity_type: storage
+bundle: matricula
+label: Plantel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      planteles: planteles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

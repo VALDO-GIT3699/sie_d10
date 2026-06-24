@@ -1,0 +1,23 @@
+uuid: f4a7ae56-2121-401e-a49f-f379fb0405a0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_t_usuarios_v
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_t_usuarios_v
+field_name: field_t_usuarios_v
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Usuarios beneficiados de los cursos virtuales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

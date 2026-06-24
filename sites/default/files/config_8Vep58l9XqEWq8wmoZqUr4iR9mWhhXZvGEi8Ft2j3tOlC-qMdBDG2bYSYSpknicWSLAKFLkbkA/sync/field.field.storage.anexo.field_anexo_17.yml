@@ -1,0 +1,23 @@
+uuid: c3f0fc44-e057-4d83-b0b5-24325c701cb1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anexo_17
+    - storage.storage_type.anexo
+id: storage.anexo.field_anexo_17
+field_name: field_anexo_17
+entity_type: storage
+bundle: anexo
+label: 'Anexo 17'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

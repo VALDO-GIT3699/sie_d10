@@ -1,0 +1,23 @@
+uuid: 14ac5a86-2a19-45b5-a908-74599f043e36
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.programa_educativo
+  module:
+    - feeds
+id: storage.programa_educativo.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: programa_educativo
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

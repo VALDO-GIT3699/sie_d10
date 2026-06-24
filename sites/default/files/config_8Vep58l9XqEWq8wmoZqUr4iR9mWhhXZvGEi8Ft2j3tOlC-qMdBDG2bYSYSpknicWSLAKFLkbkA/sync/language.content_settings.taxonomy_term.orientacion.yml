@@ -1,0 +1,11 @@
+uuid: 98a6863a-0c2d-4d24-8647-3f77f01235be
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.orientacion
+id: taxonomy_term.orientacion
+target_entity_type_id: taxonomy_term
+target_bundle: orientacion
+default_langcode: site_default
+language_alterable: false

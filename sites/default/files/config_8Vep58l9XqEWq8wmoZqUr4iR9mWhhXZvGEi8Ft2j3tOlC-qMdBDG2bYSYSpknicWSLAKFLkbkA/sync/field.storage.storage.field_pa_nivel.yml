@@ -1,0 +1,30 @@
+uuid: a9038dd8-98ca-4e6d-8d28-4eea05b8a0fc
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - storage
+id: storage.field_pa_nivel
+field_name: field_pa_nivel
+entity_type: storage
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: A
+      label: A
+    -
+      value: B
+      label: B
+    -
+      value: C
+      label: C
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

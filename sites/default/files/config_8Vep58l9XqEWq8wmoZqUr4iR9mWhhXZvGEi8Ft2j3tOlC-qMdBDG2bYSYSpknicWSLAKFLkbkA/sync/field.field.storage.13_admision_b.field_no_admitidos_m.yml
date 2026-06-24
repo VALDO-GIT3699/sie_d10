@@ -1,0 +1,23 @@
+uuid: 48f841db-7b15-4bd2-89e2-70c7ca86a896
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_no_admitidos_m
+    - storage.storage_type.13_admision_b
+id: storage.13_admision_b.field_no_admitidos_m
+field_name: field_no_admitidos_m
+entity_type: storage
+bundle: 13_admision_b
+label: 'Mujeres no admitidas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

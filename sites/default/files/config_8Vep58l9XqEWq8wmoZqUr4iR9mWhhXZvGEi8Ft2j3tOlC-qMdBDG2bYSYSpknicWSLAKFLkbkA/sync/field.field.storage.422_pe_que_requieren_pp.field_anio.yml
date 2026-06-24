@@ -1,0 +1,29 @@
+uuid: 39285a70-163e-4d57-952b-c81cb3d97030
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.422_pe_que_requieren_pp
+    - taxonomy.vocabulary.ano
+id: storage.422_pe_que_requieren_pp.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 422_pe_que_requieren_pp
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

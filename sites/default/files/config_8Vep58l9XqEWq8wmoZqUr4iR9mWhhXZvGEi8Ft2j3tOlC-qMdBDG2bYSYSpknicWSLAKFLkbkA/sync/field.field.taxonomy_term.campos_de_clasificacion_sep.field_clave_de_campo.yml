@@ -1,0 +1,19 @@
+uuid: ff948e9c-fd5b-4a22-b6e1-f3ce9f911fc0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_clave_de_campo
+    - taxonomy.vocabulary.campos_de_clasificacion_sep
+id: taxonomy_term.campos_de_clasificacion_sep.field_clave_de_campo
+field_name: field_clave_de_campo
+entity_type: taxonomy_term
+bundle: campos_de_clasificacion_sep
+label: 'Clave de campo'
+description: 'Clave del campo SEP'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,198 @@
+uuid: 13b3ebf5-bbb2-48c7-8bcc-bfd30f84ad72
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.122_estudiantes_en_pec.field_ciclo
+    - field.field.storage.122_estudiantes_en_pec.field_entidad_universitaria
+    - field.field.storage.122_estudiantes_en_pec.field_hombres
+    - field.field.storage.122_estudiantes_en_pec.field_mujeres
+    - field.field.storage.122_estudiantes_en_pec.field_nivel_estudiante
+    - field.field.storage.122_estudiantes_en_pec.field_personas_no_binarias
+    - field.field.storage.122_estudiantes_en_pec.field_row
+    - field.field.storage.122_estudiantes_en_pec.field_tipo_estudiante_pec
+    - field.field.storage.122_estudiantes_en_pec.field_total
+    - storage.storage_type.122_estudiantes_en_pec
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '122 Estudiantes en PEC'
+id: 122_estudiantes_en_pec
+description: 'Estudiantes en programas educativos de calidad respecto a la matrícula evaluable'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 122_estudiantes_en_pec
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  ciclo:
+    value: ciclo
+    label: ciclo
+    machine_name: ciclo
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  nivel_estudiante:
+    value: nivel_estudiante
+    label: nivel_estudiante
+    machine_name: nivel_estudiante
+    type: csv
+  tipo_estudiante_pec:
+    value: tipo_estudiante_pec
+    label: tipo_estudiante_pec
+    machine_name: tipo_estudiante_pec
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+  hombres:
+    value: hombres
+    label: hombres
+    machine_name: hombres
+    type: csv
+  mujeres:
+    value: mujeres
+    label: mujeres
+    machine_name: mujeres
+    type: csv
+  personas_nb:
+    value: personas_nb
+    label: personas_nb
+    machine_name: personas_nb
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_ciclo
+    map:
+      target_id: ciclo
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ciclo
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_nivel_estudiante
+    map:
+      target_id: nivel_estudiante
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: nivel_estudiante
+      feeds_item: false
+  -
+    target: field_tipo_estudiante_pec
+    map:
+      target_id: tipo_estudiante_pec
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: tipo_estudiante_pec
+      feeds_item: false
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_hombres
+    map:
+      value: hombres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_mujeres
+    map:
+      value: mujeres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_personas_no_binarias
+    map:
+      value: personas_nb
+    settings:
+      language: null
+    unique: {  }

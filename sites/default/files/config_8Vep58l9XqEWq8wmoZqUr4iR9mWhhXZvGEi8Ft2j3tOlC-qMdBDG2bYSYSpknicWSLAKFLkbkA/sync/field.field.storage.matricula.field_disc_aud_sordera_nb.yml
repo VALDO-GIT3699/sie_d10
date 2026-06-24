@@ -1,0 +1,23 @@
+uuid: 16a13960-f30a-4b38-be2f-73a11589e343
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_sordera_nb
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_aud_sordera_nb
+field_name: field_disc_aud_sordera_nb
+entity_type: storage
+bundle: matricula
+label: 'Personas no binarias con discapacidad auditiva sordera'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

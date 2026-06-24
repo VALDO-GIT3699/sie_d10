@@ -1,0 +1,23 @@
+uuid: ef887e41-9925-4bab-b5c9-bd1652875c7d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_habla_indigena_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_habla_indigena_m
+field_name: field_habla_indigena_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujeres de habla indígena'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,11 @@
+uuid: 282e9311-46ae-4b51-aeae-2d55f383f84f
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.planteles
+id: taxonomy_term.planteles
+target_entity_type_id: taxonomy_term
+target_bundle: planteles
+default_langcode: site_default
+language_alterable: false

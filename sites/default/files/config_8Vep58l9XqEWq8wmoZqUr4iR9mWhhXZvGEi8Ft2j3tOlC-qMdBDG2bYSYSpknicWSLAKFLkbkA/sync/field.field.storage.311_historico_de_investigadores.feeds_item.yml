@@ -1,0 +1,23 @@
+uuid: 20262a5a-f68a-492b-a236-0948265e0fcd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.311_historico_de_investigadores
+  module:
+    - feeds
+id: storage.311_historico_de_investigadores.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 311_historico_de_investigadores
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

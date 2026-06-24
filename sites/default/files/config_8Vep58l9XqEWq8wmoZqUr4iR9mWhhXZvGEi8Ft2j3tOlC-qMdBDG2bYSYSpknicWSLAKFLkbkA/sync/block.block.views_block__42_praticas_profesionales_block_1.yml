@@ -1,0 +1,29 @@
+uuid: 629fbd4c-30c5-422c-92c0-506f35975942
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.42_praticas_profesionales
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__42_praticas_profesionales_block_1
+theme: b4seutheme
+region: content
+weight: -41
+provider: null
+plugin: 'views_block:42_praticas_profesionales-block_1'
+settings:
+  id: 'views_block:42_praticas_profesionales-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/extension-vinculacion-y-responsabilidad-social/practicas-profesionales\r\n"

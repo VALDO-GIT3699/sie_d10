@@ -1,0 +1,63 @@
+uuid: d740fb10-afb4-43a6-af5a-e2bbfcbbacbc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.enlaces_de_interes.field_link
+    - field.field.node.enlaces_de_interes.field_liston
+    - field.field.node.enlaces_de_interes.field_url_liston
+    - node.type.enlaces_de_interes
+  module:
+    - image
+    - link
+    - user
+id: node.enlaces_de_interes.default
+targetEntityType: node
+bundle: enlaces_de_interes
+mode: default
+content:
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_liston:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_url_liston:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

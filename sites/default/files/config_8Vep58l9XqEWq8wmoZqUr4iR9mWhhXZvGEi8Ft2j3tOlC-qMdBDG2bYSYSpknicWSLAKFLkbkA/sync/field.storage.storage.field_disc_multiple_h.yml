@@ -1,0 +1,20 @@
+uuid: 29d4e85c-73b5-4ab3-aefe-df932cd809b6
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_disc_multiple_h
+field_name: field_disc_multiple_h
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

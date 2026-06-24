@@ -1,0 +1,20 @@
+uuid: 2517a0f0-ae22-469e-ab33-c75e3bdca8eb
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_asientos
+field_name: field_asientos
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

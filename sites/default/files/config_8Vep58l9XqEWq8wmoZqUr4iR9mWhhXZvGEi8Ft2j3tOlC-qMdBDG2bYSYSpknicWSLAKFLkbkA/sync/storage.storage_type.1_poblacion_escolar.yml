@@ -1,0 +1,13 @@
+uuid: fc630e1a-0748-4486-a931-3e0f92423eab
+langcode: es
+status: true
+dependencies: {  }
+id: 1_poblacion_escolar
+label: '1 Población escolar'
+description: ''
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

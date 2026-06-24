@@ -1,0 +1,23 @@
+uuid: 44cd2ae1-8eb0-41d8-af6d-f8bfbd2662f9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_egresados_nb
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_egresados_nb
+field_name: field_egresados_nb
+entity_type: storage
+bundle: 14_egresados
+label: 'Personas no binarias egresadas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

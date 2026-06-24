@@ -1,0 +1,29 @@
+uuid: 11cf15f2-dca9-4526-ad21-26c8a960a83a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_nivel_invest
+    - storage.storage_type.311_historico_de_investigadores
+    - taxonomy.vocabulary.nivel_invest
+id: storage.311_historico_de_investigadores.field_nivel_invest
+field_name: field_nivel_invest
+entity_type: storage
+bundle: 311_historico_de_investigadores
+label: 'Nivel del investigador'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nivel_invest: nivel_invest
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 531a1928-4893-42c7-9c61-bd79732202dc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_personas_no_binarias
+    - storage.storage_type.311_historico_de_investigadores
+id: storage.311_historico_de_investigadores.field_personas_no_binarias
+field_name: field_personas_no_binarias
+entity_type: storage
+bundle: 311_historico_de_investigadores
+label: 'Personas no binarias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

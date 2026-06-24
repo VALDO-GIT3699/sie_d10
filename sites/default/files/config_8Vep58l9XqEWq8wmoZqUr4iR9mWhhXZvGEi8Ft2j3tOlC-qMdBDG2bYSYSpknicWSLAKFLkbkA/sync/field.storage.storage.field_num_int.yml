@@ -1,0 +1,21 @@
+uuid: 01efb964-d6a5-4e67-bdf3-12ae60c9e465
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_num_int
+field_name: field_num_int
+entity_type: storage
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

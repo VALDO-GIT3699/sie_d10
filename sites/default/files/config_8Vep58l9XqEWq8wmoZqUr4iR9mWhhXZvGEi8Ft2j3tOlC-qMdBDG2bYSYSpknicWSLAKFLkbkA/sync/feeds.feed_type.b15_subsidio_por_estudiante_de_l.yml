@@ -1,0 +1,177 @@
+uuid: 8a5e7877-ae25-4201-a556-a43cc1750cf6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_anio
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_matricula_t
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_pesos_corrientes
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_row
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_sub_estatal_estudiante
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_sub_federal_estudiante
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_subsidio_estatal
+    - field.field.storage.b15_subsidio_por_estudiante_de_l.field_subsidio_federal
+    - storage.storage_type.b15_subsidio_por_estudiante_de_l
+  module:
+    - bigint
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: 'b15 Subsidio por estudiante de la UdeG'
+id: b15_subsidio_por_estudiante_de_l
+description: 'Subsidio público por estudiante de la Universidad de Guadalajara'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: b15_subsidio_por_estudiante_de_l
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  pesos_corrientes:
+    value: pesos_corrientes
+    label: pesos_corrientes
+    machine_name: pesos_corrientes
+    type: csv
+  subsidio_federal:
+    value: subsidio_federal
+    label: subsidio_federal
+    machine_name: subsidio_federal
+    type: csv
+  subsidio_estatal:
+    value: subsidio_estatal
+    label: subsidio_estatal
+    machine_name: subsidio_estatal
+    type: csv
+  sub_federal_estudiante:
+    value: sub_federal_estudiante
+    label: sub_federal_estudiante
+    machine_name: sub_federal_estudiante
+    type: csv
+  sub_estatal_estudiante:
+    value: sub_estatal_estudiante
+    label: sub_estatal_estudiante
+    machine_name: sub_estatal_estudiante
+    type: csv
+  matricula_total:
+    value: matricula_total
+    label: matricula_total
+    machine_name: matricula_total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_pesos_corrientes
+    map:
+      value: pesos_corrientes
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_subsidio_federal
+    map:
+      value: subsidio_federal
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_subsidio_estatal
+    map:
+      value: subsidio_estatal
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_sub_federal_estudiante
+    map:
+      value: sub_federal_estudiante
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_sub_estatal_estudiante
+    map:
+      value: sub_estatal_estudiante
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_matricula_t
+    map:
+      value: matricula_total
+    settings:
+      language: null
+    unique: {  }

@@ -1,0 +1,21 @@
+uuid: 0a6d33d4-3c4c-4785-91e2-2b205adebf28
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.noticia
+id: node.noticia.field_tags
+field_name: field_tags
+entity_type: node
+bundle: noticia
+label: Tag
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

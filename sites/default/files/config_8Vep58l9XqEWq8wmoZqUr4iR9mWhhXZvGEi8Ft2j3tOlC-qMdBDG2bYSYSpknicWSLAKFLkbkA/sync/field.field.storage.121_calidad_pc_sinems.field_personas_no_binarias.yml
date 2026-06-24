@@ -1,0 +1,23 @@
+uuid: dfd1711b-d2e1-46da-97d0-8844438f8370
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_personas_no_binarias
+    - storage.storage_type.121_calidad_pc_sinems
+id: storage.121_calidad_pc_sinems.field_personas_no_binarias
+field_name: field_personas_no_binarias
+entity_type: storage
+bundle: 121_calidad_pc_sinems
+label: 'Personas no binarias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

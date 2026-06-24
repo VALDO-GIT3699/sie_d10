@@ -1,0 +1,23 @@
+uuid: 0163bb52-9220-467a-bab6-fe77c424fb96
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_e_habla_indigena_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_e_habla_indigena_t
+field_name: field_e_habla_indigena_t
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Total de egresados de habla indígena'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

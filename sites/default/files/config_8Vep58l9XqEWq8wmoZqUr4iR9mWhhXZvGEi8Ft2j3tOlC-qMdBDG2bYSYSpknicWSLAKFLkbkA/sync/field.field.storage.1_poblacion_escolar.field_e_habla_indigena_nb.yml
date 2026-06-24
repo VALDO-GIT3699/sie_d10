@@ -1,0 +1,23 @@
+uuid: 43f0f18d-46a0-4bcf-9ea9-231d31502804
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_e_habla_indigena_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_e_habla_indigena_nb
+field_name: field_e_habla_indigena_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Personas no binarias de habla indígena egresadas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: f6534c96-82b2-4711-8cdb-3249fcf51ef6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_edad_61_anios_o_mas
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_edad_61_anios_o_mas
+field_name: field_edad_61_anios_o_mas
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Edad de 61 años o más'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

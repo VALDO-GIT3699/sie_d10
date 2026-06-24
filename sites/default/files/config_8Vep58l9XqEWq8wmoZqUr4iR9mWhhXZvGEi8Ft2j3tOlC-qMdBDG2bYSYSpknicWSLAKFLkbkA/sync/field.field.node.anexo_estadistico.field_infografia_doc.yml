@@ -1,0 +1,27 @@
+uuid: 67a9d8d9-88d0-4254-9dc7-8f68efedd590
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infografia_doc
+    - node.type.anexo_estadistico
+  module:
+    - file
+id: node.anexo_estadistico.field_infografia_doc
+field_name: field_infografia_doc
+entity_type: node
+bundle: anexo_estadistico
+label: 'Archivo de la infografía'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf png jpg jpeg'
+  max_filesize: ''
+  description_field: true
+field_type: file

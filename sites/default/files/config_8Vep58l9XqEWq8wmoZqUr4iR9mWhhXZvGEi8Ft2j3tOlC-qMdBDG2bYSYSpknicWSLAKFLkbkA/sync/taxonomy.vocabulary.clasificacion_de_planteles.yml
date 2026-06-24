@@ -1,0 +1,9 @@
+uuid: 0c001cbf-bf21-4dd2-9d10-bc1c73a1790f
+langcode: es
+status: true
+dependencies: {  }
+name: 'Clasificación de planteles'
+vid: clasificacion_de_planteles
+description: 'Clasificación interna para saber si los planteles son Metropolitanos, Regionales o Temáticos'
+weight: 0
+new_revision: false

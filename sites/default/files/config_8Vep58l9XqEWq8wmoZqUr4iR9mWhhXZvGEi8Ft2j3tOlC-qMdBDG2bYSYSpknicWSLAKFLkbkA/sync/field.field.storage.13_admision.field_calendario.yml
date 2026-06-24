@@ -1,0 +1,29 @@
+uuid: 314fdf7b-1c89-4697-a263-8a7427da1181
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_calendario
+    - storage.storage_type.13_admision
+    - taxonomy.vocabulary.calendario
+id: storage.13_admision.field_calendario
+field_name: field_calendario
+entity_type: storage
+bundle: 13_admision
+label: Calendario
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      calendario: calendario
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

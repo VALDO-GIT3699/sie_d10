@@ -1,0 +1,23 @@
+uuid: bc07f1b4-35ca-4220-af42-304da0af57c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_vis_baja_vision_h
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_vis_baja_vision_h
+field_name: field_disc_vis_baja_vision_h
+entity_type: storage
+bundle: matricula
+label: 'Hombres con discapacidad visual baja visión'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

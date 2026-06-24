@@ -1,0 +1,23 @@
+uuid: e1b8a8e7-16cd-43ab-82b6-e03704efbb3e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_mtr
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_mtr
+field_name: field_30ar_mtr
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: Maestría
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

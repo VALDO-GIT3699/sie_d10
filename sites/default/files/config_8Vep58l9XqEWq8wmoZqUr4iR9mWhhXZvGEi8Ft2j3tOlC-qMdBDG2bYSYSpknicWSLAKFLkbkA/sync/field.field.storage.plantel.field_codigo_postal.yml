@@ -1,0 +1,23 @@
+uuid: 59e3b386-907d-4823-a092-939cadad35d2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_codigo_postal
+    - storage.storage_type.plantel
+id: storage.plantel.field_codigo_postal
+field_name: field_codigo_postal
+entity_type: storage
+bundle: plantel
+label: 'Código postal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

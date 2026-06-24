@@ -1,0 +1,31 @@
+uuid: cc638b45-adec-4ea0-aea2-ef969c3cba15
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - menu_block
+  theme:
+    - b4seutheme
+id: mainnavigation_2
+theme: b4seutheme
+region: nav_main
+weight: 0
+provider: null
+plugin: 'menu_block:main'
+settings:
+  id: 'menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  label_link: false
+  label_type: block
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'main:'
+  suggestion: main
+visibility: {  }

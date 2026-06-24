@@ -1,0 +1,19 @@
+uuid: a5e6d6f2-a541-4a5f-91fd-142f80466917
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_notas_pagina
+field_name: field_notas_pagina
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: 3b4dba2e-cf95-4c93-8deb-f7f14c086106
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_entidad_universitaria
+    - storage.storage_type.122_estudiantes_en_pec
+    - taxonomy.vocabulary.entidad_universitaria
+id: storage.122_estudiantes_en_pec.field_entidad_universitaria
+field_name: field_entidad_universitaria
+entity_type: storage
+bundle: 122_estudiantes_en_pec
+label: 'Entidad universitaria'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      entidad_universitaria: entidad_universitaria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

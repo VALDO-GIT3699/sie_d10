@@ -1,0 +1,23 @@
+uuid: 0a78f4e7-4871-49d1-a093-8d5b35753666
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_no_admitidos_nb
+    - storage.storage_type.13_admision
+id: storage.13_admision.field_no_admitidos_nb
+field_name: field_no_admitidos_nb
+entity_type: storage
+bundle: 13_admision
+label: 'Personas no binarias no admitidas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

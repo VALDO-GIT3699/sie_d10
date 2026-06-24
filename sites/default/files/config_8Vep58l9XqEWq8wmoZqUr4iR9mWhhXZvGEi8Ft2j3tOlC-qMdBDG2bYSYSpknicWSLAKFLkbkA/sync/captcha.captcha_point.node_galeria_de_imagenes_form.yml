@@ -1,0 +1,7 @@
+uuid: 409f7616-6324-4292-9c61-b44a0ab37b61
+langcode: es
+status: false
+dependencies: {  }
+formId: node_galeria_de_imagenes_form
+captchaType: default
+label: node_galeria_de_imagenes_form

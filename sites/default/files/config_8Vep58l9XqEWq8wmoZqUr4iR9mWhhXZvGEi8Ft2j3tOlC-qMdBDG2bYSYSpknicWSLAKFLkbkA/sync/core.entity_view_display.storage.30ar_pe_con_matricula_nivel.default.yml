@@ -1,0 +1,165 @@
+uuid: e0946f72-0a2d-4e0f-88de-a62d5120c284
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.30ar_pe_con_matricula_nivel.feeds_item
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_basico
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_bg
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_bt
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_doc
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_esp
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_lic
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_mtr
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_otros
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_pm
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_posbasico
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_tsu
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_ciclo_red
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_entidad_universitaria
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_row
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.default
+targetEntityType: storage
+bundle: 30ar_pe_con_matricula_nivel
+mode: default
+content:
+  field_30ar_basico:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_30ar_bg:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_30ar_bt:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_30ar_doc:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_30ar_esp:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_30ar_lic:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_30ar_mtr:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_30ar_otros:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_30ar_pm:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_30ar_posbasico:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_30ar_tsu:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ciclo_red:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

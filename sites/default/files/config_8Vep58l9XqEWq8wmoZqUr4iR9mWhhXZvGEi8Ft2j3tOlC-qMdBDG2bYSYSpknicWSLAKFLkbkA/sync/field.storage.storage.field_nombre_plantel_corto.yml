@@ -1,0 +1,21 @@
+uuid: 56a2719e-a808-473a-9b98-fb6ae9cacfca
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_nombre_plantel_corto
+field_name: field_nombre_plantel_corto
+entity_type: storage
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

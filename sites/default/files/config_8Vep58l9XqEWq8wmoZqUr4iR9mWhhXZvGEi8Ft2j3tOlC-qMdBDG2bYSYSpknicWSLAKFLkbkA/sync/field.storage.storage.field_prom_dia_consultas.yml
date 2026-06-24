@@ -1,0 +1,20 @@
+uuid: bbecca7e-bfa2-45a2-9133-a83c09f8df5a
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_prom_dia_consultas
+field_name: field_prom_dia_consultas
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

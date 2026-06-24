@@ -1,0 +1,101 @@
+uuid: 3e8c63eb-2abc-4642-98b2-15bedeb72f06
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.programa_educativo.feeds_item
+    - field.field.storage.programa_educativo.field_campo_amplio
+    - field.field.storage.programa_educativo.field_campo_clasificacion
+    - field.field.storage.programa_educativo.field_campo_detallado
+    - field.field.storage.programa_educativo.field_campo_especifico
+    - field.field.storage.programa_educativo.field_clave_programa
+    - field.field.storage.programa_educativo.field_nivel_educativo
+    - field.field.storage.programa_educativo.field_programa_educativo
+    - field.field.storage.programa_educativo.field_row
+    - storage.storage_type.programa_educativo
+  module:
+    - options
+id: storage.programa_educativo.default
+targetEntityType: storage
+bundle: programa_educativo
+mode: default
+content:
+  field_campo_amplio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_campo_clasificacion:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_campo_detallado:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_campo_especifico:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_clave_programa:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_nivel_educativo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_programa_educativo:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

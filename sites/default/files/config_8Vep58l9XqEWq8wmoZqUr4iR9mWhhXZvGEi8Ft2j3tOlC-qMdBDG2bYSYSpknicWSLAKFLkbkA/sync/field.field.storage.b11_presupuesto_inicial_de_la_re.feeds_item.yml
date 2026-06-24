@@ -1,0 +1,23 @@
+uuid: cdb8f925-1a28-407b-be0a-16d40cf89ac2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.b11_presupuesto_inicial_de_la_re
+  module:
+    - feeds
+id: storage.b11_presupuesto_inicial_de_la_re.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: b11_presupuesto_inicial_de_la_re
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

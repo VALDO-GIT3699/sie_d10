@@ -1,0 +1,40 @@
+uuid: c259f6d2-fbcc-4518-abf5-49ccf6ee033c
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.banner.body
+    - field.field.node.banner.field_enlace
+    - field.field.node.banner.field_imagen
+    - field.field.node.banner.field_orden
+    - node.type.banner
+  module:
+    - text
+    - user
+id: node.banner.teaser
+targetEntityType: node
+bundle: banner
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_enlace: true
+  field_imagen: true
+  field_orden: true
+  langcode: true

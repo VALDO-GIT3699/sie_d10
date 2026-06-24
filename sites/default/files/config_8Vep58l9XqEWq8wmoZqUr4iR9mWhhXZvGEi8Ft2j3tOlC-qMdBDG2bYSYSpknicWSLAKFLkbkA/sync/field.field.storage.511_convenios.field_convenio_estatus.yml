@@ -1,0 +1,21 @@
+uuid: 6e07cd4d-694e-42f6-b400-68dcfb34111c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_convenio_estatus
+    - storage.storage_type.511_convenios
+  module:
+    - options
+id: storage.511_convenios.field_convenio_estatus
+field_name: field_convenio_estatus
+entity_type: storage
+bundle: 511_convenios
+label: 'Estatus del convenio'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

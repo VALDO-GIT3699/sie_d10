@@ -1,0 +1,11 @@
+uuid: f8ad15d4-3627-46af-adf8-ce0fd524ed2f
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.concepto_del_ingreso
+id: taxonomy_term.concepto_del_ingreso
+target_entity_type_id: taxonomy_term
+target_bundle: concepto_del_ingreso
+default_langcode: site_default
+language_alterable: false

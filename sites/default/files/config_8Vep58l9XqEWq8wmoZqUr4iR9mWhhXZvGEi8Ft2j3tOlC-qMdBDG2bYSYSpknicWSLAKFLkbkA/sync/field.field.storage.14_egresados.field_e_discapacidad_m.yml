@@ -1,0 +1,23 @@
+uuid: 75d52cf8-23e5-491f-8160-7bd5f09f6c9e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_e_discapacidad_m
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_e_discapacidad_m
+field_name: field_e_discapacidad_m
+entity_type: storage
+bundle: 14_egresados
+label: 'Mujeres con discapacidad egresadas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

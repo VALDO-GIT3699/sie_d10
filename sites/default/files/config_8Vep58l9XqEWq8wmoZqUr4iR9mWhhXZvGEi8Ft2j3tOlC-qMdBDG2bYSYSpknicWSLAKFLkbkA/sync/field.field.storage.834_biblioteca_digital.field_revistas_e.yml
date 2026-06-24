@@ -1,0 +1,23 @@
+uuid: e03c38b9-f7af-4bc4-b6e9-dbd7d3a6cc80
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_revistas_e
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_revistas_e
+field_name: field_revistas_e
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Revistas electrónicas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,29 @@
+uuid: 45aa85c2-3e0c-43e7-b65b-b60e8201de87
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.15_titulados
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__15_titulados_block_2
+theme: b4seutheme
+region: content
+weight: 68
+provider: null
+plugin: 'views_block:15_titulados-block_2'
+settings:
+  id: 'views_block:15_titulados-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /titulados

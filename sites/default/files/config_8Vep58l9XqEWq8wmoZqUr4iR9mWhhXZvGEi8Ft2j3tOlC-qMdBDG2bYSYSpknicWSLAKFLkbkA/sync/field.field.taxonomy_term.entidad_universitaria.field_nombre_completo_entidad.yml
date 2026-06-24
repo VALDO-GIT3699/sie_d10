@@ -1,0 +1,19 @@
+uuid: 063755e8-a068-4cbc-9614-afec060989eb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_nombre_completo_entidad
+    - taxonomy.vocabulary.entidad_universitaria
+id: taxonomy_term.entidad_universitaria.field_nombre_completo_entidad
+field_name: field_nombre_completo_entidad
+entity_type: taxonomy_term
+bundle: entidad_universitaria
+label: nombre_completo_entidad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

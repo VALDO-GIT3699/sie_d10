@@ -1,0 +1,23 @@
+uuid: 544b2a8e-46ac-499c-a572-3830a78a51e0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_personas_no_binarias
+    - storage.storage_type.712_pa_categoria_nivel
+id: storage.712_pa_categoria_nivel.field_personas_no_binarias
+field_name: field_personas_no_binarias
+entity_type: storage
+bundle: 712_pa_categoria_nivel
+label: 'Personas no binarias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

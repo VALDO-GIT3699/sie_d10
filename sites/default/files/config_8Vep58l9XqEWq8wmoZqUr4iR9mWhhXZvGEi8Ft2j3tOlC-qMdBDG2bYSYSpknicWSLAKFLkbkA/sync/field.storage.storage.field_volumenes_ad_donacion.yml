@@ -1,0 +1,20 @@
+uuid: 1616f653-1f85-4823-ac23-e2b10176509e
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_volumenes_ad_donacion
+field_name: field_volumenes_ad_donacion
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,315 @@
+uuid: 4c22ca31-dbab-414a-86bf-1a2fb88e2a02
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.13_admision_b.field_admitidos_h
+    - field.field.storage.13_admision_b.field_admitidos_m
+    - field.field.storage.13_admision_b.field_admitidos_nb
+    - field.field.storage.13_admision_b.field_admitidos_t
+    - field.field.storage.13_admision_b.field_anio
+    - field.field.storage.13_admision_b.field_aspirantes_h
+    - field.field.storage.13_admision_b.field_aspirantes_m
+    - field.field.storage.13_admision_b.field_aspirantes_nb
+    - field.field.storage.13_admision_b.field_aspirantes_t
+    - field.field.storage.13_admision_b.field_calendario
+    - field.field.storage.13_admision_b.field_entidad_universitaria
+    - field.field.storage.13_admision_b.field_nivel_educativo
+    - field.field.storage.13_admision_b.field_no_admitidos_h
+    - field.field.storage.13_admision_b.field_no_admitidos_m
+    - field.field.storage.13_admision_b.field_no_admitidos_nb
+    - field.field.storage.13_admision_b.field_no_admitidos_t
+    - field.field.storage.13_admision_b.field_por_admision
+    - field.field.storage.13_admision_b.field_row
+    - storage.storage_type.13_admision_b
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '13 Admision B'
+id: 13_admision_b
+description: 'Admisión basada en la información del Anexo estadístico'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 13_admision_b
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  calendario:
+    value: calendario
+    label: calendario
+    machine_name: calendario
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  aspirantes_t:
+    value: aspirantes_t
+    label: aspirantes_t
+    machine_name: aspirantes_t
+    type: csv
+  aspirantes_h:
+    value: aspirantes_h
+    label: aspirantes_h
+    machine_name: aspirantes_h
+    type: csv
+  aspirantes_m:
+    value: aspirantes_m
+    label: aspirantes_m
+    machine_name: aspirantes_m
+    type: csv
+  aspirantes_nb:
+    value: aspirantes_nb
+    label: aspirantes_nb
+    machine_name: aspirantes_nb
+    type: csv
+  admitidos_t:
+    value: admitidos_t
+    label: admitidos_t
+    machine_name: admitidos_t
+    type: csv
+  admitidos_h:
+    value: admitidos_h
+    label: admitidos_h
+    machine_name: admitidos_h
+    type: csv
+  admitidos_m:
+    value: admitidos_m
+    label: admitidos_m
+    machine_name: admitidos_m
+    type: csv
+  admitidos_nb:
+    value: admitidos_nb
+    label: admitidos_nb
+    machine_name: admitidos_nb
+    type: csv
+  no_admitidos_h:
+    value: no_admitidos_h
+    label: no_admitidos_h
+    machine_name: no_admitidos_h
+    type: csv
+  no_admitidos_m:
+    value: no_admitidos_m
+    label: no_admitidos_m
+    machine_name: no_admitidos_m
+    type: csv
+  no_admitidos_nb:
+    value: no_admitidos_nb
+    label: no_admitidos_nb
+    machine_name: no_admitidos_nb
+    type: csv
+  por_admision:
+    value: por_admision
+    label: por_admision
+    machine_name: por_admision
+    type: csv
+  nivel_educativo:
+    value: nivel_educativo
+    label: nivel_educativo
+    machine_name: nivel_educativo
+    type: csv
+  no_admitidos_t:
+    value: no_admitidos_t
+    label: no_admitidos_t
+    machine_name: no_admitidos_t
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_calendario
+    map:
+      target_id: calendario
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: calendario
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_aspirantes_t
+    map:
+      value: aspirantes_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_aspirantes_h
+    map:
+      value: aspirantes_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_aspirantes_m
+    map:
+      value: aspirantes_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_aspirantes_nb
+    map:
+      value: aspirantes_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_admitidos_t
+    map:
+      value: admitidos_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_admitidos_h
+    map:
+      value: admitidos_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_admitidos_m
+    map:
+      value: admitidos_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_admitidos_nb
+    map:
+      value: admitidos_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_no_admitidos_t
+    map:
+      value: no_admitidos_t
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_no_admitidos_h
+    map:
+      value: no_admitidos_h
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_no_admitidos_m
+    map:
+      value: no_admitidos_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_no_admitidos_nb
+    map:
+      value: no_admitidos_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_admision
+    map:
+      value: por_admision
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_nivel_educativo
+    map:
+      target_id: nivel_educativo
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ni
+      feeds_item: false

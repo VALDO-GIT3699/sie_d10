@@ -1,0 +1,29 @@
+uuid: 54de22bc-2773-4908-8dc3-e832491ccc29
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_entidad_universitaria
+    - taxonomy.vocabulary.entidad_universitaria
+    - taxonomy.vocabulary.planteles
+id: taxonomy_term.planteles.field_entidad_universitaria
+field_name: field_entidad_universitaria
+entity_type: taxonomy_term
+bundle: planteles
+label: 'Entidad universitaria'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      entidad_universitaria: entidad_universitaria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

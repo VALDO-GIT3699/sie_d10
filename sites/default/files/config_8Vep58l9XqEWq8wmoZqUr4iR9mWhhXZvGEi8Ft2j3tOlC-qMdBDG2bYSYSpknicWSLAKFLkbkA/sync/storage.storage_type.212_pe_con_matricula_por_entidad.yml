@@ -1,0 +1,13 @@
+uuid: 7595faab-b27d-4b57-8e1b-a3140aed2269
+langcode: es
+status: true
+dependencies: {  }
+id: 212_pe_con_matricula_por_entidad
+label: '212 PE con matrícula por entidad'
+description: 'Programas educativos con matrícula por entidad'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

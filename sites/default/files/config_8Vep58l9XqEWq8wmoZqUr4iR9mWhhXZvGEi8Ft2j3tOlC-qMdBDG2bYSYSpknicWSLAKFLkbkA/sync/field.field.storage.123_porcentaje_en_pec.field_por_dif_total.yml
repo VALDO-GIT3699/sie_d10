@@ -1,0 +1,23 @@
+uuid: 93efe1df-3fb0-49b8-a1ef-24c9345ec97c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_dif_total
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.field_por_dif_total
+field_name: field_por_dif_total
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Porcentaje diferencia total'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

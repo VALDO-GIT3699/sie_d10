@@ -1,0 +1,29 @@
+uuid: 4af25690-ecc1-45a6-941f-c910a2afb916
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.numeralia_informe
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__numeralia_informe_block_8
+theme: b4seutheme
+region: content
+weight: 4
+provider: null
+plugin: 'views_block:numeralia_informe-block_8'
+settings:
+  id: 'views_block:numeralia_informe-block_8'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /informe-2026

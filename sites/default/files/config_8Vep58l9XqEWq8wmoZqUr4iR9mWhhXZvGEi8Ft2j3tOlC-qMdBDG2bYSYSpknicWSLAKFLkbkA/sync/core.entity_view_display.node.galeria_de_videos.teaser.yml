@@ -1,0 +1,40 @@
+uuid: 704cd52e-4224-4c14-8f48-4e258f416f62
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.galeria_de_videos.body
+    - field.field.node.galeria_de_videos.field_descripcion_galeria_videos
+    - field.field.node.galeria_de_videos.field_fecha_galeria_videos
+    - field.field.node.galeria_de_videos.field_video_galeria
+    - node.type.galeria_de_videos
+  module:
+    - text
+    - user
+id: node.galeria_de_videos.teaser
+targetEntityType: node
+bundle: galeria_de_videos
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_descripcion_galeria_videos: true
+  field_fecha_galeria_videos: true
+  field_video_galeria: true
+  langcode: true

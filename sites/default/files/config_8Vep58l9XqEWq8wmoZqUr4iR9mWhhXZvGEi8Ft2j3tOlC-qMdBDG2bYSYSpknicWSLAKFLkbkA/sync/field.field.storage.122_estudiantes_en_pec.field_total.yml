@@ -1,0 +1,23 @@
+uuid: 735b7b43-53fb-4083-a4c9-6e40ab62ed6e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total
+    - storage.storage_type.122_estudiantes_en_pec
+id: storage.122_estudiantes_en_pec.field_total
+field_name: field_total
+entity_type: storage
+bundle: 122_estudiantes_en_pec
+label: Total
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

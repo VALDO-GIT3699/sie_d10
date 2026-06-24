@@ -1,0 +1,56 @@
+uuid: 6ec734b0-3131-4d96-a95d-42e7348c9af7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node._aviso_emergente.body
+    - field.field.node._aviso_emergente.feeds_item
+    - field.field.node._aviso_emergente.field_fecha
+    - field.field.node._aviso_emergente.field_tipo_de_mensaje
+    - node.type._aviso_emergente
+  module:
+    - datetime_range
+    - options
+    - text
+    - user
+id: node._aviso_emergente.default
+targetEntityType: node
+bundle: _aviso_emergente
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_fecha:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: '-'
+      from_to: both
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_tipo_de_mensaje:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true

@@ -1,0 +1,29 @@
+uuid: 1de36c82-2273-4c48-97f5-418ff2f3d359
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_modalidad
+    - storage.storage_type.15_titulados
+    - taxonomy.vocabulary.modalidad
+id: storage.15_titulados.field_modalidad
+field_name: field_modalidad
+entity_type: storage
+bundle: 15_titulados
+label: Modalidad
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      modalidad: modalidad
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: e27b3bb8-262d-47b4-ae67-74cf0081079b
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.13_admision
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__13_admision_block_14
+theme: b4seutheme
+region: content
+weight: 9
+provider: null
+plugin: 'views_block:13_admision-block_14'
+settings:
+  id: 'views_block:13_admision-block_14'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /admision

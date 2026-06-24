@@ -1,0 +1,23 @@
+uuid: 81260dda-938b-4f87-84a0-3be72070e7fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.a31_solicitudes_de_informacion
+  module:
+    - feeds
+id: storage.a31_solicitudes_de_informacion.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: a31_solicitudes_de_informacion
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

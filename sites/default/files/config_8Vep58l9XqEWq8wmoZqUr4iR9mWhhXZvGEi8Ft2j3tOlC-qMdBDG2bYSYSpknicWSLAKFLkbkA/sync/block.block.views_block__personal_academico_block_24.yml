@@ -1,0 +1,29 @@
+uuid: 8d9b3f51-7bf9-4840-a5f9-5d0e9aee0bde
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.personal_academico
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__personal_academico_block_24
+theme: b4seutheme
+region: content
+weight: 48
+provider: null
+plugin: 'views_block:personal_academico-block_24'
+settings:
+  id: 'views_block:personal_academico-block_24'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /recursos-humanos/personal-academico/historico

@@ -1,0 +1,20 @@
+uuid: 8157990d-d6f9-4db9-9f29-cc924aecd4e2
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_tecnicos_tc_m
+field_name: field_tecnicos_tc_m
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

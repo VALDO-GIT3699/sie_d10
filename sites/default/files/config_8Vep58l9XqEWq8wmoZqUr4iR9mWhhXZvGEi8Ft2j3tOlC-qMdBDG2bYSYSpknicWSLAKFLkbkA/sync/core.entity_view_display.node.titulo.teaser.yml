@@ -1,0 +1,38 @@
+uuid: 6d97232b-a2b0-4576-bac9-f9ff8dc7e470
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.titulo.body
+    - field.field.node.titulo.field_liston
+    - field.field.node.titulo.field_url_liston
+    - node.type.titulo
+  module:
+    - text
+    - user
+id: node.titulo.teaser
+targetEntityType: node
+bundle: titulo
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_liston: true
+  field_url_liston: true
+  langcode: true

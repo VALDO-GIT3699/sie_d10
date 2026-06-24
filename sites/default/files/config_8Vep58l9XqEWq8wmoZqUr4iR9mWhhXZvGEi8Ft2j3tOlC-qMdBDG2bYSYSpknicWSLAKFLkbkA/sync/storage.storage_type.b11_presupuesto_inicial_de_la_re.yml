@@ -1,0 +1,13 @@
+uuid: 277099dc-8273-4ca6-99db-87f6b506c3ce
+langcode: es
+status: true
+dependencies: {  }
+id: b11_presupuesto_inicial_de_la_re
+label: 'b11 Presupuesto inicial de la Red'
+description: 'Presupuesto inicial de la Red Universitaria'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

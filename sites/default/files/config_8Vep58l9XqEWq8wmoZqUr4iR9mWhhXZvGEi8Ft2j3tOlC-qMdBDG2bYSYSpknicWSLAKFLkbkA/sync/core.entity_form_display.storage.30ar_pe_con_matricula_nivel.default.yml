@@ -1,0 +1,149 @@
+uuid: 44d87ee9-4d9e-40c2-b487-91b55a7d297e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.30ar_pe_con_matricula_nivel.feeds_item
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_basico
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_bg
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_bt
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_doc
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_esp
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_lic
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_mtr
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_otros
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_pm
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_posbasico
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_30ar_tsu
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_ciclo_red
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_entidad_universitaria
+    - field.field.storage.30ar_pe_con_matricula_nivel.field_row
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.default
+targetEntityType: storage
+bundle: 30ar_pe_con_matricula_nivel
+mode: default
+content:
+  field_30ar_basico:
+    type: number
+    weight: 38
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_bg:
+    type: number
+    weight: 35
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_bt:
+    type: number
+    weight: 36
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_doc:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_esp:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_lic:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_mtr:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_otros:
+    type: number
+    weight: 39
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_pm:
+    type: number
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_posbasico:
+    type: number
+    weight: 37
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_tsu:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_ciclo_red:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

@@ -1,0 +1,196 @@
+uuid: 4a9bfb85-6a06-43bb-bd1f-7ccb9fcb2f62
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.714_pa_antiguedad.feeds_item
+    - field.field.storage.714_pa_antiguedad.field_a_0_a_4_anios
+    - field.field.storage.714_pa_antiguedad.field_a_10_a_14_anios
+    - field.field.storage.714_pa_antiguedad.field_a_15_a_19_anios
+    - field.field.storage.714_pa_antiguedad.field_a_20_a_24_anios
+    - field.field.storage.714_pa_antiguedad.field_a_25_a_29_anios
+    - field.field.storage.714_pa_antiguedad.field_a_30_a_34_anios
+    - field.field.storage.714_pa_antiguedad.field_a_35_a_39_anios
+    - field.field.storage.714_pa_antiguedad.field_a_40_a_44_anios
+    - field.field.storage.714_pa_antiguedad.field_a_45_a_50_anios
+    - field.field.storage.714_pa_antiguedad.field_a_51_o_mas_anios
+    - field.field.storage.714_pa_antiguedad.field_a_5_a_9_anios
+    - field.field.storage.714_pa_antiguedad.field_anio
+    - field.field.storage.714_pa_antiguedad.field_categoria_academicos
+    - field.field.storage.714_pa_antiguedad.field_edad_21_a_30
+    - field.field.storage.714_pa_antiguedad.field_edad_31_a_40
+    - field.field.storage.714_pa_antiguedad.field_edad_41_a_50
+    - field.field.storage.714_pa_antiguedad.field_edad_51_a_60
+    - field.field.storage.714_pa_antiguedad.field_edad_61_anios_o_mas
+    - field.field.storage.714_pa_antiguedad.field_entidad_universitaria
+    - field.field.storage.714_pa_antiguedad.field_row
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.default
+targetEntityType: storage
+bundle: 714_pa_antiguedad
+mode: default
+content:
+  field_a_0_a_4_anios:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_10_a_14_anios:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_15_a_19_anios:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_20_a_24_anios:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_25_a_29_anios:
+    type: number
+    weight: 35
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_30_a_34_anios:
+    type: number
+    weight: 36
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_35_a_39_anios:
+    type: number
+    weight: 37
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_40_a_44_anios:
+    type: number
+    weight: 38
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_45_a_50_anios:
+    type: number
+    weight: 39
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_51_o_mas_anios:
+    type: number
+    weight: 40
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_a_5_a_9_anios:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_categoria_academicos:
+    type: options_select
+    weight: 29
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_edad_21_a_30:
+    type: number
+    weight: 41
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_edad_31_a_40:
+    type: number
+    weight: 42
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_edad_41_a_50:
+    type: number
+    weight: 43
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_edad_51_a_60:
+    type: number
+    weight: 44
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_edad_61_anios_o_mas:
+    type: number
+    weight: 45
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

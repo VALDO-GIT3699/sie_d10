@@ -1,0 +1,20 @@
+uuid: 1aa76721-4ef3-4578-af92-d8713dfe8714
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_consumo_energia
+field_name: field_consumo_energia
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

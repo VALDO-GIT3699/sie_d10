@@ -1,0 +1,20 @@
+uuid: 67fd9c46-cb6b-447b-9ef7-31250b27193c
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_edad_61_anios_o_mas
+field_name: field_edad_61_anios_o_mas
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

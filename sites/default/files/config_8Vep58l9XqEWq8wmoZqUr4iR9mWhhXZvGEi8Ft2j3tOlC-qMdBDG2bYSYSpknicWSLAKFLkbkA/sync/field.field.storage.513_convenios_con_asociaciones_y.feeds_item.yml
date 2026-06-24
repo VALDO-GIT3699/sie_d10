@@ -1,0 +1,23 @@
+uuid: d347e790-fb67-430a-9b99-c3a2f184f633
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.513_convenios_con_asociaciones_y
+  module:
+    - feeds
+id: storage.513_convenios_con_asociaciones_y.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 513_convenios_con_asociaciones_y
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

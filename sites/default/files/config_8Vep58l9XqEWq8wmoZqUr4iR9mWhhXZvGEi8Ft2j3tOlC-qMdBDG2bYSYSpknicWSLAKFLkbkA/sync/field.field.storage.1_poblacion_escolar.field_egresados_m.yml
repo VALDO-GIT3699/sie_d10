@@ -1,0 +1,23 @@
+uuid: bc56346e-417b-4877-8afe-ebb081c14750
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_egresados_m
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_egresados_m
+field_name: field_egresados_m
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Mujeres egresadas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

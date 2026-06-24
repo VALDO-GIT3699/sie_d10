@@ -1,0 +1,20 @@
+uuid: dc083a09-1d22-45a7-a898-92afe7fb2238
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_puntaje_minimo
+field_name: field_puntaje_minimo
+entity_type: storage
+type: decimal
+settings:
+  precision: 10
+  scale: 5
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

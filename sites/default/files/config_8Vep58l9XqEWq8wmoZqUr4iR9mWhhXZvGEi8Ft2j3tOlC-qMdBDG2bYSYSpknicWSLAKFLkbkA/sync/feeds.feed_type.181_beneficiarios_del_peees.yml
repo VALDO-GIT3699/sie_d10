@@ -1,0 +1,56 @@
+uuid: 7f294e84-d2fa-4d71-b456-f616995e138a
+langcode: es
+status: true
+dependencies:
+  config:
+    - storage.storage_type.181_beneficiarios_del_peees
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '181 Beneficiarios del PEEES'
+id: 181_beneficiarios_del_peees
+description: ''
+help: 'Beneficiarios del Programa de Estímulos Económicos a Estudiantes Sobresalientes'
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 181_beneficiarios_del_peees
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources: {  }
+mappings: {  }

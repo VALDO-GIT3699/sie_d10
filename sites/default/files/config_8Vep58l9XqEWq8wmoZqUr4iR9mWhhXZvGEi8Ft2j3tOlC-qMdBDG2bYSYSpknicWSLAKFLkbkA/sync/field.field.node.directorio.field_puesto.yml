@@ -1,0 +1,29 @@
+uuid: 7d4440da-558a-4445-aef7-c161f9853293
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_puesto
+    - node.type.directorio
+    - taxonomy.vocabulary.puesto
+id: node.directorio.field_puesto
+field_name: field_puesto
+entity_type: node
+bundle: directorio
+label: Puesto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      puesto: puesto
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

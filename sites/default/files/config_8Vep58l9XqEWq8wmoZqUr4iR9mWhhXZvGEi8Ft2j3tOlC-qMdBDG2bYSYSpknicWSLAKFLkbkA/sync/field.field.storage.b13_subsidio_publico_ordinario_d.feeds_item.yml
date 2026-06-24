@@ -1,0 +1,23 @@
+uuid: 43b0c89b-8e84-4940-8ff5-83dd55d7eba9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.b13_subsidio_publico_ordinario_d
+  module:
+    - feeds
+id: storage.b13_subsidio_publico_ordinario_d.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: b13_subsidio_publico_ordinario_d
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

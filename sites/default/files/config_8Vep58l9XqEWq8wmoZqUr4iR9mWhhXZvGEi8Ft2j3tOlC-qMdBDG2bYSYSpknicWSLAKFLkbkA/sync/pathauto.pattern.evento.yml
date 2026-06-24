@@ -1,0 +1,23 @@
+uuid: 91f44263-a500-4761-9058-6d9c939fb3a8
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.evento_de_agenda
+  module:
+    - node
+id: evento
+label: Evento
+type: 'canonical_entities:node'
+pattern: '/evento/[node:title]'
+selection_criteria:
+  920f1c05-6726-4593-929b-40564f3ebceb:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      evento_de_agenda: evento_de_agenda
+selection_logic: and
+weight: -5
+relationships: {  }

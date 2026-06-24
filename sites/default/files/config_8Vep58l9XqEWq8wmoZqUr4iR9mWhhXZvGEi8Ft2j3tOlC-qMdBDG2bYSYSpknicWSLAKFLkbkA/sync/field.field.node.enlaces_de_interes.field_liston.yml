@@ -1,0 +1,38 @@
+uuid: a650a881-e757-4cd0-a656-73d90a232181
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_liston
+    - node.type.enlaces_de_interes
+  module:
+    - image
+id: node.enlaces_de_interes.field_liston
+field_name: field_liston
+entity_type: node
+bundle: enlaces_de_interes
+label: Banner
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

@@ -1,0 +1,23 @@
+uuid: a918a3ae-f664-4684-8cfe-046022992bd1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_academicos_h
+    - storage.storage_type.713_pa_sems_categoria_nivel
+id: storage.713_pa_sems_categoria_nivel.field_academicos_h
+field_name: field_academicos_h
+entity_type: storage
+bundle: 713_pa_sems_categoria_nivel
+label: 'Académicos hombres'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

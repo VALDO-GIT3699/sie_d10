@@ -1,0 +1,11 @@
+uuid: 996dc1b5-55d2-478b-8189-681a87e6502f
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_personal
+id: taxonomy_term.tipo_personal
+target_entity_type_id: taxonomy_term
+target_bundle: tipo_personal
+default_langcode: site_default
+language_alterable: false

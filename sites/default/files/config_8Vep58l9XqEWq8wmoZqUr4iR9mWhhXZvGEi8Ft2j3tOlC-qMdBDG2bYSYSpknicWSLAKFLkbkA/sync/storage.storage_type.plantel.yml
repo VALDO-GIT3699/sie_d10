@@ -1,0 +1,13 @@
+uuid: 2b176022-a557-4020-95a6-e06c596809cf
+langcode: es
+status: true
+dependencies: {  }
+id: plantel
+label: Plantel
+description: 'Planteles de la Universidad de Guadalajara'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

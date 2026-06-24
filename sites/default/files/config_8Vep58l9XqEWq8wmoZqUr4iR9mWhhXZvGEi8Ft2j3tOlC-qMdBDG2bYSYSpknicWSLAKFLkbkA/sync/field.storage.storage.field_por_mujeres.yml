@@ -1,0 +1,20 @@
+uuid: bd287da6-7994-4e04-9f7f-724dc058fd35
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_por_mujeres
+field_name: field_por_mujeres
+entity_type: storage
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

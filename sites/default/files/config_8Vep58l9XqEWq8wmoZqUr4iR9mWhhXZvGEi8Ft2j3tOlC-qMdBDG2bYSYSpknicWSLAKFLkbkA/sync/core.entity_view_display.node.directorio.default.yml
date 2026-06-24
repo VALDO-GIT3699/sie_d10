@@ -1,0 +1,98 @@
+uuid: e1505a5c-a0a2-43cd-aeaa-fede7437c396
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.directorio.field_categoria_de_directorio
+    - field.field.node.directorio.field_correo_electronico
+    - field.field.node.directorio.field_direccion
+    - field.field.node.directorio.field_fotografia
+    - field.field.node.directorio.field_puesto
+    - field.field.node.directorio.field_semblanza
+    - field.field.node.directorio.field_telefono
+    - field.field.node.directorio.field_titulo_educativo
+    - node.type.directorio
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.directorio.default
+targetEntityType: node
+bundle: directorio
+mode: default
+content:
+  field_categoria_de_directorio:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_correo_electronico:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_direccion:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_fotografia:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_puesto:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_semblanza:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_telefono:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_titulo_educativo:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

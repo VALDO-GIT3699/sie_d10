@@ -1,0 +1,9 @@
+uuid: b4d61a3a-e222-439c-984e-44bbae0d757c
+langcode: es
+status: true
+dependencies: {  }
+name: 'Ámbito geográfico'
+vid: ambito_geogra
+description: 'Ámbito geográfico (Nacional / Internacional)'
+weight: 0
+new_revision: false

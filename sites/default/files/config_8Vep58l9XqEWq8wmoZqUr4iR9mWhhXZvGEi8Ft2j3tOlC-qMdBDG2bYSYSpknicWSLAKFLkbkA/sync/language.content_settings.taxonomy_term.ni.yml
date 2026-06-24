@@ -1,0 +1,11 @@
+uuid: 40a2b8e1-c3b4-419f-845d-d313381e4c67
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ni
+id: taxonomy_term.ni
+target_entity_type_id: taxonomy_term
+target_bundle: ni
+default_langcode: site_default
+language_alterable: false

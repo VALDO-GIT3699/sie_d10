@@ -1,0 +1,112 @@
+uuid: 8f1b8533-9d89-4167-9e40-33fd8faf5b88
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.421_practicas_profesionales.feeds_item
+    - field.field.storage.421_practicas_profesionales.field_anio
+    - field.field.storage.421_practicas_profesionales.field_convenios_vigentes_pp
+    - field.field.storage.421_practicas_profesionales.field_entidad_universitaria
+    - field.field.storage.421_practicas_profesionales.field_hombres
+    - field.field.storage.421_practicas_profesionales.field_mujeres
+    - field.field.storage.421_practicas_profesionales.field_personas_no_binarias
+    - field.field.storage.421_practicas_profesionales.field_row
+    - field.field.storage.421_practicas_profesionales.field_sector
+    - field.field.storage.421_practicas_profesionales.field_total
+    - storage.storage_type.421_practicas_profesionales
+id: storage.421_practicas_profesionales.default
+targetEntityType: storage
+bundle: 421_practicas_profesionales
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_convenios_vigentes_pp:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hombres:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_mujeres:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_personas_no_binarias:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_sector:
+    type: entity_reference_autocomplete
+    weight: 29
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_total:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

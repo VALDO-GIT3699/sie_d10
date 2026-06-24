@@ -1,0 +1,23 @@
+uuid: e7cd9eba-b6fb-47fb-a411-a389cfe93e56
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_row
+field_name: field_row
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 3ada4ad8-0b31-4685-94d3-48fa224c72f5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_fis_motriz_nb
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_fis_motriz_nb
+field_name: field_disc_fis_motriz_nb
+entity_type: storage
+bundle: matricula
+label: 'Personas no binarias con discapacidad física / motriz'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

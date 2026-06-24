@@ -1,0 +1,23 @@
+uuid: 802a14f7-748f-45c5-bea1-a87bcd9f23c7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_comp_usuarios
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.field_comp_usuarios
+field_name: field_comp_usuarios
+entity_type: storage
+bundle: 831_bibliotecas
+label: 'Computadoras para usuarios'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

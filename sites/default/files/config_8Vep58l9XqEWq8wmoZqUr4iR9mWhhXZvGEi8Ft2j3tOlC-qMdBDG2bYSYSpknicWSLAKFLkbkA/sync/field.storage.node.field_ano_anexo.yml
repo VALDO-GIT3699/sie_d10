@@ -1,0 +1,20 @@
+uuid: cda3c939-e7a6-4f2e-a6f7-66622b0f1758
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ano_anexo
+field_name: field_ano_anexo
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

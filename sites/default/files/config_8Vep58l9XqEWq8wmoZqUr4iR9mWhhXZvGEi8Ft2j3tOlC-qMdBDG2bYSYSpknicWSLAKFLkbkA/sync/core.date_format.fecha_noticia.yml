@@ -1,0 +1,8 @@
+uuid: 388d5c1f-2367-42f7-82d9-45c141cb2c8b
+langcode: es
+status: true
+dependencies: {  }
+id: fecha_noticia
+label: 'Fecha noticia'
+locked: false
+pattern: 'l j \d\e F \d\e Y'

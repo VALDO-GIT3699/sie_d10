@@ -1,0 +1,23 @@
+uuid: 639d0028-71a6-4799-82cc-0c39397fee67
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_matricula_t
+    - storage.storage_type.b15_subsidio_por_estudiante_de_l
+id: storage.b15_subsidio_por_estudiante_de_l.field_matricula_t
+field_name: field_matricula_t
+entity_type: storage
+bundle: b15_subsidio_por_estudiante_de_l
+label: 'Matrícula total'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

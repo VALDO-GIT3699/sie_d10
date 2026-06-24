@@ -1,0 +1,20 @@
+uuid: af7ea1cd-41bd-4c88-9a66-bd37e298eaf8
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_pa_categoria_t
+field_name: field_pa_categoria_t
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

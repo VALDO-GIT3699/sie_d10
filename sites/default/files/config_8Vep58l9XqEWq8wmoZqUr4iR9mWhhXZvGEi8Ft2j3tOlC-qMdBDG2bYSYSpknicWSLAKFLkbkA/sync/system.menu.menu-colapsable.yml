@@ -1,0 +1,8 @@
+uuid: 09daa0bd-c387-4807-97a7-926869d40414
+langcode: es
+status: true
+dependencies: {  }
+id: menu-colapsable
+label: 'Menú colapsable'
+description: 'Este menú se colapsa completo'
+locked: false

@@ -1,0 +1,213 @@
+uuid: f1124c5d-77cb-49d7-91ae-f7e317db3765
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.plantel.feeds_item
+    - field.field.storage.plantel.field_anio
+    - field.field.storage.plantel.field_clasificacion_plantel
+    - field.field.storage.plantel.field_clave_de_plantel
+    - field.field.storage.plantel.field_codigo_postal
+    - field.field.storage.plantel.field_conteo
+    - field.field.storage.plantel.field_domicilio
+    - field.field.storage.plantel.field_enlace_plantel
+    - field.field.storage.plantel.field_enlace_ubicacion
+    - field.field.storage.plantel.field_entidad_universitaria
+    - field.field.storage.plantel.field_localidad
+    - field.field.storage.plantel.field_municipio
+    - field.field.storage.plantel.field_nombre_plantel
+    - field.field.storage.plantel.field_nombre_plantel_corto
+    - field.field.storage.plantel.field_num_ext
+    - field.field.storage.plantel.field_num_int
+    - field.field.storage.plantel.field_orden
+    - field.field.storage.plantel.field_plantel_adscripcion
+    - field.field.storage.plantel.field_region
+    - field.field.storage.plantel.field_tipo_plantel
+    - storage.storage_type.plantel
+  module:
+    - link
+id: storage.plantel.default
+targetEntityType: storage
+bundle: plantel
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 33
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_clasificacion_plantel:
+    type: entity_reference_autocomplete
+    weight: 36
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_clave_de_plantel:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_codigo_postal:
+    type: number
+    weight: 42
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_conteo:
+    type: number
+    weight: 48
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_domicilio:
+    type: string_textfield
+    weight: 39
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_enlace_plantel:
+    type: link_default
+    weight: 45
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_enlace_ubicacion:
+    type: link_default
+    weight: 43
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_localidad:
+    type: string_textfield
+    weight: 38
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_municipio:
+    type: entity_reference_autocomplete
+    weight: 30
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nombre_plantel:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nombre_plantel_corto:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_num_ext:
+    type: string_textfield
+    weight: 40
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_num_int:
+    type: string_textfield
+    weight: 41
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_orden:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_plantel_adscripcion:
+    type: string_textfield
+    weight: 47
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_region:
+    type: entity_reference_autocomplete
+    weight: 37
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tipo_plantel:
+    type: entity_reference_autocomplete
+    weight: 35
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

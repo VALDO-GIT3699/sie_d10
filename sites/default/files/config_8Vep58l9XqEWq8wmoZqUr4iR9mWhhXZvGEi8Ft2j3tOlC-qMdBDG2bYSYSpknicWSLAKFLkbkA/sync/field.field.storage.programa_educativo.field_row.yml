@@ -1,0 +1,23 @@
+uuid: fb64b97f-bebb-452b-8412-5f586a2563d2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.programa_educativo
+id: storage.programa_educativo.field_row
+field_name: field_row
+entity_type: storage
+bundle: programa_educativo
+label: row
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

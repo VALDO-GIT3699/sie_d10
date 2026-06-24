@@ -1,0 +1,21 @@
+uuid: e7e3efa0-e2ff-4f6e-9dfc-e5063e6dcf7e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_fuente_financiamiento
+    - storage.storage_type.b12_ingresos_de_la_udeg
+  module:
+    - options
+id: storage.b12_ingresos_de_la_udeg.field_fuente_financiamiento
+field_name: field_fuente_financiamiento
+entity_type: storage
+bundle: b12_ingresos_de_la_udeg
+label: 'Fuente de financiamiento'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

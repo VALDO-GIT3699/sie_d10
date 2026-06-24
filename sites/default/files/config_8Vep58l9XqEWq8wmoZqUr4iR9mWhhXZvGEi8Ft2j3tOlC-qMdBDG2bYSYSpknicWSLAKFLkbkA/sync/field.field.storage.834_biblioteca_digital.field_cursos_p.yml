@@ -1,0 +1,23 @@
+uuid: cb0f6ffe-adab-4c6b-a5c1-2da0dbc8004e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cursos_p
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_cursos_p
+field_name: field_cursos_p
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Cursos presenciales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

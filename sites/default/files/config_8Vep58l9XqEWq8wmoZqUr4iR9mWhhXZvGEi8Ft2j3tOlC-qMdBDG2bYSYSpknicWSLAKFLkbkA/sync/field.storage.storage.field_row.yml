@@ -1,0 +1,20 @@
+uuid: b961f49b-5fe4-42bf-86cd-2380924593dd
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_row
+field_name: field_row
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 210fc9d7-b69f-4242-b64d-63419ba3af2f
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_30ar_tsu
+field_name: field_30ar_tsu
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

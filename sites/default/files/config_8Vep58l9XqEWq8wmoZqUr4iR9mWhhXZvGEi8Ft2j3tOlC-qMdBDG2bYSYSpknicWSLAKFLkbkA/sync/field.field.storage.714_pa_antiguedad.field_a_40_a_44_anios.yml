@@ -1,0 +1,23 @@
+uuid: 0c0c5fbf-8a51-426e-ba69-0085dbda5fa1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_a_40_a_44_anios
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_a_40_a_44_anios
+field_name: field_a_40_a_44_anios
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Antigüedad de 40 a 44 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

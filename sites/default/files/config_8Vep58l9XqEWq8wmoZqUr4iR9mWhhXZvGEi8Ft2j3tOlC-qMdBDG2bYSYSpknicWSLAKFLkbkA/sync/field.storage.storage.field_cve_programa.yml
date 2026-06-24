@@ -1,0 +1,19 @@
+uuid: 2a3d784e-bfcd-4ef6-828f-2b9baa811e0e
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_cve_programa
+field_name: field_cve_programa
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: storage
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

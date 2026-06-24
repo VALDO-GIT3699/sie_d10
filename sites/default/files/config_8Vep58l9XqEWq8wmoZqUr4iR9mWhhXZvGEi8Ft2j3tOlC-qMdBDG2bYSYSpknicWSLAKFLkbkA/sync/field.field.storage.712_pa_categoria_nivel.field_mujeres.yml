@@ -1,0 +1,23 @@
+uuid: 18d58367-16e3-4b92-8814-368a1bb0bcb4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_mujeres
+    - storage.storage_type.712_pa_categoria_nivel
+id: storage.712_pa_categoria_nivel.field_mujeres
+field_name: field_mujeres
+entity_type: storage
+bundle: 712_pa_categoria_nivel
+label: Mujeres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

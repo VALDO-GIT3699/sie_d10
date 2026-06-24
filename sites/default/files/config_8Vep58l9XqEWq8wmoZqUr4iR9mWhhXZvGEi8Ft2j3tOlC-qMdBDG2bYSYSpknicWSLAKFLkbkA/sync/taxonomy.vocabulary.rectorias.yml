@@ -1,0 +1,9 @@
+uuid: 2e81dde9-3bf9-4cd4-a1a2-6178d2e69133
+langcode: es
+status: true
+dependencies: {  }
+name: Rectorías
+vid: rectorias
+description: null
+weight: 0
+new_revision: false

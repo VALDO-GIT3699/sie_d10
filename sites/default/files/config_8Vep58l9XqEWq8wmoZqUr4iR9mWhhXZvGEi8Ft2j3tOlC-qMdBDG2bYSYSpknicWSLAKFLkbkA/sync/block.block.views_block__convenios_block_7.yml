@@ -1,0 +1,29 @@
+uuid: 9463924b-5139-49b9-9107-e090112e2388
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.convenios
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__convenios_block_7
+theme: b4seutheme
+region: content
+weight: -34
+provider: null
+plugin: 'views_block:convenios-block_7'
+settings:
+  id: 'views_block:convenios-block_7'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /internacionalizacion/convenios-de-internacionalizacion

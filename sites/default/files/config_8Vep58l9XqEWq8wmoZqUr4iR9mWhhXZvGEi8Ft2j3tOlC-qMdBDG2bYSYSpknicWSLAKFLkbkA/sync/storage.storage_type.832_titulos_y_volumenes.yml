@@ -1,0 +1,13 @@
+uuid: 60724e47-fb6d-4ff9-ab6b-ffabcc592992
+langcode: es
+status: true
+dependencies: {  }
+id: 832_titulos_y_volumenes
+label: '832 Títulos y Volúmenes'
+description: 'Títulos y volúmenes de las bibiliotecas del SiUBiUDG'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

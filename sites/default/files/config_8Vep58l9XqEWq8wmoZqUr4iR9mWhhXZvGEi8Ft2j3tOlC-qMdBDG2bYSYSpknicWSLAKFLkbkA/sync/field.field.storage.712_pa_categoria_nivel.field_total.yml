@@ -1,0 +1,23 @@
+uuid: 6699df43-0717-4912-840c-9b4dc1bf5a77
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total
+    - storage.storage_type.712_pa_categoria_nivel
+id: storage.712_pa_categoria_nivel.field_total
+field_name: field_total
+entity_type: storage
+bundle: 712_pa_categoria_nivel
+label: Total
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

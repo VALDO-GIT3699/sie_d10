@@ -1,0 +1,23 @@
+uuid: d87ee8af-da2b-4cee-907a-332587abf054
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_doc_prod_udg
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_doc_prod_udg
+field_name: field_doc_prod_udg
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Documentos de producción UdeG en el RIUdeG'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

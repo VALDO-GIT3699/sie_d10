@@ -1,0 +1,29 @@
+uuid: 337ab62b-8d8d-4962-96a7-6e841c76846d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_periodo_rectoria
+    - node.type.anexo_estadistico
+    - taxonomy.vocabulary.periodo_rectorias
+id: node.anexo_estadistico.field_periodo_rectoria
+field_name: field_periodo_rectoria
+entity_type: node
+bundle: anexo_estadistico
+label: 'Periodo rectoría'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      periodo_rectorias: periodo_rectorias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

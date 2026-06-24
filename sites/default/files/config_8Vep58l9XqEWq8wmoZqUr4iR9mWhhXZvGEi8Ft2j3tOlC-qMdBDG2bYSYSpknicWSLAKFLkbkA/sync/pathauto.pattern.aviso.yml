@@ -1,0 +1,23 @@
+uuid: 96c839a2-2eb0-489a-b21e-52be64eadd55
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type._aviso_emergente
+  module:
+    - node
+id: aviso
+label: Aviso
+type: 'canonical_entities:node'
+pattern: '/aviso/[node:title]'
+selection_criteria:
+  82de183d-7d66-49cd-9c7f-36e263740d32:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      _aviso_emergente: _aviso_emergente
+selection_logic: and
+weight: -5
+relationships: {  }

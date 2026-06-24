@@ -1,0 +1,23 @@
+uuid: 93d22744-12d8-41f7-b4e6-a6988f4317a9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_tecnicos_mt_m
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_tecnicos_mt_m
+field_name: field_tecnicos_mt_m
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Técnicos de medio tiempo mujeres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,9 @@
+uuid: 8d982c3b-57bd-4140-90f1-1a3ee6634030
+langcode: es
+status: true
+dependencies: {  }
+name: Año
+vid: ano
+description: 'Listado de años'
+weight: 0
+new_revision: false

@@ -1,0 +1,9 @@
+uuid: 285c087c-210e-4534-92ed-01e9692b04c7
+langcode: es
+status: true
+dependencies: {  }
+name: 'Concepto del ingreso'
+vid: concepto_del_ingreso
+description: 'Concepto de los ingresos autogenerados de la Universidad de Guadalajara'
+weight: 0
+new_revision: false

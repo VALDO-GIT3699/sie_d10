@@ -1,0 +1,29 @@
+uuid: feec48d1-e8a2-47b5-9c8b-cb19ce7fe5a6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_categoria_admon
+    - storage.storage_type.721_padmon_categoria
+    - taxonomy.vocabulary.padmon_categorias
+id: storage.721_padmon_categoria.field_categoria_admon
+field_name: field_categoria_admon
+entity_type: storage
+bundle: 721_padmon_categoria
+label: 'Categoría de administrativos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      padmon_categorias: padmon_categorias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

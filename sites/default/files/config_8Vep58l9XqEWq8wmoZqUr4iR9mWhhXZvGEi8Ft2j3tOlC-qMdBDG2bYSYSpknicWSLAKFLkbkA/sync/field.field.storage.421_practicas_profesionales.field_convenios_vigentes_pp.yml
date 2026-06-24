@@ -1,0 +1,23 @@
+uuid: 9401f919-e25b-4f09-a572-8110a9a5501d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_convenios_vigentes_pp
+    - storage.storage_type.421_practicas_profesionales
+id: storage.421_practicas_profesionales.field_convenios_vigentes_pp
+field_name: field_convenios_vigentes_pp
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: 'Convenios vigentes de prácticas profesionales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

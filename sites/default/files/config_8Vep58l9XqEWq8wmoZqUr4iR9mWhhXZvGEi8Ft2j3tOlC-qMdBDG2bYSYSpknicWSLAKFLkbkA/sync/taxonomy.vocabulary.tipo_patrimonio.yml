@@ -1,0 +1,9 @@
+uuid: c110246e-46c4-45b3-8514-f9f65c651820
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo de patrimonio'
+vid: tipo_patrimonio
+description: 'Tipo de patrimonio'
+weight: 0
+new_revision: false

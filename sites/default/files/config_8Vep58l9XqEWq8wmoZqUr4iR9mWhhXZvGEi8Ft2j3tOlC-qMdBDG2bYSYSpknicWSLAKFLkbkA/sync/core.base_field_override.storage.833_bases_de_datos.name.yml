@@ -1,0 +1,18 @@
+uuid: af2d67f4-6363-44a4-9ba1-3435efee165d
+langcode: es
+status: true
+dependencies:
+  config:
+    - storage.storage_type.833_bases_de_datos
+id: storage.833_bases_de_datos.name
+field_name: name
+entity_type: storage
+bundle: 833_bases_de_datos
+label: 'Base de datos'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

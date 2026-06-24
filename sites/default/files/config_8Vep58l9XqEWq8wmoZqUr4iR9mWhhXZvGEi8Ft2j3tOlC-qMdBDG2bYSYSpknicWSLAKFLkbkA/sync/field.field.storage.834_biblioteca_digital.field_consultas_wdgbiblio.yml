@@ -1,0 +1,23 @@
+uuid: aeb0e222-0f0a-4a96-a89e-451ea474e7b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_consultas_wdgbiblio
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_consultas_wdgbiblio
+field_name: field_consultas_wdgbiblio
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Consultas a la biblioteca digital'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: a36b6abe-d66b-4729-ad32-1702a8eb80b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_aud_sordera_h
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_aud_sordera_h
+field_name: field_disc_aud_sordera_h
+entity_type: storage
+bundle: matricula
+label: 'Hombres con discapacidad auditiva sordera'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

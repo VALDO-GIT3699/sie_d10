@@ -1,0 +1,19 @@
+uuid: 5dc3b7ec-6084-4d7c-a041-068456da40bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_programa_educativo_vigente
+    - storage.storage_type.422_pe_que_requieren_pp
+id: storage.422_pe_que_requieren_pp.field_programa_educativo_vigente
+field_name: field_programa_educativo_vigente
+entity_type: storage
+bundle: 422_pe_que_requieren_pp
+label: 'Programas educativos vigentes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

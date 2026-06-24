@@ -1,0 +1,65 @@
+uuid: 079b313b-63c1-4430-aa85-2c2bec938047
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.211_pe_unicos_con_matricula.feeds_item
+    - field.field.storage.211_pe_unicos_con_matricula.field_ciclo
+    - field.field.storage.211_pe_unicos_con_matricula.field_cve_programa
+    - field.field.storage.211_pe_unicos_con_matricula.field_row
+    - field.field.storage.211_pe_unicos_con_matricula.field_total
+    - storage.storage_type.211_pe_unicos_con_matricula
+id: storage.211_pe_unicos_con_matricula.default
+targetEntityType: storage
+bundle: 211_pe_unicos_con_matricula
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_cve_programa:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_total:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

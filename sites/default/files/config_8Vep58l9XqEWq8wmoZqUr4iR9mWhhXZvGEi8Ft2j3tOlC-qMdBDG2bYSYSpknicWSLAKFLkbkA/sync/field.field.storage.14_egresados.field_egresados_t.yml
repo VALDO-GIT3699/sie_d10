@@ -1,0 +1,23 @@
+uuid: 1eed13ef-7b32-4316-b50f-7a346ee33814
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_egresados_t
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_egresados_t
+field_name: field_egresados_t
+entity_type: storage
+bundle: 14_egresados
+label: 'Total de egresados'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

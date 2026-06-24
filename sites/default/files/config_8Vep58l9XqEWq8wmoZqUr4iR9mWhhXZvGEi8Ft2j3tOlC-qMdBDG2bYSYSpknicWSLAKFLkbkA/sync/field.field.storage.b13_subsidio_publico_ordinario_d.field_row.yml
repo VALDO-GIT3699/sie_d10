@@ -1,0 +1,23 @@
+uuid: fd4ca5e1-2e93-4b6f-848a-f7384b01e2be
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.b13_subsidio_publico_ordinario_d
+id: storage.b13_subsidio_publico_ordinario_d.field_row
+field_name: field_row
+entity_type: storage
+bundle: b13_subsidio_publico_ordinario_d
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

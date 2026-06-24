@@ -1,0 +1,9 @@
+uuid: 9e509495-9fb3-45d1-b624-d716a69ec1a2
+langcode: es
+status: true
+dependencies: {  }
+name: 'PAdmon categorías'
+vid: padmon_categorias
+description: 'Categorías del personal administrativo'
+weight: 0
+new_revision: false

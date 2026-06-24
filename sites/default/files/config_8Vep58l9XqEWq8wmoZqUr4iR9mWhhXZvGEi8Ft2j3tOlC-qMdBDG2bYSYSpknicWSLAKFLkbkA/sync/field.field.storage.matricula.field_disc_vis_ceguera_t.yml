@@ -1,0 +1,23 @@
+uuid: 27930f7d-a5fc-410d-a094-1491be4b1f41
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_vis_ceguera_t
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_vis_ceguera_t
+field_name: field_disc_vis_ceguera_t
+entity_type: storage
+bundle: matricula
+label: 'Total de personas con discapacidad visual ceguera'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

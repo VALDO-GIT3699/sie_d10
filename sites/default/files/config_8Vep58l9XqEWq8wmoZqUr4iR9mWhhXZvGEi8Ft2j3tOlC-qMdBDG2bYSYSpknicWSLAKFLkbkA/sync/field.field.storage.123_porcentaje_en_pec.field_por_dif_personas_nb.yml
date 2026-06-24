@@ -1,0 +1,23 @@
+uuid: e9e2f9ca-ae49-4da8-9687-fe00096a23d6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_dif_personas_nb
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.field_por_dif_personas_nb
+field_name: field_por_dif_personas_nb
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Porcentaje diferencia de personas no binarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,23 @@
+uuid: 9d8526a9-926f-4437-8ef3-4341662759ac
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_fis_motriz_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_fis_motriz_t
+field_name: field_disc_fis_motriz_t
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Total de personas con discapacidad física / motriz'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

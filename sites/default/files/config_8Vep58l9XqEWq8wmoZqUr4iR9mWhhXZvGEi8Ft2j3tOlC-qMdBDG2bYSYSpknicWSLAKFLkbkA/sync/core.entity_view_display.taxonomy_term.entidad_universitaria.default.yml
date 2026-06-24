@@ -1,0 +1,62 @@
+uuid: 8d8704b2-889d-44a6-980f-24a8981d2591
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.entidad_universitaria.field_categoria
+    - field.field.taxonomy_term.entidad_universitaria.field_clave_entidad_universitari
+    - field.field.taxonomy_term.entidad_universitaria.field_nombre_completo_entidad
+    - field.field.taxonomy_term.entidad_universitaria.field_orden_taxonomia
+    - taxonomy.vocabulary.entidad_universitaria
+  module:
+    - options
+    - text
+id: taxonomy_term.entidad_universitaria.default
+targetEntityType: taxonomy_term
+bundle: entidad_universitaria
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_categoria:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_clave_entidad_universitari:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_nombre_completo_entidad:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_orden_taxonomia:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

@@ -1,0 +1,23 @@
+uuid: 237d83b1-fd5c-42f3-b88a-5d37ac8e837e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_libros_e
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_libros_e
+field_name: field_libros_e
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Libros electrónicos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 6292c02e-3cd8-4f48-aea2-d198acf4064d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anexo_8
+    - storage.storage_type.anexo
+id: storage.anexo.field_anexo_8
+field_name: field_anexo_8
+entity_type: storage
+bundle: anexo
+label: 'Anexo 8'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

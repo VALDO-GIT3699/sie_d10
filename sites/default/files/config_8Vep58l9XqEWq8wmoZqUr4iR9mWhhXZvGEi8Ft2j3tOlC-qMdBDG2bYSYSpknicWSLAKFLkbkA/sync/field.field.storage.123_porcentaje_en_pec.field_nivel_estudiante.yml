@@ -1,0 +1,29 @@
+uuid: 8bd28acb-1ee3-4642-abbc-db5ec3e692b5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_nivel_estudiante
+    - storage.storage_type.123_porcentaje_en_pec
+    - taxonomy.vocabulary.nivel_estudiante
+id: storage.123_porcentaje_en_pec.field_nivel_estudiante
+field_name: field_nivel_estudiante
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Nivel del estudiante'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nivel_estudiante: nivel_estudiante
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,9 @@
+uuid: dc3cf8e6-30da-43ad-bc47-1b202f801f3b
+langcode: es
+status: true
+dependencies: {  }
+name: 'PA categoría/tiempo'
+vid: pa_categoria_tiempo
+description: 'Categoria y tiempo del personal académico'
+weight: 0
+new_revision: false

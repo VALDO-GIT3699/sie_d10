@@ -1,0 +1,11 @@
+uuid: 65e160fb-be60-4878-8974-82314f5d7f96
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.calendario
+id: taxonomy_term.calendario
+target_entity_type_id: taxonomy_term
+target_bundle: calendario
+default_langcode: site_default
+language_alterable: false

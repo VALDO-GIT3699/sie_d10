@@ -1,0 +1,23 @@
+uuid: 5226fe32-b735-4ca3-9074-ee7d5d649c56
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.plantel
+  module:
+    - feeds
+id: storage.plantel.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: plantel
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

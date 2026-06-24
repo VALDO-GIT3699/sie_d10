@@ -1,0 +1,20 @@
+uuid: 0082251c-0569-4101-8841-da6831b005cf
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_clasificacion_plantel
+field_name: field_clasificacion_plantel
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

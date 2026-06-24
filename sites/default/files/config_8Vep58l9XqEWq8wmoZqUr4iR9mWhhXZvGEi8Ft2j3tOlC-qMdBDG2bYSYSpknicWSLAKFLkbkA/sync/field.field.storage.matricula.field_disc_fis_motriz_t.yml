@@ -1,0 +1,23 @@
+uuid: d1d75b66-505b-4964-b1d8-a581c3de5232
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_fis_motriz_t
+    - storage.storage_type.matricula
+id: storage.matricula.field_disc_fis_motriz_t
+field_name: field_disc_fis_motriz_t
+entity_type: storage
+bundle: matricula
+label: 'Total de personas con discapacidad física / motriz'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,309 @@
+uuid: f981ca5f-e468-4b03-8f28-8ca1734a5eff
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.831_bibliotecas.field_anio
+    - field.field.storage.831_bibliotecas.field_asientos
+    - field.field.storage.831_bibliotecas.field_asistencia_prom
+    - field.field.storage.831_bibliotecas.field_bibliotecas
+    - field.field.storage.831_bibliotecas.field_busq_catalogo_linea
+    - field.field.storage.831_bibliotecas.field_comp_usuarios
+    - field.field.storage.831_bibliotecas.field_cubiculos_grup
+    - field.field.storage.831_bibliotecas.field_cubiculos_ind
+    - field.field.storage.831_bibliotecas.field_entidad_universitaria
+    - field.field.storage.831_bibliotecas.field_estanteria_m
+    - field.field.storage.831_bibliotecas.field_m2_ser_publico
+    - field.field.storage.831_bibliotecas.field_mesas
+    - field.field.storage.831_bibliotecas.field_no_usuarios
+    - field.field.storage.831_bibliotecas.field_prestamo_externo
+    - field.field.storage.831_bibliotecas.field_prestamo_interno
+    - field.field.storage.831_bibliotecas.field_row
+    - field.field.storage.831_bibliotecas.field_salas_audiovisuales
+    - field.field.storage.831_bibliotecas.field_total_m2
+    - storage.storage_type.831_bibliotecas
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '831 Bibliotecas'
+id: 831_bibliotecas
+description: 'Bibliotecas del SiUBiUDG'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 831_bibliotecas
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  bibliotecas:
+    value: bibliotecas
+    label: bibliotecas
+    machine_name: bibliotecas
+    type: csv
+  no_usuarios:
+    value: no_usuarios
+    label: no_usuarios
+    machine_name: no_usuarios
+    type: csv
+  asistencia_prom:
+    value: asistencia_prom
+    label: asistencia_prom
+    machine_name: asistencia_prom
+    type: csv
+  busq_catalogo_linea:
+    value: busq_catalogo_linea
+    label: busq_catalogo_linea
+    machine_name: busq_catalogo_linea
+    type: csv
+  prestamo_externo:
+    value: prestamo_externo
+    label: prestamo_externo
+    machine_name: prestamo_externo
+    type: csv
+  prestamo_interno:
+    value: prestamo_interno
+    label: prestamo_interno
+    machine_name: prestamo_interno
+    type: csv
+  comp_usuarios:
+    value: comp_usuarios
+    label: comp_usuarios
+    machine_name: comp_usuarios
+    type: csv
+  total_m2:
+    value: total_m2
+    label: total_m2
+    machine_name: total_m2
+    type: csv
+  m2_ser_publico:
+    value: m2_ser_publico
+    label: m2_ser_publico
+    machine_name: m2_ser_publico
+    type: csv
+  estanteria_m:
+    value: estanteria_m
+    label: estanteria_m
+    machine_name: estanteria_m
+    type: csv
+  asientos:
+    value: asientos
+    label: asientos
+    machine_name: asientos
+    type: csv
+  mesas:
+    value: mesas
+    label: mesas
+    machine_name: mesas
+    type: csv
+  cubiculos_ind:
+    value: cubiculos_ind
+    label: cubiculos_ind
+    machine_name: cubiculos_ind
+    type: csv
+  cubiculos_grup:
+    value: cubiculos_grup
+    label: cubiculos_grup
+    machine_name: cubiculos_grup
+    type: csv
+  salas_audiovisuales:
+    value: salas_audiovisuales
+    label: salas_audiovisuales
+    machine_name: salas_audiovisuales
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_bibliotecas
+    map:
+      value: bibliotecas
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_no_usuarios
+    map:
+      value: no_usuarios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_asistencia_prom
+    map:
+      value: asistencia_prom
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_busq_catalogo_linea
+    map:
+      value: busq_catalogo_linea
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_prestamo_externo
+    map:
+      value: prestamo_externo
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_prestamo_interno
+    map:
+      value: prestamo_interno
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_comp_usuarios
+    map:
+      value: comp_usuarios
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_total_m2
+    map:
+      value: total_m2
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_m2_ser_publico
+    map:
+      value: m2_ser_publico
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_estanteria_m
+    map:
+      value: estanteria_m
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_asientos
+    map:
+      value: asientos
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_mesas
+    map:
+      value: mesas
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_cubiculos_ind
+    map:
+      value: cubiculos_ind
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_cubiculos_grup
+    map:
+      value: cubiculos_grup
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_salas_audiovisuales
+    map:
+      value: salas_audiovisuales
+    settings:
+      language: null
+    unique: {  }

@@ -1,0 +1,9 @@
+uuid: 779a6415-d0b9-452e-80fc-764bd12e05a7
+langcode: es
+status: true
+dependencies: {  }
+name: 'Categoría de directorio'
+vid: categoria_de_directorio
+description: 'Categoría de puestos de directorio'
+weight: -10
+new_revision: false

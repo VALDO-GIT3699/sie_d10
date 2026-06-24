@@ -1,0 +1,29 @@
+uuid: b6c79a26-ca25-40a0-955c-6bc0fede4f75
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_municipio
+    - taxonomy.vocabulary.municipio
+    - taxonomy.vocabulary.planteles
+id: taxonomy_term.planteles.field_municipio
+field_name: field_municipio
+entity_type: taxonomy_term
+bundle: planteles
+label: Municipio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      municipio: municipio
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

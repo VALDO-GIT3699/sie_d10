@@ -1,0 +1,9 @@
+uuid: 5486d63e-0248-46a3-b8a2-81e3c267e612
+langcode: es
+status: true
+dependencies: {  }
+name: 'Ciclo de la Red UdeG'
+vid: ciclo_red
+description: 'Ciclos de la Red UdeG'
+weight: 0
+new_revision: false

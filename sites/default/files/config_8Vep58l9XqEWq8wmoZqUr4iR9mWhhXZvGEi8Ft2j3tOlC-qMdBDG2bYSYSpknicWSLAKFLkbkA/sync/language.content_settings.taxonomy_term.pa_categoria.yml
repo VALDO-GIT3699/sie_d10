@@ -1,0 +1,11 @@
+uuid: 4c60167d-98ee-4c24-8a7d-f3f83369acdc
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pa_categoria
+id: taxonomy_term.pa_categoria
+target_entity_type_id: taxonomy_term
+target_bundle: pa_categoria
+default_langcode: site_default
+language_alterable: false

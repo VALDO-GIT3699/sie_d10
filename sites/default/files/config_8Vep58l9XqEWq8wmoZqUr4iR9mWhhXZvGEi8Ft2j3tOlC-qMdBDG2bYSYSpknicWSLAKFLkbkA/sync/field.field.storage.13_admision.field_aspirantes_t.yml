@@ -1,0 +1,23 @@
+uuid: 5cd1deee-56b0-4b74-8375-87dcac543c7a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_aspirantes_t
+    - storage.storage_type.13_admision
+id: storage.13_admision.field_aspirantes_t
+field_name: field_aspirantes_t
+entity_type: storage
+bundle: 13_admision
+label: 'Aspirantes totales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

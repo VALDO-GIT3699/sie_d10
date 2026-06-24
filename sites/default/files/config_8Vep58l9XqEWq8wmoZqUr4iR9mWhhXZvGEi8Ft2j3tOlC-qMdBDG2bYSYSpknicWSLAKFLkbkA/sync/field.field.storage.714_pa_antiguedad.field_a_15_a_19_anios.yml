@@ -1,0 +1,23 @@
+uuid: c4905a43-2704-408b-9abf-a1cacc6a4572
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_a_15_a_19_anios
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_a_15_a_19_anios
+field_name: field_a_15_a_19_anios
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Antigüedad de 15 a 19 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

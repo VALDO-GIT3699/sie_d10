@@ -1,0 +1,23 @@
+uuid: d6ff1b0b-84bb-4f61-8691-c48ca618ed6b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_mujeres
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.field_por_mujeres
+field_name: field_por_mujeres
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Porcentaje de mujeres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

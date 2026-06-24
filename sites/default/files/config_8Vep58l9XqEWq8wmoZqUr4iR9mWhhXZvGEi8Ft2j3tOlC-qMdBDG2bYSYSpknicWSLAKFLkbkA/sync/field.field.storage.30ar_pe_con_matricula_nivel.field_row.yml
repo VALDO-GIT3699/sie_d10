@@ -1,0 +1,23 @@
+uuid: be6b76dc-9d96-45f4-ad63-e9aee95db265
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_row
+field_name: field_row
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,13 @@
+uuid: 3bd6126d-9953-427a-9f11-e2a860b49cd3
+langcode: es
+status: true
+dependencies: {  }
+id: 834_biblioteca_digital
+label: '834 Biblioteca Digital'
+description: 'Biblioteca Digital del SiUBiUDG'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

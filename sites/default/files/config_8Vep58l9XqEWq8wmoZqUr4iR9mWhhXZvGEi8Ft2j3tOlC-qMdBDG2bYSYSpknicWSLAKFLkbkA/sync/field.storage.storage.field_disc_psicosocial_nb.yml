@@ -1,0 +1,20 @@
+uuid: dc3b6207-0eea-4a5f-a4b3-137994f0f1b3
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_disc_psicosocial_nb
+field_name: field_disc_psicosocial_nb
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

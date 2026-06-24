@@ -1,0 +1,9 @@
+uuid: aca97eff-394f-4cc0-ad30-22ebae77dfd6
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo de estudiantes en programas de calidad'
+vid: tipo_estudiante_pec
+description: 'Tipo de estudiantes en programas de calidad'
+weight: 0
+new_revision: false

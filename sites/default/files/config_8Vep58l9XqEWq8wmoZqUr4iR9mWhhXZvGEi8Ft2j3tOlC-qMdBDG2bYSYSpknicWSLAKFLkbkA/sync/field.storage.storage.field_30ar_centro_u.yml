@@ -1,0 +1,20 @@
+uuid: 1b296070-ac14-4fcb-a6a8-6d81887c9ef8
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_30ar_centro_u
+field_name: field_30ar_centro_u
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

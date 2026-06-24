@@ -1,0 +1,19 @@
+uuid: f046e9c1-9862-4f8a-8640-5e5c41d30f93
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_sector_ss
+    - taxonomy.vocabulary.sector_ss
+id: taxonomy_term.sector_ss.field_sector_ss
+field_name: field_sector_ss
+entity_type: taxonomy_term
+bundle: sector_ss
+label: 'Clave sector del servicio social'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

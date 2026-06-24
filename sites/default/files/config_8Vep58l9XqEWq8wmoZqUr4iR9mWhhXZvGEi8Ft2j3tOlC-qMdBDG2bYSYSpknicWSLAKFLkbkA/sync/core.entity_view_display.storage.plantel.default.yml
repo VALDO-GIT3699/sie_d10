@@ -1,0 +1,211 @@
+uuid: 82c64937-8e00-4362-ba0e-db43a3c8d46d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.plantel.feeds_item
+    - field.field.storage.plantel.field_anio
+    - field.field.storage.plantel.field_clasificacion_plantel
+    - field.field.storage.plantel.field_clave_de_plantel
+    - field.field.storage.plantel.field_codigo_postal
+    - field.field.storage.plantel.field_conteo
+    - field.field.storage.plantel.field_domicilio
+    - field.field.storage.plantel.field_enlace_plantel
+    - field.field.storage.plantel.field_enlace_ubicacion
+    - field.field.storage.plantel.field_entidad_universitaria
+    - field.field.storage.plantel.field_localidad
+    - field.field.storage.plantel.field_municipio
+    - field.field.storage.plantel.field_nombre_plantel
+    - field.field.storage.plantel.field_nombre_plantel_corto
+    - field.field.storage.plantel.field_num_ext
+    - field.field.storage.plantel.field_num_int
+    - field.field.storage.plantel.field_orden
+    - field.field.storage.plantel.field_plantel_adscripcion
+    - field.field.storage.plantel.field_region
+    - field.field.storage.plantel.field_tipo_plantel
+    - storage.storage_type.plantel
+  module:
+    - link
+id: storage.plantel.default
+targetEntityType: storage
+bundle: plantel
+mode: default
+content:
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_clasificacion_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_clave_de_plantel:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_codigo_postal:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_conteo:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_domicilio:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_enlace_plantel:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_enlace_ubicacion:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_localidad:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_municipio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_nombre_plantel:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_nombre_plantel_corto:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_num_ext:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_num_int:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_orden:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_plantel_adscripcion:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_region:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_tipo_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

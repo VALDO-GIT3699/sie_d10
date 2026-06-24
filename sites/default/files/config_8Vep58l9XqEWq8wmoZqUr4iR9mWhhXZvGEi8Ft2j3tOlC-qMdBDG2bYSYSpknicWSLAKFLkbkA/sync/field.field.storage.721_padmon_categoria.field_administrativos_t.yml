@@ -1,0 +1,23 @@
+uuid: a2ba0136-a489-42bc-a4d0-25b51c874304
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_administrativos_t
+    - storage.storage_type.721_padmon_categoria
+id: storage.721_padmon_categoria.field_administrativos_t
+field_name: field_administrativos_t
+entity_type: storage
+bundle: 721_padmon_categoria
+label: 'Total de administrativos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

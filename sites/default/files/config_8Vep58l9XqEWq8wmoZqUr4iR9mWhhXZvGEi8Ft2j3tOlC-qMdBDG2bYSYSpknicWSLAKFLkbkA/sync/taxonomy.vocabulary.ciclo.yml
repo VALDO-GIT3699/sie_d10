@@ -1,0 +1,9 @@
+uuid: b00024e6-7eed-431a-ad63-6355b0f9ffc2
+langcode: es
+status: true
+dependencies: {  }
+name: Ciclo
+vid: ciclo
+description: Ciclos
+weight: 0
+new_revision: false

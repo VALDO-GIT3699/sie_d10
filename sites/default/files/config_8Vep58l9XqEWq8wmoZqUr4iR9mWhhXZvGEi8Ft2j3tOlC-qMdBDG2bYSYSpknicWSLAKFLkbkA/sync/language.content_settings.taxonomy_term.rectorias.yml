@@ -1,0 +1,11 @@
+uuid: 62dc76d1-bdfc-4892-9f2f-9d6509768f39
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.rectorias
+id: taxonomy_term.rectorias
+target_entity_type_id: taxonomy_term
+target_bundle: rectorias
+default_langcode: site_default
+language_alterable: false

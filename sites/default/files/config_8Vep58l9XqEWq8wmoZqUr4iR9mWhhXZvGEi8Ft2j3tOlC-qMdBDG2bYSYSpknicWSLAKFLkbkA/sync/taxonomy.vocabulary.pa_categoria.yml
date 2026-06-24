@@ -1,0 +1,9 @@
+uuid: 026fd369-38e7-46dd-9bbe-10bf90bf5ccf
+langcode: es
+status: true
+dependencies: {  }
+name: 'PA categoría'
+vid: pa_categoria
+description: 'Categorías del personal académico'
+weight: 0
+new_revision: false

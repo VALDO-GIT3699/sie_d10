@@ -1,0 +1,13 @@
+uuid: 1937aef1-8637-4569-9964-a448736fb345
+langcode: es
+status: true
+dependencies: {  }
+id: 14_egresados
+label: '14 Egresados y titulados'
+description: 'Egresados y titulados'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

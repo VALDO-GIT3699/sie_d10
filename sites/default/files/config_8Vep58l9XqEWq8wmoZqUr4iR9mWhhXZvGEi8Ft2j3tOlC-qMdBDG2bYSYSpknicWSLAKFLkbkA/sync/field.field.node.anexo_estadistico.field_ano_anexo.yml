@@ -1,0 +1,23 @@
+uuid: b04b1206-a97a-41a7-9319-e5bcaf234a1f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ano_anexo
+    - node.type.anexo_estadistico
+id: node.anexo_estadistico.field_ano_anexo
+field_name: field_ano_anexo
+entity_type: node
+bundle: anexo_estadistico
+label: Año
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

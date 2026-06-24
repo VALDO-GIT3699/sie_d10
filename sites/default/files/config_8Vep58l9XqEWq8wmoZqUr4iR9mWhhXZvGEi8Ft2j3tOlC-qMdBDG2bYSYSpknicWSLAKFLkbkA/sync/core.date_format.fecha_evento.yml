@@ -1,0 +1,8 @@
+uuid: c9cd9602-9ae7-40bf-a57f-6b0b922a656d
+langcode: es
+status: true
+dependencies: {  }
+id: fecha_evento
+label: 'Fecha evento'
+locked: false
+pattern: 'l j \d\e F \a \l\a\s H:i \h\r\s\.'

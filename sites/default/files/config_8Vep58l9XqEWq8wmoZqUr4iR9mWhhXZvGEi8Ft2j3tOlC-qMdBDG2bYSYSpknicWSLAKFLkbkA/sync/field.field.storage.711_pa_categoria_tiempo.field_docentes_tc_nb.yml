@@ -1,0 +1,23 @@
+uuid: 476e5453-6d7d-4ffd-8201-b12a9b173b6a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_docentes_tc_nb
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_docentes_tc_nb
+field_name: field_docentes_tc_nb
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Docentes de tiempo completo personas no binarias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

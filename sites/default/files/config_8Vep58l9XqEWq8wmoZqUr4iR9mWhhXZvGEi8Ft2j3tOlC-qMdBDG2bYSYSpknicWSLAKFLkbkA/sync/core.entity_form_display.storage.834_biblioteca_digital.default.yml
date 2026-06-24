@@ -1,0 +1,162 @@
+uuid: e35ed3a0-a3ae-435b-a281-3bd31fc3e25c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.834_biblioteca_digital.feeds_item
+    - field.field.storage.834_biblioteca_digital.field_anio
+    - field.field.storage.834_biblioteca_digital.field_bd_suscritas_conricyt
+    - field.field.storage.834_biblioteca_digital.field_bd_suscritas_udg
+    - field.field.storage.834_biblioteca_digital.field_bd_total
+    - field.field.storage.834_biblioteca_digital.field_consultas_wdgbiblio
+    - field.field.storage.834_biblioteca_digital.field_cursos_p
+    - field.field.storage.834_biblioteca_digital.field_cursos_v
+    - field.field.storage.834_biblioteca_digital.field_doc_prod_udg
+    - field.field.storage.834_biblioteca_digital.field_libros_e
+    - field.field.storage.834_biblioteca_digital.field_prom_dia_consultas
+    - field.field.storage.834_biblioteca_digital.field_revistas_e
+    - field.field.storage.834_biblioteca_digital.field_row
+    - field.field.storage.834_biblioteca_digital.field_t_usuarios_p
+    - field.field.storage.834_biblioteca_digital.field_t_usuarios_v
+    - field.field.storage.834_biblioteca_digital.field_tesis_bd
+    - field.field.storage.834_biblioteca_digital.field_visualizacion_rrss
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.default
+targetEntityType: storage
+bundle: 834_biblioteca_digital
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bd_suscritas_conricyt:
+    type: number
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_bd_suscritas_udg:
+    type: number
+    weight: 8
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_bd_total:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_consultas_wdgbiblio:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_cursos_p:
+    type: number
+    weight: 16
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_cursos_v:
+    type: number
+    weight: 13
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_doc_prod_udg:
+    type: number
+    weight: 12
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_libros_e:
+    type: number
+    weight: 9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_prom_dia_consultas:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_revistas_e:
+    type: number
+    weight: 10
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_t_usuarios_p:
+    type: number
+    weight: 17
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_t_usuarios_v:
+    type: number
+    weight: 14
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tesis_bd:
+    type: number
+    weight: 11
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_visualizacion_rrss:
+    type: number
+    weight: 15
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

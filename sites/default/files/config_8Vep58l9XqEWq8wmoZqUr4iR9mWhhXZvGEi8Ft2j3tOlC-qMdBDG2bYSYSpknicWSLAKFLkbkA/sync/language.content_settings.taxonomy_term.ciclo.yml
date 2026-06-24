@@ -1,0 +1,11 @@
+uuid: df4924a4-cc17-458a-892a-75d7f280450e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ciclo
+id: taxonomy_term.ciclo
+target_entity_type_id: taxonomy_term
+target_bundle: ciclo
+default_langcode: site_default
+language_alterable: false

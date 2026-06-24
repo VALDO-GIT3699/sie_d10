@@ -1,0 +1,113 @@
+uuid: 8d9d46ce-2f5e-42e7-ba5c-af3ecd84c2c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.511_convenios.feeds_item
+    - field.field.storage.511_convenios.field_anio
+    - field.field.storage.511_convenios.field_continente
+    - field.field.storage.511_convenios.field_convenio_especifico
+    - field.field.storage.511_convenios.field_convenio_estatus
+    - field.field.storage.511_convenios.field_convenio_general
+    - field.field.storage.511_convenios.field_pais
+    - field.field.storage.511_convenios.field_region
+    - field.field.storage.511_convenios.field_row
+    - field.field.storage.511_convenios.field_total
+    - storage.storage_type.511_convenios
+  module:
+    - options
+id: storage.511_convenios.default
+targetEntityType: storage
+bundle: 511_convenios
+mode: default
+content:
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_continente:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_convenio_especifico:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_convenio_estatus:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_convenio_general:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_pais:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_region:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_total:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

@@ -1,0 +1,15 @@
+uuid: c1256352-574e-4177-824c-620dff7ae8e3
+langcode: es
+status: true
+dependencies: {  }
+name: galeria_nodo_160x160_
+label: 'Galeria nodo (160x160)'
+effects:
+  7152df5a-7e71-46f2-b94c-5fa5c869456c:
+    uuid: 7152df5a-7e71-46f2-b94c-5fa5c869456c
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 160
+      height: 160
+      anchor: center-center

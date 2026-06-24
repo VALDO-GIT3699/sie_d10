@@ -1,0 +1,23 @@
+uuid: d8ea5f01-173e-4107-be8c-be2289d3fcc6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_administrativos_h
+    - storage.storage_type.721_padmon_categoria
+id: storage.721_padmon_categoria.field_administrativos_h
+field_name: field_administrativos_h
+entity_type: storage
+bundle: 721_padmon_categoria
+label: 'Administrativos hombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,29 @@
+uuid: 08eeae70-f6a8-43ec-a083-74ae1fd40565
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_tipo_plantel
+    - storage.storage_type.plantel
+    - taxonomy.vocabulary.tipo_de_plantel
+id: storage.plantel.field_tipo_plantel
+field_name: field_tipo_plantel
+entity_type: storage
+bundle: plantel
+label: 'Tipo de plantel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tipo_de_plantel: tipo_de_plantel
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

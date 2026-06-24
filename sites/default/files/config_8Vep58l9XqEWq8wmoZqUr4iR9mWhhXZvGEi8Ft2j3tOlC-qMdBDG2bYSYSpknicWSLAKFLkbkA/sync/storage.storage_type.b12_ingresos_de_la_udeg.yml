@@ -1,0 +1,13 @@
+uuid: 4ec28259-8a19-4439-a4a8-dbc2e2ed32bb
+langcode: es
+status: true
+dependencies: {  }
+id: b12_ingresos_de_la_udeg
+label: 'b12 Ingresos de la UdeG'
+description: 'Ingresos de la Universidad de Guadalajara por fuente de financiamiento y distribución porcentual'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

@@ -1,0 +1,20 @@
+uuid: bf346e22-c95c-4cb6-9439-dde7a3d324fa
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_disc_intelectual_t
+field_name: field_disc_intelectual_t
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

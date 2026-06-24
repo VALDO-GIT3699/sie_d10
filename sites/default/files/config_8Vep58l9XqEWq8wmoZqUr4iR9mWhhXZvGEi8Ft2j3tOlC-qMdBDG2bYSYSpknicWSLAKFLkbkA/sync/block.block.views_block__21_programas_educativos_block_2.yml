@@ -1,0 +1,29 @@
+uuid: ff693b59-7bcc-438d-9da5-122f40eaca54
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.21_programas_educativos
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__21_programas_educativos_block_2
+theme: b4seutheme
+region: content
+weight: -26
+provider: null
+plugin: 'views_block:21_programas_educativos-block_2'
+settings:
+  id: 'views_block:21_programas_educativos-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/programas-educativos\r\n"

@@ -1,0 +1,29 @@
+uuid: 566ffa39-6921-4838-9bb1-07d3b0d6bcfb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_entidad_universitaria
+    - storage.storage_type.421_practicas_profesionales
+    - taxonomy.vocabulary.entidad_universitaria
+id: storage.421_practicas_profesionales.field_entidad_universitaria
+field_name: field_entidad_universitaria
+entity_type: storage
+bundle: 421_practicas_profesionales
+label: 'Entidad universitaria'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      entidad_universitaria: entidad_universitaria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

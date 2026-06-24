@@ -1,0 +1,20 @@
+uuid: 034170c3-ee09-4493-93b6-a9f15e7ce0ce
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_concepto_ingreso
+field_name: field_concepto_ingreso
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

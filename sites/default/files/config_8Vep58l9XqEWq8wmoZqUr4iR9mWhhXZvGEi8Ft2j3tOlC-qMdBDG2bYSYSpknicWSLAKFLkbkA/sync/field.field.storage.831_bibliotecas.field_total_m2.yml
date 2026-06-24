@@ -1,0 +1,23 @@
+uuid: 14c9d21a-2849-4e0c-a0a8-70f576e55844
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total_m2
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.field_total_m2
+field_name: field_total_m2
+entity_type: storage
+bundle: 831_bibliotecas
+label: 'Total (m2)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

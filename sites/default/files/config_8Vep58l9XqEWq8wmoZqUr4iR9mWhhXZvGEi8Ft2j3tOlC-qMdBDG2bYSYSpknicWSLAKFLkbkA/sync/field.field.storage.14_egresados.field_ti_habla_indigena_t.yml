@@ -1,0 +1,23 @@
+uuid: f40cd665-7252-48ba-a7f7-bc3e59588fd4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_habla_indigena_t
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_ti_habla_indigena_t
+field_name: field_ti_habla_indigena_t
+entity_type: storage
+bundle: 14_egresados
+label: 'Total de titulados de habla indígena'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

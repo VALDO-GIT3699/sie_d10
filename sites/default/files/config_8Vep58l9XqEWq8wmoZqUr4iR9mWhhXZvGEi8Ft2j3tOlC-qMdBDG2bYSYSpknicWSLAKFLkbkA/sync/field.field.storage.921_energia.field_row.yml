@@ -1,0 +1,23 @@
+uuid: 4d3558a5-2fc1-4aa2-a716-03d5b4b32a6a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.921_energia
+id: storage.921_energia.field_row
+field_name: field_row
+entity_type: storage
+bundle: 921_energia
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

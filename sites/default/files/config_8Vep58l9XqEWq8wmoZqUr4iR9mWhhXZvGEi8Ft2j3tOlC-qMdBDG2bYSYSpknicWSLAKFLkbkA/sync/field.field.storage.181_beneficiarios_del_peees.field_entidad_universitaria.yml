@@ -1,0 +1,29 @@
+uuid: 1c50f191-f047-479c-b4a0-a4cfdd89a877
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_entidad_universitaria
+    - storage.storage_type.181_beneficiarios_del_peees
+    - taxonomy.vocabulary.entidad_universitaria
+id: storage.181_beneficiarios_del_peees.field_entidad_universitaria
+field_name: field_entidad_universitaria
+entity_type: storage
+bundle: 181_beneficiarios_del_peees
+label: 'Entidad universitaria'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      entidad_universitaria: entidad_universitaria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,27 @@
+uuid: 926c0f31-aec8-45cf-b1f2-1c527bd55d78
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - storage
+id: storage.field_suscripcion
+field_name: field_suscripcion
+entity_type: storage
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: UDG
+      label: 'Suscritas por la Unversidad de Guadalajara'
+    -
+      value: CONRICYT
+      label: 'Suscritas por el CONRICYT'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

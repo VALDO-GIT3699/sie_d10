@@ -1,0 +1,20 @@
+uuid: 39bdcb44-3dc6-45c0-800c-d78932fa5e06
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+    - taxonomy
+id: storage.field_pais
+field_name: field_pais
+entity_type: storage
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

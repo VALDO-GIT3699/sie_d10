@@ -1,0 +1,29 @@
+uuid: 253661b4-c47f-4306-bc97-e44c6c0a5e1f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anio
+    - storage.storage_type.832_titulos_y_volumenes
+    - taxonomy.vocabulary.ano
+id: storage.832_titulos_y_volumenes.field_anio
+field_name: field_anio
+entity_type: storage
+bundle: 832_titulos_y_volumenes
+label: Año
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano: ano
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

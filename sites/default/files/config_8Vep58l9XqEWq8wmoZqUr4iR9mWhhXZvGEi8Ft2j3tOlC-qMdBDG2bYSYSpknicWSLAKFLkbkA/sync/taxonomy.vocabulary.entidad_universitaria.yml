@@ -1,0 +1,9 @@
+uuid: 7dd0f639-42a9-4104-84b0-83899d348344
+langcode: es
+status: true
+dependencies: {  }
+name: 'Entidad universitaria'
+vid: entidad_universitaria
+description: 'Entidad universitaria de la Universidad de Guadalajara'
+weight: 0
+new_revision: false

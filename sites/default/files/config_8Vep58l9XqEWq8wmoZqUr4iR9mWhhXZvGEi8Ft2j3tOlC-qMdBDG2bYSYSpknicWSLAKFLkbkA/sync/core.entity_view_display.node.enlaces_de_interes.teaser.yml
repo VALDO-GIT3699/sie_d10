@@ -1,0 +1,30 @@
+uuid: 90b9339b-ec75-4d1d-965a-14b730635b19
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.enlaces_de_interes.field_link
+    - field.field.node.enlaces_de_interes.field_liston
+    - field.field.node.enlaces_de_interes.field_url_liston
+    - node.type.enlaces_de_interes
+  module:
+    - user
+id: node.enlaces_de_interes.teaser
+targetEntityType: node
+bundle: enlaces_de_interes
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_link: true
+  field_liston: true
+  field_url_liston: true
+  langcode: true

@@ -1,0 +1,13 @@
+uuid: c70e8a4e-cc18-43a6-a79a-26773034f5b1
+langcode: es
+status: true
+dependencies: {  }
+id: 121_calidad_pc_sinems
+label: '121 Calidad PC-SINEMS'
+description: 'Matrícula en planteles en el Padrón de Calidad del Sistema Nacional de Educación Media Superior'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

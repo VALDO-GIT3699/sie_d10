@@ -1,0 +1,182 @@
+uuid: 2bfb8c1a-ad36-42c6-b7ca-6f6166fbae31
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.311_historico_de_investigadores.field_anio
+    - field.field.storage.311_historico_de_investigadores.field_entidad_universitaria
+    - field.field.storage.311_historico_de_investigadores.field_hombres
+    - field.field.storage.311_historico_de_investigadores.field_mujeres
+    - field.field.storage.311_historico_de_investigadores.field_nivel_invest
+    - field.field.storage.311_historico_de_investigadores.field_personas_no_binarias
+    - field.field.storage.311_historico_de_investigadores.field_row
+    - field.field.storage.311_historico_de_investigadores.field_total
+    - storage.storage_type.311_historico_de_investigadores
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '311 Histórico de investigadores'
+id: 311_historico_de_investigadores
+description: 'Histórico de los miembros del Sistema Nacional de Investigadoras e Investigadores y del Sistema Nacional de Creadores de Arte'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 311_historico_de_investigadores
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  entidad_universitaria:
+    value: entidad_universitaria
+    label: entidad_universitaria
+    machine_name: entidad_universitaria
+    type: csv
+  nivel_invest:
+    value: nivel_invest
+    label: nivel_invest
+    machine_name: nivel_invest
+    type: csv
+  hombres:
+    value: hombres
+    label: hombres
+    machine_name: hombres
+    type: csv
+  mujeres:
+    value: mujeres
+    label: mujeres
+    machine_name: mujeres
+    type: csv
+  personas_nb:
+    value: personas_nb
+    label: personas_nb
+    machine_name: personas_nb
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_entidad_universitaria
+    map:
+      target_id: entidad_universitaria
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: entidad_universitaria
+      feeds_item: false
+  -
+    target: field_nivel_invest
+    map:
+      target_id: nivel_invest
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: nivel_invest
+      feeds_item: false
+  -
+    target: field_hombres
+    map:
+      value: hombres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_mujeres
+    map:
+      value: mujeres
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_personas_no_binarias
+    map:
+      value: personas_nb
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }

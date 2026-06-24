@@ -1,0 +1,11 @@
+uuid: d1bfb6eb-66c8-400d-abc0-04d68f7e8926
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.periodo_rectorias
+id: taxonomy_term.periodo_rectorias
+target_entity_type_id: taxonomy_term
+target_bundle: periodo_rectorias
+default_langcode: site_default
+language_alterable: false

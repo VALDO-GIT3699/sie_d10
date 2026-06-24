@@ -1,0 +1,21 @@
+uuid: 3c364852-7386-4dca-a482-fe8d3a5752ec
+langcode: es
+status: true
+dependencies:
+  module:
+    - bigint
+    - storage
+id: storage.field_sub_federal_estudiante
+field_name: field_sub_federal_estudiante
+entity_type: storage
+type: bigint
+settings:
+  unsigned: false
+  size: big
+module: bigint
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

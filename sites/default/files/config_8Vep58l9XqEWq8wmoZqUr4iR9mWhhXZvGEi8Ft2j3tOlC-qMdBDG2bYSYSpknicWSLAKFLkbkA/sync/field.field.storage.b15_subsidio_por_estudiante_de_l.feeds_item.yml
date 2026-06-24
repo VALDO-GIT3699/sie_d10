@@ -1,0 +1,23 @@
+uuid: 8114cf0f-0be6-404a-b30f-8f488074f0d3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.b15_subsidio_por_estudiante_de_l
+  module:
+    - feeds
+id: storage.b15_subsidio_por_estudiante_de_l.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: b15_subsidio_por_estudiante_de_l
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

@@ -1,0 +1,23 @@
+uuid: f0b8051f-0e53-40f2-adec-5c1ac9ccdf49
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.b12_ingresos_de_la_udeg
+id: storage.b12_ingresos_de_la_udeg.field_row
+field_name: field_row
+entity_type: storage
+bundle: b12_ingresos_de_la_udeg
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

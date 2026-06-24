@@ -1,0 +1,23 @@
+uuid: 492730ba-d5ef-47a3-80b8-8277be74461f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_cursos_v
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_cursos_v
+field_name: field_cursos_v
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: 'Cursos virtuales'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

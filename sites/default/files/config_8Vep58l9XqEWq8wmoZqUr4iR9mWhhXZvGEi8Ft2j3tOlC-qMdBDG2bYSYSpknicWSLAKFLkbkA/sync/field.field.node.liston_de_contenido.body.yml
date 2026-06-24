@@ -1,0 +1,23 @@
+uuid: 5ea055e3-223c-4b1a-909b-473eafdc7ed9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.liston_de_contenido
+  module:
+    - text
+id: node.liston_de_contenido.body
+field_name: body
+entity_type: node
+bundle: liston_de_contenido
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

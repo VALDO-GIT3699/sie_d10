@@ -1,0 +1,13 @@
+uuid: 741043a8-e441-4a2f-a618-9b5b431381b4
+langcode: es
+status: true
+dependencies: {  }
+id: a31_solicitudes_de_informacion
+label: 'a31 Solicitudes de información'
+description: 'Solicitudes de información de transparencia y acceso a la información resueltas de la Universidad de Guadalajara'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

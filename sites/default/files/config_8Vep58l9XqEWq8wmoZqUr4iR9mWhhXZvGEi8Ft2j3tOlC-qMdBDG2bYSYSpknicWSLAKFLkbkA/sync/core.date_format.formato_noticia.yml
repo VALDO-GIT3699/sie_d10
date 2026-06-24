@@ -1,0 +1,8 @@
+uuid: 1aac51d4-b006-4cb9-86af-d423021e0f1b
+langcode: es
+status: true
+dependencies: {  }
+id: formato_noticia
+label: Noticia
+locked: false
+pattern: 'd F Y'

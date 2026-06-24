@@ -1,0 +1,23 @@
+uuid: 5e10d150-3127-4aec-bf0d-ce31d50477a8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_discapacidad_t
+    - storage.storage_type.14_egresados
+id: storage.14_egresados.field_ti_discapacidad_t
+field_name: field_ti_discapacidad_t
+entity_type: storage
+bundle: 14_egresados
+label: 'Total de titulados con discapacidad'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

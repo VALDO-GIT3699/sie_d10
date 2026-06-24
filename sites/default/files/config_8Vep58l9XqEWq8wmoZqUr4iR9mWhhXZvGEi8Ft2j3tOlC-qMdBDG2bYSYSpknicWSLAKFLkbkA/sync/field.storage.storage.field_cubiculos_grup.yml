@@ -1,0 +1,20 @@
+uuid: 174c0a84-54e2-43e8-b122-a72a4a37f150
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_cubiculos_grup
+field_name: field_cubiculos_grup
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

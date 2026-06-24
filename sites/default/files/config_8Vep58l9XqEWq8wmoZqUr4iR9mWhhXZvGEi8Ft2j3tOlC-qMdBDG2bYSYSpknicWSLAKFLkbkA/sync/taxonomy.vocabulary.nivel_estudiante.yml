@@ -1,0 +1,9 @@
+uuid: 5fd20097-9b1d-4cb3-b6c5-c4e33447d29c
+langcode: es
+status: true
+dependencies: {  }
+name: 'Nivel del estudiante'
+vid: nivel_estudiante
+description: 'Pregrado / Posgrado'
+weight: 0
+new_revision: false

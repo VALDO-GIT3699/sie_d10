@@ -1,0 +1,36 @@
+uuid: 24ec8f15-e987-4c13-b0de-7b0c0bac3d56
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.menu-lateral
+  module:
+    - menu_block
+    - system
+  theme:
+    - b4seutheme
+id: menulateral
+theme: b4seutheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'menu_block:menu-lateral'
+settings:
+  id: 'menu_block:menu-lateral'
+  label: 'Menú lateral'
+  label_display: '0'
+  provider: menu_block
+  follow: false
+  follow_parent: active
+  label_link: false
+  label_type: block
+  level: 1
+  depth: 2
+  expand_all_items: false
+  parent: 'menu-lateral:'
+  suggestion: menu_lateral
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/inicio2\r\n/30-anos-de-la-red-udeg\r\n/segundo-menu\r\n/tercer-menu\r\n/pagina-submenu"

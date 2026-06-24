@@ -1,0 +1,23 @@
+uuid: daf63dfc-791c-4835-b037-771630bf35cb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_multiple_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_multiple_h
+field_name: field_disc_multiple_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres con discapacidad múltiple'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: eaecc9b3-0fbd-4e21-8b45-049cb75e6280
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_convenio_especifico
+field_name: field_convenio_especifico
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

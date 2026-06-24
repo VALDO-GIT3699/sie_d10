@@ -1,0 +1,23 @@
+uuid: 999ea3a6-4533-4f9a-833b-de3f1c6dcf23
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_intelectual_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_intelectual_h
+field_name: field_disc_intelectual_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres con discapacidad intelectual'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

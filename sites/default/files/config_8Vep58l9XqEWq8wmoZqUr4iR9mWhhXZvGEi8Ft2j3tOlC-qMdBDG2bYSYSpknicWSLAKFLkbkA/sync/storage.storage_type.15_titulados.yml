@@ -1,0 +1,13 @@
+uuid: a91aa0c6-ec31-4edb-aee9-039c1a95e903
+langcode: es
+status: true
+dependencies: {  }
+id: 15_titulados
+label: '15 Titulados'
+description: Titulados
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

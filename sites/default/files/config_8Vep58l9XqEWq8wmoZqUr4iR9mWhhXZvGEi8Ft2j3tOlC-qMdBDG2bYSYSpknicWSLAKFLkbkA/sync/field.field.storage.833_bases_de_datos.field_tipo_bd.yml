@@ -1,0 +1,21 @@
+uuid: 15ea42be-f697-4cfd-a10a-4ebfb24c5484
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_tipo_bd
+    - storage.storage_type.833_bases_de_datos
+  module:
+    - options
+id: storage.833_bases_de_datos.field_tipo_bd
+field_name: field_tipo_bd
+entity_type: storage
+bundle: 833_bases_de_datos
+label: 'Tipo de base de datos'
+description: 'Pueden ser <strong>"Revistas a texto completo"</strong>, <strong>"Libros electrónicos"</strong> o <strong>"Referenciales"</strong>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,214 @@
+uuid: bde9b25c-e892-43e1-9755-0b33b6413366
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.13_admision.feeds_item
+    - field.field.storage.13_admision.field_admitidos_h
+    - field.field.storage.13_admision.field_admitidos_m
+    - field.field.storage.13_admision.field_admitidos_nb
+    - field.field.storage.13_admision.field_admitidos_t
+    - field.field.storage.13_admision.field_anio
+    - field.field.storage.13_admision.field_aspirantes_h
+    - field.field.storage.13_admision.field_aspirantes_m
+    - field.field.storage.13_admision.field_aspirantes_nb
+    - field.field.storage.13_admision.field_aspirantes_t
+    - field.field.storage.13_admision.field_calendario
+    - field.field.storage.13_admision.field_ciclo
+    - field.field.storage.13_admision.field_cupo
+    - field.field.storage.13_admision.field_cve_plantel
+    - field.field.storage.13_admision.field_cve_programa
+    - field.field.storage.13_admision.field_no_admitidos_h
+    - field.field.storage.13_admision.field_no_admitidos_m
+    - field.field.storage.13_admision.field_no_admitidos_nb
+    - field.field.storage.13_admision.field_no_admitidos_t
+    - field.field.storage.13_admision.field_por_admision
+    - field.field.storage.13_admision.field_puntaje_minimo
+    - field.field.storage.13_admision.field_row
+    - storage.storage_type.13_admision
+id: storage.13_admision.default
+targetEntityType: storage
+bundle: 13_admision
+mode: default
+content:
+  field_admitidos_h:
+    type: number
+    weight: 12
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_admitidos_m:
+    type: number
+    weight: 13
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_admitidos_nb:
+    type: number
+    weight: 14
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_admitidos_t:
+    type: number
+    weight: 15
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_aspirantes_h:
+    type: number
+    weight: 8
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_aspirantes_m:
+    type: number
+    weight: 9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_aspirantes_nb:
+    type: number
+    weight: 10
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_aspirantes_t:
+    type: number
+    weight: 11
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_calendario:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ciclo:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_cupo:
+    type: number
+    weight: 21
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_cve_plantel:
+    type: entity_reference_autocomplete
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_cve_programa:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_admitidos_h:
+    type: number
+    weight: 16
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_admitidos_m:
+    type: number
+    weight: 17
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_admitidos_nb:
+    type: number
+    weight: 18
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_admitidos_t:
+    type: number
+    weight: 19
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_por_admision:
+    type: number
+    weight: 20
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_puntaje_minimo:
+    type: number
+    weight: 22
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

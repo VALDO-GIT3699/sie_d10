@@ -1,0 +1,29 @@
+uuid: ae0a2857-8804-43c3-909d-7f8f3ed1b8db
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.personal_academico
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__personal_academico_block_31
+theme: b4seutheme
+region: content
+weight: 40
+provider: null
+plugin: 'views_block:personal_academico-block_31'
+settings:
+  id: 'views_block:personal_academico-block_31'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /recursos-humanos/personal-academico-por-rango-de-antiguedad-y-edad

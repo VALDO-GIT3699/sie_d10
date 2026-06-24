@@ -1,0 +1,29 @@
+uuid: 96b1cb54-fdbb-4a44-bd82-3a15ffbacd16
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_tipo_estudiante_pec
+    - storage.storage_type.122_estudiantes_en_pec
+    - taxonomy.vocabulary.tipo_estudiante_pec
+id: storage.122_estudiantes_en_pec.field_tipo_estudiante_pec
+field_name: field_tipo_estudiante_pec
+entity_type: storage
+bundle: 122_estudiantes_en_pec
+label: 'Categoría de estudiantes en programas de calidad'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tipo_estudiante_pec: tipo_estudiante_pec
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

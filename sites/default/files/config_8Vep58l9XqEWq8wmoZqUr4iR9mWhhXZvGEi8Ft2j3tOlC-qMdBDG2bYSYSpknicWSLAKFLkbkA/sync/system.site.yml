@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: es
+uuid: 2126a92b-3edc-4e18-8efd-1b7e48c10ff8
+name: 'Sistema Institucional de Estadísticas de la Universidad de Guadalajara'
+mail: joane.buenrostro@udg.mx
+slogan: ''
+page:
+  403: /node/61
+  404: /node/60
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es
+mail_notification: ''

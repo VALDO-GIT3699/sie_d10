@@ -1,0 +1,20 @@
+uuid: e374d159-1659-4ab3-a316-e81df8bbbf78
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_sus_rev_impresas
+field_name: field_sus_rev_impresas
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

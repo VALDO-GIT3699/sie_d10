@@ -1,0 +1,23 @@
+uuid: e021d009-4187-4def-83e6-c15ace0b9acd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_prof_asig_t
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_prof_asig_t
+field_name: field_prof_asig_t
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Profesores de asignatura total'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

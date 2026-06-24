@@ -1,0 +1,11 @@
+uuid: b75d409e-b86a-47cf-8929-bb9a74c68802
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.galeria_de_videos
+id: node.galeria_de_videos
+target_entity_type_id: node
+target_bundle: galeria_de_videos
+default_langcode: site_default
+language_alterable: false

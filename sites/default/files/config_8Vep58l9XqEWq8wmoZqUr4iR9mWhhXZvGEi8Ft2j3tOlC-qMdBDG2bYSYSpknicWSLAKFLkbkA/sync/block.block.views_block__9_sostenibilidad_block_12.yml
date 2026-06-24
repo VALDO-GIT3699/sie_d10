@@ -1,0 +1,29 @@
+uuid: cf2fca92-a893-49c9-a1f4-7641f6685275
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.9_sostenibilidad
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__9_sostenibilidad_block_12
+theme: b4seutheme
+region: content
+weight: 15
+provider: null
+plugin: 'views_block:9_sostenibilidad-block_12'
+settings:
+  id: 'views_block:9_sostenibilidad-block_12'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /sostenibilidad/energia

@@ -1,0 +1,23 @@
+uuid: 84c93ecc-011a-43c0-a2b0-74465028af4f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_disc_vis_ceguera_h
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_disc_vis_ceguera_h
+field_name: field_disc_vis_ceguera_h
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Hombres con discapacidad visual ceguera'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

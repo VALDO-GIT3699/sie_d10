@@ -1,0 +1,30 @@
+uuid: 4f8b3f37-27db-4a01-9f04-0a646ed3f7ff
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7acec7a6-3834-4b44-a6fc-25d6dcf7d8bc'
+  module:
+    - block_content
+    - system
+  theme:
+    - b4seutheme
+id: composiciondelareduniversitaria
+theme: b4seutheme
+region: content
+weight: -89
+provider: null
+plugin: 'block_content:7acec7a6-3834-4b44-a6fc-25d6dcf7d8bc'
+settings:
+  id: 'block_content:7acec7a6-3834-4b44-a6fc-25d6dcf7d8bc'
+  label: 'Composición de la Red Universitaria'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/numeralia\r\n/prueba"

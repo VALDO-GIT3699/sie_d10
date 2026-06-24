@@ -1,0 +1,127 @@
+uuid: cd614515-fe57-4b58-925d-a59f98a074f4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.a31_solicitudes_de_informacion.field_anio
+    - field.field.storage.a31_solicitudes_de_informacion.field_estatus_transparencia
+    - field.field.storage.a31_solicitudes_de_informacion.field_row
+    - field.field.storage.a31_solicitudes_de_informacion.field_total
+    - storage.storage_type.a31_solicitudes_de_informacion
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: 'a31 Solicitudes de información'
+id: a31_solicitudes_de_informacion
+description: 'Solicitudes de información de transparencia y acceso a la información resueltas de la Universidad de Guadalajara'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: a31_solicitudes_de_informacion
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  estatus_transparencia:
+    value: estatus_transparencia
+    label: estatus_transparencia
+    machine_name: estatus_transparencia
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_estatus_transparencia
+    map:
+      target_id: estatus_transparencia
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: estatus_transparencia
+      feeds_item: false
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }

@@ -1,0 +1,23 @@
+uuid: 4f06e7a5-410f-40b9-9ae6-cfb71c6c49ea
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_total
+    - storage.storage_type.b12_ingresos_de_la_udeg
+id: storage.b12_ingresos_de_la_udeg.field_por_total
+field_name: field_por_total
+entity_type: storage
+bundle: b12_ingresos_de_la_udeg
+label: Porcentaje
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

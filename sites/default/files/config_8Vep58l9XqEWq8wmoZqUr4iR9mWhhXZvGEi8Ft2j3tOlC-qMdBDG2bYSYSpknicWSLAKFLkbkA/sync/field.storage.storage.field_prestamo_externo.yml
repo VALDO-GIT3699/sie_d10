@@ -1,0 +1,20 @@
+uuid: 373e8fee-dcb3-4fc1-922b-15476dd45269
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_prestamo_externo
+field_name: field_prestamo_externo
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

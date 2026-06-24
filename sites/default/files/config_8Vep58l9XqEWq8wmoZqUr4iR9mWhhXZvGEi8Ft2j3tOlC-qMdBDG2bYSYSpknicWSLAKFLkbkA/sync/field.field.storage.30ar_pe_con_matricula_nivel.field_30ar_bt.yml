@@ -1,0 +1,23 @@
+uuid: fe89c0f6-a1ff-4106-8839-e2eaaf7c48b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_bt
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_bt
+field_name: field_30ar_bt
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: 'Bachillerato Tecnológico'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

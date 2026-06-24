@@ -1,0 +1,15 @@
+uuid: 6ba67277-7720-4b74-95eb-7f9c7e26dbae
+langcode: es
+status: true
+dependencies: {  }
+name: noticia_portada_300x300
+label: 'Noticia portada 300x300'
+effects:
+  19531d8e-9fa9-4599-a725-5eaaf81ddd81:
+    uuid: 19531d8e-9fa9-4599-a725-5eaaf81ddd81
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

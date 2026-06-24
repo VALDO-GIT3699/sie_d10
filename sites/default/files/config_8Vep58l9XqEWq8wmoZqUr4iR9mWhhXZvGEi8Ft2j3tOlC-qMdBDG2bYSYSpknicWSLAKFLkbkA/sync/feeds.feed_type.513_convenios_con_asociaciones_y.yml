@@ -1,0 +1,139 @@
+uuid: 2b9713df-f76e-4dfd-9732-c7f8a1c19674
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.513_convenios_con_asociaciones_y.field_ambito_geografico
+    - field.field.storage.513_convenios_con_asociaciones_y.field_anio
+    - field.field.storage.513_convenios_con_asociaciones_y.field_convenios_tipo
+    - field.field.storage.513_convenios_con_asociaciones_y.field_row
+    - field.field.storage.513_convenios_con_asociaciones_y.field_total
+    - storage.storage_type.513_convenios_con_asociaciones_y
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '513 Convenios con asociaciones y redes'
+id: 513_convenios_con_asociaciones_y
+description: 'Convenios de la Universidad de Guadalajara con asociaciones y redes'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 513_convenios_con_asociaciones_y
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  convenios_tipo:
+    value: convenios_tipo
+    label: convenios_tipo
+    machine_name: convenios_tipo
+    type: csv
+  ambito_geografico:
+    value: ambito_geografico
+    label: ambito_geografico
+    machine_name: ambito_geografico
+    type: csv
+  total:
+    value: total
+    label: total
+    machine_name: total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_convenios_tipo
+    map:
+      value: convenios_tipo
+    settings:
+      language: null
+  -
+    target: field_ambito_geografico
+    map:
+      target_id: ambito_geografico
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ambito_geogra
+      feeds_item: false
+  -
+    target: field_total
+    map:
+      value: total
+    settings:
+      language: null
+    unique: {  }

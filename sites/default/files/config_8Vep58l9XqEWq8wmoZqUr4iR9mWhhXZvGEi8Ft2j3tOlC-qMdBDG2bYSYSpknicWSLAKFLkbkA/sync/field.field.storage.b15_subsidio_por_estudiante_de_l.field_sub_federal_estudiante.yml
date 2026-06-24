@@ -1,0 +1,25 @@
+uuid: e4ff28fa-e7e1-4321-8242-a1e7b35d3d92
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_sub_federal_estudiante
+    - storage.storage_type.b15_subsidio_por_estudiante_de_l
+  module:
+    - bigint
+id: storage.b15_subsidio_por_estudiante_de_l.field_sub_federal_estudiante
+field_name: field_sub_federal_estudiante
+entity_type: storage
+bundle: b15_subsidio_por_estudiante_de_l
+label: 'Subsidio federal por estudiante'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: bigint

@@ -1,0 +1,9 @@
+uuid: 1adc24ff-e401-4e7c-977c-5fc5df8a5372
+langcode: es
+status: true
+dependencies: {  }
+name: 'Centro sede'
+vid: centro_sede
+description: 'Categorías de sedes universitarias'
+weight: 0
+new_revision: false

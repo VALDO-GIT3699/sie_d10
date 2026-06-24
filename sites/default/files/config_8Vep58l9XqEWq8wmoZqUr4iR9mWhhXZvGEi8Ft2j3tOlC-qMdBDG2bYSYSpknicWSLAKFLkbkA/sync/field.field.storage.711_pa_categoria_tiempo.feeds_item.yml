@@ -1,0 +1,23 @@
+uuid: e47bf2e5-f14a-48b7-870a-dc76ceed219c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.711_pa_categoria_tiempo
+  module:
+    - feeds
+id: storage.711_pa_categoria_tiempo.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

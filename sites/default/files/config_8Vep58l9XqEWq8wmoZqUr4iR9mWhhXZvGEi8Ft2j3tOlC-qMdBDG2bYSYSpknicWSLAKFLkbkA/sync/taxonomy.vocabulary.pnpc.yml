@@ -1,0 +1,9 @@
+uuid: 3cf66be8-0c4e-431b-88da-74b6d7d01807
+langcode: es
+status: true
+dependencies: {  }
+name: PNPC
+vid: pnpc
+description: 'Programas Vigentes en el Programa Nacional de Posgrados de Calidad (PNPC)'
+weight: 0
+new_revision: false

@@ -1,0 +1,23 @@
+uuid: 4037ce5d-6568-435b-9e47-ece419e8bc42
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_matricula_h
+    - storage.storage_type.matricula
+id: storage.matricula.field_matricula_h
+field_name: field_matricula_h
+entity_type: storage
+bundle: matricula
+label: 'Matrícula hombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

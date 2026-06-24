@@ -1,0 +1,45 @@
+uuid: 16af82b6-3090-462c-b0d6-bdceed08fb06
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.pais.feeds_item
+    - field.field.taxonomy_term.pais.field_continente
+    - field.field.taxonomy_term.pais.field_region
+    - taxonomy.vocabulary.pais
+  module:
+    - text
+id: taxonomy_term.pais.default
+targetEntityType: taxonomy_term
+bundle: pais
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_continente:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_region:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true

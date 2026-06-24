@@ -1,0 +1,23 @@
+uuid: 24537e84-88be-4889-8298-7da7f0a0a2c4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.831_bibliotecas
+id: storage.831_bibliotecas.field_row
+field_name: field_row
+entity_type: storage
+bundle: 831_bibliotecas
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

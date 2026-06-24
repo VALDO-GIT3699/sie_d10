@@ -1,0 +1,21 @@
+uuid: 2ccfb493-6130-497a-9788-1a548fb1f10f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_pa_nivel
+    - storage.storage_type.712_pa_categoria_nivel
+  module:
+    - options
+id: storage.712_pa_categoria_nivel.field_pa_nivel
+field_name: field_pa_nivel
+entity_type: storage
+bundle: 712_pa_categoria_nivel
+label: Nivel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

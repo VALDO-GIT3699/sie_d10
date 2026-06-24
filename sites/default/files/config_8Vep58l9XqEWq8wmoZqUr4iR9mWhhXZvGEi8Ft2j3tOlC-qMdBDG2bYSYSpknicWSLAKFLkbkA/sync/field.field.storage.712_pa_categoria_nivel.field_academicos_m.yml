@@ -1,0 +1,23 @@
+uuid: 81f7cd7f-5835-4883-b1c1-b876250022ce
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_academicos_m
+    - storage.storage_type.712_pa_categoria_nivel
+id: storage.712_pa_categoria_nivel.field_academicos_m
+field_name: field_academicos_m
+entity_type: storage
+bundle: 712_pa_categoria_nivel
+label: 'Académicas mujeres'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

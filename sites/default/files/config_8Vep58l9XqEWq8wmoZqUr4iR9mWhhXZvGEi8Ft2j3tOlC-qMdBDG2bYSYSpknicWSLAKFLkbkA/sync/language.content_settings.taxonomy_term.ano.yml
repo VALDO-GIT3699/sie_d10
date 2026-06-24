@@ -1,0 +1,11 @@
+uuid: 45279087-c013-4645-93f7-11d30e7801dc
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ano
+id: taxonomy_term.ano
+target_entity_type_id: taxonomy_term
+target_bundle: ano
+default_langcode: site_default
+language_alterable: false

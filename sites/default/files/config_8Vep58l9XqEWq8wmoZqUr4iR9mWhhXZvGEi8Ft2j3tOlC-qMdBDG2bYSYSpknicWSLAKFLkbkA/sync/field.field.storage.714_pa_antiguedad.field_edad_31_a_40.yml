@@ -1,0 +1,23 @@
+uuid: 22e69b6b-f911-4ff3-8535-aa256998f765
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_edad_31_a_40
+    - storage.storage_type.714_pa_antiguedad
+id: storage.714_pa_antiguedad.field_edad_31_a_40
+field_name: field_edad_31_a_40
+entity_type: storage
+bundle: 714_pa_antiguedad
+label: 'Edad de 31 a 40 años'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

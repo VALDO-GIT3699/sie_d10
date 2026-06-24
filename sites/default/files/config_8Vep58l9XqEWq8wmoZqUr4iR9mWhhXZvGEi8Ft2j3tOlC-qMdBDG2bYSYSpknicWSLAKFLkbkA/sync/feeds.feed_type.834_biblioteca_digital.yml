@@ -1,0 +1,277 @@
+uuid: 5eeb30d2-efe0-4ea3-a2ee-1b07f198584a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.834_biblioteca_digital.field_anio
+    - field.field.storage.834_biblioteca_digital.field_bd_suscritas_conricyt
+    - field.field.storage.834_biblioteca_digital.field_bd_suscritas_udg
+    - field.field.storage.834_biblioteca_digital.field_bd_total
+    - field.field.storage.834_biblioteca_digital.field_consultas_wdgbiblio
+    - field.field.storage.834_biblioteca_digital.field_cursos_p
+    - field.field.storage.834_biblioteca_digital.field_cursos_v
+    - field.field.storage.834_biblioteca_digital.field_doc_prod_udg
+    - field.field.storage.834_biblioteca_digital.field_libros_e
+    - field.field.storage.834_biblioteca_digital.field_revistas_e
+    - field.field.storage.834_biblioteca_digital.field_row
+    - field.field.storage.834_biblioteca_digital.field_t_usuarios_p
+    - field.field.storage.834_biblioteca_digital.field_t_usuarios_v
+    - field.field.storage.834_biblioteca_digital.field_tesis_bd
+    - field.field.storage.834_biblioteca_digital.field_visualizacion_rrss
+    - storage.storage_type.834_biblioteca_digital
+  module:
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: '834 Biblioteca Digital'
+id: 834_biblioteca_digital
+description: 'Biblioteca digital del SiUBiUDG'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: 834_biblioteca_digital
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  prom_dia_consultas:
+    value: prom_dia_consultas
+    label: prom_dia_consultas
+    machine_name: prom_dia_consultas
+    type: csv
+  bd_total:
+    value: bd_total
+    label: bd_total
+    machine_name: bd_total
+    type: csv
+  bd_suscritas_conricyt:
+    value: bd_suscritas_conricyt
+    label: bd_suscritas_conricyt
+    machine_name: bd_suscritas_conricyt
+    type: csv
+  bd_suscritas_udg:
+    value: bd_suscritas_udg
+    label: bd_suscritas_udg
+    machine_name: bd_suscritas_udg
+    type: csv
+  libros_e:
+    value: libros_e
+    label: libros_e
+    machine_name: libros_e
+    type: csv
+  revistas_electronicas:
+    value: 'Revistas electrónicas'
+    label: 'Revistas electrónicas'
+    machine_name: revistas_electronicas
+    type: csv
+  tesis_bd:
+    value: tesis_bd
+    label: tesis_bd
+    machine_name: tesis_bd
+    type: csv
+  doc_prod_udg:
+    value: doc_prod_udg
+    label: doc_prod_udg
+    machine_name: doc_prod_udg
+    type: csv
+  cursos_v:
+    value: cursos_v
+    label: cursos_v
+    machine_name: cursos_v
+    type: csv
+  t_usuarios_v:
+    value: t_usuarios_v
+    label: t_usuarios_v
+    machine_name: t_usuarios_v
+    type: csv
+  visualizacion_rrss:
+    value: visualizacion_rrss
+    label: visualizacion_rrss
+    machine_name: visualizacion_rrss
+    type: csv
+  cursos_p:
+    value: cursos_p
+    label: cursos_p
+    machine_name: cursos_p
+    type: csv
+  t_usuarios_p:
+    value: t_usuarios_p
+    label: t_usuarios_p
+    machine_name: t_usuarios_p
+    type: csv
+  revistas_e:
+    value: revistas_e
+    label: revistas_e
+    machine_name: revistas_e
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  consultas:
+    value: consultas
+    label: consultas
+    machine_name: consultas
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_consultas_wdgbiblio
+    map:
+      value: consultas
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_bd_total
+    map:
+      value: bd_total
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_bd_suscritas_conricyt
+    map:
+      value: bd_suscritas_conricyt
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_bd_suscritas_udg
+    map:
+      value: bd_suscritas_udg
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_libros_e
+    map:
+      value: libros_e
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_revistas_e
+    map:
+      value: revistas_e
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_tesis_bd
+    map:
+      value: tesis_bd
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_doc_prod_udg
+    map:
+      value: doc_prod_udg
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_cursos_v
+    map:
+      value: cursos_v
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_t_usuarios_v
+    map:
+      value: t_usuarios_v
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_visualizacion_rrss
+    map:
+      value: visualizacion_rrss
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_cursos_p
+    map:
+      value: cursos_p
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_t_usuarios_p
+    map:
+      value: t_usuarios_p
+    settings:
+      language: null
+    unique: {  }

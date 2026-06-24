@@ -1,0 +1,11 @@
+uuid: ea0ec9c6-b5e4-41e3-9ec5-82fa256e6417
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ano_anexo
+id: taxonomy_term.ano_anexo
+target_entity_type_id: taxonomy_term
+target_bundle: ano_anexo
+default_langcode: site_default
+language_alterable: false

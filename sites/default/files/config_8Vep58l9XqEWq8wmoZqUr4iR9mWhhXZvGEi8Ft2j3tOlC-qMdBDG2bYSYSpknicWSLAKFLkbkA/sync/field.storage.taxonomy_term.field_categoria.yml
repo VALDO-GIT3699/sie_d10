@@ -1,0 +1,33 @@
+uuid: aab71964-c6b9-4f8e-b1f9-3c917cc3ab79
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_categoria
+field_name: field_categoria
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: CU
+      label: 'Centro Universitario'
+    -
+      value: SEMS
+      label: 'Sistema de Educación Media Superior'
+    -
+      value: AG
+      label: 'Administración General'
+    -
+      value: SiUBiUDG
+      label: 'Sistema Universitario de Bibliotecas de la Universidad de Guadalajara'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

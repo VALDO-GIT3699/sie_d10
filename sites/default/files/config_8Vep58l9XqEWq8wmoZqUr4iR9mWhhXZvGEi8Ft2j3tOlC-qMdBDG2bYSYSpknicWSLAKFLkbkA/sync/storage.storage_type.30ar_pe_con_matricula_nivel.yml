@@ -1,0 +1,13 @@
+uuid: 2fe8ff8f-bb1e-4e73-8b3a-6b9481ac435d
+langcode: es
+status: true
+dependencies: {  }
+id: 30ar_pe_con_matricula_nivel
+label: '30AR PE con matrícula-nivel'
+description: 'Programas educativos con matrícula-nivel'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

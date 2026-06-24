@@ -1,0 +1,23 @@
+uuid: 7dcf60eb-299d-4f9c-b9f0-2008a25c801e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_e_discapacidad_nb
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_e_discapacidad_nb
+field_name: field_e_discapacidad_nb
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Personas no binarias con discapacidad egresadas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

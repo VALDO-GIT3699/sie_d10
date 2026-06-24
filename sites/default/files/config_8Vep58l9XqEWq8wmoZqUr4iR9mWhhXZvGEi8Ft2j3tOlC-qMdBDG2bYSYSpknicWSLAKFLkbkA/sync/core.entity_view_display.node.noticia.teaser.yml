@@ -1,0 +1,42 @@
+uuid: 96f63be1-4f32-43c2-855e-64a25e239526
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.noticia.body
+    - field.field.node.noticia.field_archivo_de_audio
+    - field.field.node.noticia.field_archivo_noticia
+    - field.field.node.noticia.field_galeria_asociada
+    - field.field.node.noticia.field_galeria_de_video_asociada_
+    - field.field.node.noticia.field_imagen_noticia
+    - field.field.node.noticia.field_sinopsis_
+    - field.field.node.noticia.field_tags
+    - field.field.node.noticia.field_url_de_video
+    - node.type.noticia
+  module:
+    - user
+id: node.noticia.teaser
+targetEntityType: node
+bundle: noticia
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_archivo_de_audio: true
+  field_archivo_noticia: true
+  field_galeria_asociada: true
+  field_galeria_de_video_asociada_: true
+  field_imagen_noticia: true
+  field_sinopsis_: true
+  field_tags: true
+  field_url_de_video: true
+  langcode: true

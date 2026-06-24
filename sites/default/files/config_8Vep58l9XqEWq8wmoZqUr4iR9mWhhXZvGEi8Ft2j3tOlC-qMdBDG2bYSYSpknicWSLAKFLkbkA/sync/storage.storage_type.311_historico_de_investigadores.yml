@@ -1,0 +1,13 @@
+uuid: 750f5ffa-0955-4736-a5d2-d95c0a8341cc
+langcode: es
+status: true
+dependencies: {  }
+id: 311_historico_de_investigadores
+label: '311 Histórico de investigadores'
+description: 'Histórico de los miembros del Sistema Nacional de Investigadoras e Investigadores y del Sistema Nacional de Creadores de Arte'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

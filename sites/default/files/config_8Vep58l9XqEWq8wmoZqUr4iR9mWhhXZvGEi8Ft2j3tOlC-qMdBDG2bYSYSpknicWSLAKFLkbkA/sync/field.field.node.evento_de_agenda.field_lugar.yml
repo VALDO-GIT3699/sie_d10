@@ -1,0 +1,23 @@
+uuid: 7eaaa461-9f9e-43bb-abb8-a1799be96e11
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lugar
+    - node.type.evento_de_agenda
+  module:
+    - link
+id: node.evento_de_agenda.field_lugar
+field_name: field_lugar
+entity_type: node
+bundle: evento_de_agenda
+label: Lugar
+description: 'Lugar del evento'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

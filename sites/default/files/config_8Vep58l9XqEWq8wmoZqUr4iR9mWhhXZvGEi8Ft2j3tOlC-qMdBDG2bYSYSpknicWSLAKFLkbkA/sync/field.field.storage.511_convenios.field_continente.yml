@@ -1,0 +1,29 @@
+uuid: 79ab602f-d0cf-469b-b59c-9374e3c7e72d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_continente
+    - storage.storage_type.511_convenios
+    - taxonomy.vocabulary.contine
+id: storage.511_convenios.field_continente
+field_name: field_continente
+entity_type: storage
+bundle: 511_convenios
+label: Continente
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      contine: contine
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: ff8ce153-d912-42b8-b459-2968d053971d
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.numeralia
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__numeralia_block_8
+theme: b4seutheme
+region: content
+weight: -83
+provider: null
+plugin: 'views_block:numeralia-block_8'
+settings:
+  id: 'views_block:numeralia-block_8'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/numeralia\r\n/prueba"

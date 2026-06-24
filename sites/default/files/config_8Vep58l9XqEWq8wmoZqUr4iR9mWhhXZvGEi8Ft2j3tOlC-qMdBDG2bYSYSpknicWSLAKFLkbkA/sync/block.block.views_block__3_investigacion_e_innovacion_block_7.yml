@@ -1,0 +1,29 @@
+uuid: 931d6880-67b0-40a5-abea-52c8c71da32b
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.3_investigacion_e_innovacion
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__3_investigacion_e_innovacion_block_7
+theme: b4seutheme
+region: content
+weight: -18
+provider: null
+plugin: 'views_block:3_investigacion_e_innovacion-block_7'
+settings:
+  id: 'views_block:3_investigacion_e_innovacion-block_7'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /investigacion-e-innovacion/investigadores

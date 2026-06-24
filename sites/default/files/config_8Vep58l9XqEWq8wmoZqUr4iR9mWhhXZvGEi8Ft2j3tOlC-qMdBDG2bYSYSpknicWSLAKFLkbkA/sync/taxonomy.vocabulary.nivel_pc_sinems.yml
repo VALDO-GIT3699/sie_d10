@@ -1,0 +1,9 @@
+uuid: 02c2d145-b9f4-474b-88a8-158e90e51188
+langcode: es
+status: true
+dependencies: {  }
+name: 'Nivel PC-SINEMS'
+vid: nivel_pc_sinems
+description: 'Nivel de categoría de calidad PC-SINEMS'
+weight: 0
+new_revision: false

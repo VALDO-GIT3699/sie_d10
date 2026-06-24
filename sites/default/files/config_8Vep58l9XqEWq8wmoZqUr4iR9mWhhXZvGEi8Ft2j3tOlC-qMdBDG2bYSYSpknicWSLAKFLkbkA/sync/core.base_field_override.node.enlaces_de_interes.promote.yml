@@ -1,0 +1,22 @@
+uuid: 034ced9f-500e-4bab-b859-069040efb436
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.enlaces_de_interes
+id: node.enlaces_de_interes.promote
+field_name: promote
+entity_type: node
+bundle: enlaces_de_interes
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

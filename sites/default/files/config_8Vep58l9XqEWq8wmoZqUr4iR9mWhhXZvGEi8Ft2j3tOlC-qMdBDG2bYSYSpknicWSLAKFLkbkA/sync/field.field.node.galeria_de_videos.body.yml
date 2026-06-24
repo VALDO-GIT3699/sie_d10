@@ -1,0 +1,23 @@
+uuid: a256fcf1-ed9d-4c98-b497-352b60d6dc66
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.galeria_de_videos
+  module:
+    - text
+id: node.galeria_de_videos.body
+field_name: body
+entity_type: node
+bundle: galeria_de_videos
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

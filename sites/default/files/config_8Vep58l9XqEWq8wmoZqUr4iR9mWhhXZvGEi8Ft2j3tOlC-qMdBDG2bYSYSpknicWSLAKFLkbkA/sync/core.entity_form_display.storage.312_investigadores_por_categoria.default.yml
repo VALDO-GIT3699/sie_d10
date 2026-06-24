@@ -1,0 +1,103 @@
+uuid: 6095df97-7254-4c68-8e59-53d437d8be65
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.312_investigadores_por_categoria.feeds_item
+    - field.field.storage.312_investigadores_por_categoria.field_anio
+    - field.field.storage.312_investigadores_por_categoria.field_entidad_universitaria
+    - field.field.storage.312_investigadores_por_categoria.field_medio_tiempo
+    - field.field.storage.312_investigadores_por_categoria.field_pa_categoria
+    - field.field.storage.312_investigadores_por_categoria.field_pa_nivel
+    - field.field.storage.312_investigadores_por_categoria.field_row
+    - field.field.storage.312_investigadores_por_categoria.field_tiempo_completo
+    - field.field.storage.312_investigadores_por_categoria.field_total
+    - storage.storage_type.312_investigadores_por_categoria
+id: storage.312_investigadores_por_categoria.default
+targetEntityType: storage
+bundle: 312_investigadores_por_categoria
+mode: default
+content:
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_medio_tiempo:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_pa_categoria:
+    type: entity_reference_autocomplete
+    weight: 29
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pa_nivel:
+    type: options_select
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tiempo_completo:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

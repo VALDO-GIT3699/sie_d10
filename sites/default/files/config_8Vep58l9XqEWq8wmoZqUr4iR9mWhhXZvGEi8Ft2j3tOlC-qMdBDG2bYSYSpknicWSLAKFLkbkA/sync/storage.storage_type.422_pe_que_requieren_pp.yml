@@ -1,0 +1,13 @@
+uuid: 56042625-5942-4bc8-83da-1b13bf90aee6
+langcode: es
+status: true
+dependencies: {  }
+id: 422_pe_que_requieren_pp
+label: '422 PE que requieren PP'
+description: 'Programas educativos vigentes que tienen cómo requisito las prácticas profesionales'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

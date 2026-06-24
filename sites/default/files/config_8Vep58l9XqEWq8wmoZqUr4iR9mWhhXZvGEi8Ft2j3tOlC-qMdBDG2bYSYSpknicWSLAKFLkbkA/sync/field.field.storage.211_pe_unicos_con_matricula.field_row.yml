@@ -1,0 +1,23 @@
+uuid: c3269729-383a-4545-a4f6-2c4e498890a8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.211_pe_unicos_con_matricula
+id: storage.211_pe_unicos_con_matricula.field_row
+field_name: field_row
+entity_type: storage
+bundle: 211_pe_unicos_con_matricula
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

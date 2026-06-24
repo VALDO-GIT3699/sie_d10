@@ -1,0 +1,74 @@
+uuid: aa6fa2a5-55c9-40dc-ad52-be63d4aaaa4b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.611_patrimonio_cultural_en_el_si.feeds_item
+    - field.field.storage.611_patrimonio_cultural_en_el_si.field_anio
+    - field.field.storage.611_patrimonio_cultural_en_el_si.field_entidad_universitaria
+    - field.field.storage.611_patrimonio_cultural_en_el_si.field_row
+    - field.field.storage.611_patrimonio_cultural_en_el_si.field_tipo_patrimonio
+    - field.field.storage.611_patrimonio_cultural_en_el_si.field_total
+    - storage.storage_type.611_patrimonio_cultural_en_el_si
+id: storage.611_patrimonio_cultural_en_el_si.default
+targetEntityType: storage
+bundle: 611_patrimonio_cultural_en_el_si
+mode: default
+content:
+  field_anio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_entidad_universitaria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_tipo_patrimonio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_total:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

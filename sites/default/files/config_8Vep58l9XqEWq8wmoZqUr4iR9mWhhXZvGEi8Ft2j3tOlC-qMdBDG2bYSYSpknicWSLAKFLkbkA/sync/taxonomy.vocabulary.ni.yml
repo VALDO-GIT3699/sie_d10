@@ -1,0 +1,9 @@
+uuid: b9e1e7a7-0cdb-4127-9617-c2a561af3a82
+langcode: es
+status: true
+dependencies: {  }
+name: 'Nivel educativo'
+vid: ni
+description: 'Nivel educativo'
+weight: 0
+new_revision: false

@@ -1,0 +1,19 @@
+uuid: 53ed40af-4a1f-41b8-8bb6-62b59c55117d
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - storage
+id: storage.field_enlace_plantel
+field_name: field_enlace_plantel
+entity_type: storage
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

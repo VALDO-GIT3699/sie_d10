@@ -1,0 +1,22 @@
+uuid: 5f142ea1-3e8a-49b4-a3ed-ed138536937a
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b4seutheme
+_core:
+  default_config_hash: B4RbOEFqUHi5Wx38pRiZzYXo1hhKzCpF50HCAvpOYf4
+id: b4seutheme_breadcrumbs
+theme: b4seutheme
+region: breadcrumb
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

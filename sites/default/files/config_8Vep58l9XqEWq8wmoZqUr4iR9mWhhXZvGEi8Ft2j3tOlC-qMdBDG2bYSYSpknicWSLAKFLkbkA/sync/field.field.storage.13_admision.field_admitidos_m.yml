@@ -1,0 +1,23 @@
+uuid: ee775d50-25c9-4b15-891b-9fb7a3d0b892
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_admitidos_m
+    - storage.storage_type.13_admision
+id: storage.13_admision.field_admitidos_m
+field_name: field_admitidos_m
+entity_type: storage
+bundle: 13_admision
+label: 'Mujeres admitidas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

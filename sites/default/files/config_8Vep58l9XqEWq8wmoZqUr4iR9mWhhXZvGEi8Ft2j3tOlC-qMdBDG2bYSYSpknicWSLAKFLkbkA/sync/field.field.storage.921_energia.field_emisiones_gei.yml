@@ -1,0 +1,23 @@
+uuid: bede0807-2cef-4eb6-9709-9e771dfc781a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_emisiones_gei
+    - storage.storage_type.921_energia
+id: storage.921_energia.field_emisiones_gei
+field_name: field_emisiones_gei
+entity_type: storage
+bundle: 921_energia
+label: 'Emisiones de Gases de Efecto Invernadero (GEI)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

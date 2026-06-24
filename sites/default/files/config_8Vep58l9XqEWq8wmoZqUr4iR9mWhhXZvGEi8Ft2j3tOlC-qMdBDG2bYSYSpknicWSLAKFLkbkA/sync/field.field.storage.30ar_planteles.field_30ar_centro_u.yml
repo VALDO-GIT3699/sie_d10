@@ -1,0 +1,23 @@
+uuid: 2eb158a7-24c6-4853-b37c-f899d01badae
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_centro_u
+    - storage.storage_type.30ar_planteles
+id: storage.30ar_planteles.field_30ar_centro_u
+field_name: field_30ar_centro_u
+entity_type: storage
+bundle: 30ar_planteles
+label: 'Centros universitarios'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

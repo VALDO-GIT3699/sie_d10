@@ -1,0 +1,9 @@
+uuid: f5a47316-befa-4a82-b414-990de603aa9d
+langcode: es
+status: true
+dependencies: {  }
+name: Orientación
+vid: orientacion
+description: 'Categorías de orientación de posgrado'
+weight: 0
+new_revision: false

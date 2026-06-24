@@ -1,0 +1,29 @@
+uuid: b4f89013-817e-47cc-a8d2-76f3dc2fc300
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.bibliotecas
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__bibliotecas_block_4
+theme: b4seutheme
+region: content
+weight: -70
+provider: null
+plugin: 'views_block:bibliotecas-block_4'
+settings:
+  id: 'views_block:bibliotecas-block_4'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /infraestructura/bibliotecas

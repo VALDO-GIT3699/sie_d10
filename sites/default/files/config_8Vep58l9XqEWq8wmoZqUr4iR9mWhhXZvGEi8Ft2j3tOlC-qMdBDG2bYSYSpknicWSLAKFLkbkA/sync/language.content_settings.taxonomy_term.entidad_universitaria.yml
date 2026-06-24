@@ -1,0 +1,11 @@
+uuid: 697b9400-bcb9-4691-aa9a-592aa6effadf
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.entidad_universitaria
+id: taxonomy_term.entidad_universitaria
+target_entity_type_id: taxonomy_term
+target_bundle: entidad_universitaria
+default_langcode: site_default
+language_alterable: false

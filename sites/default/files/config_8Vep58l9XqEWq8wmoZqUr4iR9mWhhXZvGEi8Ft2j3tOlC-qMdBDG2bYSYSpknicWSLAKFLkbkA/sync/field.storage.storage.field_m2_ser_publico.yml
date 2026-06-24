@@ -1,0 +1,20 @@
+uuid: 3807bbcf-2e2c-41df-a3c1-502e030145a5
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_m2_ser_publico
+field_name: field_m2_ser_publico
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,30 @@
+uuid: 5ba00f78-7b32-4633-973b-f710f6265c2d
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.galeria_de_imagenes.field_descripcion_
+    - field.field.node.galeria_de_imagenes.field_fecha_
+    - field.field.node.galeria_de_imagenes.field_imagenes
+    - node.type.galeria_de_imagenes
+  module:
+    - user
+id: node.galeria_de_imagenes.teaser
+targetEntityType: node
+bundle: galeria_de_imagenes
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_descripcion_: true
+  field_fecha_: true
+  field_imagenes: true
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: 389398a9-5266-4284-8a73-f3ef97c62e2a
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_mujeres
+field_name: field_mujeres
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

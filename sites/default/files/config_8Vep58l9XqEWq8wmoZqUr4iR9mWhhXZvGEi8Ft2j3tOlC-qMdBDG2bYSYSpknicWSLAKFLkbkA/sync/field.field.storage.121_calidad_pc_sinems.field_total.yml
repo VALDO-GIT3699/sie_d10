@@ -1,0 +1,23 @@
+uuid: 6cc7faa9-790d-4cf4-8161-a4ccd2c91dac
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total
+    - storage.storage_type.121_calidad_pc_sinems
+id: storage.121_calidad_pc_sinems.field_total
+field_name: field_total
+entity_type: storage
+bundle: 121_calidad_pc_sinems
+label: Total
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

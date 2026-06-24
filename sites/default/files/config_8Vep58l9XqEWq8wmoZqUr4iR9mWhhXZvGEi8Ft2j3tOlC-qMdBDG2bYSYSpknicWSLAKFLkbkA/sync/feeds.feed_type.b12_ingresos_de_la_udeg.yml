@@ -1,0 +1,137 @@
+uuid: 28b9ce38-c5a8-4f27-9dea-8782d46e4bf9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.b12_ingresos_de_la_udeg.field_anio
+    - field.field.storage.b12_ingresos_de_la_udeg.field_fuente_financiamiento
+    - field.field.storage.b12_ingresos_de_la_udeg.field_pesos_corrientes
+    - field.field.storage.b12_ingresos_de_la_udeg.field_por_total
+    - field.field.storage.b12_ingresos_de_la_udeg.field_row
+    - storage.storage_type.b12_ingresos_de_la_udeg
+  module:
+    - bigint
+    - feeds_log
+    - storage
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: 'b12 Ingresos de la UdeG'
+id: b12_ingresos_de_la_udeg
+description: 'Ingresos de la Universidad de Guadalajara por fuente de financiamiento y distribución'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:storage'
+processor_configuration:
+  values:
+    type: b12_ingresos_de_la_udeg
+  langcode: es
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+  row:
+    value: row
+    label: row
+    machine_name: row
+    type: csv
+  anio:
+    value: anio
+    label: anio
+    machine_name: anio
+    type: csv
+  fuente_financiamiento:
+    value: fuente_financiamiento
+    label: fuente_financiamiento
+    machine_name: fuente_financiamiento
+    type: csv
+  pesos_corrientes:
+    value: pesos_corrientes
+    label: pesos_corrientes
+    machine_name: pesos_corrientes
+    type: csv
+  por_total:
+    value: por_total
+    label: por_total
+    machine_name: por_total
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: field_row
+    map:
+      value: row
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_anio
+    map:
+      target_id: anio
+    settings:
+      language: null
+      reference_by: name
+      autocreate: false
+      autocreate_bundle: ano
+      feeds_item: false
+  -
+    target: field_fuente_financiamiento
+    map:
+      value: fuente_financiamiento
+    settings:
+      language: null
+  -
+    target: field_pesos_corrientes
+    map:
+      value: pesos_corrientes
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_por_total
+    map:
+      value: por_total
+    settings:
+      language: null
+    unique: {  }

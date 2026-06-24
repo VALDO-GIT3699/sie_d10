@@ -1,0 +1,23 @@
+uuid: 9bc133ab-e33e-4e66-832e-8cbe66b7b326
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_matricula_t
+    - storage.storage_type.1_poblacion_escolar
+id: storage.1_poblacion_escolar.field_matricula_t
+field_name: field_matricula_t
+entity_type: storage
+bundle: 1_poblacion_escolar
+label: 'Matrícula total'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,7 @@
+uuid: e9b08eee-fe17-49e7-9fbb-354d5ee9a4ed
+langcode: es
+status: true
+dependencies: {  }
+name: slideshow_1600_x_500
+label: 'Slideshow 1600 x 500'
+effects: {  }

@@ -1,0 +1,23 @@
+uuid: 7dc131f0-5d3b-4197-953d-97457697a361
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_discapacidad_m
+    - storage.storage_type.matricula
+id: storage.matricula.field_discapacidad_m
+field_name: field_discapacidad_m
+entity_type: storage
+bundle: matricula
+label: 'Mujeres con discapacidad'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

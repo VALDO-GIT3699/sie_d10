@@ -1,0 +1,23 @@
+uuid: 49ccac54-18b7-4aba-b97b-5db8edc746ca
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_30ar_basico
+    - storage.storage_type.30ar_pe_con_matricula_nivel
+id: storage.30ar_pe_con_matricula_nivel.field_30ar_basico
+field_name: field_30ar_basico
+entity_type: storage
+bundle: 30ar_pe_con_matricula_nivel
+label: Básico
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

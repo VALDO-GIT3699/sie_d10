@@ -1,0 +1,26 @@
+uuid: a31795cb-8b0d-4d75-aaed-a94fb4212b09
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_agenda
+    - node.type.evento_de_agenda
+  module:
+    - datetime_range
+id: node.evento_de_agenda.field_fecha_agenda
+field_name: field_fecha_agenda
+entity_type: node
+bundle: evento_de_agenda
+label: Fecha
+description: 'Fecha del Evento'
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: now
+    default_end_date: now
+default_value_callback: ''
+settings: {  }
+field_type: daterange

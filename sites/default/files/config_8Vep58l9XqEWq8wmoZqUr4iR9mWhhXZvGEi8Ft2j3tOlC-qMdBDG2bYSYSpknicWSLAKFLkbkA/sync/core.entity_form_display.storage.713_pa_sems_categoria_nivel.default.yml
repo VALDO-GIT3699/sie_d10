@@ -1,0 +1,124 @@
+uuid: 4d322ef0-db0c-4aa4-b572-30b63f6a4d0c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.713_pa_sems_categoria_nivel.feeds_item
+    - field.field.storage.713_pa_sems_categoria_nivel.field_academicos_h
+    - field.field.storage.713_pa_sems_categoria_nivel.field_academicos_m
+    - field.field.storage.713_pa_sems_categoria_nivel.field_academicos_nb
+    - field.field.storage.713_pa_sems_categoria_nivel.field_anio
+    - field.field.storage.713_pa_sems_categoria_nivel.field_cve_sems
+    - field.field.storage.713_pa_sems_categoria_nivel.field_hombres
+    - field.field.storage.713_pa_sems_categoria_nivel.field_mujeres
+    - field.field.storage.713_pa_sems_categoria_nivel.field_pa_categoria_t
+    - field.field.storage.713_pa_sems_categoria_nivel.field_personas_no_binarias
+    - field.field.storage.713_pa_sems_categoria_nivel.field_row
+    - field.field.storage.713_pa_sems_categoria_nivel.field_total
+    - storage.storage_type.713_pa_sems_categoria_nivel
+id: storage.713_pa_sems_categoria_nivel.default
+targetEntityType: storage
+bundle: 713_pa_sems_categoria_nivel
+mode: default
+content:
+  field_academicos_h:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_academicos_m:
+    type: number
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_academicos_nb:
+    type: number
+    weight: 8
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_cve_sems:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_hombres:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_mujeres:
+    type: number
+    weight: 27
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_pa_categoria_t:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_personas_no_binarias:
+    type: number
+    weight: 28
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total:
+    type: number
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

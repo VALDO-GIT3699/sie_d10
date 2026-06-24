@@ -1,0 +1,29 @@
+uuid: 3dca989c-b11c-41cb-9669-f9cab54ed5fb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_anexo_ano
+    - storage.storage_type.anexo
+    - taxonomy.vocabulary.ano_anexo
+id: storage.anexo.field_anexo_ano
+field_name: field_anexo_ano
+entity_type: storage
+bundle: anexo
+label: 'Anexo año'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ano_anexo: ano_anexo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

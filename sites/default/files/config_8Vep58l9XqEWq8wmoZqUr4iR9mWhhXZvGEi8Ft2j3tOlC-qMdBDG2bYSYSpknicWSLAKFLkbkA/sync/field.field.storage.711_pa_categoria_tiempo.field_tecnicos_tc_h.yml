@@ -1,0 +1,23 @@
+uuid: 73ff9e96-463f-40f5-a286-6709df859a6e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_tecnicos_tc_h
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.field_tecnicos_tc_h
+field_name: field_tecnicos_tc_h
+entity_type: storage
+bundle: 711_pa_categoria_tiempo
+label: 'Técnicos de tiempo completo hombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,309 @@
+uuid: 8dec77f2-574a-47e4-89b7-8f6c4ef7eb34
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.711_pa_categoria_tiempo.feeds_item
+    - field.field.storage.711_pa_categoria_tiempo.field_academicos_h
+    - field.field.storage.711_pa_categoria_tiempo.field_academicos_m
+    - field.field.storage.711_pa_categoria_tiempo.field_academicos_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_anio
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_mt_h
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_mt_m
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_mt_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_mt_t
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_tc_h
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_tc_m
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_tc_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_docentes_tc_t
+    - field.field.storage.711_pa_categoria_tiempo.field_entidad_universitaria
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_mt_h
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_mt_m
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_mt_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_mt_t
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_tc_h
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_tc_m
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_tc_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_investigadores_tc_t
+    - field.field.storage.711_pa_categoria_tiempo.field_prof_asig_h
+    - field.field.storage.711_pa_categoria_tiempo.field_prof_asig_m
+    - field.field.storage.711_pa_categoria_tiempo.field_prof_asig_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_prof_asig_t
+    - field.field.storage.711_pa_categoria_tiempo.field_row
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_mt_h
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_mt_m
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_mt_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_mt_t
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_tc_h
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_tc_m
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_tc_nb
+    - field.field.storage.711_pa_categoria_tiempo.field_tecnicos_tc_t
+    - storage.storage_type.711_pa_categoria_tiempo
+id: storage.711_pa_categoria_tiempo.default
+targetEntityType: storage
+bundle: 711_pa_categoria_tiempo
+mode: default
+content:
+  field_academicos_h:
+    type: number
+    weight: 56
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_academicos_m:
+    type: number
+    weight: 57
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_academicos_nb:
+    type: number
+    weight: 58
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_anio:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_docentes_mt_h:
+    type: number
+    weight: 32
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_docentes_mt_m:
+    type: number
+    weight: 33
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_docentes_mt_nb:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_docentes_mt_t:
+    type: number
+    weight: 35
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_docentes_tc_h:
+    type: number
+    weight: 28
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_docentes_tc_m:
+    type: number
+    weight: 29
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_docentes_tc_nb:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_docentes_tc_t:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_entidad_universitaria:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_investigadores_mt_h:
+    type: number
+    weight: 40
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_investigadores_mt_m:
+    type: number
+    weight: 41
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_investigadores_mt_nb:
+    type: number
+    weight: 42
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_investigadores_mt_t:
+    type: number
+    weight: 43
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_investigadores_tc_h:
+    type: number
+    weight: 36
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_investigadores_tc_m:
+    type: number
+    weight: 37
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_investigadores_tc_nb:
+    type: number
+    weight: 38
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_investigadores_tc_t:
+    type: number
+    weight: 39
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_prof_asig_h:
+    type: number
+    weight: 52
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_prof_asig_m:
+    type: number
+    weight: 53
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_prof_asig_nb:
+    type: number
+    weight: 54
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_prof_asig_t:
+    type: number
+    weight: 55
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 60
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tecnicos_mt_h:
+    type: number
+    weight: 48
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tecnicos_mt_m:
+    type: number
+    weight: 49
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tecnicos_mt_nb:
+    type: number
+    weight: 50
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tecnicos_mt_t:
+    type: number
+    weight: 51
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tecnicos_tc_h:
+    type: number
+    weight: 44
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tecnicos_tc_m:
+    type: number
+    weight: 45
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tecnicos_tc_nb:
+    type: number
+    weight: 46
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tecnicos_tc_t:
+    type: number
+    weight: 47
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

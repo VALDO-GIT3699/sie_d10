@@ -1,0 +1,23 @@
+uuid: 74230c5e-6d6c-4c1f-85c7-032fe27fb06a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.feeds_item
+    - taxonomy.vocabulary.planteles
+  module:
+    - feeds
+id: taxonomy_term.planteles.feeds_item
+field_name: feeds_item
+entity_type: taxonomy_term
+bundle: planteles
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

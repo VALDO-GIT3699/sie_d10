@@ -1,0 +1,29 @@
+uuid: e650bb53-8920-45ab-a3fd-5d148f1ea303
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ciclo
+    - storage.storage_type.211_pe_unicos_con_matricula
+    - taxonomy.vocabulary.ciclo
+id: storage.211_pe_unicos_con_matricula.field_ciclo
+field_name: field_ciclo
+entity_type: storage
+bundle: 211_pe_unicos_con_matricula
+label: Ciclo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ciclo: ciclo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

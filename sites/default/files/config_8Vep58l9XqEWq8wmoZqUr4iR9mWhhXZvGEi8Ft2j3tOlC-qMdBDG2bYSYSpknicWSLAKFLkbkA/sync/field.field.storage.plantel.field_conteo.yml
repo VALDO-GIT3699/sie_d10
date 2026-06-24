@@ -1,0 +1,23 @@
+uuid: adafcd78-93cc-4e05-b3ea-3a4840b800a8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_conteo
+    - storage.storage_type.plantel
+id: storage.plantel.field_conteo
+field_name: field_conteo
+entity_type: storage
+bundle: plantel
+label: Conteo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

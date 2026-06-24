@@ -1,0 +1,51 @@
+uuid: 94a6eb76-055e-421f-8d2e-5d21862e2366
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_orden
+field_name: field_orden
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '01'
+      label: '01'
+    -
+      value: '02'
+      label: '02'
+    -
+      value: '03'
+      label: '03'
+    -
+      value: '04'
+      label: '04'
+    -
+      value: '05'
+      label: '05'
+    -
+      value: '06'
+      label: '06'
+    -
+      value: '07'
+      label: '07'
+    -
+      value: '08'
+      label: '08'
+    -
+      value: '09'
+      label: '09'
+    -
+      value: '10'
+      label: '10'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

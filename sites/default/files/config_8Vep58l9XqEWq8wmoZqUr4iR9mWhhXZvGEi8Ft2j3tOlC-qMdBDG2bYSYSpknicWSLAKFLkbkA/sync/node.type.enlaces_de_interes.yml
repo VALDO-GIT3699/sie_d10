@@ -1,0 +1,17 @@
+uuid: fac0b652-4bcc-4b4a-a284-e25cb5c43972
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Enlaces de Interés'
+type: enlaces_de_interes
+description: 'Crea banners en enlaces particulares del sitio'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: true

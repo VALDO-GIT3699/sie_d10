@@ -1,0 +1,11 @@
+uuid: b42c2c77-c5b2-42bc-b0c4-f09efcef7c15
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.municipio
+id: taxonomy_term.municipio
+target_entity_type_id: taxonomy_term
+target_bundle: municipio
+default_langcode: site_default
+language_alterable: false

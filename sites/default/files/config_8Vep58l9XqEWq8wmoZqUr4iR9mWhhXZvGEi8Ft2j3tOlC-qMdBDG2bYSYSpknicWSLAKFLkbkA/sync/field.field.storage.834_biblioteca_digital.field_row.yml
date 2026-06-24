@@ -1,0 +1,23 @@
+uuid: a494f636-d793-43d9-ac0e-735755622888
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_row
+    - storage.storage_type.834_biblioteca_digital
+id: storage.834_biblioteca_digital.field_row
+field_name: field_row
+entity_type: storage
+bundle: 834_biblioteca_digital
+label: row
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

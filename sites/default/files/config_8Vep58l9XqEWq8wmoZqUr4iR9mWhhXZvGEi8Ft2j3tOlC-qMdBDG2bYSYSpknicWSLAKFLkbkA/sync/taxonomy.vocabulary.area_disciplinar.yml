@@ -1,0 +1,9 @@
+uuid: 7387591b-9ccd-4515-abea-75a3d489e7e9
+langcode: es
+status: true
+dependencies: {  }
+name: 'Area Disciplinar'
+vid: area_disciplinar
+description: 'Categorías de las áreas disciplinares de la Universidad de Guadalajara'
+weight: 0
+new_revision: false

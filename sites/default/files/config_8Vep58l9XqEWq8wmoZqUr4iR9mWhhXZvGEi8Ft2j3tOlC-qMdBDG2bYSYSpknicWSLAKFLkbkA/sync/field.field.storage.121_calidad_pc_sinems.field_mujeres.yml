@@ -1,0 +1,23 @@
+uuid: a22436bc-43fe-4944-80e2-a3ec40f72e84
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_mujeres
+    - storage.storage_type.121_calidad_pc_sinems
+id: storage.121_calidad_pc_sinems.field_mujeres
+field_name: field_mujeres
+entity_type: storage
+bundle: 121_calidad_pc_sinems
+label: Mujeres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

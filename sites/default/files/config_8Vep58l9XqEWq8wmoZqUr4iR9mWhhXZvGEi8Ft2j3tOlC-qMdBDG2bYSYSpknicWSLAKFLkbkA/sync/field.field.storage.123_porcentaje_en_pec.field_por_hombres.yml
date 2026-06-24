@@ -1,0 +1,23 @@
+uuid: 62da64fb-335a-4c3c-9f1a-2a0d31aaca3b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_por_hombres
+    - storage.storage_type.123_porcentaje_en_pec
+id: storage.123_porcentaje_en_pec.field_por_hombres
+field_name: field_por_hombres
+entity_type: storage
+bundle: 123_porcentaje_en_pec
+label: 'Porcentaje de hombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

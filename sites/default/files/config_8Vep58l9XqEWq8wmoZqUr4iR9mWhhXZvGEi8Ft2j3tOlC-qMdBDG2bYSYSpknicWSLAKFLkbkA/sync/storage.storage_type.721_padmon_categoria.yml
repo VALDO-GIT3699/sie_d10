@@ -1,0 +1,13 @@
+uuid: 2153c722-e14c-4a5c-80ac-e4d71117cf9e
+langcode: es
+status: true
+dependencies: {  }
+id: 721_padmon_categoria
+label: '721 PAdmon Categoría'
+description: ''
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

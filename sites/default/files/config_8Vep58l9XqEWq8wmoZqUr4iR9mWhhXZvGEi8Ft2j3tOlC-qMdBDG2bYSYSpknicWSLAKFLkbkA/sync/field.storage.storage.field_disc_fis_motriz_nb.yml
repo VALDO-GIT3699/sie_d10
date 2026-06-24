@@ -1,0 +1,20 @@
+uuid: 880b033d-8167-4a79-9d54-10f8283793e7
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_disc_fis_motriz_nb
+field_name: field_disc_fis_motriz_nb
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

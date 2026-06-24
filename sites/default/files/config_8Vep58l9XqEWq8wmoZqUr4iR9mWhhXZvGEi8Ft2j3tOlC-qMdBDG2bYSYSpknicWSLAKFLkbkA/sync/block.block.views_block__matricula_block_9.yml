@@ -1,0 +1,29 @@
+uuid: 2652ffae-2330-47b9-9ff5-613f031a6d8b
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.matricula
+  module:
+    - system
+    - views
+  theme:
+    - b4seutheme
+id: views_block__matricula_block_9
+theme: b4seutheme
+region: content
+weight: -27
+provider: null
+plugin: 'views_block:matricula-block_9'
+settings:
+  id: 'views_block:matricula-block_9'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /programas-educativos

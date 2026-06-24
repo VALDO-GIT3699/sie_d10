@@ -1,0 +1,13 @@
+uuid: c68a7ae5-4947-4acc-807e-43caad4f6399
+langcode: es
+status: true
+dependencies: {  }
+id: anexo
+label: Anexo
+description: 'Información para publicar numeralia relevante del anexo'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

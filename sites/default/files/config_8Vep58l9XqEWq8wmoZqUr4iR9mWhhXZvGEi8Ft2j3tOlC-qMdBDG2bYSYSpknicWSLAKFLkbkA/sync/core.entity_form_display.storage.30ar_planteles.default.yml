@@ -1,0 +1,106 @@
+uuid: d5ace34d-fe66-47e4-8fff-c9db3218d2ee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.30ar_planteles.feeds_item
+    - field.field.storage.30ar_planteles.field_30ar_centro_u
+    - field.field.storage.30ar_planteles.field_30ar_escuela
+    - field.field.storage.30ar_planteles.field_30ar_extension
+    - field.field.storage.30ar_planteles.field_30ar_modulo
+    - field.field.storage.30ar_planteles.field_30ar_sedes
+    - field.field.storage.30ar_planteles.field_30ar_suv
+    - field.field.storage.30ar_planteles.field_30ar_total_planteles
+    - field.field.storage.30ar_planteles.field_ciclo_red
+    - field.field.storage.30ar_planteles.field_row
+    - storage.storage_type.30ar_planteles
+id: storage.30ar_planteles.default
+targetEntityType: storage
+bundle: 30ar_planteles
+mode: default
+content:
+  field_30ar_centro_u:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_escuela:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_extension:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_modulo:
+    type: number
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_sedes:
+    type: number
+    weight: 10
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_suv:
+    type: number
+    weight: 8
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_30ar_total_planteles:
+    type: number
+    weight: 9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_ciclo_red:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_row:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  feeds_item: true
+  status: true
+  user_id: true

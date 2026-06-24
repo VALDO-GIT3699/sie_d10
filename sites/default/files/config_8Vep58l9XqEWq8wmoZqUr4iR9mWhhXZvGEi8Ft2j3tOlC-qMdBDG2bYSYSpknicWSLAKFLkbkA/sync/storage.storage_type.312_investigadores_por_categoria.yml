@@ -1,0 +1,13 @@
+uuid: 21c7966b-552e-4cbb-96e5-6e3d710651b8
+langcode: es
+status: true
+dependencies: {  }
+id: 312_investigadores_por_categoria
+label: '312 Investigadores por Categoría-Nivel-Tiempo'
+description: 'Histórico de los investigadores por tiempo de dedicación, categoría y nivel'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

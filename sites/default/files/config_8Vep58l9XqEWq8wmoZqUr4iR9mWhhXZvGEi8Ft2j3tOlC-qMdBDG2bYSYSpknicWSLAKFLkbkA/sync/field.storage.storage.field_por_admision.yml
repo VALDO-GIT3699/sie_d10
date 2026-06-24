@@ -1,0 +1,20 @@
+uuid: 5b31c574-687d-465e-bd51-e9006ac8e0d2
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_por_admision
+field_name: field_por_admision
+entity_type: storage
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

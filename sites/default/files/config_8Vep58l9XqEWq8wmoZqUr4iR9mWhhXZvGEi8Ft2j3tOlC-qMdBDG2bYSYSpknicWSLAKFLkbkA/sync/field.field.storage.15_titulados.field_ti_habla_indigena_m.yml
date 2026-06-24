@@ -1,0 +1,23 @@
+uuid: e74d2685-5544-4e77-984c-5154a8ce3a19
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_ti_habla_indigena_m
+    - storage.storage_type.15_titulados
+id: storage.15_titulados.field_ti_habla_indigena_m
+field_name: field_ti_habla_indigena_m
+entity_type: storage
+bundle: 15_titulados
+label: 'Mujeres de habla indígena tituladas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

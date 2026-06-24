@@ -1,0 +1,23 @@
+uuid: dfe0647c-9485-48a9-a048-d2a829bc2923
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.feeds_item
+    - storage.storage_type.211_pe_unicos_con_matricula
+  module:
+    - feeds
+id: storage.211_pe_unicos_con_matricula.feeds_item
+field_name: feeds_item
+entity_type: storage
+bundle: 211_pe_unicos_con_matricula
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

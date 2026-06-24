@@ -1,0 +1,20 @@
+uuid: 3be6e4eb-0e75-47d7-8acb-9a74218ae3b5
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_titulados_h
+field_name: field_titulados_h
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

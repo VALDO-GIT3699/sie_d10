@@ -1,0 +1,23 @@
+uuid: 6d424cd6-0903-4fa9-96fb-48e88acac1f9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_total
+    - storage.storage_type.311_historico_de_investigadores
+id: storage.311_historico_de_investigadores.field_total
+field_name: field_total
+entity_type: storage
+bundle: 311_historico_de_investigadores
+label: Total
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

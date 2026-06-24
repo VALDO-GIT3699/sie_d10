@@ -1,0 +1,113 @@
+uuid: 9d3afd54-0f59-4247-b060-dd28ef57d7f3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.storage.121_calidad_pc_sinems.feeds_item
+    - field.field.storage.121_calidad_pc_sinems.field_ciclo
+    - field.field.storage.121_calidad_pc_sinems.field_clasificacion_plantel
+    - field.field.storage.121_calidad_pc_sinems.field_hombres
+    - field.field.storage.121_calidad_pc_sinems.field_mujeres
+    - field.field.storage.121_calidad_pc_sinems.field_nivel_pc_sinems
+    - field.field.storage.121_calidad_pc_sinems.field_personas_no_binarias
+    - field.field.storage.121_calidad_pc_sinems.field_row
+    - field.field.storage.121_calidad_pc_sinems.field_tipo_plantel
+    - field.field.storage.121_calidad_pc_sinems.field_total
+    - storage.storage_type.121_calidad_pc_sinems
+id: storage.121_calidad_pc_sinems.default
+targetEntityType: storage
+bundle: 121_calidad_pc_sinems
+mode: default
+content:
+  field_ciclo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_clasificacion_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_hombres:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_mujeres:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_nivel_pc_sinems:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_personas_no_binarias:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_row:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_tipo_plantel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_total:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  feeds_item: true
+  langcode: true
+  user_id: true

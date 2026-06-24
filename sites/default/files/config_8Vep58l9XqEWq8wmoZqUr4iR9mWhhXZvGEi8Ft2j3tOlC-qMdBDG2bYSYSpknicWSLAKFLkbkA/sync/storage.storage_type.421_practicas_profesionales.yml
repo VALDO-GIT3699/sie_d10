@@ -1,0 +1,13 @@
+uuid: da565b6b-1649-4eed-a2d3-e9648967259d
+langcode: es
+status: true
+dependencies: {  }
+id: 421_practicas_profesionales
+label: '421 Prácticas profesionales'
+description: 'Estudiantes que realizan prácticas profesionales'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: ''
+has_canonical: false

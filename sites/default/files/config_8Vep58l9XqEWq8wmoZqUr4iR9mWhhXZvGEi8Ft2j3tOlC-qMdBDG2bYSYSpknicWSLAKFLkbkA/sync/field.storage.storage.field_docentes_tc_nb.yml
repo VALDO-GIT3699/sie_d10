@@ -1,0 +1,20 @@
+uuid: cccb9819-72fa-462f-8fba-268e016f784c
+langcode: es
+status: true
+dependencies:
+  module:
+    - storage
+id: storage.field_docentes_tc_nb
+field_name: field_docentes_tc_nb
+entity_type: storage
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

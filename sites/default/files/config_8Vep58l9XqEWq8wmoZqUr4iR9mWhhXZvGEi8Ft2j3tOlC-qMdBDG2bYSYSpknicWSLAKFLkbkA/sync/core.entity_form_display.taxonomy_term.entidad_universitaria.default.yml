@@ -1,0 +1,84 @@
+uuid: f4374f3d-d23c-4cf6-92d1-2b9c44ad1457
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.entidad_universitaria.field_categoria
+    - field.field.taxonomy_term.entidad_universitaria.field_clave_entidad_universitari
+    - field.field.taxonomy_term.entidad_universitaria.field_nombre_completo_entidad
+    - field.field.taxonomy_term.entidad_universitaria.field_orden_taxonomia
+    - taxonomy.vocabulary.entidad_universitaria
+  module:
+    - path
+    - text
+id: taxonomy_term.entidad_universitaria.default
+targetEntityType: taxonomy_term
+bundle: entidad_universitaria
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_categoria:
+    type: options_select
+    weight: 101
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_clave_entidad_universitari:
+    type: string_textfield
+    weight: 104
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nombre_completo_entidad:
+    type: string_textfield
+    weight: 102
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_orden_taxonomia:
+    type: number
+    weight: 103
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }
